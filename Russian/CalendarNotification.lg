@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CalendarNotification</ProjName>
+  <File>
+    <Filepath>CalendarNotification/System/Library/PrivateFrameworks/CalendarNotification.framework/en.lproj/Summaries.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/notifications_count:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more upcoming events</base>
+        <tran loc="ru">%u предстоящих события</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/notifications_count:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more upcoming events</base>
+        <tran loc="ru">%u предстоящих событий</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/notifications_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more upcoming events</base>
+        <tran loc="ru">%u предстоящего события</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@notifications_count@</base>
+        <tran loc="ru">%#@notifications_count@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/notifications_count:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more upcoming event</base>
+        <tran loc="ru">%u предстоящее событие</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/PrivateFrameworks/CalendarNotification.framework/PlugIns/CalendarNotificationContentExtension.appex/en.lproj/NotificationExtension.strings</Filepath>
+    <TextItem>
+      <Description> Not necessary to translate - need a .string file to prompt the lproj folders to be laid down </Description>
+      <Position>(coolcat)</Position>
+      <TranslationSet>
+        <base loc="en">(coolcat)</base>
+        <tran loc="ru">(coolcat)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/PrivateFrameworks/CalendarNotification.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Hidden previews body placeholder for resource change notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.resourceChange</Position>
+      <TranslationSet>
+        <base loc="en">Shared Event Change</base>
+        <tran loc="ru">Изменение общего события</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete button for a suggested event in notification center </Description>
+      <Position>Delete button for a canceled suggested event</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete button for event canceled notification </Description>
+      <Position>EventCanceledDeleteButton</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ strings in order: Airline name (Delta Airlines) and number (DL1583) </Description>
+      <Position>Flight airline and number format (ie: Delta Airlines DL1583)</Position>
+      <TranslationSet>
+        <base loc="en">%@ %@</base>
+        <tran loc="ru">%@, %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Flight arrival notice </Description>
+      <Position>%@ has arrived</Position>
+      <TranslationSet>
+        <base loc="en">%@ has arrived</base>
+        <tran loc="ru">Рейс %@ прибыл</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation subtitle canceled format </Description>
+      <Position>Canceled by %@</Position>
+      <TranslationSet>
+        <base loc="en">Canceled by %@</base>
+        <tran loc="ru">Отменено участником: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button in event notification for emailing the organizer/sender </Description>
+      <Position>EventNotificationEmailSenderButton</Position>
+      <TranslationSet>
+        <base loc="en">Email Sender</base>
+        <tran loc="ru">Ответить по e-mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button for accept response to event invitation in notification center </Description>
+      <Position>EventInvitationAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="ru">Принять</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accept button for event invitation notification </Description>
+      <Position>EventInvitationNotificationAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="ru">Принять</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prefix for TTL notification message with a suggested location </Description>
+      <Position>Suggested Location: %@</Position>
+      <TranslationSet>
+        <base loc="en">Suggested Location: %@</base>
+        <tran loc="ru">Предложенная геопозиция: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for snooze button in event notification </Description>
+      <Position>Snooze</Position>
+      <TranslationSet>
+        <base loc="en">Snooze</base>
+        <tran loc="ru">Позже</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Report junk button for event invitation notification </Description>
+      <Position>EventInvitationNotificationReportJunkButton</Position>
+      <TranslationSet>
+        <base loc="en">Report Junk</base>
+        <tran loc="ru">Сообщить о спаме</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Report junk button for shared calendar invitation </Description>
+      <Position>SharedCalendarInvitationReportJunkButton</Position>
+      <TranslationSet>
+        <base loc="en">Report Junk</base>
+        <tran loc="ru">Сообщить о спаме</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared calendar invite message </Description>
+      <Position>Invitation to share a calendar with %@.</Position>
+      <TranslationSet>
+        <base loc="en">Invitation to share a calendar with %@.</base>
+        <tran loc="ru">%@ предлагает совместно использовать этот календарь.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Join button for shared calendar/reminder list invitations </Description>
+      <Position>CalendarNotificationJoinButton</Position>
+      <TranslationSet>
+        <base loc="en">Join</base>
+        <tran loc="ru">Присоединиться</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Join button for shared calendar invitation </Description>
+      <Position>SharedCalendarInvitationJoinButton</Position>
+      <TranslationSet>
+        <base loc="en">Join</base>
+        <tran loc="ru">Присоединиться</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for a button that, when pressed, sends you to Maps to find a route to the event. </Description>
+      <Position>Directions</Position>
+      <TranslationSet>
+        <base loc="en">Directions</base>
+        <tran loc="ru">Маршруты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation location modification message </Description>
+      <Position>Location changed to %@</Position>
+      <TranslationSet>
+        <base loc="en">Location changed to %@</base>
+        <tran loc="ru">Место изменено на %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK button title for calendar/reminder notifications </Description>
+      <Position>CalendarNotificationOKButton</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared calendar invitation alert title </Description>
+      <Position>Shared Calendar Invitation</Position>
+      <TranslationSet>
+        <base loc="en">Shared Calendar Invitation</base>
+        <tran loc="ru">Пригл. в Общий календарь</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> View button for calendar/reminder notifications </Description>
+      <Position>CalendarNotificationViewButton</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="ru">Просмотреть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Subtitle in notifications to identify which identity the notification is for if there are enabled delegates </Description>
+      <Position>For %@</Position>
+      <TranslationSet>
+        <base loc="en">For %@</base>
+        <tran loc="ru">Для %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Late flight departure </Description>
+      <Position>%@ is scheduled to depart %@ minutes late</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to depart %@ minutes late</base>
+        <tran loc="ru">Отправление рейса %@ ожидается на %@ мин позже</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Reminders notification display name </Description>
+      <Position>Reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="ru">Напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation is from possible spammer </Description>
+      <Position>Unknown Sender</Position>
+      <TranslationSet>
+        <base loc="en">Unknown Sender</base>
+        <tran loc="ru">Неизвестный отправитель</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared calendar resource change alert title </Description>
+      <Position>Shared Calendar Change</Position>
+      <TranslationSet>
+        <base loc="en">Shared Calendar Change</base>
+        <tran loc="ru">Изменение в Общем календаре</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of flight update notification </Description>
+      <Position>Flight Update</Position>
+      <TranslationSet>
+        <base loc="en">Flight Update</base>
+        <tran loc="ru">Информация о рейсе</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation subtitle format </Description>
+      <Position>Invitation From %@</Position>
+      <TranslationSet>
+        <base loc="en">Invitation From %@</base>
+        <tran loc="ru">Приглашение от: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Add to calendar button for a suggested event in notification center </Description>
+      <Position>Add to calendar button for a suggested event</Position>
+      <TranslationSet>
+        <base loc="en">Add to Calendar</base>
+        <tran loc="ru">Добавить в Календарь</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for upcoming event notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.upcomingEvent</Position>
+      <TranslationSet>
+        <base loc="en">Upcoming Event</base>
+        <tran loc="ru">Предстоящее событие</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Decline button for event invitation notification </Description>
+      <Position>EventInvitationNotificationDeclineButton</Position>
+      <TranslationSet>
+        <base loc="en">Decline</base>
+        <tran loc="ru">Отклонить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Decline button for shared calendar invitation </Description>
+      <Position>SharedCalendarInvitationDeclineButton</Position>
+      <TranslationSet>
+        <base loc="en">Decline</base>
+        <tran loc="ru">Отклонить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Coalesced title, &lt;number greater than kMaxMessagesBeforeCoalescing (currently 5)&gt; for app-name </Description>
+      <Position>%ld notifications for %@</Position>
+      <TranslationSet>
+        <base loc="en">%ld notifications for %@</base>
+        <tran loc="ru">Уведомлений для %2$@: %1$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Default title for event invitation notifications when the actual title is inaccessible (perhaps before first unlock) </Description>
+      <Position>EventInvitationNotificationDefaultTitle</Position>
+      <TranslationSet>
+        <base loc="en">Invitation</base>
+        <tran loc="ru">Приглашение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for shared calendar invitation notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.calendar.invitation</Position>
+      <TranslationSet>
+        <base loc="en">Invitation</base>
+        <tran loc="ru">Приглашение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for event invitation notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.event.invitation</Position>
+      <TranslationSet>
+        <base loc="en">Invitation</base>
+        <tran loc="ru">Приглашение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Early flight arrival </Description>
+      <Position>%@ is scheduled to arrive %@ minutes early</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to arrive %@ minutes early</base>
+        <tran loc="ru">Прибытие рейса %@ ожидается на %@ мин раньше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Maybe button for event invitation notification </Description>
+      <Position>EventInvitationNotificationMaybeButton</Position>
+      <TranslationSet>
+        <base loc="en">Maybe</base>
+        <tran loc="ru">Возможно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation location removal message </Description>
+      <Position>Location removed</Position>
+      <TranslationSet>
+        <base loc="en">Location removed</base>
+        <tran loc="ru">Геопозиция удалена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ignore button for calendar/reminder notification </Description>
+      <Position>Ignore</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="ru">Пропустить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ignore button for a suggested event in notification center </Description>
+      <Position>Ignore button for a suggested event</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="ru">Пропустить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The default title for an attendee reply notification for an event </Description>
+      <Position>EventNotificationDefaultTitleAttendeeReply</Position>
+      <TranslationSet>
+        <base loc="en">Attendee Response</base>
+        <tran loc="ru">Ответ участника</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Early flight departure </Description>
+      <Position>%@ is scheduled to depart %@ minutes early</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to depart %@ minutes early</base>
+        <tran loc="ru">Отправление рейса %@ ожидается на %@ мин раньше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Flight cancelation notice </Description>
+      <Position>%@ has been canceled</Position>
+      <TranslationSet>
+        <base loc="en">%@ has been canceled</base>
+        <tran loc="ru">Рейс %@ отменен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Late flight arrival </Description>
+      <Position>%@ is scheduled to arrive %@ minutes late</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to arrive %@ minutes late</base>
+        <tran loc="ru">Прибытие рейса %@ ожидается на %@ мин позже</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Calendar notification display name </Description>
+      <Position>Calendar</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="ru">Календарь</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation time modification message </Description>
+      <Position>Time changed to %@</Position>
+      <TranslationSet>
+        <base loc="en">Time changed to %@</base>
+        <tran loc="ru">Время изменено: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation date modification message </Description>
+      <Position>Date changed to %@</Position>
+      <TranslationSet>
+        <base loc="en">Date changed to %@</base>
+        <tran loc="ru">Дата изменена на %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Email sender unknown title</Position>
+      <TranslationSet>
+        <base loc="en">Event</base>
+        <tran loc="ru">Событие</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for event with no name </Description>
+      <Position>Event</Position>
+      <TranslationSet>
+        <base loc="en">Event</base>
+        <tran loc="ru">Событие</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Join meeting button </Description>
+      <Position>Join Meeting</Position>
+      <TranslationSet>
+        <base loc="en">Join Meeting</base>
+        <tran loc="ru">Присоед. к совещанию</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for shared calendar invitation response notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.calendar.invitationResponse</Position>
+      <TranslationSet>
+        <base loc="en">Invitation Response</base>
+        <tran loc="ru">Ответ на приглашение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for event invitation response notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.event.invitationResponse</Position>
+      <TranslationSet>
+        <base loc="en">Invitation Response</base>
+        <tran loc="ru">Ответ на приглашение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Coalesced subtitle, with notifications greater than &lt;kMaxMessagesBeforeCoalescing (currently 5)&gt; </Description>
+      <Position>You have %ld unread notifications.</Position>
+      <TranslationSet>
+        <base loc="en">You have %ld unread notifications.</base>
+        <tran loc="ru">Кол-во новых уведомлений: %ld</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/UserNotifications/Bundles/com.apple.mobilecal.bundle/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Topic display name for invitee responses</Description>
+      <Position>TopicDisplayNameInviteeResponses</Position>
+      <TranslationSet>
+        <base loc="en">Invitee Responses</base>
+        <tran loc="ru">Ответы приглашенных</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Topic display name for invitations</Description>
+      <Position>TopicDisplayNameInvitations</Position>
+      <TranslationSet>
+        <base loc="en">Invitations</base>
+        <tran loc="ru">Приглашения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Topic display name for Siri Found in Apps</Description>
+      <Position>TopicDisplayNameSiriFoundInApps</Position>
+      <TranslationSet>
+        <base loc="en">Siri Found in Apps</base>
+        <tran loc="ru">Найдено Siri в программах</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Topic display name for shared calendar changes</Description>
+      <Position>TopicDisplayNameSharedCalendarChanges</Position>
+      <TranslationSet>
+        <base loc="en">Shared Calendar Changes</base>
+        <tran loc="ru">Изменения в Общем календаре</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>/ Topic display names
+ Topic display name for upcoming events</Description>
+      <Position>TopicDisplayNameUpcomingEvents</Position>
+      <TranslationSet>
+        <base loc="en">Upcoming Events</base>
+        <tran loc="ru">Предстоящие события</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CalendarNotification
+
+  Created by Troy Chmieleski on 9/14/18.
+  Copyright © 2018 Apple Inc. All rights reserved.
+
+ Used to identify the source of the notification</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="ru">Календарь</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/LocationBundles/CalendarLocation.bundle/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="ru">Календарь</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

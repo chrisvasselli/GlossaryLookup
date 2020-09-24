@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>IMSharedUI</ProjName>
+  <File>
+    <Filepath>IMSharedUI/System/Library/PrivateFrameworks/IMSharedUI.framework/en.lproj/IMSharedUILocalizable.strings</Filepath>
+    <TextItem>
+      <Description> Localized identifier for HAHA acknowledgment. Only the following are currently supported: HAHA, AHAH, JAJA, ΧΑΧΑ (greek), ХАХА (cyrillic), هاها, חחחח, हाहा, ฮ่าฮ่า, 하하, 哈哈, 笑. Leave unlocalized if desired identifier not supported. </Description>
+      <Position>ACKNOWLEDGMENT_HAHA_NAME</Position>
+      <TranslationSet>
+        <base loc="en">HAHA</base>
+        <tran loc="ru">ХАХА</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>IMSharedUI/System/Library/PrivateFrameworks/IMSharedUI.framework/en.lproj/IMSharedUILocalizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/GROUPACK_PEOPLE_COUNT_LABEL:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@people@</base>
+        <tran loc="ru">%#@people@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GROUPACK_PEOPLE_COUNT_LABEL:dict/people:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">1 Person</base>
+        <tran loc="ru">%@ человек</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GROUPACK_PEOPLE_COUNT_LABEL:dict/people:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%@ People</base>
+        <tran loc="ru">%@ человека</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GROUPACK_PEOPLE_COUNT_LABEL:dict/people:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%@ People</base>
+        <tran loc="ru">%@ человек</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GROUPACK_PEOPLE_COUNT_LABEL:dict/people:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%@ People</base>
+        <tran loc="ru">%@ человека</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

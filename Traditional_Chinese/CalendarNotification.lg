@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CalendarNotification</ProjName>
+  <File>
+    <Filepath>CalendarNotification/System/Library/PrivateFrameworks/CalendarNotification.framework/en.lproj/Summaries.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/notifications_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more upcoming events</base>
+        <tran loc="zh-TW">%u個即將到來的行程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%u more upcoming events:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@notifications_count@</base>
+        <tran loc="zh-TW">%#@notifications_count@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/PrivateFrameworks/CalendarNotification.framework/PlugIns/CalendarNotificationContentExtension.appex/en.lproj/NotificationExtension.strings</Filepath>
+    <TextItem>
+      <Description> Not necessary to translate - need a .string file to prompt the lproj folders to be laid down </Description>
+      <Position>(coolcat)</Position>
+      <TranslationSet>
+        <base loc="en">(coolcat)</base>
+        <tran loc="zh-TW">(coolcat)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/PrivateFrameworks/CalendarNotification.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Hidden previews body placeholder for resource change notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.resourceChange</Position>
+      <TranslationSet>
+        <base loc="en">Shared Event Change</base>
+        <tran loc="zh-TW">共享的行程更動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete button for a suggested event in notification center </Description>
+      <Position>Delete button for a canceled suggested event</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete button for event canceled notification </Description>
+      <Position>EventCanceledDeleteButton</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ strings in order: Airline name (Delta Airlines) and number (DL1583) </Description>
+      <Position>Flight airline and number format (ie: Delta Airlines DL1583)</Position>
+      <TranslationSet>
+        <base loc="en">%@ %@</base>
+        <tran loc="zh-TW">%@ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Flight arrival notice </Description>
+      <Position>%@ has arrived</Position>
+      <TranslationSet>
+        <base loc="en">%@ has arrived</base>
+        <tran loc="zh-TW">%@已抵達</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation subtitle canceled format </Description>
+      <Position>Canceled by %@</Position>
+      <TranslationSet>
+        <base loc="en">Canceled by %@</base>
+        <tran loc="zh-TW">由%@取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button in event notification for emailing the organizer/sender </Description>
+      <Position>EventNotificationEmailSenderButton</Position>
+      <TranslationSet>
+        <base loc="en">Email Sender</base>
+        <tran loc="zh-TW">發郵件給寄件人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button for accept response to event invitation in notification center </Description>
+      <Position>EventInvitationAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="zh-TW">接受</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accept button for event invitation notification </Description>
+      <Position>EventInvitationNotificationAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="zh-TW">接受</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prefix for TTL notification message with a suggested location </Description>
+      <Position>Suggested Location: %@</Position>
+      <TranslationSet>
+        <base loc="en">Suggested Location: %@</base>
+        <tran loc="zh-TW">建議地點：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for snooze button in event notification </Description>
+      <Position>Snooze</Position>
+      <TranslationSet>
+        <base loc="en">Snooze</base>
+        <tran loc="zh-TW">稍後提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Report junk button for event invitation notification </Description>
+      <Position>EventInvitationNotificationReportJunkButton</Position>
+      <TranslationSet>
+        <base loc="en">Report Junk</base>
+        <tran loc="zh-TW">回報垃圾邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Report junk button for shared calendar invitation </Description>
+      <Position>SharedCalendarInvitationReportJunkButton</Position>
+      <TranslationSet>
+        <base loc="en">Report Junk</base>
+        <tran loc="zh-TW">回報垃圾邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared calendar invite message </Description>
+      <Position>Invitation to share a calendar with %@.</Position>
+      <TranslationSet>
+        <base loc="en">Invitation to share a calendar with %@.</base>
+        <tran loc="zh-TW">與%@共享行事曆的邀請。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Join button for shared calendar/reminder list invitations </Description>
+      <Position>CalendarNotificationJoinButton</Position>
+      <TranslationSet>
+        <base loc="en">Join</base>
+        <tran loc="zh-TW">加入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Join button for shared calendar invitation </Description>
+      <Position>SharedCalendarInvitationJoinButton</Position>
+      <TranslationSet>
+        <base loc="en">Join</base>
+        <tran loc="zh-TW">加入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for a button that, when pressed, sends you to Maps to find a route to the event. </Description>
+      <Position>Directions</Position>
+      <TranslationSet>
+        <base loc="en">Directions</base>
+        <tran loc="zh-TW">路線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation location modification message </Description>
+      <Position>Location changed to %@</Position>
+      <TranslationSet>
+        <base loc="en">Location changed to %@</base>
+        <tran loc="zh-TW">地點已更改為：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK button title for calendar/reminder notifications </Description>
+      <Position>CalendarNotificationOKButton</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared calendar invitation alert title </Description>
+      <Position>Shared Calendar Invitation</Position>
+      <TranslationSet>
+        <base loc="en">Shared Calendar Invitation</base>
+        <tran loc="zh-TW">共享行事曆的邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> View button for calendar/reminder notifications </Description>
+      <Position>CalendarNotificationViewButton</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-TW">檢視</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Subtitle in notifications to identify which identity the notification is for if there are enabled delegates </Description>
+      <Position>For %@</Position>
+      <TranslationSet>
+        <base loc="en">For %@</base>
+        <tran loc="zh-TW">%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Late flight departure </Description>
+      <Position>%@ is scheduled to depart %@ minutes late</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to depart %@ minutes late</base>
+        <tran loc="zh-TW">%@預計延後%@分鐘起飛</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Reminders notification display name </Description>
+      <Position>Reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="zh-TW">提醒事項</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation is from possible spammer </Description>
+      <Position>Unknown Sender</Position>
+      <TranslationSet>
+        <base loc="en">Unknown Sender</base>
+        <tran loc="zh-TW">未知的寄件人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared calendar resource change alert title </Description>
+      <Position>Shared Calendar Change</Position>
+      <TranslationSet>
+        <base loc="en">Shared Calendar Change</base>
+        <tran loc="zh-TW">共享的行事曆更動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of flight update notification </Description>
+      <Position>Flight Update</Position>
+      <TranslationSet>
+        <base loc="en">Flight Update</base>
+        <tran loc="zh-TW">航班更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation subtitle format </Description>
+      <Position>Invitation From %@</Position>
+      <TranslationSet>
+        <base loc="en">Invitation From %@</base>
+        <tran loc="zh-TW">%@傳來邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Add to calendar button for a suggested event in notification center </Description>
+      <Position>Add to calendar button for a suggested event</Position>
+      <TranslationSet>
+        <base loc="en">Add to Calendar</base>
+        <tran loc="zh-TW">加入行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for upcoming event notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.upcomingEvent</Position>
+      <TranslationSet>
+        <base loc="en">Upcoming Event</base>
+        <tran loc="zh-TW">即將到來的行程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Decline button for event invitation notification </Description>
+      <Position>EventInvitationNotificationDeclineButton</Position>
+      <TranslationSet>
+        <base loc="en">Decline</base>
+        <tran loc="zh-TW">拒絕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Decline button for shared calendar invitation </Description>
+      <Position>SharedCalendarInvitationDeclineButton</Position>
+      <TranslationSet>
+        <base loc="en">Decline</base>
+        <tran loc="zh-TW">拒絕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Coalesced title, &lt;number greater than kMaxMessagesBeforeCoalescing (currently 5)&gt; for app-name </Description>
+      <Position>%ld notifications for %@</Position>
+      <TranslationSet>
+        <base loc="en">%ld notifications for %@</base>
+        <tran loc="zh-TW">%2$[tt]@的%1$ld則通知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Default title for event invitation notifications when the actual title is inaccessible (perhaps before first unlock) </Description>
+      <Position>EventInvitationNotificationDefaultTitle</Position>
+      <TranslationSet>
+        <base loc="en">Invitation</base>
+        <tran loc="zh-TW">邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for shared calendar invitation notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.calendar.invitation</Position>
+      <TranslationSet>
+        <base loc="en">Invitation</base>
+        <tran loc="zh-TW">邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for event invitation notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.event.invitation</Position>
+      <TranslationSet>
+        <base loc="en">Invitation</base>
+        <tran loc="zh-TW">邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Early flight arrival </Description>
+      <Position>%@ is scheduled to arrive %@ minutes early</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to arrive %@ minutes early</base>
+        <tran loc="zh-TW">%@預計提前%@分鐘抵達</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Maybe button for event invitation notification </Description>
+      <Position>EventInvitationNotificationMaybeButton</Position>
+      <TranslationSet>
+        <base loc="en">Maybe</base>
+        <tran loc="zh-TW">或許</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation location removal message </Description>
+      <Position>Location removed</Position>
+      <TranslationSet>
+        <base loc="en">Location removed</base>
+        <tran loc="zh-TW">已移除地點</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ignore button for calendar/reminder notification </Description>
+      <Position>Ignore</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="zh-TW">忽略</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ignore button for a suggested event in notification center </Description>
+      <Position>Ignore button for a suggested event</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="zh-TW">忽略</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The default title for an attendee reply notification for an event </Description>
+      <Position>EventNotificationDefaultTitleAttendeeReply</Position>
+      <TranslationSet>
+        <base loc="en">Attendee Response</base>
+        <tran loc="zh-TW">參與者回覆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Early flight departure </Description>
+      <Position>%@ is scheduled to depart %@ minutes early</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to depart %@ minutes early</base>
+        <tran loc="zh-TW">%@預計提前%@分鐘起飛</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Flight cancelation notice </Description>
+      <Position>%@ has been canceled</Position>
+      <TranslationSet>
+        <base loc="en">%@ has been canceled</base>
+        <tran loc="zh-TW">%@已取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Late flight arrival </Description>
+      <Position>%@ is scheduled to arrive %@ minutes late</Position>
+      <TranslationSet>
+        <base loc="en">%@ is scheduled to arrive %@ minutes late</base>
+        <tran loc="zh-TW">%@預計延後%@分鐘抵達</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Calendar notification display name </Description>
+      <Position>Calendar</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="zh-TW">行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation time modification message </Description>
+      <Position>Time changed to %@</Position>
+      <TranslationSet>
+        <base loc="en">Time changed to %@</base>
+        <tran loc="zh-TW">時間已更改為：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation date modification message </Description>
+      <Position>Date changed to %@</Position>
+      <TranslationSet>
+        <base loc="en">Date changed to %@</base>
+        <tran loc="zh-TW">日期已更改為：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Email sender unknown title</Position>
+      <TranslationSet>
+        <base loc="en">Event</base>
+        <tran loc="zh-TW">行程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for event with no name </Description>
+      <Position>Event</Position>
+      <TranslationSet>
+        <base loc="en">Event</base>
+        <tran loc="zh-TW">行程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Join meeting button </Description>
+      <Position>Join Meeting</Position>
+      <TranslationSet>
+        <base loc="en">Join Meeting</base>
+        <tran loc="zh-TW">加入會議</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for shared calendar invitation response notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.calendar.invitationResponse</Position>
+      <TranslationSet>
+        <base loc="en">Invitation Response</base>
+        <tran loc="zh-TW">邀請回應</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hidden previews body placeholder for event invitation response notification. </Description>
+      <Position>notification.hiddenPreviewsBodyPlaceholder.event.invitationResponse</Position>
+      <TranslationSet>
+        <base loc="en">Invitation Response</base>
+        <tran loc="zh-TW">邀請回應</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Coalesced subtitle, with notifications greater than &lt;kMaxMessagesBeforeCoalescing (currently 5)&gt; </Description>
+      <Position>You have %ld unread notifications.</Position>
+      <TranslationSet>
+        <base loc="en">You have %ld unread notifications.</base>
+        <tran loc="zh-TW">您有%ld則未讀通知。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/UserNotifications/Bundles/com.apple.mobilecal.bundle/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Topic display name for invitee responses</Description>
+      <Position>TopicDisplayNameInviteeResponses</Position>
+      <TranslationSet>
+        <base loc="en">Invitee Responses</base>
+        <tran loc="zh-TW">邀請對象回覆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Topic display name for invitations</Description>
+      <Position>TopicDisplayNameInvitations</Position>
+      <TranslationSet>
+        <base loc="en">Invitations</base>
+        <tran loc="zh-TW">邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Topic display name for Siri Found in Apps</Description>
+      <Position>TopicDisplayNameSiriFoundInApps</Position>
+      <TranslationSet>
+        <base loc="en">Siri Found in Apps</base>
+        <tran loc="zh-TW">Siri在App中找到</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Topic display name for shared calendar changes</Description>
+      <Position>TopicDisplayNameSharedCalendarChanges</Position>
+      <TranslationSet>
+        <base loc="en">Shared Calendar Changes</base>
+        <tran loc="zh-TW">共享的行事曆更動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>/ Topic display names
+ Topic display name for upcoming events</Description>
+      <Position>TopicDisplayNameUpcomingEvents</Position>
+      <TranslationSet>
+        <base loc="en">Upcoming Events</base>
+        <tran loc="zh-TW">即將到來的行程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CalendarNotification
+
+  Created by Troy Chmieleski on 9/14/18.
+  Copyright © 2018 Apple Inc. All rights reserved.
+
+ Used to identify the source of the notification</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="zh-TW">行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarNotification/System/Library/LocationBundles/CalendarLocation.bundle/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="zh-TW">行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

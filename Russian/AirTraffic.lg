@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AirTraffic</ProjName>
+  <File>
+    <Filepath>AirTraffic/System/Library/PrivateFrameworks/AirTraffic.framework/en.lproj/AirTraffic.strings</Filepath>
+    <TextItem>
+      <Description> 
+  AirTraffic.strings
+  AirTraffic
+
+  Created by Ted Schmidt on 7/13/11.
+  Copyright 2011 Apple, Inc. All rights reserved.
+</Description>
+      <Position>ITUNES_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Sync</base>
+        <tran loc="ru">Синхронизация через iTunes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_INSTALL_FAIL_PROFILE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">‘%@’ failed to install.</base>
+        <tran loc="ru">Не удалось установить «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_SYNC_IN_PROGRESS</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Sync in Progress</base>
+        <tran loc="ru">Идет синхронизация через iTunes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NUM_ITEMS_FORMAT_PLURAL</Position>
+      <TranslationSet>
+        <base loc="en">%@ items could not be synced. See iTunes for more information.</base>
+        <tran loc="ru">Не удалось синхронизировать объектов: %@. Дополнительные сведения можно найти в iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICLOUD_RESTORE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Restore</base>
+        <tran loc="ru">Восстановление iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NUM_ITEMS_FORMAT_SINGLE</Position>
+      <TranslationSet>
+        <base loc="en">%@ item could not be synced. See iTunes for more information.</base>
+        <tran loc="ru">Не удалось синхронизировать %@ объект. Дополнительные сведения можно найти в iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WAIT_FOR_FINISH_FORMAT_DEVICE</Position>
+      <TranslationSet>
+        <base loc="en">Wait for iTunes to finish syncing your content before disconnecting your %@.</base>
+        <tran loc="ru">Дождитесь, пока iTunes завершит синхронизацию контента, и только потом отключите Ваш %@.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AirTraffic/System/Library/PreferenceBundles/AirTrafficSettings.bundle/en.lproj/AirTrafficSettings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_ITUNESUVIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">iTunes U Videos</base>
+        <tran loc="ru">видео iTunes U</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_TEXT_WIFI_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync with iTunes on your computer when your iPad is plugged in to power and connected to Wi‑Fi.</base>
+        <tran loc="ru">Выполните автоматическую синхронизацию с iTunes на своем компьютере, если iPad подключен к источнику питания и находится в сети Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WLAN_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">iTunes WLAN Sync</base>
+        <tran loc="ru">Синхронизация с iTunes по WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WLAN_SYNC_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">iTunes WLAN Sync</base>
+        <tran loc="ru">Синхр-ция по WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WLAN_SYNC_SHORT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">iTunes WLAN Sync</base>
+        <tran loc="ru">Синхронизация с iTunes по WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_TEXT_WLAN_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync with iTunes on your computer when your iPhone is plugged in to power and connected to WLAN.</base>
+        <tran loc="ru">Выполните автоматическую синхронизацию с iTunes на своем компьютере, если iPhone подключен к источнику питания и находится в сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_BOOKS</Position>
+      <TranslationSet>
+        <base loc="en">Books</base>
+        <tran loc="ru">книги</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOOKING_FOR_HOST_NO_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Looking for host…</base>
+        <tran loc="ru">Поиск хоста…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LAST_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Last Sync:</base>
+        <tran loc="ru">Последняя синхронизация:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_TEXT_WLAN_IPOD_TOUCH</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync with iTunes on your computer when your iPod touch is plugged in to power and connected to WLAN.</base>
+        <tran loc="ru">Выполните автоматическую синхронизацию с iTunes на своем компьютере, если iPod touch подключен к источнику питания и находится в сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="ru">музыка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INSTALLING</Position>
+      <TranslationSet>
+        <base loc="en">Installing %d of %d: “%@”</base>
+        <tran loc="ru">Установка %d из %d: «%@»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WLAN_CONNECT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">To enable WLAN syncing with iTunes, connect to iTunes on your computer using a cable and click “Sync with this iPhone over WLAN”.</base>
+        <tran loc="ru">Для включения синхронизации с iTunes через сеть WLAN подключитесь к iTunes на компьютере с помощью кабеля и нажмите «Синхронизировать с этим iPhone через сеть WLAN».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WIFI_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Wi-Fi Sync</base>
+        <tran loc="ru">Синхронизация с iTunes по Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WIFI_SYNC_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Wi-Fi Sync</base>
+        <tran loc="ru">Синхр-ция по Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WIFI_SYNC_SHORT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Wi-Fi Sync</base>
+        <tran loc="ru">Синхронизация с iTunes по Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_TEXT_WLAN_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync with iTunes on your computer when your iPad is plugged in to power and connected to WLAN.</base>
+        <tran loc="ru">Выполните автоматическую синхронизацию с iTunes на своем компьютере, если iPad подключен к источнику питания и находится в сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_AUDIOBOOKS</Position>
+      <TranslationSet>
+        <base loc="en">Audiobooks</base>
+        <tran loc="ru">аудиокниги</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Cancel Sync</base>
+        <tran loc="ru">Отменить синхронизацию</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_TEXT_WIFI_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync with iTunes on your computer when your iPhone is plugged in to power and connected to Wi‑Fi.</base>
+        <tran loc="ru">Выполните автоматическую синхронизацию с iTunes на своем компьютере, если iPhone подключен к источнику питания и находится в сети Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WIFI_CONNECT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">To enable Wi-Fi syncing with iTunes, connect to iTunes on your computer using a cable and click “Sync with this iPhone over Wi‑Fi”.</base>
+        <tran loc="ru">Для включения синхронизации с iTunes через сеть Wi-Fi подключитесь к iTunes на компьютере с помощью кабеля и нажмите «Синхронизировать с этим iPhone через сеть Wi-Fi».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_TVSHOWS</Position>
+      <TranslationSet>
+        <base loc="en">TV Shows</base>
+        <tran loc="ru">телешоу</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COPYING</Position>
+      <TranslationSet>
+        <base loc="en">Copying %d of %d: “%@”</base>
+        <tran loc="ru">Копирование %d из %d: «%@»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNCED_ASSET_TWO_ITEMS_CONJUCTION</Position>
+      <TranslationSet>
+        <base loc="en"> and </base>
+        <tran loc="ru"> и </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Asset types</Description>
+      <Position>ASSET_TYPE_APPLICATIONS</Position>
+      <TranslationSet>
+        <base loc="en">Apps</base>
+        <tran loc="ru">приложения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNCING</Position>
+      <TranslationSet>
+        <base loc="en">Syncing...</base>
+        <tran loc="ru">Синхронизация…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STEP_N_OF_N</Position>
+      <TranslationSet>
+        <base loc="en">Step %d of %d</base>
+        <tran loc="ru">Шаг %d из %d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_STAGE_METADATA</Position>
+      <TranslationSet>
+        <base loc="en">Metadata</base>
+        <tran loc="ru">метаданные</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WAITING_FOR_HOST</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for %@…</base>
+        <tran loc="ru">Ожидание %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WIFI_CONNECT_IPOD_TOUCH</Position>
+      <TranslationSet>
+        <base loc="en">To enable Wi-Fi syncing with iTunes, connect to iTunes on your computer using a cable and click “Sync with this iPod over Wi‑Fi”.</base>
+        <tran loc="ru">Для включения синхронизации с iTunes через сеть Wi-Fi подключитесь к iTunes на компьютере с помощью кабеля и нажмите «Синхронизировать с этим iPod через сеть Wi-Fi».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_TEXT_WIFI_IPOD_TOUCH</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync with iTunes on your computer when your iPod touch is plugged in to power and connected to Wi‑Fi.</base>
+        <tran loc="ru">Выполните автоматическую синхронизацию с iTunes на своем компьютере, если iPod touch подключен к источнику питания и находится в сети Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_VIDEOPODCASTS</Position>
+      <TranslationSet>
+        <base loc="en">Video Podcasts</base>
+        <tran loc="ru">видеоподкасты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_ITUNESU</Position>
+      <TranslationSet>
+        <base loc="en">iTunes U</base>
+        <tran loc="ru">iTunes U</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_MOVIES</Position>
+      <TranslationSet>
+        <base loc="en">Movies</base>
+        <tran loc="ru">фильмы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_PODCASTS</Position>
+      <TranslationSet>
+        <base loc="en">Podcasts</base>
+        <tran loc="ru">подкасты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNCED_ASSET_CONJUCTION</Position>
+      <TranslationSet>
+        <base loc="en">, and </base>
+        <tran loc="ru"> и </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WIFI_CONNECT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">To enable Wi-Fi syncing with iTunes, connect to iTunes on your computer using a cable and click “Sync with this iPad over Wi‑Fi”.</base>
+        <tran loc="ru">Для включения синхронизации с iTunes через сеть Wi-Fi подключитесь к iTunes на компьютере с помощью кабеля и нажмите «Синхронизировать с этим iPad через сеть Wi-Fi».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_CONNECTED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Sync will resume when “%@” is available.</base>
+        <tran loc="ru">Синхронизация продолжится, когда «%@» станет доступен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_MUSICVIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">Music Videos</base>
+        <tran loc="ru">видеоклипы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STEP_N_OF_N_WITH_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">Step %d of %d: %@</base>
+        <tran loc="ru">Шаг %d из %d: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_NOW</Position>
+      <TranslationSet>
+        <base loc="en">Sync Now</base>
+        <tran loc="ru">Синхронизировать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNCED_ASSET_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="ru">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_PHOTOS</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="ru">фотографии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  AirTrafficSettings.strings
+  AirTraffic
+
+  Created by Pete Rossi on 3/10/11.
+  Copyright 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>SYNC_STAGE_PREP</Position>
+      <TranslationSet>
+        <base loc="en">Preparing</base>
+        <tran loc="ru">Подготовка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_DATA</Position>
+      <TranslationSet>
+        <base loc="en">Data</base>
+        <tran loc="ru">данные</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WLAN_CONNECT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">To enable WLAN syncing with iTunes, connect to iTunes on your computer using a cable and click “Sync with this iPad over WLAN”.</base>
+        <tran loc="ru">Для включения синхронизации с iTunes через сеть WLAN подключитесь к iTunes на компьютере с помощью кабеля и нажмите «Синхронизировать с этим iPad через сеть WLAN».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_MEDIA</Position>
+      <TranslationSet>
+        <base loc="en">Media</base>
+        <tran loc="ru">медиафайлы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_STAGE_ASSETS</Position>
+      <TranslationSet>
+        <base loc="en">Syncing %@</base>
+        <tran loc="ru">Синхронизация %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_STAGE_RECONCILE</Position>
+      <TranslationSet>
+        <base loc="en">Reconciling</base>
+        <tran loc="ru">Согласование</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LAST_SYNC_AT</Position>
+      <TranslationSet>
+        <base loc="en">at</base>
+        <tran loc="ru">в</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Syncing %@ to “%@”</base>
+        <tran loc="ru">Синхронизация %@ на «%@»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOOKING_FOR_HOST</Position>
+      <TranslationSet>
+        <base loc="en">Looking for %@…</base>
+        <tran loc="ru">Поиск %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_WLAN_CONNECT_IPOD_TOUCH</Position>
+      <TranslationSet>
+        <base loc="en">To enable WLAN syncing with iTunes, connect to iTunes on your computer using a cable and click “Sync with this iPod over WLAN”.</base>
+        <tran loc="ru">Для включения синхронизации с iTunes через сеть WLAN подключитесь к iTunes на компьютере с помощью кабеля и нажмите «Синхронизировать с этим iPod через сеть WLAN».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_TONES</Position>
+      <TranslationSet>
+        <base loc="en">Tones</base>
+        <tran loc="ru">звуки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSET_TYPE_VOICEMEMOS</Position>
+      <TranslationSet>
+        <base loc="en">Voice Memos</base>
+        <tran loc="ru">записи</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

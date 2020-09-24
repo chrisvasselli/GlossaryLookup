@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AppConduit</ProjName>
+  <File>
+    <Filepath>AppConduit/System/Library/PrivateFrameworks/AppConduit.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorInstallationUnavailableMessage</Position>
+      <TranslationSet>
+        <base loc="en">App installation is currently unavailable on Apple Watch because its operating system is being updated. Please wait until the update completes to install apps.</base>
+        <tran loc="fr">L’installation d’apps sur l’Apple Watch n’est pas possible pour le moment car son système d’exploitation est en cours de mise à jour. Veuillez attendre que l’opération soit terminée pour installer des apps.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorCannotDownloadMessage</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough available storage to install “%@” on Apple Watch. You can free up storage by deleting apps, or by changing storage settings for Photos and Music in the Apple Watch app.</base>
+        <tran loc="fr">L’espace de stockage libre est insuffisant pour installer « %@ » sur l’Apple Watch. Vous pouvez libérer de l’espace en supprimant des apps ou en modifiant les réglages de stockage de Photos et Musique dans l’app Apple Watch.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorApplicationRuntimeNotSupportedMessage</Position>
+      <TranslationSet>
+        <base loc="en">“%@” needs to be updated to run on this Apple Watch.</base>
+        <tran loc="fr">L’app « %@ » doit être mise à jour pour pouvoir être utilisée sur cette Apple Watch.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorArchitectureNotSupportedMessage</Position>
+      <TranslationSet>
+        <base loc="en">“%@” needs to be updated to run on this Apple Watch.</base>
+        <tran loc="fr">L’app « %@ » doit être mise à jour pour pouvoir être utilisée sur cette Apple Watch.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorApplicationNotCompatibleMessage</Position>
+      <TranslationSet>
+        <base loc="en">“%@” requires features that are not available on this Apple Watch.</base>
+        <tran loc="fr">« %@ » requiert des fonctionnalités non disponibles sur cette Apple Watch.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorInstallationUnavailableTitle</Position>
+      <TranslationSet>
+        <base loc="en">App Installation Unavailable</base>
+        <tran loc="fr">Installation d’apps impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorCannotDownloadTitle</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Install “%@”</base>
+        <tran loc="fr">Impossible d’installer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AppConduit
+
+  Created by Robert Graham on 1/28/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+
+ Error Messages</Description>
+      <Position>ACXErrorUntrustedAppTitle</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Install “%@”</base>
+        <tran loc="fr">Impossible d’installer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorUntrustedAppMessage</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is not from a trusted developer so it cannot be installed on Apple Watch. To approve “%@” anyway, go to iPhone Settings &gt; General &gt; Profiles &amp; Device Management.</base>
+        <tran loc="fr">L’app « %@ » ne provient pas d’un développeur approuvé, elle ne peut donc pas être installée sur l’Apple Watch. Pour approuver tout de même « %@ », accédez aux réglages de l’iPhone &gt; Général &gt; Gestion des profils et de l’appareil.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>The app's UIRequiredDeviceCapabilities key in its Info.plist requires one or more capabilities that the target watch does not have.</Description>
+      <Position>ACXErrorApplicationNotCompatibleTitle</Position>
+      <TranslationSet>
+        <base loc="en">“%@” Is Not Compatible With This Apple Watch</base>
+        <tran loc="fr">« %@ » n’est pas compatible avec cette Apple Watch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>This should be a very rare error message. We're being intentionally vague about what happened here.</Description>
+      <Position>ACXErrorApplicationBlacklistedTitle</Position>
+      <TranslationSet>
+        <base loc="en">“%@” Cannot Be Installed</base>
+        <tran loc="fr">Impossible d’installer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>The app is built using a version of WatchKit that is no longer supported in the version of watchOS installed on this watch.</Description>
+      <Position>ACXErrorApplicationRuntimeNotSupportedTitle</Position>
+      <TranslationSet>
+        <base loc="en">“%@” Cannot Be Installed</base>
+        <tran loc="fr">Impossible d’installer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>The app does not have an architecture slice that is supported on this watch's hardware.</Description>
+      <Position>ACXErrorArchitectureNotSupportedTitle</Position>
+      <TranslationSet>
+        <base loc="en">“%@” Cannot Be Installed</base>
+        <tran loc="fr">Impossible d’installer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACXErrorApplicationBlacklistedMessage</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is not allowed to be installed on Apple Watch.</base>
+        <tran loc="fr">L’installation de « %@ » n’est pas autorisée sur l’Apple Watch.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

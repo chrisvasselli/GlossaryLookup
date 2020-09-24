@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DiagnosticsApp</ProjName>
+  <File>
+    <Filepath>DiagnosticsApp/Applications/Diagnostics.app/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description>
+  InfoPlist.strings
+  Diagnostics
+
+  Created by Casey Kurtyka on 1/25/17.
+  Copyright © 2017 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="ru">Диагностика</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="ru">Диагностика</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiagnosticsApp/Applications/Diagnostics.app/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTICS_COMPLETE_SUBTITLE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">The diagnostic session with Apple Support is now complete. You may return to using your device as normal.</base>
+        <tran loc="ru">Сеанс диагностики со Службой поддержки Apple завершен. Устройство можно использовать как обычно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_POWER_SENSITIVE_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">One week of app activity and accessory use…</base>
+        <tran loc="ru">Журналы использования приложений и аксессуаров, собираемые в течение одной недели…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_POWER_SENSITIVE_INFORMATION_WAPI</Position>
+      <TranslationSet>
+        <base loc="en">One week of app activity and accessory use…</base>
+        <tran loc="ru">Журналы использования приложений и аксессуаров, собираемые в течение одной недели…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "An enhanced logging session was completed on June 26th, 2018, and the logs..."</Description>
+      <Position>ENHANCED_LOGGING_COMPLETE_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">An enhanced logging session was completed on %@, and the logs were successfully sent. Thank you for helping to make our products even better.</base>
+        <tran loc="ru">Сеанс расширенного журналирования на %@ завершен, и журналы успешно отправлены. Спасибо за помощь в улучшении наших продуктов!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: Are you sure you want to skip "Mobile Resource Inspector"?</Description>
+      <Position>SKIP_SUITE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to skip \U201C%@\U201D?</base>
+        <tran loc="ru">Вы действительно хотите пропустить «%@»?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_COMPLETE_SUBTITLE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">An enhanced logging session was recently completed, and the logs were successfully sent. Thank you for helping to make our products even better.</base>
+        <tran loc="ru">Недавно сеанс расширенного журналирования был завершен, и журналы были успешно отправлены. Спасибо за помощь в улучшении наших продуктов!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_BODY_HOUR</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect additional diagnostic logs over the next hour. When we are done, the diagnostic logs will be sent to Apple.</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо собрать дополнительные журналы диагностики в течение следующего часа. По окончании сбора журналов диагностики они будут отправлены в Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>END_TESTING</Position>
+      <TranslationSet>
+        <base loc="en">End Testing</base>
+        <tran loc="ru">Завершить тест</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_CELLULAR_WARNING_BODY</Position>
+      <TranslationSet>
+        <base loc="en">This option will use cellular data to send logs when you are not connected to Wi-Fi. This may cause you to exceed your cellular data plan. Contact your carrier for more information about possible charges.</base>
+        <tran loc="ru">Если включить этот параметр, то при отсутствии подключения к сети Wi-Fi журналы будут отправляться по сотовой сети. Это может привести к превышению Вами лимита своего сотового тарифа. Для получения дополнительной информации о возможных расходах обратитесь к своему оператору.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_UPLOAD_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The upload cannot be resumed if ended. You will need to contact Apple again to begin a new logging session.</base>
+        <tran loc="ru">Если завершить выгрузку, возобновить ее не получится. Для начала нового сеанса журналирования потребуется обратиться в Apple еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_UPLOAD_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue Upload</base>
+        <tran loc="ru">Продолжить выгрузку</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRY_AGAIN</Position>
+      <TranslationSet>
+        <base loc="en">Try Again</base>
+        <tran loc="ru">Повторить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_NO</Position>
+      <TranslationSet>
+        <base loc="en">Continue Logging</base>
+        <tran loc="ru">Продолжить журналирование</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Sending Logs to Apple</base>
+        <tran loc="ru">Отправка журналов в Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTICS_COMPLETE_SUBTITLE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">The diagnostic session with Apple Support is now complete. You may return to using your iPhone as normal.</base>
+        <tran loc="ru">Сеанс диагностики со Службой поддержки Apple завершен. iPhone можно использовать как обычно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_CELLULAR_WARNING_BODY_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">This option will use cellular data to send logs when you are not connected to WLAN. This may cause you to exceed your cellular data plan. Contact your carrier for more information about possible charges.</base>
+        <tran loc="ru">Если включить этот параметр, то при отсутствии подключения к сети WLAN журналы будут отправляться по сотовой сети. Это может привести к превышению Вами лимита своего сотового тарифа. Для получения дополнительной информации о возможных расходах обратитесь к своему оператору.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_POWER_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect one week of the device’s app and accessory use, as well as all of the information visible to you in the Battery section of Settings. The generated files may contain some of your personal information, including information about the system (such as the OS version, hardware model) and details about the applications running and accessories in use (such as Apple Pay card registration timestamp, the apps running on the device including when they receive notifications, what watch faces and related complications are present on a paired Watch, sensor activity, Bluetooth and Wi\U2011Fi activity including SSID of currently connected network, when CarPlay is being used and other related navigation information, when the Workout app is running, how and when the device is charged, and the types of accessories to which the device is connected).</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо в течение одной недели собирать журналы использования приложений и аксессуаров, а также сведения об электропитании, доступные в Настройках. Сгенерированные файлы могут содержать Ваши личные данные, в том числе системную информацию (например, версию операционной системы и модель устройства), а также подробные сведения об используемых приложениях и аксессуарах (например, дату и время использования карты в Apple Pay; сведения об открытых на устройстве приложениях, в том числе время получения уведомлений в них; данные о циферблатах и расширениях, установленных на Apple Watch, с которыми создана пара; сведения о работе датчиков; данные об использовании Bluetooth и Wi‑Fi, включая SSID текущей сети; информацию о том, когда используется CarPlay, и прочие связанные навигационные данные; время работы приложения «Тренировка»; время и способ зарядки устройства; вид аксессуаров, к которым подключено устройство).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THANK_YOU</Position>
+      <TranslationSet>
+        <base loc="en">Thank You</base>
+        <tran loc="ru">Спасибо</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_PERFORMANCE_SENSITIVE_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">Detailed recent app activity and accessory use…</base>
+        <tran loc="ru">Подробно о недавней активности приложения и использовании аксессуаров…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Network Connection Errors</Description>
+      <Position>NETWORK_UNAVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">No Network Connection</base>
+        <tran loc="ru">Нет подключения к сети</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NETWORK_UNAVAILABLE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">No Network Connection</base>
+        <tran loc="ru">Нет подключения к сети</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_PERFORMANCE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The generated files may contain some of your personal information, including information about the system (such as the OS version and hardware model) and details about the applications running and accessories in use. This may reveal what you were doing when system performance issues occurred.</base>
+        <tran loc="ru">Созданные файлы могут содержать Вашу персональную информацию, а также системные данные (такие как версию ОС и модель устройства), сведения об открытых приложениях и используемых аксессуарах. Возможно, по ним можно будет определить, что Вы делали, когда появились сбои производительности в системе.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_SYSDIAGNOSE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The generated files may contain personal information found on your device or associated with your iCloud accounts, including but not limited to your name, serial numbers of your device, your device name, your attached peripheral devices, your user name, your email address and email settings, file paths, file names, your computer’s IP addresses, and network connection information.</base>
+        <tran loc="ru">Созданные файлы могут содержать персональную информацию, которая хранится на Вашем устройстве или связана с Вашими учетными записями iCloud, а также включает Ваше имя, серийный номер и имя устройства, сведения о подключенных периферийных устройствах, имя пользователя, адрес и настройки электронной почты, пути к файлам, имена файлов, IP‑адреса компьютера, а также информацию об интернет‑подключении.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOUBLE_HEIGHT_BANNER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Touch to return to Diagnostics</base>
+        <tran loc="ru">Касание вернет Вас к диагностике</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WLAN_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPhone as you normally would. Uploading will continue in the background when connected to WLAN.</base>
+        <tran loc="ru">Можете использовать iPhone как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NETWORK_UNAVAILABLE_WIFI_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a Wi\U2011Fi or cellular data network to continue Diagnostics.</base>
+        <tran loc="ru">Для продолжения сеанса диагностики необходимо подключиться к сети Wi‑Fi или к сотовой сети.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_LIST_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostic logs to be collected</base>
+        <tran loc="ru">Журналы диагностики для сбора</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_WIFI_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Open Wi\U2011Fi Settings</base>
+        <tran loc="ru">Открыть настройки Wi‑Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_FAR_FROM_HOMEPOD_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics requires this device to remain near the HomePod during a diagnostic session. Move closer and try again.</base>
+        <tran loc="ru">Для проведения диагностики необходимо, чтобы это устройство находилось рядом с HomePod на протяжении сеанса диагностики. Подойдите ближе и повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_WLAN_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Open WLAN Settings</base>
+        <tran loc="ru">Открыть настройки WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COULD_NOT_START_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while connecting to Apple\U00a0Support.</base>
+        <tran loc="ru">Произошла ошибка при подключении к службе поддержки Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_UPLOAD_STOP</Position>
+      <TranslationSet>
+        <base loc="en">End Upload</base>
+        <tran loc="ru">Прекратить выгрузку</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_YES</Position>
+      <TranslationSet>
+        <base loc="en">End Logging</base>
+        <tran loc="ru">Завершить журналирование</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_CELLULAR_WARNING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Send Using Cellular</base>
+        <tran loc="ru">Отправить по сотовой сети</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_SEND_CELLULAR</Position>
+      <TranslationSet>
+        <base loc="en">Send Using Cellular</base>
+        <tran loc="ru">Отправить по сотовой сети</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="ru">Готово</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_INDETERMINATE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Collecting Logs…</base>
+        <tran loc="ru">Сбор журналов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_SUBTITLE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPod as you normally would. You\U2019ll get an alert when it\U2019s finished.</base>
+        <tran loc="ru">Можете использовать iPod как обычно. Вы получите уведомление о завершении процесса.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_READY_SEND_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Ready to Send Logs</base>
+        <tran loc="ru">Готово к отправке журналов</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_NO</Position>
+      <TranslationSet>
+        <base loc="en">Issue Did Not Occur</base>
+        <tran loc="ru">Проблема не возникала</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_ENOUGH_FREE_SPACE</Position>
+      <TranslationSet>
+        <base loc="en">Not Enough Free Space</base>
+        <tran loc="ru">Недостаточно свободного места</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOSE_DIAGNOSTICS</Position>
+      <TranslationSet>
+        <base loc="en">Close Diagnostics</base>
+        <tran loc="ru">Закрыть Диагностику</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>40_CASE</Position>
+      <TranslationSet>
+        <base loc="en">40mm Case</base>
+        <tran loc="ru">Корпус 40 мм</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. Tomorrow at 5 PM</Description>
+      <Position>ENHANCED_LOGGING_RUNNING_DETERMINATE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Your logging will complete:\n%@</base>
+        <tran loc="ru">Журналирование завершится\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOMEPOD_CONNECTION_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Could Not Connect to HomePod</base>
+        <tran loc="ru">Не удалось подключиться к HomePod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECT_TO_NETWORK</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a network to continue.</base>
+        <tran loc="ru">Чтобы продолжить, подключитесь к сети.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -- PowerLogDE</Description>
+      <Position>ENHANCED_LOGGING_POWER</Position>
+      <TranslationSet>
+        <base loc="en">Power Logs</base>
+        <tran loc="ru">Журналы электропитания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_POWER_WAPI</Position>
+      <TranslationSet>
+        <base loc="en">Power Logs</base>
+        <tran loc="ru">Журналы электропитания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FINISHED_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">See Details</base>
+        <tran loc="ru">Подробнее</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WLAN_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPod as you normally would. Uploading will continue in the background when connected to WLAN.</base>
+        <tran loc="ru">Можете использовать iPod как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_SEND_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">Send to Apple</base>
+        <tran loc="ru">Отправить в Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTICS_COMPLETE_SUBTITLE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">The diagnostic session with Apple Support is now complete. You may return to using your iPod as normal.</base>
+        <tran loc="ru">Сеанс диагностики со Службой поддержки Apple завершен. iPod можно использовать как обычно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Session Errors</Description>
+      <Position>ALREADY_IN_SESSION_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Could Not Start Diagnostics</base>
+        <tran loc="ru">Не удалось начать диагностику</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Apple Watch Errors</Description>
+      <Position>WATCH_PASSCODE_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unlock Apple\U00a0Watch</base>
+        <tran loc="ru">Разблокировка Apple\U00a0Watch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TESTING_ON_DEVICE</Position>
+      <TranslationSet>
+        <base loc="en">Running on Apple\U00a0Watch</base>
+        <tran loc="ru">Запущено на часах Apple Watch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPhone as you normally would. Uploading will continue in the background.</base>
+        <tran loc="ru">Можете использовать iPhone как обычно. Выгрузка продолжится в фоновом режиме.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UNENROLLING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Ending Logging Session</base>
+        <tran loc="ru">Конец сеанса журналирования</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: "Battery Life requires a Wi-Fi connection. Connect to Wi-Fi to continue."</Description>
+      <Position>WIFI_REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">%@ requires a Wi\U2011Fi connection. Connect to Wi\U2011Fi to continue.</base>
+        <tran loc="ru">Для «%@» требуется подключение Wi‑Fi. Подключитесь к Wi‑Fi, чтобы продолжить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Skip Test Suite</Description>
+      <Position>TEST_IN_PROGRESS</Position>
+      <TranslationSet>
+        <base loc="en">Test In Progress</base>
+        <tran loc="ru">Выполняется тестирование</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Did the reported issue occur?</base>
+        <tran loc="ru">Возникла ли проблема, о которой сообщается?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Exiting Diagnostics - for TV and Nano</Description>
+      <Position>EXIT_DIAGNOSTICS_SESSION_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Closing Diagnostics will end this session with Apple.</base>
+        <tran loc="ru">Закрытие Диагностики приведет к завершению сеанса связи с Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_INFO_PERCENTAGE</Position>
+      <TranslationSet>
+        <base loc="en">%d%% Complete</base>
+        <tran loc="ru">Выполнено: %d %%</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WATCH_CONNECTION_LOST</Position>
+      <TranslationSet>
+        <base loc="en">Disconnected from iPhone.</base>
+        <tran loc="ru">Отключены от iPhone.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Materials</Description>
+      <Position>ALUMINUM</Position>
+      <TranslationSet>
+        <base loc="en">Aluminum</base>
+        <tran loc="ru">Алюминий</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXIT_DIAGNOSTICS_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Exit Diagnostics</base>
+        <tran loc="ru">Выйти из диагностики</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Common</Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPad as you normally would. Uploading will continue in the background when connected to Wi-Fi.</base>
+        <tran loc="ru">Можете использовать iPad как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети Wi-Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECT_TO_NETWORK_ON_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Connect your iPhone to a network to continue diagnostics.</base>
+        <tran loc="ru">Чтобы продолжить диагностику, подключите iPhone к сети.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WAITING_FOR_SUPPORT</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for Support…</base>
+        <tran loc="ru">Ожидание службы поддержки…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STAINLESS_STEEL</Position>
+      <TranslationSet>
+        <base loc="en">Stainless Steel</base>
+        <tran loc="ru">Нержавеющая сталь</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>END</Position>
+      <TranslationSet>
+        <base loc="en">End</base>
+        <tran loc="ru">Завершить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GO_BACK</Position>
+      <TranslationSet>
+        <base loc="en">Go Back</base>
+        <tran loc="ru">Назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your diagnostic logs are ready to send to Apple.</base>
+        <tran loc="ru">Ваши журналы диагностики готовы к отправке в Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -- DiagnosticsDE</Description>
+      <Position>ENHANCED_LOGGING_DIAGNOSTICS</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced Device Analytics</base>
+        <tran loc="ru">Расширенная аналитика устройства</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_SUBTITLE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPhone as you normally would. You\U2019ll get an alert when it\U2019s finished.</base>
+        <tran loc="ru">Можете использовать iPhone как обычно. Вы получите уведомление о завершении процесса.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced Logging</base>
+        <tran loc="ru">Расширенное журналирование</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALL_TESTS_COMPLETE</Position>
+      <TranslationSet>
+        <base loc="en">All Tests Completed</base>
+        <tran loc="ru">Все проверки выполнены</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SELECT_DONE_TO_EXIT_DIAGNOSTICS</Position>
+      <TranslationSet>
+        <base loc="en">Select Done to exit Diagnostics.</base>
+        <tran loc="ru">Выберите «Готово», чтобы выйти из Диагностики.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOMEPOD_CONNECTION_ALERT_MESSAGE_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Make sure your HomePod is nearby, powered on, and connected to a WLAN.</base>
+        <tran loc="ru">Убедитесь, что HomePod находится рядом, включен и подключен к сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -- CellularDE</Description>
+      <Position>ENHANCED_LOGGING_CELLULAR</Position>
+      <TranslationSet>
+        <base loc="en">Baseband and Telephony Logs</base>
+        <tran loc="ru">Журналы сотового модуля и телефонии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTICS_COMPLETE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics Complete</base>
+        <tran loc="ru">Диагностика завершена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_BODY_IMMEDIATE</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect additional diagnostic logs. When we are done, the diagnostic logs will be sent to Apple.</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо собрать дополнительные журналы диагностики. По окончании сбора журналов диагностики они будут отправлены в Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enhanced Logging State Consent</Description>
+      <Position>ENHANCED_LOGGING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable Enhanced Logging</base>
+        <tran loc="ru">Включить расширенное журналирование</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="ru">Ошибка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>START</Position>
+      <TranslationSet>
+        <base loc="en">Start</base>
+        <tran loc="ru">Начать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_FAR_FROM_HOMEPOD_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Too Far From HomePod</base>
+        <tran loc="ru">Слишком далеко от HomePod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISAGREE</Position>
+      <TranslationSet>
+        <base loc="en">Disagree</base>
+        <tran loc="ru">Не принимать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NETWORK_UNAVAILABLE_WLAN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a WLAN or cellular data network to continue Diagnostics.</base>
+        <tran loc="ru">Для продолжения сеанса диагностики необходимо подключиться к сети WLAN или к сотовой сети.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TERMS_AND_CONDITIONS_TV</Position>
+      <TranslationSet>
+        <base loc="en">By selecting \U201CAgree\U201D you agree that Apple may collect diagnostic data from this device, including the device serial number, device name, information about wireless and wired networks you connect to, and information about app usage data. The data collected will be used by Apple and its partners to troubleshoot issues with your device, to improve our products and services, and for anti-fraud purposes. For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.</base>
+        <tran loc="ru">Нажав «Принять», Вы соглашаетесь с тем, что Apple может собирать диагностические данные c этого устройства, включая серийный номер и имя устройства, данные о подключении к беспроводным и проводным сетям и сведения об использовании приложений. Собранная информация будет использоваться компанией Apple и ее партнерами для устранения неполадок Вашего устройства, для улучшения наших продуктов и услуг и в целях защиты от мошенничества. Сведения о политике конфиденциальности Apple доступны на веб-сайте: https://www.apple.com/legal/privacy/ru/.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YELLOW_GOLD</Position>
+      <TranslationSet>
+        <base loc="en">Yellow Gold</base>
+        <tran loc="ru">Желтое золото</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_SEND_AUTOMATICALLY</Position>
+      <TranslationSet>
+        <base loc="en">Collect and Send Logs</base>
+        <tran loc="ru">Собрать и отправить журналы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="ru">Дальше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_ALERT_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="ru">Дальше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The following diagnostic logs will be sent to Apple over Wi-Fi. Though your issue did not occur, the logs will be used to improve our products. Thank you for helping to make our products even better.</base>
+        <tran loc="ru">Эти журналы диагностической информации будут отправлены в Apple по Wi‑Fi. Даже если Ваша проблема не возникала, журналы будут использованы для улучшения наших продуктов. Спасибо за помощь!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_INFO_COMPRESSING</Position>
+      <TranslationSet>
+        <base loc="en">Compressing…</base>
+        <tran loc="ru">Сжатие…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISCONNECTING</Position>
+      <TranslationSet>
+        <base loc="en">Disconnecting…</base>
+        <tran loc="ru">Отключение…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="ru">Нет</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">The following diagnostic logs will be sent to Apple over WLAN. Though your issue did not occur, the logs will be used to improve our products. Thank you for helping to make our products even better.</base>
+        <tran loc="ru">Эти журналы диагностической информации будут отправлены в Apple по WLAN. Даже если Ваша проблема не возникала, журналы будут использованы для улучшения наших продуктов. Спасибо за помощь!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example "Display Backlight &amp; Color would like to use the full screen of this device."</Description>
+      <Position>USE_FULL_SCREEN_PROMPT</Position>
+      <TranslationSet>
+        <base loc="en">\U201C%@\U201D would like to use the full screen of this device.</base>
+        <tran loc="ru">«%@» запрашивает разрешение на использование полного экрана этого устройства.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_CELLULAR_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The generated files may contain some of your personal information, including contents of SMS’s, device identifiers and names, phone numbers of the registering device, Apple IDs of the accounts into which you are signed, and logs of incoming and outgoing calls and audio routes.</base>
+        <tran loc="ru">Созданные файлы могут включать Вашу персональную информацию, в том числе содержание SMS, названия и идентификаторы устройств, номера телефонов зарегистрированного устройства, учетные записи Apple ID, в которые был выполнен вход, а также журналы входящих и исходящих вызовов и маршруты аудиосигналов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No Session Error</Description>
+      <Position>HOW_CAN_WE_HELP_YOU</Position>
+      <TranslationSet>
+        <base loc="en">How can we help you?</base>
+        <tran loc="ru">Как мы можем помочь?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_SETTINGS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Send Diagnostic Logs to Apple</base>
+        <tran loc="ru">Отправка журналов диагностики в Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_CELLULAR_SENSITIVE_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">Call history, SMS contents, Apple account information…</base>
+        <tran loc="ru">История вызовов, содержание сообщений SMS, данные учетной записи Apple…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_HOUR</Position>
+      <TranslationSet>
+        <base loc="en">Did the reported issue occur within the last hour?</base>
+        <tran loc="ru">Возникала ли проблема, о которой Вы сообщаете, в течение последнего часа?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_MINUTE</Position>
+      <TranslationSet>
+        <base loc="en">Did the reported issue occur within the last minute?</base>
+        <tran loc="ru">Возникала ли проблема, о которой Вы сообщаете, в течение последней минуты?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_SUBTITLE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">You can use your device as you normally would. You\U2019ll get an alert when it\U2019s finished.</base>
+        <tran loc="ru">Можете использовать устройство как обычно. Вы получите уведомление о завершении процесса.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANNOT_START_DIAGNOSTICS</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Start Diagnostics</base>
+        <tran loc="ru">Не удается начать диагностику</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXIT</Position>
+      <TranslationSet>
+        <base loc="en">Exit</base>
+        <tran loc="ru">Выйти</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_CELLULAR_WARNING_USE</Position>
+      <TranslationSet>
+        <base loc="en">Use Cellular</base>
+        <tran loc="ru">Использовать сотовую сеть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOSE</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="ru">Закрыть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FINISHED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Diagnostic Logs are Ready to Send to Apple</base>
+        <tran loc="ru">Ваши журналы диагностики готовы к отправке в Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SKIP</Position>
+      <TranslationSet>
+        <base loc="en">Skip</base>
+        <tran loc="ru">Пропустить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: "...a minimum of 200 MB of free space. You can manage..."</Description>
+      <Position>OUT_OF_SPACE</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough available storage to complete diagnostics. Diagnostics requires a minimum of %@ of free space. You can manage your storage in Settings.</base>
+        <tran loc="ru">Для завершения диагностики недостаточно места. Для проведения диагностики требуется как минимум %@ МБ свободного пространства. Вы можете управлять хранилищем в Настройках.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Storage Errors</Description>
+      <Position>OPEN_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Open Settings</base>
+        <tran loc="ru">Открыть Настройки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_COSYSDIAGNOSE_SENSITIVE_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">IP address, file names, recent system activity…</base>
+        <tran loc="ru">IP-адрес, имена файлов, недавняя активность системы…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_SYSDIAGNOSE_SENSITIVE_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">IP address, file names, recent system activity…</base>
+        <tran loc="ru">IP-адрес, имена файлов, недавняя активность системы…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_READY_SEND_BODY_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">The following diagnostic logs will be sent to Apple over WLAN. Thank you for helping to make our products even better.</base>
+        <tran loc="ru">Эти журналы диагностической информации будут отправлены в Apple по WLAN. Спасибо за помощь в улучшении наших продуктов!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_COSYSDIAGNOSE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The generated files may contain personal information found on your device or associated with your iCloud accounts, including but not limited to your name, serial numbers of your device, your device name, your attached peripheral devices, your user name, your email address and email settings, file paths, file names, your device’s IP addresses, and network connection information.</base>
+        <tran loc="ru">Созданные файлы могут содержать персональную информацию, которая хранится на Вашем устройстве или связана с Вашими учетными записями iCloud, а также включает Ваше имя, серийный номер и имя устройства, сведения о подключенных периферийных устройствах, имя пользователя, адрес и настройки электронной почты, пути к файлам, имена файлов, IP‑адреса устройства, а также информацию об интернет‑подключении.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPod as you normally would. Uploading will continue in the background.</base>
+        <tran loc="ru">Можете использовать iPod как обычно. Выгрузка продолжится в фоновом режиме.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COULD_NOT_START_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Could Not Start Diagnostics Session</base>
+        <tran loc="ru">Начать сеанс диагностики не удалось</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WATCH_CONNECTION_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Make sure your Apple\U00a0Watch is nearby, powered on, and not in Airplane Mode.</base>
+        <tran loc="ru">Убедитесь, что Apple Watch расположены рядом, включены и не находятся в Авиарежиме.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Exiting Diagnostics</Description>
+      <Position>EXIT_DIAGNOSTICS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Exit Diagnostics?</base>
+        <tran loc="ru">Выйти из диагностики?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RUN_DIAGNOSTICS</Position>
+      <TranslationSet>
+        <base loc="en">Run Diagnostics</base>
+        <tran loc="ru">Запустить диагностику</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred.</base>
+        <tran loc="ru">Произошла неизвестная ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: "Diagnostics requires a minimum of 200 MB of free space."</Description>
+      <Position>OUT_OF_SPACE_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics requires a minimum of %@ of free space.</base>
+        <tran loc="ru">Для проведения диагностики требуется как минимум %@ МБ свободного пространства.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECTING_TO_APPLE_SUPPORT</Position>
+      <TranslationSet>
+        <base loc="en">Connecting to Apple\U00a0Support…</base>
+        <tran loc="ru">Подключение к службе поддержки Apple…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "...last 24 hours?"</Description>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_HOURS</Position>
+      <TranslationSet>
+        <base loc="en">Did the reported issue occur within the last %@?</base>
+        <tran loc="ru">Возникала ли проблема, о которой Вы сообщаете, в последн. %@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "...last 30 minutes?"</Description>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">Did the reported issue occur within the last %@?</base>
+        <tran loc="ru">Возникала ли проблема, о которой Вы сообщаете, в последн. %@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  Diagnostics
+
+  Created by Adam Findley on 9/3/14.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+
+ Titles</Description>
+      <Position>DIAGNOSTICS</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="ru">Диагностика</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPod as you normally would. Uploading will continue in the background when connected to Wi-Fi.</base>
+        <tran loc="ru">Можете использовать iPod как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети Wi-Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: "Battery Life requires a WLAN connection. Connect to WLAN to continue."</Description>
+      <Position>WLAN_REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">%@ requires a WLAN connection. Connect to WLAN to continue.</base>
+        <tran loc="ru">Для «%@» требуется подключение WLAN. Подключитесь к WLAN, чтобы продолжить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: Skipping "Mobile Resource"</Description>
+      <Position>SKIPPING_SUITE</Position>
+      <TranslationSet>
+        <base loc="en">Skipping \U201C%@\U201D…</base>
+        <tran loc="ru">«%@» пропускается…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COULD_NOT_PROFILE</Position>
+      <TranslationSet>
+        <base loc="en">Could not start diagnostic session with Apple.</base>
+        <tran loc="ru">Не удалось начать сеанс диагностики с Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to end enhanced logging?</base>
+        <tran loc="ru">Вы действительно хотите завершить расширенное журналирование?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WATCH_PASSCODE_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple\U00a0Watch is currently locked. Please unlock it to continue.</base>
+        <tran loc="ru">Часы Apple Watch сейчас заблокированы. Разблокируйте их, чтобы продолжить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GET_SUPPORT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Get support and repair for your Apple products.\nVisit www.apple.com/support</base>
+        <tran loc="ru">Получите поддержку и ремонт по продуктам Apple.\nПосетите www.apple.com/ru/support</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Terms &amp; Conditions</Description>
+      <Position>TERMS_AND_CONDITIONS_MULTI</Position>
+      <TranslationSet>
+        <base loc="en">By tapping \U201CAgree\U201D you agree that Apple may collect diagnostic data from this device, and connected accessories (such as battery case or HomePod), including the device serial number, device name, information about wireless and wired networks you connect to, daily count of call attempts, and information about app usage data and call duration. The data collected will be used by Apple and its partners to troubleshoot issues with your device, to improve our products and services, and for anti-fraud purposes. For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.</base>
+        <tran loc="ru">Коснувшись кнопки «Принять», Вы соглашаетесь с тем, что Apple может собирать диагностические данные c этого устройства и подключенных к нему аксессуаров (например чехла для зарядки или HomePod), включая серийный номер и имя устройства, данные о подключении к беспроводным и проводным сетям, данные о ежедневном количестве попыток совершения вызовов и сведения об использовании приложений и длительности вызовов. Собранная информация будет использоваться компанией Apple и ее партнерами для устранения неполадок Вашего устройства, для улучшения наших продуктов и услуг и в целях защиты от мошенничества. Сведения о политике конфиденциальности Apple доступны на веб-сайте: https://www.apple.com/legal/privacy/ru/.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced logging cannot be resumed if ended. You will need to contact Apple again to begin a new logging session.</base>
+        <tran loc="ru">Если завершить расширенное журналирование, возобновить его не получится. Для начала нового сеанса журналирования потребуется обратиться в Apple еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>38_CASE</Position>
+      <TranslationSet>
+        <base loc="en">38mm Case</base>
+        <tran loc="ru">Корпус 38 мм</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UNENROLLING_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Unenrolling…</base>
+        <tran loc="ru">Отмена регистрации…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_SUBTITLE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPad as you normally would. You\U2019ll get an alert when it\U2019s finished.</base>
+        <tran loc="ru">Можете использовать iPad как обычно. Вы получите уведомление о завершении процесса.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>44_CASE</Position>
+      <TranslationSet>
+        <base loc="en">44mm Case</base>
+        <tran loc="ru">Корпус 44 мм</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_ENROLLING_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Enrolling…</base>
+        <tran loc="ru">Регистрация…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -- PerformanceLoggingDE</Description>
+      <Position>ENHANCED_LOGGING_PERFORMANCE</Position>
+      <TranslationSet>
+        <base loc="en">Performance Logs</base>
+        <tran loc="ru">Журналы производительности</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Diagnostic Extensions
+ -- SysdiagnoseDE</Description>
+      <Position>ENHANCED_LOGGING_SYSDIAGNOSE</Position>
+      <TranslationSet>
+        <base loc="en">System Diagnostics</base>
+        <tran loc="ru">Диагностика системы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WATCH_CONNECTION_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Could Not Connect to Apple\U00a0Watch</base>
+        <tran loc="ru">Не удалось подключиться к Apple Watch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_STORAGE_AND_ICLOUD_USAGE_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Open Storage Settings</base>
+        <tran loc="ru">Открыть настройки хранилища</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECT_TO_WLAN_ON_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Connect your iPhone to a WLAN to continue diagnostics.</base>
+        <tran loc="ru">Чтобы продолжить диагностику, подключите iPhone к сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALREADY_IN_SESSION_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This device is already enrolled in a diagnostic session.</base>
+        <tran loc="ru">Это устройство уже зарегистрировано для сеанса диагностики.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPad as you normally would. Uploading will continue in the background.</base>
+        <tran loc="ru">Можете использовать iPad как обычно. Выгрузка продолжится в фоновом режиме.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> History</Description>
+      <Position>HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">History</base>
+        <tran loc="ru">История</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Logging Session in Progress</base>
+        <tran loc="ru">Идет сеанс журналирования</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YES</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="ru">Да</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_DIAGNOSTICS_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The analytics data may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. If you have Location Services turned on, the data may include locations such as the location of your devices once per day, the location where a call ends, or the location of a failed in-store transaction.</base>
+        <tran loc="ru">Данные аналитики могут содержать подробные сведения об аппаратном обеспечении и технических характеристиках операционной системы, статистику производительности, а также информацию о том, как Вы используете свои устройства и приложения. Если Службы геолокации включены, передаваемые данные могут содержать такую информацию, как геопозиция Ваших устройств, отправляемая раз в день, или геопозиция по завершении вызова, или геопозиция неудавшейся транзакции.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WLAN_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPad as you normally would. Uploading will continue in the background when connected to WLAN.</base>
+        <tran loc="ru">Можете использовать iPad как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WLAN_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">You can use your device as you normally would. Uploading will continue in the background when connected to WLAN.</base>
+        <tran loc="ru">Можете использовать устройство как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECT_TO_WIFI_ON_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Connect your iPhone to Wi\U2011Fi to continue diagnostics.</base>
+        <tran loc="ru">Чтобы продолжить диагностику, подключите iPhone к сети Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Test Runner</Description>
+      <Position>WAITING_FOR_TESTS</Position>
+      <TranslationSet>
+        <base loc="en">Waiting…</base>
+        <tran loc="ru">Ожидание…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_QUESTION_YES</Position>
+      <TranslationSet>
+        <base loc="en">Issue Occurred</base>
+        <tran loc="ru">Возникла проблема</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXIT_DIAGNOSTICS_CANCEL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This will end your diagnostic session with Apple\U00a0Support.</base>
+        <tran loc="ru">При этом сеанс диагностики со службой поддержки Apple завершится.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_BODY_MINUTE</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect additional diagnostic logs over the next minute. When we are done, the diagnostic logs will be sent to Apple.</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо собрать дополнительные журналы диагностики в течение следующей минуты. По окончании сбора журналов диагностики они будут отправлены в Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_SEND_REVIEW</Position>
+      <TranslationSet>
+        <base loc="en">Review Logs Before Sending</base>
+        <tran loc="ru">Просмотрите журналы перед отправкой</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXIT_DIAGNOSTICS_SUSPEND_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This may interrupt your diagnostic session with Apple\U00a0Support.</base>
+        <tran loc="ru">При этом сеанс диагностики со службой поддержки Apple может прерваться.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">You can use your iPhone as you normally would. Uploading will continue in the background when connected to Wi-Fi.</base>
+        <tran loc="ru">Можете использовать iPhone как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети Wi-Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AGREE</Position>
+      <TranslationSet>
+        <base loc="en">Agree</base>
+        <tran loc="ru">Принять</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TESTING_FINAL_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while running Diagnostics.</base>
+        <tran loc="ru">Во время выполнения диагностики произошла ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CERAMIC</Position>
+      <TranslationSet>
+        <base loc="en">Ceramic</base>
+        <tran loc="ru">Керамика</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROSE_GOLD</Position>
+      <TranslationSet>
+        <base loc="en">Rose Gold</base>
+        <tran loc="ru">Розовое золото</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_END_UPLOAD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to stop sending logs to Apple?</base>
+        <tran loc="ru">Вы действительно хотите прекратить отправлять журналы в Apple?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Starting Diagnostics</Description>
+      <Position>START_DIAGNOSTICS_TV</Position>
+      <TranslationSet>
+        <base loc="en">Select Agree below to start diagnostics on Apple\U00a0TV.</base>
+        <tran loc="ru">Выберите «Принять» ниже, чтобы начать диагностику Apple TV.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enhanced Logging State Card</Description>
+      <Position>ENHANCED_LOGGING_ENROLLING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Starting Logging Session</base>
+        <tran loc="ru">Начало сеанса журналирования</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTICS_COMPLETE_SUBTITLE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">The diagnostic session with Apple Support is now complete. You may return to using your iPad as normal.</base>
+        <tran loc="ru">Сеанс диагностики со Службой поддержки Apple завершен. iPad можно использовать как обычно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">You can use your device as you normally would. Uploading will continue in the background.</base>
+        <tran loc="ru">Можете использовать устройство как обычно. Выгрузка продолжится в фоновом режиме.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HISTORY_AVAILABLE_APPLE_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">History is available on Apple\U00a0Watch</base>
+        <tran loc="ru">История доступна на Apple Watch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_MORE</Position>
+      <TranslationSet>
+        <base loc="en">Show More</base>
+        <tran loc="ru">Показать больше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTIC_LOGS</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostic Logs</base>
+        <tran loc="ru">Журналы диагностики</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">No History</base>
+        <tran loc="ru">Нет истории</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOMEPOD_CONNECTION_ALERT_MESSAGE_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">Make sure your HomePod is nearby, powered on, and connected to Wi\U2011Fi.</base>
+        <tran loc="ru">Убедитесь, что HomePod находится рядом, включен и подключен к сети Wi\U2011Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_DIAGNOSTICS_SENSITIVE_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">iPhone analytics, usage and power information…</base>
+        <tran loc="ru">Сведения об аналитике iPhone, использовании и питании…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">You can use your device as you normally would. Uploading will continue in the background when connected to Wi-Fi.</base>
+        <tran loc="ru">Можете использовать устройство как обычно. Выгрузка продолжится в фоновом режиме после подключения к сети Wi-Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPLE_SUPPORT</Position>
+      <TranslationSet>
+        <base loc="en">Apple Support</base>
+        <tran loc="ru">Служба поддержки Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>42_CASE</Position>
+      <TranslationSet>
+        <base loc="en">42mm Case</base>
+        <tran loc="ru">Корпус 42 мм</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_POWER_DESCRIPTION_WAPI</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect one week of the device’s app and accessory use, as well as all of the information visible to you in the Battery section of Settings. The generated files may contain some of your personal information, including information about the system (such as the OS version, hardware model) and details about the applications running and accessories in use (such as Apple Pay card registration timestamp, the apps running on the device including when they receive notifications, what watch faces and related complications are present on a paired Watch, sensor activity, Bluetooth and WLAN activity including SSID of currently connected network, when CarPlay is being used and other related navigation information, when the Workout app is running, how and when the device is charged, and the types of accessories to which the device is connected).</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо в течение одной недели собирать журналы использования приложений и аксессуаров, а также сведения об электропитании, доступные в Настройках. Сгенерированные файлы могут содержать Ваши личные данные, в том числе системную информацию (например, версию операционной системы и модель устройства), а также подробные сведения об используемых приложениях и аксессуарах (например, дату и время использования карты в Apple Pay; сведения об открытых на устройстве приложениях, в том числе время получения уведомлений в них; данные о циферблатах и расширениях, установленных на Apple Watch, с которыми создана пара; сведения о работе датчиков; данные об использовании Bluetooth и WLAN, включая SSID текущей сети; информацию о том, когда используется CarPlay, и прочие связанные навигационные данные; время работы приложения «Тренировка»; время и способ зарядки устройства; вид аксессуаров, к которым подключено устройство).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  -- Error Condition</Description>
+      <Position>ENHANCED_LOGGING_UNKNOWN_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">No information is available for this logging type.</base>
+        <tran loc="ru">Для этого типа журналирования нет доступных данных.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_SETTINGS_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your diagnostic logs are ready.</base>
+        <tran loc="ru">Ваши журналы диагностики готовы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECTING</Position>
+      <TranslationSet>
+        <base loc="en">Connecting…</base>
+        <tran loc="ru">Подключение…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_LESS</Position>
+      <TranslationSet>
+        <base loc="en">Show Less</base>
+        <tran loc="ru">Показать меньше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_RUNNING_PERFORMANCE_IMPACT</Position>
+      <TranslationSet>
+        <base loc="en">You may experience reduced performance during enhanced logging.</base>
+        <tran loc="ru">Во время расширенного журналирования может понизиться производительность.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unknown Error</Description>
+      <Position>DIAGNOSTICS_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics Error</base>
+        <tran loc="ru">Ошибка диагностики</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENHANCED_LOGGING_READY_SEND_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The following diagnostic logs will be sent to Apple over Wi-Fi. Thank you for helping to make our products even better.</base>
+        <tran loc="ru">Эти журналы диагностической информации будут отправлены в Apple по Wi‑Fi. Спасибо за помощь в улучшении наших продуктов!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enhanced Logging State Follow-Up</Description>
+      <Position>ENHANCED_LOGGING_FOLLOWUP_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced Logging Complete</base>
+        <tran loc="ru">Расширенное журналирование завершено</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "...next 24 hours."</Description>
+      <Position>ENHANCED_LOGGING_BODY_HOURS</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect additional diagnostic logs over the next %@. When we are done, the diagnostic logs will be sent to Apple.</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо собрать дополнительные журналы диагностики в течение следующих %@ ч. По окончании сбора журналов диагностики они будут отправлены в Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "...next 30 minutes."</Description>
+      <Position>ENHANCED_LOGGING_BODY_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">To better understand the issue you are experiencing, we need to collect additional diagnostic logs over the next %@. When we are done, the diagnostic logs will be sent to Apple.</base>
+        <tran loc="ru">Чтобы лучше понять проблему, с которой Вы столкнулись, нам необходимо собрать дополнительные журналы диагностики в течение следующих %@ ч. По окончании сбора журналов диагностики они будут отправлены в Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="ru">Далее</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Example: "Mobile Resource Inspector (Skipped)"</Description>
+      <Position>SKIPPED_SUITE</Position>
+      <TranslationSet>
+        <base loc="en">%@ (Skipped)</base>
+        <tran loc="ru">%@ (пропущено)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGNOSTIC_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostic History</base>
+        <tran loc="ru">История диагностики</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -- CoSysdiagnose "DE"</Description>
+      <Position>ENHANCED_LOGGING_COSYSDIAGNOSE</Position>
+      <TranslationSet>
+        <base loc="en">Watch and Phone Diagnostics</base>
+        <tran loc="ru">Диагностика часов и телефона</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

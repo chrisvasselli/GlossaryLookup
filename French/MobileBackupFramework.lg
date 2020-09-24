@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>MobileBackupFramework</ProjName>
+  <File>
+    <Filepath>MobileBackupFramework/System/Library/PrivateFrameworks/MobileBackup.framework/English.lproj/MobileBackup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MBS_RESTORE_WARN_ALERT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone has not been backed up recently because it has not finished being restored. Would you like to finish downloading any remaining purchases and media before backing up, or delete them along with any app data?</base>
+        <tran loc="fr">Cet iPhone n’a pas été sauvegardé récemment car sa restauration n’est pas terminée. Souhaitez-vous finir de télécharger les achats et contenu restants avant d’effectuer la sauvegarde, ou les effacer avec les données des apps ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device specific strings </Description>
+      <Position>MISSING_BACKUP_ALERT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up. Backups happen when this iPhone is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_RESTORE_WARN_ALERT_DOWNLOAD_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Download</base>
+        <tran loc="fr">Télécharger</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_RESTORE_WARN_ALERT_DELETE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="fr">Effacer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPLETE_RESTORE_NO_ITEMS_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Some items could not be restored from the iCloud Backup.</base>
+        <tran loc="fr">Certains éléments n’ont pas pu être restaurés à partir de la sauvegarde iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPLETE_BUNDLE</Position>
+      <TranslationSet>
+        <base loc="en">• </base>
+        <tran loc="fr">• </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_DESCRIPTION_CH_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up. Backups happen when this iPad is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_RESTORE_WARN_ALERT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad has not been backed up recently because it has not finished being restored. Would you like to finish downloading any remaining purchases and media before backing up, or delete them along with any app data?</base>
+        <tran loc="fr">Cet iPad n’a pas été sauvegardé récemment car sa restauration n’est pas terminée. Souhaitez-vous finir de télécharger les achats et contenu restants avant d’effectuer la sauvegarde, ou les effacer avec les données des apps ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_DAYS_CH_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up in %@ days. Backups happen when this iPhone is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées depuis %@ jours. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iTunes variants </Description>
+      <Position>LATE_ITUNES_BACKUP_ALERT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t backed up to iTunes in %@ weeks. Backups happen when this iPhone is connected to power and synced with iTunes.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées dans iTunes depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur et synchronisé avec iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_SETTINGS_BUTTON_CH</Position>
+      <TranslationSet>
+        <base loc="en">Use WLAN</base>
+        <tran loc="fr">Utiliser le WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_DISK_SPACE_DISMISS</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_DESCRIPTION_CH_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up. Backups happen when this iPod touch is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_ITUNES_BACKUP_ALERT_DESCRIPTION_CH_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up in %@ weeks. Backups happen when this iPad is connected to power, locked and synced with iTunes.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et synchronisé avec iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_ITUNES_BACKUP_ALERT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up in %@ weeks. Backups happen when this iPad is connected to power, locked and synced with iTunes.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et synchronisé avec iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBCK_RESTORE_WARN_ALERT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch has not been backed up recently because it is still restoring from an iCloud backup. You can cancel this restore in iCloud settings.</base>
+        <tran loc="fr">Cet iPod touch n’a pas été sauvegardé récemment, car il est encore en train de restaurer une sauvegarde iCloud. Vous pouvez annuler cette opération dans les réglages iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPLETE_RESTORE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Restore Incomplete</base>
+        <tran loc="fr">Restauration inachevée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">A Wi-Fi connection is required to download your apps and media.</base>
+        <tran loc="fr">Une connexion Wi-Fi est requise pour télécharger vos apps et votre contenu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad cannot back up to iCloud without a verified email address.</base>
+        <tran loc="fr">Cet iPad ne peut pas être sauvegardé sur iCloud sans une adresse e-mail vérifiée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_DESCRIPTION_CH</Position>
+      <TranslationSet>
+        <base loc="en">A WLAN connection is required to download your apps and media.</base>
+        <tran loc="fr">Une connexion WLAN est requise pour télécharger vos apps et votre contenu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESTORE_COMPLETED_ALERT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Your settings have been restored. Connect to power to save battery while apps and media are downloading.</base>
+        <tran loc="fr">Vos réglages ont été restaurés. Branchez-vous sur secteur pour économiser la batterie pendant le téléchargement des apps et du contenu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_DISK_SPACE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Storage Almost Full</base>
+        <tran loc="fr">Stockage presque saturé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch cannot back up to iCloud without a verified email address.</base>
+        <tran loc="fr">Cet iPod touch ne peut pas être sauvegardé sur iCloud sans une adresse e-mail vérifiée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up in %@ weeks. Backups happen when this iPod touch is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_CH_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up in %@ weeks. Backups happen when this iPod touch is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_ITUNES_BACKUP_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Backup</base>
+        <tran loc="fr">Sauvegarde iTunes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up in %@ weeks. Backups happen when this iPad is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up. Backups happen when this iPad is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPLETE_RESTORE_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBCK_RESTORE_WARN_ALERT_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESTORE_COMPLETED_ALERT_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESTORE_OVER_BUDGET_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESTORE_OVER_BUDGET_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Connect to Power to Restore</base>
+        <tran loc="fr">Se brancher sur secteur pour restaurer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_DISK_SPACE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You can manage your storage in Settings.</base>
+        <tran loc="fr">Vous pouvez gérer votre stockage dans Réglages.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_ITUNES_BACKUP_ALERT_DESCRIPTION_CH_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up in %@ weeks. Backups happen when this iPod touch is connected to power and synced with iTunes.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur et synchronisé avec iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_ITUNES_BACKUP_ALERT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up in %@ weeks. Backups happen when this iPod touch is connected to power and synced with iTunes.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur et synchronisé avec iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_DAYS_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up in %@ days. Backups happen when this iPod touch is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées depuis %@ jours. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device specific strings </Description>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up in %@ weeks. Backups happen when this iPhone is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Back Up</base>
+        <tran loc="fr">Sauvegarde impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_DESCRIPTION_CH_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up. Backups happen when this iPhone is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_SETTINGS_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Use Wi-Fi</base>
+        <tran loc="fr">Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_TITLE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">iPhone Not Backed Up</base>
+        <tran loc="fr">iPhone non sauvegardé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBCK_RESTORE_WARN_ALERT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone has not been backed up recently because it is still restoring from an iCloud backup. You can cancel this restore in iCloud settings.</base>
+        <tran loc="fr">Cet iPhone n’a pas été sauvegardé récemment, car il est encore en train de restaurer une sauvegarde iCloud. Vous pouvez annuler cette opération dans les réglages iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_CH_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up in %@ weeks. Backups happen when this iPhone is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_DAYS_CH_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up in %@ days. Backups happen when this iPod touch is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées depuis %@ jours. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_BACKUP_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Backup Settings</base>
+        <tran loc="fr">Réglages de sauvegarde</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Use Wi-Fi to Restore</base>
+        <tran loc="fr">Utiliser le Wi-Fi pour restaurer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBCK_RESTORE_WARN_ALERT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad has not been backed up recently because it is still restoring from an iCloud backup. You can cancel this restore in iCloud settings.</base>
+        <tran loc="fr">Cet iPad n’a pas été sauvegardé récemment, car il est encore en train de restaurer une sauvegarde iCloud. Vous pouvez annuler cette opération dans les réglages iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_TITLE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">iPod touch Not Backed Up</base>
+        <tran loc="fr">iPod touch non sauvegardé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone cannot back up to iCloud without a verified email address.</base>
+        <tran loc="fr">Cet iPhone ne peut pas être sauvegardé sur iCloud sans une adresse e-mail vérifiée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESTORE_OVER_BUDGET_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Connect to power to continue downloading your apps and media.</base>
+        <tran loc="fr">Branchez-vous sur secteur pour continuer à télécharger vos apps et données.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_ITUNES_BACKUP_ALERT_DESCRIPTION_CH_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up in %@ weeks. Backups happen when this iPhone is connected to power and synced with iTunes.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur et synchronisé avec iTunes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGGING_CONSENT</Position>
+      <TranslationSet>
+        <base loc="en">With backup logging enabled, some personally identifiable information such as the names of your applications and documents (amongst other things) might be present in the logs. Logging can also have an impact on backup performance and will take up space on your device.</base>
+        <tran loc="fr">Si la journalisation de la sauvegarde est activée, certaines informations personnelles identifiables telles que les noms de vos applications et documents (entre autres) peuvent être présentes dans les journaux. La journalisation peut aussi avoir un impact sur les performances de la sauvegarde et occupera de l’espace sur votre appareil.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch hasn’t been backed up. Backups happen when this iPod touch is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPod touch n’ont pas été sauvegardées. Les sauvegardes ont lieu lorsque cet iPod touch est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  MobileBackup.strings
+  MobileBackup
+
+  Created by James Callender on 3/8/11.
+  Copyright 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>LATE_BACKUP_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Backup</base>
+        <tran loc="fr">Sauvegarde iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_UNAUTHORIZED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Backup</base>
+        <tran loc="fr">Sauvegarde iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPLETE_RESTORE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Some items could not be restored from the iCloud Backup:</base>
+        <tran loc="fr">Certains éléments n’ont pas pu être restaurés à partir de la sauvegarde iCloud :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_UNAUTHORIZED_ALERT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Backup is unable to access the account “%@”. Review your account information in Settings.</base>
+        <tran loc="fr">La sauvegarde iCloud ne peut pas accéder au compte « %@ ». Vérifiez vos données de compte dans Réglages.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_UNAUTHORIZED_ALERT_IGNORE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="fr">Ignorer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFY_ICLOUD_PASSWORD_ALERT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Backup requires that you verify your password.</base>
+        <tran loc="fr">Vous devez valider votre mot de passe pour utiliser la sauvegarde iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_IGNORE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Later</base>
+        <tran loc="fr">Plus tard</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_LATER</Position>
+      <TranslationSet>
+        <base loc="en">Later</base>
+        <tran loc="fr">Plus tard</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_DAYS_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up in %@ days. Backups happen when this iPad is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées depuis %@ jours. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_CH_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up in %@ weeks. Backups happen when this iPad is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées depuis %@ semaines. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_WIFI_NEEDED_ALERT_TITLE_CH</Position>
+      <TranslationSet>
+        <base loc="en">Use WLAN to Restore</base>
+        <tran loc="fr">Utiliser le WLAN pour restaurer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPLETE_SYSTEM_CONFIGURATION</Position>
+      <TranslationSet>
+        <base loc="en">Configuration settings</base>
+        <tran loc="fr">Réglages de configuration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device specific strings </Description>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_DAYS_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone hasn’t been backed up in %@ days. Backups happen when this iPhone is connected to power, locked, and on Wi-Fi.</base>
+        <tran loc="fr">Les données de cet iPhone n’ont pas été sauvegardées depuis %@ jours. Les sauvegardes ont lieu lorsque cet iPhone est branché sur secteur, verrouillé et connecté à un réseau Wi‑Fi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESTORE_COMPLETED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Restoring Apps and Media</base>
+        <tran loc="fr">Restauration des apps et du contenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_RESTORE_WARN_ALERT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">This iPod touch has not been backed up recently because it has not finished being restored. Would you like to finish downloading any remaining purchases and media before backing up, or delete them along with any app data?</base>
+        <tran loc="fr">Cet iPod touch n’a pas été sauvegardé récemment car sa restauration n’est pas terminée. Souhaitez-vous finir de télécharger les achats et contenu restants avant d’effectuer la sauvegarde, ou les effacer avec les données des apps ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MISSING_BACKUP_ALERT_TITLE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">iPad Not Backed Up</base>
+        <tran loc="fr">iPad non sauvegardé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBCK_RESTORE_WARN_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Continue Restoring?</base>
+        <tran loc="fr">Poursuivre la restauration ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_RESTORE_WARN_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Continue Restoring?</base>
+        <tran loc="fr">Poursuivre la restauration ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_DISK_SPACE_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="fr">Réglages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBCK_RESTORE_WARN_ALERT_SETTINGS_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="fr">Réglages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MBS_UNAUTHORIZED_ALERT_SETTINGS_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="fr">Réglages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNVERIFIED_ACCOUNT_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="fr">Réglages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LATE_BACKUP_ALERT_DESCRIPTION_DAYS_CH_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">This iPad hasn’t been backed up in %@ days. Backups happen when this iPad is connected to power, locked, and on WLAN.</base>
+        <tran loc="fr">Les données de cet iPad n’ont pas été sauvegardées depuis %@ jours. Les sauvegardes ont lieu lorsque cet iPad est branché sur secteur, verrouillé et connecté à un réseau WLAN.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

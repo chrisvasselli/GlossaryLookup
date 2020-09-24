@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DataAccess</ProjName>
+  <File>
+    <Filepath>DataAccess/System/Library/PrivateFrameworks/DataAccess.framework/en.lproj/DataAccess.strings</Filepath>
+    <TextItem>
+      <Description> Authentication needed for a specific calendar that already has a name </Description>
+      <Position>AUTH_NEEDED_SPECIFIC_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Calendar “%@” at %@ requires authentication</base>
+        <tran loc="zh-TW">%2$@的行事曆「%1$@」需要認證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to send a friendly name to Exchange servers, such as White iPhone 4S (we get the second part of that string from
+ Graphics Services' "marketing name" </Description>
+      <Position>WHITE</Position>
+      <TranslationSet>
+        <base loc="en">White</base>
+        <tran loc="zh-TW">白色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Declining (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_DECLINED</Position>
+      <TranslationSet>
+        <base loc="en">Declined:</base>
+        <tran loc="zh-TW">已拒絕：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the automatically created holiday calendar account </Description>
+      <Position>HOLIDAY_CALENDAR_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Holiday Calendar</base>
+        <tran loc="zh-TW">節日行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUBSCRIBE</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe</base>
+        <tran loc="zh-TW">訂閱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_ALERT_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Could not subscribe to the calendar “%@” from “%@”.</base>
+        <tran loc="zh-TW">無法訂閱「%2$@」的行事曆「%1$@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ELLIPSIS</Position>
+      <TranslationSet>
+        <base loc="en">…</base>
+        <tran loc="zh-TW">⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when a server certificate is issued by an unknown root </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED_WITH_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The certificate from “%@” for account “%@” could not be verified.</base>
+        <tran loc="zh-TW">無法驗證「%@」帳號
+「%@」的憑證。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Tentatively Accepting (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_TENTATIVE</Position>
+      <TranslationSet>
+        <base loc="en">Tentative:</base>
+        <tran loc="zh-TW">暫定：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when a server certificate is issued by an unknown root for an account with no description </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED</Position>
+      <TranslationSet>
+        <base loc="en">The certificate from “%@” could not be verified.</base>
+        <tran loc="zh-TW">無法驗證「%@」的憑證。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to accept an unverified server certificate </Description>
+      <Position>SERVER_CERTIFICATE_ACCEPT</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="zh-TW">接受</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when an autodiscovery server has an unverified certificate </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED_AUTODISCOVERY</Position>
+      <TranslationSet>
+        <base loc="en">While automatically discovering account settings, the certificate from “%@” could not be verified.</base>
+        <tran loc="zh-TW">自動偵測帳號設定時，無法驗證「%@」的憑證。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHERE_TO_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The Calendar “%@” has been added</base>
+        <tran loc="zh-TW">已加入行事曆「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the invalid client certificate dialog </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Authenticate</base>
+        <tran loc="zh-TW">無法認證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DA_POLICY_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Policy Requirement</base>
+        <tran loc="zh-TW">規則要求</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the missing password dialog </Description>
+      <Position>MISSING_PASSWORD_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Password Required</base>
+        <tran loc="zh-TW">需要密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_CARDDAV</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the CardDAV account “%@”</base>
+        <tran loc="zh-TW">輸入CardDAV帳號「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_LDAP</Position>
+      <TranslationSet>
+        <base loc="en">An identical LDAP account already exists.</base>
+        <tran loc="zh-TW">相同的LDAP帳號已存在。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_SUBCAL</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Subscribed Calendar “%@”</base>
+        <tran loc="zh-TW">輸入已訂閱的行事曆「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Subscribe</base>
+        <tran loc="zh-TW">無法訂閱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Header of the alert presented when the exchange server certificate could not be verified  </Description>
+      <Position>SERVER_CERTIFICATE_ERROR_ALERT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Verify Certificate</base>
+        <tran loc="zh-TW">無法驗證憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Outlook account “%@”</base>
+        <tran loc="zh-TW">輸入Outlook帳號「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Meeting response server failure dialog </Description>
+      <Position>MEETING_RESPONSE_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendar Invitation</base>
+        <tran loc="zh-TW">行事曆邀請</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Accepting (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_ACCEPTED</Position>
+      <TranslationSet>
+        <base loc="en">Accepted:</base>
+        <tran loc="zh-TW">已接受：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Acknowledgement of alert </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to accept a password </Description>
+      <Position>PASSWORD_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_CARDDAV</Position>
+      <TranslationSet>
+        <base loc="en">An identical CardDAV account already exists.</base>
+        <tran loc="zh-TW">相同的CardDAV帳號已存在。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEETING_RESPONSE_FAILURE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your response to the invitation cannot be sent.</base>
+        <tran loc="zh-TW">無法傳送邀請回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button titles </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to cancel password entry </Description>
+      <Position>PASSWORD_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to cancel an unverified server certificate </Description>
+      <Position>SERVER_CERTIFICATE_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTH_NEEDED_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Calendar at %@ requires authentication</base>
+        <tran loc="zh-TW">%@的行事曆需要認證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BLACK</Position>
+      <TranslationSet>
+        <base loc="en">Black</base>
+        <tran loc="zh-TW">黑色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Create Account</base>
+        <tran loc="zh-TW">無法建立帳號</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These are passed into ManagedConfiguration.  The first is put into a string like:
+"the account “%@” can't do something until you set a passcode".  Here's a sample expansion:
+Policy Requirement
+The account “MyExchangeAccount” can't do something until you set a passcode
+[Disable]
+</Description>
+      <Position>DA_POLICY_COMPLIANCE_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">The account “%@” cannot receive new data until a new passcode is set.</base>
+        <tran loc="zh-TW">設定新密碼後帳號「%@」才能接收新資料。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*** Subscribed Calendar Setup 
+ Alert Strings </Description>
+      <Position>VALIDATED_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe to the calendar “%@”?</base>
+        <tran loc="zh-TW">要訂閱行事曆「%@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VIEW_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">View Events</base>
+        <tran loc="zh-TW">檢視行程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EDIT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Edit Settings</base>
+        <tran loc="zh-TW">編輯設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Content of the invalid password dialog </Description>
+      <Position>INVALID_PASSWORD_BODY_EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Exchange account “%@”</base>
+        <tran loc="zh-TW">輸入Exchange帳號「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main tasks store </Description>
+      <Position>AUTOGENERATED_MAIN_TASKS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Tasks</base>
+        <tran loc="zh-TW">工作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_LDAP</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the LDAP account “%@”</base>
+        <tran loc="zh-TW">輸入LDAP帳號「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the invalid password dialog </Description>
+      <Position>INVALID_PASSWORD_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Password Incorrect</base>
+        <tran loc="zh-TW">密碼不正確</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_CALDAV</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the CalDAV account “%@”</base>
+        <tran loc="zh-TW">輸入CalDAV帳號「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DA_POLICY_FAILURE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Disable</base>
+        <tran loc="zh-TW">停用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text inside the password entry field </Description>
+      <Position>INVALID_PASSWORD_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="zh-TW">密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">An identical Outlook account already exists.</base>
+        <tran loc="zh-TW">相同的Outlook帳號已存在。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEETING_RESPONSE_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">RE:</base>
+        <tran loc="zh-TW">回覆：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">An identical Exchange account already exists.</base>
+        <tran loc="zh-TW">相同的Exchange帳號已存在。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main notes store </Description>
+      <Position>AUTOGENERATED_MAIN_NOTES_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="zh-TW">記事</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text inside the username entry field </Description>
+      <Position>INVALID_USERNAME_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="zh-TW">使用者名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main event calendar </Description>
+      <Position>AUTOGENERATED_MAIN_EVENT_CALENDAR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="zh-TW">行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_SUBCAL</Position>
+      <TranslationSet>
+        <base loc="en">An identical Subscribed Calendar account already exists.</base>
+        <tran loc="zh-TW">相同的已訂閱的行事曆帳號已存在。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main contacts store </Description>
+      <Position>AUTOGENERATED_MAIN_CONTACTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="zh-TW">聯絡人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_CALDAV</Position>
+      <TranslationSet>
+        <base loc="en">An identical CalDAV account already exists.</base>
+        <tran loc="zh-TW">相同的CalDAV帳號已存在。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Content of the invalid client certificate dialog </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Cannot authenticate to the server “%@” because the certificate is not valid.</base>
+        <tran loc="zh-TW">無法進行伺服器「%@」認證，因為憑證無效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the account “%@”</base>
+        <tran loc="zh-TW">輸入帳號「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

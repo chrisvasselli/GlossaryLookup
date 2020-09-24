@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>GuidedAccess</ProjName>
+  <File>
+    <Filepath>GuidedAccess/System/Library/AccessibilityBundles/GuidedAccess.axuiservice/en.lproj/GuidedAccess.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_RUNNING_NOTE_WITH_TOUCH_ID</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access is enabled.\nTriple-click the home button or use Touch ID to exit.</base>
+        <tran loc="zh-CN">已启用“引导式访问”。\n连按三次主屏幕按钮或使用触控ID退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_CLOSE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-CN">删除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANNOT_REUSE_PASSCODE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Reuse Passcode</base>
+        <tran loc="zh-CN">无法重新使用密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> description for restrictions placed on the device in autonomous single-app mode. May be displayed by ManagedConfiguration.</Description>
+      <Position>APP_SELF_LOCK_UNMANAGED_RESTRICTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Unmanaged Autonomous Single-App Mode Restrictions</base>
+        <tran loc="zh-CN">未受管理的自动单App模式访问限制</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_RUNNING_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access is enabled.\nTriple-click the home button to exit.</base>
+        <tran loc="zh-CN">“引导式访问”已启用。\n连按三次主屏幕按钮可退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOUCH_ID_FAILED_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access is enabled.\nTry again with Touch ID.</base>
+        <tran loc="zh-CN">“引导式访问”已启用。\n用触控ID再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACE_ID_FAILED_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access is enabled.\nTry again with Face ID.</base>
+        <tran loc="zh-CN">“引导式访问”已启用。\n用面容ID再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-CN">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> used only in an error condition to avoid crashing</Description>
+      <Position>APP_SELF_LOCK_UNKNOWN_APP_NAME</Position>
+      <TranslationSet>
+        <base loc="en">an unknown application</base>
+        <tran loc="zh-CN">未知应用程序</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONS_FEATURE_HARDWARE</Position>
+      <TranslationSet>
+        <base loc="en">Hardware Buttons</base>
+        <tran loc="zh-CN">硬件按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_RESIZE_BOTTOM_RIGHT</Position>
+      <TranslationSet>
+        <base loc="en">Bottom Right</base>
+        <tran loc="zh-CN">右下方</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USER_LOCKED_OUT_VIA_FAIL</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect passcode.\nYou may try again after %@ seconds.</base>
+        <tran loc="zh-CN">密码错误。\n您可以在%@秒钟后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "Time Expired.\niPad is no longer locked to AnApplicationName."</Description>
+      <Position>APP_SELF_LOCK_TIMED_OUT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Time Expired.\nYour iPhone is no longer locked to %1$@.</base>
+        <tran loc="zh-CN">已过期。iPhone已不再锁定在%[tt]@内。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "iPad is now locked to AnApplicationName. iPad will be unlocked when AnApplicationName ends Single App Mode, or after 3 hours"</Description>
+      <Position>APP_SELF_LOCK_STARTED_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Your iPad is now locked to %1$@.\nYour iPad will be unlocked when %1$@ ends Single App Mode, or after %2$@.</base>
+        <tran loc="zh-CN">iPad现已锁定在“%1$@”内。\n在“%1$@”结束“单APP模式”后，或%2$@后，iPad将解锁。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PINCODE_TITLE_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">Enter Passcode</base>
+        <tran loc="zh-CN">输入密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>END</Position>
+      <TranslationSet>
+        <base loc="en">End</base>
+        <tran loc="zh-CN">结束</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HARDWARE_FEATURE_LOCK_IPHONE_NHB</Position>
+      <TranslationSet>
+        <base loc="en">Side Button</base>
+        <tran loc="zh-CN">侧边按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HELP_INTEREST_AREA</Position>
+      <TranslationSet>
+        <base loc="en">Circle areas on the screen you would like to disable.</base>
+        <tran loc="zh-CN">在屏幕上您要停用的区域画圈。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> help instructions </Description>
+      <Position>HELP_GENERAL</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access restricts system features and touch interaction.</base>
+        <tran loc="zh-CN">“引导式访问”会限制系统功能和触控交互。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_STARTED</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access Started</base>
+        <tran loc="zh-CN">引导式访问开始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USER_LOCKED_OUT_VIA_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Passcode entry disabled.\nYou may try again after %@ seconds.</base>
+        <tran loc="zh-CN">密码输入已停用。\n您可以在%@秒钟后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_ENDED_POWER_BUTTON_EXIT_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Triple-click the Side Button to exit</base>
+        <tran loc="zh-CN">连按三次侧边按钮退出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "iPod touch is now locked to AnApplicationName. iPod touch will be unlocked when AnApplicationName ends Single App Mode, or after 3 hours"</Description>
+      <Position>APP_SELF_LOCK_STARTED_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Your iPod touch is now locked to %1$@.\nYour iPod touch will be unlocked when %1$@ ends Single App Mode, or after %2$@.</base>
+        <tran loc="zh-CN">iPod touch现已锁定在“%1$@”内。\n在“%1$@”结束“单App模式”后，或%2$@后，iPod touch将解锁。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_RUNNING_NOTE_NHB</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access is enabled.\nTriple-click the side button to exit.</base>
+        <tran loc="zh-CN">“引导式访问”已启用。\n连按三次侧边按钮可退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>START</Position>
+      <TranslationSet>
+        <base loc="en">Start</base>
+        <tran loc="zh-CN">开始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_RESIZE_KNOB_HINT</Position>
+      <TranslationSet>
+        <base loc="en">Double tap and hold, then drag to adjust region</base>
+        <tran loc="zh-CN">轻点两下并按住，然后拖移以调整地区</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_RESIZE_TOP_LEFT</Position>
+      <TranslationSet>
+        <base loc="en">Top Left</base>
+        <tran loc="zh-CN">左上方</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_SELF_LOCK_DENY_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="zh-CN">否</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "Time Expired.\niPod touch is no longer locked to AnApplicationName."</Description>
+      <Position>APP_SELF_LOCK_TIMED_OUT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Time Expired.\nYour iPod touch is no longer locked to %1$@.</base>
+        <tran loc="zh-CN">已过期。iPod touch已不再锁定在%[tt]@内。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_RESIZE_TOP_RIGHT</Position>
+      <TranslationSet>
+        <base loc="en">Top Right</base>
+        <tran loc="zh-CN">右上方</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> First interpolation is the app name, second the device name</Description>
+      <Position>APP_SELF_LOCK_CONFIRM_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to start Single App Mode. You will be unable to use other apps on %2$@ until %1$@ ends Single App Mode. Do you want to allow this?</base>
+        <tran loc="zh-CN">“%1$@”想开始“单App模式”。“%1$@”结束“单App模式”之前您将无法在“%2$@”上使用其他App。要允许吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_RESIZE_BOTTOM_LEFT</Position>
+      <TranslationSet>
+        <base loc="en">Bottom Left</base>
+        <tran loc="zh-CN">左下方</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> passcode strings </Description>
+      <Position>PINCODE_TITLE_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Set Passcode</base>
+        <tran loc="zh-CN">设置密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GAX_TIME_RESTRICTION_LOCKOUT_VIEW_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">A time limit of %@ has been set for Guided Access. Triple-click to enter the Guided Access passcode.</base>
+        <tran loc="zh-CN">引导式访问时间限制设为%@。请连按三次，输入引导式访问的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Options</base>
+        <tran loc="zh-CN">选项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "iPad is no longer locked to AnApplicationName." The device was explicitly unlocked by the app.</Description>
+      <Position>APP_SELF_LOCK_ENDED_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Your iPad is no longer locked to %1$@.</base>
+        <tran loc="zh-CN">iPad已不再锁定在%[tt]@内。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GAX_TIME_RESTRICTION_LOCKOUT_VIEW_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Time Expired</base>
+        <tran loc="zh-CN">超时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESUME</Position>
+      <TranslationSet>
+        <base loc="en">Resume</base>
+        <tran loc="zh-CN">继续</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+*  GuidedAccess.strings
+ 
+*  GuidedAccess
+ 
+*
+ 
+*  Created by Darren Minifie on 10/7/11.
+ 
+*  Copyright © 2011-2013 Apple Inc. All rights reserved.
+ 
+*
+ 
+ general </Description>
+      <Position>GUIDED_ACCESS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access</base>
+        <tran loc="zh-CN">引导式访问</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "Time Expired.\niPad is no longer locked to AnApplicationName."</Description>
+      <Position>APP_SELF_LOCK_TIMED_OUT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Time Expired.\nYour iPad is no longer locked to %1$@.</base>
+        <tran loc="zh-CN">已过期。iPad已不再锁定在%[tt]@内。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYS_FEATURE_KEYBOARD_TEXT_INPUT</Position>
+      <TranslationSet>
+        <base loc="en">Keyboards</base>
+        <tran loc="zh-CN">键盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HARDWARE_FEATURE_VOLUME</Position>
+      <TranslationSet>
+        <base loc="en">Volume Buttons</base>
+        <tran loc="zh-CN">音量按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_RESIZE_KNOB</Position>
+      <TranslationSet>
+        <base loc="en">Resize</base>
+        <tran loc="zh-CN">调整大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_SELF_LOCK_ALLOW_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="zh-CN">是</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_ENDED</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access Ended</base>
+        <tran loc="zh-CN">引导式访问结束</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility </Description>
+      <Position>AX_APPLICATION</Position>
+      <TranslationSet>
+        <base loc="en">Application</base>
+        <tran loc="zh-CN">应用程序</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SESSION_RUNNING_NOTE_WITH_FACE_ID</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access is enabled.\nTriple-click the side button or use Face ID to exit.</base>
+        <tran loc="zh-CN">已启用“引导式访问”。\n连按三次侧边按钮或使用面容ID退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYS_FEATURE_MOTION</Position>
+      <TranslationSet>
+        <base loc="en">Motion</base>
+        <tran loc="zh-CN">动作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_IS_RESTRICTED</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access app unavailable. Please contact your administrator</base>
+        <tran loc="zh-CN">“引导式访问”App不可用。请联系您的管理员</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYS_FEATURE_TOUCH</Position>
+      <TranslationSet>
+        <base loc="en">Touch</base>
+        <tran loc="zh-CN">触摸</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> incoming call </Description>
+      <Position>INCOMING_CALL_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">incoming call</base>
+        <tran loc="zh-CN">来电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;OPTIONS_FEATURE&gt; Options</Description>
+      <Position>OPTIONS_FEATURE</Position>
+      <TranslationSet>
+        <base loc="en">%@ Options</base>
+        <tran loc="zh-CN">“%@”选项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Passcodes did not match</base>
+        <tran loc="zh-CN">密码不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Time Restrictions </Description>
+      <Position>TIME_RESTRICTION_FEATURE</Position>
+      <TranslationSet>
+        <base loc="en">Time Limit</base>
+        <tran loc="zh-CN">时间限制</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. 3 minutes, 45 seconds Remaining</Description>
+      <Position>TIME_RESTRICTION_APP_TIME_REMAINING_TOP_BANNER</Position>
+      <TranslationSet>
+        <base loc="en">%@ remaining</base>
+        <tran loc="zh-CN">还剩%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Spoken aloud by the synthesizer</Description>
+      <Position>GAX_TIME_RESTRICTION_DID_EXPIRE_SPEECH_STRIMG</Position>
+      <TranslationSet>
+        <base loc="en">Guided Access time has ended</base>
+        <tran loc="zh-CN">引导式访问时间已结束</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_SELF_LOCK_CONFIRM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Confirm App Self-Lock</base>
+        <tran loc="zh-CN">确认App自我锁定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. Time Limit: 5h 15m</Description>
+      <Position>TIME_RESTRICTION_APP_TIME_REMAINING_CENTER_BANNER</Position>
+      <TranslationSet>
+        <base loc="en">Time Limit\n%@</base>
+        <tran loc="zh-CN">限时\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> names of features that can be disabled </Description>
+      <Position>HARDWARE_FEATURE_LOCK_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Sleep/Wake Button</base>
+        <tran loc="zh-CN">睡眠/唤醒按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HARDWARE_FEATURE_LOCK_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Sleep/Wake Button</base>
+        <tran loc="zh-CN">睡眠/唤醒按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HARDWARE_FEATURE_LOCK_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Sleep/Wake Button</base>
+        <tran loc="zh-CN">睡眠/唤醒按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PINCODE_TITLE_CONFIRM</Position>
+      <TranslationSet>
+        <base loc="en">Confirm Passcode</base>
+        <tran loc="zh-CN">确认密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "iPad is no longer locked to AnApplicationName." The device was explicitly unlocked by the app.</Description>
+      <Position>APP_SELF_LOCK_ENDED_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your iPhone is no longer locked to %1$@.</base>
+        <tran loc="zh-CN">iPhone已不再锁定在%[tt]@内。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "iPod touch is no longer locked to AnApplicationName." The device was explicitly unlocked by the app.</Description>
+      <Position>APP_SELF_LOCK_ENDED_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Your iPod touch is no longer locked to %1$@.</base>
+        <tran loc="zh-CN">iPod touch已不再锁定在%[tt]@内。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "iPad is now locked to AnApplicationName. iPad will be unlocked when AnApplicationName ends Single App Mode, or after 3 hours"</Description>
+      <Position>APP_SELF_LOCK_STARTED_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your iPhone is now locked to %1$@.\nYour iPhone will be unlocked when %1$@ ends Single App Mode, or after %2$@.</base>
+        <tran loc="zh-CN">iPhone现已锁定在“%1$@”内。\n在“%1$@”结束“单App模式”后，或%2$@后，iPhone将解锁。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>GuidedAccess/System/Library/AccessibilityBundles/GuidedAccess.axuiservice/en.lproj/GuidedAccess.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/AX_INTEREST_AREA_COUNT:dict/areas:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d areas</base>
+        <tran loc="zh-CN">%d个区域</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/AX_INTEREST_AREA_COUNT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@areas@</base>
+        <tran loc="zh-CN">%#@areas@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/AX_INTEREST_AREA_COUNT:dict/areas:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">no areas</base>
+        <tran loc="zh-CN">无区域</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>GuidedAccess/System/Library/AccessibilityBundles/GAXClient.bundle/en.lproj/GuidedAccessAppStrings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DICTIONARY_LOOKUP</Position>
+      <TranslationSet>
+        <base loc="en">Dictionary Lookup</base>
+        <tran loc="zh-CN">词典查询</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_RESETTING_AX_FEATURES_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Cannot reset Accessibility features.</base>
+        <tran loc="zh-CN">无法重设“辅助功能”相关功能。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_REQUESTING_SESSION</Position>
+      <TranslationSet>
+        <base loc="en">An unexpected error occurred when attempting to start a Guided Access session.</base>
+        <tran loc="zh-CN">尝试开始引导式访问会话时发生意外错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ENDING_SESSION</Position>
+      <TranslationSet>
+        <base loc="en">An unexpected error occurred when attempting to end a Guided Access session.</base>
+        <tran loc="zh-CN">尝试结束引导式访问会话时发生意外错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_RESETTING_AX_FEATURES_NOT_LOCKED_IN_SAM</Position>
+      <TranslationSet>
+        <base loc="en">Cannot reset Accessibility features: app is not locked into SAM</base>
+        <tran loc="zh-CN">无法重设“辅助功能”相关功能：App未锁定为“单App模式”</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

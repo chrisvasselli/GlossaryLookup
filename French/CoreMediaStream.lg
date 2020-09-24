@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreMediaStream</ProjName>
+  <File>
+    <Filepath>CoreMediaStream/System/Library/PrivateFrameworks/CoreMediaStream.framework/en.lproj/CoreMediaStream.strings</Filepath>
+    <TextItem>
+      <Description>
+   CoreMediaStream.strings
+   CoreMediaStream
+
+   Created by Dave Rahardja on 8/24/10.
+   Copyright 2010 Apple Inc. All rights reserved.
+
+   You must include these language resources in your project, and provide the MSLocalizedString() function.
+ 
+ Errors</Description>
+      <Position>ERROR_CONNECTION_CORE_FAILED_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="fr">Le serveur de flux de photos a signalé une erreur de serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="fr">Le serveur de flux de photos a signalé une erreur de serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="fr">Le serveur de flux de photos a signalé une erreur de serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARE_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="fr">Le serveur de flux de photos a signalé une erreur de serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_INCOMPLETE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned an incomplete response.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé une réponse incomplète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_BOTH_WAYS_P_NAME_P_EMAIL_P_FNAME</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s (%2$@) Photo Stream and let %3$@ see your Photo Stream?</base>
+        <tran loc="fr">Souhaitez-vous voir les photos du flux de photos de %1$@ (%2$@) et autoriser %3$@ à voir votre flux de photos ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_OUR_STREAM_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped viewing the photos in your stream.</base>
+        <tran loc="fr">%1$@ ne regarde plus les photos de votre flux.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MMCS_TOKEN_TOO_OLD</Position>
+      <TranslationSet>
+        <base loc="en">Access to the shared photo must be requested again.</base>
+        <tran loc="fr">L’accès à la photo partagée doit être redemandé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_VISITOR_AUTH_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream subscription needs to be reauthorized.</base>
+        <tran loc="fr">L’abonnement à un flux de photos partagé doit être à nouveau autorisé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitations </Description>
+      <Position>INV_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Share Photo Streams</base>
+        <tran loc="fr">Partager les flux de photos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation with email only </Description>
+      <Position>INV_SHARE_BOTH_WAYS_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s Photo Stream and let them see your Photo Stream?</base>
+        <tran loc="fr">Souhaitez-vous voir les photos du flux de photos de %1$@ et l’autoriser à voir votre flux de photos ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_BANDWIDTH</Position>
+      <TranslationSet>
+        <base loc="en">Server bandwidth limit exceeded, please try again later.</base>
+        <tran loc="fr">Limite de bande passante du serveur dépassée, réessayez plus tard.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_CANNOT_REQUEUE_AFTER_URL</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream operation is missing an album.</base>
+        <tran loc="fr">Un album est manquant pour l’opération du flux de photos partagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_STREAMS_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response during publication.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé une réponse non valide lors de la publication.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_SUBSCRIPTIONS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not subscribe to more than %@ Shared Photo Streams.</base>
+        <tran loc="fr">Vous ne pouvez pas vous abonner à plus de %@ flux de photos partagés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_IGNORED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not respond to the upload request.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés n’a pas répondu à la requête de transfert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_STOPPING</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photo Streams is pausing.</base>
+        <tran loc="fr">La fonction Flux de photos partagés est en pause.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_NEED_RESUBMISSION</Position>
+      <TranslationSet>
+        <base loc="en">The photo file was changed before it could be uploaded.</base>
+        <tran loc="fr">Le fichier de photo a été modifié avant de pouvoir être téléchargé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_COMMENT_LENGTH</Position>
+      <TranslationSet>
+        <base loc="en">The comment is too long.</base>
+        <tran loc="fr">Le commentaire est trop long.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_OUR_STREAM_P_NAME_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to let %1$@ (%2$@) see your Photo Stream?</base>
+        <tran loc="fr">Souhaitez-vous autoriser %1$@ (%2$@) à voir votre flux de photos ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_NOT_AUTH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be accessed.</base>
+        <tran loc="fr">Le fichier de photo n’est pas accessible.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared.</base>
+        <tran loc="fr">Impossible de partager la photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_INVALID_STREAMS_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response during a subscription update.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé une réponse non valide lors de la mise à jour d’un abonnement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_BOTH_WAYS_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped sharing Photo Streams with you.</base>
+        <tran loc="fr">%1$@ ne partage plus ses flux de photos avec vous.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_INVITATIONS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not invite more than %@ subscribers per day to Shared Photo Streams.</base>
+        <tran loc="fr">Vous ne pouvez pas inviter plus de %@ abonnés par jour aux flux de photos partagés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_SUBSCRIBERS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not invite more than %@ subscribers to one Shared Photo Stream.</base>
+        <tran loc="fr">Vous ne pouvez pas inviter plus de %@ abonnés par jour à un flux de photos partagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream upload has been canceled.</base>
+        <tran loc="fr">Le téléchargement du flux de photos partagé a été annulé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MISSING_URL</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared because a URL is missing.</base>
+        <tran loc="fr">Impossible de partager la photo, car il manque une URL.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ASSET_BAD_SIGNATURE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file has a bad file identifier.</base>
+        <tran loc="fr">Le fichier de photo a un identifiant incorrect.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream sharing status contains an invalid field “%@”.</base>
+        <tran loc="fr">L’état de partage du flux de photos partagé comporte un champ non valide « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">The photo sharing operation was canceled.</base>
+        <tran loc="fr">L’opération de partage de la photo a été annulée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_ALREADY_EXISTS</Position>
+      <TranslationSet>
+        <base loc="en">The photo already exists in the Shared Photo Stream.</base>
+        <tran loc="fr">La photo fait déjà partie du flux de photos partagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_INVALID_PUSH_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The invitation contains an invalid field “%@”.</base>
+        <tran loc="fr">L’invitation comporte un champ non valide « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_BAD_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">The photo access token has expired.</base>
+        <tran loc="fr">Le jeton d’accès de la photo a expiré.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_ENCODE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation cannot be sent to the server.</base>
+        <tran loc="fr">L’opération de flux de photos partagés ne peut pas être envoyée vers le serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ASSET_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo has been rejected for uploading.</base>
+        <tran loc="fr">La photo a été rejetée pour le téléchargement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_OUR_STREAM_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to let %1$@ see your Photo Stream?</base>
+        <tran loc="fr">Souhaitez-vous autoriser %1$@ à voir votre flux de photos ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_DOWNLOADER_ORPHANED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be downloaded.</base>
+        <tran loc="fr">Impossible de télécharger la photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation could not be completed.</base>
+        <tran loc="fr">L’opération de flux de photos partagés n’a pu être effectuée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The publisher is missing</base>
+        <tran loc="fr">Éditeur manquant</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_PHOTO_NOT_IN_MODEL</Position>
+      <TranslationSet>
+        <base loc="en">The photo is no longer in the Shared Photo Stream.</base>
+        <tran loc="fr">La photo ne fait plus partie du flux de photos partagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_SET_MULTIPLECONTRIBUTORS</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be set to allow multiple contributors</base>
+        <tran loc="fr">Impossible d’autoriser plusieurs contributeurs au flux de photos partagé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Model </Description>
+      <Position>Model.error.invalidInvitationGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The invitation GUID “%@” could not be found.</base>
+        <tran loc="fr">Le GUID « %@ » de l’invitation est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.invalidACLGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The access control GUID “%@” could not be found.</base>
+        <tran loc="fr">Le GUID « %@ » du contrôle d’accès est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an invalid field “%@”.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés a renvoyé un champ non valide « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COMMENT_NO_INDEX</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server could not assign a position for the comment.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés n’a pas pu attribuer une position au commentaire.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_CANNOT_PUBLISH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be published.</base>
+        <tran loc="fr">Le fichier de photo ne peut être publié.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_MISSING_ASSET_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">A photo is missing the parameter “%@”.</base>
+        <tran loc="fr">Le paramètre « %@ » est manquant dans une photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred during communication with the Photo Stream server (%@).</base>
+        <tran loc="fr">Une erreur de réseau s’est produite lors de la communication avec le serveur de flux de photos (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ASSET_TOO_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is too large.</base>
+        <tran loc="fr">Le fichier de photo est trop volumineux.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_STATE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream could not be processed.</base>
+        <tran loc="fr">Le flux de photos n’a pas pu être traité.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_BAD_FILE_HASH_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">A photo in the Photo Stream could not be retrieved.</base>
+        <tran loc="fr">Une photo du flux de photos n’a pas pu être récupérée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_STORAGE_URL</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response did not include a valid storage URL.</base>
+        <tran loc="fr">La réponse du serveur de flux de photos n’incluait pas d’URL de stockage valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_THEIR_STREAM_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped sharing photos with you.</base>
+        <tran loc="fr">%1$@ ne partage plus ses photos avec vous.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_NOT_REAUTHED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not allow the photo to be downloaded.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés n’a pas autorisé le téléchargement de la photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.invalidAssetCollectionGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The photo GUID “%@” could not be found.</base>
+        <tran loc="fr">Le GUID « %@ » de la photo est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sharing updates </Description>
+      <Position>UPDATE_PHOTO_STREAM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Photo Stream</base>
+        <tran loc="fr">Flux de photos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_SUB_NO_METADATA</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not provide any information for the photo.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés n’a fourni aucune information sur la photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DELETE_CORE_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream deletion response contains an invalid field “%@”.</base>
+        <tran loc="fr">La réponse de la suppression du flux de photos comporte un champ non valide « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_SHUTTING_DOWN</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photo Streams is shutting down.</base>
+        <tran loc="fr">La fonction Flux de photos partagés est désactivée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_MISSING_CHUNK</Position>
+      <TranslationSet>
+        <base loc="en">A data file is missing from the Photo Stream.</base>
+        <tran loc="fr">Il manque un fichier de données dans le flux de photos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_AUTH_FAILED_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has rejected the user’s login credentials.</base>
+        <tran loc="fr">Le serveur de flux de photos a rejeté les données de connexion de l’utilisateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while publishing photos to the Photo Stream server (%@).</base>
+        <tran loc="fr">Une erreur de réseau s’est produite lors de la publication de photos sur le serveur de flux de photos (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CORE_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while publishing photos to the Photo Stream server (%@).</base>
+        <tran loc="fr">Une erreur de réseau s’est produite lors de la publication de photos sur le serveur de flux de photos (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream subscription check has been canceled.</base>
+        <tran loc="fr">L’abonnement à un flux de photos partagé a été annulé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_ALBUMS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not create more than %@ Shared Photo Streams.</base>
+        <tran loc="fr">Vous ne pouvez pas créer plus de %@ flux de photos partagés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_PHOTO_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo was not uploaded to Shared Photo Streams.</base>
+        <tran loc="fr">La photo n’a pas été transférée vers les flux de photos partagés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_INVITATION</Position>
+      <TranslationSet>
+        <base loc="en">The invitation could not be accepted.</base>
+        <tran loc="fr">L’invitation n’a pas pu être acceptée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_THEIR_STREAM_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s Photo Stream?</base>
+        <tran loc="fr">Souhaitez-vous voir les photos du flux de photos de %1$@ ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_INVALID_FIELD_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response for the subscription field “%@”.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé une réponse non valide pour le champ d’abonnement « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_MISMATCHED_COLLECTION</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned a mismatched photo identifier.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés a renvoyé un identifiant de photo incorrect.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_BAD_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an invalid field.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés a renvoyé un champ non valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_NO_URL_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">A connection to the Photo Stream server could not be made.</base>
+        <tran loc="fr">Il est impossible d’établir une connexion au serveur de flux de photos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_ASSET_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response did not include the correct upload authorization.</base>
+        <tran loc="fr">La réponse du serveur de flux de photos n’incluait pas l’autorisation de téléchargement adéquate.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_COMMENTS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">A photo may not have more than %@ comments.</base>
+        <tran loc="fr">Une photo ne peut avoir plus de %@ commentaires.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_GET_ASSET</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be downloaded.</base>
+        <tran loc="fr">Le fichier de photo ne peut être téléchargé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_RETRIEVE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be downloaded.</base>
+        <tran loc="fr">Le fichier de photo ne peut être téléchargé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DELETER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream deletion has been canceled.</base>
+        <tran loc="fr">La suppression du flux de photos a été annulée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_THEIR_STREAM_P_NAME_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s (%2$@) Photo Stream?</base>
+        <tran loc="fr">Souhaitez-vous voir les photos du flux de photos de %1$@ (%2$@) ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_MISSING_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is missing information needed for uploading.</base>
+        <tran loc="fr">Il manque des informations au fichier de photo qui sont nécessaires pour permettre son transfert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_CANNOT_COMPUTE_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be queued for uploading.</base>
+        <tran loc="fr">Le fichier de photo ne peut être mis en attente pour être transféré.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream response contains an invalid field “%@”.</base>
+        <tran loc="fr">La réponse du flux de photos comporte un champ non valide « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_FORBIDDEN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has rejected the user’s request.</base>
+        <tran loc="fr">Le serveur de flux de photos a rejeté la requête de l’utilisateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation was canceled.</base>
+        <tran loc="fr">L’opération de flux de photos partagés a été annulée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_STOPPED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation was stopped.</base>
+        <tran loc="fr">L’opération de flux de photos partagés a été arrêtée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_SET_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be made public</base>
+        <tran loc="fr">Le flux de photos partagé n’a pas pu être rendu public</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_INVALID_CHUNK_SIZE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response with an invalid size.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé une réponse d’une taille non valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_SUB_MISSING_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The response to the Shared Photo Stream request is missing the field “%@”.</base>
+        <tran loc="fr">Le champ « %@ » est absent de la réponse à la requête du flux de photos partagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_HTTP_ERROR_P_CODE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an error (%@).</base>
+        <tran loc="fr">Le serveur de flux de photos partagés a renvoyé une erreur (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_CHUNK_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response with an invalid data block.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé une réponse avec un bloc de données non valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while retrieving photos from the Photo Stream server (%@).</base>
+        <tran loc="fr">Une erreur de réseau s’est produite lors de la récupération de photos depuis le serveur de flux de photos (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MISSING_MMCS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared because an access token is missing.</base>
+        <tran loc="fr">Impossible de partager la photo, car il manque un jeton d’accès.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_UNSET_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be made non-public</base>
+        <tran loc="fr">Le flux de photos partagé n’a pas pu être rendu non public</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_ALBUM</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream for the photo could not be found.</base>
+        <tran loc="fr">Le flux de photo partagé de la photo est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while retrieving subscription information from Photo Stream server (%@).</base>
+        <tran loc="fr">Une erreur de réseau s’est produite lors de la récupération de données d’abonnement depuis le serveur de flux de photos (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_UNSET_MULTIPLECONTRIBUTORS</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be set to not allow multiple contributors</base>
+        <tran loc="fr">Impossible de refuser d’avoir plusieurs contributeurs au flux de photos partagé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_CANNOT_QUEUE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be queued for upload.</base>
+        <tran loc="fr">Le fichier de photo ne peut être mis en attente pour être transféré.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_CANNOT_PARSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response could not be understood.</base>
+        <tran loc="fr">Impossible d’analyser la réponse du serveur de flux de photos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_INVALID_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server reported a sharing status of the wrong type.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés a signalé un état de partage du mauvais type.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_ALBUM_STATE_CTAG_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream state could not be set.</base>
+        <tran loc="fr">L’état du flux de photos partagé n’a pu être défini.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_UTI_REJECTED_P_UTI</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server cannot accept files of type “%@”.</base>
+        <tran loc="fr">Le serveur de flux de photos partagés ne peut pas accepter les fichiers de type « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_SEND_QUEUE_MISMATCH</Position>
+      <TranslationSet>
+        <base loc="en">Found mismatch between expecting sending queue count and actual count</base>
+        <tran loc="fr">Le nombre attendu d’envois mis en attente et le nombre réel ne correspondent pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BLOCK_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a block that is too short.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé un bloc trop court.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_COMMENT</Position>
+      <TranslationSet>
+        <base loc="en">The comment could not be found.</base>
+        <tran loc="fr">Le commentaire est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_PART_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response block of the wrong type.</base>
+        <tran loc="fr">Le serveur de flux de photos a renvoyé un bloc de réponse du mauvais type.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_UPLOADER_ORPHANED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be uploaded.</base>
+        <tran loc="fr">Impossible de charger la photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_CREATE_ALBUM</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream “%@” could not be created.</base>
+        <tran loc="fr">Impossible de créer le flux de photos partagé « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Server-side config </Description>
+      <Position>SERVER_CONFIG_INVALID</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream configuration returned by the server is invalid.</base>
+        <tran loc="fr">La configuration du flux de photos renvoyée par le serveur n’est pas valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_GET_VIDEO</Position>
+      <TranslationSet>
+        <base loc="en">The video file cannot be downloaded.</base>
+        <tran loc="fr">Ce fichier vidéo est impossible à télécharger.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.protocol</Position>
+      <TranslationSet>
+        <base loc="en">An error was found while communicating with the Shared Photo Streams server.</base>
+        <tran loc="fr">Une erreur a été détectée lors de la communication avec le serveur de flux de photos partagés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_CANNOT_GET_FD</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is invalid.</base>
+        <tran loc="fr">Le fichier de photo n’est pas valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ASSET_INVALID</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is invalid.</base>
+        <tran loc="fr">Le fichier de photo n’est pas valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_PHOTOS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not share more than %@ photos in a Shared Photo Stream.</base>
+        <tran loc="fr">Vous ne pouvez pas partager plus de %@ photos dans un flux de photos partagé.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMediaStream/System/Library/PrivateFrameworks/CoreMediaStream.framework/en.lproj/MMCSKit.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANNOT_REGISTER_FILE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to register file.</base>
+        <tran loc="fr">Impossible d’enregistrer le fichier.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANNOT_GET_FD_P_ASSET</Position>
+      <TranslationSet>
+        <base loc="en">Unable to retrieve a file descriptor for asset %@</base>
+        <tran loc="fr">Impossible de récupérer un descripteur de fichier pour la ressource %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  MMCSKit.strings
+  CoreMediaStream
+
+  Created by Dave Rahardja on 11/24/11.
+  Copyright (c) 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>ERROR_CANNOT_FIND_ASSET_P_ITEMID</Position>
+      <TranslationSet>
+        <base loc="en">Unable to find an asset with item ID %lld</base>
+        <tran loc="fr">Impossible de trouver une ressource avec l’identifiant d’élément %lld</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

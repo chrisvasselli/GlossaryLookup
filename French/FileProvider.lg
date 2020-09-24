@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>FileProvider</ProjName>
+  <File>
+    <Filepath>FileProvider/System/Library/Frameworks/FileProvider.framework/en.lproj/Errors.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>UnsafeDisconnect-R(*)</Position>
+      <TranslationSet>
+        <base loc="en">The location couldn’t be disconnected. Do you want to force the disconnection?</base>
+        <tran loc="fr">La déconnexion de l’emplacement a échoué. Voulez-vous forcer la déconnexion ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>.f(Remove)</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Delete “%@”</base>
+        <tran loc="fr">Impossible de supprimer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoSuchItem-C.f(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be copied because it either doesn’t exist or the folder it is being copied to doesn’t exist.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être copié car il n’existe pas ou le dossier de destination n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Recovery-ItemExists(*)</Position>
+      <TranslationSet>
+        <base loc="en">Replace Existing Items?</base>
+        <tran loc="fr">Remplacer les éléments existants ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Recovery-NewerItemExists(*)</Position>
+      <TranslationSet>
+        <base loc="en">Replace Existing Items?</base>
+        <tran loc="fr">Remplacer les éléments existants ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Dialog title in case of collision</Description>
+      <Position>Recovery-OlderItemExists(*)</Position>
+      <TranslationSet>
+        <base loc="en">Replace Existing Items?</base>
+        <tran loc="fr">Remplacer les éléments existants ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-C.f(*)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” already exists in this location.</base>
+        <tran loc="fr">Le fichier « %@ » existe déjà à cet endroit.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists.f</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” already exists in this location.</base>
+        <tran loc="fr">Le fichier « %@ » existe déjà à cet endroit.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Recovery suggestions on collision
+ - move</Description>
+      <Position>OlderItemExists-R(Move)</Position>
+      <TranslationSet>
+        <base loc="en">An older version of the file already exists in this location. Do you want to replace it with the one you’re moving?</base>
+        <tran loc="fr">Une version plus ancienne du fichier est déjà présente dans cet emplacement. Souhaitez-vous remplacer le fichier par celui que vous déplacez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Stale version</Description>
+      <Position>VersionOutOfDate-C.f(Remove)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be removed because its contents are out of date.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être supprimé car son contenu est obsolète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Authentication errors</Description>
+      <Position>NotAuthenticated</Position>
+      <TranslationSet>
+        <base loc="en">You need to authenticate before accessing this item.</base>
+        <tran loc="fr">Vous devez vous authentifier avant d’accéder à cet élément.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">The Copy Operation Can’t Be Completed</base>
+        <tran loc="fr">La copie n’a pas pu être effectuée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Disconnect-Force</Position>
+      <TranslationSet>
+        <base loc="en">Force Disconnect</base>
+        <tran loc="fr">Forcer la déconnexion</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Disconnection errors</Description>
+      <Position>UnsafeDisconnect</Position>
+      <TranslationSet>
+        <base loc="en">“%@” couldn’t be disconnected.</base>
+        <tran loc="fr">La déconnexion de « %@ » a échoué.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UnsafeDisconnect-C.f(*)</Position>
+      <TranslationSet>
+        <base loc="en">“%@” couldn’t be disconnected.</base>
+        <tran loc="fr">La déconnexion de « %@ » a échoué.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists-R(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of the file already exists in this location. Do you want to replace it with the one you’re copying?</base>
+        <tran loc="fr">Une version plus récente du fichier est déjà présente dans cet emplacement. Souhaitez-vous remplacer le fichier par celui que vous copiez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OlderItemExists-R.f(Move)</Position>
+      <TranslationSet>
+        <base loc="en">An older item named “%@” already exists in this location. Do you want to replace it with the one you’re moving?</base>
+        <tran loc="fr">Un élément plus ancien nommé « %@ » est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous déplacez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-R(*)</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to replace it?</base>
+        <tran loc="fr">Voulez-vous le remplacer ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> - untagged variant</Description>
+      <Position>NewerItemExists-R(*)</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to replace it?</base>
+        <tran loc="fr">Voulez-vous le remplacer ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OlderItemExists-R(*)</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to replace it?</base>
+        <tran loc="fr">Voulez-vous le remplacer ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoSuchItem-C.f(Remove)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be removed because it doesn’t exist.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être supprimé car il n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoSuchItem</Position>
+      <TranslationSet>
+        <base loc="en">The file doesn’t exist.</base>
+        <tran loc="fr">Le fichier n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Server unreachable errors</Description>
+      <Position>ServerUnreachable</Position>
+      <TranslationSet>
+        <base loc="en">Your device couldn’t connect to the server. There may be a problem with the server or network.</base>
+        <tran loc="fr">Votre appareil n’a pas pu se connecter au serveur. Votre serveur ou votre réseau rencontrent peut-être des problèmes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "This location couldn't be disconnected."</Description>
+      <Position>Disconnect-Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Generic preflight errors</Description>
+      <Position>Preflight-Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Preflight-Continue</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="fr">Continuer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Collision errors (with recovery options)
+ Dialog title if we're not offering recovery</Description>
+      <Position>OlderItemExists</Position>
+      <TranslationSet>
+        <base loc="en">An older version of the file already exists in this location.</base>
+        <tran loc="fr">Une version plus ancienne du fichier est déjà présente dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failure reason</Description>
+      <Position>OlderItemExists-C(*)</Position>
+      <TranslationSet>
+        <base loc="en">An older version of the file already exists in this location.</base>
+        <tran loc="fr">Une version plus ancienne du fichier est déjà présente dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>(Rename)</Position>
+      <TranslationSet>
+        <base loc="en">The Rename Operation Can’t Be Completed</base>
+        <tran loc="fr">Le renommage n’a pas pu être effectué.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UnsafeDisconnect-C(*)</Position>
+      <TranslationSet>
+        <base loc="en">The location couldn’t be disconnected.</base>
+        <tran loc="fr">La déconnexion de l’emplacement a échoué.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists-C.f(*)</Position>
+      <TranslationSet>
+        <base loc="en">A newer item named “%@” already exists in this location.</base>
+        <tran loc="fr">Un élément plus récent nommé « %@ » est déjà présent dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists.f</Position>
+      <TranslationSet>
+        <base loc="en">A newer item named “%@” already exists in this location.</base>
+        <tran loc="fr">Un élément plus récent nommé « %@ » est déjà présent dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of the file already exists in this location.</base>
+        <tran loc="fr">Une version plus récente du fichier est déjà présente dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists-C(*)</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of the file already exists in this location.</base>
+        <tran loc="fr">Une version plus récente du fichier est déjà présente dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>(Move)</Position>
+      <TranslationSet>
+        <base loc="en">The Move Operation Can’t Be Completed</base>
+        <tran loc="fr">Le déplacement n’a pas pu être effectué.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VersionOutOfDate-C.f(Move)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be moved because its contents are out of date.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être déplacé car son contenu est obsolète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "An older version of the file already exists in this location. Do you want to replace it?</Description>
+      <Position>Copy-Replace</Position>
+      <TranslationSet>
+        <base loc="en">Replace</base>
+        <tran loc="fr">Remplacer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VersionOutOfDate</Position>
+      <TranslationSet>
+        <base loc="en">The file contents are out of date.</base>
+        <tran loc="fr">Le contenu du fichier est obsolète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoSuchItem-C.f(Rename)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be renamed because it doesn’t exist.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être renommé car il n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-R(Move)</Position>
+      <TranslationSet>
+        <base loc="en">The file already exists in this location. Do you want to replace it with the one you’re moving?</base>
+        <tran loc="fr">Le fichier est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous déplacez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PRAGMA MARK: - Generic variant fallback</Description>
+      <Position>(Open)</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open File</base>
+        <tran loc="fr">Impossible d’ouvrir le fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Errors.strings
+  FileProvider
+
+  Created by Johannes Fortmann on 6/16/17.
+  Copyright © 2017 Apple Inc. All rights reserved.
+
+ PRAGMA MARK: - No such item errors</Description>
+      <Position>NoSuchItem.f</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” doesn’t exist.</base>
+        <tran loc="fr">Le fichier « %@ » n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists-R(Move)</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of the file already exists in this location. Do you want to replace it with the one you’re moving?</base>
+        <tran loc="fr">Une version plus récente du fichier est déjà présente dans cet emplacement. Souhaitez-vous remplacer le fichier par celui que vous déplacez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoSuchItem-C.f(Move)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be moved because it either doesn’t exist or the folder it is being moved to doesn’t exist.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être déplacé car il n’existe pas ou le dossier de destination n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-R.f(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” already exists in this location. Do you want to replace it with the one you’re copying?</base>
+        <tran loc="fr">Le fichier « %@ » est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous copiez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoSuchItem-C.f(Open)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be opened because it doesn’t exist.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être ouvert car il n’existe pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>.f(Rename)</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Rename “%@”</base>
+        <tran loc="fr">Impossible de renommer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-R(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">The file already exists in this location. Do you want to replace it with the one you’re copying?</base>
+        <tran loc="fr">Le fichier est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous copiez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "An older version of the file already exists in this location. Do you want to replace it?</Description>
+      <Position>Copy-Stop</Position>
+      <TranslationSet>
+        <base loc="en">Stop</base>
+        <tran loc="fr">Arrêter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> - copy</Description>
+      <Position>OlderItemExists-R(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">An older version of the file already exists in this location. Do you want to replace it with the one you’re copying?</base>
+        <tran loc="fr">Une version plus ancienne du fichier est déjà présente dans cet emplacement. Souhaitez-vous remplacer le fichier par celui que vous copiez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UnsafeDisconnect-R.f(*)</Position>
+      <TranslationSet>
+        <base loc="en">“%@” couldn’t be disconnected. Do you want to force the disconnection?</base>
+        <tran loc="fr">La déconnexion de « %@ » a échoué. Voulez-vous forcer la déconnexion ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VersionOutOfDate-C.f(Open)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be opened because its contents are out of date.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être ouvert car son contenu est obsolète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>.f(Move)</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Move “%@”</base>
+        <tran loc="fr">Impossible de déplacer « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OlderItemExists-R.f(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">An older item named “%@” already exists in this location. Do you want to replace it with the one you’re copying?</base>
+        <tran loc="fr">Un élément plus ancien nommé « %@ » est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous copiez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-R.f(Move)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” already exists in this location. Do you want to replace it with the one you’re moving?</base>
+        <tran loc="fr">Le fichier « %@ » est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous déplacez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OlderItemExists-C.f(*)</Position>
+      <TranslationSet>
+        <base loc="en">An older item named “%@” already exists in this location.</base>
+        <tran loc="fr">Un élément plus ancien nommé « %@ » est déjà présent dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OlderItemExists.f</Position>
+      <TranslationSet>
+        <base loc="en">An older item named “%@” already exists in this location.</base>
+        <tran loc="fr">Un élément plus ancien nommé « %@ » est déjà présent dans cet emplacement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists-R.f(Move)</Position>
+      <TranslationSet>
+        <base loc="en">A newer item named “%@” already exists in this location. Do you want to replace it with the one you’re moving?</base>
+        <tran loc="fr">Un élément plus récent nommé « %@ » est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous déplacez ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>(Remove)</Position>
+      <TranslationSet>
+        <base loc="en">The Delete Operation Can’t Be Completed</base>
+        <tran loc="fr">La suppression n’a pas pu être effectuée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists</Position>
+      <TranslationSet>
+        <base loc="en">The file already exists in this location.</base>
+        <tran loc="fr">Ce fichier existe déjà à cet endroit.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ItemExists-C(*)</Position>
+      <TranslationSet>
+        <base loc="en">The file already exists in this location.</base>
+        <tran loc="fr">Ce fichier existe déjà à cet endroit.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Recovery-UnsafeDisconnect</Position>
+      <TranslationSet>
+        <base loc="en">Force the disconnection?</base>
+        <tran loc="fr">Forcer la déconnexion ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>.f(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Copy “%@”</base>
+        <tran loc="fr">Impossible de copier « %@ »</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VersionOutOfDate-C.f(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be copied because its contents are out of date.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être copié car son contenu est obsolète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> "An older version of the file already exists in this location. Do you want to replace it?</Description>
+      <Position>Copy-Keep Both</Position>
+      <TranslationSet>
+        <base loc="en">Keep Both</base>
+        <tran loc="fr">Garder les deux</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VersionOutOfDate-C.f(Rename)</Position>
+      <TranslationSet>
+        <base loc="en">The file “%@” couldn’t be renamed because its contents are out of date.</base>
+        <tran loc="fr">Le fichier « %@ » n’a pas pu être renommé car son contenu est obsolète.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NewerItemExists-R.f(Copy)</Position>
+      <TranslationSet>
+        <base loc="en">A newer item named “%@” already exists in this location.  Do you want to replace it with the one you’re copying?</base>
+        <tran loc="fr">Un élément plus récent nommé « %@ » est déjà présent dans cet emplacement. Souhaitez-vous le remplacer par celui que vous copiez ?</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>FileProvider/System/Library/Frameworks/FileProvider.framework/en.lproj/FileProvider.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>InvalidURL</Position>
+      <TranslationSet>
+        <base loc="en">The URL is invalid.</base>
+        <tran loc="fr">L’URL est invalide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------</Description>
+      <Position>ARCHIVE_FILENAME</Position>
+      <TranslationSet>
+        <base loc="en">Archive</base>
+        <tran loc="fr">Archive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ARCHIVE_ENTER_DECRYPTION_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Please enter the password for “%@”.</base>
+        <tran loc="fr">Saisissez le mot de passe de « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACTION_DELETE</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="fr">Supprimer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PluginOperationFailed</Position>
+      <TranslationSet>
+        <base loc="en">The plug-in returned an error.</base>
+        <tran loc="fr">Le module a renvoyé une erreur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------</Description>
+      <Position>SORT_DESCRIPTOR_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="fr">Nom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ProxyNotFound</Position>
+      <TranslationSet>
+        <base loc="en">A connection to the extension “%@” could not be made.</base>
+        <tran loc="fr">Impossible d’établir une connexion avec l’extension « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  FileProvider.strings
+  FileProvider
+
+  Created by Dave Rahardja on 3/31/14.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>NoValidProviderFound_identifier</Position>
+      <TranslationSet>
+        <base loc="en">No valid file provider found with identifier %@.</base>
+        <tran loc="fr">Aucun fournisseur de fichier valide trouvé portant l’identifiant %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InvalidBookmark</Position>
+      <TranslationSet>
+        <base loc="en">The bookmark is invalid.</base>
+        <tran loc="fr">Le signet est invalide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ----------------------------------------------------------------------------
+ The first argument is the date</Description>
+      <Position>RECOVERED_DATA_FOLDER_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Recovered Files – %@</base>
+        <tran loc="fr">Fichiers récupérés – %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------</Description>
+      <Position>ACTION_RENAME</Position>
+      <TranslationSet>
+        <base loc="en">Rename</base>
+        <tran loc="fr">Renommer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL_POSIX_DOWNLOAD_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACTION_CREATE_DIR</Position>
+      <TranslationSet>
+        <base loc="en">New Directory</base>
+        <tran loc="fr">Nouveau répertoire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InvalidParameter_Parameter</Position>
+      <TranslationSet>
+        <base loc="en">The parameter “%@” is invalid.</base>
+        <tran loc="fr">Le paramètre « %@ » est invalide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL_POSIX_DOWNLOAD_WAIT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Continue Waiting</base>
+        <tran loc="fr">Continuer d’attendre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SORT_DESCRIPTOR_DATE</Position>
+      <TranslationSet>
+        <base loc="en">Date</base>
+        <tran loc="fr">Date</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL_POSIX_DOWNLOAD_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The file won’t open until the download completes.</base>
+        <tran loc="fr">Le fichier ne peut pas être ouvert avant la fin du téléchargement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InvalidParameter_Parameter_Value</Position>
+      <TranslationSet>
+        <base loc="en">The value “%@” is not valid for the parameter “%@”.</base>
+        <tran loc="fr">La valeur « %@ » du paramètre « %@ » n’est pas valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACTION_EVICT</Position>
+      <TranslationSet>
+        <base loc="en">Evict</base>
+        <tran loc="fr">Expulser</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ClientLacksEntitlement</Position>
+      <TranslationSet>
+        <base loc="en">The caller is not allowed to perform an operation.</base>
+        <tran loc="fr">L’appelant n’est pas autorisé à effectuer une opération.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ----------------------------------------------------------------------------
+ Localized folder names are based off the folder name constant</Description>
+      <Position>Downloads</Position>
+      <TranslationSet>
+        <base loc="en">Downloads</base>
+        <tran loc="fr">Téléchargements</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoValidProviderFound_url</Position>
+      <TranslationSet>
+        <base loc="en">No valid file provider found from URL %@.</base>
+        <tran loc="fr">Aucun fournisseur de fichiers valide trouvé à partir de l’URL %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACTION_SHARE</Position>
+      <TranslationSet>
+        <base loc="en">Share</base>
+        <tran loc="fr">Partager</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NotImplemented</Position>
+      <TranslationSet>
+        <base loc="en">The functionality for “%@” isn’t implemented yet.</base>
+        <tran loc="fr">La fonctionnalité de « %@ » n’est pas encore implémentée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NotImplementedWithClass</Position>
+      <TranslationSet>
+        <base loc="en">Class “%@” doesn’t implement the method “%@”.</base>
+        <tran loc="fr">La classe « %@ » n’implémente pas la méthode « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ----------------------------------------------------------------------------
+ Dialog shown when a POSIX download is stuck for too long.</Description>
+      <Position>CANCEL_POSIX_DOWNLOAD_TITLE_app_domain</Position>
+      <TranslationSet>
+        <base loc="en">%@ is downloading a file from %@</base>
+        <tran loc="fr">%@ télécharge un fichier depuis %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The folder name created in the home folder containing the content of the
+ provider when logging out.
+ This is "iCloud Drive (Archive)" when the file provider is iCloud Drive.</Description>
+      <Position>DOMAIN_ARCHIVE_FILENAME</Position>
+      <TranslationSet>
+        <base loc="en">%@ (Archive)</base>
+        <tran loc="fr">%@ (archive)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SORT_DESCRIPTOR_FALLBACK</Position>
+      <TranslationSet>
+        <base loc="en">Unsorted</base>
+        <tran loc="fr">Sans tri</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>FileProvider/System/Library/Frameworks/FileProvider.framework/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys 
+ Title shown when the item was last modified by another person </Description>
+      <Position>Modified by %@</Position>
+      <TranslationSet>
+        <base loc="en">Modified by %@</base>
+        <tran loc="fr">Modifié par %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the item was shared by me </Description>
+      <Position>Shared by Me</Position>
+      <TranslationSet>
+        <base loc="en">Shared by Me</base>
+        <tran loc="fr">Partagé par moi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the item is shared by an unknown person </Description>
+      <Position>Shared</Position>
+      <TranslationSet>
+        <base loc="en">Shared</base>
+        <tran loc="fr">Partagé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the item was last modified by me </Description>
+      <Position>Modified by Me</Position>
+      <TranslationSet>
+        <base loc="en">Modified by Me</base>
+        <tran loc="fr">Modifié par moi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the item is shared by another person </Description>
+      <Position>Shared by %@</Position>
+      <TranslationSet>
+        <base loc="en">Shared by %@</base>
+        <tran loc="fr">Partagé par %@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

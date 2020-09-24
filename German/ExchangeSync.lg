@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>ExchangeSync</ProjName>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PrivateFrameworks/ExchangeSync.framework/English.lproj/DataAccess.strings</Filepath>
+    <TextItem>
+      <Description> Authentication needed for a specific calendar that already has a name </Description>
+      <Position>AUTH_NEEDED_SPECIFIC_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Calendar “%@” at %@ requires authentication</base>
+        <tran loc="de">Der Kalender „%@“ auf %@ erfordert Authentifizierung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to send a friendly name to Exchange servers, such as White iPhone 4S (we get the second part of that string from
+ Graphics Services' "marketing name" </Description>
+      <Position>WHITE</Position>
+      <TranslationSet>
+        <base loc="en">White</base>
+        <tran loc="de">Weiß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Declining (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_DECLINED</Position>
+      <TranslationSet>
+        <base loc="en">Declined:</base>
+        <tran loc="de">Abgelehnt:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the automatically created holiday calendar account </Description>
+      <Position>HOLIDAY_CALENDAR_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Holiday Calendar</base>
+        <tran loc="de">Feiertagskalender</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUBSCRIBE</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe</base>
+        <tran loc="de">Abonnieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_ALERT_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Could not subscribe to the calendar “%@” from “%@”.</base>
+        <tran loc="de">Abonnieren des Kalenders „%@“ von „%@“ nicht möglich.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ELLIPSIS</Position>
+      <TranslationSet>
+        <base loc="en">…</base>
+        <tran loc="de">…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when a server certificate is issued by an unknown root </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED_WITH_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The certificate from “%@” for account “%@” could not be verified.</base>
+        <tran loc="de">Das Zertifikat von „%@“ für Account „%@“ konnte nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Tentatively Accepting (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_TENTATIVE</Position>
+      <TranslationSet>
+        <base loc="en">Tentative:</base>
+        <tran loc="de">Vorläufig:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when a server certificate is issued by an unknown root for an account with no description </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED</Position>
+      <TranslationSet>
+        <base loc="en">The certificate from “%@” could not be verified.</base>
+        <tran loc="de">Dieses Zertifikat von „%@“ konnte nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to accept an unverified server certificate </Description>
+      <Position>SERVER_CERTIFICATE_ACCEPT</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="de">Akzeptieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when an autodiscovery server has an unverified certificate </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED_AUTODISCOVERY</Position>
+      <TranslationSet>
+        <base loc="en">While automatically discovering account settings, the certificate from “%@” could not be verified.</base>
+        <tran loc="de">Beim automatischen Erkennen der Accounteinstellungen konnte das Zertifikat von „%@“ nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHERE_TO_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The Calendar “%@” has been added</base>
+        <tran loc="de">Der Kalender „%@“ wurde hinzugefügt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the invalid client certificate dialog </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Authenticate</base>
+        <tran loc="de">Authentifizierung fehlgeschlagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DA_POLICY_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Policy Requirement</base>
+        <tran loc="de">Richtlinienanforderungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the missing password dialog </Description>
+      <Position>MISSING_PASSWORD_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Password Required</base>
+        <tran loc="de">Passwort erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="de">Fertig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_CARDDAV</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the CardDAV account “%@”</base>
+        <tran loc="de">Passwort für den CardDAV-Account „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_LDAP</Position>
+      <TranslationSet>
+        <base loc="en">An identical LDAP account already exists.</base>
+        <tran loc="de">Ein identischer LDAP-Account existiert bereits.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_SUBCAL</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Subscribed Calendar “%@”</base>
+        <tran loc="de">Passwort für das Kalenderabo „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Subscribe</base>
+        <tran loc="de">Abonnieren nicht möglich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Header of the alert presented when the exchange server certificate could not be verified  </Description>
+      <Position>SERVER_CERTIFICATE_ERROR_ALERT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Verify Certificate</base>
+        <tran loc="de">Zertifikat konnte nicht überprüft werden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Outlook account “%@”</base>
+        <tran loc="de">Passwort für den Outlook-Account „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Meeting response server failure dialog </Description>
+      <Position>MEETING_RESPONSE_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendar Invitation</base>
+        <tran loc="de">Kalendereinladung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Accepting (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_ACCEPTED</Position>
+      <TranslationSet>
+        <base loc="en">Accepted:</base>
+        <tran loc="de">Akzeptiert:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Acknowledgement of alert </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to accept a password </Description>
+      <Position>PASSWORD_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_CARDDAV</Position>
+      <TranslationSet>
+        <base loc="en">An identical CardDAV account already exists.</base>
+        <tran loc="de">Ein identischer CardDAV-Account existiert bereits.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEETING_RESPONSE_FAILURE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your response to the invitation cannot be sent.</base>
+        <tran loc="de">Deine Antwort auf die Einladung kann nicht gesendet werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button titles </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to cancel password entry </Description>
+      <Position>PASSWORD_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to cancel an unverified server certificate </Description>
+      <Position>SERVER_CERTIFICATE_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTH_NEEDED_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Calendar at %@ requires authentication</base>
+        <tran loc="de">Der Kalender unter „%@“ erfordert Authentifizierung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BLACK</Position>
+      <TranslationSet>
+        <base loc="en">Black</base>
+        <tran loc="de">Schwarz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Create Account</base>
+        <tran loc="de">Account kann nicht erstellt werden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These are passed into ManagedConfiguration.  The first is put into a string like:
+"the account “%@” can't do something until you set a passcode".  Here's a sample expansion:
+Policy Requirement
+The account “MyExchangeAccount” can't do something until you set a passcode
+[Disable]
+</Description>
+      <Position>DA_POLICY_COMPLIANCE_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">The account “%@” cannot receive new data until a new passcode is set.</base>
+        <tran loc="de">Der Account „%@“ kann erst nach Festlegen eines neuen Codes neue Daten empfangen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*** Subscribed Calendar Setup 
+ Alert Strings </Description>
+      <Position>VALIDATED_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe to the calendar “%@”?</base>
+        <tran loc="de">Kalender „%@“ abonnieren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VIEW_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">View Events</base>
+        <tran loc="de">Ereignisse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EDIT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Edit Settings</base>
+        <tran loc="de">Einstellungen ändern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Content of the invalid password dialog </Description>
+      <Position>INVALID_PASSWORD_BODY_EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Exchange account “%@”</base>
+        <tran loc="de">Passwort für den Exchange-Account „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main tasks store </Description>
+      <Position>AUTOGENERATED_MAIN_TASKS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Tasks</base>
+        <tran loc="de">Aufgaben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_LDAP</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the LDAP account “%@”</base>
+        <tran loc="de">Passwort für den LDAP-Account „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the invalid password dialog </Description>
+      <Position>INVALID_PASSWORD_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Password Incorrect</base>
+        <tran loc="de">Falsches Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_CALDAV</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the CalDAV account “%@”</base>
+        <tran loc="de">Passwort für den CalDAV-Account „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DA_POLICY_FAILURE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Disable</base>
+        <tran loc="de">Deaktivieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text inside the password entry field </Description>
+      <Position>INVALID_PASSWORD_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="de">Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">An identical Outlook account already exists.</base>
+        <tran loc="de">Ein identischer Outlook-Account existiert bereits.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEETING_RESPONSE_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">RE:</base>
+        <tran loc="de">Aw:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">An identical Exchange account already exists.</base>
+        <tran loc="de">Ein identischer Exchange-Account existiert bereits.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main notes store </Description>
+      <Position>AUTOGENERATED_MAIN_NOTES_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="de">Notizen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text inside the username entry field </Description>
+      <Position>INVALID_USERNAME_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="de">Benutzername</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main event calendar </Description>
+      <Position>AUTOGENERATED_MAIN_EVENT_CALENDAR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="de">Kalender</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_SUBCAL</Position>
+      <TranslationSet>
+        <base loc="en">An identical Subscribed Calendar account already exists.</base>
+        <tran loc="de">Ein identischer Kalenderabo-Account existiert bereits.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main contacts store </Description>
+      <Position>AUTOGENERATED_MAIN_CONTACTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="de">Kontakte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_CALDAV</Position>
+      <TranslationSet>
+        <base loc="en">An identical CalDAV account already exists.</base>
+        <tran loc="de">Ein identischer CalDAV-Account existiert bereits.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Content of the invalid client certificate dialog </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Cannot authenticate to the server “%@” because the certificate is not valid.</base>
+        <tran loc="de">Die Authentifizierung beim Server „%@“ ist fehlgeschlagen, da das Zertifikat ungültig ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the account “%@”</base>
+        <tran loc="de">Passwort für den Account „%@“ eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASAccountSetup~iphone.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Use a custom away message for mail received from addresses external to your organization.</base>
+        <tran loc="de">Verwende eine angepasste Abwesenheitsnachricht für eingehende E‑Mails von firmenexternen Adressen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Email Address</base>
+        <tran loc="de">Ungültige E‑Mail-Adresse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your email address will be sent to Microsoft to discover your Exchange account information.</base>
+        <tran loc="de">Deine E-Mail-Adresse wird an Microsoft gesendet, um deine Exchange-Accountinfos zu finden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="de">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_HOTMAIL_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="de">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account configuration </Description>
+      <Position>ACCOUNT_NOT_AUTHENTICATED</Position>
+      <TranslationSet>
+        <base loc="en">Account not authenticated</base>
+        <tran loc="de">Account nicht authentifiziert</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Mail Days to Sync </Description>
+      <Position>MAIL_PAST_DAYS_STRING</Position>
+      <TranslationSet>
+        <base loc="en">Mail Days to Sync</base>
+        <tran loc="de">Mail synchronisieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Oof Auto Reply</Description>
+      <Position>OOF_AUTO_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="de">Automatische Antwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="de">Automatische Antwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Profile account description </Description>
+      <Position>PROFILE_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">These settings are installed by the profile “%@”</base>
+        <tran loc="de">Die Einstellungen sind installiert von Profil „%@“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2_WEEKS</Position>
+      <TranslationSet>
+        <base loc="en">2 Weeks</base>
+        <tran loc="de">2 Wochen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AutoDiscover V2 Microsoft Privacy </Description>
+      <Position>SIGN_IN</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="de">Anmelden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail until %@.</base>
+        <tran loc="de">Ich bin bis %@ nicht per E-Mail erreichbar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3_DAYS</Position>
+      <TranslationSet>
+        <base loc="en">3 Days</base>
+        <tran loc="de">3 Tage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MANUAL_ACCOUNT_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Configure Manually</base>
+        <tran loc="de">Manuell konfigurieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">server.example.com</base>
+        <tran loc="de">server.example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="de">Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_WEEK</Position>
+      <TranslationSet>
+        <base loc="en">1 Week</base>
+        <tran loc="de">1 Woche</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">End Date</base>
+        <tran loc="de">Enddatum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_DAY</Position>
+      <TranslationSet>
+        <base loc="en">1 Day</base>
+        <tran loc="de">1 Tag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Exchange Account</base>
+        <tran loc="de">Exchange-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONT_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Sync</base>
+        <tran loc="de">Sync aus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_LIMIT</Position>
+      <TranslationSet>
+        <base loc="en">No Limit</base>
+        <tran loc="de">Keine Begrenzung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">email@example.com</base>
+        <tran loc="de">email@example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Edit </Description>
+      <Position>EDIT</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="de">Bearbeiten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_SSL</Position>
+      <TranslationSet>
+        <base loc="en">Use SSL</base>
+        <tran loc="de">SSL verwenden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Sync</base>
+        <tran loc="de">Synchr.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_WARNING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Adding an Exchange account will allow the Exchange administrator to remotely manage your device. The administrator can add/remove restrictions and remotely erase your device.</base>
+        <tran loc="de">Durch Hinzufügen eines Exchange-Accounts kann der Exchange-Administrator dein Gerät entfernt verwalten. Der Administrator kann Beschränkungen hinzufügen oder entfernen sowie Daten auf deinem Gerät fernlöschen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sheet title when saving account even though validation failed </Description>
+      <Position>CONFIRM_SAVE_ACCOUNT_ANYWAYS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This account may not be able to send or receive emails. Are you sure you want to continue?</base>
+        <tran loc="de">Mit diesem Account ist das Senden bzw. Empfangen von E‑Mails evtl. nicht möglich. Möchtest du wirklich fortfahren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="de">Erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="de">Erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Outlook Account</base>
+        <tran loc="de">Outlook-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">Server</base>
+        <tran loc="de">Server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_CONTACTS_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">Contacts Only</base>
+        <tran loc="de">Nur für Kontakte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="de">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="de">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_NO_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="de">Ohne</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Email</base>
+        <tran loc="de">E‑Mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_ID_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Device ID</base>
+        <tran loc="de">Exchange-Geräte-ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_INTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Away Message</base>
+        <tran loc="de">Abwesenheitsnachricht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_LOADING_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="de">Laden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Enter a valid email address for this account.</base>
+        <tran loc="de">Gib eine gültige E‑Mail-Adresse für diesen Account ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGS_VISIBLE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="de">Diagnose</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">External Away Message</base>
+        <tran loc="de">Externe Abwesenheitsnachricht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_MONTH</Position>
+      <TranslationSet>
+        <base loc="en">1 Month</base>
+        <tran loc="de">1 Monat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Outlook Account</base>
+        <tran loc="de">Mein Outlook-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="de">Beschreibung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_AUDIENCE</Position>
+      <TranslationSet>
+        <base loc="en">Respond to Mail from</base>
+        <tran loc="de">E‑Mails beantworten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="de">Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_ON_STATE</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="de">Ein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Account</base>
+        <tran loc="de">Exchange-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account information is being verified. Argument is the account type </Description>
+      <Position>ACCOUNT_VERIFICATION_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Unable to verify account information.</base>
+        <tran loc="de">Accountinformationen konnten nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_EVERYONE</Position>
+      <TranslationSet>
+        <base loc="en">Everyone</base>
+        <tran loc="de">Jeder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">External Accounts</base>
+        <tran loc="de">Externe Accounts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USERNAME</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="de">Benutzername</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONAL</Position>
+      <TranslationSet>
+        <base loc="en">Optional</base>
+        <tran loc="de">Optional</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOMAIN</Position>
+      <TranslationSet>
+        <base loc="en">Domain</base>
+        <tran loc="de">Domain</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REENTER_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Re-enter Password</base>
+        <tran loc="de">Passwort erneut eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE_WITHOUT_DATE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail.</base>
+        <tran loc="de">Abwesenheitsnotiz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_OFF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="de">Aus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Next </Description>
+      <Position>NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="de">Weiter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to your “%@” Exchange account using Microsoft?</base>
+        <tran loc="de">Über Microsoft bei deinem „%@“ Exchange-Account anmelden?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="de">Sichern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Save </Description>
+      <Position>SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="de">Sichern</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASHotmailAccountSetup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>NEW_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="de">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="de">Erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Email</base>
+        <tran loc="de">E‑Mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_HOTMAIL_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">email@outlook.com</base>
+        <tran loc="de">email@outlook.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Outlook Account</base>
+        <tran loc="de">Mein Outlook-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="de">Beschreibung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="de">Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASAccountSetup~ipad.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Use a custom away message for mail received from addresses external to your organization.</base>
+        <tran loc="de">Verwende eine angepasste Abwesenheitsnachricht für eingehende E‑Mails von firmenexternen Adressen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Email Address</base>
+        <tran loc="de">Ungültige E‑Mail-Adresse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your email address will be sent to Microsoft to discover your Exchange account information.</base>
+        <tran loc="de">Deine E-Mail-Adresse wird an Microsoft gesendet, um deine Exchange-Accountinfos zu finden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="de">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_HOTMAIL_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="de">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account configuration </Description>
+      <Position>ACCOUNT_NOT_AUTHENTICATED</Position>
+      <TranslationSet>
+        <base loc="en">Account not authenticated</base>
+        <tran loc="de">Account nicht authentifiziert</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Mail Days to Sync </Description>
+      <Position>MAIL_PAST_DAYS_STRING</Position>
+      <TranslationSet>
+        <base loc="en">Mail Days to Sync</base>
+        <tran loc="de">Mail synchronisieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Oof Auto Reply</Description>
+      <Position>OOF_AUTO_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="de">Automatische Antwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="de">Automatische Antwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Profile account description </Description>
+      <Position>PROFILE_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">These settings are installed by the profile “%@”</base>
+        <tran loc="de">Die Einstellungen sind installiert von Profil „%@“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2_WEEKS</Position>
+      <TranslationSet>
+        <base loc="en">2 Weeks</base>
+        <tran loc="de">2 Wochen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AutoDiscover V2 Microsoft Privacy </Description>
+      <Position>SIGN_IN</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="de">Anmelden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail until %@.</base>
+        <tran loc="de">Ich bin bis %@ nicht per E-Mail erreichbar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3_DAYS</Position>
+      <TranslationSet>
+        <base loc="en">3 Days</base>
+        <tran loc="de">3 Tage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MANUAL_ACCOUNT_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Configure Manually</base>
+        <tran loc="de">Manuell konfigurieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">server.example.com</base>
+        <tran loc="de">server.example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="de">Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_WEEK</Position>
+      <TranslationSet>
+        <base loc="en">1 Week</base>
+        <tran loc="de">1 Woche</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">End Date</base>
+        <tran loc="de">Enddatum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_DAY</Position>
+      <TranslationSet>
+        <base loc="en">1 Day</base>
+        <tran loc="de">1 Tag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Exchange Account</base>
+        <tran loc="de">Exchange-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONT_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Sync</base>
+        <tran loc="de">Sync aus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_LIMIT</Position>
+      <TranslationSet>
+        <base loc="en">No Limit</base>
+        <tran loc="de">Keine Begrenzung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">email@example.com</base>
+        <tran loc="de">email@example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Edit </Description>
+      <Position>EDIT</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="de">Bearbeiten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_SSL</Position>
+      <TranslationSet>
+        <base loc="en">Use SSL</base>
+        <tran loc="de">SSL verwenden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Sync</base>
+        <tran loc="de">Synchr.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_WARNING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Adding an Exchange account will allow the Exchange administrator to remotely manage your device. The administrator can add/remove restrictions and remotely erase your device.</base>
+        <tran loc="de">Durch Hinzufügen eines Exchange-Accounts kann der Exchange-Administrator dein Gerät entfernt verwalten. Der Administrator kann Beschränkungen hinzufügen oder entfernen sowie Daten auf deinem Gerät fernlöschen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sheet title when saving account even though validation failed </Description>
+      <Position>CONFIRM_SAVE_ACCOUNT_ANYWAYS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This account may not be able to send or receive emails. Are you sure you want to continue?</base>
+        <tran loc="de">Mit diesem Account ist das Senden bzw. Empfangen von E‑Mails evtl. nicht möglich. Möchtest du wirklich fortfahren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="de">Erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="de">Erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Outlook Account</base>
+        <tran loc="de">Outlook-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">Server</base>
+        <tran loc="de">Server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_CONTACTS_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">Contacts Only</base>
+        <tran loc="de">Nur für Kontakte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="de">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="de">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_NO_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="de">Ohne</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Email</base>
+        <tran loc="de">E‑Mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_ID_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Device ID</base>
+        <tran loc="de">Exchange-Geräte-ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_INTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Away Message</base>
+        <tran loc="de">Abwesenheitsnachricht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_LOADING_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="de">Laden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Enter a valid email address for this account.</base>
+        <tran loc="de">Gib eine gültige E‑Mail-Adresse für diesen Account ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGS_VISIBLE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="de">Diagnose</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">External Away Message</base>
+        <tran loc="de">Externe Abwesenheitsnachricht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_MONTH</Position>
+      <TranslationSet>
+        <base loc="en">1 Month</base>
+        <tran loc="de">1 Monat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Outlook Account</base>
+        <tran loc="de">Mein Outlook-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="de">Beschreibung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_AUDIENCE</Position>
+      <TranslationSet>
+        <base loc="en">Respond to Mail from</base>
+        <tran loc="de">E‑Mails beantworten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="de">Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_ON_STATE</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="de">Ein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Account</base>
+        <tran loc="de">Exchange-Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account information is being verified. Argument is the account type </Description>
+      <Position>ACCOUNT_VERIFICATION_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Unable to verify account information.</base>
+        <tran loc="de">Accountinformationen konnten nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_EVERYONE</Position>
+      <TranslationSet>
+        <base loc="en">Everyone</base>
+        <tran loc="de">Jeder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">External Accounts</base>
+        <tran loc="de">Externe Accounts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USERNAME</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="de">Benutzername</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONAL</Position>
+      <TranslationSet>
+        <base loc="en">Optional</base>
+        <tran loc="de">Optional</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOMAIN</Position>
+      <TranslationSet>
+        <base loc="en">Domain</base>
+        <tran loc="de">Domain</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REENTER_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Re-enter Password</base>
+        <tran loc="de">Passwort erneut eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE_WITHOUT_DATE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail.</base>
+        <tran loc="de">Abwesenheitsnotiz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_OFF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="de">Aus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Next </Description>
+      <Position>NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="de">Weiter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to your “%@” Exchange account using Microsoft?</base>
+        <tran loc="de">Über Microsoft bei deinem „%@“ Exchange-Account anmelden?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="de">Sichern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Save </Description>
+      <Position>SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="de">Sichern</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASAdvancedAccountSetup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MAILBOX_BEHAVIORS</Position>
+      <TranslationSet>
+        <base loc="en">Mailbox Behaviors</base>
+        <tran loc="de">Postfach-Verhalten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADVANCED_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Advanced Settings</base>
+        <tran loc="de">Erweiterte Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROFILE_EXPLANATION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">These settings are installed by the profile “%@”</base>
+        <tran loc="de">Die Einstellungen sind installiert von Profil „%@“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SMIME_ENCRYPTION</Position>
+      <TranslationSet>
+        <base loc="en">Encrypt by Default</base>
+        <tran loc="de">Standardmäßig verschlüsseln</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMIME</Position>
+      <TranslationSet>
+        <base loc="en">S/MIME</base>
+        <tran loc="de">S/MIME</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_SSL</Position>
+      <TranslationSet>
+        <base loc="en">Use SSL</base>
+        <tran loc="de">SSL verwenden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMIME_CERT_GROUP_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Certificates</base>
+        <tran loc="de">Zertifikate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOVE_DISCARDED_MESSAGES_INTO</Position>
+      <TranslationSet>
+        <base loc="en">Move Discarded Messages Into:</base>
+        <tran loc="de">Gelöschte Nachrichten bewegen nach:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="de">Nein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SMIME_SIGNING</Position>
+      <TranslationSet>
+        <base loc="en">Sign</base>
+        <tran loc="de">Signieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ARCHIVE_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Archive Mailbox</base>
+        <tran loc="de">Archiv</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETED_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Deleted Mailbox</base>
+        <tran loc="de">Gelöscht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YES</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="de">Ja</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRAFTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Drafts</base>
+        <tran loc="de">Drafts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRAFTS_USE_SERVER</Position>
+      <TranslationSet>
+        <base loc="en">Store Drafts on Server</base>
+        <tran loc="de">Entwürfe auf Server speichern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADVANCED</Position>
+      <TranslationSet>
+        <base loc="en">Advanced</base>
+        <tran loc="de">Erweitert</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PrivateFrameworks/DAEASOAuthFramework.framework/en.lproj/EASOAuthSupport.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_NO_CONNECTION</Position>
+      <TranslationSet>
+        <base loc="en">There is no connection to the Internet.</base>
+        <tran loc="de">Es gibt keine Internetverbindung.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hotmail authentication </Description>
+      <Position>HOTMAIL_EMAIL_MISMATCH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Email Address Mismatch</base>
+        <tran loc="de">E-Mail-Adressen stimmen nicht überein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_EMAIL_MISMATCH_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_EMAIL_MISMATCH_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The email address you entered does not match your account.</base>
+        <tran loc="de">Die eingegebene E‑Mail-Adresse stimmt nicht mit deinem Account überein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Error Signing In</base>
+        <tran loc="de">Fehler bei der Anmeldung</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

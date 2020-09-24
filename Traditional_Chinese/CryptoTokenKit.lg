@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CryptoTokenKit</ProjName>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  CryptoTokenKit
+</Description>
+      <Position>INVALID_PIN</Position>
+      <TranslationSet>
+        <base loc="en">PIN has invalid format</base>
+        <tran loc="zh-TW">PIN的格式無效</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, %d tries left</base>
+        <tran loc="zh-TW">PIN驗證無效，可再試%d次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@tries@</base>
+        <tran loc="zh-TW">%1$#@tries@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, PIN blocked</base>
+        <tran loc="zh-TW">PIN驗證失敗，已阻擋PIN輸入</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

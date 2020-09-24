@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CarPlayApp</ProjName>
+  <File>
+    <Filepath>CarPlayApp/System/Library/PreferenceBundles/CarKitSettings.bundle/en.lproj/Alerts.strings</Filepath>
+    <TextItem>
+      <Description>"CONNECTION_FAILED_TITLE" = "Connection Unsuccessful";
+"ERROR_GEN_CONNECTION_FAILURE" = "Make sure “%@” is turned on and in range.";
+"ERROR_UNSUPPORTED_DEVICE" = "“%@” is not supported.";
+ Sync Contacts </Description>
+      <Position>SYNC_CONTACTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Allow Contacts and Favorites Sync?</base>
+        <tran loc="ru">Разрешить синхронизацию Контактов и Избранного?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"JUST_WORKS_MESSAGE" = "“%@” would like to pair with your %@.";
+"PASSKEY_MESSAGE" = "“%@” would like to pair with your %@. Enter the code “%@” on “%@”.";
+"HID_MESSAGE" = "Enter the code “%@” on “%@”, followed by the return or enter key.";
+ Pairing Failure </Description>
+      <Position>PAIRING_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Pairing Unsuccessful</base>
+        <tran loc="ru">Сбой создания пары</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_WLAN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">WLAN is Off</base>
+        <tran loc="ru">WLAN выключена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turn on WiFi &amp; Bluetooth </Description>
+      <Position>POWER_BLUETOOTH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth is Off</base>
+        <tran loc="ru">Bluetooth выключен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_WLAN_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On WLAN</base>
+        <tran loc="ru">Включить WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_BLUETOOTH_WLAN_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On WLAN and Bluetooth</base>
+        <tran loc="ru">Включить WLAN и Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"PAIRING_FAILED_MESSAGE_INCORRECT_PIN" = "Make sure “%@” is ready to pair and try entering the code again.";</Description>
+      <Position>PAIRING_FAILED_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_BLUETOOTH_WLAN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">WLAN and Bluetooth are Off</base>
+        <tran loc="ru">WLAN и Bluetooth выключены</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_BLUETOOTH_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Bluetooth</base>
+        <tran loc="ru">Вкл. Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay will only be available over USB. Do you also want to enable wireless CarPlay?</base>
+        <tran loc="ru">CarPlay будет доступен только через USB. Вы также хотите включить беспроводной CarPlay?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_ALLOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Allow</base>
+        <tran loc="ru">Разрешить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIR_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Pair</base>
+        <tran loc="ru">Создать пару</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRING_FAILED_MESSAGE_TIMEOUT</Position>
+      <TranslationSet>
+        <base loc="en">Pairing took too long.</base>
+        <tran loc="ru">Создание пары заняло слишком много времени.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SSP Pairing </Description>
+      <Position>PAIRING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Pairing Request</base>
+        <tran loc="ru">Запрос на создание пары по Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_CONTACTS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Your car may request your contacts, phone favorites, and recent phone calls over Bluetooth. Do you wish to allow this? CarPlay will work without syncing.</base>
+        <tran loc="ru">Ваш автомобиль может запрашивать по Bluetooth контакты, избранное и данные о недавних вызовах. Разрешить передачу этих данных? Функция CarPlay будет работать без синхронизации.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_DISALLOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="ru">Не разрешать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_BLUETOOTH_WIFI_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Wi-Fi and Bluetooth</base>
+        <tran loc="ru">Включить Wi‑Fi и Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">USB Only</base>
+        <tran loc="ru">Только USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_BLUETOOTH_WIFI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi and Bluetooth are Off</base>
+        <tran loc="ru">Wi‑Fi и Bluetooth выключены</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_WIFI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi is Off</base>
+        <tran loc="ru">Wi‑Fi выключена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_WIFI_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Wi-Fi</base>
+        <tran loc="ru">Вкл. Wi‑Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRING_FAILED_MESSAGE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Make sure “%@” is turned on, in range, and is ready to pair.</base>
+        <tran loc="ru">Убедитесь, что устройство «%@» включено, находится в зоне доступа и готово к созданию пары.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NUMERIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to pair with your %@. Confirm that the code “%@” is shown on “%@”.</base>
+        <tran loc="ru">Устройство «%@» запрашивает разрешение на создание пары с %@. Подтвердите, что код %@ отображен на устройстве «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/System/Library/CoreServices/CarPlay.app/en.lproj/CarPlayApp.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@eventcount@</base>
+        <tran loc="ru">%#@eventcount@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/eventcount:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Events</base>
+        <tran loc="ru">%lu события</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/eventcount:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Events</base>
+        <tran loc="ru">%lu событий</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/eventcount:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Events</base>
+        <tran loc="ru">%lu события</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/eventcount:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">1 Event</base>
+        <tran loc="ru">%lu событие</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/System/Library/CoreServices/CarPlay.app/en.lproj/CarPlayApp.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_CLOSING</Position>
+      <TranslationSet>
+        <base loc="en">Closing</base>
+        <tran loc="ru">Закрытие</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_DISCLOSURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Disclosure Check</base>
+        <tran loc="ru">Проверка доступа</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_UNDISCLOSED</Position>
+      <TranslationSet>
+        <base loc="en">Undisclosed Passengers</base>
+        <tran loc="ru">Пассажиры без допуска</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_SIRI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay Not Available</base>
+        <tran loc="ru">CarPlay недоступен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_SAFE</Position>
+      <TranslationSet>
+        <base loc="en">Confirmed Safe</base>
+        <tran loc="ru">Надежность подтверждена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_OBSTRUCTED</Position>
+      <TranslationSet>
+        <base loc="en">Obstruction detected</base>
+        <tran loc="ru">Обнаружено препятствие</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_USING_MIC_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="ru">Ошибка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  CarPlayApp.strings
+  CarPlayApp
+
+  Created by Kevin Jorgensen on 8/7/18.
+  Copyright © 2018 Apple Inc. All rights reserved.
+</Description>
+      <Position>LOCKOUT_BACK_TO_OEM</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_USING_MIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">on iPhone is currently using the microphone.</base>
+        <tran loc="ru">на iPhone сейчас использует микрофон.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_GENERIC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unlock your iPhone\nto start CarPlay</base>
+        <tran loc="ru">Разблокируйте iPhone,\nчтобы начать CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LAUNCHER_NAME-com.apple.cardisplay.nowplaying</Position>
+      <TranslationSet>
+        <base loc="en">Now Playing</base>
+        <tran loc="ru">Исполняется</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LAUNCHER_NAME-com.apple.cardisplay.OEM</Position>
+      <TranslationSet>
+        <base loc="en">Car</base>
+        <tran loc="ru">Автомобиль</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_UNREACHABLE</Position>
+      <TranslationSet>
+        <base loc="en">No Response</base>
+        <tran loc="ru">Нет ответа</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">Updating</base>
+        <tran loc="ru">Обновление</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOW_PLAYING_NOT_PLAYING</Position>
+      <TranslationSet>
+        <base loc="en">Not Playing</base>
+        <tran loc="ru">Не испол­няется</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_SIRI_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To use CarPlay, enable Siri in the\nSettings app on your iPhone</base>
+        <tran loc="ru">Чтобы использовать CarPlay,\nвключите Siri в Настройках iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_CALENDAR_EVENTS_STARTING</Position>
+      <TranslationSet>
+        <base loc="en">Starting at %@</base>
+        <tran loc="ru">Начинается в %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_THERMAL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Temperature</base>
+        <tran loc="ru">Температура</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_DISCLOSURE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To use CarPlay, ensure non-disclosed persons are not present in the vehicle.</base>
+        <tran loc="ru">Перед использованием CarPlay убедитесь, что в автомобиле нет пассажиров без допуска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_CALENDAR_ALLDAY</Position>
+      <TranslationSet>
+        <base loc="en">all-day</base>
+        <tran loc="ru">на весь день</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_THERMAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">iPhone needs to cool down\nbefore you can use it.</base>
+        <tran loc="ru">Перед использованием\niPhone требуется охлаждение.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_FEATURES_OFF</Position>
+      <TranslationSet>
+        <base loc="en">Trusted Passengers</base>
+        <tran loc="ru">Надежные пассажиры</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_CLOSED</Position>
+      <TranslationSet>
+        <base loc="en">Closed</base>
+        <tran loc="ru">Закрыта</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_STOPPED</Position>
+      <TranslationSet>
+        <base loc="en">Stopped</base>
+        <tran loc="ru">Остановлено</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Message</base>
+        <tran loc="ru">Сообщение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_CALL</Position>
+      <TranslationSet>
+        <base loc="en">Call</base>
+        <tran loc="ru">Вызов</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_OPENING</Position>
+      <TranslationSet>
+        <base loc="en">Opening</base>
+        <tran loc="ru">Открытие</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_OPEN</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="ru">Открыта</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/System/Library/PreferenceBundles/CarKitSettings.bundle/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Add and organize apps to show in CarPlay’s home screen.</base>
+        <tran loc="ru">Добавляйте и изменяйте порядок приложений на экране CarPlay «Домой».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Customize Layout</Description>
+      <Position>CUSTOMIZE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Customize</base>
+        <tran loc="ru">Настройка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This will always be a positive non-zero integer.</Description>
+      <Position>MY_CARS_SINGULAR</Position>
+      <TranslationSet>
+        <base loc="en">My Car</base>
+        <tran loc="ru">Мой автомобиль</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> USB-only case. Format string with the name of the car as the argument</Description>
+      <Position>FORGET_CONFIRMATION_WIRED_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Forget “%@”?</base>
+        <tran loc="ru">Забыть «%@»?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do Not Localize</Description>
+      <Position>DNL_INTERNAL_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Radar Notes</base>
+        <tran loc="ru">Radar Notes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_BLUETOOTH_CONNECTING</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Connecting</base>
+        <tran loc="ru">Подключение Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MY_CARS_PLURAL</Position>
+      <TranslationSet>
+        <base loc="en">My Cars</base>
+        <tran loc="ru">Мои автомобили</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_INSTRUCTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Touch and hold any icon on the home screen, then drag it to the desired location.</base>
+        <tran loc="ru">Коснитесь и удерживайте любой значок на экране «Домой», затем перетяните его в нужное место.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_BLUETOOTH_PAIRED</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Paired</base>
+        <tran loc="ru">Создана пара Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGET_CONFIRMATION_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_RESET_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_BLUETOOTH_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Connected</base>
+        <tran loc="ru">Bluetooth подключен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGET_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Forget This Car</base>
+        <tran loc="ru">Забыть этот автомобиль</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_RESET</Position>
+      <TranslationSet>
+        <base loc="en">Reset</base>
+        <tran loc="ru">Сбросить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string with the name of the car as the argument</Description>
+      <Position>FORGET_CONFIRMATION_BLUETOOTH_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Forget “%@” for CarPlay and Bluetooth?</base>
+        <tran loc="ru">Забыть «%@» для CarPlay и Bluetooth?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> INTERNAL ONLY
+ Do Not Localize</Description>
+      <Position>DNL_INTERNAL_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">[Internal Only]</base>
+        <tran loc="ru">[Internal Only]</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WIRELESS_SETUP_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">If your car supports wireless CarPlay, press and hold the voice control button on your steering wheel to start CarPlay setup.</base>
+        <tran loc="ru">Если автомобиль поддерживает беспроводной CarPlay, нажмите и удерживайте кнопку голосового управления на руле, чтобы начать настройку этой функции.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do Not Localize</Description>
+      <Position>DNL_INTERNAL_NOTES_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Custom text notes will be included in radars you file from this vehicle.</base>
+        <tran loc="ru">Custom text notes will be included in radars you file from this vehicle.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_APP_REMOVE</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Swipe-to-delete button title</Description>
+      <Position>FORGET</Position>
+      <TranslationSet>
+        <base loc="en">Forget</base>
+        <tran loc="ru">Забыть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGET_CONFIRMATION_FORGET</Position>
+      <TranslationSet>
+        <base loc="en">Forget</base>
+        <tran loc="ru">Забыть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_ENABLED_APPS_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Include</base>
+        <tran loc="ru">Включить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Wired-only cars will get this switch instead of CARPLAY_SWITCH</Description>
+      <Position>ALLOW_LOCKED_CARPLAY_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">Allow CarPlay While Locked</base>
+        <tran loc="ru">CarPlay с заблок. экраном</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_ENHANCED_INTEGRATION_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Sharing which apps on your iPhone use CarPlay allows this car to quickly switch back to these apps in CarPlay. CarPlay will work without this.</base>
+        <tran loc="ru">Предоставление информации о приложениях на iPhone, использующих CarPlay, позволяет этому автомобилю быстро переключаться на эти приложения в CarPlay. CarPlay будет работать без этого.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_RESET_CONFIRM</Position>
+      <TranslationSet>
+        <base loc="en">Reset Home Screen Layout</base>
+        <tran loc="ru">Сбросить настройки «Домой»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_NAVIGATION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay</base>
+        <tran loc="ru">CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay</base>
+        <tran loc="ru">CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_FOOTER_TEXT_WIRELESS</Position>
+      <TranslationSet>
+        <base loc="en">When your phone is nearby and you start your car, CarPlay will start automatically.</base>
+        <tran loc="ru">Если телефон находится рядом, когда Вы заводите автомобиль, функция CarPlay будет запускаться автоматически.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVAILABLE_CARS</Position>
+      <TranslationSet>
+        <base loc="en">Available Cars</base>
+        <tran loc="ru">Доступные автомобили</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_ACCESSORY_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">Accessory Connected</base>
+        <tran loc="ru">Аксессуар подключен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_HIDDEN_APPS_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">More Apps</base>
+        <tran loc="ru">Еще приложения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OTHER_CARS</Position>
+      <TranslationSet>
+        <base loc="en">Other Cars</base>
+        <tran loc="ru">Другие автомобили</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_NOT_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">Not Connected</base>
+        <tran loc="ru">Not Connected</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_ENHANCED_INTEGRATION_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced Integration</base>
+        <tran loc="ru">Расширенная интеграция</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/Applications/CarPlaySettings.app/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">CarPlaySettings</base>
+        <tran loc="ru">CarPlaySettings</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CarPlayApp
+
+  Created by Kevin Jorgensen on 6/12/19.
+  Copyright © 2019 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="ru">Настройки</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/Applications/CarPlaySettings.app/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_SMALL</Position>
+      <TranslationSet>
+        <base loc="en">Small</base>
+        <tran loc="ru">Малый</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_AUTOMATIC</Position>
+      <TranslationSet>
+        <base loc="en">Automatic</base>
+        <tran loc="ru">Автоматически</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_ALWAYS_LIGHT</Position>
+      <TranslationSet>
+        <base loc="en">Always Light</base>
+        <tran loc="ru">Всегда светлое</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALBUM_ART_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Show Album Art</base>
+        <tran loc="ru">Обложка альбома</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUGGESTIONS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Suggestions in Dashboard</base>
+        <tran loc="ru">Предложения на щитке</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_MEDIUM</Position>
+      <TranslationSet>
+        <base loc="en">Medium</base>
+        <tran loc="ru">Средний</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Appearance</base>
+        <tran loc="ru">Оформление</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_ALWAYS_DARK</Position>
+      <TranslationSet>
+        <base loc="en">Always Dark</base>
+        <tran loc="ru">Всегда темное</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_AUTOREPLY_FAVORITES</Position>
+      <TranslationSet>
+        <base loc="en">Your Favorites will receive an auto-reply message when they text you.</base>
+        <tran loc="ru">Ваши избранные контакты получат сообщения‑автоответы, отправив Вам текстовое сообщение.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_AUTOREPLY_CONTACTS</Position>
+      <TranslationSet>
+        <base loc="en">Your Contacts will receive an auto-reply message when they text you.</base>
+        <tran loc="ru">Ваши контакты получат сообщения‑автоответы, отправив Вам текстовое сообщение.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_AUTOREPLY_RECENTS</Position>
+      <TranslationSet>
+        <base loc="en">People you’ve responded to in the last day will receive an auto-reply message when they text you.</base>
+        <tran loc="ru">ПОльзователи, которым Вы ответили в последний день получат сообщения‑автоответы, отправив Вам текстовое сообщение.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Text Size</base>
+        <tran loc="ru">Размер текста</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INTERNAL_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Internal Settings</base>
+        <tran loc="ru">Внутренние настройки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">Large</base>
+        <tran loc="ru">Крупный</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Do Not Disturb While Driving</base>
+        <tran loc="ru">Не беспокоить водителя</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_TEXT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Display &amp; Text</base>
+        <tran loc="ru">Дисплей и текст</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  CarPlayApp
+
+  Created by Jonathan Hersh on 2/26/19.
+  Copyright © 2019 Apple Inc. All rights reserved.
+</Description>
+      <Position>SETTINGS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="ru">Настройки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_ACTIVATE_CARPLAY</Position>
+      <TranslationSet>
+        <base loc="en">Activate With CarPlay</base>
+        <tran loc="ru">Активация с CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

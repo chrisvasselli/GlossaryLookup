@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreMediaStream</ProjName>
+  <File>
+    <Filepath>CoreMediaStream/System/Library/PrivateFrameworks/CoreMediaStream.framework/en.lproj/CoreMediaStream.strings</Filepath>
+    <TextItem>
+      <Description>
+   CoreMediaStream.strings
+   CoreMediaStream
+
+   Created by Dave Rahardja on 8/24/10.
+   Copyright 2010 Apple Inc. All rights reserved.
+
+   You must include these language resources in your project, and provide the MSLocalizedString() function.
+ 
+ Errors</Description>
+      <Position>ERROR_CONNECTION_CORE_FAILED_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="zh-TW">「照片串流」伺服器回報伺服器錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="zh-TW">「照片串流」伺服器回報伺服器錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="zh-TW">「照片串流」伺服器回報伺服器錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARE_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="zh-TW">「照片串流」伺服器回報伺服器錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_INCOMPLETE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned an incomplete response.</base>
+        <tran loc="zh-TW">「照片串流」伺服器傳回不完整的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_BOTH_WAYS_P_NAME_P_EMAIL_P_FNAME</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s (%2$@) Photo Stream and let %3$@ see your Photo Stream?</base>
+        <tran loc="zh-TW">您要檢視%1$@（%2$@）「照片串流」中的照片並讓%3$@檢視您的「照片串流」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_OUR_STREAM_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped viewing the photos in your stream.</base>
+        <tran loc="zh-TW">%1$@已停止檢視您串流中的照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MMCS_TOKEN_TOO_OLD</Position>
+      <TranslationSet>
+        <base loc="en">Access to the shared photo must be requested again.</base>
+        <tran loc="zh-TW">必須再次要求取用共享的照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_VISITOR_AUTH_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream subscription needs to be reauthorized.</base>
+        <tran loc="zh-TW">訂閱「共享的照片串流」需要重新授權。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitations </Description>
+      <Position>INV_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Share Photo Streams</base>
+        <tran loc="zh-TW">共享照片串流</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation with email only </Description>
+      <Position>INV_SHARE_BOTH_WAYS_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s Photo Stream and let them see your Photo Stream?</base>
+        <tran loc="zh-TW">您要檢視%1$@「照片串流」中的照片並讓他們檢視您的「照片串流」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_BANDWIDTH</Position>
+      <TranslationSet>
+        <base loc="en">Server bandwidth limit exceeded, please try again later.</base>
+        <tran loc="zh-TW">已超過伺服器的頻寬上限，請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_CANNOT_REQUEUE_AFTER_URL</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream operation is missing an album.</base>
+        <tran loc="zh-TW">「共享的照片串流」操作遺失相簿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_STREAMS_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response during publication.</base>
+        <tran loc="zh-TW">「照片串流」伺服器在發佈期間傳回無效的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_SUBSCRIPTIONS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not subscribe to more than %@ Shared Photo Streams.</base>
+        <tran loc="zh-TW">您無法訂閱超過%@個「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_IGNORED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not respond to the upload request.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器未回應上傳要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_STOPPING</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photo Streams is pausing.</base>
+        <tran loc="zh-TW">正在暫停「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_NEED_RESUBMISSION</Position>
+      <TranslationSet>
+        <base loc="en">The photo file was changed before it could be uploaded.</base>
+        <tran loc="zh-TW">照片檔案在上傳前已進行更改。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_COMMENT_LENGTH</Position>
+      <TranslationSet>
+        <base loc="en">The comment is too long.</base>
+        <tran loc="zh-TW">評論太長。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_OUR_STREAM_P_NAME_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to let %1$@ (%2$@) see your Photo Stream?</base>
+        <tran loc="zh-TW">您要讓%1$@（%2$@）檢視您的「照片串流」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_NOT_AUTH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be accessed.</base>
+        <tran loc="zh-TW">無法取用照片檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared.</base>
+        <tran loc="zh-TW">無法共享照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_INVALID_STREAMS_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response during a subscription update.</base>
+        <tran loc="zh-TW">「照片串流」伺服器在訂閱更新期間傳回無效的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_BOTH_WAYS_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped sharing Photo Streams with you.</base>
+        <tran loc="zh-TW">%1$@已停止與您共享「照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_INVITATIONS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not invite more than %@ subscribers per day to Shared Photo Streams.</base>
+        <tran loc="zh-TW">每天最多只能邀請%@位訂閱者連接「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_SUBSCRIBERS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not invite more than %@ subscribers to one Shared Photo Stream.</base>
+        <tran loc="zh-TW">每個「共享的照片串流」最多只能邀請%@位訂閱者連接。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream upload has been canceled.</base>
+        <tran loc="zh-TW">已取消上傳「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MISSING_URL</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared because a URL is missing.</base>
+        <tran loc="zh-TW">無法共享照片，因為遺失URL。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ASSET_BAD_SIGNATURE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file has a bad file identifier.</base>
+        <tran loc="zh-TW">照片檔案的檔案識別碼不正確。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream sharing status contains an invalid field “%@”.</base>
+        <tran loc="zh-TW">「共享的照片串流」共享狀態包含了無效的欄位「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">The photo sharing operation was canceled.</base>
+        <tran loc="zh-TW">照片共享操作已取消。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_ALREADY_EXISTS</Position>
+      <TranslationSet>
+        <base loc="en">The photo already exists in the Shared Photo Stream.</base>
+        <tran loc="zh-TW">照片已存在「共享的照片串流」中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_INVALID_PUSH_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The invitation contains an invalid field “%@”.</base>
+        <tran loc="zh-TW">邀請包含無效的欄位「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_BAD_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">The photo access token has expired.</base>
+        <tran loc="zh-TW">照片取用代號已過期。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_ENCODE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation cannot be sent to the server.</base>
+        <tran loc="zh-TW">「共享的照片串流」操作無法傳送到伺服器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ASSET_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo has been rejected for uploading.</base>
+        <tran loc="zh-TW">上傳照片已遭拒絕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_OUR_STREAM_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to let %1$@ see your Photo Stream?</base>
+        <tran loc="zh-TW">您要讓%1$@檢視您的「照片串流」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_DOWNLOADER_ORPHANED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be downloaded.</base>
+        <tran loc="zh-TW">無法下載照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation could not be completed.</base>
+        <tran loc="zh-TW">無法完成「共享的照片串流」操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The publisher is missing</base>
+        <tran loc="zh-TW">遺失發佈者資訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_PHOTO_NOT_IN_MODEL</Position>
+      <TranslationSet>
+        <base loc="en">The photo is no longer in the Shared Photo Stream.</base>
+        <tran loc="zh-TW">照片已不存在「共享的照片串流」中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_SET_MULTIPLECONTRIBUTORS</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be set to allow multiple contributors</base>
+        <tran loc="zh-TW">「共享照片串流」無法設定成允許多位提供者</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Model </Description>
+      <Position>Model.error.invalidInvitationGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The invitation GUID “%@” could not be found.</base>
+        <tran loc="zh-TW">找不到邀請GUID「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.invalidACLGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The access control GUID “%@” could not be found.</base>
+        <tran loc="zh-TW">找不到連線權限控制GUID「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an invalid field “%@”.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器傳回無效欄位「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COMMENT_NO_INDEX</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server could not assign a position for the comment.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器無法指定評論的位置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_CANNOT_PUBLISH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be published.</base>
+        <tran loc="zh-TW">無法發佈照片檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_MISSING_ASSET_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">A photo is missing the parameter “%@”.</base>
+        <tran loc="zh-TW">照片遺失參數「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred during communication with the Photo Stream server (%@).</base>
+        <tran loc="zh-TW">與「照片串流」伺服器通訊時發生網路錯誤 (%@)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ASSET_TOO_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is too large.</base>
+        <tran loc="zh-TW">照片檔案太大。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_STATE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream could not be processed.</base>
+        <tran loc="zh-TW">無法處理「照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_BAD_FILE_HASH_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">A photo in the Photo Stream could not be retrieved.</base>
+        <tran loc="zh-TW">無法擷取「照片串流」中的照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_STORAGE_URL</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response did not include a valid storage URL.</base>
+        <tran loc="zh-TW">「照片串流」伺服器的回應不包含有效的儲存URL。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_THEIR_STREAM_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped sharing photos with you.</base>
+        <tran loc="zh-TW">%1$@已停止與您共享照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_NOT_REAUTHED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not allow the photo to be downloaded.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器不允許下載照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.invalidAssetCollectionGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The photo GUID “%@” could not be found.</base>
+        <tran loc="zh-TW">找不到照片GUID「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sharing updates </Description>
+      <Position>UPDATE_PHOTO_STREAM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Photo Stream</base>
+        <tran loc="zh-TW">照片串流</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_SUB_NO_METADATA</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not provide any information for the photo.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器未提供任何照片的資訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DELETE_CORE_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream deletion response contains an invalid field “%@”.</base>
+        <tran loc="zh-TW">刪除「照片串流」的回應包含了無效的欄位「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_SHUTTING_DOWN</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photo Streams is shutting down.</base>
+        <tran loc="zh-TW">正在關閉「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_MISSING_CHUNK</Position>
+      <TranslationSet>
+        <base loc="en">A data file is missing from the Photo Stream.</base>
+        <tran loc="zh-TW">資料檔案已從「照片串流」中遺失。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_AUTH_FAILED_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has rejected the user’s login credentials.</base>
+        <tran loc="zh-TW">「照片串流」伺服器拒絕了使用者的登入憑證。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while publishing photos to the Photo Stream server (%@).</base>
+        <tran loc="zh-TW">將照片發佈到「照片串流」伺服器時發生網路錯誤 (%@)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CORE_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while publishing photos to the Photo Stream server (%@).</base>
+        <tran loc="zh-TW">將照片發佈到「照片串流」伺服器時發生網路錯誤 (%@)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream subscription check has been canceled.</base>
+        <tran loc="zh-TW">已取消「共享的照片串流」訂閱檢查。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_ALBUMS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not create more than %@ Shared Photo Streams.</base>
+        <tran loc="zh-TW">您無法製作超過%@個「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_PHOTO_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo was not uploaded to Shared Photo Streams.</base>
+        <tran loc="zh-TW">照片未上傳至「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_INVITATION</Position>
+      <TranslationSet>
+        <base loc="en">The invitation could not be accepted.</base>
+        <tran loc="zh-TW">無法接受邀請。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_THEIR_STREAM_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s Photo Stream?</base>
+        <tran loc="zh-TW">您要檢視%1$@「照片串流」中的照片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_INVALID_FIELD_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response for the subscription field “%@”.</base>
+        <tran loc="zh-TW">「照片串流」伺服器傳回對訂閱欄位「%@」無效的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_MISMATCHED_COLLECTION</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned a mismatched photo identifier.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器傳回不相符的照片識別碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_BAD_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an invalid field.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器傳回無效欄位。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_NO_URL_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">A connection to the Photo Stream server could not be made.</base>
+        <tran loc="zh-TW">無法建立與「照片串流」伺服器的連線。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_ASSET_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response did not include the correct upload authorization.</base>
+        <tran loc="zh-TW">「照片串流」伺服器的回應未包含正確的上傳授權。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_COMMENTS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">A photo may not have more than %@ comments.</base>
+        <tran loc="zh-TW">一張照片不能有超過%@則評論。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_GET_ASSET</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be downloaded.</base>
+        <tran loc="zh-TW">無法下載照片檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_RETRIEVE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be downloaded.</base>
+        <tran loc="zh-TW">無法下載照片檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DELETER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream deletion has been canceled.</base>
+        <tran loc="zh-TW">已取消刪除「照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_THEIR_STREAM_P_NAME_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s (%2$@) Photo Stream?</base>
+        <tran loc="zh-TW">您要檢視%1$@（%2$@）「照片串流」中的照片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_MISSING_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is missing information needed for uploading.</base>
+        <tran loc="zh-TW">照片檔案遺失上傳所需的資訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_CANNOT_COMPUTE_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be queued for uploading.</base>
+        <tran loc="zh-TW">照片檔案無法加入上傳佇列。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream response contains an invalid field “%@”.</base>
+        <tran loc="zh-TW">「照片串流」的回應包含了無效的欄位「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_FORBIDDEN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has rejected the user’s request.</base>
+        <tran loc="zh-TW">「照片串流」伺服器拒絕了使用者的要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation was canceled.</base>
+        <tran loc="zh-TW">「共享的照片串流」操作已取消。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_STOPPED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation was stopped.</base>
+        <tran loc="zh-TW">「共享的照片串流」操作已停止。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_SET_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be made public</base>
+        <tran loc="zh-TW">無法將「共享的照片串流」設為公開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_INVALID_CHUNK_SIZE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response with an invalid size.</base>
+        <tran loc="zh-TW">「照片串流」伺服器傳回包含無效大小的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_SUB_MISSING_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The response to the Shared Photo Stream request is missing the field “%@”.</base>
+        <tran loc="zh-TW">「共享的照片串流」要求的回應遺失欄位「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_HTTP_ERROR_P_CODE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an error (%@).</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器傳回錯誤（%@）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_CHUNK_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response with an invalid data block.</base>
+        <tran loc="zh-TW">「照片串流」伺服器傳回包含無效資料區塊的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while retrieving photos from the Photo Stream server (%@).</base>
+        <tran loc="zh-TW">從「照片串流」伺服器擷取照片時發生網路錯誤 (%@)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MISSING_MMCS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared because an access token is missing.</base>
+        <tran loc="zh-TW">無法共享照片，因為遺失取用代號。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_UNSET_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be made non-public</base>
+        <tran loc="zh-TW">無法將「共享的照片串流」設為非公開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_ALBUM</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream for the photo could not be found.</base>
+        <tran loc="zh-TW">找不到照片的「共享的照片串流」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while retrieving subscription information from Photo Stream server (%@).</base>
+        <tran loc="zh-TW">從「照片串流」伺服器擷取訂閱資訊時發生網路錯誤 (%@)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_UNSET_MULTIPLECONTRIBUTORS</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be set to not allow multiple contributors</base>
+        <tran loc="zh-TW">「共享照片串流」無法設定成不允許多位提供者</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_CANNOT_QUEUE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be queued for upload.</base>
+        <tran loc="zh-TW">照片檔案無法加入上傳佇列。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_CANNOT_PARSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response could not be understood.</base>
+        <tran loc="zh-TW">無法理解「照片串流」伺服器的回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_INVALID_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server reported a sharing status of the wrong type.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器回報錯誤類型的共享狀態。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_ALBUM_STATE_CTAG_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream state could not be set.</base>
+        <tran loc="zh-TW">無法設定「共享的照片串流」狀態。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_UTI_REJECTED_P_UTI</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server cannot accept files of type “%@”.</base>
+        <tran loc="zh-TW">「共享的照片串流」伺服器無法接受「%@」的檔案類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_SEND_QUEUE_MISMATCH</Position>
+      <TranslationSet>
+        <base loc="en">Found mismatch between expecting sending queue count and actual count</base>
+        <tran loc="zh-TW">預期的傳送佇列數量和實際數量之間找到不相符的項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BLOCK_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a block that is too short.</base>
+        <tran loc="zh-TW">「照片串流」伺服器傳回的區塊太短。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_COMMENT</Position>
+      <TranslationSet>
+        <base loc="en">The comment could not be found.</base>
+        <tran loc="zh-TW">找不到評論。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_PART_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response block of the wrong type.</base>
+        <tran loc="zh-TW">「照片串流」伺服器傳回錯誤類型的回應區塊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_UPLOADER_ORPHANED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be uploaded.</base>
+        <tran loc="zh-TW">無法上傳照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_CREATE_ALBUM</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream “%@” could not be created.</base>
+        <tran loc="zh-TW">無法製作「共享的照片串流」「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Server-side config </Description>
+      <Position>SERVER_CONFIG_INVALID</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream configuration returned by the server is invalid.</base>
+        <tran loc="zh-TW">伺服器回報的「照片串流」設定無效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_GET_VIDEO</Position>
+      <TranslationSet>
+        <base loc="en">The video file cannot be downloaded.</base>
+        <tran loc="zh-TW">無法下載影片檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.protocol</Position>
+      <TranslationSet>
+        <base loc="en">An error was found while communicating with the Shared Photo Streams server.</base>
+        <tran loc="zh-TW">與「共享的照片串流」伺服器通訊時發生錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_CANNOT_GET_FD</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is invalid.</base>
+        <tran loc="zh-TW">照片檔案無效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ASSET_INVALID</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is invalid.</base>
+        <tran loc="zh-TW">照片檔案無效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_PHOTOS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not share more than %@ photos in a Shared Photo Stream.</base>
+        <tran loc="zh-TW">您無法在「共享的照片串流」中共享超過%@張照片。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMediaStream/System/Library/PrivateFrameworks/CoreMediaStream.framework/en.lproj/MMCSKit.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANNOT_REGISTER_FILE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to register file.</base>
+        <tran loc="zh-TW">無法登錄檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANNOT_GET_FD_P_ASSET</Position>
+      <TranslationSet>
+        <base loc="en">Unable to retrieve a file descriptor for asset %@</base>
+        <tran loc="zh-TW">無法取得內容%@的檔案描述元</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  MMCSKit.strings
+  CoreMediaStream
+
+  Created by Dave Rahardja on 11/24/11.
+  Copyright (c) 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>ERROR_CANNOT_FIND_ASSET_P_ITEMID</Position>
+      <TranslationSet>
+        <base loc="en">Unable to find an asset with item ID %lld</base>
+        <tran loc="zh-TW">找不到帶有項目識別碼%lld的內容</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

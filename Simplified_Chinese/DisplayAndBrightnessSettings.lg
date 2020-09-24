@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DisplayAndBrightnessSettings</ProjName>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/ExternalDisplays.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>HDR_COLOR_SETTING_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">HDR requires a high-speed HDMI cable and compatible adaptor. If you see black, sparkles, static, or other display problems, try a different cable or choose a different display setting.</base>
+        <tran loc="zh-CN">HDR需要高速HDMI线缆和兼容的转换器。若出现黑屏、屏幕闪烁、画面静止或其他显示问题，请尝试其他线缆或选取其他显示设置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTERNAL_DISPLAY</Position>
+      <TranslationSet>
+        <base loc="en">External Display</base>
+        <tran loc="zh-CN">外部显示器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Displays-j3xx.strings
+  Preferences
+
+  Created by Bilal S. Sayed Ahmad on 6/29/18.
+  Copyright © 2018 Apple Inc. All rights reserved.
+</Description>
+      <Position>CONNECTED_DISPLAYS</Position>
+      <TranslationSet>
+        <base loc="en">Connected Displays</base>
+        <tran loc="zh-CN">已连接的显示器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STANDARD_DYNAMIC_RANGE</Position>
+      <TranslationSet>
+        <base loc="en">Standard Dynamic Range (SDR)</base>
+        <tran loc="zh-CN">标准动态范围 (SDR)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SDR_COLOR_SETTING_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">If you expect your display to support HDR, try a different HDMI cable or adaptor.</base>
+        <tran loc="zh-CN">若要让显示器支持HDR，请尝试其他HDMI线缆或转换器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LIMIT_REFRESH_RATE_CONFIRM</Position>
+      <TranslationSet>
+        <base loc="en">Use Dolby Vision at 30Hz</base>
+        <tran loc="zh-CN">使用杜比视界 (30Hz)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LIMIT_REFRESH_RATE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Choosing Dolby Vision for this display will limit the refresh rate to 30Hz. A refresh rate of 60 Hz or more is recommended for an optimal experience.</base>
+        <tran loc="zh-CN">为此显示器选取“杜比视界”会将刷新率限制为30Hz。推荐使用60 Hz或更高的刷新率以获得最佳使用体验。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOLBY_COLOR_SETTING_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Dolby Vision and HDR require a high-speed HDMI cable and compatible adaptor. If you see black, sparkles, static, or other display problems, try a different cable or choose a different display setting.</base>
+        <tran loc="zh-CN">杜比视界和HDR需要高速HDMI线缆和兼容的转换器。若出现黑屏、屏幕闪烁、画面静止或其他显示问题，请尝试其他线缆或选取其他显示设置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REFRESH_RATE_LIMITED</Position>
+      <TranslationSet>
+        <base loc="en">Refresh rate limited to 30Hz</base>
+        <tran loc="zh-CN">刷新率限制为30Hz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LIMIT_REFRESH_RATE_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RECOMMENDED</Position>
+      <TranslationSet>
+        <base loc="en">Recommended</base>
+        <tran loc="zh-CN">推荐</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MATCH_CONTENT_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">When this is on, the display mode will change to match the dynamic range and framerate of the content you're viewing. This may result in flickering or long periods of black whenever content changes.</base>
+        <tran loc="zh-CN">启用此功能后，显示模式会更改以匹配所查看内容的动态范围和帧速率。这可能会导致内容更改时屏幕闪烁或长时间黑屏。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTERNAL_AUTO_BRIGHTNESS</Position>
+      <TranslationSet>
+        <base loc="en">Auto-Brightness</base>
+        <tran loc="zh-CN">自动亮度调节</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HIGH_DYNAMIC_RANGE</Position>
+      <TranslationSet>
+        <base loc="en">High Dynamic Range (HDR)</base>
+        <tran loc="zh-CN">高动态范围 (HDR)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFERRED_COLOR_SETTING</Position>
+      <TranslationSet>
+        <base loc="en">Preferred Display Setting</base>
+        <tran loc="zh-CN">首选显示设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Limit refresh rate alert.
+ </Description>
+      <Position>LIMIT_REFRESH_RATE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Limit Refresh Rate?</base>
+        <tran loc="zh-CN">限制刷新率？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COLOR_SETTING</Position>
+      <TranslationSet>
+        <base loc="en">Display Setting</base>
+        <tran loc="zh-CN">显示设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOST_COMPATIBLE</Position>
+      <TranslationSet>
+        <base loc="en">Most compatible</base>
+        <tran loc="zh-CN">兼容性最佳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Content Matching.
+ </Description>
+      <Position>MATCH_CONTENT</Position>
+      <TranslationSet>
+        <base loc="en">Allow Display Mode Changes</base>
+        <tran loc="zh-CN">允许更改显示模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOD</Position>
+      <TranslationSet>
+        <base loc="en">Good</base>
+        <tran loc="zh-CN">良好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ External brightness.
+ </Description>
+      <Position>BRIGHTNESS_GROUP</Position>
+      <TranslationSet>
+        <base loc="en">Brightness</base>
+        <tran loc="zh-CN">亮度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Display mode.
+ </Description>
+      <Position>DOLBY_VISION</Position>
+      <TranslationSet>
+        <base loc="en">Dolby Vision</base>
+        <tran loc="zh-CN">杜比视界</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/DeviceAppearanceSchedule.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SCHEDULE</Position>
+      <TranslationSet>
+        <base loc="en">Custom Schedule</base>
+        <tran loc="zh-CN">自定时段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  DeviceAppearanceSchedule.strings
+  DisplayAndBrightnessSettings
+
+  Created by Bilal S. Sayed Ahmad on 3/29/19.
+  
+</Description>
+      <Position>APPEARANCE_SCHEDULE</Position>
+      <TranslationSet>
+        <base loc="en">Appearance Schedule</base>
+        <tran loc="zh-CN">定时切换外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LIGHT_APPEARANCE</Position>
+      <TranslationSet>
+        <base loc="en">Light Appearance</base>
+        <tran loc="zh-CN">浅色外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPEARANCE_SCHEDULE_FOOTER_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Schedule times to change appearance automatically. iPhone may wait to transition until you are not using the screen.</base>
+        <tran loc="zh-CN">设定时间让外观自动更改。iPhone可能会等到您不使用屏幕时才执行外观切换。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DARK_APPEARANCE</Position>
+      <TranslationSet>
+        <base loc="en">Dark Appearance</base>
+        <tran loc="zh-CN">深色外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPEARANCE_SCHEDULE_FOOTER_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Schedule times to change appearance automatically. iPod may wait to transition until you are not using the screen.</base>
+        <tran loc="zh-CN">设定时间让外观自动更改。iPod可能会等到您不使用屏幕时才执行外观切换。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPEARANCE_SCHEDULE_FOOTER_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Schedule times to change appearance automatically. iPad may wait to transition until you are not using the screen.</base>
+        <tran loc="zh-CN">设定时间让外观自动更改。iPad可能会等到您不使用屏幕时才执行外观切换。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_SUNSET_TO_SUNRISE</Position>
+      <TranslationSet>
+        <base loc="en">Sunset to Sunrise</base>
+        <tran loc="zh-CN">日落到日出</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/LargeFontsSettings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DYNAMIC_TYPE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Apps that support Dynamic Type will adjust to your preferred reading size below.</base>
+        <tran loc="zh-CN">支持动态字体的App将会调整为下方您首选的阅读字体大小。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LARGER_DYNAMIC_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">Larger Accessibility Sizes</base>
+        <tran loc="zh-CN">更大的辅助功能字体</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed on both sides of slider at different font sizes to indicate which direction means 'larger' </Description>
+      <Position>DYNAMIC_TYPE_SLIDER_INDICATOR</Position>
+      <TranslationSet>
+        <base loc="en">A</base>
+        <tran loc="zh-CN">A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DYNAMIC_TYPE_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Apps that support Dynamic Type will adjust to your preferred reading size above.</base>
+        <tran loc="zh-CN">支持动态字体的App将会调整为上方您首选的阅读字体大小。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LARGER_SIZES_HELP_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Larger sizes are available in Accessibility Settings.</base>
+        <tran loc="zh-CN">“辅助功能”设置中有更大的字体供您选择。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/Magnify.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ZOOMED</Position>
+      <TranslationSet>
+        <base loc="en">Zoomed</base>
+        <tran loc="zh-CN">放大</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STANDARD</Position>
+      <TranslationSet>
+        <base loc="en">Standard</base>
+        <tran loc="zh-CN">标准</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_PROMPT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Changing Display Zoom will restart iPad.</base>
+        <tran loc="zh-CN">更改“放大显示”会重新启动iPad。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_ZOOM</Position>
+      <TranslationSet>
+        <base loc="en">Display Zoom</base>
+        <tran loc="zh-CN">放大显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EASY_REACH</Position>
+      <TranslationSet>
+        <base loc="en">Easy Reach</base>
+        <tran loc="zh-CN">容易取用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_PROMPT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Changing Display Zoom will restart iPhone.</base>
+        <tran loc="zh-CN">更改“放大显示”会重新启动iPhone。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_USE_ZOOMED</Position>
+      <TranslationSet>
+        <base loc="en">Use Zoomed</base>
+        <tran loc="zh-CN">使用放大模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_USE_STANDARD</Position>
+      <TranslationSet>
+        <base loc="en">Use Standard</base>
+        <tran loc="zh-CN">使用标准模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SET</Position>
+      <TranslationSet>
+        <base loc="en">Set</base>
+        <tran loc="zh-CN">设定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_USE_ZOOMED_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Use Zoomed?</base>
+        <tran loc="zh-CN">使用放大模式？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_USE_STANDARD_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Use Standard?</base>
+        <tran loc="zh-CN">使用标准模式？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="zh-CN">下一步</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/HomeScreen.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_TODAY_VIEW</Position>
+      <TranslationSet>
+        <base loc="en">Customize Today View</base>
+        <tran loc="zh-CN">自定“今天”视图</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>MARK: - Today View Section.</Description>
+      <Position>TODAY_VIEW_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Today View</base>
+        <tran loc="zh-CN">“今天”视图</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_ICON_SIZE_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">\"More\" shows up to 30 icons on each page with the option to keep the Today View on the Home Screen. \"Bigger\" shows up to 20 app icons.</base>
+        <tran loc="zh-CN">“更多”会在每一页显示最多30个图标，并可选择在主屏幕保留“今天”视图。“更大”最高可显示20个App图标。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TODAY_VIEW_ON_HOME_SCREEN</Position>
+      <TranslationSet>
+        <base loc="en">Keep Today View on Home Screen</base>
+        <tran loc="zh-CN">在主屏幕上保留“今天”视图</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  HomeScreen.strings
+  DisplayAndBrightnessSettings
+
+  Created by Bilal S. Sayed Ahmad on 8/23/19.
+  
+</Description>
+      <Position>HOME_SCREEN_DOCK</Position>
+      <TranslationSet>
+        <base loc="en">Home Screen</base>
+        <tran loc="zh-CN">主屏幕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MORE</Position>
+      <TranslationSet>
+        <base loc="en">More</base>
+        <tran loc="zh-CN">更多</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>MARK: - App Icons Section.</Description>
+      <Position>APP_ICON_SIZE_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">App Icons</base>
+        <tran loc="zh-CN">App图标</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>MARK: - Multitasking &amp; Dock Section.</Description>
+      <Position>MULTITASKING_DOCK_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Multitasking &amp; Dock</base>
+        <tran loc="zh-CN">多任务与程序坞</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MULTITASKING</Position>
+      <TranslationSet>
+        <base loc="en">Multitasking</base>
+        <tran loc="zh-CN">多任务</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_RECENTS</Position>
+      <TranslationSet>
+        <base loc="en">Show Suggested and Recent Apps in Dock</base>
+        <tran loc="zh-CN">在程序坞中显示建议App和最近使用App</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BIGGER</Position>
+      <TranslationSet>
+        <base loc="en">Bigger</base>
+        <tran loc="zh-CN">更大</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/PiP.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>GESTURES</Position>
+      <TranslationSet>
+        <base loc="en">Gestures</base>
+        <tran loc="zh-CN">手势</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PIP_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">When this is on, videos will continue playing in an overlay, even when you press the Home button.</base>
+        <tran loc="zh-CN">启用此功能后，即使您按了主屏幕按钮，视频也将继续叠层播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MULTITASKING</Position>
+      <TranslationSet>
+        <base loc="en">Multitasking</base>
+        <tran loc="zh-CN">多任务</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MULTIPLE_APPS_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Drag applications from the Dock or Home screen to create Split View and Slide Over apps. Swipe from the right edge to reveal your last Slide Over app.</base>
+        <tran loc="zh-CN">从程序坞或主屏幕拖移应用程序以创建“分屏浏览”和“侧拉”App。从右侧边缘轻扫显示上一个“侧拉”App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  PiP.strings
+  Preferences
+
+  Created by Greg Hagen on 1/28/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>ALLOW_MULTIPLE_APPS</Position>
+      <TranslationSet>
+        <base loc="en">Allow Multiple Apps</base>
+        <tran loc="zh-CN">允许多个App</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_PIP</Position>
+      <TranslationSet>
+        <base loc="en">Picture in Picture</base>
+        <tran loc="zh-CN">画中画</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This string is only shown in Arabic and Hebrew, when legacy RTL mode is enabled. Please translate this string as "right edge", exactly the same as the source string </Description>
+      <Position>MULTIPLE_APPS_FOOTER_LEGACY_RTL</Position>
+      <TranslationSet>
+        <base loc="en">When you swipe from the right edge of the screen, you can pull in a temporary overlay of another app.</base>
+        <tran loc="zh-CN">从右边缘轻扫屏幕可暂时叠层显示另一App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PIP_SWIPE_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Allows videos you're playing and FaceTime video calls to continue when you swipe up to go Home and use other apps.</base>
+        <tran loc="zh-CN">向上轻扫前往主屏幕并使用其他App时，允许继续播放视频和进行FaceTime视频通话。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/ColorSchedule.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SCHEDULE</Position>
+      <TranslationSet>
+        <base loc="en">Custom Schedule</base>
+        <tran loc="zh-CN">自定时段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_ON_AT</Position>
+      <TranslationSet>
+        <base loc="en">Turn On At</base>
+        <tran loc="zh-CN">打开：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF_AT</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off At</base>
+        <tran loc="zh-CN">关闭：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BLUE_LIGHT_REDUCTION_SCHEDULE</Position>
+      <TranslationSet>
+        <base loc="en">Automate Schedule:</base>
+        <tran loc="zh-CN">自动定时：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_SUNSET_TO_SUNRISE</Position>
+      <TranslationSet>
+        <base loc="en">Sunset to Sunrise</base>
+        <tran loc="zh-CN">日落到日出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ ColorSchedule.strings
+ Preferences
+ 
+ Created by Greg Hagen on 11/18/15.
+ Copyright © 2015 Apple Inc. All rights reserved.
+ </Description>
+      <Position>SCHEDULE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Schedule</base>
+        <tran loc="zh-CN">定时</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/Display.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>AUTOLOCK</Position>
+      <TranslationSet>
+        <base loc="en">Auto-Lock</base>
+        <tran loc="zh-CN">自动锁定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RAISE_TO_WAKE</Position>
+      <TranslationSet>
+        <base loc="en">Raise to Wake</base>
+        <tran loc="zh-CN">抬起唤醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable True Tone</base>
+        <tran loc="zh-CN">启用原彩显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTOMATIC</Position>
+      <TranslationSet>
+        <base loc="en">Automatic</base>
+        <tran loc="zh-CN">自动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHITE_BALANCE_FOOTER_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Automatically adapt iPhone display based on ambient lighting conditions to make colors appear consistent in different environments.</base>
+        <tran loc="zh-CN">根据环境光线条件自动调整iPhone屏幕以在不同环境下保持色彩显示一致。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOM_SCHEDULE_LIGHT</Position>
+      <TranslationSet>
+        <base loc="en">Light Until %@</base>
+        <tran loc="zh-CN">%@前保持浅色外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_ENABLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable</base>
+        <tran loc="zh-CN">启用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTOLOCK_LPM_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">When in Low Power Mode, auto-lock is restricted to 30 seconds.</base>
+        <tran loc="zh-CN">低电量模式下，自动锁定将限制为30秒。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DARK</Position>
+      <TranslationSet>
+        <base loc="en">Dark</base>
+        <tran loc="zh-CN">深色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHITE_BALANCE_FOOTER_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Automatically adapt iPod touch display based on ambient lighting conditions to make colors appear consistent in different environments.</base>
+        <tran loc="zh-CN">根据环境光线条件自动调整iPod touch屏幕以在不同环境下保持色彩显示一致。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHITE_BALANCE</Position>
+      <TranslationSet>
+        <base loc="en">True Tone</base>
+        <tran loc="zh-CN">原彩显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMART_CASE_LOCK_FOOTER_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Automatically lock and unlock your iPod touch when you close and open the iPod touch cover.</base>
+        <tran loc="zh-CN">关闭和打开iPod touch保护盖时，自动锁定和解锁iPod touch。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VIEW</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-CN">视图</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-CN">继续</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BLUE_LIGHT_REDUCTION</Position>
+      <TranslationSet>
+        <base loc="en">Night Shift</base>
+        <tran loc="zh-CN">夜览</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_AND_BRIGHTNESS</Position>
+      <TranslationSet>
+        <base loc="en">Display &amp; Brightness</base>
+        <tran loc="zh-CN">显示与亮度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>30_SECONDS</Position>
+      <TranslationSet>
+        <base loc="en">%@ Seconds</base>
+        <tran loc="zh-CN">%@秒钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>d_SECONDS</Position>
+      <TranslationSet>
+        <base loc="en">%@ Seconds</base>
+        <tran loc="zh-CN">%@秒钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOLD_TEXT_RESTART_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Applying Bold Text…</base>
+        <tran loc="zh-CN">正在应用粗体文本…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_ZOOM</Position>
+      <TranslationSet>
+        <base loc="en">Display Zoom</base>
+        <tran loc="zh-CN">放大显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device Appearance.</Description>
+      <Position>APPEARANCE</Position>
+      <TranslationSet>
+        <base loc="en">Appearance</base>
+        <tran loc="zh-CN">外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BLUE_LIGHT_LOW_POWER_MODE_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Night Shift is disabled in low power mode.</base>
+        <tran loc="zh-CN">低电量模式下，夜览将停用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOLD_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Bold Text</base>
+        <tran loc="zh-CN">粗体文本</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPEARANCE_OPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Options</base>
+        <tran loc="zh-CN">选项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>10_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>15_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This is used in the case where there is a restriction limiting it to a value other than the ones above.</Description>
+      <Position>d_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minutes</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_ZOOM_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Choose a view for iPad. Zoomed shows larger controls. Standard shows more content.</base>
+        <tran loc="zh-CN">选取查看iPad的方式。“放大”会显示更大的控制项。“标准”会显示更多的内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_ZOOM_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Choose a view for iPhone. Zoomed shows larger controls. Standard shows more content.</base>
+        <tran loc="zh-CN">选取查看iPhone的方式。“放大”会显示更大的控制项。“标准”会显示更多的内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ will be replaced with localized number number string that matches number of minutes on the left side
+ Hebrew localization would like 1_MINUTES without %@ &lt;rdar://problem/8045512&gt;</Description>
+      <Position>NO_DIGIT_NEEDED_1_MINUTE</Position>
+      <TranslationSet>
+        <base loc="en">1 Minute</base>
+        <tran loc="zh-CN">1分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LIGHT</Position>
+      <TranslationSet>
+        <base loc="en">Light</base>
+        <tran loc="zh-CN">浅色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE</Position>
+      <TranslationSet>
+        <base loc="en">Text Size</base>
+        <tran loc="zh-CN">文字大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOM_SCHEDULE_DARK</Position>
+      <TranslationSet>
+        <base loc="en">Dark Until %@</base>
+        <tran loc="zh-CN">%@前保持深色外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>START_TIME_TO_STOP_TIME</Position>
+      <TranslationSet>
+        <base loc="en">%@ to %@</base>
+        <tran loc="zh-CN">%@ － %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DARK_UNTIL_SUNRISE</Position>
+      <TranslationSet>
+        <base loc="en">Dark Until Sunrise</base>
+        <tran loc="zh-CN">日出前保持深色外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%@ Minute</base>
+        <tran loc="zh-CN">%@分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Enabling True Tone will disable Invert Colors. Would you like to enable True Tone?</base>
+        <tran loc="zh-CN">启用原彩显示将停用反转颜色。您要启用原彩显示吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEVER</Position>
+      <TranslationSet>
+        <base loc="en">Never</base>
+        <tran loc="zh-CN">永不</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="zh-CN">打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMART_CASE_LOCK_FOOTER_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Automatically lock and unlock your iPhone when you close and open the iPhone cover.</base>
+        <tran loc="zh-CN">关闭和打开iPhone保护盖时，自动锁定和解锁iPhone。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMART_CASE_LOCK_FOOTER_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Automatically lock and unlock your iPad when you close and open the iPad cover.</base>
+        <tran loc="zh-CN">关闭和打开iPad保护盖时，自动锁定和解锁iPad。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LIGHT_UNTIL_SUNSET</Position>
+      <TranslationSet>
+        <base loc="en">Light Until Sunset</base>
+        <tran loc="zh-CN">日落前保持浅色外观</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BRIGHTNESS</Position>
+      <TranslationSet>
+        <base loc="en">Brightness</base>
+        <tran loc="zh-CN">亮度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMART_CASE_LOCK</Position>
+      <TranslationSet>
+        <base loc="en">Lock / Unlock</base>
+        <tran loc="zh-CN">锁定/解锁</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHITE_BALANCE_FOOTER_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Automatically adapt iPad display based on ambient lighting conditions to make colors appear consistent in different environments.</base>
+        <tran loc="zh-CN">根据环境光线条件自动调整iPad屏幕以在不同环境下保持色彩显示一致。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUNSET_TO_SUNRISE</Position>
+      <TranslationSet>
+        <base loc="en">Sunset to Sunrise</base>
+        <tran loc="zh-CN">日落到日出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OFF</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="zh-CN">关闭</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayAndBrightnessSettings/System/Library/PrivateFrameworks/Settings/DisplayAndBrightnessSettings.framework/en.lproj/ColorTemperature.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>COLOR_TEMPERATURE_MOTION_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Warmer settings may affect the appearance of some onscreen motion.</base>
+        <tran loc="zh-CN">设置较暖色温可能影响部分屏幕动态。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NIGHT_SHIFT_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Night Shift automatically shifts the colors of your display to the warmer end of the color spectrum after dark. This may help you get a better night’s sleep.</base>
+        <tran loc="zh-CN">日落后，夜览会自动将屏幕颜色调至色谱偏暖色的一端。这可助您在夜晚获得更佳睡眠。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COOLER</Position>
+      <TranslationSet>
+        <base loc="en">Less Warm</base>
+        <tran loc="zh-CN">较冷</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SCHEDULED</Position>
+      <TranslationSet>
+        <base loc="en">Scheduled</base>
+        <tran loc="zh-CN">设定时间</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_ENABLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable</base>
+        <tran loc="zh-CN">启用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable Night Shift</base>
+        <tran loc="zh-CN">启用夜览</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MANUAL</Position>
+      <TranslationSet>
+        <base loc="en">Manually Enable Until Tomorrow</base>
+        <tran loc="zh-CN">明天前手动启用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TO</Position>
+      <TranslationSet>
+        <base loc="en">To</base>
+        <tran loc="zh-CN">至</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WARMER</Position>
+      <TranslationSet>
+        <base loc="en">More Warm</base>
+        <tran loc="zh-CN">较暖</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  ColorTemperature.strings
+  Preferences
+
+  Created by Greg Hagen on 1/15/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+</Description>
+      <Position>NIGHT_SHIFT</Position>
+      <TranslationSet>
+        <base loc="en">Night Shift</base>
+        <tran loc="zh-CN">夜览</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COLOR_TEMPERATURE</Position>
+      <TranslationSet>
+        <base loc="en">Color Temperature</base>
+        <tran loc="zh-CN">色温</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUNSET</Position>
+      <TranslationSet>
+        <base loc="en">Sunset</base>
+        <tran loc="zh-CN">日落</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUNRISE</Position>
+      <TranslationSet>
+        <base loc="en">Sunrise</base>
+        <tran loc="zh-CN">日出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLE_AX_FILTERS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Enabling Night Shift will disable Invert Colors. Would you like to enable Night Shift?</base>
+        <tran loc="zh-CN">启用夜览将停用反转颜色。您要启用夜览吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM</Position>
+      <TranslationSet>
+        <base loc="en">From</base>
+        <tran loc="zh-CN">从</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

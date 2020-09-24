@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreMediaStream</ProjName>
+  <File>
+    <Filepath>CoreMediaStream/System/Library/PrivateFrameworks/CoreMediaStream.framework/en.lproj/CoreMediaStream.strings</Filepath>
+    <TextItem>
+      <Description>
+   CoreMediaStream.strings
+   CoreMediaStream
+
+   Created by Dave Rahardja on 8/24/10.
+   Copyright 2010 Apple Inc. All rights reserved.
+
+   You must include these language resources in your project, and provide the MSLocalizedString() function.
+ 
+ Errors</Description>
+      <Position>ERROR_CONNECTION_CORE_FAILED_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="ru">Сервер фотопотока сообщил об ошибке сервера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="ru">Сервер фотопотока сообщил об ошибке сервера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="ru">Сервер фотопотока сообщил об ошибке сервера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARE_CORE_CONNECTION_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server reported a server error.</base>
+        <tran loc="ru">Сервер фотопотока сообщил об ошибке сервера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_INCOMPLETE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned an incomplete response.</base>
+        <tran loc="ru">Сервер фотопотока вернул неполный ответ.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_BOTH_WAYS_P_NAME_P_EMAIL_P_FNAME</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s (%2$@) Photo Stream and let %3$@ see your Photo Stream?</base>
+        <tran loc="ru">Хотите позволить смотреть фотографии в фотопотоке пользователя: %1$@ (%2$@) и позволить пользователю: %3$@ смотреть Ваш фотопоток?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_OUR_STREAM_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped viewing the photos in your stream.</base>
+        <tran loc="ru">%1$@ прекратил смотреть фотографии в Вашем потоке.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MMCS_TOKEN_TOO_OLD</Position>
+      <TranslationSet>
+        <base loc="en">Access to the shared photo must be requested again.</base>
+        <tran loc="ru">Доступ к общей фотографии должен быть предоставлен повторно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_VISITOR_AUTH_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream subscription needs to be reauthorized.</base>
+        <tran loc="ru">Подписка на общий фотопоток должна быть авторизована повторно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitations </Description>
+      <Position>INV_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Share Photo Streams</base>
+        <tran loc="ru">Общие фотопотоки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Invitation with email only </Description>
+      <Position>INV_SHARE_BOTH_WAYS_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s Photo Stream and let them see your Photo Stream?</base>
+        <tran loc="ru">Хотите позволить смотреть фотографии в фотопотоке пользователя %1$@ и позволить им смотреть Ваш фотопоток?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_BANDWIDTH</Position>
+      <TranslationSet>
+        <base loc="en">Server bandwidth limit exceeded, please try again later.</base>
+        <tran loc="ru">Превышена пропускная способность сервера. Повторите попытку позже.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_CANNOT_REQUEUE_AFTER_URL</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream operation is missing an album.</base>
+        <tran loc="ru">В операции Общего фотопотока отсутствует альбом.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_STREAMS_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response during publication.</base>
+        <tran loc="ru">Сервер фотопотока вернул недействительный ответ во время публикации.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_SUBSCRIPTIONS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not subscribe to more than %@ Shared Photo Streams.</base>
+        <tran loc="ru">Подписка на общие фотопотоки кол-вом более %@ невозможна.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_IGNORED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not respond to the upload request.</base>
+        <tran loc="ru">Сервер Общих фотопотоков не ответил на запрос на выгрузку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_STOPPING</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photo Streams is pausing.</base>
+        <tran loc="ru">Функция «Общие фотопотоки» приостанавливается.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_NEED_RESUBMISSION</Position>
+      <TranslationSet>
+        <base loc="en">The photo file was changed before it could be uploaded.</base>
+        <tran loc="ru">Фотофайл был изменен до того, как он был загружен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_COMMENT_LENGTH</Position>
+      <TranslationSet>
+        <base loc="en">The comment is too long.</base>
+        <tran loc="ru">Комментарий слишком длинный.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_OUR_STREAM_P_NAME_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to let %1$@ (%2$@) see your Photo Stream?</base>
+        <tran loc="ru">Хотите позволить %1$@ (%2$@) смотреть Ваш фотопоток?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_NOT_AUTH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be accessed.</base>
+        <tran loc="ru">Не удается получить доступ к фотофайлу.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared.</base>
+        <tran loc="ru">Не удалось открыть общий доступ к фото.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_INVALID_STREAMS_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response during a subscription update.</base>
+        <tran loc="ru">Сервер фотопотока вернул недействительный ответ во время обновления подписки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_BOTH_WAYS_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped sharing Photo Streams with you.</base>
+        <tran loc="ru">%1$@ прекратил предоставлять Вам фотопоток.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_INVITATIONS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not invite more than %@ subscribers per day to Shared Photo Streams.</base>
+        <tran loc="ru">Приглашение на общие фотопотоки подписчиков кол-вом более %@ невозможно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_SUBSCRIBERS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not invite more than %@ subscribers to one Shared Photo Stream.</base>
+        <tran loc="ru">Приглашение на один общий фотопоток подписчиков кол-вом более %@ невозможно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream upload has been canceled.</base>
+        <tran loc="ru">Загрузка общего фотопотока была отменена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MISSING_URL</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared because a URL is missing.</base>
+        <tran loc="ru">Не удалось открыть общий доступ к фотографии из-за отсутствия URL.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ASSET_BAD_SIGNATURE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file has a bad file identifier.</base>
+        <tran loc="ru">Фотофайл имеет недействительный идентификатор.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream sharing status contains an invalid field “%@”.</base>
+        <tran loc="ru">Статус общего доступа фотопотока содержит недействительное поле «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">The photo sharing operation was canceled.</base>
+        <tran loc="ru">Предоставление общего доступа к фотографии отменено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COLL_ALREADY_EXISTS</Position>
+      <TranslationSet>
+        <base loc="en">The photo already exists in the Shared Photo Stream.</base>
+        <tran loc="ru">Эта фотография уже находится в общем фотопотоке.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_INVALID_PUSH_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The invitation contains an invalid field “%@”.</base>
+        <tran loc="ru">Приглашение содержит недействительное поле «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_BAD_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">The photo access token has expired.</base>
+        <tran loc="ru">Токен для доступа к фотографиям истек.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_ENCODE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation cannot be sent to the server.</base>
+        <tran loc="ru">Операцию Общих фотопотоков не удалось отправить на сервер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ASSET_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo has been rejected for uploading.</base>
+        <tran loc="ru">Загрузка фотографии отклонена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_OUR_STREAM_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to let %1$@ see your Photo Stream?</base>
+        <tran loc="ru">Хотите позволить %1$@ смотреть Ваш фотопоток?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_DOWNLOADER_ORPHANED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be downloaded.</base>
+        <tran loc="ru">Фотографию не удалось загрузить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation could not be completed.</base>
+        <tran loc="ru">Не удалось завершить операцию Общих фотопотоков.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The publisher is missing</base>
+        <tran loc="ru">Издатель отсутствует</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_PHOTO_NOT_IN_MODEL</Position>
+      <TranslationSet>
+        <base loc="en">The photo is no longer in the Shared Photo Stream.</base>
+        <tran loc="ru">Это фото больше не находится в общем фотопотоке.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_SET_MULTIPLECONTRIBUTORS</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be set to allow multiple contributors</base>
+        <tran loc="ru">Не удалось сделать этот общий фотопоток открытым для нескольких участников</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Model </Description>
+      <Position>Model.error.invalidInvitationGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The invitation GUID “%@” could not be found.</base>
+        <tran loc="ru">Приглашение GUID «%@» не удалось найти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.invalidACLGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The access control GUID “%@” could not be found.</base>
+        <tran loc="ru">Контроль доступа GUID «%@» не удалось найти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an invalid field “%@”.</base>
+        <tran loc="ru">Сервер Общих фотопотоков вернул недействительное поле (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_COMMENT_NO_INDEX</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server could not assign a position for the comment.</base>
+        <tran loc="ru">Сервер Общих фотопотоков не удалось назначить позицию комментарию.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_CANNOT_PUBLISH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be published.</base>
+        <tran loc="ru">Не удается опубликовать доступ к фотофайлу.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_MISSING_ASSET_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">A photo is missing the parameter “%@”.</base>
+        <tran loc="ru">В фотографии отсутствует параметр «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred during communication with the Photo Stream server (%@).</base>
+        <tran loc="ru">Произошла сетевая ошибка во время связи с сервером фотопотока (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_ASSET_TOO_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is too large.</base>
+        <tran loc="ru">Файл фотографии слишком большой.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_STATE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream could not be processed.</base>
+        <tran loc="ru">Не удалось обработать фотопоток.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_BAD_FILE_HASH_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">A photo in the Photo Stream could not be retrieved.</base>
+        <tran loc="ru">Не удалось получить фотографию из фотопотока.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_STORAGE_URL</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response did not include a valid storage URL.</base>
+        <tran loc="ru">Ответ сервера фотопотока не содержал действительный URL хранилища.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPDATE_STOPPED_SHARING_THEIR_STREAM_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has stopped sharing photos with you.</base>
+        <tran loc="ru">%1$@ прекратил предоставлять фотографии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_NOT_REAUTHED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not allow the photo to be downloaded.</base>
+        <tran loc="ru">Сервер Общих фотопотоков не разрешил загрузку фотографии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.invalidAssetCollectionGUID_GUID</Position>
+      <TranslationSet>
+        <base loc="en">The photo GUID “%@” could not be found.</base>
+        <tran loc="ru">Фотографию GUID «%@» не удалось найти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sharing updates </Description>
+      <Position>UPDATE_PHOTO_STREAM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Photo Stream</base>
+        <tran loc="ru">Фотопоток</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_SUB_NO_METADATA</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server did not provide any information for the photo.</base>
+        <tran loc="ru">Сервер Общих фотопотоков не предоставил информацию о фотографии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DELETE_CORE_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream deletion response contains an invalid field “%@”.</base>
+        <tran loc="ru">Ответ удаления фотопотока содержит недействительное поле «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_SHUTTING_DOWN</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photo Streams is shutting down.</base>
+        <tran loc="ru">Функция «Общие фотопотоки» закрывается.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_MISSING_CHUNK</Position>
+      <TranslationSet>
+        <base loc="en">A data file is missing from the Photo Stream.</base>
+        <tran loc="ru">Файл данных отсутствует в фотопотоке.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_AUTH_FAILED_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has rejected the user’s login credentials.</base>
+        <tran loc="ru">Сервер фотопотока отклонил параметры доступа пользователя.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while publishing photos to the Photo Stream server (%@).</base>
+        <tran loc="ru">Произошла сетевая ошибка во время публикации фотографий на сервере фотопотока (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CORE_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while publishing photos to the Photo Stream server (%@).</base>
+        <tran loc="ru">Произошла сетевая ошибка во время публикации фотографий на сервере фотопотока (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream subscription check has been canceled.</base>
+        <tran loc="ru">Проверка подписки на общий фотопоток была отменена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_ALBUMS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not create more than %@ Shared Photo Streams.</base>
+        <tran loc="ru">Создание общих фотопотоков кол-вом более %@ невозможно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_PHOTO_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The photo was not uploaded to Shared Photo Streams.</base>
+        <tran loc="ru">Эта фотография не была загружена в Общие фотопотоки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_INVITATION</Position>
+      <TranslationSet>
+        <base loc="en">The invitation could not be accepted.</base>
+        <tran loc="ru">Приглашение не удалось принять.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_THEIR_STREAM_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s Photo Stream?</base>
+        <tran loc="ru">Хотите смотреть фотографии в фотопотоке пользователя %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_INVALID_FIELD_P_NAME</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has returned an invalid response for the subscription field “%@”.</base>
+        <tran loc="ru">Сервер фотопотока вернул недействительный ответ для поля подписки «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_MISMATCHED_COLLECTION</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned a mismatched photo identifier.</base>
+        <tran loc="ru">Сервер Общих фотопотоков вернул несовпадающий идентификатор фотографии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_BAD_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an invalid field.</base>
+        <tran loc="ru">Сервер Общих фотопотоков вернул недействительное поле.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_NO_URL_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">A connection to the Photo Stream server could not be made.</base>
+        <tran loc="ru">Не удалось подключиться к серверу фотопотока.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_INVALID_ASSET_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response did not include the correct upload authorization.</base>
+        <tran loc="ru">Ответ сервера фотопотока не содержал правильную авторизацию загрузки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_COMMENTS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">A photo may not have more than %@ comments.</base>
+        <tran loc="ru">Кол-во комментариев фото не должно превышать %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_GET_ASSET</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be downloaded.</base>
+        <tran loc="ru">Фотофайл не может быть загружен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_RETRIEVE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be downloaded.</base>
+        <tran loc="ru">Фотофайл не может быть загружен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DELETER_ABORTED</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream deletion has been canceled.</base>
+        <tran loc="ru">Удаление фотопотока было отменено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INV_SHARE_THEIR_STREAM_P_NAME_P_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to see the photos in %1$@’s (%2$@) Photo Stream?</base>
+        <tran loc="ru">Хотите смотреть фотографии в фотопотоке пользователя %1$@ (%2$@)?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_MISSING_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is missing information needed for uploading.</base>
+        <tran loc="ru">В фотофайле отсутствует важная информация, нужная для загрузки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_CANNOT_COMPUTE_HASH</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be queued for uploading.</base>
+        <tran loc="ru">Фотофайл не может быть поставлен в очередь для загрузки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream response contains an invalid field “%@”.</base>
+        <tran loc="ru">Ответ фотопотока содержит недействительное поле «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CONNECTION_CORE_FORBIDDEN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server has rejected the user’s request.</base>
+        <tran loc="ru">Сервер Фотопотока отклонил запрос пользователя.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation was canceled.</base>
+        <tran loc="ru">Операция Общих фотопотоков отменена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_STOPPED</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams operation was stopped.</base>
+        <tran loc="ru">Операция Общих фотопотоков была прекращена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_SET_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be made public</base>
+        <tran loc="ru">Не удалось сделать этот общий фотопоток открытым</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_INVALID_CHUNK_SIZE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response with an invalid size.</base>
+        <tran loc="ru">Сервер фотопотока вернул ответ с недействительным размером.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_SUB_MISSING_FIELD_P_FIELD</Position>
+      <TranslationSet>
+        <base loc="en">The response to the Shared Photo Stream request is missing the field “%@”.</base>
+        <tran loc="ru">Ответ на запрос на общий поток не содержит поле «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_HTTP_ERROR_P_CODE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server returned an error (%@).</base>
+        <tran loc="ru">Сервер Общих фотопотоков вернул ошибку (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_CHUNK_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response with an invalid data block.</base>
+        <tran loc="ru">Сервер фотопотока вернул ответ с недействительным блоком данных.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while retrieving photos from the Photo Stream server (%@).</base>
+        <tran loc="ru">Произошла сетевая ошибка во время получения фотографий с сервера фотопотока (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_TRANS_MISSING_MMCS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be shared because an access token is missing.</base>
+        <tran loc="ru">Не удалось открыть общий доступ к фотографии из-за отсутствия токена доступа.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_UNSET_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be made non-public</base>
+        <tran loc="ru">Не удалось сделать этот общий фотопоток закрытым</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_ALBUM</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream for the photo could not be found.</base>
+        <tran loc="ru">Не удалось найти общий фотопоток для этой фотографии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CONNECTION_FATAL_P_RESPONSE</Position>
+      <TranslationSet>
+        <base loc="en">A network error occurred while retrieving subscription information from Photo Stream server (%@).</base>
+        <tran loc="ru">Произошла сетевая ошибка во время получения информации подписки с сервера фотопотока (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_CANNOT_UNSET_MULTIPLECONTRIBUTORS</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream could not be set to not allow multiple contributors</base>
+        <tran loc="ru">Не удалось сделать этот общий фотопоток закрытым для нескольких участников</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISH_STORAGE_CANNOT_QUEUE</Position>
+      <TranslationSet>
+        <base loc="en">The photo file cannot be queued for upload.</base>
+        <tran loc="ru">Фотофайл не может быть поставлен в очередь на загрузку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUT_CONNECTION_CANNOT_PARSE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server response could not be understood.</base>
+        <tran loc="ru">Ответ сервера фотопотока не удалось понять.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SHARING_INVALID_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server reported a sharing status of the wrong type.</base>
+        <tran loc="ru">Сервер Общих фотопотоков сообщил о неправильном типе статуса общего доступа.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_STATE_ALBUM_STATE_CTAG_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream state could not be set.</base>
+        <tran loc="ru">Не удалось установить статус общего фотопотока.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_UTI_REJECTED_P_UTI</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Streams server cannot accept files of type “%@”.</base>
+        <tran loc="ru">Сервер Общих фотопотоков не принимает файлы типа «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_SEND_QUEUE_MISMATCH</Position>
+      <TranslationSet>
+        <base loc="en">Found mismatch between expecting sending queue count and actual count</base>
+        <tran loc="ru">Обнаружено несовпадение между ожидаемым и действительным значениями в очереди.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BLOCK_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a block that is too short.</base>
+        <tran loc="ru">Сервер фотопотока вернул слишком короткий блок.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MODEL_INVALID_COMMENT</Position>
+      <TranslationSet>
+        <base loc="en">The comment could not be found.</base>
+        <tran loc="ru">Комментарий не удалось найти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GET_CORE_CONNECTION_BAD_PART_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream server returned a response block of the wrong type.</base>
+        <tran loc="ru">Сервер фотопотока вернул блок ответа неправильного типа.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_ASSET_UPLOADER_ORPHANED</Position>
+      <TranslationSet>
+        <base loc="en">The photo could not be uploaded.</base>
+        <tran loc="ru">Фотографию не удалось выгрузить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_CANNOT_CREATE_ALBUM</Position>
+      <TranslationSet>
+        <base loc="en">The Shared Photo Stream “%@” could not be created.</base>
+        <tran loc="ru">Не удалось создать общий фотопоток «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Server-side config </Description>
+      <Position>SERVER_CONFIG_INVALID</Position>
+      <TranslationSet>
+        <base loc="en">The Photo Stream configuration returned by the server is invalid.</base>
+        <tran loc="ru">Полученная с сервера конфигурация фотопотока недействительна.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_CANNOT_GET_VIDEO</Position>
+      <TranslationSet>
+        <base loc="en">The video file cannot be downloaded.</base>
+        <tran loc="ru">Видеофайл не может быть загружен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model.error.protocol</Position>
+      <TranslationSet>
+        <base loc="en">An error was found while communicating with the Shared Photo Streams server.</base>
+        <tran loc="ru">Обнаружена ошибка во время связи с сервером Общих фотопотоков.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PUBLISHER_CANNOT_GET_FD</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is invalid.</base>
+        <tran loc="ru">Фотофайл недействителен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SUBSCRIBER_ASSET_INVALID</Position>
+      <TranslationSet>
+        <base loc="en">The photo file is invalid.</base>
+        <tran loc="ru">Фотофайл недействителен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_MSAS_PROT_LIMIT_PHOTOS_P_COUNT</Position>
+      <TranslationSet>
+        <base loc="en">You may not share more than %@ photos in a Shared Photo Stream.</base>
+        <tran loc="ru">Экспорт в общий фотопоток фотографий кол-вом более %@ невозможно.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMediaStream/System/Library/PrivateFrameworks/CoreMediaStream.framework/en.lproj/MMCSKit.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANNOT_REGISTER_FILE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to register file.</base>
+        <tran loc="ru">Не удается зарегистрировать файл.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANNOT_GET_FD_P_ASSET</Position>
+      <TranslationSet>
+        <base loc="en">Unable to retrieve a file descriptor for asset %@</base>
+        <tran loc="ru">Не удается получить список дескриптор файлов для объекта «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  MMCSKit.strings
+  CoreMediaStream
+
+  Created by Dave Rahardja on 11/24/11.
+  Copyright (c) 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>ERROR_CANNOT_FIND_ASSET_P_ITEMID</Position>
+      <TranslationSet>
+        <base loc="en">Unable to find an asset with item ID %lld</base>
+        <tran loc="ru">Не удается найти данные с ID объекта %lld</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

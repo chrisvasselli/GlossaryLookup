@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CallKit_executables</ProjName>
+  <File>
+    <Filepath>CallKit_executables/System/Library/PreferenceBundles/ClassificationAndReportingSettingsBundle.bundle/en.lproj/ILClassificationSettings.strings</Filepath>
+    <TextItem>
+      <Description> 
+  ILClassificationSettings.strings
+  ILClassificationSettings
+
+  Created by Spencer Lewson on 4/3/18.
+
+
+ Marketing name for the SMS/Call Classification and Reporting feature </Description>
+      <Position>REPORTING_MARKETING_NAME</Position>
+      <TranslationSet>
+        <base loc="en">SMS/Call Reporting</base>
+        <tran loc="fr">Signalement des SMS/appels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enabling extension alert actions </Description>
+      <Position>ENABLE_EXTENSION</Position>
+      <TranslationSet>
+        <base loc="en">Enable</base>
+        <tran loc="fr">Activer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Misc button uses </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Select that no extension is enabled </Description>
+      <Position>NO_EXTENSION_SELECTED</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="fr">Aucune</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enabling extension alert title (Enable SMS/Call Classification extension AppName) </Description>
+      <Position>EXTENSION_ENABLE_ALERT_TITLE_MARKETING_NAME_%@_EXTENSION_NAME_%@</Position>
+      <TranslationSet>
+        <base loc="en">Enable %@ extension %@?</base>
+        <tran loc="fr">Activer l’extension %@ %@ ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enabling extension alert warning </Description>
+      <Position>EXTENSION_ENABLE_ALERT_WARNING_EXTENSION_NAME_%@</Position>
+      <TranslationSet>
+        <base loc="en">Enabling this %@ allows your device to send to the developer of this app information about your calls and text messages you choose to report.  For received calls that you report, the developer will receive information about the call, such as the caller’s number and the time of the call. For received text messages that you report, the developer will receive all of the text, content, and sender information. These messages may include verification codes from banks or other institutions, as well as other personal or sensitive information that may be in text messages.</base>
+        <tran loc="fr">L’activation de cette extension %@ permet à votre appareil d’envoyer au développeur de l’app des informations concernant les appels et messages que vous choisissez de  signaler. Pour les appels reçus signalés, le développeur recevra des informations concernant l’appel, comme le numéro de l’appelant et l’heure de l’appel. Pour les messages reçus signalés, le développeur recevra l’ensemble du texte, du contenu et des coordonnées de l’expéditeur. Ces messages peuvent comporter des codes de validation envoyés par des banques ou d’autres établissements, ainsi que d’autres données personnelles ou confidentielles.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REPORTING_MARKETING_NAME_%@_EXTENSIONS</Position>
+      <TranslationSet>
+        <base loc="en">%@ Extensions</base>
+        <tran loc="fr">Extensions %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Explanatory text presented in the settings </Description>
+      <Position>ABOUT_REPORT_EXTENSION_MARKETING_NAME_%@_%@_%@_%@_%@_NO_SELECTION_%@</Position>
+      <TranslationSet>
+        <base loc="en">About %@ Extensions\n\n%@ extensions provide a way for you to choose to report selected phone calls and incoming text messages to third-party developers. For received calls that you report, the developer will receive information about the call, such as the caller’s number and the time of the call. For received text messages that you report, the developer will receive all of the text, content, and sender information. These messages may include verification codes from banks or other institutions, as well as other personal or sensitive information that may be in text messages.\n\nIf you use a third-party provider’s %@ extension, you are subject to the app provider’s terms, privacy policy, and practices. We encourage you to learn about the terms, privacy policies, and practices of those third parties.\n\nYou may choose to disable a %@ extension at any time by going to Settings &gt; Phone &gt; %@ and selecting %@ in the list.</base>
+        <tran loc="fr">À propos des extensions %@\n\nLes extensions %@ vous permettent de signaler les appels téléphoniques et messages entrants de votre choix à des développeurs de tierce partie. Pour les appels reçus signalés, le développeur recevra des informations concernant l’appel, comme le numéro de l’appelant et l’heure de l’appel. Pour les messages reçus signalés, le développeur recevra l’ensemble du texte, du contenu et des coordonnées de l’expéditeur. Ces messages peuvent comporter des codes de validation envoyés par des banques ou d’autres établissements, ainsi que d’autres données personnelles ou confidentielles.\n\nSi vous utilisez une extension %@ de tierce partie, vous êtes soumis aux conditions, à l’engagement de confidentialité et aux pratiques du fournisseur de l’app. Nous vous recommandons de prendre connaissance des conditions, engagements de confidentialité et pratiques des tierces parties.\n\nVous pouvez à tout moment désactiver une extension %@ en accédant à Réglages &gt; Téléphone &gt; %@, puis en sélectionnant %@ dans la liste.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

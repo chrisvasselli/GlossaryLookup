@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CloudDocs_plugins</ProjName>
+  <File>
+    <Filepath>CloudDocs_plugins/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProviderUI.appex/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Title of the authentication screen </Description>
+      <Position>iCloud Drive</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="zh-CN">iCloud云盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button text when customer is not signed in to iCloud </Description>
+      <Position>Sign in to iCloud</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to iCloud</base>
+        <tran loc="zh-CN">登录iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown when customer is not signed in to iCloud </Description>
+      <Position>Sign in to iCloud to keep your documents safely stored in iCloud Drive.</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to iCloud to keep your documents safely stored in iCloud Drive.</base>
+        <tran loc="zh-CN">登录iCloud以保持文稿安全储存在iCloud云盘中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button text when customer has iCloud Drive disabled </Description>
+      <Position>Turn on iCloud Drive</Position>
+      <TranslationSet>
+        <base loc="en">Turn on iCloud Drive</base>
+        <tran loc="zh-CN">打开iCloud云盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown when customer has iCloud Drive disabled </Description>
+      <Position>Turn on iCloud Drive to keep your documents safely stored in iCloud.</Position>
+      <TranslationSet>
+        <base loc="en">Turn on iCloud Drive to keep your documents safely stored in iCloud.</base>
+        <tran loc="zh-CN">打开iCloud云盘以保持文稿安全储存在iCloud中。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocs_plugins/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/en.lproj/InfoPlist.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.AVAILABLE.%@.%@:dict/availablewithunit:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%2$@ available on iCloud</base>
+        <tran loc="zh-CN">iCloud上%2$@可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.AVAILABLE.%@.%@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@availablewithunit@</base>
+        <tran loc="zh-CN">%1$#@availablewithunit@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocs_plugins/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_DOWNLOADING_LOWERCASE_DESCRIPTION:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">downloading %lu items</base>
+        <tran loc="zh-CN">正在下载%lu个项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_UPLOADS_WAITING_DESCRIPTION:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Waiting to upload %lu items</base>
+        <tran loc="zh-CN">正在等待上传%lu项内容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_UPLOADING_CAPITALIZE_DESCRIPTION:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Uploading %lu items</base>
+        <tran loc="zh-CN">正在上传%lu个项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_UPLOADING_LOWERCASE_DESCRIPTION:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">uploading %lu items</base>
+        <tran loc="zh-CN">正在上传%lu个项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CLOUD_DRIVE_LAST_UPDATED_N_MINUTES_AGO:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@minutes@</base>
+        <tran loc="zh-CN">%#@minutes@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_DOWNLOADING_CAPITALIZE_DESCRIPTION:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Downloading %lu items</base>
+        <tran loc="zh-CN">正在下载%lu个项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CLOUD_DRIVE_LAST_UPDATED_N_MINUTES_AGO:dict/minutes:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Last updated %lu minutes ago</base>
+        <tran loc="zh-CN">上次更新：%lu分钟前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_DOWNLOADING_CAPITALIZE_DESCRIPTION:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-CN">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_DOWNLOADING_LOWERCASE_DESCRIPTION:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-CN">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_DOWNLOADS_WAITING_DESCRIPTION:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-CN">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_UPLOADING_CAPITALIZE_DESCRIPTION:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-CN">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_UPLOADING_LOWERCASE_DESCRIPTION:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-CN">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_UPLOADS_WAITING_DESCRIPTION:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-CN">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GLOBAL_PROGRESS_DOWNLOADS_WAITING_DESCRIPTION:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Waiting to download %lu items</base>
+        <tran loc="zh-CN">正在等待下载%lu项内容</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocs_plugins/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys 
+ "iCloud Drive" is localized "iCloud 云盘" in Chinese (see rdar://problem/34754664)</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="zh-CN">iCloud云盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">com.apple.CloudDocs.MobileDocumentsFileProvider</base>
+        <tran loc="zh-CN">com.apple.CloudDocs.MobileDocumentsFileProvider</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocs_plugins/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this document can’t be opened right now.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: Unable to open the shared document. Reason unknown [1.1 in iOS specs v4, 1.1 in OSX specs v5]
+ Sorry, this &lt;document-kind&gt; can’t be opened right now.</Description>
+      <Position>SHARING_GENERIC_ERROR_HEADER_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this document can’t be opened right now.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Keynote can’t open shared presentations because it’s a managed app.</base>
+        <tran loc="zh-CN">Keynote讲演无法打开共享的演示文稿，因为它是被管理的App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_APP_NOT_INSTALLED_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this spreadsheet. To start collaborating, install Numbers.</base>
+        <tran loc="zh-CN">%@共享了此电子表格。若要开始协作，请安装Numbers表格。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@.\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;owner-name&gt; shared this &lt;document-kind&gt;. You will join this document as &lt;recipient-name&gt;.\n\nYou can find this later in iCloud Drive.</Description>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@.\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now. Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This &lt;document-kind&gt; can’t be opened right now. Check your Internet connection, then try again.</Description>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now. Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Folder Unavailable</base>
+        <tran loc="zh-CN">文件夹不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OLD_DOCUMENTS_FOLDER_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Documents - %@</base>
+        <tran loc="zh-CN">文稿 - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OLD_DOCUMENTS_FOLDER_NAME_INSIDE_SYNCED_DOCUMENTS</Position>
+      <TranslationSet>
+        <base loc="en">Documents - %@</base>
+        <tran loc="zh-CN">文稿 - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_DEFAULT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Go to Settings</base>
+        <tran loc="zh-CN">前往“设置”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_SETUP_DEFAULT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Go to Settings</base>
+        <tran loc="zh-CN">前往“设置”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This document needs &lt;os-name&gt; to sync in iCloud Drive.</Description>
+      <Position>NEEDS_OS_UPGRADE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">This document needs %@ (or later) to sync in iCloud Drive. Please upgrade or use a different device.</base>
+        <tran loc="zh-CN">本文稿需要%@或更高版本以在iCloud云盘中同步。请升级或使用其他设备。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this presentation. You will join as %@ (%@).\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此演示文稿。您将以“%@（%@）”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this folder. You will join as %@ (%@).\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文件夹。您将以“%@（%@）”的身份加入。\n\n此文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;owner-name&gt; shared this &lt;document-kind&gt;. To start collaborating, install &lt;app-name&gt;.</Description>
+      <Position>SHARING_APP_NOT_INSTALLED_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. To start collaborating, install Pages.</base>
+        <tran loc="zh-CN">%@共享了此文稿。若要开始协作，请安装Pages文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Open folder in iCloud Drive?</base>
+        <tran loc="zh-CN">在iCloud云盘中打开文件夹？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation has a lot of participants. You can’t open it in Keynote, but you can still preview it.</base>
+        <tran loc="zh-CN">此演示文稿的参与者过多。您无法在Keynote讲演中打开，但仍可预览。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Open spreadsheet in Numbers?</base>
+        <tran loc="zh-CN">在Numbers中打开电子表格？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this spreadsheet. You will join as %@.\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此电子表格。您将以“%@”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Open Spreadsheet in Numbers?</base>
+        <tran loc="zh-CN">在Numbers中打开电子表格？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@.\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@”的身份加入。\n\n此文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;owner-name&gt; shared this &lt;document-kind&gt;. You will join this document as &lt;recipient-name&gt;.\n\nIt will also be added to iCloud Drive.</Description>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@.\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@”的身份加入。\n\n此文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Open Folder in iCloud Drive?</base>
+        <tran loc="zh-CN">在iCloud云盘中打开文件夹？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this folder. You will join as %@.\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文件夹。您将以“%@”的身份加入。\n\n此文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREVIEW_BUTTON_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Preview Presentation</base>
+        <tran loc="zh-CN">预览演示文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed in Settings when the last sync occurred several days ago ("Last Synced Tuesday"). Parameter is a weekday name. </Description>
+      <Position>CLOUD_DRIVE_LAST_UPDATED_WEEKDAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Last updated %@</base>
+        <tran loc="zh-CN">上次更新：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_APP_NOT_INSTALLED_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this presentation. To start collaborating, install Keynote.</base>
+        <tran loc="zh-CN">%@共享了此演示文稿。若要开始协作，请安装Keynote讲演。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">You can’t open it in Keynote for Mac, but you can still open it on the web.</base>
+        <tran loc="zh-CN">您无法在Mac版Keynote讲演中打开，但仍可在网站上打开。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now. There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This &lt;document-kind&gt; can’t be opened right now. There may be a problem with the server. Please try again later.</Description>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now. There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Files can’t open shared documents because it’s a managed app.</base>
+        <tran loc="zh-CN">“文件”无法打开共享文稿，因为它是受管理的App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet can’t be opened right now. Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">目前无法打开此电子表格。请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation can’t be opened right now. There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">目前无法打开此演示文稿。服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed in Settings when the last sync occurred today at a particular time ("Last Synced at 2:30 PM"). Parameter is the time, which is formatted programmatically. </Description>
+      <Position>CLOUD_DRIVE_LAST_UPDATED_AT_TIME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Last updated at %@</base>
+        <tran loc="zh-CN">上次更新时间：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this spreadsheet can’t be opened right now.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此电子表格。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder can’t be opened right now. Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">目前无法打开此文件夹。请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this folder. You need to turn on iCloud Drive before you can open it.</base>
+        <tran loc="zh-CN">%@共享了此文件夹。您需要打开iCloud云盘来打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Open “%@” in Numbers?</base>
+        <tran loc="zh-CN">在Numbers表格中打开“%@”？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Open &lt;document-kind&gt; in &lt;app-name&gt;?</Description>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Open Document in Pages?</base>
+        <tran loc="zh-CN">在Pages中打开文稿？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ iCloud Drive app
+ iCloud Drive App Installation Notification</Description>
+      <Position>ICLOUD_DRIVE_APP_INSTALLATION_NOTIFICATION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="zh-CN">iCloud云盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: User doesn’t have native app installed [1.3 in iOS specs v4]
+ Install &lt;app-name&gt;</Description>
+      <Position>SHARING_APP_NOT_INSTALLED_HEADER_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Install %@</base>
+        <tran loc="zh-CN">安装%[tt]@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You need to turn on iCloud Drive before you can open it.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您需要打开iCloud云盘来打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized name of the Files app on iOS</Description>
+      <Position>SHARING_JOIN_HEADER_DEFAULT_APP_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Open “%@” in Files?</base>
+        <tran loc="zh-CN">在“文件”中打开“%@”？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Open “%@” in Files?</base>
+        <tran loc="zh-CN">在“文件”中打开“%@”？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is unavailable.</base>
+        <tran loc="zh-CN">此电子表格不可用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document is not necessary opened in Finder</Description>
+      <Position>SHARING_JOIN_HEADER_DEFAULT_APP_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Open “%@”?</base>
+        <tran loc="zh-CN">打开“%@”？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet has a lot of participants. You can’t open it in Numbers, but you can still preview it.</base>
+        <tran loc="zh-CN">此电子表格的参与者过多。您无法在Numbers表格中打开，但仍可进行预览。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_DEFAULT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_DEFAULT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_DEFAULT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_DEFAULT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">You can’t open it in Numbers for Mac, but you can still open it on the web.</base>
+        <tran loc="zh-CN">您无法在Mac版Numbers表格中打开，但仍可在网站上打开。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this folder can’t be opened right now. Please try again later.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此文件夹。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this spreadsheet. You will join as %@.\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此电子表格。您将以“%@”的身份加入。\n\n此电子表格将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Spreadsheet Unavailable</base>
+        <tran loc="zh-CN">电子表格不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Open Document in iCloud Drive?</base>
+        <tran loc="zh-CN">在iCloud云盘中打开文稿？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed in Settings when the last sync occurred more than a week ago ("Last Synced on 4/30/13"). Parameter is a date, which is formatted programmatically. </Description>
+      <Position>CLOUD_DRIVE_LAST_UPDATED_ON_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Last updated on %@</base>
+        <tran loc="zh-CN">上次更新时间：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREVIEW_BUTTON_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Preview Spreadsheet</base>
+        <tran loc="zh-CN">预览电子表格</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ NSPersonNameComponents additions</Description>
+      <Position>UNKNOWN_USER_GIVEN_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Unknown User</base>
+        <tran loc="zh-CN">未知用户</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_HEADER_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Can’t open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: User has native app but it is disabled by its profile</Description>
+      <Position>SHARING_PROFILE_DISABLED_HEADER_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Can’t open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Pages can’t open shared documents because it’s a managed app.</base>
+        <tran loc="zh-CN">Pages文稿无法打开共享的文稿，因为它是被管理的App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this document can’t be opened right now. Please try again later.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此文稿。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sorry, this &lt;document-kind&gt; can’t be opened right now. Please try again later.</Description>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this document can’t be opened right now. Please try again later.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此文稿。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_SETUP_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">You need to sign in to iCloud with your Apple ID before you can open this shared spreadsheet.</base>
+        <tran loc="zh-CN">需要使用您的Apple ID登录iCloud才能打开此共享电子表格。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_HEADER_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Can’t open Presentation</base>
+        <tran loc="zh-CN">无法打开演示文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPLOAD_PROGRESS_LOCALIZED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Uploading “%@”</base>
+        <tran loc="zh-CN">正在上传“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEEDS_OS_UPGRADE_ERROR_NO_OS_NAME_OSX</Position>
+      <TranslationSet>
+        <base loc="en">This document needs a newer version of macOS to sync in iCloud Drive. Please upgrade or use a different device.</base>
+        <tran loc="zh-CN">本文稿需要更高版本的macOS以在iCloud云盘中同步。请升级或使用其他设备。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="zh-CN">无法打开演示文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="zh-CN">无法打开演示文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="zh-CN">无法打开演示文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="zh-CN">无法打开演示文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_SETUP_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">You need to sign in to iCloud with your Apple ID before you can open this shared folder.</base>
+        <tran loc="zh-CN">需要使用您的Apple ID登录iCloud才能打开此共享文件夹。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_FALLBACK_SUCCESS_DEFAULT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-CN">关闭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Numbers can’t open shared spreadsheets because it’s a managed app.</base>
+        <tran loc="zh-CN">Numbers表格无法打开共享的电子表格，因为它是被管理的App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_SETUP_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">You need to sign in to iCloud with your Apple ID before you can open this shared presentation.</base>
+        <tran loc="zh-CN">需要使用您的Apple ID登录iCloud才能打开此共享演示文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_SETUP_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">You need to sign in to iCloud with your Apple ID before you can open this shared document.</base>
+        <tran loc="zh-CN">需要使用您的Apple ID登录iCloud才能打开此共享文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> You need to sign in to iCloud with your Apple ID before you can open this shared &lt;document-kind&gt;.</Description>
+      <Position>SHARING_ICLOUD_SETUP_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">You need to sign in to iCloud with your Apple ID before you can open this shared document.</base>
+        <tran loc="zh-CN">需要使用您的Apple ID登录iCloud才能打开此共享文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this spreadsheet. You will join as %@ (%@).\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此电子表格。您将以“%@（%@）”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="zh-CN">无法打开电子表格</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="zh-CN">无法打开电子表格</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="zh-CN">无法打开电子表格</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="zh-CN">无法打开电子表格</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Presentation Unavailable</base>
+        <tran loc="zh-CN">演示文稿不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ OS Upgrade</Description>
+      <Position>NEEDS_OS_UPGRADE_ERROR_NO_OS_NAME_IOS</Position>
+      <TranslationSet>
+        <base loc="en">This document needs a newer version of iOS to sync in iCloud Drive. Please upgrade or use a different device.</base>
+        <tran loc="zh-CN">本文稿需要更高版本的iOS以在iCloud云盘中同步。请升级或使用其他设备。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICLOUD_DRIVE_APP_INSTALLATION_NOTIFICATION_UNLOCK_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Slide to View</base>
+        <tran loc="zh-CN">滑动来查看</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此电子表格。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此电子表格。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ iCloud Drive log out</Description>
+      <Position>ICLOUD_DRIVE_ARCHIVE_FOLDER_NAME_OSX</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive (Archive)</base>
+        <tran loc="zh-CN">iCloud云盘（归档）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Can’t Open &lt;document-kind&gt;</Description>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Can’t Open &lt;document-kind&gt;</Description>
+      <Position>SHARING_GENERIC_ERROR_HEADER_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Can’t Open &lt;document-kind&gt;</Description>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Can’t Open &lt;document-kind&gt;</Description>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="zh-CN">无法打开文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_APP_NOT_INSTALLED_ALT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-CN">以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_ALT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-CN">以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_SETUP_ALT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-CN">以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_ALT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-CN">以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_ALT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-CN">以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This document has a lot of participants. You can’t open it but you can still preview it.</base>
+        <tran loc="zh-CN">此文稿的参与者过多。您无法打开，但仍可预览。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Open presentation in Keynote?</base>
+        <tran loc="zh-CN">在Keynote讲演中打开演示文稿？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This document has a lot of participants.</base>
+        <tran loc="zh-CN">此文稿的参与者过多。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: Unable to open the shared document because the participant limit was reached (see 19401181)
+ This &lt;document-kind&gt; has a lot of participants.</Description>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document has a lot of participants.</base>
+        <tran loc="zh-CN">此文稿的参与者过多。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@ (%@).\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@（%@）”的身份加入。\n\n此文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;owner-name&gt; shared this &lt;document-kind&gt;. You will join this document as &lt;recipient-name&gt; (&lt;recipient-email&gt;).\n\nIt will also be added to iCloud Drive.</Description>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@ (%@).\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@（%@）”的身份加入。\n\n此文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_HEADER_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Can’t open Spreadsheet</base>
+        <tran loc="zh-CN">无法打开电子表格</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="zh-CN">项目不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet can’t be opened right now. There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">目前无法打开此电子表格。服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this folder. You will join as %@.\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文件夹。您将以“%@”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICLOUD_DRIVE_APP_INSTALLATION_NOTIFICATION_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The iCloud Drive app has been added to your home screen.</base>
+        <tran loc="zh-CN">iCloud云盘App已添加到主屏幕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: iCloud Drive is off (globally or the app) [1.2 in iOS specs v4]</Description>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_HEADER_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Turn On iCloud Drive</base>
+        <tran loc="zh-CN">打开iCloud云盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Dialog: First Join Alert
+ Open “&lt;document-name&gt;” in &lt;app-name&gt;?</Description>
+      <Position>SHARING_JOIN_HEADER_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Open “%@” in Pages?</base>
+        <tran loc="zh-CN">在Pages文稿中打开“%@”？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ Sharing Recipient Flow</Description>
+      <Position>DOCUMENT_DEFAULT_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Untitled</base>
+        <tran loc="zh-CN">未命名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Fallback if there is no document-name.
+ Open &lt;document-kind&gt; in &lt;app-name&gt;?</Description>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Open document in Pages?</base>
+        <tran loc="zh-CN">在Pages中打开文稿？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">You can still open it on the web.</base>
+        <tran loc="zh-CN">您仍可在网站上打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">You can still open it on the web.</base>
+        <tran loc="zh-CN">您仍可在网站上打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this spreadsheet can’t be opened right now. Please try again later.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此电子表格。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is unavailable.</base>
+        <tran loc="zh-CN">此演示文稿不可用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SEARCH_SHORTCUT_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Search iCloud Drive</base>
+        <tran loc="zh-CN">搜索iCloud云盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此演示文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此演示文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder has a lot of participants. You can’t open it but you can still preview it.</base>
+        <tran loc="zh-CN">此文件夹的参与者过多。您无法打开，但仍可预览。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Files can’t open shared folders because it’s a managed app.</base>
+        <tran loc="zh-CN">“文件”无法打开共享文件夹，因为它是受管理的App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ Global Progress
+ &lt;size&gt; of &lt;size&gt; (for instance '47.5 MB of 52.8 MB')</Description>
+      <Position>GLOBAL_PROGRESS_ADDITIONAL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">%@ of %@</base>
+        <tran loc="zh-CN">%@/%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this presentation. You need to turn on iCloud Drive for Keynote before you can open it.</base>
+        <tran loc="zh-CN">%@共享了此演示文稿。您需要为Keynote讲演打开iCloud云盘来打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this spreadsheet. You need to turn on iCloud Drive for Numbers before you can open it.</base>
+        <tran loc="zh-CN">%@共享了此电子表格。您需要为Numbers表格打开iCloud云盘来打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此文件夹。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此文件夹。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PROFILE_DISABLED_HEADER_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Can’t open Folder</base>
+        <tran loc="zh-CN">无法打开文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this folder. You will join as %@ (%@).\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文件夹。您将以“%@（%@）”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;document-kind&gt; Unavailable.</Description>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Document Unavailable</base>
+        <tran loc="zh-CN">文稿不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> You can’t open it in &lt;application&gt; for Mac, but you can still open it on the web.</Description>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">You can’t open it in Pages for Mac, but you can still open it on the web.</base>
+        <tran loc="zh-CN">您无法在Mac版Pages文稿中打开，但仍可在网站上打开。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this folder can’t be opened right now.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此文件夹。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation can’t be opened right now. Check your Internet connection, then try again.</base>
+        <tran loc="zh-CN">目前无法打开此演示文稿。请检查您的互联网连接，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this spreadsheet. You will join as %@ (%@).\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此电子表格。您将以“%@（%@）”的身份加入。\n\n此电子表格将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder has a lot of participants.</base>
+        <tran loc="zh-CN">此文件夹的参与者过多。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ Download/Upload progress localized title
+ e.g. Downloading “myfile”</Description>
+      <Position>DOWNLOAD_PROGRESS_LOCALIZED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Downloading “%@”</base>
+        <tran loc="zh-CN">正在下载“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this presentation. You will join as %@.\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此演示文稿。您将以“%@”的身份加入。\n\n此演示文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this presentation. You will join as %@ (%@).\n\nIt will also be added to iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此演示文稿。您将以“%@（%@）”的身份加入。\n\n此演示文稿将同时添加到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_IN_APP_SHORTCUT_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open in %@</base>
+        <tran loc="zh-CN">在%[tt]@中打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Open document in iCloud Drive?</base>
+        <tran loc="zh-CN">在iCloud云盘中打开文稿？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PUBLIC_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this presentation. You will join as %@.\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此演示文稿。您将以“%@”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Open “%@” in Keynote?</base>
+        <tran loc="zh-CN">在Keynote讲演中打开“%@”？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This &lt;document-kind&gt; has a lot of participants. You can’t open it in &lt;application&gt;, but you can still preview it.</Description>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document has a lot of participants. You can’t open it in Pages, but you can still preview it.</base>
+        <tran loc="zh-CN">此文稿的参与者过多。您无法在Pages文稿中打开，但仍可预览。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">This presentation has a lot of participants.</base>
+        <tran loc="zh-CN">此演示文稿的参与者过多。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This item is unavailable.</base>
+        <tran loc="zh-CN">此项目不可用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_HEADER_NO_DOCUMENT_NAME_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Open Presentation in Keynote?</base>
+        <tran loc="zh-CN">在Keynote讲演中打开演示文稿？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: Unable to open the shared document because it no longer exists or you don't have permission to open it [1.4 in iOS specs v4, 1.4 in iOS specs v4]
+ This &lt;document-kind&gt; is unavailable.</Description>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document is unavailable.</base>
+        <tran loc="zh-CN">此文稿不可用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: User isn’t signed to iCloud [1.1 in iOS specs v4]</Description>
+      <Position>SHARING_ICLOUD_SETUP_HEADER_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Sign In to iCloud</base>
+        <tran loc="zh-CN">登录iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud Drive App 3D Touch support</Description>
+      <Position>SEARCH_SHORTCUT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Search</base>
+        <tran loc="zh-CN">搜索</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder can’t be opened right now. There may be a problem with the server. Please try again later.</base>
+        <tran loc="zh-CN">目前无法打开此文件夹。服务器可能出现问题。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_HEADER_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder is unavailable.</base>
+        <tran loc="zh-CN">此文件夹不可用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed in Settings when the last sync occurred the day before. </Description>
+      <Position>CLOUD_DRIVE_LAST_UPDATED_YESTERDAY</Position>
+      <TranslationSet>
+        <base loc="en">Last updated yesterday</base>
+        <tran loc="zh-CN">上次更新时间：昨天</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@ (%@).\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@（%@）”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;owner-name&gt; shared this &lt;document-kind&gt;. You will join this document as &lt;recipient-name&gt; (&lt;recipient-email&gt;).\n\nYou can find this later in iCloud Drive.</Description>
+      <Position>SHARING_JOIN_MESSAGE_PRIVATE_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You will join as %@ (%@).\n\nYou can find this later in iCloud Drive.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您将以“%@（%@）”的身份加入。\n\n您可以稍后在iCloud云盘中找到此内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREVIEW_BUTTON_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Preview Folder</base>
+        <tran loc="zh-CN">预览文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_IOS_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_IOS_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_NO_LONGER_SHARED_MESSAGE_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="zh-CN">内容所有者已停止共享，或您没有打开的权限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> &lt;owner-name&gt; shared this &lt;document-kind&gt;. You need to turn on iCloud Drive for &lt;app-name&gt; before you can open it.</Description>
+      <Position>SHARING_ICLOUD_DRIVE_SETUP_MESSAGE_IOS_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">%@ shared this document. You need to turn on iCloud Drive for Pages before you can open it.</base>
+        <tran loc="zh-CN">%@共享了此文稿。您需要为Pages文稿打开iCloud云盘来打开它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="zh-CN">请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_OSX_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="zh-CN">请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="zh-CN">请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="zh-CN">请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="zh-CN">请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: Unable to open the shared document because the user’s device is offline [1.2 in iOS specs v4, 1.2 in OSX specs v5]
+ This &lt;document-kind&gt; can’t be opened right now.</Description>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_OSX_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: Unable to open the shared document because of a problem with the server [1.3 in iOS specs v4, 1.3 in OSX specs v5]
+ This &lt;document-kind&gt; can’t be opened right now.</Description>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_OSX_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now.</base>
+        <tran loc="zh-CN">目前无法打开此文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> -----------------------------------------------------------------------------
+ iCloud Drive last sync
+ Displayed in Settings when the last sync just occurred. </Description>
+      <Position>CLOUD_DRIVE_LAST_UPDATED_JUST_NOW</Position>
+      <TranslationSet>
+        <base loc="en">Updated Just Now</base>
+        <tran loc="zh-CN">刚刚更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_DEVICE_OFFLINE_ERROR_HEADER_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Folder</base>
+        <tran loc="zh-CN">无法打开文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Folder</base>
+        <tran loc="zh-CN">无法打开文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_ICLOUD_NOT_REACHABLE_HEADER_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Folder</base>
+        <tran loc="zh-CN">无法打开文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_IOS_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Folder</base>
+        <tran loc="zh-CN">无法打开文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREVIEW_BUTTON_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Preview Document</base>
+        <tran loc="zh-CN">预览文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Preview &lt;document-kind&gt;</Description>
+      <Position>PREVIEW_BUTTON_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Preview Document</base>
+        <tran loc="zh-CN">预览文稿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error: Unable to open the shared document because iCloud Drive is not visible</Description>
+      <Position>SHARING_FALLBACK_SUCCESS_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Saved to iCloud Drive.</base>
+        <tran loc="zh-CN">已存储到iCloud云盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud Desktop</Description>
+      <Position>OLD_DESKTOP_FOLDER_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Desktop - %@</base>
+        <tran loc="zh-CN">桌面 - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OLD_DESKTOP_FOLDER_NAME_INSIDE_SYNCED_DESKTOP</Position>
+      <TranslationSet>
+        <base loc="en">Desktop - %@</base>
+        <tran loc="zh-CN">桌面 - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_APP_NOT_INSTALLED_DEFAULT_BUTTON_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Go to App Store</base>
+        <tran loc="zh-CN">前往App Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_HEADER_OSX_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this presentation can’t be opened right now.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此演示文稿。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICLOUD_DRIVE_APP_INSTALLATION_NOTIFICATION_ACTION_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="zh-CN">打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_JOIN_DEFAULT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="zh-CN">打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_OSX_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet has a lot of participants.</base>
+        <tran loc="zh-CN">此电子表格的参与者过多。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_GENERIC_ERROR_MESSAGE_IOS_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this presentation can’t be opened right now. Please try again later.</base>
+        <tran loc="zh-CN">抱歉，目前无法打开此演示文稿。请稍后再试。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

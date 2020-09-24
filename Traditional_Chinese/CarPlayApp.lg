@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CarPlayApp</ProjName>
+  <File>
+    <Filepath>CarPlayApp/System/Library/PreferenceBundles/CarKitSettings.bundle/en.lproj/Alerts.strings</Filepath>
+    <TextItem>
+      <Description>"CONNECTION_FAILED_TITLE" = "Connection Unsuccessful";
+"ERROR_GEN_CONNECTION_FAILURE" = "Make sure “%@” is turned on and in range.";
+"ERROR_UNSUPPORTED_DEVICE" = "“%@” is not supported.";
+ Sync Contacts </Description>
+      <Position>SYNC_CONTACTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Allow Contacts and Favorites Sync?</base>
+        <tran loc="zh-TW">要允許同步「聯絡人」和「常用聯絡人」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"JUST_WORKS_MESSAGE" = "“%@” would like to pair with your %@.";
+"PASSKEY_MESSAGE" = "“%@” would like to pair with your %@. Enter the code “%@” on “%@”.";
+"HID_MESSAGE" = "Enter the code “%@” on “%@”, followed by the return or enter key.";
+ Pairing Failure </Description>
+      <Position>PAIRING_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Pairing Unsuccessful</base>
+        <tran loc="zh-TW">配對失敗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_WLAN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">WLAN is Off</base>
+        <tran loc="zh-TW">已關閉WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turn on WiFi &amp; Bluetooth </Description>
+      <Position>POWER_BLUETOOTH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth is Off</base>
+        <tran loc="zh-TW">已關閉藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_WLAN_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On WLAN</base>
+        <tran loc="zh-TW">開啟WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_BLUETOOTH_WLAN_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On WLAN and Bluetooth</base>
+        <tran loc="zh-TW">開啟WLAN和藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"PAIRING_FAILED_MESSAGE_INCORRECT_PIN" = "Make sure “%@” is ready to pair and try entering the code again.";</Description>
+      <Position>PAIRING_FAILED_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_BLUETOOTH_WLAN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">WLAN and Bluetooth are Off</base>
+        <tran loc="zh-TW">已關閉WLAN和藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_BLUETOOTH_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Bluetooth</base>
+        <tran loc="zh-TW">開啟藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay will only be available over USB. Do you also want to enable wireless CarPlay?</base>
+        <tran loc="zh-TW">CarPlay只能透過USB使用。您也要啟用無線CarPlay嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_ALLOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Allow</base>
+        <tran loc="zh-TW">允許</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIR_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Pair</base>
+        <tran loc="zh-TW">配對</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRING_FAILED_MESSAGE_TIMEOUT</Position>
+      <TranslationSet>
+        <base loc="en">Pairing took too long.</base>
+        <tran loc="zh-TW">配對時間過久。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SSP Pairing </Description>
+      <Position>PAIRING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Pairing Request</base>
+        <tran loc="zh-TW">藍牙配對要求</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_CONTACTS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Your car may request your contacts, phone favorites, and recent phone calls over Bluetooth. Do you wish to allow this? CarPlay will work without syncing.</base>
+        <tran loc="zh-TW">您的汽車可能會透過藍牙要求取用您的聯絡人、常用聯絡人和通話記錄。您要允許這項操作嗎？CarPlay不需同步資料也可運作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC_DISALLOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="zh-TW">不允許</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_BLUETOOTH_WIFI_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Wi-Fi and Bluetooth</base>
+        <tran loc="zh-TW">開啟Wi-Fi和藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">USB Only</base>
+        <tran loc="zh-TW">只限USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_BLUETOOTH_WIFI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi and Bluetooth are Off</base>
+        <tran loc="zh-TW">已關閉Wi-Fi和藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_WIFI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi is Off</base>
+        <tran loc="zh-TW">已關閉Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_ENABLE_WIFI_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Wi-Fi</base>
+        <tran loc="zh-TW">開啟Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRING_FAILED_MESSAGE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Make sure “%@” is turned on, in range, and is ready to pair.</base>
+        <tran loc="zh-TW">確定「%@」已開啟，位於通訊範圍內且已準備好配對。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NUMERIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to pair with your %@. Confirm that the code “%@” is shown on “%@”.</base>
+        <tran loc="zh-TW">「%1$@」想要與您的%2$@配對。請確認「%4$@」上已顯示密碼「%3$@」。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/System/Library/CoreServices/CarPlay.app/en.lproj/CarPlayApp.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@eventcount@</base>
+        <tran loc="zh-TW">%#@eventcount@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SMARTWIDGET_CALENDAR_EVENT_COUNT:dict/eventcount:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Events</base>
+        <tran loc="zh-TW">%lu個行程</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/System/Library/CoreServices/CarPlay.app/en.lproj/CarPlayApp.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_CLOSING</Position>
+      <TranslationSet>
+        <base loc="en">Closing</base>
+        <tran loc="zh-TW">關閉中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_DISCLOSURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Disclosure Check</base>
+        <tran loc="zh-TW">揭露檢查</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_UNDISCLOSED</Position>
+      <TranslationSet>
+        <base loc="en">Undisclosed Passengers</base>
+        <tran loc="zh-TW">未被揭露的乘客</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_SIRI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay Not Available</base>
+        <tran loc="zh-TW">無法使用CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_SAFE</Position>
+      <TranslationSet>
+        <base loc="en">Confirmed Safe</base>
+        <tran loc="zh-TW">已確認安全</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_OBSTRUCTED</Position>
+      <TranslationSet>
+        <base loc="en">Obstruction detected</base>
+        <tran loc="zh-TW">偵測到障礙物</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_USING_MIC_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="zh-TW">錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  CarPlayApp.strings
+  CarPlayApp
+
+  Created by Kevin Jorgensen on 8/7/18.
+  Copyright © 2018 Apple Inc. All rights reserved.
+</Description>
+      <Position>LOCKOUT_BACK_TO_OEM</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_USING_MIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">on iPhone is currently using the microphone.</base>
+        <tran loc="zh-TW">正在使用iPhone的麥克風。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_GENERIC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unlock your iPhone\nto start CarPlay</base>
+        <tran loc="zh-TW">解鎖iPhone來\n啟動CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LAUNCHER_NAME-com.apple.cardisplay.nowplaying</Position>
+      <TranslationSet>
+        <base loc="en">Now Playing</base>
+        <tran loc="zh-TW">播放中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LAUNCHER_NAME-com.apple.cardisplay.OEM</Position>
+      <TranslationSet>
+        <base loc="en">Car</base>
+        <tran loc="zh-TW">汽車</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_UNREACHABLE</Position>
+      <TranslationSet>
+        <base loc="en">No Response</base>
+        <tran loc="zh-TW">無回應</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">Updating</base>
+        <tran loc="zh-TW">更新中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOW_PLAYING_NOT_PLAYING</Position>
+      <TranslationSet>
+        <base loc="en">Not Playing</base>
+        <tran loc="zh-TW">未在播放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_SIRI_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To use CarPlay, enable Siri in the\nSettings app on your iPhone</base>
+        <tran loc="zh-TW">若要使用CarPlay，請從iPhone的\n「設定」App中啟用Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_CALENDAR_EVENTS_STARTING</Position>
+      <TranslationSet>
+        <base loc="en">Starting at %@</base>
+        <tran loc="zh-TW">%@開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_THERMAL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Temperature</base>
+        <tran loc="zh-TW">溫度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_DISCLOSURE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To use CarPlay, ensure non-disclosed persons are not present in the vehicle.</base>
+        <tran loc="zh-TW">若要使用CarPlay，請確定未被揭露的人員不在車內。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_CALENDAR_ALLDAY</Position>
+      <TranslationSet>
+        <base loc="en">all-day</base>
+        <tran loc="zh-TW">整日</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_THERMAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">iPhone needs to cool down\nbefore you can use it.</base>
+        <tran loc="zh-TW">iPhone冷卻後才能再度使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCKOUT_FEATURES_OFF</Position>
+      <TranslationSet>
+        <base loc="en">Trusted Passengers</base>
+        <tran loc="zh-TW">信任的乘客</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_CLOSED</Position>
+      <TranslationSet>
+        <base loc="en">Closed</base>
+        <tran loc="zh-TW">已關上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_STOPPED</Position>
+      <TranslationSet>
+        <base loc="en">Stopped</base>
+        <tran loc="zh-TW">已停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Message</base>
+        <tran loc="zh-TW">訊息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_CALL</Position>
+      <TranslationSet>
+        <base loc="en">Call</base>
+        <tran loc="zh-TW">通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_OPENING</Position>
+      <TranslationSet>
+        <base loc="en">Opening</base>
+        <tran loc="zh-TW">打開中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTWIDGET_GARGAGEDOOR_OPEN</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="zh-TW">打開</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/System/Library/PreferenceBundles/CarKitSettings.bundle/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Add and organize apps to show in CarPlay’s home screen.</base>
+        <tran loc="zh-TW">加入並整理CarPlay主畫面中顯示的App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Customize Layout</Description>
+      <Position>CUSTOMIZE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Customize</base>
+        <tran loc="zh-TW">自訂</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This will always be a positive non-zero integer.</Description>
+      <Position>MY_CARS_SINGULAR</Position>
+      <TranslationSet>
+        <base loc="en">My Car</base>
+        <tran loc="zh-TW">我的汽車</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> USB-only case. Format string with the name of the car as the argument</Description>
+      <Position>FORGET_CONFIRMATION_WIRED_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Forget “%@”?</base>
+        <tran loc="zh-TW">要忘記「%@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do Not Localize</Description>
+      <Position>DNL_INTERNAL_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Radar Notes</base>
+        <tran loc="zh-TW">Radar Notes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_BLUETOOTH_CONNECTING</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Connecting</base>
+        <tran loc="zh-TW">Bluetooth Connecting</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MY_CARS_PLURAL</Position>
+      <TranslationSet>
+        <base loc="en">My Cars</base>
+        <tran loc="zh-TW">我的汽車</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_INSTRUCTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Touch and hold any icon on the home screen, then drag it to the desired location.</base>
+        <tran loc="zh-TW">觸碰並按住主畫面上的圖像，然後拖到想要的位置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_BLUETOOTH_PAIRED</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Paired</base>
+        <tran loc="zh-TW">Bluetooth Paired</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGET_CONFIRMATION_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_RESET_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_BLUETOOTH_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Connected</base>
+        <tran loc="zh-TW">Bluetooth Connected</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGET_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Forget This Car</base>
+        <tran loc="zh-TW">忘記此汽車設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_RESET</Position>
+      <TranslationSet>
+        <base loc="en">Reset</base>
+        <tran loc="zh-TW">重置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string with the name of the car as the argument</Description>
+      <Position>FORGET_CONFIRMATION_BLUETOOTH_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Forget “%@” for CarPlay and Bluetooth?</base>
+        <tran loc="zh-TW">要讓CarPlay和藍牙忘記「%@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> INTERNAL ONLY
+ Do Not Localize</Description>
+      <Position>DNL_INTERNAL_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">[Internal Only]</base>
+        <tran loc="zh-TW">[Internal Only]</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WIRELESS_SETUP_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">If your car supports wireless CarPlay, press and hold the voice control button on your steering wheel to start CarPlay setup.</base>
+        <tran loc="zh-TW">若您的汽車支援無線CarPlay，請按住方向盤上的音量控制按鈕來開始設定CarPlay。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do Not Localize</Description>
+      <Position>DNL_INTERNAL_NOTES_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Custom text notes will be included in radars you file from this vehicle.</base>
+        <tran loc="zh-TW">Custom text notes will be included in radars you file from this vehicle.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_APP_REMOVE</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="zh-TW">移除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Swipe-to-delete button title</Description>
+      <Position>FORGET</Position>
+      <TranslationSet>
+        <base loc="en">Forget</base>
+        <tran loc="zh-TW">忘記</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGET_CONFIRMATION_FORGET</Position>
+      <TranslationSet>
+        <base loc="en">Forget</base>
+        <tran loc="zh-TW">忘記</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_ENABLED_APPS_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Include</base>
+        <tran loc="zh-TW">包含</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Wired-only cars will get this switch instead of CARPLAY_SWITCH</Description>
+      <Position>ALLOW_LOCKED_CARPLAY_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">Allow CarPlay While Locked</base>
+        <tran loc="zh-TW">允許鎖定時使用CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_ENHANCED_INTEGRATION_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Sharing which apps on your iPhone use CarPlay allows this car to quickly switch back to these apps in CarPlay. CarPlay will work without this.</base>
+        <tran loc="zh-TW">分享iPhone上有哪些App使用CarPlay可讓這部車快速切換回這些在CarPlay中的App。CarPlay不需要此功能也可運作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_SCREEN_RESET_CONFIRM</Position>
+      <TranslationSet>
+        <base loc="en">Reset Home Screen Layout</base>
+        <tran loc="zh-TW">重置主畫面佈局</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_NAVIGATION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay</base>
+        <tran loc="zh-TW">CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">CarPlay</base>
+        <tran loc="zh-TW">CarPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_FOOTER_TEXT_WIRELESS</Position>
+      <TranslationSet>
+        <base loc="en">When your phone is nearby and you start your car, CarPlay will start automatically.</base>
+        <tran loc="zh-TW">發動汽車時若電話位於附近，會自動開始CarPlay。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVAILABLE_CARS</Position>
+      <TranslationSet>
+        <base loc="en">Available Cars</base>
+        <tran loc="zh-TW">可用汽車</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_ACCESSORY_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">Accessory Connected</base>
+        <tran loc="zh-TW">Accessory Connected</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZE_HIDDEN_APPS_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">More Apps</base>
+        <tran loc="zh-TW">更多App</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OTHER_CARS</Position>
+      <TranslationSet>
+        <base loc="en">Other Cars</base>
+        <tran loc="zh-TW">其他汽車</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DNL Do Not Localize for debugging only</Description>
+      <Position>DEBUG_NOT_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">Not Connected</base>
+        <tran loc="zh-TW">Not Connected</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARPLAY_ENHANCED_INTEGRATION_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced Integration</base>
+        <tran loc="zh-TW">進階整合</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/Applications/CarPlaySettings.app/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">CarPlaySettings</base>
+        <tran loc="zh-TW">CarPlaySettings</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CarPlayApp
+
+  Created by Kevin Jorgensen on 6/12/19.
+  Copyright © 2019 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-TW">設定</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CarPlayApp/Applications/CarPlaySettings.app/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_SMALL</Position>
+      <TranslationSet>
+        <base loc="en">Small</base>
+        <tran loc="zh-TW">小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_AUTOMATIC</Position>
+      <TranslationSet>
+        <base loc="en">Automatic</base>
+        <tran loc="zh-TW">自動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_ALWAYS_LIGHT</Position>
+      <TranslationSet>
+        <base loc="en">Always Light</base>
+        <tran loc="zh-TW">永遠淺色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALBUM_ART_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Show Album Art</base>
+        <tran loc="zh-TW">顯示專輯插圖</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUGGESTIONS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Suggestions in Dashboard</base>
+        <tran loc="zh-TW">儀表板中顯示「建議」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_MEDIUM</Position>
+      <TranslationSet>
+        <base loc="en">Medium</base>
+        <tran loc="zh-TW">中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Appearance</base>
+        <tran loc="zh-TW">外觀</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_MODE_ALWAYS_DARK</Position>
+      <TranslationSet>
+        <base loc="en">Always Dark</base>
+        <tran loc="zh-TW">永遠深色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_AUTOREPLY_FAVORITES</Position>
+      <TranslationSet>
+        <base loc="en">Your Favorites will receive an auto-reply message when they text you.</base>
+        <tran loc="zh-TW">您的「常用聯絡人」傳送簡訊時會收到自動回覆訊息。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_AUTOREPLY_CONTACTS</Position>
+      <TranslationSet>
+        <base loc="en">Your Contacts will receive an auto-reply message when they text you.</base>
+        <tran loc="zh-TW">您的「聯絡人」傳送簡訊時會收到自動回覆訊息。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_AUTOREPLY_RECENTS</Position>
+      <TranslationSet>
+        <base loc="en">People you’ve responded to in the last day will receive an auto-reply message when they text you.</base>
+        <tran loc="zh-TW">您在過去一天內回覆的聯絡人傳送簡訊時會收到自動回覆訊息。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Text Size</base>
+        <tran loc="zh-TW">文字大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INTERNAL_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Internal Settings</base>
+        <tran loc="zh-TW">內部設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_SIZE_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">Large</base>
+        <tran loc="zh-TW">大</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Do Not Disturb While Driving</base>
+        <tran loc="zh-TW">開車勿擾模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_TEXT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Display &amp; Text</base>
+        <tran loc="zh-TW">顯示與文字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  CarPlayApp
+
+  Created by Jonathan Hersh on 2/26/19.
+  Copyright © 2019 Apple Inc. All rights reserved.
+</Description>
+      <Position>SETTINGS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-TW">設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DNDWD_ACTIVATE_CARPLAY</Position>
+      <TranslationSet>
+        <base loc="en">Activate With CarPlay</base>
+        <tran loc="zh-TW">根據CarPlay啟用</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

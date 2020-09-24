@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>HearingSupport_NonUI</ProjName>
+  <File>
+    <Filepath>HearingSupport_NonUI/System/Library/PrivateFrameworks/RTTUtilities.framework/en.lproj/TTYSupport.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>RTTFirstUseAlertAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Got It</base>
+        <tran loc="zh-TW">瞭解</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageSure</Position>
+      <TranslationSet>
+        <base loc="en">Sure! GA</base>
+        <tran loc="zh-TW">好呀！GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageYes</Position>
+      <TranslationSet>
+        <base loc="en">Yes GA</base>
+        <tran loc="zh-TW">好的GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessageHangupString</Position>
+      <TranslationSet>
+        <base loc="en"> SKSK </base>
+        <tran loc="zh-TW"> SKSK </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYEndCall</Position>
+      <TranslationSet>
+        <base loc="en">End Call</base>
+        <tran loc="zh-TW">結束通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  TTYSupport.strings
+  Accessibility
+
+  Created by Ian Fisch on 12/22/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>TTYSendButtonLabel</Position>
+      <TranslationSet>
+        <base loc="en">Send</base>
+        <tran loc="zh-TW">傳送</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeVoice</Position>
+      <TranslationSet>
+        <base loc="en">Voice</base>
+        <tran loc="zh-TW">語音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTDowngradeMessage</Position>
+      <TranslationSet>
+        <base loc="en">The other person on this phone call turned RTT off.</base>
+        <tran loc="zh-TW">另一通話方已關閉RTT。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTServiceHeader</Position>
+      <TranslationSet>
+        <base loc="en">RTT Unavailable</base>
+        <tran loc="zh-TW">無法使用RTT</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYMute</Position>
+      <TranslationSet>
+        <base loc="en">Mute</base>
+        <tran loc="zh-TW">靜音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYPersonMe</Position>
+      <TranslationSet>
+        <base loc="en">Me</base>
+        <tran loc="zh-TW">本人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageNo</Position>
+      <TranslationSet>
+        <base loc="en">No GA</base>
+        <tran loc="zh-TW">沒有GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTOk</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTRemoteInterruptMessage</Position>
+      <TranslationSet>
+        <base loc="en">Unable to send real time text. You can continue sending real time text on your iPhone.</base>
+        <tran loc="zh-TW">無法傳送即時訊息。您可以在iPhone上繼續傳送即時訊息。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessageGoodbyeString</Position>
+      <TranslationSet>
+        <base loc="en"> SK </base>
+        <tran loc="zh-TW"> SK </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sent when one side is done talking, see TTY dictionary. Leading space intentional</Description>
+      <Position>TTYMessageCompleteString</Position>
+      <TranslationSet>
+        <base loc="en"> GA </base>
+        <tran loc="zh-TW"> GA </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeTTY</Position>
+      <TranslationSet>
+        <base loc="en">TTY Call</base>
+        <tran loc="zh-TW">TTY通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessageHoldString</Position>
+      <TranslationSet>
+        <base loc="en"> PLS HLD </base>
+        <tran loc="zh-TW"> PLS HLD </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeCancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Call 1 (415) 913 - 7773</Description>
+      <Position>TTYCallTypeVoiceWithDestination</Position>
+      <TranslationSet>
+        <base loc="en">Call %@</base>
+        <tran loc="zh-TW">撥打%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageHello</Position>
+      <TranslationSet>
+        <base loc="en">Hello GA</base>
+        <tran loc="zh-TW">哈囉GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessagePoliteHangupString</Position>
+      <TranslationSet>
+        <base loc="en"> GA TO SK </base>
+        <tran loc="zh-TW"> GA TO SK </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRTT</Position>
+      <TranslationSet>
+        <base loc="en">RTT Call</base>
+        <tran loc="zh-TW">RTT通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageSeeYouSoon</Position>
+      <TranslationSet>
+        <base loc="en">See you soon GA</base>
+        <tran loc="zh-TW">待會見GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTFirstUseAlertMessage</Position>
+      <TranslationSet>
+        <base loc="en">RTT allows text messages to be sent during a phone call between recipients. This service is typically used by those with hearing impairments. Press the RTT button to communicate using text with the caller.</base>
+        <tran loc="zh-TW">RTT（即時訊息）可以讓通話期間的接收端互相傳送訊息。此項服務通常用於聽障者。按下RTT按鈕可透過訊息與來電者通訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTFirstUseAlertTitle</Position>
+      <TranslationSet>
+        <base loc="en">Real Time Text</base>
+        <tran loc="zh-TW">即時訊息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRelayRTT</Position>
+      <TranslationSet>
+        <base loc="en">RTT Relay Call</base>
+        <tran loc="zh-TW">RTT轉送通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>back button</Description>
+      <Position>RTTBack</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="zh-TW">返回</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRelayRTT_TTY</Position>
+      <TranslationSet>
+        <base loc="en">RTT/TTY Relay Call</base>
+        <tran loc="zh-TW">RTT/TTY轉送通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYRelayPreamble</Position>
+      <TranslationSet>
+        <base loc="en">Hello. OPR PLS CALL %@ GA</base>
+        <tran loc="zh-TW">您好。接線生請打%@ GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageWhatsUp</Position>
+      <TranslationSet>
+        <base loc="en">What’s up? GA</base>
+        <tran loc="zh-TW">最近好嗎？GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageOk</Position>
+      <TranslationSet>
+        <base loc="en">OK GA</base>
+        <tran loc="zh-TW">OK GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYPersonUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-TW">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageThanks</Position>
+      <TranslationSet>
+        <base loc="en">Thanks! GA</base>
+        <tran loc="zh-TW">謝謝！GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeMessage</Position>
+      <TranslationSet>
+        <base loc="en">What kind of call would you like to make?</base>
+        <tran loc="zh-TW">您要撥打哪種電話？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTAction</Position>
+      <TranslationSet>
+        <base loc="en">RTT</base>
+        <tran loc="zh-TW">RTT</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTOnHoldMessage</Position>
+      <TranslationSet>
+        <base loc="en">You are On Hold with %@</base>
+        <tran loc="zh-TW">您與%@的通話保留中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageOnMyWay</Position>
+      <TranslationSet>
+        <base loc="en">On my way GA</base>
+        <tran loc="zh-TW">快到了GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYMessagePlaceholder</Position>
+      <TranslationSet>
+        <base loc="en">Message</base>
+        <tran loc="zh-TW">訊息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRelay</Position>
+      <TranslationSet>
+        <base loc="en">TTY Relay Call</base>
+        <tran loc="zh-TW">TTY轉送通話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYUnmute</Position>
+      <TranslationSet>
+        <base loc="en">Unmute</base>
+        <tran loc="zh-TW">解除靜音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRTT_TTY</Position>
+      <TranslationSet>
+        <base loc="en">RTT/TTY Call</base>
+        <tran loc="zh-TW">RTT/TTY通話</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>HearingSupport_NonUI/System/Library/PrivateFrameworks/HearingUtilities.framework/en.lproj/HearingAidSupport.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenInstructions_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Live Listen sends audio to your hearing device from the microphone on your iPhone.</base>
+        <tran loc="zh-TW">「即時聆聽」能將音訊從iPhone的麥克風傳送到助聽裝置上。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Left Concert  48%', double space intentional</Description>
+      <Position>HearingAidVolumeLeftStreamValue</Position>
+      <TranslationSet>
+        <base loc="en">Left %1$@  %2$@</base>
+        <tran loc="zh-TW">左耳%1$@  %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 1 is left HearingAidDecription and 2 is right HearingAidDecription</Description>
+      <Position>HearingAidManModelDecription</Position>
+      <TranslationSet>
+        <base loc="en">%1$@\n%2$@</base>
+        <tran loc="zh-TW">%1$@\n%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidFallbackName</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device</base>
+        <tran loc="zh-TW">助聽裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device</base>
+        <tran loc="zh-TW">助聽裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Left Master  48%', double space intentional</Description>
+      <Position>HearingAidMixedLeftValue</Position>
+      <TranslationSet>
+        <base loc="en">Left Master  %@</base>
+        <tran loc="zh-TW">左耳主控  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidModesRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Presets</base>
+        <tran loc="zh-TW">右耳預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionMuteHour</Position>
+      <TranslationSet>
+        <base loc="en">Mute for 1 Hour</base>
+        <tran loc="zh-TW">1小時不再提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidModesLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Presets</base>
+        <tran loc="zh-TW">左耳預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsConnectionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Status</base>
+        <tran loc="zh-TW">狀態</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStatusLabel</Position>
+      <TranslationSet>
+        <base loc="en">Status</base>
+        <tran loc="zh-TW">狀態</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PMEToggleTitle</Position>
+      <TranslationSet>
+        <base loc="en">Audio Accommodations</base>
+        <tran loc="zh-TW">音訊調節</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsAutomatic</Position>
+      <TranslationSet>
+        <base loc="en">Automatic</base>
+        <tran loc="zh-TW">自動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> i.e. L:50</Description>
+      <Position>complication.ear.value</Position>
+      <TranslationSet>
+        <base loc="en">%@%@</base>
+        <tran loc="zh-TW">%@%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent90</Position>
+      <TranslationSet>
+        <base loc="en">%@ Around 30 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="zh-TW">%@暴露在此音量約30分鐘便可能導致暫時的聽力受損。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidDone</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertTitle</Position>
+      <TranslationSet>
+        <base loc="en">Loud Environment</base>
+        <tran loc="zh-TW">大聲環境</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BluetoothDisabledTitle</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth is off</base>
+        <tran loc="zh-TW">已關閉藍牙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsFirmwareTitle</Position>
+      <TranslationSet>
+        <base loc="en">Firmware version</base>
+        <tran loc="zh-TW">韌體版本</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent95</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 95 decibels.</base>
+        <tran loc="zh-TW">音量達到95分貝。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertDamageWarning</Position>
+      <TranslationSet>
+        <base loc="en">Repeated long-term exposure can lead to permanent damage. Consider using hearing protection or moving to a quieter area.</base>
+        <tran loc="zh-TW">長期重複的暴露可能導致永久性傷害。請考慮使用聽力保護措施或移往較安靜的區域。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingDevicesFooter</Position>
+      <TranslationSet>
+        <base loc="en">Pair MFi hearing aids and sound processors.</base>
+        <tran loc="zh-TW">配對MFi助聽器和聲音處理器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Left Volume  48%', double space intentional</Description>
+      <Position>HearingAidSensitivityLeftValue</Position>
+      <TranslationSet>
+        <base loc="en">Left Hearing Range  %@</base>
+        <tran loc="zh-TW">左耳聽力範圍  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsGroupRightTitle</Position>
+      <TranslationSet>
+        <base loc="en">Right Hearing Aid</base>
+        <tran loc="zh-TW">右助聽器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent100</Position>
+      <TranslationSet>
+        <base loc="en">%@ Even a few minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="zh-TW">%@只需暴露在此音量幾分鐘便可能導致暫時的聽力受損。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingModuleName</Position>
+      <TranslationSet>
+        <base loc="en">Hearing</base>
+        <tran loc="zh-TW">聽力</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingDevicesSearchHeading</Position>
+      <TranslationSet>
+        <base loc="en">Searching…</base>
+        <tran loc="zh-TW">搜尋中⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListen</Position>
+      <TranslationSet>
+        <base loc="en">Start Live Listen</base>
+        <tran loc="zh-TW">開始「即時聆聽」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HandoffAlertDescription</Position>
+      <TranslationSet>
+        <base loc="en">Attempting to take connection from another device.</base>
+        <tran loc="zh-TW">正在嘗試從其他裝置建立連線。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidTreble</Position>
+      <TranslationSet>
+        <base loc="en">Treble</base>
+        <tran loc="zh-TW">高音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidProgramActivate</Position>
+      <TranslationSet>
+        <base loc="en">Double tap and hold to select a different preset</base>
+        <tran loc="zh-TW">點兩下並按住來選取其他預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.combined.ear.colon</Position>
+      <TranslationSet>
+        <base loc="en">L/R:</base>
+        <tran loc="zh-TW">左/右：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Left side or left ear</Description>
+      <Position>HearingAidInputOptionsLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left</base>
+        <tran loc="zh-TW">左耳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeLeftLong</Position>
+      <TranslationSet>
+        <base loc="en">Left</base>
+        <tran loc="zh-TW">左耳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidBass</Position>
+      <TranslationSet>
+        <base loc="en">Bass</base>
+        <tran loc="zh-TW">低音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityRightValue</Position>
+      <TranslationSet>
+        <base loc="en">Right Hearing Range  %@</base>
+        <tran loc="zh-TW">右耳聽力範圍  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidModes</Position>
+      <TranslationSet>
+        <base loc="en">Presets</base>
+        <tran loc="zh-TW">預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ForgetHearingAidCancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LeftRightHearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">R + L</base>
+        <tran loc="zh-TW">右 + 左</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.header.title</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Aids</base>
+        <tran loc="zh-TW">助聽器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingBothAvailableLong</Position>
+      <TranslationSet>
+        <base loc="en">Left and right available</base>
+        <tran loc="zh-TW">雙耳都可使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Treble -43%'</Description>
+      <Position>HearingAidTrebleValue</Position>
+      <TranslationSet>
+        <base loc="en">Treble %@</base>
+        <tran loc="zh-TW">高音%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LeftHearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">L</base>
+        <tran loc="zh-TW">左</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HandoffAlertTitle</Position>
+      <TranslationSet>
+        <base loc="en">Connecting to hearing devices</base>
+        <tran loc="zh-TW">正在連接助聽裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityMasterValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L Hearing Range  %@</base>
+        <tran loc="zh-TW">右 + 左耳聽力範圍  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolumeLabel</Position>
+      <TranslationSet>
+        <base loc="en">Master</base>
+        <tran loc="zh-TW">主控</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Used in hearing aid battery label prior to the battery percent</Description>
+      <Position>RightHearingAidLabelForBatteryWithSeparator</Position>
+      <TranslationSet>
+        <base loc="en">L:</base>
+        <tran loc="zh-TW">左：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.left.ear.colon</Position>
+      <TranslationSet>
+        <base loc="en">L:</base>
+        <tran loc="zh-TW">左：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Bass -43%'</Description>
+      <Position>HearingAidBassValue</Position>
+      <TranslationSet>
+        <base loc="en">Bass %@</base>
+        <tran loc="zh-TW">低音%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionDismiss</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent80</Position>
+      <TranslationSet>
+        <base loc="en">%@ Around 5 hours and 30 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="zh-TW">%@暴露在此音量約5小時30分鐘便可能導致暫時的聽力受損。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsHIIDTitle</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device ID</base>
+        <tran loc="zh-TW">助聽裝置識別碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent80</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 80 decibels.</base>
+        <tran loc="zh-TW">音量達到80分貝。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.volume.value</Position>
+      <TranslationSet>
+        <base loc="en">Volume: %@</base>
+        <tran loc="zh-TW">音量：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsGroupLeftTitle</Position>
+      <TranslationSet>
+        <base loc="en">Left Hearing Aid</base>
+        <tran loc="zh-TW">左助聽器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStreamingModesLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Streaming Presets</base>
+        <tran loc="zh-TW">左耳串流預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Preset 1'</Description>
+      <Position>DefaultProgramName</Position>
+      <TranslationSet>
+        <base loc="en">Preset %@</base>
+        <tran loc="zh-TW">預設組%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BatteryValue</Position>
+      <TranslationSet>
+        <base loc="en">Battery level: %@</base>
+        <tran loc="zh-TW">電池電量：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMasterStreamValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L %1$@  %2$@</base>
+        <tran loc="zh-TW">右 + 左%1$@  %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedMasterValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L Master  %@</base>
+        <tran loc="zh-TW">右 + 左主控  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream 'Car Volume' or 'Concert Volume'</Description>
+      <Position>HearingAidStreamVolume</Position>
+      <TranslationSet>
+        <base loc="en">%@ Volume</base>
+        <tran loc="zh-TW">%@音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Concert Volume'</Description>
+      <Position>HearingAidVolumeStreamLabel</Position>
+      <TranslationSet>
+        <base loc="en">%@ Volume</base>
+        <tran loc="zh-TW">%@音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenStatusbar</Position>
+      <TranslationSet>
+        <base loc="en">Live Listen</base>
+        <tran loc="zh-TW">即時聆聽</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMaster</Position>
+      <TranslationSet>
+        <base loc="en">R + L Microphone Volume</base>
+        <tran loc="zh-TW">右 + 左麥克風音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BatteryValueLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left battery level: %@</base>
+        <tran loc="zh-TW">左耳電池電量：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStreamingModes</Position>
+      <TranslationSet>
+        <base loc="en">Streaming Presets</base>
+        <tran loc="zh-TW">串流預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidIndependenceTitle</Position>
+      <TranslationSet>
+        <base loc="en">Adjust Independently</base>
+        <tran loc="zh-TW">獨立調整</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent100</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 100 dB.</base>
+        <tran loc="zh-TW">音量達到100分貝。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> manufacturer model (side), side is RightHearingAidLabel, LeftHearingAidLabel, or LeftRightHearingAidLabel</Description>
+      <Position>HearingAidDecription</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@ (%3$@)</base>
+        <tran loc="zh-TW">%1$@%2$@（%3$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RightHearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">R</base>
+        <tran loc="zh-TW">右</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.loading.data</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="zh-TW">載入中⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionMuteDay</Position>
+      <TranslationSet>
+        <base loc="en">Mute for Today</base>
+        <tran loc="zh-TW">今天不再提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertFooter</Position>
+      <TranslationSet>
+        <base loc="en">You can manage Noise Notifications and Noise measurements in Settings on your Apple Watch.</base>
+        <tran loc="zh-TW">您可以在Apple Watch上的「設定」中管理「噪音通知」和「噪音」測量。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Hearing Range</base>
+        <tran loc="zh-TW">右耳聽力範圍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenAXValue</Position>
+      <TranslationSet>
+        <base loc="en">Meter level: %@</base>
+        <tran loc="zh-TW">刻度：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsTitle</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="zh-TW">診斷</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Used in hearing aid battery label prior to the battery percent</Description>
+      <Position>LeftHearingAidLabelForBatteryWithSeparator</Position>
+      <TranslationSet>
+        <base loc="en">R:</base>
+        <tran loc="zh-TW">右：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.right.ear.colon</Position>
+      <TranslationSet>
+        <base loc="en">R:</base>
+        <tran loc="zh-TW">右：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Microphone Volume</base>
+        <tran loc="zh-TW">右麥克風音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsRight</Position>
+      <TranslationSet>
+        <base loc="en">Right</base>
+        <tran loc="zh-TW">右耳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRightLong</Position>
+      <TranslationSet>
+        <base loc="en">Right</base>
+        <tran loc="zh-TW">右耳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent90</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 90 decibels.</base>
+        <tran loc="zh-TW">音量達到90分貝。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivity</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Range</base>
+        <tran loc="zh-TW">聽力範圍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityLabel</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Range</base>
+        <tran loc="zh-TW">聽力範圍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LiveListenUnavailable</Position>
+      <TranslationSet>
+        <base loc="en">Unavailable for current route</base>
+        <tran loc="zh-TW">目前路徑無法使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Hearing Range</base>
+        <tran loc="zh-TW">左耳聽力範圍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> label for volume slide of something streaming to hearing aids</Description>
+      <Position>HearingAidStream</Position>
+      <TranslationSet>
+        <base loc="en">Stream</base>
+        <tran loc="zh-TW">串流</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMasterLong</Position>
+      <TranslationSet>
+        <base loc="en">Right + Left</base>
+        <tran loc="zh-TW">右耳 + 左耳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMasterValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L Microphone Volume  %@</base>
+        <tran loc="zh-TW">右 + 左麥克風音量  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> i.e. L: 50-Theater</Description>
+      <Position>complication.ear.full.description</Position>
+      <TranslationSet>
+        <base loc="en">%@: %@-%@</base>
+        <tran loc="zh-TW">%@：%@-%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidOn</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="zh-TW">開啟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsValueUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-TW">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenListening</Position>
+      <TranslationSet>
+        <base loc="en">End Live Listen</base>
+        <tran loc="zh-TW">結束即時聆聽</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Microphone Volume</base>
+        <tran loc="zh-TW">左麥克風音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsConnectionStatusConnected</Position>
+      <TranslationSet>
+        <base loc="en">Connected</base>
+        <tran loc="zh-TW">已連線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidConnected</Position>
+      <TranslationSet>
+        <base loc="en">Connected</base>
+        <tran loc="zh-TW">已連線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsHardwareTitle</Position>
+      <TranslationSet>
+        <base loc="en">Hardware version</base>
+        <tran loc="zh-TW">硬體版本</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMicrophoneVolume</Position>
+      <TranslationSet>
+        <base loc="en">Microphone Level</base>
+        <tran loc="zh-TW">麥克風音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeLabel</Position>
+      <TranslationSet>
+        <base loc="en">Microphone Level</base>
+        <tran loc="zh-TW">麥克風音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent95</Position>
+      <TranslationSet>
+        <base loc="en">%@ Just 10 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="zh-TW">%@只需暴露在此音量10分鐘便可能導致暫時的聽力受損。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used in hearing aid battery label. e.g. L: 100%</Description>
+      <Position>HearingAidBatteryFormat</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="zh-TW">%1$@%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Left Volume  48%', double space intentional</Description>
+      <Position>HearingAidVolumeLeftValue</Position>
+      <TranslationSet>
+        <base loc="en">Left Microphone Volume  %@</base>
+        <tran loc="zh-TW">左麥克風音量  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.preferred.display.mic.volume</Position>
+      <TranslationSet>
+        <base loc="en">Mic Volume</base>
+        <tran loc="zh-TW">麥克風音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolumeRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Master Volume</base>
+        <tran loc="zh-TW">右耳主音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsTitle</Position>
+      <TranslationSet>
+        <base loc="en">Input Options</base>
+        <tran loc="zh-TW">輸入選項</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRightStreamValue</Position>
+      <TranslationSet>
+        <base loc="en">Right %1$@  %2$@</base>
+        <tran loc="zh-TW">右耳%1$@  %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Concert Volume'</Description>
+      <Position>HearingAidVolumeLeftStreamLabel</Position>
+      <TranslationSet>
+        <base loc="en">Left %@ Volume</base>
+        <tran loc="zh-TW">左耳%@音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolume</Position>
+      <TranslationSet>
+        <base loc="en">Master Volume</base>
+        <tran loc="zh-TW">主控音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionOpen</Position>
+      <TranslationSet>
+        <base loc="en">Open Noise</base>
+        <tran loc="zh-TW">開啟噪音提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedRightValue</Position>
+      <TranslationSet>
+        <base loc="en">Right Master  %@</base>
+        <tran loc="zh-TW">右耳主控  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStatus</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device Status</base>
+        <tran loc="zh-TW">助聽裝置狀態</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsConnectionStatusNotConnected</Position>
+      <TranslationSet>
+        <base loc="en">Not Connected</base>
+        <tran loc="zh-TW">未連線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidNotConnected</Position>
+      <TranslationSet>
+        <base loc="en">Not Connected</base>
+        <tran loc="zh-TW">未連線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRightValue</Position>
+      <TranslationSet>
+        <base loc="en">Right Microphone Volume  %@</base>
+        <tran loc="zh-TW">右麥克風音量  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent85</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 85 decibels.</base>
+        <tran loc="zh-TW">音量達到85分貝。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStreamingModesRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Streaming Presets</base>
+        <tran loc="zh-TW">右耳串流預設組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidConnectedOnDevice</Position>
+      <TranslationSet>
+        <base loc="en">Connected on %@</base>
+        <tran loc="zh-TW">已在%@上連線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.preferred.display.program</Position>
+      <TranslationSet>
+        <base loc="en">Program</base>
+        <tran loc="zh-TW">程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Concert Volume'</Description>
+      <Position>HearingAidVolumeRightStreamLabel</Position>
+      <TranslationSet>
+        <base loc="en">Right %@ Volume</base>
+        <tran loc="zh-TW">右耳%@音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeGeneric</Position>
+      <TranslationSet>
+        <base loc="en">Volume</base>
+        <tran loc="zh-TW">音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BluetoothDisabledDescription</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth is required to connect to Made for iPhone hearing aids and sound processors.</base>
+        <tran loc="zh-TW">需要藍牙才能連接Made for iPhone助聽器和聲音處理器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolumeLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Master Volume</base>
+        <tran loc="zh-TW">左耳主音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidControlTitle</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Devices</base>
+        <tran loc="zh-TW">助聽裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingDevicesHeading</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Devices</base>
+        <tran loc="zh-TW">助聽裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.datasource.name</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Devices</base>
+        <tran loc="zh-TW">助聽裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingRightAvailableLong</Position>
+      <TranslationSet>
+        <base loc="en">Right available</base>
+        <tran loc="zh-TW">可使用右耳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidConnecting</Position>
+      <TranslationSet>
+        <base loc="en">Connecting…</base>
+        <tran loc="zh-TW">連線中⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent85</Position>
+      <TranslationSet>
+        <base loc="en">%@ Around 1 hour and 45 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="zh-TW">%@暴露在此音量約1小時45分鐘便可能導致暫時的聽力受損。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BatteryValueRight</Position>
+      <TranslationSet>
+        <base loc="en">Right battery level: %@</base>
+        <tran loc="zh-TW">右耳電池電量：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenInstructions_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Live Listen sends audio to your hearing device from the microphone on your iPad.</base>
+        <tran loc="zh-TW">「即時聆聽」能將音訊從iPad的麥克風傳送到助聽裝置上。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsNeither</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidOff</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Stream 1'</Description>
+      <Position>DefaultStreamName</Position>
+      <TranslationSet>
+        <base loc="en">Stream %@</base>
+        <tran loc="zh-TW">串流%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  HearingAidSupport.strings
+  AccessibilitySettingsBundle
+
+  Created by Ian Fisch on 2/20/12.
+  Copyright (c) 2012 Apple Inc. All rights reserved.
+
+ used to show availability of left and right hearing aids</Description>
+      <Position>HearingLeftAvailableLong</Position>
+      <TranslationSet>
+        <base loc="en">Left available</base>
+        <tran loc="zh-TW">可使用左耳</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

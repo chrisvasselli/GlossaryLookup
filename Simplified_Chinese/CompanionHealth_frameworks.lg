@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CompanionHealth_frameworks</ProjName>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/DeepBreathingSettings.bundle/en.lproj/DeepBreathingSettings.strings</Filepath>
+    <TextItem>
+      <Description> 
+  DeepBreathingSettings.strings
+  CompanionHealth
+
+  Created by Roxanne Brittain on 8/27/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Breathe</base>
+        <tran loc="zh-CN">呼吸</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_WEEKLY_SUMMARY_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Every Monday, the Weekly Summary gives you a brief recap of your Breathe sessions from the previous week.</base>
+        <tran loc="zh-CN">每周一，“每周摘要”会对您上一周的呼吸时段进行简单的回顾。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_WEEKLY_SUMMARY_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Weekly Summary</base>
+        <tran loc="zh-CN">每周摘要</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_MUTE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Mute for today</base>
+        <tran loc="zh-CN">今天不再提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_REMINDER_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Breathe Reminders</base>
+        <tran loc="zh-CN">呼吸提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_BREATH_RATE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Breath Rate</base>
+        <tran loc="zh-CN">呼吸频率</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_SESSION_DURATION_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">When this is on, every new Breathe session will default to the duration of your previously completed session.</base>
+        <tran loc="zh-CN">启用此功能后，每一次新呼吸时段将默认设为之前完成的时段。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_HAPTICS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Haptics</base>
+        <tran loc="zh-CN">触感</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_SESSION_DURATION_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Use Previous Duration</base>
+        <tran loc="zh-CN">使用之前时段</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/DeepBreathingSettings.bundle/en.lproj/DeepBreathingReminderFrequency.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_REMINDERS_PER_DAY:dict/times:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d times a day</base>
+        <tran loc="zh-CN">一天%d次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_REMINDERS_PER_DAY:dict/times:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d times a day</base>
+        <tran loc="zh-CN">一天%d次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_REMINDERS_PER_DAY:dict/times:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_REMINDER_FREQUENCY:dict/hours:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_REMINDERS_PER_DAY:dict/times:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_REMINDER_FREQUENCY:dict/hours:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_REMINDER_FREQUENCY:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@hours@</base>
+        <tran loc="zh-CN">%#@hours@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_REMINDER_FREQUENCY:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@hours@</base>
+        <tran loc="zh-CN">%#@hours@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_REMINDER_FREQUENCY:dict/hours:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Every %d hours</base>
+        <tran loc="zh-CN">每%d小时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_REMINDER_FREQUENCY:dict/hours:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Every %d hours</base>
+        <tran loc="zh-CN">每%d小时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_REMINDERS_PER_DAY:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@times@</base>
+        <tran loc="zh-CN">%#@times@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_REMINDERS_PER_DAY:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@times@</base>
+        <tran loc="zh-CN">%#@times@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/HealthAppsSettings.bundle/en.lproj/HealthAppsSettings.strings</Filepath>
+    <TextItem>
+      <Description> 
+  File.strings
+  CompanionHealth
+
+  Created by Siji Rachel Tom on 6/26/14.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Activity</base>
+        <tran loc="zh-CN">健身记录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOAL_COMPLETIONS_ENABLED_FOOTER_WHEELCHAIR</Position>
+      <TranslationSet>
+        <base loc="en">Receive a notification when you reach your Move, Exercise, and Roll goals.</base>
+        <tran loc="zh-CN">达成活动、锻炼以及转动目标时，接收通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEEKLY_SUMMARY_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Weekly Summary</base>
+        <tran loc="zh-CN">每周摘要</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEEKLY_SUMMARY_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Every Monday receive a brief recap of your Move performance from the previous week, and you can adjust your Move goal for the upcoming week.</base>
+        <tran loc="zh-CN">每周一您会收到上周活动表现的简单回顾，您可以据此调整接下来一周的活动目标。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOAL_COMPLETIONS_ENABLED_FOOTER_SMART_COACH_WHEELCHAIR</Position>
+      <TranslationSet>
+        <base loc="en">Receive a notification when you reach your Move, Exercise, and Roll goals or earn an award.</base>
+        <tran loc="zh-CN">达成活动、锻炼以及转动目标或赢得奖章时，接收通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOTE_ACHIEVEMENTS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Special Challenges</base>
+        <tran loc="zh-CN">特别挑战</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOTE_ACHIEVEMENTS_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Get notifications about limited edition awards you can earn by completing a challenge.</base>
+        <tran loc="zh-CN">接收完成挑战即可获取限量版奖章的通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACTIVITY_SHARING_NOTIFICATIONS_ENABLED</Position>
+      <TranslationSet>
+        <base loc="en">Activity Sharing Notifications</base>
+        <tran loc="zh-CN">共享健身记录通知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STAND_REMINDERS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Stand Reminders</base>
+        <tran loc="zh-CN">站立提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Legacy progress updates</Description>
+      <Position>PROGRESS_UPDATES_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Progress Updates</base>
+        <tran loc="zh-CN">进度更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DAILY_PROGRESS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Daily Coaching</base>
+        <tran loc="zh-CN">每日教练</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACTIVITY_SHARING_NOTIFICATIONS_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Receive a notification when someone who shares Activity with you closes all three rings, finishes a workout, or earns an award.</base>
+        <tran loc="zh-CN">与您共享“健身记录”的朋友闭合全部三项圆环、完成体能训练或赢得奖章时，接受通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STAND_REMINDERS_ENABLED_FOOTER_WHEELCHAIR</Position>
+      <TranslationSet>
+        <base loc="en">Receive a reminder to roll if you’ve been inactive for the first %@ minutes of an hour.</base>
+        <tran loc="zh-CN">如果一小时的前%@分钟保持不活跃状态，接收转动提醒。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Smart Coaching progress updates</Description>
+      <Position>GOAL_COMPLETIONS_ENABLED_FOOTER_SMART_COACH</Position>
+      <TranslationSet>
+        <base loc="en">Receive a notification when you reach your Move, Exercise, and Stand goals or earn an award.</base>
+        <tran loc="zh-CN">达成活动、锻炼以及站立目标或赢得奖章时，接收通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOAL_COMPLETIONS_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Receive a notification when you reach your Move, Exercise, and Stand goals.</base>
+        <tran loc="zh-CN">达成活动、锻炼以及站立目标时，接收通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACHIEVEMENTS_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Receive a notification when you reach a milestone or personal best.</base>
+        <tran loc="zh-CN">达成一项目标或获得个人最佳时，接收通知。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STAND_REMINDERS_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Receive a reminder to stand if you’ve been sitting for the first %@ minutes of an hour.</base>
+        <tran loc="zh-CN">如果一小时的前%@分钟保持坐姿，接收站立提醒。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STAND_REMINDERS_ENABLED_LABEL_WHEELCHAIR</Position>
+      <TranslationSet>
+        <base loc="en">Roll Reminders</base>
+        <tran loc="zh-CN">转动提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACHIEVEMENTS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Achievements</base>
+        <tran loc="zh-CN">成就</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DAILY_PROGRESS_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Get notifications that help you complete your Activity goals and Monthly Challenges.</base>
+        <tran loc="zh-CN">接收通知，助您完成“健身记录”目标和每月挑战。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_UPDATES_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Set a time interval to receive an update on your Activity progress.</base>
+        <tran loc="zh-CN">设置接受健身记录进展更新的时间间隔。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOAL_COMPLETIONS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Goal Completions</base>
+        <tran loc="zh-CN">目标完成情况</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/SessionTrackerAppSettings.bundle/en.lproj/SessionTrackerAppSettings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ABOUT_GYMKIT</Position>
+      <TranslationSet>
+        <base loc="en">About GymKit &amp; Privacy...</base>
+        <tran loc="zh-CN">关于GymKit与隐私…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_START_WORKOUT_NOTIFICATIONS_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">When this is on, Apple Watch will remind you to start a workout if you're running, walking, swimming, on the elliptical, or on the rower.</base>
+        <tran loc="zh-CN">启用后，Apple Watch将在您跑步、步行、游泳时，或当您在椭圆机或划船机上时，提醒您开始体能训练。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>END_REMINDERS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">End Workout Reminder</base>
+        <tran loc="zh-CN">体能训练结束提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PACE_VIEW_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Change between displaying the average pace and the current pace for indoor and outdoor walking and running workouts, and speed for outdoor cycling workouts.</base>
+        <tran loc="zh-CN">可针对室内与户外的步行和跑步训练以及户外单车训练，切换显示平均配速和当前配速。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISABLED_METRICS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">DO NOT INCLUDE</base>
+        <tran loc="zh-CN">不包括</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PAUSE_ENABLED_FOOTER_WITHOUT_SPARTAN</Position>
+      <TranslationSet>
+        <base loc="en">Automatically pauses running workouts when you stop moving and resumes when you start moving again.</base>
+        <tran loc="zh-CN">停止移动时自动暂停跑步训练，再次移动时继续该训练。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_CURRENT_PACE</Position>
+      <TranslationSet>
+        <base loc="en">Current Pace</base>
+        <tran loc="zh-CN">当前配速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_GROUND_ELEVATION</Position>
+      <TranslationSet>
+        <base loc="en">Current Elevation</base>
+        <tran loc="zh-CN">当前高度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_AVERAGE_PACE</Position>
+      <TranslationSet>
+        <base loc="en">Average Pace</base>
+        <tran loc="zh-CN">平均配速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NFC_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Detect Gym Equipment</base>
+        <tran loc="zh-CN">检测健身器材</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_ELEVATION</Position>
+      <TranslationSet>
+        <base loc="en">Elevation Gain</base>
+        <tran loc="zh-CN">总爬升高度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>END_REMINDERS_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">When this is on, Apple Watch will remind you to end your workout if it looks like you’re done.</base>
+        <tran loc="zh-CN">启用后，Apple Watch如果认为您已完成，将提醒您结束体能训练。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>END_REMINDERS_ENABLED_FOOTER_WITHOUT_SPARTAN</Position>
+      <TranslationSet>
+        <base loc="en">When this is on, Apple Watch will remind you to end your workout if it looks like you’re done.</base>
+        <tran loc="zh-CN">启用后，Apple Watch如果认为您已完成，将提醒您结束体能训练。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC_AUTOSTART_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">This playlist will automatically play when you start a workout, unless you’re already listening to music or other media.</base>
+        <tran loc="zh-CN">此播放列表会在您开始体能训练时自动播放，除非您已在听音乐或其他媒体。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC_AUTOSTART_PLAYBACK_FROM_BEGINNING</Position>
+      <TranslationSet>
+        <base loc="en">Play from beginning</base>
+        <tran loc="zh-CN">从开头播放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYLISTS</Position>
+      <TranslationSet>
+        <base loc="en">Playlists</base>
+        <tran loc="zh-CN">播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ABOUT_GYMKIT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">About GymKit &amp; Privacy</base>
+        <tran loc="zh-CN">关于GymKit与隐私</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ SessionTrackerAppSettings.strings
+ CompanionHealth
+ 
+ Created by Roxanne Brittain on 1/5/15.
+ Copyright (c) 2015 Apple Inc. All rights reserved.
+ </Description>
+      <Position>PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Workout</base>
+        <tran loc="zh-CN">体能训练</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MULTIPLE_METRIC_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Multiple Metric</base>
+        <tran loc="zh-CN">多个度量标准</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PACE_VIEW_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Pace/Speed View</base>
+        <tran loc="zh-CN">配速/速度视图</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_AVERAGE_SPEED</Position>
+      <TranslationSet>
+        <base loc="en">Average Speed</base>
+        <tran loc="zh-CN">平均速度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_DURATION</Position>
+      <TranslationSet>
+        <base loc="en">Duration</base>
+        <tran loc="zh-CN">时长</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Start Workout Reminder</base>
+        <tran loc="zh-CN">体能训练开始提醒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_DISTANCE</Position>
+      <TranslationSet>
+        <base loc="en">Distance</base>
+        <tran loc="zh-CN">距离</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PAUSE_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Running Auto Pause</base>
+        <tran loc="zh-CN">跑步时自动暂停</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_LAPS</Position>
+      <TranslationSet>
+        <base loc="en">Laps</base>
+        <tran loc="zh-CN">趟数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PAUSE_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Automatically pauses running workouts when you stop moving and resumes when you start moving again. This will not affect running workouts that are being controlled by a connected treadmill.</base>
+        <tran loc="zh-CN">停止移动时自动暂停跑步训练，再次移动时继续该训练。这不会影响正被已连接的跑步机控制的跑步训练。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_CURRENT_CADENCE</Position>
+      <TranslationSet>
+        <base loc="en">Current Cadence</base>
+        <tran loc="zh-CN">当前步频</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC_AUTOSTART_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Workout Playlist</base>
+        <tran loc="zh-CN">体能训练播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_ACTIVE_ENERGY_KCAL</Position>
+      <TranslationSet>
+        <base loc="en">Active Calories</base>
+        <tran loc="zh-CN">动态卡路里</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC_NONE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC_ENABLED</Position>
+      <TranslationSet>
+        <base loc="en">Enabled</base>
+        <tran loc="zh-CN">已启用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="zh-CN">移除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_VIEW_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Workout View</base>
+        <tran loc="zh-CN">体能训练视图</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MULTIPLE_METRIC_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">This view shows the most popular metrics on one screen during a workout. You can customize the type and order of these metrics for each workout below.</base>
+        <tran loc="zh-CN">进行体能训练时，此视图在同一屏幕上显示最常用的度量标准。您可以在下方为每项体能训练自定度量标准的类型和顺序。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SINGLE_METRIC_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">This view shows one metric at a time during a workout. You can change the current metric displayed by turning the Digital Crown.</base>
+        <tran loc="zh-CN">进行体能训练时，此视图每次显示单个度量标准。您可以旋转数码表冠来更改当前显示的度量标准。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLED_METRICS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">METRICS</base>
+        <tran loc="zh-CN">度量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Press to Pause</base>
+        <tran loc="zh-CN">按下以暂停</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC_AUTOSTART_PLAYBACK_SHUFFLE</Position>
+      <TranslationSet>
+        <base loc="en">Shuffle</base>
+        <tran loc="zh-CN">随机播放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_HEART_RATE</Position>
+      <TranslationSet>
+        <base loc="en">Heart Rate</base>
+        <tran loc="zh-CN">心率</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVERAGE_PACE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Average</base>
+        <tran loc="zh-CN">平均</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_TOTAL_ENERGY_KCAL</Position>
+      <TranslationSet>
+        <base loc="en">Total Calories</base>
+        <tran loc="zh-CN">总卡路里</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHORD_PRESS_PAUSE_WORKOUT_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Pause or resume your workout by pressing the side button and Digital Crown at the same time.</base>
+        <tran loc="zh-CN">同时按下侧边按钮和数码表冠以暂停或继续体能训练。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SINGLE_METRIC_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Single Metric</base>
+        <tran loc="zh-CN">单个度量标准</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CURRENT_PACE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Current</base>
+        <tran loc="zh-CN">当前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_AVERAGE_CADENCE</Position>
+      <TranslationSet>
+        <base loc="en">Average Cadence</base>
+        <tran loc="zh-CN">平均步频</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_CURRENT_SPEED</Position>
+      <TranslationSet>
+        <base loc="en">Current Speed</base>
+        <tran loc="zh-CN">当前速度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> TODO: &lt;rdar://problem/22751827&gt; Update copy for metrics settings in bridge</Description>
+      <Position>WORKOUTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">WORKOUTS</base>
+        <tran loc="zh-CN">体能训练</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRO_SETTING_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Show Goal Metric</base>
+        <tran loc="zh-CN">显示目标数值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NFC_ENABLED_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Quickly connect and start workouts by holding Apple Watch near compatible gym equipment. When this is off, you can connect by opening the Workout app, then holding Apple Watch near the gym equipment.</base>
+        <tran loc="zh-CN">将Apple Watch靠近兼容的健身器材即可快速连接并开始体能训练。关闭时，您可以打开“体能训练”App，再将Apple Watch靠近健身器材来连接。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_ROLLING_PACE</Position>
+      <TranslationSet>
+        <base loc="en">Rolling Pace</base>
+        <tran loc="zh-CN">滚动配速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_SAVING_MODE_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Power Saving Mode</base>
+        <tran loc="zh-CN">节能模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_ACTIVE_ENERGY_KJ</Position>
+      <TranslationSet>
+        <base loc="en">Active Kilojoules</base>
+        <tran loc="zh-CN">动态千焦</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METRIC_TOTAL_ENERGY_KJ</Position>
+      <TranslationSet>
+        <base loc="en">Total Kilojoules</base>
+        <tran loc="zh-CN">总千焦数</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/DeepBreathingSettings.bundle/en.lproj/DeepBreathingHapticLevel.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_HAPTIC_LEVEL_MINIMAL</Position>
+      <TranslationSet>
+        <base loc="en">Minimal</base>
+        <tran loc="zh-CN">弱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_HAPTIC_LEVEL_NONE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  DeepBreathingHapticLevel.strings
+  CompanionHealth
+
+  Created by Roxanne Brittain on 8/27/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Haptics</base>
+        <tran loc="zh-CN">触感</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEEP_BREATHING_HAPTIC_LEVEL_PROMINENT</Position>
+      <TranslationSet>
+        <base loc="en">Prominent</base>
+        <tran loc="zh-CN">强</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/HealthAppsSettings.bundle/en.lproj/ProgressUpdateFrequency.strings</Filepath>
+    <TextItem>
+      <Description> 
+  ProgressUpdateFrequency.strings
+  CompanionHealth
+
+  Created by Siji Rachel Tom on 11/25/14.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>PROGRESS_UPDATE_PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Progress Updates</base>
+        <tran loc="zh-CN">进度更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_UPDATE_NONE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_UPDATE_GROUP_FOOTER_NONE</Position>
+      <TranslationSet>
+        <base loc="en">Choose a time interval to receive an update on your Activity progress that highlights the goal you’re closest to achieving.</base>
+        <tran loc="zh-CN">请选择一个时间间隔，接收最新运动目标的进度更新。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_UPDATE_GROUP_FOOTER_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">Choose a time interval to receive an update on your Activity progress that highlights the goal you’re closest to achieving. If you receive a goal completion or achievement during this time interval, the next progress update will be pushed back approximately %@ hours.</base>
+        <tran loc="zh-CN">请选择接收“健身记录”进度更新的时间间隔。如果您在此间隔内收到了达成目标或获得成就的信息，那么下次进度更新将后推约%@小时。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_UPDATE_%@</Position>
+      <TranslationSet>
+        <base loc="en">Every %@ hours</base>
+        <tran loc="zh-CN">每%@小时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SELECTED_PROGRESS_UPDATE_%@ key is used so that the localization team can shorten as appropriate. &lt;rdar://problem/20021895&gt; [CompanionHealth]: K: 13A190: 'Every %@ hours' clips as selected value</Description>
+      <Position>SELECTED_PROGRESS_UPDATE_%@</Position>
+      <TranslationSet>
+        <base loc="en">Every %@ hours</base>
+        <tran loc="zh-CN">每%@小时</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/DeepBreathingSettings.bundle/en.lproj/DeepBreathingBreathRate.strings</Filepath>
+    <TextItem>
+      <Description> 
+  DeepBreathingBreathRate.strings
+  CompanionHealth
+
+  Created by Roxanne Brittain on 8/27/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Breath Rate</base>
+        <tran loc="zh-CN">呼吸频率</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/DeepBreathingSettings.bundle/en.lproj/DeepBreathingBreathRate.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_BREATH_RATE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@breaths@</base>
+        <tran loc="zh-CN">%#@breaths@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_BREATH_RATE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@breaths@</base>
+        <tran loc="zh-CN">%#@breaths@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_BREATH_RATE:dict/breaths:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d breaths per minute</base>
+        <tran loc="zh-CN">每分钟呼吸%d次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DEEP_BREATHING_BREATH_RATE:dict/breaths:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d breaths per minute</base>
+        <tran loc="zh-CN">每分钟呼吸%d次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_BREATH_RATE:dict/breaths:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d breaths per minute</base>
+        <tran loc="zh-CN">每分钟呼吸%d次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/SELECTED_DEEP_BREATHING_BREATH_RATE:dict/breaths:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d breaths per minute</base>
+        <tran loc="zh-CN">每分钟呼吸%d次</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/NanoPreferenceBundles/Applications/DeepBreathingSettings.bundle/en.lproj/DeepBreathingReminderFrequency.strings</Filepath>
+    <TextItem>
+      <Description> 
+  DeepBreathingReminderFrequency.strings
+  CompanionHealth
+
+  Created by Roxanne Brittain on 8/27/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>DEEP_BREATHING_REMINDER_PANE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Breathe Reminders</base>
+        <tran loc="zh-CN">深呼吸提醒</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CompanionHealth_frameworks/System/Library/PrivateFrameworks/CompanionHealthDaemon.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  CompanionHealth
+
+  Created by Brian Drell on 3/13/19.
+  Copyright © 2019 Apple Inc. All rights reserved.
+</Description>
+      <Position>TRENDS_NOTIFICATION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Activity Trends</base>
+        <tran loc="zh-CN">健身记录趋势</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRENDS_NOTIFICATION_BODY</Position>
+      <TranslationSet>
+        <base loc="en">You can view details in the Activity app on your iPhone.</base>
+        <tran loc="zh-CN">您可以在iPhone上的“健身记录”App中查看详细信息。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRENDS_NOTIFICATION_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Trends are ready.</base>
+        <tran loc="zh-CN">您的“趋势”已就绪。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

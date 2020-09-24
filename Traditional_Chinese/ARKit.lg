@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>ARKit</ProjName>
+  <File>
+    <Filepath>ARKit/System/Library/Frameworks/ARKit.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedConfiguration failure reason </Description>
+      <Position>Unsupported format type for -[ARPresentationDescriptor colorPixelFormat].</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported format type for -[ARPresentationDescriptor colorPixelFormat].</base>
+        <tran loc="zh-TW">不支援 -[ARPresentationDescriptor colorPixelFormat] 的格式類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeWriteFailed failure reason </Description>
+      <Position>Unable to read from or write to URL: %@.</Position>
+      <TranslationSet>
+        <base loc="en">Unable to read from or write to URL: %@.</base>
+        <tran loc="zh-TW">無法讀取或寫入URL：%@。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeMicrophoneUnauthorized description </Description>
+      <Position>Microphone access not authorized.</Position>
+      <TranslationSet>
+        <base loc="en">Microphone access not authorized.</base>
+        <tran loc="zh-TW">尚未被授權取用麥克風。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInsufficientFeatures Object Scanning description </Description>
+      <Position>Make sure the bounds of the object are correct, or scan the object further and try again.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure the bounds of the object are correct, or scan the object further and try again.</base>
+        <tran loc="zh-TW">確定物件的邊界正確，或更遠地掃描物件然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage recovery suggestion </Description>
+      <Position>One or more images lack sufficient texture and contrast for accurate detection. Image detection works best when an image contains multiple high-contrast regions distributed across its extent.</Position>
+      <TranslationSet>
+        <base loc="en">One or more images lack sufficient texture and contrast for accurate detection. Image detection works best when an image contains multiple high-contrast regions distributed across its extent.</base>
+        <tran loc="zh-TW">一或多個影像缺少足夠的紋理和對比，無法準確偵測。當影像的範圍內包含多個高對比區域時，影像偵測才能取得最佳效果。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration failure reason </Description>
+      <Position>Unsupported -[ARPresentationDisplay presentationMode].</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported -[ARPresentationDisplay presentationMode].</base>
+        <tran loc="zh-TW">不支援 -[ARPresentationDisplay presentationMode]。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Location sensor failure reason </Description>
+      <Position>Location authorization denied by the user.</Position>
+      <TranslationSet>
+        <base loc="en">Location authorization denied by the user.</base>
+        <tran loc="zh-TW">使用者已經拒絕授權位置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInsufficientFeatures World Tracking description </Description>
+      <Position>Make sure that tracking has initialized and continue to scan the environment.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that tracking has initialized and continue to scan the environment.</base>
+        <tran loc="zh-TW">確定已初始化追蹤並繼續掃描環境。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration failure reason </Description>
+      <Position>No change in the new descriptor</Position>
+      <TranslationSet>
+        <base loc="en">No change in the new descriptor</base>
+        <tran loc="zh-TW">新的描述元件未更動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage recovery suggestion </Description>
+      <Position>An unknown error occurred while loading ARReferenceImages for detection. Please file a bug report.</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred while loading ARReferenceImages for detection. Please file a bug report.</base>
+        <tran loc="zh-TW">載入ARReferenceImages進行偵測時發生未知錯誤。請回報錯誤報告。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeMergeFailed description </Description>
+      <Position>Object merge failed.</Position>
+      <TranslationSet>
+        <base loc="en">Object merge failed.</base>
+        <tran loc="zh-TW">無法合併物件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeWriteFailed archive failure reason </Description>
+      <Position>Unable to create archive.</Position>
+      <TranslationSet>
+        <base loc="en">Unable to create archive.</base>
+        <tran loc="zh-TW">無法製作封存。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> An ARErrorCodeSensorFailed failure reason </Description>
+      <Position>AVFoundation failed to deliver the requested metadata object types.</Position>
+      <TranslationSet>
+        <base loc="en">AVFoundation failed to deliver the requested metadata object types.</base>
+        <tran loc="zh-TW">AVFoundation無法傳送要求的後設資料物件類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage reason </Description>
+      <Position>One or more reference images could not be loaded due to an unknown error: %@</Position>
+      <TranslationSet>
+        <base loc="en">One or more reference images could not be loaded due to an unknown error: %@</base>
+        <tran loc="zh-TW">無法載入一或多個參照影像，因為發生未知的錯誤：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeSensorUnavailable failure reason </Description>
+      <Position>A required sensor is not available on this device.</Position>
+      <TranslationSet>
+        <base loc="en">A required sensor is not available on this device.</base>
+        <tran loc="zh-TW">此裝置沒有所需的感測器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration World Tracking description </Description>
+      <Position>Getting the current world map requires that world tracking is configured.</Position>
+      <TranslationSet>
+        <base loc="en">Getting the current world map requires that world tracking is configured.</base>
+        <tran loc="zh-TW">取得最新的世界地圖需要設定世界追蹤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeSensorFailed recovery suggestion </Description>
+      <Position>Make sure that the application has the required privacy settings.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that the application has the required privacy settings.</base>
+        <tran loc="zh-TW">請確定此應用程式的隱私權設定符合要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage recovery suggestion </Description>
+      <Position>Make sure that all reference images are greater than 100 pixels and have a positive physical size in meters.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that all reference images are greater than 100 pixels and have a positive physical size in meters.</base>
+        <tran loc="zh-TW">請確定所有參照影像都大於100像素且以公尺計算的實際大小為正值。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeMergeFailed failure reason </Description>
+      <Position>Not enough matching features were found for the reference objects to be merged.</Position>
+      <TranslationSet>
+        <base loc="en">Not enough matching features were found for the reference objects to be merged.</base>
+        <tran loc="zh-TW">未找到與參照物件相符的特徵，無法合併。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeWorldTrackingFailed failure reason </Description>
+      <Position>World tracking cannot determine the device’s position.</Position>
+      <TranslationSet>
+        <base loc="en">World tracking cannot determine the device’s position.</base>
+        <tran loc="zh-TW">世界追蹤無法確認裝置的位置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unnamed reference image </Description>
+      <Position>&lt;Unnamed&gt;</Position>
+      <TranslationSet>
+        <base loc="en">&lt;Unnamed&gt;</base>
+        <tran loc="zh-TW">&lt;未命名&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> An ARErrorCodeSensorUnavailable failure reason </Description>
+      <Position>Microphone use is restricted on this device.</Position>
+      <TranslationSet>
+        <base loc="en">Microphone use is restricted on this device.</base>
+        <tran loc="zh-TW">此裝置限制使用麥克風。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedConfiguration recovery suggestion </Description>
+      <Position>Use one of the supported format types for -[ARPresentationDescriptor depthPixelFormat].</Position>
+      <TranslationSet>
+        <base loc="en">Use one of the supported format types for -[ARPresentationDescriptor depthPixelFormat].</base>
+        <tran loc="zh-TW">為 -[ARPresentationDescriptor depthPixelFormat] 使用其中支援的一種格式類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Excessive motion instructions </Description>
+      <Position>Move slowly</Position>
+      <TranslationSet>
+        <base loc="en">Move slowly</base>
+        <tran loc="zh-TW">慢慢移動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration description </Description>
+      <Position>Invalid configuration.</Position>
+      <TranslationSet>
+        <base loc="en">Invalid configuration.</base>
+        <tran loc="zh-TW">無效的設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Proximity sensor failure reason </Description>
+      <Position>Proximity sensor is not available on this device.</Position>
+      <TranslationSet>
+        <base loc="en">Proximity sensor is not available on this device.</base>
+        <tran loc="zh-TW">此裝置沒有相鄰感應器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeWorldTrackingFailed description </Description>
+      <Position>World tracking failed.</Position>
+      <TranslationSet>
+        <base loc="en">World tracking failed.</base>
+        <tran loc="zh-TW">世界追蹤失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> An ARErrorCodeWorldTrackingFailed failure reason </Description>
+      <Position>Unable to initialize tracking.</Position>
+      <TranslationSet>
+        <base loc="en">Unable to initialize tracking.</base>
+        <tran loc="zh-TW">無法初始化追蹤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> First time tracking instructions for iPad </Description>
+      <Position>Move iPad to start</Position>
+      <TranslationSet>
+        <base loc="en">Move iPad to start</base>
+        <tran loc="zh-TW">移動iPad來開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration Object Scanning description </Description>
+      <Position>Make sure that an ARObjectScanningConfiguration is being used.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that an ARObjectScanningConfiguration is being used.</base>
+        <tran loc="zh-TW">確定正在使用的是ARObjectScanningConfiguration。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInsufficientFeatures description </Description>
+      <Position>Insufficient features.</Position>
+      <TranslationSet>
+        <base loc="en">Insufficient features.</base>
+        <tran loc="zh-TW">特徵不足。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeFaceTrackingFailed description </Description>
+      <Position>Face tracking failed.</Position>
+      <TranslationSet>
+        <base loc="en">Face tracking failed.</base>
+        <tran loc="zh-TW">無法進行臉部追蹤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@=fileURL </Description>
+      <Position>Replay URL is not valid AVURLAsset: %@</Position>
+      <TranslationSet>
+        <base loc="en">Replay URL is not valid AVURLAsset: %@</base>
+        <tran loc="zh-TW">「重新播放URL」不是有效的AVURLAsset：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInsufficientFeatures Object Scanning description </Description>
+      <Position>Not enough features have been recorded to create a reference object at this position.</Position>
+      <TranslationSet>
+        <base loc="en">Not enough features have been recorded to create a reference object at this position.</base>
+        <tran loc="zh-TW">未記錄足夠的特徵來在此位置製作參照物件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tracking instructions for moving iPod touch </Description>
+      <Position>Continue to move iPod touch</Position>
+      <TranslationSet>
+        <base loc="en">Continue to move iPod touch</base>
+        <tran loc="zh-TW">繼續移動iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidWorldMap failure reason </Description>
+      <Position>The world map data is not in a format supported by this version of ARWorldMap.</Position>
+      <TranslationSet>
+        <base loc="en">The world map data is not in a format supported by this version of ARWorldMap.</base>
+        <tran loc="zh-TW">此版本的ARWorldMap不支援世界地圖的格式。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Location sensor failure reason </Description>
+      <Position>Location use is restricted on this device.</Position>
+      <TranslationSet>
+        <base loc="en">Location use is restricted on this device.</base>
+        <tran loc="zh-TW">此裝置限制使用位置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration World Tracking description </Description>
+      <Position>Make sure that an ARWorldTrackingConfiguration is being used.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that an ARWorldTrackingConfiguration is being used.</base>
+        <tran loc="zh-TW">確定正在使用的是ARWorldTrackingConfiguration。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeWriteFailed description </Description>
+      <Position>File IO failed.</Position>
+      <TranslationSet>
+        <base loc="en">File IO failed.</base>
+        <tran loc="zh-TW">檔案IO失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceObject failure reason </Description>
+      <Position>The reference object data is not in a format supported by this version of ARReferenceObject.</Position>
+      <TranslationSet>
+        <base loc="en">The reference object data is not in a format supported by this version of ARReferenceObject.</base>
+        <tran loc="zh-TW">此版本的ARReferenceObject不支援參照物件資料的格式。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> First time tracking instructions for generic device </Description>
+      <Position>Move device to start</Position>
+      <TranslationSet>
+        <base loc="en">Move device to start</base>
+        <tran loc="zh-TW">移動裝置來開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceObject description </Description>
+      <Position>Invalid reference object.</Position>
+      <TranslationSet>
+        <base loc="en">Invalid reference object.</base>
+        <tran loc="zh-TW">無效的參照物件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage reason </Description>
+      <Position>One or more reference images have insufficient texture: %@</Position>
+      <TranslationSet>
+        <base loc="en">One or more reference images have insufficient texture: %@</base>
+        <tran loc="zh-TW">一或多個參照影像的紋理不足：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeSensorUnavailable description </Description>
+      <Position>Required sensor unavailable.</Position>
+      <TranslationSet>
+        <base loc="en">Required sensor unavailable.</base>
+        <tran loc="zh-TW">無法使用所需的感測器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tracking instructions for moving generic device </Description>
+      <Position>Continue to move device</Position>
+      <TranslationSet>
+        <base loc="en">Continue to move device</base>
+        <tran loc="zh-TW">繼續移動裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeMicrophoneUnauthorized recovery suggestion </Description>
+      <Position>Make sure that the application has the required microphone privacy settings.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that the application has the required microphone privacy settings.</base>
+        <tran loc="zh-TW">請確定此應用程式的麥克風隱私權設定符合要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration recovery suggestion </Description>
+      <Position>Use one of the supported types for -[ARPresentationDisplay presentationMode].</Position>
+      <TranslationSet>
+        <base loc="en">Use one of the supported types for -[ARPresentationDisplay presentationMode].</base>
+        <tran loc="zh-TW">為 -[ARPresentationDisplay presentationMode] 使用其中支援的一種類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> An ARErrorCodeSensorFailed failure reason </Description>
+      <Position>Could not add metadata output to capture session</Position>
+      <TranslationSet>
+        <base loc="en">Could not add metadata output to capture session</base>
+        <tran loc="zh-TW">無法將後設資料輸出加入擷取階段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tracking instructions for moving iPad </Description>
+      <Position>Continue to move iPad</Position>
+      <TranslationSet>
+        <base loc="en">Continue to move iPad</base>
+        <tran loc="zh-TW">繼續移動iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> First time tracking instructions for iPod touch </Description>
+      <Position>Move iPod touch to start</Position>
+      <TranslationSet>
+        <base loc="en">Move iPod touch to start</base>
+        <tran loc="zh-TW">移動iPod touch來開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Relocalization instructions </Description>
+      <Position>Return to the previous area to resume</Position>
+      <TranslationSet>
+        <base loc="en">Return to the previous area to resume</base>
+        <tran loc="zh-TW">返回上一個區域來繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeFaceTrackingFailed failure type </Description>
+      <Position>An unknown error occured</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occured</base>
+        <tran loc="zh-TW">發生未知的錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeTechniqueFailed reason, %d=res </Description>
+      <Position>Reference images could not be loaded due to an unknown error: %d</Position>
+      <TranslationSet>
+        <base loc="en">Reference images could not be loaded due to an unknown error: %d</base>
+        <tran loc="zh-TW">無法載入參照影像，因為發生未知的錯誤：%d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration Object Scanning description </Description>
+      <Position>Creating a reference object requires that object scanning is configured.</Position>
+      <TranslationSet>
+        <base loc="en">Creating a reference object requires that object scanning is configured.</base>
+        <tran loc="zh-TW">製作參照物件需要設定物件掃描。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeSensorFailed failure reason </Description>
+      <Position>A sensor failed to deliver the required input.</Position>
+      <TranslationSet>
+        <base loc="en">A sensor failed to deliver the required input.</base>
+        <tran loc="zh-TW">感測器無法傳送所需的輸入。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeSensorFailed description </Description>
+      <Position>Required sensor failed.</Position>
+      <TranslationSet>
+        <base loc="en">Required sensor failed.</base>
+        <tran loc="zh-TW">所需的感測器失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedConfiguration description </Description>
+      <Position>Unsupported configuration.</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported configuration.</base>
+        <tran loc="zh-TW">不支援的設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tracking instructions for moving iPhone </Description>
+      <Position>Continue to move iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Continue to move iPhone</base>
+        <tran loc="zh-TW">繼續移動iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedSensorData description </Description>
+      <Position>Unsupported sensor data.</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported sensor data.</base>
+        <tran loc="zh-TW">不支援的感測器資料。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidConfiguration recovery suggestion </Description>
+      <Position>No change required.</Position>
+      <TranslationSet>
+        <base loc="en">No change required.</base>
+        <tran loc="zh-TW">不需要更動。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedConfiguration failure reason </Description>
+      <Position>Unsupported format type for -[ARPresentationDescriptor depthPixelFormat].</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported format type for -[ARPresentationDescriptor depthPixelFormat].</base>
+        <tran loc="zh-TW">不支援 -[ARPresentationDescriptor depthPixelFormat] 的格式類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeCameraUnauthorized description </Description>
+      <Position>Camera access not authorized.</Position>
+      <TranslationSet>
+        <base loc="en">Camera access not authorized.</base>
+        <tran loc="zh-TW">尚未被授權取用相機。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeCameraUnauthorized failure reason </Description>
+      <Position>The app does not have permission to use the camera.</Position>
+      <TranslationSet>
+        <base loc="en">The app does not have permission to use the camera.</base>
+        <tran loc="zh-TW">此App沒有使用相機的權限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@=fileURL </Description>
+      <Position>Replay URL is not readable: %@</Position>
+      <TranslationSet>
+        <base loc="en">Replay URL is not readable: %@</base>
+        <tran loc="zh-TW">無法讀取「重新播放URL」：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage description </Description>
+      <Position>Invalid reference image.</Position>
+      <TranslationSet>
+        <base loc="en">Invalid reference image.</base>
+        <tran loc="zh-TW">無效的參照影像。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeMicrophoneUnauthorized failure reason </Description>
+      <Position>The app does not have permission to use the microphone.</Position>
+      <TranslationSet>
+        <base loc="en">The app does not have permission to use the microphone.</base>
+        <tran loc="zh-TW">此App沒有使用麥克風的權限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> First time tracking instructions for iPhone </Description>
+      <Position>Move iPhone to start</Position>
+      <TranslationSet>
+        <base loc="en">Move iPhone to start</base>
+        <tran loc="zh-TW">移動iPhone來開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button text to reset relocalization </Description>
+      <Position>Start Over</Position>
+      <TranslationSet>
+        <base loc="en">Start Over</base>
+        <tran loc="zh-TW">重新開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeCameraUnauthorized recovery suggestion </Description>
+      <Position>Make sure that the application has the required camera privacy settings.</Position>
+      <TranslationSet>
+        <base loc="en">Make sure that the application has the required camera privacy settings.</base>
+        <tran loc="zh-TW">請確定此應用程式的相機隱私權設定符合要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedConfiguration recovery suggestion </Description>
+      <Position>Use one of the supported format types for -[ARPresentationDescriptor colorPixelFormat].</Position>
+      <TranslationSet>
+        <base loc="en">Use one of the supported format types for -[ARPresentationDescriptor colorPixelFormat].</base>
+        <tran loc="zh-TW">為 -[ARPresentationDescriptor colorPixelFormat] 使用其中支援的一種格式類型。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeUnsupportedConfiguration failure reason </Description>
+      <Position>The provided configuration is not supported on this device.</Position>
+      <TranslationSet>
+        <base loc="en">The provided configuration is not supported on this device.</base>
+        <tran loc="zh-TW">此裝置不支援提供的設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@=fileURL </Description>
+      <Position>Replay URL is missing or not a fileURL: %@</Position>
+      <TranslationSet>
+        <base loc="en">Replay URL is missing or not a fileURL: %@</base>
+        <tran loc="zh-TW">遺失「重新播放URL」或不是fileURL：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeCollaborationDataUnavailable description </Description>
+      <Position>Collaboration data unavailable.</Position>
+      <TranslationSet>
+        <base loc="en">Collaboration data unavailable.</base>
+        <tran loc="zh-TW">無法使用合作資料。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidWorldMap description </Description>
+      <Position>Invalid world map.</Position>
+      <TranslationSet>
+        <base loc="en">Invalid world map.</base>
+        <tran loc="zh-TW">無效的世界地圖。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> An ARErrorCodeSensorUnavailable failure reason </Description>
+      <Position>Camera use is restricted on this device.</Position>
+      <TranslationSet>
+        <base loc="en">Camera use is restricted on this device.</base>
+        <tran loc="zh-TW">此裝置限制使用相機。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInsufficientFeatures World Tracking description </Description>
+      <Position>Not enough features have been recorded to create a world map yet.</Position>
+      <TranslationSet>
+        <base loc="en">Not enough features have been recorded to create a world map yet.</base>
+        <tran loc="zh-TW">未記錄足夠的特徵來製作世界地圖。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeImageDetectionQualityEstimationFailed description </Description>
+      <Position>Image detection quality estimation could not be performed</Position>
+      <TranslationSet>
+        <base loc="en">Image detection quality estimation could not be performed</base>
+        <tran loc="zh-TW">無法執行影像偵測品質估計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARErrorCodeInvalidReferenceImage reason </Description>
+      <Position>One or more reference images have an invalid size: %@</Position>
+      <TranslationSet>
+        <base loc="en">One or more reference images have an invalid size: %@</base>
+        <tran loc="zh-TW">一或多個參照影像的大小無效：%@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

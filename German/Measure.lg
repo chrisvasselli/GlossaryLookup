@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>Measure</ProjName>
+  <File>
+    <Filepath>Measure/private/var/staged_system_apps/Measure.app/en.lproj/LocalizableException.strings</Filepath>
+    <TextItem>
+      <Description> Square meters short </Description>
+      <Position>%@ m²</Position>
+      <TranslationSet>
+        <base loc="en">%@ m²</base>
+        <tran loc="de">%@ m²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Meters </Description>
+      <Position>%@ m</Position>
+      <TranslationSet>
+        <base loc="en">%@ m</base>
+        <tran loc="de">%@ m</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  LocalizableException.strings
+  Measure
+
+  Copyright © 2018 Apple. All rights reserved.
+
+ Feet and Inches </Description>
+      <Position>%1$@′ %2$@″</Position>
+      <TranslationSet>
+        <base loc="en">%1$@′ %2$@″</base>
+        <tran loc="de">%1$@′ %2$@″</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Feet </Description>
+      <Position>%1$@′</Position>
+      <TranslationSet>
+        <base loc="en">%1$@′</base>
+        <tran loc="de">%1$@′</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Measure/private/var/staged_system_apps/Measure.app/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  Measure
+
+  Copyright © 2018 Apple. All rights reserved.
+</Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHORTCUT_MEASURE</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALTERNATE_NAME_LEVEL</Position>
+      <TranslationSet>
+        <base loc="en">Level</base>
+        <tran loc="de">Wasserwaage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHORTCUT_LEVEL</Position>
+      <TranslationSet>
+        <base loc="en">Level</base>
+        <tran loc="de">Wasserwaage</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Measure/private/var/staged_system_apps/Measure.app/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square inches:dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d square inches</base>
+        <tran loc="de">%d Quadratzoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches (precise):dict/inches:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%.2f inches</base>
+        <tran loc="de">%,2f Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ inches (precise):dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%.2f inches</base>
+        <tran loc="de">%,2f Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ centimeters:dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d centimeters</base>
+        <tran loc="de">%d Zentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches (precise):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@feet@ %#@inches@</base>
+        <tran loc="de">%#@feet@ %#@inches@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@feet@ %#@inches@</base>
+        <tran loc="de">%#@feet@ %#@inches@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square feet (precise):dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">one square foot</base>
+        <tran loc="de">ein Quadratfuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ centimeters (precise):dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">one centimeter</base>
+        <tran loc="de">ein Zentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches (precise):dict/inches:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">one inch</base>
+        <tran loc="de">ein Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ inches (precise):dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">one inch</base>
+        <tran loc="de">ein Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ meters (precise):dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">one meter</base>
+        <tran loc="de">ein Meter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square centimeters:dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d square centimeter</base>
+        <tran loc="de">%d Quadratzentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches (precise):dict/feet:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d feet</base>
+        <tran loc="de">%d Fuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches:dict/feet:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d feet</base>
+        <tran loc="de">%d Fuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet:dict/feet:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d feet</base>
+        <tran loc="de">%d Fuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square meters (precise):dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">one square meter</base>
+        <tran loc="de">ein Quadratmeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches (precise):dict/feet:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d foot</base>
+        <tran loc="de">%d Fuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches:dict/feet:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d foot</base>
+        <tran loc="de">%d Fuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet:dict/feet:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d foot</base>
+        <tran loc="de">%d Fuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches:dict/inches:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d inch</base>
+        <tran loc="de">%d Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ inches:dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d inch</base>
+        <tran loc="de">%d Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@feet@</base>
+        <tran loc="de">%#@feet@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square inches:dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d square inch</base>
+        <tran loc="de">%d Quadratzoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ and a half inches:dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d and a half inches</base>
+        <tran loc="de">%d-einhalb Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ and a half inches:dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d and a half inches</base>
+        <tran loc="de">%d-einhalb Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square centimeters:dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d square centimeters</base>
+        <tran loc="de">%d Quadratzentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ centimeters (precise):dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%.2f centimeters</base>
+        <tran loc="de">%,2f Zentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ feet %@ inches:dict/inches:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d inches</base>
+        <tran loc="de">%d Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ inches:dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d inches</base>
+        <tran loc="de">%d Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square feet (precise):dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%.2f square feet</base>
+        <tran loc="de">%,2f Quadratfuß</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ and a half inches:dict/length:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">half an inch</base>
+        <tran loc="de">ein halber Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ centimeters:dict/length:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d centimeter</base>
+        <tran loc="de">%d Zentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square meters (precise):dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%.2f square meters</base>
+        <tran loc="de">%,2f Quadratmeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ and a half inches:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ centimeters (precise):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ centimeters:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ inches (precise):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ inches:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ meters (precise):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square centimeters:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square feet (precise):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square inches:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ square meters (precise):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@length@</base>
+        <tran loc="de">%#@length@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%@ meters (precise):dict/length:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%.2f meters</base>
+        <tran loc="de">%,2f Meter</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Measure/private/var/staged_system_apps/Measure.app/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Less than 1 cm </Description>
+      <Position>&lt; 1 cm</Position>
+      <TranslationSet>
+        <base loc="en">&lt; 1 cm</base>
+        <tran loc="de">&lt; 1 cm</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EDIT_BUTTON_ACCESSIBILITY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Add a Point</base>
+        <tran loc="de">Punkt hinzufügen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Centimeters </Description>
+      <Position>%@ cm</Position>
+      <TranslationSet>
+        <base loc="en">%@ cm</base>
+        <tran loc="de">%@ cm</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Measure
+
+  Copyright © 2018 Apple. All rights reserved.
+</Description>
+      <Position>COMPASS_DEGREES</Position>
+      <TranslationSet>
+        <base loc="en">%li\U00b0</base>
+        <tran loc="de">%li\U00b0</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Speakable measurement for the diagonal length of a rectangle, e.g. "Diagonal length: 23 inches" </Description>
+      <Position>Diagonal length: %@</Position>
+      <TranslationSet>
+        <base loc="en">Diagonal length: %@</base>
+        <tran loc="de">Diagonale Länge: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="de">Fertig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_SURFACE</Position>
+      <TranslationSet>
+        <base loc="en">Find a nearby surface to measure</base>
+        <tran loc="de">Eine Oberfläche in der Nähe zum Messen finden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Half Inches </Description>
+      <Position>%@½”</Position>
+      <TranslationSet>
+        <base loc="en">%@½″</base>
+        <tran loc="de">%@½″</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REFINED_MEASUREMENT</Position>
+      <TranslationSet>
+        <base loc="en">Refined estimate</base>
+        <tran loc="de">Verfeinerte Schätzung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_CLOSE</Position>
+      <TranslationSet>
+        <base loc="en">Move farther away</base>
+        <tran loc="de">Abstand vergrößern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square centimeters long </Description>
+      <Position>%@ sq cm</Position>
+      <TranslationSet>
+        <base loc="en">%@ sq cm</base>
+        <tran loc="de">%@ cm²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AREA_DETAILS_PLATTER_APPROXIMATELY</Position>
+      <TranslationSet>
+        <base loc="en">Rectangle (Approximate)</base>
+        <tran loc="de">Rechteck (ungefähr)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLEAR_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Clear</base>
+        <tran loc="de">Löschen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGONAL</Position>
+      <TranslationSet>
+        <base loc="en">Diagonal</base>
+        <tran loc="de">Diagonal</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEASUREMENT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Measurement</base>
+        <tran loc="de">Messung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Less than half an inch (speakable version) </Description>
+      <Position>Less than half an inch</Position>
+      <TranslationSet>
+        <base loc="en">Less than half an inch</base>
+        <tran loc="de">Weniger als ein Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Half an inch (speakable version) </Description>
+      <Position>Half an inch</Position>
+      <TranslationSet>
+        <base loc="en">Half an inch</base>
+        <tran loc="de">Ein halber Zoll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Less than half inch </Description>
+      <Position>&lt; ½”</Position>
+      <TranslationSet>
+        <base loc="en">&lt; ½″</base>
+        <tran loc="de">&lt; ½″</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square centimeters short </Description>
+      <Position>%@ cm²</Position>
+      <TranslationSet>
+        <base loc="en">%@ cm²</base>
+        <tran loc="de">%@ cm²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_DARK</Position>
+      <TranslationSet>
+        <base loc="en">More light required</base>
+        <tran loc="de">Mehr Licht erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOVE_CLOSER</Position>
+      <TranslationSet>
+        <base loc="en">Move closer</base>
+        <tran loc="de">Abstand verringern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square feet short </Description>
+      <Position>%@’²</Position>
+      <TranslationSet>
+        <base loc="en">%@′²</base>
+        <tran loc="de">%@′²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square inches long </Description>
+      <Position>%@ sq in</Position>
+      <TranslationSet>
+        <base loc="en">%@ sq in</base>
+        <tran loc="de">%@ in²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNDO_BUTTON_ACCESSIBILITY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="de">Widerrufen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINE_DETAILS_PLATTER_APPROXIMATELY</Position>
+      <TranslationSet>
+        <base loc="en">Length (Approximate)</base>
+        <tran loc="de">Länge (ungefähr)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Speakable measurements for a rectangle, e.g. "23 inches by 24 inches" </Description>
+      <Position>%@ by %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ by %@</base>
+        <tran loc="de">%@ mal %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Inches </Description>
+      <Position>%@”</Position>
+      <TranslationSet>
+        <base loc="en">%@″</base>
+        <tran loc="de">%@″</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square feet long </Description>
+      <Position>%@ sq ft</Position>
+      <TranslationSet>
+        <base loc="en">%@ sq ft</base>
+        <tran loc="de">%@ ft²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square inches short </Description>
+      <Position>%@”²</Position>
+      <TranslationSet>
+        <base loc="en">%@″²</base>
+        <tran loc="de">%@″²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COPY_MEASUREMENT</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="de">Kopieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_RECTANGLE</Position>
+      <TranslationSet>
+        <base loc="en">Add a rectangle</base>
+        <tran loc="de">Rechteck hinzufügen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEASURE</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_POINT</Position>
+      <TranslationSet>
+        <base loc="en">Add a point</base>
+        <tran loc="de">Punkt hinzufügen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Square meters long </Description>
+      <Position>%@ sq m</Position>
+      <TranslationSet>
+        <base loc="en">%@ sq m</base>
+        <tran loc="de">%@ m²</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SLOW_DOWN</Position>
+      <TranslationSet>
+        <base loc="en">Slow down</base>
+        <tran loc="de">Verlangsamen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Less than 1 cm (speakable version) </Description>
+      <Position>Less than one centimeter</Position>
+      <TranslationSet>
+        <base loc="en">Less than one centimeter</base>
+        <tran loc="de">Weniger als ein Zentimeter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LEVEL</Position>
+      <TranslationSet>
+        <base loc="en">Level</base>
+        <tran loc="de">Wasserwaage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CAPTURE_BUTTON_ACCESSIBILITY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Capture</base>
+        <tran loc="de">Erfassen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Measure/System/Library/PreferenceBundles/MeasureSettings.bundle/en.lproj/MeasureSettings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MEASURE_UNITS_IMPERIAL</Position>
+      <TranslationSet>
+        <base loc="en">Imperial</base>
+        <tran loc="de">Britisch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEASURE_UNITS_METRIC</Position>
+      <TranslationSet>
+        <base loc="en">Metric</base>
+        <tran loc="de">Metrisch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  MeasureSettings.strings
+  Measure
+  Copyright © 2018 Apple. All rights reserved.
+ The title of the settings view </Description>
+      <Position>MEASURE</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEASURE_UNITS</Position>
+      <TranslationSet>
+        <base loc="en">Measure Units</base>
+        <tran loc="de">Maßeinheiten</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Measure/System/Library/AppPlaceholders/Measure.app/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  Measure
+
+  Copyright © 2018 Apple. All rights reserved.
+</Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHORTCUT_MEASURE</Position>
+      <TranslationSet>
+        <base loc="en">Measure</base>
+        <tran loc="de">Maßband</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALTERNATE_NAME_LEVEL</Position>
+      <TranslationSet>
+        <base loc="en">Level</base>
+        <tran loc="de">Wasserwaage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHORTCUT_LEVEL</Position>
+      <TranslationSet>
+        <base loc="en">Level</base>
+        <tran loc="de">Wasserwaage</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

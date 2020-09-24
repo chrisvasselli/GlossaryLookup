@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>MobileStore</ProjName>
+  <File>
+    <Filepath>MobileStore/System/Library/AppPlaceholders/MobileStore.app/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKeywords</Position>
+      <TranslationSet>
+        <base loc="en">movie, movies, tv shows, tv seasons, tv episodes, itunes, store, watch, play, buy songs, buy albums, music, songs, albums, artists</base>
+        <tran loc="es">película, películas, peli, pelis, serie, series, temporada, temporadas, episodio, episodios, itunes, store, watch, reproducir, comprar canciones, comprar álbumes, música, canción, canciones, álbum, álbumes, artista, artistas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Store</base>
+        <tran loc="es">iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/private/var/staged_system_apps/MobileStore.app/English.lproj/TabBar.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="es">Música</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHARTS</Position>
+      <TranslationSet>
+        <base loc="en">Top Charts</base>
+        <tran loc="es">Éxitos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  TabBar.strings
+  MobileStore
+
+  Created by Sean Kelly on 1/8/14.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>AUDIOBOOKS</Position>
+      <TranslationSet>
+        <base loc="en">Audiobooks</base>
+        <tran loc="es">Audiolibros</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS</Position>
+      <TranslationSet>
+        <base loc="en">Genius</base>
+        <tran loc="es">Genius</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PURCHASED</Position>
+      <TranslationSet>
+        <base loc="en">Purchased</base>
+        <tran loc="es">Comprado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TV_SHOWS</Position>
+      <TranslationSet>
+        <base loc="en">TV Shows</base>
+        <tran loc="es">Programas de TV</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOVIES</Position>
+      <TranslationSet>
+        <base loc="en">Movies</base>
+        <tran loc="es">Películas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PODCASTS</Position>
+      <TranslationSet>
+        <base loc="en">Podcasts</base>
+        <tran loc="es">Podcasts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOWNLOADS</Position>
+      <TranslationSet>
+        <base loc="en">Downloads</base>
+        <tran loc="es">Descargas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_U</Position>
+      <TranslationSet>
+        <base loc="en">iTunes U</base>
+        <tran loc="es">iTunes U</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TONES</Position>
+      <TranslationSet>
+        <base loc="en">Tones</base>
+        <tran loc="es">Tonos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SEARCH</Position>
+      <TranslationSet>
+        <base loc="en">Search</base>
+        <tran loc="es">Buscar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/System/Library/PrivateFrameworks/MusicStoreUI.framework/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUB_NO_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a cellular data\nnetwork to access the iTunes Store.</base>
+        <tran loc="es">Debes conectarte a una red de datos móviles\npara acceder a iTunes Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="es">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Welcome to the iTunes Store</base>
+        <tran loc="es">Bienvenido a iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUB</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a Wi-Fi network\nto access the iTunes Store.</base>
+        <tran loc="es">Debes conectarte a una red Wi-Fi\npara acceder a iTunes Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUB_CELLULAR_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a WLAN or cellular data\nnetwork to access the iTunes Store.</base>
+        <tran loc="es">Debes conectarte a una red de datos móviles\no WLAN para acceder a iTunes Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_MAIN</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Connect\nto the iTunes Store</base>
+        <tran loc="es">No es posible conectarse\na iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_ASSIGN_TO_CONTACT</Position>
+      <TranslationSet>
+        <base loc="en">Assign to a Contact</base>
+        <tran loc="es">Asignar a un contacto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_DESCRIPTION_MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Buy your favorite songs and albums from the world’s largest music store.</base>
+        <tran loc="es">Compra tus canciones y álbumes favoritos en la mayor tienda de música del mundo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_FEATURE_DESCRIPTION_MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Buy your favorite songs and albums from the world’s largest music store.</base>
+        <tran loc="es">Compra tus canciones y álbumes favoritos en la mayor tienda de música del mundo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="es">Continuar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUB_CELLULAR</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a Wi-Fi or cellular data\nnetwork to access the iTunes Store.</base>
+        <tran loc="es">Debes conectarte a una red de datos móviles o Wi-Fi\npara acceder a iTunes Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_SET_AS_RINGTONE</Position>
+      <TranslationSet>
+        <base loc="en">Set as Ringtone</base>
+        <tran loc="es">Seleccionar como tono de llamada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RELEASE_DATE</Position>
+      <TranslationSet>
+        <base loc="en">Released %@</base>
+        <tran loc="es">Fecha de aparición: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_FEATURE_TITLE_MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Get the Music You Want</base>
+        <tran loc="es">Escucha la música que quieras</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_SET_AS_DEFAULT_RINGTONE</Position>
+      <TranslationSet>
+        <base loc="en">Set as Default Ringtone</base>
+        <tran loc="es">Tono por omisión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_SET_AS_DEFAULT_TEXT_TONE</Position>
+      <TranslationSet>
+        <base loc="en">Set as Default Text Tone</base>
+        <tran loc="es">Tono de mensaje por omisión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRODUCT_PAGE_EXPECTED_RELEASE_DATE</Position>
+      <TranslationSet>
+        <base loc="en">Expected Release Date %@</base>
+        <tran loc="es">Fecha de estreno prevista: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_FEATURE_TITLE_MOVIES</Position>
+      <TranslationSet>
+        <base loc="en">Watch the Latest Movies</base>
+        <tran loc="es">Disfruta de las películas más recientes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_MAIN_K48</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Connect to the iTunes Store</base>
+        <tran loc="es">Imposible conectarse a iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUB_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">You must connect to a WLAN network\nto access the iTunes Store.</base>
+        <tran loc="es">Debes conectarte a una red WLAN\npara acceder a iTunes Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_FEATURE_TITLE_TV</Position>
+      <TranslationSet>
+        <base loc="en">Enjoy Ad-Free TV Shows</base>
+        <tran loc="es">Disfruta de los programas de TV sin publicidad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Store</base>
+        <tran loc="es">iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_FEATURE_DESCRIPTION_TV</Position>
+      <TranslationSet>
+        <base loc="en">Buy individual episodes or entire seasons—in HD and commercial-free.</base>
+        <tran loc="es">Compra episodios individuales o temporadas completas, con calidad HD y sin publicidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_DESCRIPTION_MUSIC_AND_MOVIES</Position>
+      <TranslationSet>
+        <base loc="en">Buy your favorite songs from the world’s largest music store. And watch the latest movies in up to 4K HDR.</base>
+        <tran loc="es">Compra tus canciones favoritas en la tienda de música más grande del mundo. Además, disfruta de los últimos estrenos hasta en 4K HDR.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">New Tone</base>
+        <tran loc="es">Nuevo tono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ONBOARDING_FEATURE_DESCRIPTION_MOVIES</Position>
+      <TranslationSet>
+        <base loc="en">Buy or rent movies from major Hollywood studios in up to 4K HDR.</base>
+        <tran loc="es">Compra o alquila películas de los grandes estudios de Hollywood con calidad de hasta 4K HDR.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_BODY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@”</base>
+        <tran loc="es">“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUY_TONE_SET_AS_TEXT_TONE</Position>
+      <TranslationSet>
+        <base loc="en">Set as Text Tone</base>
+        <tran loc="es">Seleccionar como tono de mensaje</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/System/Library/PrivateFrameworks/AppStoreUI.framework/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>TOO_BIG_FOR_NETWORK_BODY_FOR_APPS</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a Wi-Fi network or use iTunes on your computer to download these applications.</base>
+        <tran loc="es">Para descargar estas apps, conéctate a una red Wi-Fi o utiliza iTunes en el ordenador.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_BIG_FOR_NETWORK_TITLE_FOR_APPS</Position>
+      <TranslationSet>
+        <base loc="en">%d Applications are Over %@</base>
+        <tran loc="es">%d apps ocupan más de %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_ENOUGH_SPACE_FOR_SOME_APPS</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough space to download some of these applications.  Please delete some photos or videos.</base>
+        <tran loc="es">No hay espacio suficiente para descargar algunas de estas apps. Elimina algunas fotos o vídeos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPATIBLE_UPDATE_ERROR_TITLE_SOME</Position>
+      <TranslationSet>
+        <base loc="en">Some Updates Not Available</base>
+        <tran loc="es">Algunas actualizaciones no están disponibles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_BIG_FOR_NETWORK_BODY_FOR_APPS_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a WLAN network or use iTunes on your computer to download these applications.</base>
+        <tran loc="es">Para descargar estas apps, conéctate a una red WLAN o utiliza iTunes en el ordenador.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPATIBLE_UPDATE_ERROR_TITLE_ALL</Position>
+      <TranslationSet>
+        <base loc="en">Updates Not Available</base>
+        <tran loc="es">Actualizaciones no disponibles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPATIBLE_DEVICE_ERROR_BODY_SOME</Position>
+      <TranslationSet>
+        <base loc="en">Some of these applications require an %@ update.</base>
+        <tran loc="es">Algunas de estas apps requieren la actualización de %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INCOMPATIBLE_DEVICE_ERROR_BODY_ALL</Position>
+      <TranslationSet>
+        <base loc="en">These applications require an %@ update.</base>
+        <tran loc="es">Estas apps requieren la actualización de %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOO_BIG_FOR_NETWORK_BODY_FOR_APPS_NO_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">Use iTunes on your computer to download these applications.</base>
+        <tran loc="es">Para descargar estas apps, debes utilizar iTunes en el ordenador.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_ENOUGH_SPACE_FOR_ALL_APPS</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough space to download these applications.  Please delete some photos or videos.</base>
+        <tran loc="es">No hay espacio suficiente para descargar estas apps. Elimina algunas fotos o vídeos.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/private/var/staged_system_apps/MobileStore.app/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKeywords</Position>
+      <TranslationSet>
+        <base loc="en">movie, movies, tv shows, tv seasons, tv episodes, itunes, store, watch, play, buy songs, buy albums, music, songs, albums, artists</base>
+        <tran loc="es">película, películas, peli, pelis, serie, series, temporada, temporadas, episodio, episodios, itunes, store, watch, reproducir, comprar canciones, comprar álbumes, música, canción, canciones, álbum, álbumes, artista, artistas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Store</base>
+        <tran loc="es">iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/private/var/staged_system_apps/MobileStore.app/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>QUICK_ACTION_VIEW_DOWNLOADS</Position>
+      <TranslationSet>
+        <base loc="en">View Downloads</base>
+        <tran loc="es">Ver descargas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUPPORTED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Connect\nto the iTunes Store</base>
+        <tran loc="es">No es posible conectarse\na iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUPPORTED_MAIN</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Connect\nto the iTunes Store</base>
+        <tran loc="es">No es posible conectarse\na iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUICK_ACTION_PURCHASED</Position>
+      <TranslationSet>
+        <base loc="en">Purchased</base>
+        <tran loc="es">Comprado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Connect to iTunes Store</base>
+        <tran loc="es">Imposible conectarse a iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUICK_ACTION_SEARCH</Position>
+      <TranslationSet>
+        <base loc="en">Search</base>
+        <tran loc="es">Buscar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUICK_ACTION_REDEEM</Position>
+      <TranslationSet>
+        <base loc="en">Redeem</base>
+        <tran loc="es">Canjear</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUPPORTED_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The iTunes Store is not supported\nin this country.</base>
+        <tran loc="es">iTunes Store no está disponible\nen este país.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_STORE_SUPPORTED_SUB</Position>
+      <TranslationSet>
+        <base loc="en">The iTunes Store is not supported\nin this country.</base>
+        <tran loc="es">iTunes Store no está disponible\nen este país.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/System/Library/PreferenceBundles/MobileStoreSettings.bundle/English.lproj/StoreSettings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_RENEW</Position>
+      <TranslationSet>
+        <base loc="en">Renew iTunes Match</base>
+        <tran loc="es">Renovar iTunes Match</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_LEARN_MORE_LINK</Position>
+      <TranslationSet>
+        <base loc="en">http://www.apple.com/itunes/itunes-match</base>
+        <tran loc="es">http://www.apple.com/es/itunes/itunes-match</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOAD_UPDATES</Position>
+      <TranslationSet>
+        <base loc="en">App Updates</base>
+        <tran loc="es">Actualizaciones de apps</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_UPDATE_APPS</Position>
+      <TranslationSet>
+        <base loc="en">App Updates</base>
+        <tran loc="es">Actualizaciones de apps</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPLEID_INFO_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">An Apple ID is the login you use for just about everything you do with Apple.</base>
+        <tran loc="es">El ID de Apple es tu identificación de acceso para prácticamente todos los servicios de Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_SETTINGS_MOTION_AUTOPLAY_VIDEO_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Your accessibility settings for Motion have turned off this feature. You can turn it on again if you want.</base>
+        <tran loc="es">Los ajustes de accesibilidad de Movimiento han desactivado esta función. Puedes volver a activarla si quieres.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_EXISTING_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Use Existing Apple ID</base>
+        <tran loc="es">Usar ID de Apple existente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_SETTINGS_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Require a password for additional purchases after making a purchase with %@ from the iTunes Store, App Store, or Book Store with this device?</base>
+        <tran loc="es">¿Solicitar una contraseña para realizar más compras tras comprar con %@ en iTunes Store, App Store o la tienda de libros con ese dispositivo?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PURCHASES_AND_IN_APP_PURCHASES</Position>
+      <TranslationSet>
+        <base loc="en">PURCHASES AND IN-APP PURCHASES</base>
+        <tran loc="es">COMPRAS Y COMPRAS DENTRO DE LA APP</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID</base>
+        <tran loc="es">ID de Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_MODE_DESCRIPTION_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">Autoplay will temporarily turn off if you have low battery or a slow Internet connection.</base>
+        <tran loc="es">La reproducción automática se desactivará temporalmente si te queda poca batería o la conexión a internet es lenta.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_MODE_DESCRIPTION_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Autoplay will temporarily turn off if you have low battery or a slow Internet connection.</base>
+        <tran loc="es">La reproducción automática se desactivará temporalmente si te queda poca batería o la conexión a internet es lenta.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOADS_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">Automatically download new purchases (including free) made on other devices.</base>
+        <tran loc="es">Descarga automáticamente las nuevas compras (incluidas las gratuitas) realizadas desde otros dispositivos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRE_AFTER_15_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">Require After 15 Minutes</base>
+        <tran loc="es">Solicitar tras 15 min</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_OUT</Position>
+      <TranslationSet>
+        <base loc="en">Sign Out</base>
+        <tran loc="es">Cerrar sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_ALL_FOOTER_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Show all store purchases and iTunes Match uploads in your music and video libraries, even if they have not been downloaded to this iPod.</base>
+        <tran loc="es">Mostrar todas las compras de la tienda y las cargas de iTunes Match de las bibliotecas de música y vídeos, aunque no se hayan descargado en este iPod.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FREE_DOWNLOADS_REQUIRE_PASSWORD_OFF_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">You will not be asked for your password when downloading a free item.</base>
+        <tran loc="es">No se te solicitará la contraseña en las descargas de ítems gratuitos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORE_SETTINGS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iTunes &amp; App Stores</base>
+        <tran loc="es">iTunes Store y App Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOADS_LPM</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Downloads are not available while in Low Power Mode.</base>
+        <tran loc="es">Las descargas automáticas no están disponibles en el modo de bajo consumo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OFFLOAD_UNUSED_APPS_ON_CELL</Position>
+      <TranslationSet>
+        <base loc="en">Offload Unused Apps</base>
+        <tran loc="es">Desinstalar apps no utilizadas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SYNC_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Enable</base>
+        <tran loc="es">Activar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_SETTINGS_IN_RESTRICTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Manage your Password Settings in Restrictions in the General section of Settings.</base>
+        <tran loc="es">Gestiona los ajustes de tu contraseña en Ajustes &gt; General &gt; Restricciones.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="es">Iniciar sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="es">Iniciar sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGOT_PASSWORD_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">iForgot</base>
+        <tran loc="es">iForgot</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTOMATIC_DOWNLOADS_ON_CELL</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Downloads</base>
+        <tran loc="es">Descargas automáticas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOADS_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Downloads</base>
+        <tran loc="es">Descargas automáticas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOAD_ON_CELL</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Downloads</base>
+        <tran loc="es">Descargas automáticas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Store all your music in iCloud with iTunes Match.</base>
+        <tran loc="es">Guarda toda tu música en iCloud con iTunes Match.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOAD_MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="es">Música</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_ALL_MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="es">Música</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OFFLOAD_UNUSED_APPS_ON_CELL_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">Automatically remove unused apps, but keep all documents and data. Reinstalling the app will place back your data, if the app is still available in the App Store.</base>
+        <tran loc="es">Elimina automáticamente las apps que no uses, pero conserva todos los documentos y datos. Si reinstalas una app sus datos se restablecerán, siempre que siga disponible en App Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IN_APP_REVIEW_ON_CELL_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">Help developers and other users know what you think by letting apps ask for product feedback.</base>
+        <tran loc="es">Comparte tu opinión con los desarrolladores y otros usuarios permitiendo que las apps te pidan valoraciones.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FREE_DOWNLOADS_REQUIRE_PASSWORD_ON_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Your free downloads will use the same password restrictions as your purchases and In-App Purchases.</base>
+        <tran loc="es">Las descargas gratuitas tendrán las mismas restricciones de contraseña que las compras y las compras dentro de la app.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="es">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRE_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Require Password</base>
+        <tran loc="es">Solicitar contraseña</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_FIRST</Position>
+      <TranslationSet>
+        <base loc="en">Always Ask</base>
+        <tran loc="es">Preguntar siempre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_ALL_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="es">Mostrar todo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALWAYS_ALLOW_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">Allow all apps to download automatically using cellular data. When roaming, permission to download is always required.</base>
+        <tran loc="es">Permite que todas las apps se descarguen automáticamente usando los datos móviles. Cuando utilices la itinerancia de datos, siempre se te pedirá permiso para descargarlas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These are only used in storefront supports iTunes Match, but not on-device subscription </Description>
+      <Position>ITUNES_MATCH_EXPIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Match Has Expired</base>
+        <tran loc="es">iTunes Match ha caducado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOAD_APPS</Position>
+      <TranslationSet>
+        <base loc="en">Apps</base>
+        <tran loc="es">Apps</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_NEW_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Create New Apple ID</base>
+        <tran loc="es">Crear nuevo ID de Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IN_APP_REVIEW_ON_CELL</Position>
+      <TranslationSet>
+        <base loc="en">In-App Ratings &amp; Reviews</base>
+        <tran loc="es">Valoraciones dentro de la app</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALWAYS_REQUIRE</Position>
+      <TranslationSet>
+        <base loc="en">Always Require</base>
+        <tran loc="es">Solicitar siempre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISMISS</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="es">Cerrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SYNC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Match will replace the music library on this device.</base>
+        <tran loc="es">iTunes Match sustituirá la biblioteca musical de este dispositivo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FREE_DOWNLOADS</Position>
+      <TranslationSet>
+        <base loc="en">FREE DOWNLOADS</base>
+        <tran loc="es">DESCARGAS GRATUITAS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORGOT_PASSWORD_LINK</Position>
+      <TranslationSet>
+        <base loc="en">Forgot Apple ID or Password?</base>
+        <tran loc="es">¿Has olvidado tu ID de Apple o la contraseña?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOAD_BOOKS</Position>
+      <TranslationSet>
+        <base loc="en">Books &amp; Audiobooks</base>
+        <tran loc="es">Libros y audiolibros</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_DOWNLOAD_BOOKS_AUDIOBOOKS</Position>
+      <TranslationSet>
+        <base loc="en">Books &amp; Audiobooks</base>
+        <tran loc="es">Libros y audiolibros</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_RENEW_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">Your iTunes Match subscription has expired.</base>
+        <tran loc="es">Tu suscripción a iTunes Match ha caducado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_SUBSCRIBE</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe to iTunes Match</base>
+        <tran loc="es">Suscribirme a iTunes Match</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CELLULAR_DATA_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Cellular Data</base>
+        <tran loc="es">Datos móviles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_NOT_AVAILABLE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">You are not currently subscribed to iTunes Match. Use iTunes on your computer to subscribe.</base>
+        <tran loc="es">No estás suscrito a iTunes Match. Suscríbete desde la app iTunes del ordenador.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_ALL_VIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">Videos</base>
+        <tran loc="es">Vídeos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VIEW_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">View Apple ID</base>
+        <tran loc="es">Ver ID de Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Match</base>
+        <tran loc="es">iTunes Match</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_NOT_AVAILABLE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Match</base>
+        <tran loc="es">iTunes Match</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_EXPIRED_BODY</Position>
+      <TranslationSet>
+        <base loc="en">You can renew your subscription using iTunes on a computer.</base>
+        <tran loc="es">Puedes renovar tu suscripción desde la app iTunes de un ordenador.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_FIRST_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">Always ask for permission to download apps using cellular data.</base>
+        <tran loc="es">Siempre se pedirá permiso para descargar las apps usando los datos móviles.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_MODE_WIFI_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi Only</base>
+        <tran loc="es">Solo Wi-Fi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Password Settings</base>
+        <tran loc="es">Ajustes de contraseña</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOUCH_ID_IS_ENABLED_FOR_ALL_PURCHASES</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID is enabled for all purchases.</base>
+        <tran loc="es">Touch ID está activado para todas las compras.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNDER_XXX_MB_EXPLANATION_%@</Position>
+      <TranslationSet>
+        <base loc="en">Only allow apps under %@ to download automatically using cellular data.</base>
+        <tran loc="es">Solo permite la descarga automática usando datos móviles de las apps que ocupan menos de %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_SETTINGS_LOW_POWER_MODE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Autoplay is not available when Low Power Mode is on.</base>
+        <tran loc="es">La reproducción automática no está disponible con el modo de bajo consumo activado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_DOWNLOADS_ON_CELL</Position>
+      <TranslationSet>
+        <base loc="en">App Downloads</base>
+        <tran loc="es">Descargas de apps</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_ALL_FOOTER_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Show all store purchases and iTunes Match uploads in your music and video libraries, even if they have not been downloaded to this iPhone.</base>
+        <tran loc="es">Mostrar todas las compras de la tienda y las cargas de iTunes Match de las bibliotecas de música y vídeos, aunque no se hayan descargado en este iPhone.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SANDBOX_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">This account will be only used for testing your in-app purchases while developing locally. Your existing App Store account will be used for TestFlight apps.</base>
+        <tran loc="es">Esta cuenta solo se usará para probar tus compras dentro de la app al desarrollar localmente. Tu cuenta de App Store se utilizará para las apps TestFlight.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACE_ID_IS_ENABLED_FOR_ALL_PURCHASES</Position>
+      <TranslationSet>
+        <base loc="en">Face ID is enabled for all purchases.</base>
+        <tran loc="es">Face ID está activado para todas las compras.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">required</base>
+        <tran loc="es">obligatorio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="es">Contraseña</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_MODE_ON</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="es">Sí</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPLEID_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">example@icloud.com</base>
+        <tran loc="es">ejemplo@icloud.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SANDBOX_ACCOUNT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Sandbox Account</base>
+        <tran loc="es">Cuenta de entorno de pruebas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_SETTINGS_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Automatically play app preview videos in the App Store.</base>
+        <tran loc="es">Reproduce automáticamente vídeos de previsualización de apps en App Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_SETTINGS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Video Autoplay</base>
+        <tran loc="es">Reproducción automática de vídeo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITUNES_MATCH_LEARN_MORE</Position>
+      <TranslationSet>
+        <base loc="en">Learn more…</base>
+        <tran loc="es">Más información…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNDER_XXX_MB_%@</Position>
+      <TranslationSet>
+        <base loc="en">Ask If Over %@</base>
+        <tran loc="es">Preguntar si es más de %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_ALL_FOOTER_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Show all store purchases and iTunes Match uploads in your music and video libraries, even if they have not been downloaded to this iPad.</base>
+        <tran loc="es">Mostrar todas las compras de la tienda y las cargas de iTunes Match de las bibliotecas de música y vídeos, aunque no se hayan descargado en este iPad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID: %@</base>
+        <tran loc="es">ID de Apple: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_MODE_WLAN_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">WLAN Only</base>
+        <tran loc="es">Solo WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEFAULT_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred.  Please try again.</base>
+        <tran loc="es">Se ha producido un error desconocido. Inténtalo de nuevo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALWAYS_ALLOW</Position>
+      <TranslationSet>
+        <base loc="en">Always Allow</base>
+        <tran loc="es">Permitir siempre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_PLAY_VIDEO_MODE_OFF</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="es">No</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MobileStore/System/Library/SetupAssistantBundles/iTunesStoreSetupAssistant.bundle/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Store Setup Assistant</base>
+        <tran loc="es">Asistente de Configuración de iTunes Store</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

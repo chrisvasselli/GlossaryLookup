@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AccountsUI</ProjName>
+  <File>
+    <Filepath>AccountsUI/System/Library/PrivateFrameworks/AccountsUI.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MAIL_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">mail</base>
+        <tran loc="ru">e-mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for contacts </Description>
+      <Position>TURNING_ON_MAIL</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Mail…</base>
+        <tran loc="ru">Включение e-mail…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_MY_COMPUTER_TYPE_MAC_MID_SENTENCE</Position>
+      <TranslationSet>
+        <base loc="en">from My Mac</base>
+        <tran loc="ru">с компьютера Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_MY_COMPUTER_TYPE_PC</Position>
+      <TranslationSet>
+        <base loc="en">From My PC</base>
+        <tran loc="ru">С ПК с Windows</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete account warning used when the account does not support merging info back to the local account. iPhone version </Description>
+      <Position>DELETE_ACCOUNT_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Deleting this account will remove its %1$@ from your iPhone.</base>
+        <tran loc="ru">При удалении этой учетной записи c iPhone будут удалены %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic text for saving dataclass sync settings </Description>
+      <Position>SAVING</Position>
+      <TranslationSet>
+        <base loc="en">Saving…</base>
+        <tran loc="ru">Сохранение…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge over the air data to local data on device before the account is deleted. iPad version </Description>
+      <Position>DELETE_ACCOUNT_MERGE_SYNC_DATA_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPad</base>
+        <tran loc="ru">Оставить на iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm keep local data on iPad </Description>
+      <Position>KEEP_LOCAL_DATA_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPad</base>
+        <tran loc="ru">Оставить на iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge over the air data to local data on device. iPad version </Description>
+      <Position>MERGE_SYNC_DATA_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPad</base>
+        <tran loc="ru">Оставить на iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off Account</base>
+        <tran loc="ru">Выкл. учетную запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm delete local data on device </Description>
+      <Position>DELETE_LOCAL_DATA</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Account warning with synced dataclasses and device name, iPhone. The argument is the data class name. </Description>
+      <Position>DELETE_ACCOUNT_MERGE_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with %@ on your iPhone when the account is deleted?</base>
+        <tran loc="ru">Что Вы хотите сделать с объектами (%@) на iPhone при удалении этой учетной записи?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTES_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">notes</base>
+        <tran loc="ru">заметки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for notes </Description>
+      <Position>TURNING_ON_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Notes…</base>
+        <tran loc="ru">Включение заметок…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MAIL_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Mail</base>
+        <tran loc="ru">Почта</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MAIL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Mail</base>
+        <tran loc="ru">почту</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-uploaded data will be deleted warning with synced dataclasses. The arguments are the data class synced, the account type (MobileMe, Exchange) and again the data class synced, and the app with pending changes - in that order </Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IN_ONE_APP_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to turn off %1$@? Some changes in %3$@ have not been uploaded to %2$@. If you turn off %1$@, these changes will be lost.</base>
+        <tran loc="ru">Вы действительно хотите выключить %1$@? Часть изменений в приложении «%3$@» не была выгружена в %2$@. Если Вы выключите %1$@, эти изменения будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDPHOTOS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">photos in iCloud Photos</base>
+        <tran loc="ru">фото в Фото iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_MY_DEVICE_TYPE_IPHONE_SIMULATOR</Position>
+      <TranslationSet>
+        <base loc="en">On My iPhone Simulator</base>
+        <tran loc="ru">на моем Симуляторе iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for bookmarks </Description>
+      <Position>TURNING_ON_BOOKMARKS</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Safari Data…</base>
+        <tran loc="ru">Включение данных Safari…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for account without any enabled dataclasses. </Description>
+      <Position>INACTIVE</Position>
+      <TranslationSet>
+        <base loc="en">Inactive</base>
+        <tran loc="ru">Неактивна</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_MY_DEVICE_TYPE_MID_SENTENCE_IPHONE_SIMULATOR</Position>
+      <TranslationSet>
+        <base loc="en">on My iPhone Simulator</base>
+        <tran loc="ru">на моем Симуляторе iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning about deleting over the air data while giving the user the option to merge to the local store. The argument is the data class name. iPhone version</Description>
+      <Position>DISABLE_OTA_WITH_MERGE_OPTION_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with the previously synced %@ on your iPhone?</base>
+        <tran loc="ru">Что Вы хотите сделать с ранее синхронизированными объектами (%@) на iPhone?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SERVERS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Servers</base>
+        <tran loc="ru">Серверы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the Mail Add Account View Controller </Description>
+      <Position>WELCOME_TO_MAIL</Position>
+      <TranslationSet>
+        <base loc="en">Welcome to Mail</base>
+        <tran loc="ru">Добро пожаловать в Почту!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of warning at the moment of enabling an OTA dataclasses when there is local data presensent on the device. </Description>
+      <Position>ENABLE_OTA_WITH_EXISTING_DATA_WARNING_FORMAT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Existing Local %@</base>
+        <tran loc="ru">Имеющиеся локальные %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted second warning with synced dataclasses title</Description>
+      <Position>REALLY_DELETE_EXISTING_DATA_WARNING_FORMAT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Delete Local %@</base>
+        <tran loc="ru">Удалить локальные %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDPHOTOS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Photos in iCloud Photos</base>
+        <tran loc="ru">Фото в Фото iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message description when deleting an account fails. </Description>
+      <Position>COULDNT_DELETE_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The account may be syncing data. Please try again.</base>
+        <tran loc="ru">Возможно, учетная запись синхронизирует данные. Повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACTS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">contacts</base>
+        <tran loc="ru">контакты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="ru">Готово</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning about deleting over the air data while giving the user the option to merge to the local store. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name. iPad version</Description>
+      <Position>DISABLE_OTA_WITH_MERGE_OPTION_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with the previously synced %1$@ %2$@ on your iPad?</base>
+        <tran loc="ru">Что Вы хотите сделать с ранее синхронизированными объектами: %2$@ %1$@ на iPad?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for calendars and reminders </Description>
+      <Position>TURNING_OFF_CALENDARS_AND_REMINDERS</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Calendars and Reminders…</base>
+        <tran loc="ru">Выключение календарей и напоминаний…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message title when deleting an account fails. </Description>
+      <Position>COULDNT_DELETE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Delete Account</base>
+        <tran loc="ru">Сбой удаления учетной записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete account warning used when the account does not support merging info back to the local account. iPod touch version </Description>
+      <Position>DELETE_ACCOUNT_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Deleting this account will remove its %1$@ from your iPod touch.</base>
+        <tran loc="ru">При удалении этой учетной записи c iPod touch будут удалены %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPHONE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPhone</base>
+        <tran loc="ru">Найти iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPHONE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPhone</base>
+        <tran loc="ru">Найти iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPHONE_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPhone</base>
+        <tran loc="ru">«Найти iPhone»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_ACCOUNT_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Remove From All</base>
+        <tran loc="ru">Удалить со всех</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge over the air data to local data on device before the account is deleted. iPhone version </Description>
+      <Position>DELETE_ACCOUNT_MERGE_SYNC_DATA_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPhone</base>
+        <tran loc="ru">Оставить на iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm keep local data on iPhone </Description>
+      <Position>KEEP_LOCAL_DATA_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPhone</base>
+        <tran loc="ru">Оставить на iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge over the air data to local data on device. iPhone version </Description>
+      <Position>MERGE_SYNC_DATA_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPhone</base>
+        <tran loc="ru">Оставить на iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_MY_COMPUTER_TYPE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">From My Mac</base>
+        <tran loc="ru">С компьютера Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDARS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">calendars</base>
+        <tran loc="ru">календари</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNCED_WITH_YOUR_COMPUTER_TYPE_MAC_MID_SENTENCE</Position>
+      <TranslationSet>
+        <base loc="en">synced with your Mac</base>
+        <tran loc="ru">синхр. с Вашим Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_INFO_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="ru">Учетная запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for button revealing additional account settings. </Description>
+      <Position>ACCOUNT_INFO_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="ru">Уч. запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_INFO_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="ru">Уч. запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Deleting account progress </Description>
+      <Position>DELETING</Position>
+      <TranslationSet>
+        <base loc="en">Deleting…</base>
+        <tran loc="ru">Удаление…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Display names for dataclasses when used as a label for a toggle switch, or in a list underneath the account name. </Description>
+      <Position>CLOUDDRIVE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="ru">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDDRIVE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="ru">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDARS_AND_REMINDERS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Calendars and Reminders</base>
+        <tran loc="ru">Календари и напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDARS_AND_REMINDERS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendars and Reminders</base>
+        <tran loc="ru">календари и напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-uploaded data will be deleted warning with synced dataclasses. The arguments are the data class synced, the account type (MobileMe, Exchange) and again the data class synced, and the app with pending changes - in that order </Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IN_THREE_APPS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to turn off %1$@? Some changes in %3$@, %4$@ and %5$@ have not been uploaded to %2$@. If you turn off %1$@, these changes will be lost.</base>
+        <tran loc="ru">Вы действительно хотите выключить %1$@? Часть изменений в приложениях «%3$@», «%4$@» и «%5$@» не была выгружена в %2$@. Если Вы выключите %1$@, эти изменения будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INSTALLED</Position>
+      <TranslationSet>
+        <base loc="en">INSTALLED</base>
+        <tran loc="ru">УСТАНОВЛЕНО</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted warning with synced dataclasses and device name, iPad. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name. </Description>
+      <Position>DELETE_EXISTING_DATA_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All %1$@ %2$@ will be removed from your iPad.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPad будут удалены все %2$@ %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These strings are used when at the beginning of a sentence or on their own </Description>
+      <Position>ON_MY_DEVICE_TYPE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">On My iPhone</base>
+        <tran loc="ru">На iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Keeping local data while enabling synchronization with an over the air source may lead to duplicate entries and this is confusing to our users. We want to ask for confirmation about this action. This is the iPod touch version </Description>
+      <Position>REALLY_KEEP_EXISTING_DATA_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">If you keep your current %@ on your iPad, you may see duplicate entries. Are you sure you want to continue?</base>
+        <tran loc="ru">Если Вы оставите текущие %@ на iPad, возможно возникновение дубликатов. Хотите продолжить?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm that the non-uploaded documents &amp; data is going to be lost, on iPhone.</Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Delete from iPhone</base>
+        <tran loc="ru">Удалить с iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge local data on device to over the air account. The service (Exchange, MobileMe, etc) is the argument.</Description>
+      <Position>MERGE_LOCAL_DATA</Position>
+      <TranslationSet>
+        <base loc="en">Merge</base>
+        <tran loc="ru">Объединить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning about deleting over the air data while giving the user the option to merge to the local store. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name. iPhone version</Description>
+      <Position>DISABLE_OTA_WITH_MERGE_OPTION_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with the previously synced %1$@ %2$@ on your iPhone?</base>
+        <tran loc="ru">Что Вы хотите сделать с ранее синхронизированными объектами: %2$@ %1$@ на iPhone?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Keeping local data while enabling synchronization with an over the air source may lead to duplicate entries and this is confusing to our users. We want to ask for confirmation about this action. This is the iPhone version </Description>
+      <Position>REALLY_KEEP_EXISTING_DATA_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">If you keep your current %@ on your iPhone, you may see duplicate entries. Are you sure you want to continue?</base>
+        <tran loc="ru">Если Вы оставите текущие %@ на iPhone, возможно возникновение дубликатов. Хотите продолжить?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Account warning with synced dataclasses and device name, iPod Touch. The argument is the data class name. </Description>
+      <Position>DELETE_ACCOUNT_MERGE_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with %@ on your iPod touch when the account is deleted?</base>
+        <tran loc="ru">Что Вы хотите сделать с объектами (%@) на iPod touch при удалении этой учетной записи?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOOKMARKS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Safari</base>
+        <tran loc="ru">Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Display names for dataclasses when used in a title - different languages have different rules about title-style capitalization. In English, these are capitalized </Description>
+      <Position>BOOKMARKS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Safari</base>
+        <tran loc="ru">Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turn Off Dataclass Title </Description>
+      <Position>DISABLE_DATACLASS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off %@</base>
+        <tran loc="ru">Выключить %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Certificates header </Description>
+      <Position>CERTIFICATES</Position>
+      <TranslationSet>
+        <base loc="en">Certificates</base>
+        <tran loc="ru">Сертификаты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-uploaded data will be deleted warning with synced dataclasses. The arguments are the data class synced, the account type (MobileMe, Exchange) and again the data class synced, in that order </Description>
+      <Position>LOSE_NON_UPLOADED_DATA_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to turn off %1$@? Some changes have not been uploaded to %2$@. If you turn off %1$@, these changes will be lost.</base>
+        <tran loc="ru">Вы действительно хотите выключить %1$@? Часть изменений не была выгружена в %2$@. Если Вы выключите %1$@, эти изменения будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Custom action label for turning off Siri dataclass </Description>
+      <Position>SIRI_DELETE_EXISTING_DATA_ACTION_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Stop Using Siri with iCloud</base>
+        <tran loc="ru">Прекратить использовать Siri с iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted second warning with synced dataclasses, iPod touch </Description>
+      <Position>REALLY_DELETE_EXISTING_DATA_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All existing %1$@ will be removed from your iPod touch.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPod touch будут удалены все имеющиеся %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="ru">Дом</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="ru">Дом</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Separator for use at the end of a list of multiple dataclasses in a sentence </Description>
+      <Position>LAST_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en"> and </base>
+        <tran loc="ru"> и </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEDIASTREAM_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Photo Stream photos</base>
+        <tran loc="ru">фотографии Фотопотока</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for calendars and reminders </Description>
+      <Position>TURNING_ON_CALENDARS_AND_REMINDERS</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Calendars and Reminders…</base>
+        <tran loc="ru">Включение календарей и напоминаний…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt when saving first setup sync settings. </Description>
+      <Position>ADDING_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Adding Account</base>
+        <tran loc="ru">Добавление уч. записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMINDERS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="ru">Напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMINDERS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="ru">напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="ru">Дальше</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_YOUR_DEVICE_TYPE_MID_SENTENCE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">on your iPad</base>
+        <tran loc="ru">на Вашем iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted warning with synced dataclasses and device name, iPad. The argument is the data class name. </Description>
+      <Position>DELETE_EXISTING_DATA_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All %@ will be removed from your iPad.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPad будут удалены все %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Delete Account</base>
+        <tran loc="ru">Удалить учетную запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning about deleting over the air data while giving the user the option to merge to the local store. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name. iPod touch version</Description>
+      <Position>DISABLE_OTA_WITH_MERGE_OPTION_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with the previously synced %1$@ %2$@ on your iPod touch?</base>
+        <tran loc="ru">Что Вы хотите сделать с ранее синхронизированными объектами: %2$@ %1$@ на iPod touch?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_MY_COMPUTER_TYPE_PC_MID_SENTENCE</Position>
+      <TranslationSet>
+        <base loc="en">from My PC</base>
+        <tran loc="ru">с ПК с Windows</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_CARDDAV_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add CardDAV Account</base>
+        <tran loc="ru">Учетная запись CardDAV</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete account warning used when the account does not support merging info back to the local account. iPad version </Description>
+      <Position>DELETE_ACCOUNT_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Deleting this account will remove its %1$@ from your iPad.</base>
+        <tran loc="ru">При удалении этой учетной записи c iPad будут удалены %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text explaining that there are no identities available </Description>
+      <Position>NO_IDENTITIES_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">No valid certificates found.</base>
+        <tran loc="ru">Сертификаты не найдены</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete account warning used when account sync is enabled and the account does not support merging info back to the local account.</Description>
+      <Position>DELETE_ACCOUNT_SYNC_WARNING_FORMAT_ONE_DEVICE</Position>
+      <TranslationSet>
+        <base loc="en">Deleting this account will remove its %1$@ from your device and “%2$@“.</base>
+        <tran loc="ru">При удалении этой учетной записи %1$@ будут также удалены c Вашего устройства и «%2$@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOOKMARKS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Safari data</base>
+        <tran loc="ru">данные Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PHOTOSTREAM_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Photo Stream</base>
+        <tran loc="ru">фотопоток</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted second warning with synced dataclasses, iPad </Description>
+      <Position>REALLY_DELETE_EXISTING_DATA_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All existing %1$@ will be removed from your iPad.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPad будут удалены все имеющиеся %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_AUTOFILL_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">AutoFill Passwords</base>
+        <tran loc="ru">Автозаполнять пароли</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SERVERDOCUMENTS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">File Sharing</base>
+        <tran loc="ru">Общий доступ к файлам</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Keep local data while enabling synchronization title </Description>
+      <Position>REALLY_KEEP_EXISTING_DATA_WARNING_FORMAT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keep Local %@</base>
+        <tran loc="ru">Оставить локальные %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm delete over the air data on device. iPad version </Description>
+      <Position>DELETE_SYNC_DATA_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Delete from My iPad</base>
+        <tran loc="ru">Удалить с iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the generic Add Account view Controller </Description>
+      <Position>ADD_ACCOUNT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Add Account</base>
+        <tran loc="ru">Учетные записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for contacts </Description>
+      <Position>TURNING_OFF_CONTACTS</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Contacts…</base>
+        <tran loc="ru">Выключение контактов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Account warning with synced dataclasses and device name, iPod Touch. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name </Description>
+      <Position>DELETE_ACCOUNT_MERGE_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with %1$@ %2$@ on your iPod touch when the account is deleted?</base>
+        <tran loc="ru">Что Вы хотите сделать с объектами: %2$@ %1$@ на iPod touch при удалении этой учетной записи?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm delete over the air data on device. iPod touch version </Description>
+      <Position>DELETE_SYNC_DATA_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Delete from My iPod touch</base>
+        <tran loc="ru">Удалить с iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOCKS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Stocks data</base>
+        <tran loc="ru">Данные приложения «Акции»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_SUBCAL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add Subscribed Calendar</base>
+        <tran loc="ru">Подписной календарь</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-uploaded data will be deleted warning with synced dataclasses. The arguments are the data class synced, the account type (MobileMe, Exchange) and again the data class synced, and the app with pending changes - in that order </Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IN_TWO_APPS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to turn off %1$@? Some changes in %3$@ and %4$@ have not been uploaded to %2$@. If you turn off %1$@, these changes will be lost.</base>
+        <tran loc="ru">Вы действительно хотите выключить %1$@? Часть изменений в приложениях «%3$@» и «%4$@» не была выгружена в %2$@. Если Вы выключите %1$@, эти изменения будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Loading... </Description>
+      <Position>LOADING</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="ru">Загрузка…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="ru">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_MY_DEVICE_TYPE_MID_SENTENCE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">on My iPad</base>
+        <tran loc="ru">на iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for notes </Description>
+      <Position>TURNING_OFF_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Notes…</base>
+        <tran loc="ru">Выключение заметок…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning with user options at the moment of enabling an OTA dataclasses when there is local data presensent on the device. It includes device name, iPad </Description>
+      <Position>ENABLE_OTA_WITH_EXISTING_DATA_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with existing local %@ on your iPad?</base>
+        <tran loc="ru">Что Вы хотите сделать с имеющимися локальными объектами: %@ на iPad?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDARS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Calendars</base>
+        <tran loc="ru">Календари</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDARS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendars</base>
+        <tran loc="ru">календари</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPAD_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPad</base>
+        <tran loc="ru">Найти iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPAD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPad</base>
+        <tran loc="ru">Найти iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPAD_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPad</base>
+        <tran loc="ru">«Найти iPad»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNTS</Position>
+      <TranslationSet>
+        <base loc="en">Accounts</base>
+        <tran loc="ru">Учетные записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Storage &amp; Backup</base>
+        <tran loc="ru">Хранилище и копии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Account warning with synced dataclasses and device name, iPad. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name </Description>
+      <Position>DELETE_ACCOUNT_MERGE_WARNING_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with %1$@ %2$@ on your iPad when the account is deleted?</base>
+        <tran loc="ru">Что Вы хотите сделать с объектами: %2$@ %1$@ на iPad при удалении этой учетной записи?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic text to use when deleting an account with all data syncing turned off. </Description>
+      <Position>DATA</Position>
+      <TranslationSet>
+        <base loc="en">data</base>
+        <tran loc="ru">данные</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted second warning with synced dataclasses, iPhone </Description>
+      <Position>REALLY_DELETE_EXISTING_DATA_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All existing %1$@ will be removed from your iPhone.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPhone будут удалены все имеющиеся %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other mail account button title when displayed in Settings. In this case it shows as a second level of account options</Description>
+      <Position>ADD_OTHER_MAIL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add Mail Account</base>
+        <tran loc="ru">Новая учетная запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for reminders </Description>
+      <Position>TURNING_ON_REMINDERS</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Reminders…</base>
+        <tran loc="ru">Включение напоминаний…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPOD_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPod touch</base>
+        <tran loc="ru">Найти iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPOD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPod touch</base>
+        <tran loc="ru">Найти iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_IPOD_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Find My iPod touch</base>
+        <tran loc="ru">«Найти iPod touch»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning with user options at the moment of enabling an OTA dataclasses when there is local data presensent on the device. It includes device name, iPod touch </Description>
+      <Position>ENABLE_OTA_WITH_EXISTING_DATA_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with existing local %@ on your iPod touch?</base>
+        <tran loc="ru">Что Вы хотите сделать с имеющимися локальными объектами: %@ на iPod touch?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used by second confirmation sheet displayed when the user action will keep local data for a given dataclass</Description>
+      <Position>KEEP</Position>
+      <TranslationSet>
+        <base loc="en">Keep</base>
+        <tran loc="ru">Оставить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used in the list of dataclasses underneath the account name when we are running out of space </Description>
+      <Position>AND_N_MORE</Position>
+      <TranslationSet>
+        <base loc="en"> and %@ more…</base>
+        <tran loc="ru"> и еще %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEB_AND_APP_PASSWORDS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Website &amp; App Passwords</base>
+        <tran loc="ru">Пароли сайтов и ПО</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEWS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">News</base>
+        <tran loc="ru">News</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEWS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">News</base>
+        <tran loc="ru">News</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Home data</base>
+        <tran loc="ru">Данные приложения «Дом»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm that the non-uploaded documents &amp; data is going to be lost, on iPad.</Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Delete from iPad</base>
+        <tran loc="ru">Удалить с iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEWS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">News data</base>
+        <tran loc="ru">Данные приложения News</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNCED_WITH_YOUR_COMPUTER_TYPE_PC_MID_SENTENCE</Position>
+      <TranslationSet>
+        <base loc="en">synced with your PC</base>
+        <tran loc="ru">синхр. с Вашим ПК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Account warning with synced dataclasses and device name, iPad. The argument is the data class name. </Description>
+      <Position>DELETE_ACCOUNT_MERGE_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with %@ on your iPad when the account is deleted?</base>
+        <tran loc="ru">Что Вы хотите сделать с объектами (%@) на iPad при удалении этой учетной записи?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted warning with synced dataclasses and device name, iPod touch. The argument is the data class name. </Description>
+      <Position>DELETE_EXISTING_DATA_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All %@ will be removed from your iPod touch.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPod touch будут удалены все %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm delete over the air data on device. iPhone version </Description>
+      <Position>DELETE_SYNC_DATA_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Delete from My iPhone</base>
+        <tran loc="ru">Удалить с iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Display names for dataclasses when within a sentence warning about data deletion. </Description>
+      <Position>CLOUDDRIVE_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive documents and data</base>
+        <tran loc="ru">Документы и данные iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Separator for use in the middle of a list of multiple dataclasses </Description>
+      <Position>MIDDLE_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="ru">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEDIASTREAM_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="ru">Фото</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for contacts </Description>
+      <Position>TURNING_ON_CONTACTS</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Contacts…</base>
+        <tran loc="ru">Включение контактов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for reminders </Description>
+      <Position>TURNING_OFF_REMINDERS</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Reminders…</base>
+        <tran loc="ru">Выключение напоминаний…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for contacts </Description>
+      <Position>TURNING_OFF_MAIL</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Mail…</base>
+        <tran loc="ru">Выключение e-mail…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge over the air data to local data on device before the account is deleted. iPod touch version </Description>
+      <Position>DELETE_ACCOUNT_MERGE_SYNC_DATA_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPod touch</base>
+        <tran loc="ru">Оставить на iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm keep local data on iPod touch </Description>
+      <Position>KEEP_LOCAL_DATA_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPod touch</base>
+        <tran loc="ru">Оставить на iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm merge over the air data to local data on device. iPod touch version </Description>
+      <Position>MERGE_SYNC_DATA_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Keep on My iPod touch</base>
+        <tran loc="ru">Оставить на iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_YOUR_DEVICE_TYPE_MID_SENTENCE_IPHONE_SIMULATOR</Position>
+      <TranslationSet>
+        <base loc="en">on your iPhone Simulator</base>
+        <tran loc="ru">на Вашем Симуляторе iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_MY_DEVICE_TYPE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">On My iPod touch</base>
+        <tran loc="ru">На моем iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Custom warning message for turning off Siri dataclass </Description>
+      <Position>SIRI_DELETE_EXISTING_DATA_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">If you stop using Siri with iCloud, your Siri settings will no longer sync between your devices, and HomePod speakers in homes you are a member of will no longer be able to recognize your voice or respond to personal requests.</base>
+        <tran loc="ru">Если прекратить использовать Siri с iCloud, настройки Siri перестанут синхронизироваться на всех Ваших устройствах, а колонки HomePod в домах, пользователем которых Вы являетесь, больше не смогут узнавать Ваш голос и выполнять Ваши личные запросы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for calendars </Description>
+      <Position>TURNING_OFF_CALENDARS</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Calendars…</base>
+        <tran loc="ru">Выключение календарей…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMINDERS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">reminders</base>
+        <tran loc="ru">напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-uploaded data will be deleted warning with synced dataclasses. The arguments are the data class synced, the account type (MobileMe, Exchange) and again the data class synced, three apps with pending changes and the count of other apps with pending changes - in that order </Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IN_MORE_THAN_THREE_APPS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to turn off %1$@? Some changes in %3$@, %4$@, %5$@ and %6$@ other apps have not been uploaded to %2$@. If you turn off %1$@, these changes will be lost.</base>
+        <tran loc="ru">Вы действительно хотите выключить %1$@? Часть изменений в приложениях «%3$@», «%4$@», «%5$@» и «%6$@» не была выгружена в %2$@. Если Вы выключите %1$@, эти изменения будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm that the non-uploaded documents &amp; data is going to be lost, on iPod touch.</Description>
+      <Position>LOSE_NON_UPLOADED_DATA_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Delete from iPod touch</base>
+        <tran loc="ru">Удалить с iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning about deleting over the air data while giving the user the option to merge to the local store. The argument is the data class name. iPad version</Description>
+      <Position>DISABLE_OTA_WITH_MERGE_OPTION_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with the previously synced %@ on your iPad?</base>
+        <tran loc="ru">Что Вы хотите сделать с ранее синхронизированными объектами (%@) на iPad?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Progress used while merging multiple dataclasses to the server </Description>
+      <Position>MERGING</Position>
+      <TranslationSet>
+        <base loc="en">Merging…</base>
+        <tran loc="ru">Объединение…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMBINED_STRING</Position>
+      <TranslationSet>
+        <base loc="en">%@</base>
+        <tran loc="ru">%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDARS_AND_REMINDERS_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">calendars and reminders</base>
+        <tran loc="ru">календари и напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Keeping local data while enabling synchronization with an over the air source may lead to duplicate entries and this is confusing to our users. We want to ask for confirmation about this action. This is the iPod touch version </Description>
+      <Position>REALLY_KEEP_EXISTING_DATA_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">If you keep your current %@ on your iPod touch, you may see duplicate entries. Are you sure you want to continue?</base>
+        <tran loc="ru">Если Вы оставите текущие %@ на iPod touch, возможно возникновение дубликатов. Хотите продолжить?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt when saved first setup sync settings. </Description>
+      <Position>ACCOUNT_ADDED</Position>
+      <TranslationSet>
+        <base loc="en">Account Added</base>
+        <tran loc="ru">Учетная запись добавлена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Adding an account in Mail which does not support the Mail dataclass </Description>
+      <Position>CONTINUE_WITHOUT_MAIL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Continue setting up this account without mail?</base>
+        <tran loc="ru">Продолжить настройку этой учетной записи без электронной почты?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MESSAGES_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Messages</base>
+        <tran loc="ru">Сообщения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on sync for calendars </Description>
+      <Position>TURNING_ON_CALENDARS</Position>
+      <TranslationSet>
+        <base loc="en">Turning On Calendars…</base>
+        <tran loc="ru">Включение календарей…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_CALDAV_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add CalDAV Account</base>
+        <tran loc="ru">Учетная запись CalDAV</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NETWORKVPN_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">VPN</base>
+        <tran loc="ru">VPN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NETWORKVPN_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">VPN</base>
+        <tran loc="ru">VPN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning about deleting over the air data while giving the user the option to merge to the local store. The  argument is the data class name. iPod touch version</Description>
+      <Position>DISABLE_OTA_WITH_MERGE_OPTION_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with the previously synced %@ on your iPod touch?</base>
+        <tran loc="ru">Что Вы хотите сделать с ранее синхронизированными объектами (%@) на iPod touch?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted warning with synced dataclasses and device name, iPhone. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name. </Description>
+      <Position>DELETE_EXISTING_DATA_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All %1$@ %2$@ will be removed from your iPhone.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPhone будут удалены все %2$@ %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOEBOX_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Wallet</base>
+        <tran loc="ru">Wallet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOEBOX_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Wallet</base>
+        <tran loc="ru">Wallet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEYCHAINSYNC_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">Safari passwords</base>
+        <tran loc="ru">пароли Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted warning with synced dataclasses and device name, iPhone. The argument is the data class name. </Description>
+      <Position>DELETE_EXISTING_DATA_WARNING_NO_ACCOUNT_TYPE_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All %@ will be removed from your iPhone.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPhone будут удалены все %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTES_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="ru">Заметки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTES_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="ru">заметки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEALTH_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Health</base>
+        <tran loc="ru">Здоровье</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_ACCOUNT_SYNC_WARNING_FORMAT_TWO_DEVICES</Position>
+      <TranslationSet>
+        <base loc="en">Deleting this account will remove its %1$@ from your device, “%2$@“ and “%3$@“.</base>
+        <tran loc="ru">При удалении этой учетной записи %1$@ будут также удалены c Вашего устройства, с «%2$@» и «%3$@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_MY_DEVICE_TYPE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">On My iPad</base>
+        <tran loc="ru">На iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_ACCOUNT_SYNC_WARNING_FORMAT_THREE_OR_MORE_DEVICES</Position>
+      <TranslationSet>
+        <base loc="en">Deleting this account will remove its %1$@ from your device, “%2$@“, “%3$@“ and more.</base>
+        <tran loc="ru">При удалении этой учетной записи %1$@ будут также удалены c Вашего устройства, с «%2$@» и «%3$@» и др.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEYCHAINSYNC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Keychain</base>
+        <tran loc="ru">Связка ключей iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_MY_DEVICE_TYPE_MID_SENTENCE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">on My iPod touch</base>
+        <tran loc="ru">на моем iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning off sync for bookmarks </Description>
+      <Position>TURNING_OFF_BOOKMARKS</Position>
+      <TranslationSet>
+        <base loc="en">Turning Off Safari Data…</base>
+        <tran loc="ru">Выключение данных Safari…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REALLY_KEEP_EXISTING_DATA_WARNING_ACCOUNT_SYNC_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">If you keep your current %@ on your devices, you may see duplicate entries. Are you sure you want to continue?</base>
+        <tran loc="ru">Если Вы оставите текущие %@ на своих устройствах, возможно возникновение дубликатов. Хотите продолжить?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_LDAP_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add LDAP Account</base>
+        <tran loc="ru">Учетная запись LDAP</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACTS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="ru">Контакты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="ru">Контакты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOCKS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Stocks</base>
+        <tran loc="ru">Акции</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOCKS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Stocks</base>
+        <tran loc="ru">Акции</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted second warning with synced dataclasses, Account Sync</Description>
+      <Position>REALLY_DELETE_EXISTING_DATA_WARNING_FORMAT_ACCOUNT_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All existing %1$@ will be removed from your devices.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С Ваших устройств будут удалены все имеющиеся %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AccountsUI
+
+  Created by Lestat Ali on 9/12/12.
+  Copyright (c) 2012 Apple Inc. All rights reserved.
+</Description>
+      <Position>INSTALLNOW</Position>
+      <TranslationSet>
+        <base loc="en">INSTALL</base>
+        <tran loc="ru">УСТАНОВИТЬ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEYCHAINSYNC_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Keychain</base>
+        <tran loc="ru">Связка ключей</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Account warning with synced dataclasses and device name, iPhone. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name </Description>
+      <Position>DELETE_ACCOUNT_MERGE_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with %1$@ %2$@ on your iPhone when the account is deleted?</base>
+        <tran loc="ru">Что Вы хотите сделать с объектами: %2$@ %1$@ на iPhone при удалении этой учетной записи?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_SERVER_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add macOS Server Account</base>
+        <tran loc="ru">Добавить учетную запись macOS Server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE_WITHOUT_MAIL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This account does not support mail. The other account features you turned on will be set up.</base>
+        <tran loc="ru">Эта учетная запись не поддерживает электронную почту. Будут настроены остальные функции учетной записи, которые Вы выбрали.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other Account types button label </Description>
+      <Position>OTHER</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="ru">Другое</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning with user options at the moment of enabling an OTA dataclasses when there is local data presensent on the device. It includes device name, iPhone </Description>
+      <Position>ENABLE_OTA_WITH_EXISTING_DATA_WARNING_FORMAT_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">What would you like to do with existing local %@ on your iPhone?</base>
+        <tran loc="ru">Что Вы хотите сделать с имеющимися локальными объектами: %@ на iPhone?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ON_YOUR_DEVICE_TYPE_MID_SENTENCE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">on your iPod touch</base>
+        <tran loc="ru">на Вашем iPod touch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Existing data will be deleted warning with synced dataclasses and device name, iPod touch. The first argument is the account type (Exchange, iCloud.) The second argument is the data class name. </Description>
+      <Position>DELETE_EXISTING_DATA_WARNING_FORMAT_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to continue? All %1$@ %2$@ will be removed from your iPod touch.</base>
+        <tran loc="ru">Вы действительно хотите продолжить? С iPod touch будут удалены все %2$@ %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNAVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">UNAVAILABLE</base>
+        <tran loc="ru">НЕДОСТУПНО</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_MANAGERS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Password Managers</base>
+        <tran loc="ru">Менеджеры паролей</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These variation of the strings above are used when referring to the data itself. For example " There are contacts synced with your Mac on your iPhone" 
+ These strings are used when the caller wants to use a prefix in front of them and therefore the first word can’t be capitalized </Description>
+      <Position>ON_YOUR_DEVICE_TYPE_MID_SENTENCE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">on your iPhone</base>
+        <tran loc="ru">на Вашем iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These strings are used when the caller wants to use a prefix in front of them and therefore the first word can’t be capitalized </Description>
+      <Position>ON_MY_DEVICE_TYPE_MID_SENTENCE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">on My iPhone</base>
+        <tran loc="ru">на iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="ru">Сохранить</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AccountsUI/System/Library/PreferenceBundles/AccountSettingsUI.bundle/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>30_MIN</Position>
+      <TranslationSet>
+        <base loc="en">30 min</base>
+        <tran loc="ru">30 мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shorter text when displayed as back button so that we don't truncate in an ugly way. </Description>
+      <Position>MAIL_CONTACTS_CALENDARS_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">Mail, Contacts…</base>
+        <tran loc="ru">Почта, адреса…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUBSCRIBED_CALENDARS</Position>
+      <TranslationSet>
+        <base loc="en">Subscribed Calendars</base>
+        <tran loc="ru">Подписные календари</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>15_MIN</Position>
+      <TranslationSet>
+        <base loc="en">15 min</base>
+        <tran loc="ru">15 мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for button for adding a new account </Description>
+      <Position>ADD_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Add Account</base>
+        <tran loc="ru">Новая учетная запись</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Group label to show when the contacts and calendar settings are still loading </Description>
+      <Position>LOADING_CONTACTS_CALENDARS</Position>
+      <TranslationSet>
+        <base loc="en">Loading Contacts, Calendars …</base>
+        <tran loc="ru">Загрузка контактов, календарей…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AccountsUI
+
+  Created by Lestat Ali on 10/24/12.
+  Copyright (c) 2012 Apple Inc. All rights reserved.
+
+ Group label to show above the list of accounts </Description>
+      <Position>ACCOUNTS</Position>
+      <TranslationSet>
+        <base loc="en">Accounts</base>
+        <tran loc="ru">Учетные записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MIDDLE_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="ru">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PUSH</Position>
+      <TranslationSet>
+        <base loc="en">Push</base>
+        <tran loc="ru">Push</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOURLY</Position>
+      <TranslationSet>
+        <base loc="en">Hourly</base>
+        <tran loc="ru">Ежечасно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTOMATICALLY</Position>
+      <TranslationSet>
+        <base loc="en">Automatically</base>
+        <tran loc="ru">Автоматически</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> What to show when we're currently syncing and won't allow the user to change things </Description>
+      <Position>UNAVAILABLE_WHILE_SYNCING</Position>
+      <TranslationSet>
+        <base loc="en">Accounts are currently syncing.</base>
+        <tran loc="ru">Идет синхронизация учетных записей.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FETCH_NEW_DATA</Position>
+      <TranslationSet>
+        <base loc="en">Fetch New Data</base>
+        <tran loc="ru">Загрузка данных</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MAIL_CONTACTS_CALENDARS_EXTRA_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">Mail…</base>
+        <tran loc="ru">Почта…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OFF</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="ru">Выкл.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

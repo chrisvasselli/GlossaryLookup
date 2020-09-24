@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreRoutine</ProjName>
+  <File>
+    <Filepath>CoreRoutine/System/Library/PrivateFrameworks/CoreRoutine.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_ATV</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this Apple TV?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cette Apple TV ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes Work as a location, in lowercase </Description>
+      <Position>work</Position>
+      <TranslationSet>
+        <base loc="en">work</base>
+        <tran loc="fr">bureau</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this iPod touch and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet iPod touch et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes School as a location, in lowercase </Description>
+      <Position>school</Position>
+      <TranslationSet>
+        <base loc="en">school</base>
+        <tran loc="fr">établissement scolaire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Allow your Mac and iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre Mac et vos appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes the visit time, with an incoming route name. Parameter 1 is the visit time, parameter 2 is the incoming route name, e.g. "I-280S". </Description>
+      <Position>%1$@, arrived via %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, arrived via %2$@</base>
+        <tran loc="fr">%1$@, arrivé via %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Allow your iPod and iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre iPod et vos appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLEAR_HISTORY_MODAL_DIALOG_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Clearing History…</base>
+        <tran loc="fr">Suppression de l’historique…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete </Description>
+      <Position>Delete</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="fr">Supprimer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes Work as a location </Description>
+      <Position>Work</Position>
+      <TranslationSet>
+        <base loc="en">Work</base>
+        <tran loc="fr">Bureau</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Log Export Complete </Description>
+      <Position>LOG_EXPORT_COMPLETE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Log Export Complete</base>
+        <tran loc="fr">Exportation des historiques terminée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ABOUT_SIGNIFICANT_LOCATION_AND_PRIVACY_WITHOUT_ICLOUD_BODY_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple Watch will keep track of places you have recently been, as well as how often and when you visited them, in order to learn places that are significant to you. This data is encrypted and will not be shared without your consent. It will be used to provide you with personalized services, such as predictive traffic routing, and to build better Photos Memories. This data cannot be read by Apple.</base>
+        <tran loc="fr">Votre Apple Watch conservera un historique des lieux que vous avez visités et connaîtra ainsi les lieux importants dans votre vie. Ces données sont chiffrées et ne seront pas partagées sans votre consentement. Elles serviront par exemple à vous fournir des services personnalisés tels que des itinéraires intuitifs et à créer de meilleurs souvenirs dans Photos. Ces données ne peuvent pas être lues par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_SIGNIFICANT_LOCATIONS</Position>
+      <TranslationSet>
+        <base loc="en">No Significant Locations</base>
+        <tran loc="fr">Aucun lieu important</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_LOI_VISIT_FAILURE_BODY_GENERAL</Position>
+      <TranslationSet>
+        <base loc="en">The visit could not be deleted.</base>
+        <tran loc="fr">La visite n’a pas pu être supprimée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Allow your Mac to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre Mac à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes School as a location </Description>
+      <Position>School</Position>
+      <TranslationSet>
+        <base loc="en">School</base>
+        <tran loc="fr">École</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used by Photos </Description>
+      <Position>USED_BY_PHOTOS_EXPLANATION_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Photos is using this visit to improve Photos Memories.</base>
+        <tran loc="fr">Photos se sert de cette visite pour améliorer les souvenirs photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Done button title </Description>
+      <Position>CORE_ROUTINE_DONE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Group Title for the Significant Location "Me" section </Description>
+      <Position>MY_PLACES_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">My Places</base>
+        <tran loc="fr">Mes lieux</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Allow your iPod to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre iPod à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FUTURE_VISIT_FOOTER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Visits to this Significant Location will appear here.</base>
+        <tran loc="fr">Les visites effectuées dans ce lieu important s’afficheront ici.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this Apple Watch?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cette Apple Watch ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to for button that will actually clear CoreRoutine predicted locations </Description>
+      <Position>CORE_ROUTINE_CLEAR_HISTORY_CELL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Clear History</base>
+        <tran loc="fr">Effacer l’historique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_CONFIRMATION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Clear History</base>
+        <tran loc="fr">Effacer l’historique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Allow your iPhone and iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre iPhone et vos appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_CONFIRMATION_DIALOG_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Clear Significant Locations</base>
+        <tran loc="fr">Effacer les lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this Mac?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur ce Mac ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOG_EXPORT_PARTIALLY_FAILED_BODY</Position>
+      <TranslationSet>
+        <base loc="en">A diagnostic log archive has been saved to %@ but may be missing some diagnostic information.</base>
+        <tran loc="fr">Une archive d’historique de diagnostic a été enregistrée dans %@, mais il se peut qu’elle ne contienne pas toutes les informations de diagnostic.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this iPod touch?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet iPod touch ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes the visit time, with an incoming walk duration. Parameter 1 is the visit time, parameter 2 is the incoming walk duration, already formatted by a NSDateComponentsFormatter in short form, e.g. "1hr, 10min", "28 min". </Description>
+      <Position>%1$@, arrived via a %2$@ walk</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, arrived via a %2$@ walk</base>
+        <tran loc="fr">%1$@, arrivé après un trajet de %2$@ à pied</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes driving duration to reach home. Parameter 1 is the duration </Description>
+      <Position>%1$@ to get home</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ to get home</base>
+        <tran loc="fr">%1$@ pour arriver chez vous</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes Gym as a location, in lowercase </Description>
+      <Position>gym</Position>
+      <TranslationSet>
+        <base loc="en">gym</base>
+        <tran loc="fr">salle de sport</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes Gym as a location </Description>
+      <Position>Gym</Position>
+      <TranslationSet>
+        <base loc="en">Gym</base>
+        <tran loc="fr">Salle de sport</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_LOAD_FAILURE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations could not be loaded.</base>
+        <tran loc="fr">Les lieux importants n’ont pas pu être chargés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this iPad and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet iPad et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this Apple Watch and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cette Apple Watch et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOG_EXPORT_COMPLETE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">A diagnostic log archive has been saved to %@.</base>
+        <tran loc="fr">Une archive d’historique de diagnostic a été enregistrée dans %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to for button that will cancel clearing CoreRoutine predicted locations </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_CANCEL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to describe a group of geographic locations that cannot easily be described. </Description>
+      <Position>Elsewhere</Position>
+      <TranslationSet>
+        <base loc="en">Elsewhere</base>
+        <tran loc="fr">Ailleurs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes Home as a location </Description>
+      <Position>Home</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="fr">Domicile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes the visit time, with an incoming (bike) ride duration. Parameter 1 is the visit time, parameter 2 is the incoming (bike) ride duration, already formatted by a NSDateComponentsFormatter in short form, e.g. "1hr, 10min", "28 min". </Description>
+      <Position>%1$@, arrived via a %2$@ ride</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, arrived via a %2$@ ride</base>
+        <tran loc="fr">%1$@, arrivé après un trajet de %2$@ en vélo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USED_BY_PHOTOS_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">The Photos icon indicates this visit is being used to improve Photos Memories.</base>
+        <tran loc="fr">L’icône Photos indique que cette visite est utilisée pour améliorer les souvenirs photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Allow your iPhone to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre iPhone à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ABOUT_SIGNIFICANT_LOCATIONS_AND_PRIVACY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">About Location Services &amp; Privacy</base>
+        <tran loc="fr">À propos des services de localisation et de la confidentialité</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off</base>
+        <tran loc="fr">Désactiver</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Allow your Apple Watch to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre Apple Watch à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISMISS</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="fr">Fermer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this device and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet appareil et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NONE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="fr">Aucun</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_AUTH_OFF_FAILURE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations could not be turned off.</base>
+        <tran loc="fr">Les lieux importants n’ont pas pu être désactivés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_LOI_FAILURE_BODY_GENERAL</Position>
+      <TranslationSet>
+        <base loc="en">The location could not be deleted.</base>
+        <tran loc="fr">Le lieu n’a pas pu être supprimé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this iPhone?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet iPhone ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOG_EXPORT_FAILED_BODY</Position>
+      <TranslationSet>
+        <base loc="en">A diagnostic log archive could not be saved due to an error.</base>
+        <tran loc="fr">Une archive d’historique de diagnostic n’a pas pu être enregistrée en raison d’une erreur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_AUTH_ON_FAILURE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations could not be turned on.</base>
+        <tran loc="fr">Les lieux importants n’ont pas pu être activés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Group Title for the Significant Location Developer </Description>
+      <Position>DIAGNOSTICS_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="fr">Diagnostic</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this Mac and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur ce Mac et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOG_EXPORT_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Log Export Failed</base>
+        <tran loc="fr">Échec de l’exportation de l’historique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ABOUT_SIGNIFICANT_LOCATION_AND_PRIVACY_WITH_ICLOUD_BODY_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple Watch will keep track of places you have recently been, as well as how often and when you visited them, in order to learn places that are significant to you. This data is transmitted end-to-end encrypted between your iCloud connected devices and will not be shared without your consent. It will be used to provide you with personalized services, such as predictive traffic routing, and to build better Photos Memories. This data cannot be read by Apple. To disable syncing this data to iCloud, turn off the Siri switch in iCloud settings.</base>
+        <tran loc="fr">Votre Apple Watch conservera un historique des lieux que vous avez visités et connaîtra ainsi les lieux importants dans votre vie. Ces données sont transmises d’un bout à l’autre de façon chiffrée entre vos appareils connectés à iCloud et ne seront pas partagées sans votre consentement. Elles serviront par exemple à vous fournir des services personnalisés tels que des itinéraires intuitifs et à créer de meilleurs souvenirs dans Photos. Ces données ne peuvent pas être lues par Apple. Désactivez Siri dans les réglages iCloud pour désactiver la synchronisation de ces données vers iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ABOUT_SIGNIFICANT_LOCATIONS_AND_PRIVACY_TITLE_LINK</Position>
+      <TranslationSet>
+        <base loc="en">About Location Services &amp; Privacy…</base>
+        <tran loc="fr">Service de localisation et confidentialité…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Group Title for the Significant Location History </Description>
+      <Position>HISTORY_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">History</base>
+        <tran loc="fr">Historique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Allow your Apple Watch and iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre Apple Watch et vos appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_FAILURE_BODY_NETWORK</Position>
+      <TranslationSet>
+        <base loc="en">Clearing Significant Locations requires a network connection.</base>
+        <tran loc="fr">Une connexion réseau est nécessaire pour l’effacement des lieux importants.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_FAILURE_BODY_GENERAL</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations could not be cleared.</base>
+        <tran loc="fr">Les lieux importants n’ont pas pu être effacés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Allow your device to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre appareil à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes the visit time, with an incoming trip duration. Parameter 1 is the visit time, parameter 2 is the incoming trip duration, already formatted by a NSDateComponentsFormatter in short form, e.g. "1hr, 10min", "28 min". </Description>
+      <Position>%1$@, arrived via a %2$@ trip</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, arrived via a %2$@ trip</base>
+        <tran loc="fr">%1$@, arrivé après un trajet de %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_ATV</Position>
+      <TranslationSet>
+        <base loc="en">Allow your Apple TV to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre Apple TV à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes a location of interest with no visits. </Description>
+      <Position>No recent visits</Position>
+      <TranslationSet>
+        <base loc="en">No recent visits</base>
+        <tran loc="fr">Aucune visite récente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this iPhone and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet iPhone et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Allow your iPad and iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre iPad et vos appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITHOUT_ICLOUD_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Allow your iPad to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre iPad à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes last visit to this location of interest, when it happens on different days. Parameter 1 is the start time / date, parameter 2 is the end time / date. </Description>
+      <Position>%1$@ - %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ - %2$@</base>
+        <tran loc="fr">%1$@ - %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes Dumping Logs Button </Description>
+      <Position>CORE_ROUTINE_EXPORT_LOGS_CELL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Export Logs</base>
+        <tran loc="fr">Exporter les historiques</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_DISABLE_SIGNIFICANT_LOCATIONS_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Disabling Significant Locations will affect many Apple apps and services that use personalized Location Services such as Maps, Do Not Disturb While Driving, CarPlay, Siri, Calendar, and Photos.</base>
+        <tran loc="fr">La désactivation des lieux importants affecte de nombreux services et de nombreuses apps Apple qui utilisent le service de localisation personnalisé, tel que Plans, Ne pas déranger en voiture, CarPlay, Siri, Calendrier et Photos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITH_ICLOUD_TITLE_ATV</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this Apple TV and other devices signed into your iCloud account?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cette Apple TV et sur les autres appareils connectés à votre compte iCloud ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this iPad?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet iPad ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_DISABLE_SIGNIFICANT_LOCATIONS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title </Description>
+      <Position>COREROUTINE_MASTER_SWITCH_CELL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_AUTH_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_LOAD_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> View Controller Title </Description>
+      <Position>SIGNIFICANT_LOCATIONS_CLUSTER_VIEW_CONTROLLER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_ATV</Position>
+      <TranslationSet>
+        <base loc="en">Allow your Apple TV and iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez votre Apple TV et vos appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes the visit time, with an incoming drive duration. Parameter 1 is the visit time, parameter 2 is the incoming drive duration, already formatted by a NSDateComponentsFormatter in short form, e.g. "1hr, 10min", "28 min". </Description>
+      <Position>%1$@, arrived via a %2$@ drive</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, arrived via a %2$@ drive</base>
+        <tran loc="fr">%1$@, arrivé après un trajet de %2$@ en voiture</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESET_CORE_ROUTINE_WITHOUT_ICLOUD_TITLE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to clear Significant Locations on this device?</base>
+        <tran loc="fr">Voulez-vous vraiment effacer les lieux importants sur cet appareil ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CORE_ROUTINE_EXPLANATION_WITH_ICLOUD_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Allow this device and other iCloud connected devices to learn places significant to you in order to provide useful location-related information in Maps, Calendar, Photos, and more. Significant Locations are end-to-end encrypted and cannot be read by Apple.</base>
+        <tran loc="fr">Autorisez cet appareil et d’autres appareils connectés à iCloud à mémoriser les lieux qui vous sont importants afin d’obtenir des données de localisation utiles dans Plans, Calendrier, Photos et d’autres apps. Ces lieux sont chiffrés de bout en bout et ne peuvent pas être lus par Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Describes driving duration to a named destination. Parameter 1 is the duration, parameter 2 is the named destination </Description>
+      <Position>%1$@ to %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ to %2$@</base>
+        <tran loc="fr">%1$@ vers %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreRoutine/System/Library/PrivateFrameworks/CoreRoutine.framework/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits, %2$@:dict/visitsrecorded:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu visits, %2$@</base>
+        <tran loc="fr">%1$lu visites, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu locations, %2$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@locationsfirstrecorded@</base>
+        <tran loc="fr">%#@locationsfirstrecorded@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits, %2$@ - %3$@:dict/visitsrecordedmultiple:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu visits, %2$@ - %3$@</base>
+        <tran loc="fr">%1$lu visites, %2$@ - %3$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu locations, %2$@ - %3$@:dict/locationsrecordedmultiple:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu location, %2$@ - %3$@</base>
+        <tran loc="fr">%1$lu lieu, %2$@ - %3$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits, %2$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@visitsrecorded@</base>
+        <tran loc="fr">%#@visitsrecorded@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@visitsrecorded@</base>
+        <tran loc="fr">%#@visitsrecorded@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits, %2$@:dict/visitsrecorded:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu visit, %2$@</base>
+        <tran loc="fr">%1$lu visite, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu locations, %2$@ - %3$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@locationsrecordedmultiple@</base>
+        <tran loc="fr">%#@locationsrecordedmultiple@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu locations, %2$@:dict/locationsfirstrecorded:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu location, %2$@</base>
+        <tran loc="fr">%1$lu lieu, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits, %2$@ - %3$@:dict/visitsrecordedmultiple:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu visit, %2$@ - %3$@</base>
+        <tran loc="fr">%1$lu visite, %2$@ - %3$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu locations, %2$@ - %3$@:dict/locationsrecordedmultiple:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu locations, %2$@ - %3$@</base>
+        <tran loc="fr">%1$lu lieux, %2$@ - %3$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits:dict/visitsrecorded:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu visit</base>
+        <tran loc="fr">%1$lu visite</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu locations, %2$@:dict/locationsfirstrecorded:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu locations, %2$@</base>
+        <tran loc="fr">%1$lu lieux, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits:dict/visitsrecorded:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu visits</base>
+        <tran loc="fr">%1$lu visites</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%1$lu visits, %2$@ - %3$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@visitsrecordedmultiple@</base>
+        <tran loc="fr">%#@visitsrecordedmultiple@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreRoutine/System/Library/LocationBundles/Routine.bundle/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Significant Locations</base>
+        <tran loc="fr">Lieux importants</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

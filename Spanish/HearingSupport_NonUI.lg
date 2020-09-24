@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>HearingSupport_NonUI</ProjName>
+  <File>
+    <Filepath>HearingSupport_NonUI/System/Library/PrivateFrameworks/RTTUtilities.framework/en.lproj/TTYSupport.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>RTTFirstUseAlertAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Got It</base>
+        <tran loc="es">Entendido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageSure</Position>
+      <TranslationSet>
+        <base loc="en">Sure! GA</base>
+        <tran loc="es">¡Claro! GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageYes</Position>
+      <TranslationSet>
+        <base loc="en">Yes GA</base>
+        <tran loc="es">Sí GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessageHangupString</Position>
+      <TranslationSet>
+        <base loc="en"> SKSK </base>
+        <tran loc="es"> SKSK </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYEndCall</Position>
+      <TranslationSet>
+        <base loc="en">End Call</base>
+        <tran loc="es">Finalizar llamada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  TTYSupport.strings
+  Accessibility
+
+  Created by Ian Fisch on 12/22/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>TTYSendButtonLabel</Position>
+      <TranslationSet>
+        <base loc="en">Send</base>
+        <tran loc="es">Enviar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeVoice</Position>
+      <TranslationSet>
+        <base loc="en">Voice</base>
+        <tran loc="es">Voz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTDowngradeMessage</Position>
+      <TranslationSet>
+        <base loc="en">The other person on this phone call turned RTT off.</base>
+        <tran loc="es">El interlocutor de esta llamada telefónica ha desactivado RTT.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTServiceHeader</Position>
+      <TranslationSet>
+        <base loc="en">RTT Unavailable</base>
+        <tran loc="es">RRT no disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYMute</Position>
+      <TranslationSet>
+        <base loc="en">Mute</base>
+        <tran loc="es">Silenciar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYPersonMe</Position>
+      <TranslationSet>
+        <base loc="en">Me</base>
+        <tran loc="es">Yo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageNo</Position>
+      <TranslationSet>
+        <base loc="en">No GA</base>
+        <tran loc="es">No GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTOk</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="es">Aceptar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTRemoteInterruptMessage</Position>
+      <TranslationSet>
+        <base loc="en">Unable to send real time text. You can continue sending real time text on your iPhone.</base>
+        <tran loc="es">No es posible enviar texto en tiempo real. Puedes seguir haciéndolo desde tu iPhone.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessageGoodbyeString</Position>
+      <TranslationSet>
+        <base loc="en"> SK </base>
+        <tran loc="es"> SK </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sent when one side is done talking, see TTY dictionary. Leading space intentional</Description>
+      <Position>TTYMessageCompleteString</Position>
+      <TranslationSet>
+        <base loc="en"> GA </base>
+        <tran loc="es"> GA </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeTTY</Position>
+      <TranslationSet>
+        <base loc="en">TTY Call</base>
+        <tran loc="es">Llamada TTY</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessageHoldString</Position>
+      <TranslationSet>
+        <base loc="en"> PLS HLD </base>
+        <tran loc="es"> PLS HLD </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeCancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Call 1 (415) 913 - 7773</Description>
+      <Position>TTYCallTypeVoiceWithDestination</Position>
+      <TranslationSet>
+        <base loc="en">Call %@</base>
+        <tran loc="es">Llamar al %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageHello</Position>
+      <TranslationSet>
+        <base loc="en">Hello GA</base>
+        <tran loc="es">Hola GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Leading space intentional</Description>
+      <Position>TTYMessagePoliteHangupString</Position>
+      <TranslationSet>
+        <base loc="en"> GA TO SK </base>
+        <tran loc="es"> GA TO SK </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRTT</Position>
+      <TranslationSet>
+        <base loc="en">RTT Call</base>
+        <tran loc="es">Llamada RTT</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageSeeYouSoon</Position>
+      <TranslationSet>
+        <base loc="en">See you soon GA</base>
+        <tran loc="es">Hasta pronto GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTFirstUseAlertMessage</Position>
+      <TranslationSet>
+        <base loc="en">RTT allows text messages to be sent during a phone call between recipients. This service is typically used by those with hearing impairments. Press the RTT button to communicate using text with the caller.</base>
+        <tran loc="es">RTT permite enviar mensajes de texto durante una llamada telefónica entre destinatarios. Este es un servicio que suelen utilizar las personas con problemas de audición. Pulsa el botón RTT para comunicarte con texto con tu interlocutor.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTFirstUseAlertTitle</Position>
+      <TranslationSet>
+        <base loc="en">Real Time Text</base>
+        <tran loc="es">Texto en tiempo real</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRelayRTT</Position>
+      <TranslationSet>
+        <base loc="en">RTT Relay Call</base>
+        <tran loc="es">Llamada por transmisión RTT</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>back button</Description>
+      <Position>RTTBack</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="es">Atrás</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRelayRTT_TTY</Position>
+      <TranslationSet>
+        <base loc="en">RTT/TTY Relay Call</base>
+        <tran loc="es">Llamada por transmisión RTT/TTY</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYRelayPreamble</Position>
+      <TranslationSet>
+        <base loc="en">Hello. OPR PLS CALL %@ GA</base>
+        <tran loc="es">Hola. OPR PLS CALL %@ GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageWhatsUp</Position>
+      <TranslationSet>
+        <base loc="en">What’s up? GA</base>
+        <tran loc="es">¿Qué pasa? GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageOk</Position>
+      <TranslationSet>
+        <base loc="en">OK GA</base>
+        <tran loc="es">Vale GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYPersonUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="es">Desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageThanks</Position>
+      <TranslationSet>
+        <base loc="en">Thanks! GA</base>
+        <tran loc="es">Gracias GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeMessage</Position>
+      <TranslationSet>
+        <base loc="en">What kind of call would you like to make?</base>
+        <tran loc="es">¿Qué tipo de llamada quieres hacer?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTAction</Position>
+      <TranslationSet>
+        <base loc="en">RTT</base>
+        <tran loc="es">RTT</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTOnHoldMessage</Position>
+      <TranslationSet>
+        <base loc="en">You are On Hold with %@</base>
+        <tran loc="es">Estás en espera con %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RTTCannedMessageOnMyWay</Position>
+      <TranslationSet>
+        <base loc="en">On my way GA</base>
+        <tran loc="es">Voy de camino GA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYMessagePlaceholder</Position>
+      <TranslationSet>
+        <base loc="en">Message</base>
+        <tran loc="es">Mensaje</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRelay</Position>
+      <TranslationSet>
+        <base loc="en">TTY Relay Call</base>
+        <tran loc="es">Llamada por transmisión TTY</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYUnmute</Position>
+      <TranslationSet>
+        <base loc="en">Unmute</base>
+        <tran loc="es">Activar sonido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TTYCallTypeRTT_TTY</Position>
+      <TranslationSet>
+        <base loc="en">RTT/TTY Call</base>
+        <tran loc="es">Llamada RTT/TTY</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>HearingSupport_NonUI/System/Library/PrivateFrameworks/HearingUtilities.framework/en.lproj/HearingAidSupport.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenInstructions_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Live Listen sends audio to your hearing device from the microphone on your iPhone.</base>
+        <tran loc="es">La función “Escucha en directo” envía audio al audífono desde el micrófono del iPhone.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Left Concert  48%', double space intentional</Description>
+      <Position>HearingAidVolumeLeftStreamValue</Position>
+      <TranslationSet>
+        <base loc="en">Left %1$@  %2$@</base>
+        <tran loc="es">Izquierdo %1$@  %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 1 is left HearingAidDecription and 2 is right HearingAidDecription</Description>
+      <Position>HearingAidManModelDecription</Position>
+      <TranslationSet>
+        <base loc="en">%1$@\n%2$@</base>
+        <tran loc="es">%1$@\n%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidFallbackName</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device</base>
+        <tran loc="es">Audífono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device</base>
+        <tran loc="es">Audífono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Left Master  48%', double space intentional</Description>
+      <Position>HearingAidMixedLeftValue</Position>
+      <TranslationSet>
+        <base loc="en">Left Master  %@</base>
+        <tran loc="es">Izquierdo maestro  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidModesRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Presets</base>
+        <tran loc="es">Preajustes del derecho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionMuteHour</Position>
+      <TranslationSet>
+        <base loc="en">Mute for 1 Hour</base>
+        <tran loc="es">Silenciar 1 hora</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidModesLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Presets</base>
+        <tran loc="es">Preajustes del izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsConnectionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Status</base>
+        <tran loc="es">Estado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStatusLabel</Position>
+      <TranslationSet>
+        <base loc="en">Status</base>
+        <tran loc="es">Estado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PMEToggleTitle</Position>
+      <TranslationSet>
+        <base loc="en">Audio Accommodations</base>
+        <tran loc="es">Facilidades de audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsAutomatic</Position>
+      <TranslationSet>
+        <base loc="en">Automatic</base>
+        <tran loc="es">Automática</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> i.e. L:50</Description>
+      <Position>complication.ear.value</Position>
+      <TranslationSet>
+        <base loc="en">%@%@</base>
+        <tran loc="es">%@%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent90</Position>
+      <TranslationSet>
+        <base loc="en">%@ Around 30 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="es">%@ Exponerse a este nivel de ruido durante unos 30 minutos puede provocar una pérdida de audición temporal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidDone</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="es">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertTitle</Position>
+      <TranslationSet>
+        <base loc="en">Loud Environment</base>
+        <tran loc="es">Entorno ruidoso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BluetoothDisabledTitle</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth is off</base>
+        <tran loc="es">Bluetooth está desactivado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsFirmwareTitle</Position>
+      <TranslationSet>
+        <base loc="en">Firmware version</base>
+        <tran loc="es">Versión del firmware</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent95</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 95 decibels.</base>
+        <tran loc="es">Los niveles de sonido superan los 95 dB.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertDamageWarning</Position>
+      <TranslationSet>
+        <base loc="en">Repeated long-term exposure can lead to permanent damage. Consider using hearing protection or moving to a quieter area.</base>
+        <tran loc="es">La exposición prolongada recurrente puede resultar en daños permanentes. Protégete los oídos o ve a una zona menos ruidosa.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingDevicesFooter</Position>
+      <TranslationSet>
+        <base loc="en">Pair MFi hearing aids and sound processors.</base>
+        <tran loc="es">Enlazar audífonos y procesadores de sonido MFi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Left Volume  48%', double space intentional</Description>
+      <Position>HearingAidSensitivityLeftValue</Position>
+      <TranslationSet>
+        <base loc="en">Left Hearing Range  %@</base>
+        <tran loc="es">Rango de audición izquierdo  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsGroupRightTitle</Position>
+      <TranslationSet>
+        <base loc="en">Right Hearing Aid</base>
+        <tran loc="es">Audífono derecho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent100</Position>
+      <TranslationSet>
+        <base loc="en">%@ Even a few minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="es">%@ Exponerse a este nivel de ruido aunque solo sea unos minutos puede provocar una pérdida de audición temporal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingModuleName</Position>
+      <TranslationSet>
+        <base loc="en">Hearing</base>
+        <tran loc="es">Audición</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingDevicesSearchHeading</Position>
+      <TranslationSet>
+        <base loc="en">Searching…</base>
+        <tran loc="es">Buscando…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListen</Position>
+      <TranslationSet>
+        <base loc="en">Start Live Listen</base>
+        <tran loc="es">Iniciar escucha en directo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HandoffAlertDescription</Position>
+      <TranslationSet>
+        <base loc="en">Attempting to take connection from another device.</base>
+        <tran loc="es">Intentando tomar la conexión de otro dispositivo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidTreble</Position>
+      <TranslationSet>
+        <base loc="en">Treble</base>
+        <tran loc="es">Agudos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidProgramActivate</Position>
+      <TranslationSet>
+        <base loc="en">Double tap and hold to select a different preset</base>
+        <tran loc="es">Pulsa dos veces y mantén pulsado para seleccionar otro preajuste</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.combined.ear.colon</Position>
+      <TranslationSet>
+        <base loc="en">L/R:</base>
+        <tran loc="es">I/D:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Left side or left ear</Description>
+      <Position>HearingAidInputOptionsLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left</base>
+        <tran loc="es">Izquierda</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeLeftLong</Position>
+      <TranslationSet>
+        <base loc="en">Left</base>
+        <tran loc="es">Izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidBass</Position>
+      <TranslationSet>
+        <base loc="en">Bass</base>
+        <tran loc="es">Graves</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityRightValue</Position>
+      <TranslationSet>
+        <base loc="en">Right Hearing Range  %@</base>
+        <tran loc="es">Rango de audición derecho  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidModes</Position>
+      <TranslationSet>
+        <base loc="en">Presets</base>
+        <tran loc="es">Preajustes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ForgetHearingAidCancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LeftRightHearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">R + L</base>
+        <tran loc="es">D + I</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.header.title</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Aids</base>
+        <tran loc="es">Audífonos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingBothAvailableLong</Position>
+      <TranslationSet>
+        <base loc="en">Left and right available</base>
+        <tran loc="es">Izquierdo y derecho disponibles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Treble -43%'</Description>
+      <Position>HearingAidTrebleValue</Position>
+      <TranslationSet>
+        <base loc="en">Treble %@</base>
+        <tran loc="es">Agudos: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LeftHearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">L</base>
+        <tran loc="es">l</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HandoffAlertTitle</Position>
+      <TranslationSet>
+        <base loc="en">Connecting to hearing devices</base>
+        <tran loc="es">Estableciendo conexión con los audífonos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityMasterValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L Hearing Range  %@</base>
+        <tran loc="es">Rango de audición D + I  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolumeLabel</Position>
+      <TranslationSet>
+        <base loc="en">Master</base>
+        <tran loc="es">Maestro</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Used in hearing aid battery label prior to the battery percent</Description>
+      <Position>RightHearingAidLabelForBatteryWithSeparator</Position>
+      <TranslationSet>
+        <base loc="en">L:</base>
+        <tran loc="es">I:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.left.ear.colon</Position>
+      <TranslationSet>
+        <base loc="en">L:</base>
+        <tran loc="es">I:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Bass -43%'</Description>
+      <Position>HearingAidBassValue</Position>
+      <TranslationSet>
+        <base loc="en">Bass %@</base>
+        <tran loc="es">Graves: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionDismiss</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="es">Cerrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent80</Position>
+      <TranslationSet>
+        <base loc="en">%@ Around 5 hours and 30 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="es">%@ Exponerse a este nivel de ruido durante aproximadamente 5 horas y 30 minutos puede provocar una pérdida de audición temporal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsHIIDTitle</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device ID</base>
+        <tran loc="es">Identificador del audífono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent80</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 80 decibels.</base>
+        <tran loc="es">Los niveles de sonido superan los 80 dB.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.volume.value</Position>
+      <TranslationSet>
+        <base loc="en">Volume: %@</base>
+        <tran loc="es">Volumen: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsGroupLeftTitle</Position>
+      <TranslationSet>
+        <base loc="en">Left Hearing Aid</base>
+        <tran loc="es">Audífono izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStreamingModesLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Streaming Presets</base>
+        <tran loc="es">Preajustes de transmisión (izquierdo)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Preset 1'</Description>
+      <Position>DefaultProgramName</Position>
+      <TranslationSet>
+        <base loc="en">Preset %@</base>
+        <tran loc="es">Preajuste %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BatteryValue</Position>
+      <TranslationSet>
+        <base loc="en">Battery level: %@</base>
+        <tran loc="es">Nivel de batería: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMasterStreamValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L %1$@  %2$@</base>
+        <tran loc="es">D + I %1$@  %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedMasterValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L Master  %@</base>
+        <tran loc="es">D + I maestro  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream 'Car Volume' or 'Concert Volume'</Description>
+      <Position>HearingAidStreamVolume</Position>
+      <TranslationSet>
+        <base loc="en">%@ Volume</base>
+        <tran loc="es">Volumen del %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Concert Volume'</Description>
+      <Position>HearingAidVolumeStreamLabel</Position>
+      <TranslationSet>
+        <base loc="en">%@ Volume</base>
+        <tran loc="es">Volumen del %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenStatusbar</Position>
+      <TranslationSet>
+        <base loc="en">Live Listen</base>
+        <tran loc="es">Escucha en directo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMaster</Position>
+      <TranslationSet>
+        <base loc="en">R + L Microphone Volume</base>
+        <tran loc="es">Volumen del micrófono D + I</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BatteryValueLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left battery level: %@</base>
+        <tran loc="es">Nivel de batería (izquierda): %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStreamingModes</Position>
+      <TranslationSet>
+        <base loc="en">Streaming Presets</base>
+        <tran loc="es">Preajustes de transmisión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidIndependenceTitle</Position>
+      <TranslationSet>
+        <base loc="en">Adjust Independently</base>
+        <tran loc="es">Ajustar independientemente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent100</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 100 dB.</base>
+        <tran loc="es">Los niveles de sonido superan los 100 dB.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> manufacturer model (side), side is RightHearingAidLabel, LeftHearingAidLabel, or LeftRightHearingAidLabel</Description>
+      <Position>HearingAidDecription</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@ (%3$@)</base>
+        <tran loc="es">%1$@ %2$@ (%3$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RightHearingAidLabel</Position>
+      <TranslationSet>
+        <base loc="en">R</base>
+        <tran loc="es">D</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.loading.data</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="es">Cargando…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionMuteDay</Position>
+      <TranslationSet>
+        <base loc="en">Mute for Today</base>
+        <tran loc="es">Silenciar hoy</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertFooter</Position>
+      <TranslationSet>
+        <base loc="en">You can manage Noise Notifications and Noise measurements in Settings on your Apple Watch.</base>
+        <tran loc="es">Puedes gestionar las notificaciones y mediciones de ruido en Ajustes en tu Apple Watch.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Hearing Range</base>
+        <tran loc="es">Rango de audición derecho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenAXValue</Position>
+      <TranslationSet>
+        <base loc="en">Meter level: %@</base>
+        <tran loc="es">Nivel del medidor: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsTitle</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="es">Diagnóstico</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Used in hearing aid battery label prior to the battery percent</Description>
+      <Position>LeftHearingAidLabelForBatteryWithSeparator</Position>
+      <TranslationSet>
+        <base loc="en">R:</base>
+        <tran loc="es">D:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.right.ear.colon</Position>
+      <TranslationSet>
+        <base loc="en">R:</base>
+        <tran loc="es">D:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Microphone Volume</base>
+        <tran loc="es">Volumen del micrófono derecho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsRight</Position>
+      <TranslationSet>
+        <base loc="en">Right</base>
+        <tran loc="es">Derecha</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRightLong</Position>
+      <TranslationSet>
+        <base loc="en">Right</base>
+        <tran loc="es">Derecho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent90</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 90 decibels.</base>
+        <tran loc="es">Los niveles de sonido superan los 90 dB.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivity</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Range</base>
+        <tran loc="es">Rango de audición</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityLabel</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Range</base>
+        <tran loc="es">Rango de audición</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LiveListenUnavailable</Position>
+      <TranslationSet>
+        <base loc="en">Unavailable for current route</base>
+        <tran loc="es">No disponible para la salida actual</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidSensitivityLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Hearing Range</base>
+        <tran loc="es">Rango de audición izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> label for volume slide of something streaming to hearing aids</Description>
+      <Position>HearingAidStream</Position>
+      <TranslationSet>
+        <base loc="en">Stream</base>
+        <tran loc="es">Secuencia</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMasterLong</Position>
+      <TranslationSet>
+        <base loc="en">Right + Left</base>
+        <tran loc="es">Derecho e izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeMasterValue</Position>
+      <TranslationSet>
+        <base loc="en">R + L Microphone Volume  %@</base>
+        <tran loc="es">Volumen del micrófono D + I  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> i.e. L: 50-Theater</Description>
+      <Position>complication.ear.full.description</Position>
+      <TranslationSet>
+        <base loc="en">%@: %@-%@</base>
+        <tran loc="es">%@: %@-%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidOn</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="es">Sí</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsValueUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="es">Desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenListening</Position>
+      <TranslationSet>
+        <base loc="en">End Live Listen</base>
+        <tran loc="es">Finalizar escucha en directo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Microphone Volume</base>
+        <tran loc="es">Volumen del micrófono izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsConnectionStatusConnected</Position>
+      <TranslationSet>
+        <base loc="en">Connected</base>
+        <tran loc="es">Conectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidConnected</Position>
+      <TranslationSet>
+        <base loc="en">Connected</base>
+        <tran loc="es">Conectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsHardwareTitle</Position>
+      <TranslationSet>
+        <base loc="en">Hardware version</base>
+        <tran loc="es">Versión del hardware</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMicrophoneVolume</Position>
+      <TranslationSet>
+        <base loc="en">Microphone Level</base>
+        <tran loc="es">Nivel del micrófono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeLabel</Position>
+      <TranslationSet>
+        <base loc="en">Microphone Level</base>
+        <tran loc="es">Nivel del micrófono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent95</Position>
+      <TranslationSet>
+        <base loc="en">%@ Just 10 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="es">%@ Exponerse a este nivel de ruido durante tan solo 10 minutos puede provocar una pérdida de audición temporal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used in hearing aid battery label. e.g. L: 100%</Description>
+      <Position>HearingAidBatteryFormat</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="es">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Left Volume  48%', double space intentional</Description>
+      <Position>HearingAidVolumeLeftValue</Position>
+      <TranslationSet>
+        <base loc="en">Left Microphone Volume  %@</base>
+        <tran loc="es">Volumen del micrófono izquierdo  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.preferred.display.mic.volume</Position>
+      <TranslationSet>
+        <base loc="en">Mic Volume</base>
+        <tran loc="es">Volumen del micrófono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolumeRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Master Volume</base>
+        <tran loc="es">Volumen maestro derecho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsTitle</Position>
+      <TranslationSet>
+        <base loc="en">Input Options</base>
+        <tran loc="es">Opciones de entrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRightStreamValue</Position>
+      <TranslationSet>
+        <base loc="en">Right %1$@  %2$@</base>
+        <tran loc="es">Derecho %1$@  %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Concert Volume'</Description>
+      <Position>HearingAidVolumeLeftStreamLabel</Position>
+      <TranslationSet>
+        <base loc="en">Left %@ Volume</base>
+        <tran loc="es">Volumen izquierdo de %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolume</Position>
+      <TranslationSet>
+        <base loc="en">Master Volume</base>
+        <tran loc="es">Volumen maestro</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertOptionOpen</Position>
+      <TranslationSet>
+        <base loc="en">Open Noise</base>
+        <tran loc="es">Abrir la app Ruido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedRightValue</Position>
+      <TranslationSet>
+        <base loc="en">Right Master  %@</base>
+        <tran loc="es">Derecho maestro  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStatus</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Device Status</base>
+        <tran loc="es">Estado del audífono</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdvancedSettingsConnectionStatusNotConnected</Position>
+      <TranslationSet>
+        <base loc="en">Not Connected</base>
+        <tran loc="es">No conectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidNotConnected</Position>
+      <TranslationSet>
+        <base loc="en">Not Connected</base>
+        <tran loc="es">No conectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeRightValue</Position>
+      <TranslationSet>
+        <base loc="en">Right Microphone Volume  %@</base>
+        <tran loc="es">Volumen del micrófono derecho  %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelContent85</Position>
+      <TranslationSet>
+        <base loc="en">Sound levels hit 85 decibels.</base>
+        <tran loc="es">Los niveles de sonido superan los 85 dB.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidStreamingModesRight</Position>
+      <TranslationSet>
+        <base loc="en">Right Streaming Presets</base>
+        <tran loc="es">Preajustes de transmisión (derecho)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidConnectedOnDevice</Position>
+      <TranslationSet>
+        <base loc="en">Connected on %@</base>
+        <tran loc="es">Conectado en %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.preferred.display.program</Position>
+      <TranslationSet>
+        <base loc="en">Program</base>
+        <tran loc="es">Programa</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> name of stream volume, 'Concert Volume'</Description>
+      <Position>HearingAidVolumeRightStreamLabel</Position>
+      <TranslationSet>
+        <base loc="en">Right %@ Volume</base>
+        <tran loc="es">Volumen derecho de %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidVolumeGeneric</Position>
+      <TranslationSet>
+        <base loc="en">Volume</base>
+        <tran loc="es">Volumen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BluetoothDisabledDescription</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth is required to connect to Made for iPhone hearing aids and sound processors.</base>
+        <tran loc="es">Se requiere Bluetooth para conectar audífonos y procesadores de sonido “Made for iPhone”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidMixedVolumeLeft</Position>
+      <TranslationSet>
+        <base loc="en">Left Master Volume</base>
+        <tran loc="es">Volumen maestro izquierdo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidControlTitle</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Devices</base>
+        <tran loc="es">Audífonos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingDevicesHeading</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Devices</base>
+        <tran loc="es">Audífonos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>complication.datasource.name</Position>
+      <TranslationSet>
+        <base loc="en">Hearing Devices</base>
+        <tran loc="es">Audífonos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingRightAvailableLong</Position>
+      <TranslationSet>
+        <base loc="en">Right available</base>
+        <tran loc="es">Derecho disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidConnecting</Position>
+      <TranslationSet>
+        <base loc="en">Connecting…</base>
+        <tran loc="es">Conectando…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoiseAlertLevelDetailedContent85</Position>
+      <TranslationSet>
+        <base loc="en">%@ Around 1 hour and 45 minutes at this level can cause temporary hearing loss.</base>
+        <tran loc="es">%@ Exponerse a este nivel de ruido durante aproximadamente 1 hora y 45 minutos puede provocar una pérdida de audición temporal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BatteryValueRight</Position>
+      <TranslationSet>
+        <base loc="en">Right battery level: %@</base>
+        <tran loc="es">Nivel de batería (derecha): %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidLiveListenInstructions_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Live Listen sends audio to your hearing device from the microphone on your iPad.</base>
+        <tran loc="es">La función “Escucha en directo” envía audio al audífono desde el micrófono del iPad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidInputOptionsNeither</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="es">Ninguna</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HearingAidOff</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="es">No</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 'Stream 1'</Description>
+      <Position>DefaultStreamName</Position>
+      <TranslationSet>
+        <base loc="en">Stream %@</base>
+        <tran loc="es">Secuencia %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  HearingAidSupport.strings
+  AccessibilitySettingsBundle
+
+  Created by Ian Fisch on 2/20/12.
+  Copyright (c) 2012 Apple Inc. All rights reserved.
+
+ used to show availability of left and right hearing aids</Description>
+      <Position>HearingLeftAvailableLong</Position>
+      <TranslationSet>
+        <base loc="en">Left available</base>
+        <tran loc="es">Izquierdo disponible</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>
