@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SPPCIReporter</ProjName>
+  <File>
+    <Filepath>SPPCIReporter/System/Library/SystemProfiler/SPPCIReporter.spreporter/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>sppci_model</Position>
+      <TranslationSet>
+        <base loc="en">Model</base>
+        <tran loc="fr">Modèle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_digitizer</Position>
+      <TranslationSet>
+        <base loc="en">Digitizer (Pen)</base>
+        <tran loc="fr">Numériseur (stylo)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_worldfip</Position>
+      <TranslationSet>
+        <base loc="en">WorldFip Controller</base>
+        <tran loc="fr">Contrôleur WorldFip</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_rf</Position>
+      <TranslationSet>
+        <base loc="en">RF</base>
+        <tran loc="fr">RF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Thunderbolt</Position>
+      <TranslationSet>
+        <base loc="en">Thunderbolt</base>
+        <tran loc="fr">Thunderbolt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_slot_name</Position>
+      <TranslationSet>
+        <base loc="en">Slot</base>
+        <tran loc="fr">Logement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bridge Devices </Description>
+      <Position>sppci_hostbridge</Position>
+      <TranslationSet>
+        <base loc="en">Host Bridge</base>
+        <tran loc="fr">Pont de l’hôte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_link-speed</Position>
+      <TranslationSet>
+        <base loc="en">Link Speed</base>
+        <tran loc="fr">Vitesse de la liaison</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ssa</Position>
+      <TranslationSet>
+        <base loc="en">SSA</base>
+        <tran loc="fr">SSA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_scanner</Position>
+      <TranslationSet>
+        <base loc="en">Scanner Controller</base>
+        <tran loc="fr">Contrôleur du scanner</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_nvme</Position>
+      <TranslationSet>
+        <base loc="en">NVM Express Controller</base>
+        <tran loc="fr">Contrôleur NVM Express</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_device_type</Position>
+      <TranslationSet>
+        <base loc="en">Type</base>
+        <tran loc="fr">Type</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_fibrechannel</Position>
+      <TranslationSet>
+        <base loc="en">Fibre Channel</base>
+        <tran loc="fr">Fibre Channel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Input Devices </Description>
+      <Position>sppci_keyboard</Position>
+      <TranslationSet>
+        <base loc="en">Keyboard Controller</base>
+        <tran loc="fr">Contrôleur du clavier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_name</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="fr">Nom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_otherwireless</Position>
+      <TranslationSet>
+        <base loc="en">Other Wireless</base>
+        <tran loc="fr">Autre sans fil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_usbdevice</Position>
+      <TranslationSet>
+        <base loc="en">USB Device</base>
+        <tran loc="fr">Périphérique USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_driver_installed</Position>
+      <TranslationSet>
+        <base loc="en">Driver Installed</base>
+        <tran loc="fr">Gestionnaire installé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_multiportserialcontroller</Position>
+      <TranslationSet>
+        <base loc="en">Multiport Serial Controller</base>
+        <tran loc="fr">Contrôleur série multiports</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ata</Position>
+      <TranslationSet>
+        <base loc="en">ATA Controller</base>
+        <tran loc="fr">Contrôleur ATA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_infiniband2pcibridge</Position>
+      <TranslationSet>
+        <base loc="en">InfiniBand-to-PCI Host Bridge</base>
+        <tran loc="fr">Pont hôte InfiniBand-PCI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>reporter_error</Position>
+      <TranslationSet>
+        <base loc="en">There was an error while gathering PCI device information.</base>
+        <tran loc="fr">Une erreur s’est produite lors du recueil des informations de l’appareil PCI.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_usbxhci</Position>
+      <TranslationSet>
+        <base loc="en">USB eXtensible Host Controller</base>
+        <tran loc="fr">Contrôleur d’hôte USB eXtensible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ieee1394openhci</Position>
+      <TranslationSet>
+        <base loc="en">IEEE 1394 Open HCI</base>
+        <tran loc="fr">Open HCI IEEE 1394</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> PCI Local Bus Specification, Appendix D, Class Codes 
+ Mass Storage </Description>
+      <Position>sppci_scsi_bus</Position>
+      <TranslationSet>
+        <base loc="en">SCSI Bus Controller</base>
+        <tran loc="fr">Contrôleur de bus SCSI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_othergameport</Position>
+      <TranslationSet>
+        <base loc="en">Other Gameport Controller</base>
+        <tran loc="fr">Autre contrôleur gameport</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_picmg</Position>
+      <TranslationSet>
+        <base loc="en">PICMG 2.14 Multi Computing</base>
+        <tran loc="fr">PICMG 2.14 Multi Computing</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_eisabridge</Position>
+      <TranslationSet>
+        <base loc="en">EISA Bridge</base>
+        <tran loc="fr">Pont EISA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_xgacontroller</Position>
+      <TranslationSet>
+        <base loc="en">XGA Controller</base>
+        <tran loc="fr">Contrôleur XGA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_computertelephony</Position>
+      <TranslationSet>
+        <base loc="en">Computer Telephony</base>
+        <tran loc="fr">Téléphonie informatique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_raid</Position>
+      <TranslationSet>
+        <base loc="en">RAID Controller</base>
+        <tran loc="fr">Contrôleur RAID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_genericgameport</Position>
+      <TranslationSet>
+        <base loc="en">Generic Gameport Controller</base>
+        <tran loc="fr">Contrôleur Gameport générique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_systemmanagementbus</Position>
+      <TranslationSet>
+        <base loc="en">System Management Bus</base>
+        <tran loc="fr">Bus de gestion système</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_isabridge</Position>
+      <TranslationSet>
+        <base loc="en">ISA Bridge</base>
+        <tran loc="fr">Pont ISA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_othermassstorage</Position>
+      <TranslationSet>
+        <base loc="en">Other Mass Storage Controller</base>
+        <tran loc="fr">Autre contrôleur de stockage de masse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_sata</Position>
+      <TranslationSet>
+        <base loc="en">SATA Controller</base>
+        <tran loc="fr">Contrôleur SATA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ipmismic</Position>
+      <TranslationSet>
+        <base loc="en">IPMI SMIC</base>
+        <tran loc="fr">IPMI SMIC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_cardbusbridge</Position>
+      <TranslationSet>
+        <base loc="en">CardBus Bridge</base>
+        <tran loc="fr">Pont CardBus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Communications Controllers </Description>
+      <Position>sppci_serialcontroller</Position>
+      <TranslationSet>
+        <base loc="en">Serial Controller</base>
+        <tran loc="fr">Contrôleur série</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_tunnel-compatible</Position>
+      <TranslationSet>
+        <base loc="en">Tunnel Compatible</base>
+        <tran loc="fr">Compatible avec les tunnels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_sercos</Position>
+      <TranslationSet>
+        <base loc="en">SERCOS Interface</base>
+        <tran loc="fr">Interface SERCOS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_subsystem-id</Position>
+      <TranslationSet>
+        <base loc="en">Subsystem ID</base>
+        <tran loc="fr">Identifiant du sous-système</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_thunderbolt</Position>
+      <TranslationSet>
+        <base loc="en">Thunderbolt Controller</base>
+        <tran loc="fr">Contrôleur Thunderbolt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_bus</Position>
+      <TranslationSet>
+        <base loc="en">Bus</base>
+        <tran loc="fr">Bus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_othernetwork</Position>
+      <TranslationSet>
+        <base loc="en">Other Network Controller</base>
+        <tran loc="fr">Autre contrôleur de réseau</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>_name</Position>
+      <TranslationSet>
+        <base loc="en">Card</base>
+        <tran loc="fr">Carte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_nubusbridge</Position>
+      <TranslationSet>
+        <base loc="en">NuBus Bridge</base>
+        <tran loc="fr">Pont NuBus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Serial Bus Controllers </Description>
+      <Position>sppci_ieee1394fw</Position>
+      <TranslationSet>
+        <base loc="en">IEEE 1394 FireWire</base>
+        <tran loc="fr">FireWire IEEE 1394</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_tokenring</Position>
+      <TranslationSet>
+        <base loc="en">Token Ring Controller</base>
+        <tran loc="fr">Contrôleur Token Ring</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_vgacontroller</Position>
+      <TranslationSet>
+        <base loc="en">VGA-Compatible Controller</base>
+        <tran loc="fr">Contrôleur compatible VGA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_atm</Position>
+      <TranslationSet>
+        <base loc="en">ATM Controller</base>
+        <tran loc="fr">Contrôleur ATM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>negative_string</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="fr">Non</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_sas</Position>
+      <TranslationSet>
+        <base loc="en">SAS Controller</base>
+        <tran loc="fr">Contrôleur SAS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_floppy_disk</Position>
+      <TranslationSet>
+        <base loc="en">Floppy Disk Controller</base>
+        <tran loc="fr">Contrôleur de disquette</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ahci</Position>
+      <TranslationSet>
+        <base loc="en">AHCI Controller</base>
+        <tran loc="fr">Contrôleur AHCI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_mouse</Position>
+      <TranslationSet>
+        <base loc="en">Mouse Controller</base>
+        <tran loc="fr">Contrôleur de la souris</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SPPCIDataType</Position>
+      <TranslationSet>
+        <base loc="en">PCI</base>
+        <tran loc="fr">PCI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_pci_agp</Position>
+      <TranslationSet>
+        <base loc="en">PCI</base>
+        <tran loc="fr">PCI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_pci_device</Position>
+      <TranslationSet>
+        <base loc="en">PCI</base>
+        <tran loc="fr">PCI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error messages </Description>
+      <Position>no_info_found</Position>
+      <TranslationSet>
+        <base loc="en">This computer doesn’t contain any PCI cards or devices. If you installed or connected a PCI card or device, make sure it is properly installed.</base>
+        <tran loc="fr">Cet ordinateur ne contient aucune carte ou aucun appareil PCI. Si vous avez installé ou connecté une carte ou un appareil PCI, vérifiez qu’ils sont correctement installés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displays </Description>
+      <Position>sppci_displaycontroller</Position>
+      <TranslationSet>
+        <base loc="en">Display Controller</base>
+        <tran loc="fr">Contrôleur du moniteur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_3dcontroller</Position>
+      <TranslationSet>
+        <base loc="en">3D Controller</base>
+        <tran loc="fr">Contrôleur 3D</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Network </Description>
+      <Position>sppci_ethernet</Position>
+      <TranslationSet>
+        <base loc="en">Ethernet Controller</base>
+        <tran loc="fr">Contrôleur Ethernet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_otherbridge</Position>
+      <TranslationSet>
+        <base loc="en">Other Bridge Device</base>
+        <tran loc="fr">Autre périphérique pont</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_othercommunications</Position>
+      <TranslationSet>
+        <base loc="en">Other Communications Device</base>
+        <tran loc="fr">Autre périphérique de communication</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_modem</Position>
+      <TranslationSet>
+        <base loc="en">Modem</base>
+        <tran loc="fr">Modem</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_audio</Position>
+      <TranslationSet>
+        <base loc="en">Audio</base>
+        <tran loc="fr">Audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_vendor-id</Position>
+      <TranslationSet>
+        <base loc="en">Vendor ID</base>
+        <tran loc="fr">Identifiant du fournisseur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ipmikeyboard</Position>
+      <TranslationSet>
+        <base loc="en">IPMI Keyboard Controller</base>
+        <tran loc="fr">Contrôleur de clavier IPMI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_isdn</Position>
+      <TranslationSet>
+        <base loc="en">ISDN Controller</base>
+        <tran loc="fr">Contrôleur RNIS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_subsystem-vendor-id</Position>
+      <TranslationSet>
+        <base loc="en">Subsystem Vendor ID</base>
+        <tran loc="fr">Identifiant du fournisseur du sous-système</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_othermultimedia</Position>
+      <TranslationSet>
+        <base loc="en">Other Multimedia</base>
+        <tran loc="fr">Autre multimédia</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_usbehci</Position>
+      <TranslationSet>
+        <base loc="en">USB Enhanced Host Controller</base>
+        <tran loc="fr">Contrôleur d’hôte USB étendu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_pci2pcibridge</Position>
+      <TranslationSet>
+        <base loc="en">PCI-to-PCI Bridge</base>
+        <tran loc="fr">Pont PCI-PCI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_link-width</Position>
+      <TranslationSet>
+        <base loc="en">Link Width</base>
+        <tran loc="fr">Largeur du câble</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_pause-compatible</Position>
+      <TranslationSet>
+        <base loc="en">Pause Compatible</base>
+        <tran loc="fr">Pause possible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_otherinput</Position>
+      <TranslationSet>
+        <base loc="en">Other Input Controller</base>
+        <tran loc="fr">Autre contrôleur d’entrée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Wireless Controllers </Description>
+      <Position>sppci_irda</Position>
+      <TranslationSet>
+        <base loc="en">iRDA</base>
+        <tran loc="fr">IrDA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_parallelcontroller</Position>
+      <TranslationSet>
+        <base loc="en">Parallel Port</base>
+        <tran loc="fr">Port parallèle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_audiodevice</Position>
+      <TranslationSet>
+        <base loc="en">Audio Device</base>
+        <tran loc="fr">Périphérique audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_mcabridge</Position>
+      <TranslationSet>
+        <base loc="en">MCA Bridge</base>
+        <tran loc="fr">Pont MCA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_otherdisplaycontroller</Position>
+      <TranslationSet>
+        <base loc="en">Other Display Controller</base>
+        <tran loc="fr">Autre contrôleur de moniteur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_msi</Position>
+      <TranslationSet>
+        <base loc="en">MSI</base>
+        <tran loc="fr">MSI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_fddi</Position>
+      <TranslationSet>
+        <base loc="en">FDDI Controller</base>
+        <tran loc="fr">Contrôleur FDDI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Misc. </Description>
+      <Position>affirmative_string</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="fr">Oui</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_unknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="fr">Inconnu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_usb</Position>
+      <TranslationSet>
+        <base loc="en">USB Controller</base>
+        <tran loc="fr">Contrôleur USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_8514controller</Position>
+      <TranslationSet>
+        <base loc="en">8514-Compatible Controller</base>
+        <tran loc="fr">Contrôleur compatible 8514</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_accessbus</Position>
+      <TranslationSet>
+        <base loc="en">Access.bus</base>
+        <tran loc="fr">Access.bus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_canbus</Position>
+      <TranslationSet>
+        <base loc="en">CANbus</base>
+        <tran loc="fr">CANbus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ipmiblocktransfer</Position>
+      <TranslationSet>
+        <base loc="en">IPMI Block Transfer</base>
+        <tran loc="fr">Transfert de bloc IPMI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_pcmciabridge</Position>
+      <TranslationSet>
+        <base loc="en">PCMCIA Bridge</base>
+        <tran loc="fr">Pont PCMCIA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_serialnumber</Position>
+      <TranslationSet>
+        <base loc="en">Serial Number</base>
+        <tran loc="fr">Numéro de série</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ipi_bus</Position>
+      <TranslationSet>
+        <base loc="en">IPI Bus Controller</base>
+        <tran loc="fr">Contrôleur de bus IPI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Thunderbolt@%d,%d,%d</Position>
+      <TranslationSet>
+        <base loc="en">Thunderbolt@%d,%d,%d</base>
+        <tran loc="fr">Thunderbolt@%d,%d,%d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_infiniband</Position>
+      <TranslationSet>
+        <base loc="en">InfiniBand</base>
+        <tran loc="fr">InfiniBand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Multimedia </Description>
+      <Position>sppci_video</Position>
+      <TranslationSet>
+        <base loc="en">Video</base>
+        <tran loc="fr">Vidéo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_revision-id</Position>
+      <TranslationSet>
+        <base loc="en">Revision ID</base>
+        <tran loc="fr">Identifiant de révision</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_usbopenhost</Position>
+      <TranslationSet>
+        <base loc="en">USB Open Host Controller</base>
+        <tran loc="fr">Contrôleur USB Open Host</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_usbuniversal</Position>
+      <TranslationSet>
+        <base loc="en">USB Universal Host Controller</base>
+        <tran loc="fr">Contrôleur hôte universel USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_rom-revision</Position>
+      <TranslationSet>
+        <base loc="en">ROM Revision</base>
+        <tran loc="fr">Révision de la ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_racewaybridge</Position>
+      <TranslationSet>
+        <base loc="en">RACEway Bridge</base>
+        <tran loc="fr">Pont RACEway</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_ide</Position>
+      <TranslationSet>
+        <base loc="en">IDE Controller</base>
+        <tran loc="fr">Contrôleur IDE</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_expresscard_name</Position>
+      <TranslationSet>
+        <base loc="en">ExpressCard</base>
+        <tran loc="fr">ExpressCard</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_consumerir</Position>
+      <TranslationSet>
+        <base loc="en">Consumer IR</base>
+        <tran loc="fr">Télécommande universelle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_stpci2pcibridge</Position>
+      <TranslationSet>
+        <base loc="en">Semi-Transparent PCI-to-PCI Bridge</base>
+        <tran loc="fr">Pont PCI-PCI semi-transparent</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sppci_device-id</Position>
+      <TranslationSet>
+        <base loc="en">Device ID</base>
+        <tran loc="fr">Identifiant du périphérique</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

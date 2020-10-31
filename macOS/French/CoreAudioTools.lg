@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreAudioTools</ProjName>
+  <File>
+    <Filepath>CoreAudioTools/System/Library/Automator/Encode to MPEG Audio.action/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>PERMISSIONS_PROBLEM_AT_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">The encoded audio files could not be written to the chosen destination folder. Check the permissions of the folder.</base>
+        <tran loc="fr">Les fichiers audio encodés n’ont pas pu être écrits dans le dossier de destination spécifié. Vérifiez les permissions de ce dossier.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENCODING_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">ENCODING ERROR</base>
+        <tran loc="fr">ERREUR D’ENCODAGE</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_VALID_INPUT</Position>
+      <TranslationSet>
+        <base loc="en">No encodable audio files of type AIFF, AIFC, Sd2f, CAFF, or WAVE were passed to this action.</base>
+        <tran loc="fr">Aucun fichier audio encodable de type AIFF, AIFC, Sd2f, CAFF ou WAVE n’a été passé à cette action.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreAudioTools/System/Library/Services/Encode Selected Audio Files.workflow/Contents/Resources/en.lproj/ServicesMenu.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Encode Selected Audio Files</Position>
+      <TranslationSet>
+        <base loc="en">Encode Selected Audio Files</base>
+        <tran loc="fr">Encoder les fichiers audio sélectionnés</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreAudioTools/System/Library/Automator/Encode to MPEG Audio.action/Contents/Resources/en.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Spoken Podcast"; ObjectID = "100024"; </Description>
+      <Position>100024.title</Position>
+      <TranslationSet>
+        <base loc="en">Spoken Podcast</base>
+        <tran loc="fr">Podcast parlé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "No Compression Applied"; ObjectID = "100022"; </Description>
+      <Position>100022.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">No Compression Applied</base>
+        <tran loc="fr">Aucune compression appliquée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Apple Lossless"; ObjectID = "100022"; </Description>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple Lossless</base>
+        <tran loc="fr">Apple Lossless</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete source files after processing"; ObjectID = "100019"; </Description>
+      <Position>100019.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete source files after processing</base>
+        <tran loc="fr">Supprimer les fichiers source après leur traitement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "High-Quality"; ObjectID = "100023"; </Description>
+      <Position>100023.title</Position>
+      <TranslationSet>
+        <base loc="en">High-Quality</base>
+        <tran loc="fr">Qualité supérieure</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Encoder:"; ObjectID = "100027"; </Description>
+      <Position>100027.title</Position>
+      <TranslationSet>
+        <base loc="en">Encoder:</base>
+        <tran loc="fr">Encodeur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "AMPathPopUpButton"; placeholder = "No Selection"; ObjectID = "100014"; </Description>
+      <Position>100014.placeholder</Position>
+      <TranslationSet>
+        <base loc="en">No Selection</base>
+        <tran loc="fr">Aucune sélection</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "ABR 22.05 KHz AAC"; ObjectID = "100024"; </Description>
+      <Position>100024.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">ABR 22.05 KHz AAC</base>
+        <tran loc="fr">AAC ABR 22,05 KHz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "256 kbps 44.1 KHz AAC"; ObjectID = "100025"; </Description>
+      <Position>100025.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">256 kbps 44.1 KHz AAC</base>
+        <tran loc="fr">AAC 256 kbit/s 44,1 KHz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Same as source file"; ObjectID = "100016"; </Description>
+      <Position>100016.title</Position>
+      <TranslationSet>
+        <base loc="en">Same as source file</base>
+        <tran loc="fr">Identique au fichier source</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="fr">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "100021"; </Description>
+      <Position>100021.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="fr">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "iTunes Plus"; ObjectID = "100025"; </Description>
+      <Position>100025.title</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Plus</base>
+        <tran loc="fr">iTunes Plus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "128 kbps 44.1 KHz AAC"; ObjectID = "100023"; </Description>
+      <Position>100023.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">128 kbps 44.1 KHz AAC</base>
+        <tran loc="fr">AAC 128 kbit/s 44,1 KHz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Destination:"; ObjectID = "100026"; </Description>
+      <Position>100026.title</Position>
+      <TranslationSet>
+        <base loc="en">Destination:</base>
+        <tran loc="fr">Destination :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "encoding settings popup menu"; ObjectID = "100012"; </Description>
+      <Position>100012.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">encoding settings popup menu</base>
+        <tran loc="fr">menu local des réglages d’encodage</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreAudioTools/System/Library/Automator/Encode to MPEG Audio.action/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleGetInfoString</Position>
+      <TranslationSet>
+        <base loc="en">1.1, Copyright © 2010 Apple Inc., All Rights Reserved</base>
+        <tran loc="fr">1.1, Copyright © 2010 Apple Inc., tous droits réservés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDRequires</Position>
+      <TranslationSet>
+        <base loc="en">Supported input data types are: AIFF (.aif), CAFF (.caf), and WAVE (.wav)</base>
+        <tran loc="fr">Les types de données d’entrée pris en charge sont: AIFF (.aif), CAFF (.caf), et WAVE (.wav)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2010 Apple Inc., All Rights Reserved.</base>
+        <tran loc="fr">Copyright © 2010 Apple Inc., tous droits réservés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDOptions</Position>
+      <TranslationSet>
+        <base loc="en">Options are available for placing the resulting files in the same directory as their original source files, and for deleting the source files upon completion of the encoding.</base>
+        <tran loc="fr">Il existe des options pour placer les fichiers produits dans le même dossier que les fichiers source originaux ; il est aussi possible de supprimer les fichiers source une fois l’encodage fini.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDWebsite</Position>
+      <TranslationSet>
+        <base loc="en">http://www.macosxautomation.com</base>
+        <tran loc="fr">http://www.macosxautomation.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>AMName</Position>
+      <TranslationSet>
+        <base loc="en">Encode to MPEG Audio</base>
+        <tran loc="fr">Encoder vers audio MPEG</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDSummary</Position>
+      <TranslationSet>
+        <base loc="en">This action will compress the audio files passed from the previous action to MPEG (AAC) format.</base>
+        <tran loc="fr">Cette action compresse au format MPEG (AAC) les fichiers audio transmis par l’action précédente.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreAudioTools/System/Library/Automator/Encode to MPEG Audio.action/Contents/Resources/English.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Spoken Podcast"; ObjectID = "100024"; </Description>
+      <Position>100024.title</Position>
+      <TranslationSet>
+        <base loc="en">Spoken Podcast</base>
+        <tran loc="fr">Podcast parlé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "No Compression Applied"; ObjectID = "100022"; </Description>
+      <Position>100022.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">No Compression Applied</base>
+        <tran loc="fr">Aucune compression appliquée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Apple Lossless"; ObjectID = "100022"; </Description>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple Lossless</base>
+        <tran loc="fr">Apple Lossless</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete source files after processing"; ObjectID = "100019"; </Description>
+      <Position>100019.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete source files after processing</base>
+        <tran loc="fr">Supprimer les fichiers source après leur traitement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "High-Quality"; ObjectID = "100023"; </Description>
+      <Position>100023.title</Position>
+      <TranslationSet>
+        <base loc="en">High-Quality</base>
+        <tran loc="fr">Qualité supérieure</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Encoder:"; ObjectID = "100027"; </Description>
+      <Position>100027.title</Position>
+      <TranslationSet>
+        <base loc="en">Encoder:</base>
+        <tran loc="fr">Encodeur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "AMPathPopUpButton"; placeholder = "No Selection"; ObjectID = "100014"; </Description>
+      <Position>100014.placeholder</Position>
+      <TranslationSet>
+        <base loc="en">No Selection</base>
+        <tran loc="fr">Aucune sélection</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "ABR 22.05 KHz AAC"; ObjectID = "100024"; </Description>
+      <Position>100024.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">ABR 22.05 KHz AAC</base>
+        <tran loc="fr">AAC ABR 22,05 KHz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "256 kbps 44.1 KHz AAC"; ObjectID = "100025"; </Description>
+      <Position>100025.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">256 kbps 44.1 KHz AAC</base>
+        <tran loc="fr">AAC 256 kbit/s 44,1 KHz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Same as source file"; ObjectID = "100016"; </Description>
+      <Position>100016.title</Position>
+      <TranslationSet>
+        <base loc="en">Same as source file</base>
+        <tran loc="fr">Identique au fichier source</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="fr">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "100021"; </Description>
+      <Position>100021.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="fr">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "iTunes Plus"; ObjectID = "100025"; </Description>
+      <Position>100025.title</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Plus</base>
+        <tran loc="fr">iTunes Plus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; ibShadowedToolTip = "128 kbps 44.1 KHz AAC"; ObjectID = "100023"; </Description>
+      <Position>100023.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">128 kbps 44.1 KHz AAC</base>
+        <tran loc="fr">AAC 128 kbit/s 44,1 KHz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Destination:"; ObjectID = "100026"; </Description>
+      <Position>100026.title</Position>
+      <TranslationSet>
+        <base loc="en">Destination:</base>
+        <tran loc="fr">Destination :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "encoding settings popup menu"; ObjectID = "100012"; </Description>
+      <Position>100012.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">encoding settings popup menu</base>
+        <tran loc="fr">menu local des réglages d’encodage</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>RemoteManagement</ProjName>
+  <File>
+    <Filepath>RemoteManagement/System/Library/PrivateFrameworks/RemoteManagement.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Error when trying to enroll with an account but there is already a management source for this account. %@ is the account identifier. </Description>
+      <Position>ManagementSourceWithAccountIdentifierAlreadyExistsError</Position>
+      <TranslationSet>
+        <base loc="en">Cannot enroll using the same account identifier “%@” more than once.</base>
+        <tran loc="fr">Impossible d’effectuer plusieurs fois l’inscription à l’aide de l’identifiant de compte « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unknown internal error has occurred. </Description>
+      <Position>InternalError</Position>
+      <TranslationSet>
+        <base loc="en">An internal error has occurred.</base>
+        <tran loc="fr">Une erreur interne s’est produite.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The XPC connection is not entitled to do the requested action. %@ is the name of the entitlement. </Description>
+      <Position>ConnectionNotEntitledError</Position>
+      <TranslationSet>
+        <base loc="en">Connection is missing “%@” entitlement.</base>
+        <tran loc="fr">La connexion ne dispose pas du droit « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Database validation error, non-optional property with a nil value. </Description>
+      <Position>MissingMandatoryProperty</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is a required value.</base>
+        <tran loc="fr">« %@ » est une valeur requise.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error when trying to enroll into the same management source. %@ is the URI of the previously enrolled management source. </Description>
+      <Position>ManagementSourceAlreadyExistsError</Position>
+      <TranslationSet>
+        <base loc="en">Cannot enroll into the same management source (%@) more than once.</base>
+        <tran loc="fr">Impossible d’effectuer plusieurs fois l’inscription à une même source de gestion (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Database validation error. </Description>
+      <Position>MismatchedValuesError</Position>
+      <TranslationSet>
+        <base loc="en">“%@” was expected to be “%@” but is set to “%@” instead.</base>
+        <tran loc="fr">La valeur attendue pour « %@ » est « %@ », mais elle est définie sur « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error when the downloaded data doesn't match validation rules. %@ is the original URL. </Description>
+      <Position>UnverifiedDownloadError</Position>
+      <TranslationSet>
+        <base loc="en">Data downloaded from “%@” could not be verified.</base>
+        <tran loc="fr">Les données téléchargées depuis « %@ » n’ont pas pu être vérifiées.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error trying to perform an operation on a management source but no management source associated with the account exists. %@ is the account identifier </Description>
+      <Position>ManagementSourceWithAccountIdentifierNotFoundError</Position>
+      <TranslationSet>
+        <base loc="en">Management source with account identifier “%@” cannot be found.</base>
+        <tran loc="fr">Impossible de trouver la source de gestion avec l’identifiant de compte « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Database validation error, a value that was previously set cannot be changed. %@ is the name of the property. </Description>
+      <Position>CannotChangeValueError</Position>
+      <TranslationSet>
+        <base loc="en">“%@” cannot be changed.</base>
+        <tran loc="fr">Impossible de modifier « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Operation produced multiple errors. </Description>
+      <Position>MultipleError</Position>
+      <TranslationSet>
+        <base loc="en">Multiple errors.</base>
+        <tran loc="fr">Plusieurs erreurs.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error trying to perform an operation on a management source that does not exist. %@ is the identifier of the management source. </Description>
+      <Position>ManagementSourceNotFoundError</Position>
+      <TranslationSet>
+        <base loc="en">Management source with “%@” cannot be found.</base>
+        <tran loc="fr">Impossible de trouver la source de gestion « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error when trying to perform a device enrollment when the device already has one. </Description>
+      <Position>TooManyDeviceAuthenticatedManagementSourcesError</Position>
+      <TranslationSet>
+        <base loc="en">The device cannot be enrolled into a device authenticated channel more than once.</base>
+        <tran loc="fr">Impossible d’inscrire plusieurs fois l’appareil sur un canal d’appareil authentifié.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  RemoteManagement
+
+  Copyright © 2018-2019 Apple Inc. All rights reserved.
+
+ Error trying to add a duplicate account. %@ is the account identifier. </Description>
+      <Position>AccountAlreadyExistsError</Position>
+      <TranslationSet>
+        <base loc="en">Account “%@” already exists.</base>
+        <tran loc="fr">Le compte « %@ » existe déjà.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> HTTP Server responded with a content type we don't understand. %@ is the type specified by the server. </Description>
+      <Position>UnhandledContentTypeError</Position>
+      <TranslationSet>
+        <base loc="en">Unable to deserialize response data typed: “%@”.</base>
+        <tran loc="fr">Impossible de désérialiser les données de réponse saisies : « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Encountered an unexpected HTTP error. %ld is the HTTP status code. </Description>
+      <Position>HTTPError</Position>
+      <TranslationSet>
+        <base loc="en">HTTP Error: %ld.</base>
+        <tran loc="fr">Erreur HTTP : %ld.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Specified feature is not implemented. </Description>
+      <Position>NotImplementedError</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is not implemented.</base>
+        <tran loc="fr">« %@ » n’est pas implémenté.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error when trying to enroll with an invalid organization proof. </Description>
+      <Position>OrganizationProofInvalidError</Position>
+      <TranslationSet>
+        <base loc="en">The device cannot be enrolled because the organization proof is invalid.</base>
+        <tran loc="fr">Impossible d’inscrire l’appareil car la preuve de l’organisation n’est pas valide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The device's identity could not be found. </Description>
+      <Position>DeviceIdentityNotFoundError</Position>
+      <TranslationSet>
+        <base loc="en">Could not find the device’s identity certificate.</base>
+        <tran loc="fr">Impossible de trouver le certificat d’identité de l’appareil.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> HTTP Server responded with a payload type we didn't expect. First %@ is the expected payload type, and the second %@ is the actual payload type. </Description>
+      <Position>IncorrectPayloadTypeError</Position>
+      <TranslationSet>
+        <base loc="en">Expected payload type was “%@”, but actual payload type was “%@”.</base>
+        <tran loc="fr">Le type de données utiles attendu est « %@ », mais le type de données utiles réel est « %@ ».</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CryptoTokenKit</ProjName>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/SystemProfiler/SPCtkReporter.spreporter/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SPSmartCardsDataType</Position>
+      <TranslationSet>
+        <base loc="en">SmartCards</base>
+        <tran loc="zh-TW">智慧卡</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVAIL_SMARTCARDS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">Available SmartCards (token)</base>
+        <tran loc="zh-TW">可用的智慧卡（代號）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>READERS_DRIVERS</Position>
+      <TranslationSet>
+        <base loc="en">Reader Drivers</base>
+        <tran loc="zh-TW">讀卡機驅動程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOKEN_DRIVERS</Position>
+      <TranslationSet>
+        <base loc="en">Tokend Drivers</base>
+        <tran loc="zh-TW">代號驅動程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVAIL_SMARTCARDS_KEYCHAIN</Position>
+      <TranslationSet>
+        <base loc="en">Available SmartCards (keychain)</base>
+        <tran loc="zh-TW">可用的智慧卡（鑰匙圈）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>_name</Position>
+      <TranslationSet>
+        <base loc="en">SmartCards Name</base>
+        <tran loc="zh-TW">智慧卡名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>READERS</Position>
+      <TranslationSet>
+        <base loc="en">Readers</base>
+        <tran loc="zh-TW">讀卡機</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTCARDS_DRIVERS</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Drivers</base>
+        <tran loc="zh-TW">智慧卡驅動程式</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  CryptoTokenKit
+</Description>
+      <Position>INVALID_PIN</Position>
+      <TranslationSet>
+        <base loc="en">PIN has invalid format</base>
+        <tran loc="zh-TW">PIN包含錯誤格式</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CryptoTokenKit
+
+  Created by Dan Seknicka on 10/03/2016.
+  Copyright © 2016 Apple. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Pairing</base>
+        <tran loc="zh-TW">智慧卡配對</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Pairing</base>
+        <tran loc="zh-TW">智慧卡配對</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app/Contents/Resources/en.lproj/Bind.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>STORE_UNLOCK_KEY_CURRENT_USER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Login keychain unlock key can be stored only when pairing the current user.</base>
+        <tran loc="zh-TW">只能在配對目前的使用者時儲存登入鑰匙圈解鎖密鑰。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SC_IS_ALREADY_PAIRED</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard is already paired.</base>
+        <tran loc="zh-TW">智慧卡已配對。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORE_UNLOCK_KEY_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Failed to store Login keychain unlock key</base>
+        <tran loc="zh-TW">無法儲存登入鑰匙圈解鎖密鑰</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UN_PAIR</Position>
+      <TranslationSet>
+        <base loc="en">Pair</base>
+        <tran loc="zh-TW">配對</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORE_UNLOCK_KEY_FAILED_INFO</Position>
+      <TranslationSet>
+        <base loc="en">User was successfully paired but user password will be required after next SmartCard login to unlock Login keychain.</base>
+        <tran loc="zh-TW">使用者已配對成功，但下次登入智慧卡來解鎖登入鑰匙圈時，仍需使用者密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTH_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Authorization failed (%d).</base>
+        <tran loc="zh-TW">認證失敗（%d）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNPAIR</Position>
+      <TranslationSet>
+        <base loc="en">Unpair</base>
+        <tran loc="zh-TW">取消配對</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Bind.strings
+  CryptoTokenKit
+
+  Created by Dan Seknicka on 09/03/2016.
+  Copyright © 2016 Apple. All rights reserved.
+</Description>
+      <Position>PAIRING_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard pairing failed.</base>
+        <tran loc="zh-TW">智慧卡配對失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_WRAP_KEY_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">No suitable key was found on the selected SmartCard.</base>
+        <tran loc="zh-TW">在所選的智慧卡上找不到合適的密鑰。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UN_UNSUPPORTED_SC</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported SmartCard inserted</base>
+        <tran loc="zh-TW">已插入不支援的智慧卡</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UN_UNPAIRED_SC</Position>
+      <TranslationSet>
+        <base loc="en">Unpaired SmartCard inserted:\n%@</base>
+        <tran loc="zh-TW">已插入未配對的智慧卡：\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMART_CARD</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard</base>
+        <tran loc="zh-TW">智慧卡</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNSUITABLE_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Current user is paired with unsuitable identity: ’%@’.\nPlease use different identity</base>
+        <tran loc="zh-TW">目前的使用者配對了不合適的識別身分：「%@」。\n請使用其他識別身分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRING_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Cannot pair SmartCard with the current user.\n%@</base>
+        <tran loc="zh-TW">無法與目前的使用者配對智慧卡。\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CryptoTokenKit
+
+  Copyright © 2016 Apple. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Smartcard Agent</base>
+        <tran loc="zh-TW">智慧卡代理程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Smartcard Agent</base>
+        <tran loc="zh-TW">智慧卡代理程式</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>USERSELECTOR_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Unable to use internal component.</base>
+        <tran loc="zh-TW">無法使用內部組件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  CryptoTokenKit
+</Description>
+      <Position>SC_INIT_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard initialization error.</base>
+        <tran loc="zh-TW">智慧卡初始化錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SC_TRUST_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The SmartCard certificate is not trusted.</base>
+        <tran loc="zh-TW">智慧卡憑證不受信任。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SC_ALGO_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard algorithm initialization error.</base>
+        <tran loc="zh-TW">智慧卡演算法初始化錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OD_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">OpenDirectory error.</base>
+        <tran loc="zh-TW">OpenDirectory錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/PlugIns/pivtoken.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>WRONG_CONSTR</Position>
+      <TranslationSet>
+        <base loc="en">Unexpected constraint</base>
+        <tran loc="zh-TW">無法預期的限制</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PIV_AUTH_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For PIV Authentication</base>
+        <tran loc="zh-TW">PIV認證的憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARD_AUTH_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For Card Authentication</base>
+        <tran loc="zh-TW">卡片認證的憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARD_AUTH_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For Card Authentication</base>
+        <tran loc="zh-TW">卡片認證的密鑰</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIG_SIG_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For Digital Signature</base>
+        <tran loc="zh-TW">數位簽名的憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEY_MGMT_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For Key Management</base>
+        <tran loc="zh-TW">密鑰管理的密鑰</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RET_KEY_MGMT_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Retired Certificate For Key Management %ld</base>
+        <tran loc="zh-TW">密鑰管理「%ld」的已過期憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+ pivtoken
+ </Description>
+      <Position>CORRUPTED_CERT</Position>
+      <TranslationSet>
+        <base loc="en">corrupted certificate data</base>
+        <tran loc="zh-TW">已損毀憑證資料</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RET_KEY_MGMT_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Retired Key For Key Management %ld</base>
+        <tran loc="zh-TW">密鑰管理「%ld」的已過期密鑰</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEY_MGMT_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For Key Management</base>
+        <tran loc="zh-TW">密鑰管理的憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PIV_AUTH_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For PIV Authentication</base>
+        <tran loc="zh-TW">PIV認證的密鑰</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIG_SIG_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For Digital Signature</base>
+        <tran loc="zh-TW">數位簽名的密鑰</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, %d tries left</base>
+        <tran loc="zh-TW">PIN 驗證失敗，還可嘗試 %d 次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@tries@</base>
+        <tran loc="zh-TW">%1$#@tries@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, PIN blocked</base>
+        <tran loc="zh-TW">PIN 驗證失敗，已封鎖 PIN</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app/Contents/Resources/en.lproj/BindDialog.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Driver Name"; ObjectID = "5Qp-bv-0oB"; </Description>
+      <Position>5Qp-bv-0oB.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Driver Name</base>
+        <tran loc="zh-TW">驅動程式名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Reader Name"; ObjectID = "q8e-0L-cVQ"; </Description>
+      <Position>q8e-0L-cVQ.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Reader Name</base>
+        <tran loc="zh-TW">讀卡機名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Reader:"; ObjectID = "uxh-O0-Umr"; </Description>
+      <Position>uxh-O0-Umr.title</Position>
+      <TranslationSet>
+        <base loc="en">Reader:</base>
+        <tran loc="zh-TW">讀卡機：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "XHK-fY-6Iz"; </Description>
+      <Position>XHK-fY-6Iz.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Card Identity:"; ObjectID = "9C8-UB-rtC"; </Description>
+      <Position>9C8-UB-rtC.title</Position>
+      <TranslationSet>
+        <base loc="en">Card Identity:</base>
+        <tran loc="zh-TW">卡片識別：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Pair"; ObjectID = "0fw-xO-7qI"; </Description>
+      <Position>0fw-xO-7qI.title</Position>
+      <TranslationSet>
+        <base loc="en">Pair</base>
+        <tran loc="zh-TW">配對</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Driver:"; ObjectID = "Lja-Wn-r5N"; </Description>
+      <Position>Lja-Wn-r5N.title</Position>
+      <TranslationSet>
+        <base loc="en">Driver:</base>
+        <tran loc="zh-TW">驅動程式：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Do you want to connect the inserted SmartCard with the current user?"; ObjectID = "DYa-Jc-3Ur"; </Description>
+      <Position>DYa-Jc-3Ur.title</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to connect the inserted SmartCard with the current user?</base>
+        <tran loc="zh-TW">您要讓目前的使用者連接插入的智慧卡嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Do not show again"; ObjectID = "mve-qQ-5ug"; </Description>
+      <Position>mve-qQ-5ug.title</Position>
+      <TranslationSet>
+        <base loc="en">Do not show again</base>
+        <tran loc="zh-TW">不要再顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "SmartCard Pairing"; ObjectID = "F0z-JX-Cv5"; </Description>
+      <Position>F0z-JX-Cv5.title</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Pairing</base>
+        <tran loc="zh-TW">智慧卡配對</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

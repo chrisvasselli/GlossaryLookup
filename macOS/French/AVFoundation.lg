@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AVFoundation</ProjName>
+  <File>
+    <Filepath>AVFoundation/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/English.lproj/AVMediaSelectionOption.strings</Filepath>
+    <TextItem>
+      <Description> Append one or more characteristics, sometimes with format information, to a legible option's display name, e.g. "English CC Easy Reader" </Description>
+      <Position>SDH_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ SDH</base>
+        <tran loc="fr">%1$@ Sous-titrage SM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EASYTOREAD_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ Easy Reader</base>
+        <tran loc="fr">%1$@ Lecture simplifiée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Append one or more characteristics, sometimes with format information, to an audible option's display name, e.g. "Russian Overdub Audio Dolby Digital". </Description>
+      <Position>DESCRIBESVIDEO_AUDIO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ AD</base>
+        <tran loc="fr">%1$@ AD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CC_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ CC</base>
+        <tran loc="fr">%1$@ STC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORCEDONLY_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ Forced</base>
+        <tran loc="fr">%1$@ Sous-titres forcés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Use this as the option's language name if it's missing </Description>
+      <Position>UNKNOWN_LANGUAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="fr">Inconnue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When a media selection option has a title in its metadata, arrange the language code next to it, e.g. "Director's Commentary - English" </Description>
+      <Position>SUBTITLE_TRACK_DISPLAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ - %2$@</base>
+        <tran loc="fr">%1$@ - %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUDIOENCODING_AUDIO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="fr">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This characteristic will be used for voice overdubs for which a narrator speaks over the main program audio in another language (e.g. Russian, Polish). </Description>
+      <Position>VOICEOVERTRANSLATION_AUDIO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ Overdub Audio</base>
+        <tran loc="fr">Surimpression sonore %1$@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AVFoundation/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/English.lproj/AVError.strings</Filepath>
+    <TextItem>
+      <Description> the file cannot be larger than a certain size on disk </Description>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumFileSizeReached_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The recording reached the maximum allowable file size.</base>
+        <tran loc="fr">L’enregistrement a atteint la taille de fichier maximale permise.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileAlreadyExists_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Save</base>
+        <tran loc="fr">Impossible d’enregistrer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileTypeDoesNotSupportSampleReferences_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write output file</base>
+        <tran loc="fr">Impossible d’écrire dans le fichier de sortie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidOutputURLPathExtension_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write output file</base>
+        <tran loc="fr">Impossible d’écrire dans le fichier de sortie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorized_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionAssetNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCompositionTrackSegmentsNotContiguous_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsNotAuthorized_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFailedToParse_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFormatNotRecognized_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncompatibleAsset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentDuration_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceDuration_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceStartTime_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidSourceMedia_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoImageAtTime_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoSourceTrack_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorReferenceForbiddenByReferencePolicy_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %d is the underlying error code, most likely in the OSStatus domain </Description>
+      <Position>AVFoundationErrorDomain_AVErrorUnknown_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred (%d)</base>
+        <tran loc="fr">Une erreur inconnue s’est produite (%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExternalPlaybackNotSupportedForAsset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The content cannot be played on the device.</base>
+        <tran loc="fr">Le contenu ne peut pas être lu sur cet appareil.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoCompatibleAlternatesForExternalDisplay_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The content cannot be played on the device.</base>
+        <tran loc="fr">Le contenu ne peut pas être lu sur cet appareil.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaServicesWereReset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Complete Action</base>
+        <tran loc="fr">Impossible d’effectuer l’action</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOutOfMemory_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Complete Action</base>
+        <tran loc="fr">Impossible d’effectuer l’action</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPIN_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try connecting again using the correct passcode.</base>
+        <tran loc="fr">Essayez à nouveau de vous connecter avec le bon code.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoCompatibleAlternatesForExternalDisplay_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot open</base>
+        <tran loc="fr">Ouverture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceWasDisconnected_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumDurationReached_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumFileSizeReached_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumNumberOfSamplesForFileFormatReached_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaChanged_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDiscontinuity_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionConfigurationChanged_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionWasInterrupted_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="fr">Enregistrement arrêté</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaServicesWereReset_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try again later.</base>
+        <tran loc="fr">Réessayez plus tard.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOutOfMemory_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try again later.</base>
+        <tran loc="fr">Réessayez plus tard.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentNotUpdated_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">Stream ended unexpectedly.</base>
+        <tran loc="fr">Le flux s’est interrompu subitement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderTemporarilyUnavailable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The decoder required for this media is busy.</base>
+        <tran loc="fr">Le décodeur requis pour ce contenu multimédia est occupé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFormatNotRecognized_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media format is not supported.</base>
+        <tran loc="fr">Ce format de données multimédias n’est pas reconnu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidSourceMedia_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media format is not supported.</base>
+        <tran loc="fr">Ce format de données multimédias n’est pas reconnu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDisplayWasDisabled_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot capture</base>
+        <tran loc="fr">Capture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayControllerRequiresInternet_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This device requires an internet connection.</base>
+        <tran loc="fr">Cet appareil requiert une connexion Internet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorizedToUseDevice_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot use %@</base>
+        <tran loc="fr">Impossible d’utiliser %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationRequiresBothBudsInEar_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Set Listening Mode</base>
+        <tran loc="fr">Impossible de définir le mode d’écoute</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorVideoCompositorFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The video could not be composited.</base>
+        <tran loc="fr">La vidéo n’a pas pu être composée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationRequiresBothBudsInEar_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">Must have both buds in ear to set the desired listening mode.</base>
+        <tran loc="fr">Les deux écouteurs doivent être insérés dans vos oreilles pour activer le mode d’écoute désiré.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDataWritingExceededPredeterminedSize_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The size of the media data would exceed the predetermined size.</base>
+        <tran loc="fr">La taille des données multimédias serait supérieure à la taille prédéterminée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncompatibleAsset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media cannot be used on this computer.</base>
+        <tran loc="fr">Le contenu multimédia ne peut pas être utilisé sur cet ordinateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorizedToUseDevice_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This app is not authorized to use %@.</base>
+        <tran loc="fr">Cette application n’est pas autorisée à utiliser %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorTorchLevelUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">The torch could not be turned on.</base>
+        <tran loc="fr">La torche n’a pas pu être allumée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceAlreadyUsedByAnotherSession_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the %@ and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action effectuée avec l’%@ puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceInUseByAnotherApplication_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the %@ and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action effectuée avec l’%@ puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceLockedForConfigurationByAnotherProcess_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the %@ and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action effectuée avec l’%@ puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceInUseByAnotherApplication_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Use %@</base>
+        <tran loc="fr">Impossible d’utiliser l’%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceIsNotAvailableInBackground_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Use %@</base>
+        <tran loc="fr">Impossible d’utiliser l’%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceLockedForConfigurationByAnotherProcess_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Use %@</base>
+        <tran loc="fr">Impossible d’utiliser l’%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionAssetNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The collection of audiovisual resources does not contain the requested media.</base>
+        <tran loc="fr">La collection de ressources audiovisuelles ne contient pas les éléments multimédias demandés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUnsupportedOutputSettings_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The encoding parameters are not supported.</base>
+        <tran loc="fr">Les paramètres d’encodage ne sont pas pris en charge.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceIsNotAvailableInBackground_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">%@ may not be used by an app running in the background.</base>
+        <tran loc="fr">%@ ne peut pas être utilisé par une app en exécution en arrière-plan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUndecodableMediaData_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media data could not be decoded on this computer.</base>
+        <tran loc="fr">Impossible de décoder les données multimédia sur cet ordinateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidFileAtDownloadDestinationURL_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The cache file at the download destination URL cannot be used.</base>
+        <tran loc="fr">Le fichier de cache situé à l’URL de destination du téléchargement est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaFileSegmentationFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Media segmentation stopped</base>
+        <tran loc="fr">Segmentation multimédia interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecodeFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media data could not be decoded. It may be damaged.</base>
+        <tran loc="fr">Impossible de décoder les données de ce support. Il est peut-être endommagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPassword_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The password is incorrect.</base>
+        <tran loc="fr">Mot de passe incorrect.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorClientProgrammingError_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The application encountered a programming error.</base>
+        <tran loc="fr">L’application a rencontré une erreur de programmation.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotAllowed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The application encountered a programming error.</base>
+        <tran loc="fr">L’application a rencontré une erreur de programmation.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderTemporarilyUnavailable_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions that decode media and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action qui décode le support puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotAllowed_Description</Position>
+      <TranslationSet>
+        <base loc="en">The operation is not allowed</base>
+        <tran loc="fr">L’opération est interdite</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the path</Description>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">“%@” does not contain a supported collection of audiovisual resources.</base>
+        <tran loc="fr">« %@ » ne contient pas une collection prise en charge de ressources audiovisuelles.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUnsupportedOutputSettings_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Encode Media</base>
+        <tran loc="fr">Impossible d’encoder l’élément multimédia</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the file type </Description>
+      <Position>AVFoundationErrorDomain_AVErrorFileTypeDoesNotSupportSampleReferences_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">File type “%@” does not support this feature</base>
+        <tran loc="fr">Le fichier de type « %@ » ne prend pas en charge cette fonctionnalité</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file is DRM protected </Description>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsProtected_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The operation is not supported for protected files.</base>
+        <tran loc="fr">L’opération n’est pas prise en charge pour les fichiers protégés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPIN_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The passcode is incorrect.</base>
+        <tran loc="fr">Code incorrect.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file is DRM protected </Description>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorized_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This app is not authorized to play protected files.</base>
+        <tran loc="fr">Cette app n’est pas autorisée à lire des fichiers protégés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoLongerPlayable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">Could not download required resources.</base>
+        <tran loc="fr">Impossible de télécharger les ressources requises.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorClientProgrammingError_Description</Position>
+      <TranslationSet>
+        <base loc="en">The operation could not be completed</base>
+        <tran loc="fr">L’opération n’a pas pu être effectuée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localized strings for NSErrors returned by AVFoundation.
+
+ When displayed in an alert, the strings whose keys end in _Description will be the alert title.
+ The strings whose keys end in _RecoverySuggestion or _FailureReason will be the alert body.
+ </Description>
+      <Position>AVFoundationErrorDomain_AVErrorUnknown_Description</Position>
+      <TranslationSet>
+        <base loc="en">The operation could not be completed</base>
+        <tran loc="fr">L’opération n’a pas pu être effectuée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file cannot be longer than a certain duration </Description>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumDurationReached_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The recording reached the maximum allowable length.</base>
+        <tran loc="fr">L’enregistrement a atteint la longueur maximale permise.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file cannot be longer than a certain duration </Description>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumNumberOfSamplesForFileFormatReached_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The recording reached the maximum allowable length.</base>
+        <tran loc="fr">L’enregistrement a atteint la longueur maximale permise.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExportFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Complete Export</base>
+        <tran loc="fr">Impossible d’effectuer l’exportation</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsProtected_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCreateContentKeyRequestFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDiskFull_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToLoadMediaData_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidFileAtDownloadDestinationURL_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidVideoComposition_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForAsset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForPreset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorServerIncorrectlyConfigured_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSubscriptionHasExpired_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorVideoCompositorFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="fr">Opération interrompue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorScreenCaptureFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Capture</base>
+        <tran loc="fr">Capture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToParse_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Parse</base>
+        <tran loc="fr">Impossible d’analyser</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToLoadMediaData_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media may be damaged.</base>
+        <tran loc="fr">Ce contenu multimédia est peut-être endommagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFailedToParse_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media may be damaged.</base>
+        <tran loc="fr">Ce contenu multimédia est peut-être endommagé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForPreset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The operation cannot be performed for this preset.</base>
+        <tran loc="fr">Impossible d’effectuer l’opération pour ce préréglage.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExternalPlaybackNotSupportedForAsset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot play</base>
+        <tran loc="fr">Lecture impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMalformedDepth_Description</Position>
+      <TranslationSet>
+        <base loc="en">Depth is malformed</base>
+        <tran loc="fr">Profondeur est mal formée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceNotConnected_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="fr">Réessayez d’enregistrer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceWasDisconnected_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="fr">Réessayez d’enregistrer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaChanged_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="fr">Réessayez d’enregistrer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoDataCaptured_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="fr">Réessayez d’enregistrer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionConfigurationChanged_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="fr">Réessayez d’enregistrer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionNotRunning_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="fr">Réessayez d’enregistrer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExportFailed_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try exporting again.</base>
+        <tran loc="fr">Réessayez d’exporter.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumStillImageCaptureRequestsExceeded_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try taking a photo again.</base>
+        <tran loc="fr">Réessayez de prendre une photo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayReceiverRequiresInternet_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Check the AirPlay device’s network settings and try again.</base>
+        <tran loc="fr">Vérifiez les réglages du réseau de l’appareil AirPlay puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPIN_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot connect to device</base>
+        <tran loc="fr">Impossible de se connecter à l’appareil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPassword_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot connect to device</base>
+        <tran loc="fr">Impossible de se connecter à l’appareil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDisplayWasDisabled_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Make sure the display does not go to sleep or become disconnected during the capture.</base>
+        <tran loc="fr">Assurez-vous que l’écran ne se met pas en veille ou n’est pas déconnecté pendant la capture.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayControllerRequiresInternet_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Check network settings and try again.</base>
+        <tran loc="fr">Vérifiez les réglages réseau, puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileWritingExceededPredeterminedSize_Description</Position>
+      <TranslationSet>
+        <base loc="en">File writing Stopped</base>
+        <tran loc="fr">Écriture du fichier arrêtée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDataWritingExceededPredeterminedSize_Description</Position>
+      <TranslationSet>
+        <base loc="en">File writing Stopped</base>
+        <tran loc="fr">Écriture du fichier arrêtée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidVideoComposition_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The video could not be composed.</base>
+        <tran loc="fr">La vidéo n’a pas pu être composée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCompositionTrackSegmentsNotContiguous_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentDuration_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceDuration_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceStartTime_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoImageAtTime_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoSourceTrack_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorReferenceForbiddenByReferencePolicy_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="fr">Ce contenu multimédia est inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileAlreadyExists_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">The requested file name is already in use. Try a different file name or location.</base>
+        <tran loc="fr">Le nom de fichier demandé est déjà utilisé. Essayez un nom de fichier ou un emplacement différent.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumStillImageCaptureRequestsExceeded_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Take Photo</base>
+        <tran loc="fr">Impossible de prendre une photo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDiskFull_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough available space to continue the file writing. Make room by deleting existing videos or photos.</base>
+        <tran loc="fr">Vous ne disposez pas d’assez d’espace libre pour poursuivre l’écriture du fichier. Libérez-en en effaçant des vidéos ou des photos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The decoder required for this media cannot be found.</base>
+        <tran loc="fr">Le décodeur requis pour ce contenu multimédia est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecodeFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="fr">Impossible de décoder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="fr">Impossible de décoder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderTemporarilyUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="fr">Impossible de décoder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUndecodableMediaData_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="fr">Impossible de décoder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDiscontinuity_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the recording device and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action effectuée avec l’appareil d’enregistrement puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionWasInterrupted_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the recording device and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action effectuée avec l’appareil d’enregistrement puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForAsset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The operation is not supported for this media.</base>
+        <tran loc="fr">L’opération n’est pas prise en charge pour ce contenu multimédia.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayControllerRequiresInternet_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot AirPlay</base>
+        <tran loc="fr">Utilisation d’AirPlay impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayReceiverRequiresInternet_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot AirPlay</base>
+        <tran loc="fr">Utilisation d’AirPlay impossible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDisplayWasDisabled_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The display became disabled.</base>
+        <tran loc="fr">L’écran a été désactivé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderTemporarilyUnavailable_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions that encode media and try again.</base>
+        <tran loc="fr">Arrêtez toute autre action qui encode le support puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceAlreadyUsedByAnotherSession_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="fr">Impossible d’enregistrer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceNotConnected_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="fr">Impossible d’enregistrer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoDataCaptured_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="fr">Impossible d’enregistrer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionNotRunning_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="fr">Impossible d’enregistrer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPassword_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try connecting again using the correct password.</base>
+        <tran loc="fr">Essayez à nouveau de vous connecter avec le bon mot de passe.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The encoder required for this media cannot be found.</base>
+        <tran loc="fr">L’encodeur requis pour ce contenu multimédia est introuvable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFormatUnsupported_Description</Position>
+      <TranslationSet>
+        <base loc="en">Format Unsupported</base>
+        <tran loc="fr">Format non pris en charge</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMalformedDepth_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The depth data provided is malformed and cannot be used.</base>
+        <tran loc="fr">La profondeur indiquée est mal formée et inutilisable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileWritingExceededPredeterminedSize_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The size of the file would exceed the predetermined size.</base>
+        <tran loc="fr">La taille du fichier serait supérieure à la taille prédéterminée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToParse_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This data is damaged, incomplete, or incompatible.</base>
+        <tran loc="fr">Ces données sont endommagées, incomplètes ou incompatibles.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorTorchLevelUnavailable_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try turning the torch on at a lower level.</base>
+        <tran loc="fr">Essayez d’allumer la torche à un niveau inférieur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorScreenCaptureFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">There was an unexpected problem with the graphics sub-system that prevented screen capture.</base>
+        <tran loc="fr">Un problème inattendu lié au sous-système graphique est survenu lors de la capture d’écran.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsUnavailable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This content is no longer available.</base>
+        <tran loc="fr">Ce contenu n’est plus disponible.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaFileSegmentationFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media file could not be segmented.</base>
+        <tran loc="fr">Le fichier multimédia ne peut pas être segmenté.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorServerIncorrectlyConfigured_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The server is not correctly configured.</base>
+        <tran loc="fr">Le serveur n’est pas configuré correctement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file is DRM protected, %@ is the file name </Description>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsNotAuthorized_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This computer is not authorized to play %@.</base>
+        <tran loc="fr">Cet ordinateur n’est pas autorisé à lire %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationRequiresBothBudsInEar_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Make sure both buds are in ear.</base>
+        <tran loc="fr">Assurez-vous que les deux écouteurs sont insérés dans vos oreilles.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFormatUnsupported_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The format of this content is unsupported.</base>
+        <tran loc="fr">Le format de ce contenu n’est pas pris en charge.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderTemporarilyUnavailable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The encoder required for this media is busy.</base>
+        <tran loc="fr">L’encodeur requis pour ce contenu multimédia est occupé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayReceiverRequiresInternet_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The AirPlay device requires an internet connection.</base>
+        <tran loc="fr">L’appareil AirPlay requiert une connexion Internet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidOutputURLPathExtension_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Change the output extension and try again.</base>
+        <tran loc="fr">Changez l’extension de sortie et réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Encode</base>
+        <tran loc="fr">Impossible d’encoder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderTemporarilyUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Encode</base>
+        <tran loc="fr">Impossible d’encoder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSubscriptionHasExpired_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This content is not authorized.</base>
+        <tran loc="fr">Contenu non autorisé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCreateContentKeyRequestFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This content cannot be authorized.</base>
+        <tran loc="fr">Ce contenu ne peut pas être autorisé.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentNotUpdated_Description</Position>
+      <TranslationSet>
+        <base loc="en">Playback Stopped</base>
+        <tran loc="fr">Lecture arrêtée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoLongerPlayable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Playback Stopped</base>
+        <tran loc="fr">Lecture arrêtée</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AVFoundation/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/English.lproj/AVCaptureDeviceNames.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>AVCaptureDeviceUnknownDevice</Position>
+      <TranslationSet>
+        <base loc="en">Unknown Device</base>
+        <tran loc="fr">Appareil inconnu</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

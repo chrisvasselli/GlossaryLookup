@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>MediaPlayerFramework_iosmac</ProjName>
+  <File>
+    <Filepath>MediaPlayerFramework_iosmac/System/iOSSupport/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/Resources/en.lproj/MediaPlaybackCore.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>LANGUAGE_OPTIONS_AUTO_SELECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Auto</base>
+        <tran loc="zh-TW">自動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LANGUAGE_OPTIONS_SUBTITLE_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Subtitles</base>
+        <tran loc="zh-TW">字幕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LANGUAGE_OPTIONS_AUDIO_SECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Audio</base>
+        <tran loc="zh-TW">音訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  MediaPlaybackCore.strings
+  MediaPlayerFramework
+
+  Created by Jonathan Cools-Lartigue on 10/4/18.
+  Copyright © 2018 Apple Inc. All rights reserved.
+</Description>
+      <Position>LANGUAGE_OPTIONS_EMPTY_SELECTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MediaPlayerFramework_iosmac/System/iOSSupport/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/Resources/en.lproj/PlayerPathDisplayName.strings</Filepath>
+    <TextItem>
+      <Description> Player Path Display Names 
+ Translation needs to match iOS's Music app name</Description>
+      <Position>com.apple.Music</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="zh-TW">音樂</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Translation needs to match iOS's Podcasts app name</Description>
+      <Position>com.apple.podcasts</Position>
+      <TranslationSet>
+        <base loc="en">Podcasts</base>
+        <tran loc="zh-TW">Podcast</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MediaPlayerFramework_iosmac/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/Resources/en.lproj/MediaPlayer.strings</Filepath>
+    <TextItem>
+      <Description> Automatically enable a subtitle in the system language if the audio language is not the system language </Description>
+      <Position>AUTO_SUBTITLES</Position>
+      <TranslationSet>
+        <base loc="en">Auto (Recommended)</base>
+        <tran loc="zh-TW">自動（建議使用）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_CLOUD_LIBRARY_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Music Library couldn’t be enabled.</base>
+        <tran loc="zh-TW">無法啟用「iCloud音樂資料庫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_CLOUD_LIBRARY_FAILED_TOO_MANY_ITEMS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Music Library couldn’t be enabled.</base>
+        <tran loc="zh-TW">無法啟用「iCloud音樂資料庫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_PASSWORD_ALERT_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">password</base>
+        <tran loc="zh-TW">密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_NAG_MULTITASK_TV_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Replace what is playing on this TV?</base>
+        <tran loc="zh-TW">要取代此電視上的播放內容嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_INTERRUPT_LOCAL_MULTITASK_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Interrupt what is playing on “%@”?</base>
+        <tran loc="zh-TW">要中斷「%@」上的播放內容嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUBTITLES_2013</Position>
+      <TranslationSet>
+        <base loc="en">SUBTITLES &amp; CC</base>
+        <tran loc="zh-TW">字幕與CC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_OFF_ACTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">iPad (AirPlay Mirroring Off)</base>
+        <tran loc="zh-TW">iPad（已關閉AirPlay鏡像輸出）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unknown playback time duration </Description>
+      <Position>UNKNOWN_DURATION</Position>
+      <TranslationSet>
+        <base loc="en">--:--</base>
+        <tran loc="zh-TW">--:--</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_IPAD_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">With AirPlay Mirroring you can send everything on your iPad’s display to an Apple TV, wirelessly.</base>
+        <tran loc="zh-TW">有了「AirPlay鏡像輸出」，您就可以將iPad螢幕上的畫面以無線方式傳送到Apple TV。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PICKER_NO_RESULTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Try Again</base>
+        <tran loc="zh-TW">再試一次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "L: 90%  R: 42%", note double space </Description>
+      <Position>AIRPLAY_DEVICE_BATTERY_LEVEL_COMBINED_FORMAT_%@_%@</Position>
+      <TranslationSet>
+        <base loc="en">L: %1$@  R: %2$@</base>
+        <tran loc="zh-TW">左：%1$@  右：%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_OFF_ACTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">iPod (AirPlay Mirroring Off)</base>
+        <tran loc="zh-TW">iPod（已關閉AirPlay鏡像輸出）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to center-truncate route names: "Livi…Room" instead of Living Room </Description>
+      <Position>ROUTE_NAME_CENTER_TRUNCATING_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">…</base>
+        <tran loc="zh-TW">⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SEASON_DISPLAY_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">Season %@</base>
+        <tran loc="zh-TW">第%@季</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUDIO_AND_SUBTITLES_POPOVER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Audio &amp; Subtitles</base>
+        <tran loc="zh-TW">音訊與字幕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> B188 battery level (left bud) </Description>
+      <Position>AIRPLAY_DEVICE_BATTERY_LEVEL_LEFT_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">L: %@</base>
+        <tran loc="zh-TW">左：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown next to the name of a radio station, such as "Pure Pop" + "Radio" </Description>
+      <Position>RADIO_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-TW">廣播</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_POPOVER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay</base>
+        <tran loc="zh-TW">AirPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_VIDEO_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay</base>
+        <tran loc="zh-TW">AirPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_VIDEO_POPOVER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay</base>
+        <tran loc="zh-TW">AirPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_PASSWORD_ALERT_MESSAGE_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@”</base>
+        <tran loc="zh-TW">輸入「%@」的密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_CLOUD_LIBRARY_FAILED_TOO_MANY_ITEMS_MESSAGE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Merging your Libraries would put you over the song limit. Delete songs from this iPhone and try again, or delete and replace this Library with your iCloud Music Library.</base>
+        <tran loc="zh-TW">合併資料庫會超過歌曲數量上限。請刪除此iPhone上的歌曲，然後再試一次，或選擇以「iCloud音樂資料庫」取代此資料庫。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_TIME_FULL_WIDTH_NO_HOURS_FORMAT_%@_%d_%d</Position>
+      <TranslationSet>
+        <base loc="en">%@%02d:%02d</base>
+        <tran loc="zh-TW">%@%02d:%02d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HDCP_PROTECTION_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Play Movie</base>
+        <tran loc="zh-TW">無法播放電影</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> B188 battery level (right bud) </Description>
+      <Position>AIRPLAY_DEVICE_BATTERY_LEVEL_RIGHT_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">R: %@</base>
+        <tran loc="zh-TW">右：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUARTER_SPEED_SCRUBBING</Position>
+      <TranslationSet>
+        <base loc="en">Quarter-Speed Scrubbing</base>
+        <tran loc="zh-TW">四分之一速度移動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_COMPACT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Mirror your iPhone on an Apple TV.</base>
+        <tran loc="zh-TW">將您的iPhone鏡像輸出到Apple TV。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_HEADER_SPEAKERS_AND_TVS</Position>
+      <TranslationSet>
+        <base loc="en">SPEAKERS &amp; TVs</base>
+        <tran loc="zh-TW">揚聲器與電視</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_COULD_NOT_LOAD_MOVIE</Position>
+      <TranslationSet>
+        <base loc="en">Could not load movie</base>
+        <tran loc="zh-TW">無法載入影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXPLICIT_CONTENT_NOT_ALLOWED_ENABLE_EXPLICIT_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Allow Explicit</base>
+        <tran loc="zh-TW">允許兒童不宜的內容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_SHARE_AUDIO_DISABLED_CARPLAY</Position>
+      <TranslationSet>
+        <base loc="en">Not available in CarPlay</base>
+        <tran loc="zh-TW">CarPlay中無法使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_SUPPORTED</Position>
+      <TranslationSet>
+        <base loc="en">The requested action is not supported</base>
+        <tran loc="zh-TW">不支援要求的動作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_NAG_MULTITASK_TV_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Selecting this TV will pause what it is currently playing and play the selected content.</base>
+        <tran loc="zh-TW">選取此電視將會暫停目前的內容並取代為所選的播放內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %d of %d </Description>
+      <Position>POSITION_IN_PLAYLIST_FORMAT_%@_%@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ of %2$@</base>
+        <tran loc="zh-TW">%1$@/%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXPLICIT_CONTENT_NOT_ALLOWED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Explicit Content</base>
+        <tran loc="zh-TW">兒童不宜內容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_INTERRUPT_LOCAL_MULTITASK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Using AirPlay in “%@” will pause what “%@“ is currently playing.</base>
+        <tran loc="zh-TW">在「%@」中使用AirPlay將會暫停「%@」上的播放內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FINE_SCRUBBING</Position>
+      <TranslationSet>
+        <base loc="en">Fine Scrubbing</base>
+        <tran loc="zh-TW">細部移動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PLAYLIST_OFFLINE_SUBTITLE_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a Wi-Fi network to create a Genius Playlist.</base>
+        <tran loc="zh-TW">連接Wi-Fi網路來製作「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_COMPACT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Mirror your iPod on an Apple TV.</base>
+        <tran loc="zh-TW">將您的iPod鏡像輸出到Apple TV。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iPhone → HomePod </Description>
+      <Position>ROUTE_NAME_ARROW_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ → %@</base>
+        <tran loc="zh-TW">%@ → %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_CLOUD_LIBRARY_FAILED_TOO_MANY_ITEMS_MESSAGE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Merging your Libraries would put you over the song limit. Delete songs from this iPod and try again, or delete and replace this Library with your iCloud Music Library.</base>
+        <tran loc="zh-TW">合併資料庫會超過歌曲數量上限。請刪除此iPod上的歌曲，然後再試一次，或選擇以「iCloud音樂資料庫」取代此資料庫。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VIEW</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-TW">檢視</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic wireless audio device battery level </Description>
+      <Position>AIRPLAY_DEVICE_BATTERY_LEVEL_SINGLE_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">Battery: %@</base>
+        <tran loc="zh-TW">電池：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> indicates closed captioned </Description>
+      <Position>CC_SUBTITLE_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">%@ CC</base>
+        <tran loc="zh-TW">%@CC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_NO_ROUTES_AVAILABLE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">No Routes Available</base>
+        <tran loc="zh-TW">沒有可用的路徑</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to turn off mirroring and switch route back to local device. </Description>
+      <Position>AIRPLAY_MIRRORING_OFF_ACTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">iPhone (AirPlay Mirroring Off)</base>
+        <tran loc="zh-TW">iPhone（已關閉AirPlay鏡像輸出）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_MIX_OFFLINE</Position>
+      <TranslationSet>
+        <base loc="en">Offline</base>
+        <tran loc="zh-TW">離線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_COMPACT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Mirror your iPad on an Apple TV.</base>
+        <tran loc="zh-TW">將您的iPad鏡像輸出到Apple TV。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_SHARE_AUDIO_DISABLED_CARKIT_SAME_OWNER</Position>
+      <TranslationSet>
+        <base loc="en">Sharing audio with more than one user is not available while connected to car Bluetooth.</base>
+        <tran loc="zh-TW">連接車用藍牙時無法與超過一位使用者共享音訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DETAIL_SCRUB_INSTRUCTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Slide your finger down to adjust the scrubbing rate.</base>
+        <tran loc="zh-TW">向下滑動手指來調整移動速率。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PLAYLIST_OFFLINE_SUBTITLE_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a WLAN to create a Genius Playlist.</base>
+        <tran loc="zh-TW">連接WLAN來製作「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXPLICIT_CONTENT_NOT_ALLOWED_DUE_TO_RESTRICTIONS_%@</Position>
+      <TranslationSet>
+        <base loc="en">Explicit content is restricted on this %@.</base>
+        <tran loc="zh-TW">此%@無法播放兒童不宜內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_TIME_SHORT_WIDTH_HOURS_FORMAT_%@_%d_%d_%d</Position>
+      <TranslationSet>
+        <base loc="en">%@%d:%02d:%02d</base>
+        <tran loc="zh-TW">%@%d:%02d:%02d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_IPHONE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">With AirPlay Mirroring you can send everything on your iPhone’s display to an Apple TV, wirelessly.</base>
+        <tran loc="zh-TW">有了「AirPlay鏡像輸出」，您就可以將iPhone螢幕上的畫面以無線方式傳送到Apple TV。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HDCP_PROTECTION_ERROR_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The connected display is not authorized to play protected movies.</base>
+        <tran loc="zh-TW">連接的顯示器未被授權播放版權保護的電影。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_NAG_MULTITASK_SPEAKER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Replace what is playing on this speaker?</base>
+        <tran loc="zh-TW">要取代此揚聲器上的播放內容嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_FOUND</Position>
+      <TranslationSet>
+        <base loc="en">The requested ID could not be found</base>
+        <tran loc="zh-TW">找不到要求的識別碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_FEATURE_NOT_AVAILABLE_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Genius Playlists are not enabled.\nUse iTunes to enable Genius Playlists.</base>
+        <tran loc="zh-TW">尚未啟用「智選推薦播放列表」。\n請使用iTunes來啟用「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_VIDEO_PLACEHOLDER_SUBTITLE_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">This video is playing on “%@”.</base>
+        <tran loc="zh-TW">此影片正在「%@」上播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_TIME_ALT_SHORT_WIDTH_HOURS_FORMAT_%@_%d_%d</Position>
+      <TranslationSet>
+        <base loc="en">%@%d:%02dh</base>
+        <tran loc="zh-TW">%@%d:%02d時</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_VOLUME_AVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">No Volume Available</base>
+        <tran loc="zh-TW">沒有可用的音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PLAYLIST_OFFLINE_SUBTITLE_CELLULAR</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a cellular network to create a Genius Playlist.</base>
+        <tran loc="zh-TW">連接行動網路來製作「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_ENABLED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Mirroring</base>
+        <tran loc="zh-TW">鏡像輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Live streaming </Description>
+      <Position>LIVE</Position>
+      <TranslationSet>
+        <base loc="en">Live</base>
+        <tran loc="zh-TW">直播</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Currently only used by CarPlay. </Description>
+      <Position>FOR_YOU_PERSONAL_MIXES_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Personal Mixes</base>
+        <tran loc="zh-TW">個人組曲</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Speaker contention </Description>
+      <Position>ROUTING_SPEAKER_HIJACK_NAG_CONFIRM</Position>
+      <TranslationSet>
+        <base loc="en">Replace</base>
+        <tran loc="zh-TW">取代</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXPLICIT_CONTENT_NOT_ALLOWED_DUE_TO_SWITCH</Position>
+      <TranslationSet>
+        <base loc="en">To listen to this station, you must allow explicit tracks for iTunes Radio.</base>
+        <tran loc="zh-TW">若要收聽此電台，您必須允許iTunes Radio播放兒童不宜內容的音軌。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_HEADER_HEADPHONES</Position>
+      <TranslationSet>
+        <base loc="en">HEADPHONES</base>
+        <tran loc="zh-TW">耳機</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_TIME_SHORT_WIDTH_NO_HOURS_FORMAT_%@_%d_%d</Position>
+      <TranslationSet>
+        <base loc="en">%@%d:%02d</base>
+        <tran loc="zh-TW">%@%d:%02d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred.</base>
+        <tran loc="zh-TW">發生未知的錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_IN_USE_ON_PAIRED_DEVICE_%@</Position>
+      <TranslationSet>
+        <base loc="en">In Use on %@</base>
+        <tran loc="zh-TW">正在「%@」上使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_NAG_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TCC_EXPIRATION_REJECT_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TCC_EXPIRATION_ACCEPT_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keep Sharing</base>
+        <tran loc="zh-TW">繼續分享</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TCC_EXPIRATION_MULTIPLE_APPS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keep sharing your music and video activity with these apps so you can use them with Apple Music:</base>
+        <tran loc="zh-TW">繼續與這些App分享您的音樂和影片活動來與Apple Music搭配使用：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_SPEAKER_HIJACK_NAG_MULTITASK_SPEAKER_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Selecting this speaker will pause what it is currently playing and play the selected content.</base>
+        <tran loc="zh-TW">選取此揚聲器將會暫停目前的內容並取代為所選的播放內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PLAYLIST_OFFLINE_SUBTITLE_ALL</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a Wi-Fi or cellular network to create a Genius Playlist.</base>
+        <tran loc="zh-TW">連接Wi-Fi或行動網路來製作「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> B235 battery case (AirPods) </Description>
+      <Position>AIRPLAY_DEVICE_BATTERY_LEVEL_CASE_%@</Position>
+      <TranslationSet>
+        <base loc="en">Case: %@</base>
+        <tran loc="zh-TW">充電盒：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When a VOD movie has expired </Description>
+      <Position>EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Expired</base>
+        <tran loc="zh-TW">已到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_IPOD_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">With AirPlay Mirroring you can send everything on your iPod’s display to an Apple TV, wirelessly.</base>
+        <tran loc="zh-TW">有了「AirPlay鏡像輸出」，您就可以將iPod螢幕上的畫面以無線方式傳送到Apple TV。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUDIO_DEVICE</Position>
+      <TranslationSet>
+        <base loc="en">Audio Device</base>
+        <tran loc="zh-TW">音訊裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CAPABILITY_MISSING</Position>
+      <TranslationSet>
+        <base loc="en">The requested operation is not enabled for this device.</base>
+        <tran loc="zh-TW">此裝置未啟用要求的操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEDIAPICKER_NAVIGATION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Library</base>
+        <tran loc="zh-TW">資料庫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUDIO_2013</Position>
+      <TranslationSet>
+        <base loc="en">AUDIO</base>
+        <tran loc="zh-TW">音訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_CLOUD_LIBRARY_FAILED_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your iCloud Music Library is temporarily unavailable. Try enabling it again later in Settings.</base>
+        <tran loc="zh-TW">您的「iCloud音樂資料庫」暫時無法使用。請稍後嘗試在「設定」中啟用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PICKER_NO_RESULTS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This song does not have enough related songs to create a Genius Playlist.</base>
+        <tran loc="zh-TW">這首歌沒有足夠的相關歌曲來建立「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_BUSY_ALERT_MESSAGE_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is being used by someone else.</base>
+        <tran loc="zh-TW">其他人正在使用「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_PASSWORD_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay Password</base>
+        <tran loc="zh-TW">AirPlay密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POSITION_IN_PLAYLIST_ATTRIBUTED_FORMAT_%d_%d</Position>
+      <TranslationSet>
+        <base loc="en">#%1$d# of #%2$d#</base>
+        <tran loc="zh-TW">#%1$d#/#%2$d#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_PIN_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay Code</base>
+        <tran loc="zh-TW">AirPlay驗證碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_DEBUG_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Report a Problem</base>
+        <tran loc="zh-TW">回報問題</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Display name format for subtitle tracks that include the language of the subtitle, in the form of "title (language)" </Description>
+      <Position>SUBTITLE_TRACK_DISPLAY_FORMAT_%@_%@</Position>
+      <TranslationSet>
+        <base loc="en">%@ (%@)</base>
+        <tran loc="zh-TW">%@（%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_PASSCODE_ALERT_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">code</base>
+        <tran loc="zh-TW">驗證碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NETWORK_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Could not connect to the iTunes Store.</base>
+        <tran loc="zh-TW">無法連接iTunes Store。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOW_PLAYING_SIRI_SUGGESTION</Position>
+      <TranslationSet>
+        <base loc="en">%@  |  Siri Suggestion</base>
+        <tran loc="zh-TW">%@  |  Siri建議</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> unknown audio/subtitle language </Description>
+      <Position>UNKNOWN_LANGUAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-TW">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-TW">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_PIN_ALERT_MESSAGE_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">Enter the onscreen code for “%@”</base>
+        <tran loc="zh-TW">輸入「%@」的螢幕驗證碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HALF_SPEED_SCRUBBING</Position>
+      <TranslationSet>
+        <base loc="en">Half-Speed Scrubbing</base>
+        <tran loc="zh-TW">半速移動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_BUSY_ATV_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Apple TV Not Available</base>
+        <tran loc="zh-TW">無法使用Apple TV</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COULD_NOT_LOAD_MOVIE_ERROR_FMT_%@</Position>
+      <TranslationSet>
+        <base loc="en">%@</base>
+        <tran loc="zh-TW">%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to append route names in groups: "Kitchen + Living Room" </Description>
+      <Position>ROUTE_NAME_PLUS_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en"> + </base>
+        <tran loc="zh-TW"> + </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOADING_AUDIO_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Loading\U2026</base>
+        <tran loc="zh-TW">載入中\U22EF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOADING_MOVIE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Loading\U2026</base>
+        <tran loc="zh-TW">載入中\U22EF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HI_SPEED_SCRUBBING</Position>
+      <TranslationSet>
+        <base loc="en">Hi-Speed Scrubbing</base>
+        <tran loc="zh-TW">高速移動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_TIME_FULL_WIDTH_HOURS_FORMAT_%@_%d_%d_%d</Position>
+      <TranslationSet>
+        <base loc="en">%@%02d:%02d:%02d</base>
+        <tran loc="zh-TW">%@%02d:%02d:%02d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_OFF_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off AirPlay Mirroring</base>
+        <tran loc="zh-TW">關閉AirPlay鏡像輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String to show in the Music Store for items being played during download </Description>
+      <Position>PLAY_WHILE_DOWNLOAD_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">Playing</base>
+        <tran loc="zh-TW">播放中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEFAULT_GENIUS_PLAYLIST_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Genius Playlist</base>
+        <tran loc="zh-TW">智選推薦播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> TCC MediaLibrary dialog 
+ 1 - application name </Description>
+      <Position>TCC_EXPIRATION_SINGLE_APP_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keep sharing your music and video activity with %@ so you can use it with Apple Music.</base>
+        <tran loc="zh-TW">繼續與「%@」分享您的音樂和影片活動來與Apple Music搭配使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_FEATURE_NOT_AVAILABLE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Genius Playlists</base>
+        <tran loc="zh-TW">智選推薦播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PLAYLIST_OFFLINE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Genius Playlists</base>
+        <tran loc="zh-TW">智選推薦播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_SHARE_AUDIO</Position>
+      <TranslationSet>
+        <base loc="en">Share Audio…</base>
+        <tran loc="zh-TW">分享音訊⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TVOUT_PLACEHOLDER_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">This video is playing on the TV.</base>
+        <tran loc="zh-TW">此影片正在電視上播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>SDK Error Strings</Description>
+      <Position>PERMISSION_DENIED</Position>
+      <TranslationSet>
+        <base loc="en">The requesting app does not have the necessary permissions</base>
+        <tran loc="zh-TW">要求的App沒有必要的權限</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TVOUT_PLACEHOLDER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">TV Connected</base>
+        <tran loc="zh-TW">已連接電視</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_TIME_MINUTES_ONLY_FORMAT_%d</Position>
+      <TranslationSet>
+        <base loc="en">%dm</base>
+        <tran loc="zh-TW">%d分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_CLOUD_LIBRARY_FAILED_TOO_MANY_ITEMS_MESSAGE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Merging your Libraries would put you over the song limit. Delete songs from this iPad and try again, or delete and replace this Library with your iCloud Music Library.</base>
+        <tran loc="zh-TW">合併資料庫會超過歌曲數量上限。請刪除此iPad上的歌曲，然後再試一次，或選擇以「iCloud音樂資料庫」取代此資料庫。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_BUSY_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay Speaker Not Available</base>
+        <tran loc="zh-TW">無法使用AirPlay揚聲器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_SHARE_AUDIO_DISABLED_CARPLAY_SAME_OWNER</Position>
+      <TranslationSet>
+        <base loc="en">Sharing audio with more than one user is not available while connected to CarPlay.</base>
+        <tran loc="zh-TW">連接CarPlay時無法與超過一位使用者共享音訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used inside the description cell when presenting the route picker action sheet. </Description>
+      <Position>AIRPLAY_MIRRORING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay Mirroring</base>
+        <tran loc="zh-TW">AirPlay鏡像輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME</Position>
+      <TranslationSet>
+        <base loc="en">Volume</base>
+        <tran loc="zh-TW">音量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRTUNES_VIDEO_ALERT_BODY_FORMAT_%@</Position>
+      <TranslationSet>
+        <base loc="en">Cannot play video on “%@”.</base>
+        <tran loc="zh-TW">無法在「%@」上播放影片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXPLICIT_CONTENT_NOT_ALLOWED_SETTINGS_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-TW">設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-TW">設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPLAY_MIRRORING_DISCOVERING_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">Looking for Apple TV…</base>
+        <tran loc="zh-TW">正在尋找Apple TV⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENIUS_PLAYLIST_OFFLINE_SUBTITLE_ALL_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a WLAN or cellular network to create a Genius Playlist.</base>
+        <tran loc="zh-TW">連接WLAN或行動網路來製作「智選推薦播放列表」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OFF</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ROUTING_VIEW_SHARE_AUDIO_DISABLED_CARKIT</Position>
+      <TranslationSet>
+        <base loc="en">Not available in the Car</base>
+        <tran loc="zh-TW">車上無法使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STREAMING_AUDIO_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Streaming\U2026</base>
+        <tran loc="zh-TW">正在連續播送\U22EF</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MediaPlayerFramework_iosmac/System/iOSSupport/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/Resources/en.lproj/Radio.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DELETE</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOTE_CONTROL_LIKE_TRACK_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">Like</base>
+        <tran loc="zh-TW">喜歡</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYBACK_FAILURE_NETWORK_RESTRICTION_MESSAGE_CELL_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">To play Radio when you aren’t connected to WLAN, enable cellular playback in Music in the Settings app.</base>
+        <tran loc="zh-TW">若要在未連接WLAN時播放「廣播」，請在「設定」App中的「音樂」啟用行動數據播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_STATION_FAILED_ALBUM_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A station cannot be started with this album.</base>
+        <tran loc="zh-TW">無法用此專輯開始播放電台。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shared </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_STATION_FAILED_ARTIST_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A station cannot be started with this artist.</base>
+        <tran loc="zh-TW">無法用此藝人開始播放電台。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_STATION_FAILED_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A station cannot be started with this song.</base>
+        <tran loc="zh-TW">無法用這首歌開始播放電台。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYBACK_TIMEOUT_ALERT_BUTTON_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYBACK_FAILURE_NETWORK_RESTRICTION_MESSAGE_CELL_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">To play Radio when you aren’t connected to Wi-Fi, enable cellular playback in Music in the Settings app.</base>
+        <tran loc="zh-TW">若要在未連接Wi-Fi時播放「廣播」，請在「設定」App中的「音樂」啟用行動數據播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_STATION_FAILED_TEMPORARY_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem starting the station. Try again later.</base>
+        <tran loc="zh-TW">開始播放電台時發生問題。請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Playback failures </Description>
+      <Position>PLAYBACK_FAILURE_NETWORK_RESTRICTION_TITLE_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Connect to WLAN to play Radio.</base>
+        <tran loc="zh-TW">連接WLAN來播放「廣播」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYBACK_FAILURE_NETWORK_RESTRICTION_TITLE_WIFI</Position>
+      <TranslationSet>
+        <base loc="en">Connect to Wi-Fi to play Radio.</base>
+        <tran loc="zh-TW">連接Wi-Fi來播放「廣播」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYBACK_TIMEOUT_ALERT_BUTTON_STOP</Position>
+      <TranslationSet>
+        <base loc="en">Stop</base>
+        <tran loc="zh-TW">停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOTE_CONTROL_DISLIKE_TRACK_RADIO</Position>
+      <TranslationSet>
+        <base loc="en">Play Less Like This</base>
+        <tran loc="zh-TW">減少播放此類歌曲</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAYBACK_FAILURE_LOCATION_RESTRICTION_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">This radio station is not currently available in your country or region.</base>
+        <tran loc="zh-TW">目前無法在您的國家或地區取得此廣播電台。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Now Playing </Description>
+      <Position>ADD_STATION_FAILED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Start Station</base>
+        <tran loc="zh-TW">無法開始播放電台</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Playback timeout </Description>
+      <Position>PLAYBACK_TIMEOUT_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Still Listening to\niTunes Radio?</base>
+        <tran loc="zh-TW">還在聽\niTunes Radio嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOTE_CONTROL_LIKE_TRACK_RADIO</Position>
+      <TranslationSet>
+        <base loc="en">Play More Like This</base>
+        <tran loc="zh-TW">播放更多曲風相近的歌曲</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOTE_CONTROL_DISLIKE_TRACK_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">Never Play</base>
+        <tran loc="zh-TW">永不播放</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MediaPlayerFramework_iosmac/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/Resources/en.lproj/MediaPlayer.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/ROUTE_NAME_PLUS_COUNT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%@%#@routenames@</base>
+        <tran loc="zh-TW">%@%#@routenames@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ROUTE_NAME_HEADPHONES_COUNT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@headphonescount@</base>
+        <tran loc="zh-TW">%#@headphonescount@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ROUTE_NAME_HEADPHONES_COUNT:dict/headphonescount:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Headphones</base>
+        <tran loc="zh-TW">%lu個耳機</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ROUTE_NAME_PLUS_COUNT:dict/routenames:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en"> + %lu</base>
+        <tran loc="zh-TW"> + %lu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ROUTE_NAME_PLUS_COUNT:dict/routenames:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/ROUTE_NAME_PLUS_COUNT:dict/routenames:dict/zero:dict/:string)</base>
+        <tran loc="zh-TW">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/ROUTE_NAME_PLUS_COUNT:dict/routenames:dict/zero:dict/:string)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

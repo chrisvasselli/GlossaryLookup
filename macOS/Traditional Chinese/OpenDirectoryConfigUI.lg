@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>OpenDirectoryConfigUI</ProjName>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCServersView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Status"; ObjectID = "29"; </Description>
+      <Position>29.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Status</base>
+        <tran loc="zh-TW">狀態</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "30"; </Description>
+      <Position>30.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="zh-TW">名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Info"; ObjectID = "28"; </Description>
+      <Position>28.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="zh-TW">資訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibExternalAccessibilityDescription = "AddServer"; ObjectID = "18"; </Description>
+      <Position>18.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">AddServer</base>
+        <tran loc="zh-TW">加入伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Add a new Directory Server"; ObjectID = "18"; </Description>
+      <Position>18.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Add a new Directory Server</base>
+        <tran loc="zh-TW">加入新的「目錄伺服器」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Delete the selected Directory Server"; ObjectID = "19"; </Description>
+      <Position>19.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Delete the selected Directory Server</base>
+        <tran loc="zh-TW">刪除所選的「目錄伺服器」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibExternalAccessibilityDescription = "RemoveServer"; ObjectID = "19"; </Description>
+      <Position>19.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">RemoveServer</base>
+        <tran loc="zh-TW">移除伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "33"; </Description>
+      <Position>33.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "35"; </Description>
+      <Position>35.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kUnknownErrorMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">%@\n(%d)</base>
+        <tran loc="zh-TW">%@\n(%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to unbind from this Active Directory Domain? To do this you’ll need to enter an administrator name and password for the Domain.</base>
+        <tran loc="zh-TW">確定要從這個「Active Directory網域」解除綁定嗎？若要如此執行，您需要輸入網域的管理者名稱和密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kNoPrivsToOverwriteExitingComputerRecord</Position>
+      <TranslationSet>
+        <base loc="en">Your account on the server does not have privileges to overwrite the computer record “%@”. Please inform the server administrator.</base>
+        <tran loc="zh-TW">您在伺服器上的帳號沒有權限覆寫電腦記錄「%@」。請通知伺服器管理者。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDontUnbindFromADButton</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Unbind</base>
+        <tran loc="zh-TW">不要解除綁定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMultipleServers</Position>
+      <TranslationSet>
+        <base loc="en">Multiple</base>
+        <tran loc="zh-TW">多個</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringODUnknown</Position>
+      <TranslationSet>
+        <base loc="en">The status of this server is unknown.</base>
+        <tran loc="zh-TW">此伺服器的狀態不明。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringODDown</Position>
+      <TranslationSet>
+        <base loc="en">This server is not responding.</base>
+        <tran loc="zh-TW">此伺服器沒有回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kAuthBindingAllowedMsg</Position>
+      <TranslationSet>
+        <base loc="en">This server allows authenticated binding. You may choose to enter a name and password. You may also leave them blank to bind anonymously.</base>
+        <tran loc="zh-TW">此伺服器允許已認證的綁定。您可選擇輸入名稱和密碼，也可將欄位留空以匿名方式綁定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADIsSourceNodeTitle</Position>
+      <TranslationSet>
+        <base loc="en">Unbind from the Active Directory Domain containing your current user record?</base>
+        <tran loc="zh-TW">您要從包含您目前使用者記錄的「Active Directory網域」解除綁定嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDuplicateServerNameFormat</Position>
+      <TranslationSet>
+        <base loc="en">This computer is already using %@ or a matching replica.</base>
+        <tran loc="zh-TW">此電腦已經在使用「%@」或者相符的複本。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kOKBtn</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This string is too short. It must contain at least %lu characters.</Position>
+      <TranslationSet>
+        <base loc="en">This string is too short. It must contain at least %lu characters.</base>
+        <tran loc="zh-TW">此字串太短。它必須包含至少%lu個字元。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSSLNotSupportedMsg</Position>
+      <TranslationSet>
+        <base loc="en">You can continue without a secure connection, which could allow unauthorized access to your computer.</base>
+        <tran loc="zh-TW">可在沒有安全連線的情況下繼續，這可能會讓未經授權的使用者連接您的電腦。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kODServerType</Position>
+      <TranslationSet>
+        <base loc="en">Open Directory Server</base>
+        <tran loc="zh-TW">Open Directory伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSSLNotSupportedTitle</Position>
+      <TranslationSet>
+        <base loc="en">This server does not provide a secure (SSL) connection. Do you want to continue?</base>
+        <tran loc="zh-TW">此伺服器不提供安全（SSL）連線。要繼續嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerIsSourceNodeMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to stop using the Directory Server %@? It appears that this server contains the user record that is currently logged into this computer. Removing this server could cause serious problems that are difficult or impossible to repair. This action cannot be undone.</base>
+        <tran loc="zh-TW">確定要停止使用目錄伺服器「%@」嗎？伺服器似乎包含目前已登入此電腦之使用者的記錄。移除此伺服器可能會導致難以修復或無法修復的嚴重問題。此動作無法還原。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kTrustSSLCertificatesTitle</Position>
+      <TranslationSet>
+        <base loc="en">This server provides SSL certificates. Do you want to trust the certificates from %@?</base>
+        <tran loc="zh-TW">此伺服器提供SSL憑證。要信任「%@」的憑證嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kCancelBtn</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDontDeleteServerBtn</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to stop using the Directory Server %@? This action cannot be undone.</base>
+        <tran loc="zh-TW">確定要停止使用目錄伺服器「%@」嗎？此動作無法還原。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kContinueBtn</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kADServerType</Position>
+      <TranslationSet>
+        <base loc="en">Active Directory Domain</base>
+        <tran loc="zh-TW">Active Directory網域</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayNotInAuthSearchPolicyFormat</Position>
+      <TranslationSet>
+        <base loc="en">%@ This server is not in your authentication search policy.</base>
+        <tran loc="zh-TW">%@此伺服器不在您的認證搜尋規則裡。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDupeComputerRecordFound</Position>
+      <TranslationSet>
+        <base loc="en">There is already a computer in the directory with this name. You may choose to overwrite it, but this may disable another computer if it is in use.</base>
+        <tran loc="zh-TW">目錄裡已有其他電腦在使用此名稱。您可以選擇覆寫它，但這樣會停用另一部正在使用中的電腦。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerTitle</Position>
+      <TranslationSet>
+        <base loc="en">Stop using the Directory Server?</base>
+        <tran loc="zh-TW">停止使用「目錄伺服器」？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDontTrust</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Trust</base>
+        <tran loc="zh-TW">不信任</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringADUp</Position>
+      <TranslationSet>
+        <base loc="en">This domain is responding normally.</base>
+        <tran loc="zh-TW">此網域回應正常。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADTitle</Position>
+      <TranslationSet>
+        <base loc="en">Unbind from the Active Directory Domain?</base>
+        <tran loc="zh-TW">要從「Active Directory網域」解除綁定嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kLocalODServerName</Position>
+      <TranslationSet>
+        <base loc="en">Local Server</base>
+        <tran loc="zh-TW">本地伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+   Localizable.strings
+   OpenDirectoryConfigUI
+
+   Created by Forest Hill on 6/23/08.
+   Copyright 2008 Apple Computer, Inc. All rights reserved.
+ </Description>
+      <Position>kNoDirectoryServersFoundMsg</Position>
+      <TranslationSet>
+        <base loc="en">No Directory Servers Configured</base>
+        <tran loc="zh-TW">未設定目錄伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kUnbindFromADButton</Position>
+      <TranslationSet>
+        <base loc="en">Unbind</base>
+        <tran loc="zh-TW">解除綁定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This string is too short. It must contain at least 1 character.</Position>
+      <TranslationSet>
+        <base loc="en">This string is too short. It must contain at least 1 character.</base>
+        <tran loc="zh-TW">此字串太短。它必須包含至少一個字元。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kAuthBindingRequiredMsg</Position>
+      <TranslationSet>
+        <base loc="en">This server requires authenticated binding. Please enter a name and password for the server.</base>
+        <tran loc="zh-TW">此伺服器要求已認證的綁定。請輸入伺服器的名稱和密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kAuthBindingAuthFailure</Position>
+      <TranslationSet>
+        <base loc="en">Authentication failed. Please check the name and password and try again.</base>
+        <tran loc="zh-TW">認證失敗。請檢查使用者名稱與密碼，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDeleteServerBtn</Position>
+      <TranslationSet>
+        <base loc="en">Stop Using Server</base>
+        <tran loc="zh-TW">停止使用伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kTrust</Position>
+      <TranslationSet>
+        <base loc="en">Trust</base>
+        <tran loc="zh-TW">信任</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kCouldntAddServer</Position>
+      <TranslationSet>
+        <base loc="en">Unable to add server.</base>
+        <tran loc="zh-TW">無法加入伺服器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kTrustSSLCertificatesMsg</Position>
+      <TranslationSet>
+        <base loc="en">You can continue without trusting certificates. Trusting these certificates could allow unauthorized access to your computer.</base>
+        <tran loc="zh-TW">您可以不信任憑證而繼續執行。信任這些憑證可以讓未授權的使用者連接您的電腦。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kOperationFailed</Position>
+      <TranslationSet>
+        <base loc="en">Operation failed.</base>
+        <tran loc="zh-TW">作業失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADIsSourceNodeMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to unbind from this Active Directory Domain? It appears that this domain contains the user record that is currently logged into this computer. Unbinding from this domain could cause serious problems that are difficult or impossible to repair. To do this you’ll need to enter an administrator name and password for the Domain.</base>
+        <tran loc="zh-TW">確定要從這個「Active Directory網域」解除綁定嗎？此網域似乎包含目前已登入此電腦的使用者記錄。從這個網域解除綁定可能會導致難以修復，甚至無法修復的嚴重問題。若要如此執行，您需要輸入網域的管理者名稱和密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringODUp</Position>
+      <TranslationSet>
+        <base loc="en">This server is responding normally.</base>
+        <tran loc="zh-TW">此伺服器回應正常。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringADDown</Position>
+      <TranslationSet>
+        <base loc="en">This domain is not responding.</base>
+        <tran loc="zh-TW">此網域沒有回應。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerIsSourceNodeTitle</Position>
+      <TranslationSet>
+        <base loc="en">Stop using the Directory Server containing your current user record?</base>
+        <tran loc="zh-TW">您要停止使用包含您目前使用者記錄的「目錄伺服器」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringADUnknown</Position>
+      <TranslationSet>
+        <base loc="en">The status of this domain is unknown.</base>
+        <tran loc="zh-TW">此網域的狀態不明。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCSummaryView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Edit…"; ObjectID = "6"; </Description>
+      <Position>6.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit…</base>
+        <tran loc="zh-TW">編輯⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Done"; ObjectID = "16"; </Description>
+      <Position>16.title</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Network Account Server:"; ObjectID = "4"; </Description>
+      <Position>4.title</Position>
+      <TranslationSet>
+        <base loc="en">Network Account Server:</base>
+        <tran loc="zh-TW">網路帳號伺服器：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "12"; </Description>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Join…"; ObjectID = "30"; </Description>
+      <Position>30.title</Position>
+      <TranslationSet>
+        <base loc="en">Join…</base>
+        <tran loc="zh-TW">加入⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Open Directory Utility…"; ObjectID = "18"; </Description>
+      <Position>18.title</Position>
+      <TranslationSet>
+        <base loc="en">Open Directory Utility…</base>
+        <tran loc="zh-TW">打開目錄工具程式⋯</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCAddServerSheet.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can enter the address of an Open Directory Server or Active Directory Domain."; ObjectID = "LwG-pb-eW3"; </Description>
+      <Position>LwG-pb-eW3.title</Position>
+      <TranslationSet>
+        <base loc="en">You can enter the address of an Open Directory Server or Active Directory Domain.</base>
+        <tran loc="zh-TW">您可以輸入「Open Directory伺服器」位址或「Active Directory網域」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Active Directory Settings:"; ObjectID = "bON-fR-Q5E"; </Description>
+      <Position>bON-fR-Q5E.title</Position>
+      <TranslationSet>
+        <base loc="en">Active Directory Settings:</base>
+        <tran loc="zh-TW">Active Directory設定：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "GZt-Ly-PdP"; </Description>
+      <Position>GZt-Ly-PdP.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="zh-TW">密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Client Computer ID:"; ObjectID = "qez-yg-vAw"; </Description>
+      <Position>qez-yg-vAw.title</Position>
+      <TranslationSet>
+        <base loc="en">Client Computer ID:</base>
+        <tran loc="zh-TW">用戶端電腦識別碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Client Computer ID:"; ObjectID = "qsv-mQ-Dmm"; </Description>
+      <Position>qsv-mQ-Dmm.title</Position>
+      <TranslationSet>
+        <base loc="en">Client Computer ID:</base>
+        <tran loc="zh-TW">用戶端電腦識別碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "jem-TQ-a6X"; </Description>
+      <Position>jem-TQ-a6X.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "K84-92-Tcl"; </Description>
+      <Position>K84-92-Tcl.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "AD Admin User:"; ObjectID = "clD-4m-UAn"; </Description>
+      <Position>clD-4m-UAn.title</Position>
+      <TranslationSet>
+        <base loc="en">AD Admin User:</base>
+        <tran loc="zh-TW">AD管理者名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "User Name:"; ObjectID = "fRh-JU-Xpt"; </Description>
+      <Position>fRh-JU-Xpt.title</Position>
+      <TranslationSet>
+        <base loc="en">User Name:</base>
+        <tran loc="zh-TW">使用者名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(required)"; ObjectID = "FD5-bC-HpE"; </Description>
+      <Position>FD5-bC-HpE.title</Position>
+      <TranslationSet>
+        <base loc="en">(required)</base>
+        <tran loc="zh-TW">（必需）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Server:"; ObjectID = "itw-J1-7vq"; </Description>
+      <Position>itw-J1-7vq.title</Position>
+      <TranslationSet>
+        <base loc="en">Server:</base>
+        <tran loc="zh-TW">伺服器：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Overwrite"; ObjectID = "Xgk-ng-fkW"; </Description>
+      <Position>Xgk-ng-fkW.title</Position>
+      <TranslationSet>
+        <base loc="en">Overwrite</base>
+        <tran loc="zh-TW">覆寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Add Server"; ObjectID = "AB1-eV-hrf"; </Description>
+      <Position>AB1-eV-hrf.title</Position>
+      <TranslationSet>
+        <base loc="en">Add Server</base>
+        <tran loc="zh-TW">加入伺服器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Open Directory Utility…"; ObjectID = "eYf-Xp-uJh"; </Description>
+      <Position>eYf-Xp-uJh.title</Position>
+      <TranslationSet>
+        <base loc="en">Open Directory Utility…</base>
+        <tran loc="zh-TW">打開目錄工具程式⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "AD Admin Password:"; ObjectID = "4c4-1u-BOT"; </Description>
+      <Position>4c4-1u-BOT.title</Position>
+      <TranslationSet>
+        <base loc="en">AD Admin Password:</base>
+        <tran loc="zh-TW">AD管理者密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCUnbindFromADSheet.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "17"; </Description>
+      <Position>17.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="zh-TW">密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Administrator:"; ObjectID = "15"; </Description>
+      <Position>15.title</Position>
+      <TranslationSet>
+        <base loc="en">Administrator:</base>
+        <tran loc="zh-TW">管理者：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

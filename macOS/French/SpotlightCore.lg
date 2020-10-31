@@ -1,0 +1,3843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SpotlightCore</ProjName>
+  <File>
+    <Filepath>SpotlightCore/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Resources/English.lproj/SearchSyntax.strings</Filepath>
+    <TextItem>
+      <Description> string in user search language meaning 'or'.  Capitalized in english to avoid unintended collisions with english text </Description>
+      <Position>SEARCH_SYNTAX_OR</Position>
+      <TranslationSet>
+        <base loc="en">OR</base>
+        <tran loc="fr">OU</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> string in user search language meaning 'and'.  Capitalized in english to avoid unintended collisions with english text </Description>
+      <Position>SEARCH_SYNTAX_AND</Position>
+      <TranslationSet>
+        <base loc="en">AND</base>
+        <tran loc="fr">ET</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> string in user search language meaning 'not'.  Capitalized in english to avoid unintended collisions with english text </Description>
+      <Position>SEARCH_SYNTAX_NOT</Position>
+      <TranslationSet>
+        <base loc="en">NOT</base>
+        <tran loc="fr">NON</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpotlightCore/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Resources/English.lproj/GroupNames.strings</Filepath>
+    <TextItem>
+      <Description> 
+   GroupNames.strings
+   Matador
+
+   Created by Wayne Loofbourrow on 1/6/11.
+   Copyright 2011 Apple Inc. All rights reserved.
+ 
+ For use by Spotlight menu, Finder, System Preferences, ... 
+ Group names - these should be plural in most cases </Description>
+      <Position>APPLICATIONS</Position>
+      <TranslationSet>
+        <base loc="en">Applications</base>
+        <tran loc="fr">Applications</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">Mail &amp; Messages</base>
+        <tran loc="fr">E-mails et Messages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> results in group consist of Mail only </Description>
+      <Position>MESSAGES_NON_CHATS_ONLY_ALT</Position>
+      <TranslationSet>
+        <base loc="en">Mail</base>
+        <tran loc="fr">Mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MUSIC</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="fr">Musique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SPREADSHEETS</Position>
+      <TranslationSet>
+        <base loc="en">Spreadsheets</base>
+        <tran loc="fr">Feuilles de calcul</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_CONVERSION</Position>
+      <TranslationSet>
+        <base loc="en">Conversion</base>
+        <tran loc="fr">Conversion</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYSTEM_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">System Preferences</base>
+        <tran loc="fr">Préférences Système</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOCUMENTS</Position>
+      <TranslationSet>
+        <base loc="en">Documents</base>
+        <tran loc="fr">Documents</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> results in group consist of reminders only </Description>
+      <Position>EVENT_TODO_TODOS_ONLY_ALT</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="fr">Rappels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Additional Spotlight menu groups </Description>
+      <Position>MENU_TOP_HIT</Position>
+      <TranslationSet>
+        <base loc="en">Top Hit</base>
+        <tran loc="fr">Meilleur résultat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FONTS</Position>
+      <TranslationSet>
+        <base loc="en">Fonts</base>
+        <tran loc="fr">Polices</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOVIES</Position>
+      <TranslationSet>
+        <base loc="en">Movies</base>
+        <tran loc="fr">Vidéos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PDF</Position>
+      <TranslationSet>
+        <base loc="en">PDF Documents</base>
+        <tran loc="fr">Documents PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_DEFINITION</Position>
+      <TranslationSet>
+        <base loc="en">Definition</base>
+        <tran loc="fr">Définition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alternative group names 
+ results in group include a volume </Description>
+      <Position>DIRECTORIES_ALT</Position>
+      <TranslationSet>
+        <base loc="en">Folders &amp; Disks</base>
+        <tran loc="fr">Dossiers et disques</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_SPOTLIGHT_SUGGESTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight Suggestions</base>
+        <tran loc="fr">Suggestions Spotlight</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_EXPRESSION</Position>
+      <TranslationSet>
+        <base loc="en">Calculator</base>
+        <tran loc="fr">Calculette</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_TOP_HITS</Position>
+      <TranslationSet>
+        <base loc="en">Top Hits</base>
+        <tran loc="fr">Meilleurs résultats</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTENSION</Position>
+      <TranslationSet>
+        <base loc="en">Extension</base>
+        <tran loc="fr">Extension</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Use this in menu or other results </Description>
+      <Position>MENU_DEFINITION_ALWAYS_ALT</Position>
+      <TranslationSet>
+        <base loc="en">Look Up</base>
+        <tran loc="fr">Définition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SOURCE</Position>
+      <TranslationSet>
+        <base loc="en">Developer</base>
+        <tran loc="fr">Développeur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EVENT_TODO</Position>
+      <TranslationSet>
+        <base loc="en">Events &amp; Reminders</base>
+        <tran loc="fr">Événements et rappels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOOKMARKS</Position>
+      <TranslationSet>
+        <base loc="en">Bookmarks &amp; History</base>
+        <tran loc="fr">Signets et historique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> results in group consist of iMessages only </Description>
+      <Position>MESSAGES_CHATS_ONLY_ALT</Position>
+      <TranslationSet>
+        <base loc="en">Messages</base>
+        <tran loc="fr">Messages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> results in group consist of events only </Description>
+      <Position>EVENT_TODO_EVENTS_ONLY_ALT</Position>
+      <TranslationSet>
+        <base loc="en">Events</base>
+        <tran loc="fr">Événements</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMAGES</Position>
+      <TranslationSet>
+        <base loc="en">Images</base>
+        <tran loc="fr">Images</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACT</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="fr">Contacts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Category for items not otherwise categorized </Description>
+      <Position>MENU_OTHER</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="fr">Autres</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OTHER</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="fr">Autres</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIRECTORIES</Position>
+      <TranslationSet>
+        <base loc="en">Folders</base>
+        <tran loc="fr">Dossiers</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRESENTATIONS</Position>
+      <TranslationSet>
+        <base loc="en">Presentations</base>
+        <tran loc="fr">Présentations</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpotlightCore/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Resources/English.lproj/schema.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemNumberOfPages.Description</Position>
+      <TranslationSet>
+        <base loc="en">Number of pages in the document</base>
+        <tran loc="fr">Nombre de pages du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContributors.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">by,contributor,author,with</base>
+        <tran loc="fr">par,contributeur,auteur,avec,by,contributor,author,with</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemVersion.Description</Position>
+      <TranslationSet>
+        <base loc="en">Version number of this item</base>
+        <tran loc="fr">Numéro de version de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStarRating.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">starrating</base>
+        <tran loc="fr">classement,starrating</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFNumber.Description</Position>
+      <TranslationSet>
+        <base loc="en">Focal length of the lens divided by the diameter of the aperture</base>
+        <tran loc="fr">Distance focale de l’objectif divisée par le diamètre d’ouverture</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureTimeSeconds.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">exposuretime,time</base>
+        <tran loc="fr">tempsexposition,temps,exposuretime,time</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureTimeString.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">exposuretime,time</base>
+        <tran loc="fr">tempsexposition,temps,exposuretime,time</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalInstrumentName.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">instrument,instrumentname</base>
+        <tran loc="fr">instrument,nomd’instrument,instrumentname</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStateOrProvince.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">state,province</base>
+        <tran loc="fr">état,province,state</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCopyright.Description</Position>
+      <TranslationSet>
+        <base loc="en">Copyright information about this item</base>
+        <tran loc="fr">Informations légales de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAlbum</Position>
+      <TranslationSet>
+        <base loc="en">Album</base>
+        <tran loc="fr">Album</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEmailAddresses</Position>
+      <TranslationSet>
+        <base loc="en">Email addresses</base>
+        <tran loc="fr">Adresses e-mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Display name</base>
+        <tran loc="fr">Nom affiché</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemColorSpace.Description</Position>
+      <TranslationSet>
+        <base loc="en">Color space model of this image</base>
+        <tran loc="fr">Modèle d’espace de couleurs de cette image</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Attribute short names
+ 
+*
+ 
+* In the form of Attribute.ShortName
+ 
+* "." is not a valid character in an Attribute name.
+ 
+* These strings should all be short and 1 word with no spaces in them.
+ 
+*
+ 
+* If there is more than one, they must be separated by an ASCII comma, U+002C.
+ 
+* Any may be entered by the user as a prefix to match all attributes that list that prefix.
+ 
+* For example, from:Peter matches all attributes that list "from" as a short name.
+ 
+*
+ 
+* The first short name listed may be displayed to the user as a short name of that attribute.
+ 
+* However, this can be overridden by defining an Attribute.ShortDisplayName (see below).
+ 
+* Overriding is recommended in cases where short names require spaces for readability.
+ 
+*
+ </Description>
+      <Position>kMDItemKeywords.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">keyword</base>
+        <tran loc="fr">motclé,keyword</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLyricist.Description</Position>
+      <TranslationSet>
+        <base loc="en">Lyricist of the song in the audio file</base>
+        <tran loc="fr">Parolier de la chanson incluse dans le fichier audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRedEyeOnOff.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">redeye</base>
+        <tran loc="fr">yeuxrouges,redeye</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipientAddresses.Description</Position>
+      <TranslationSet>
+        <base loc="en">Addresses for recipients of this item</base>
+        <tran loc="fr">Adresses des destinataires de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContentCreationDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">contentcreated,created,date</base>
+        <tran loc="fr">contenucréé,créé,date,contentcreated,created</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSName.Description</Position>
+      <TranslationSet>
+        <base loc="en">Name of the file</base>
+        <tran loc="fr">Nom du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStateOrProvince</Position>
+      <TranslationSet>
+        <base loc="en">State or Province</base>
+        <tran loc="fr">État ou province</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemResolutionHeightDPI</Position>
+      <TranslationSet>
+        <base loc="en">Resolution height</base>
+        <tran loc="fr">Résolution verticale</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalGenre</Position>
+      <TranslationSet>
+        <base loc="en">Musical genre</base>
+        <tran loc="fr">Genre musical</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKeySignature.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">key,keysignature</base>
+        <tran loc="fr">clé,signatureclé,key,keysignature</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemURL.Description</Position>
+      <TranslationSet>
+        <base loc="en">URL of this item</base>
+        <tran loc="fr">Adresse URL de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStarRating</Position>
+      <TranslationSet>
+        <base loc="en">Rating</base>
+        <tran loc="fr">Classement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPhysicalSize</Position>
+      <TranslationSet>
+        <base loc="en">Physical size</base>
+        <tran loc="fr">Taille physique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthorAddresses</Position>
+      <TranslationSet>
+        <base loc="en">Author addresses</base>
+        <tran loc="fr">Adresses de l’auteur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalInstrumentCategory.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">instrument,instrumentcategory</base>
+        <tran loc="fr">instrument,catégoried’instrument,instrumentcategory</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLastUsedDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date when this item was last used</base>
+        <tran loc="fr">Date de dernière utilisation de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTotalBitRate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Combined bit rate of the audio and video in the media</base>
+        <tran loc="fr">Débit audio et vidéo combiné pour ce média</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFocalLength.Description</Position>
+      <TranslationSet>
+        <base loc="en">Focal length of the lens in millimeters (mm)</base>
+        <tran loc="fr">Distance focale de l’objectif (mm)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipientEmailAddresses</Position>
+      <TranslationSet>
+        <base loc="en">Recipient Email addresses</base>
+        <tran loc="fr">Adresses e-mail des destinataires</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEncodingApplications</Position>
+      <TranslationSet>
+        <base loc="en">Encoding software</base>
+        <tran loc="fr">Logiciel d’encodage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemComposer.Description</Position>
+      <TranslationSet>
+        <base loc="en">Composer of the song in the audio file</base>
+        <tran loc="fr">Compositeur du morceau du fichier audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExecutablePlatform.Description</Position>
+      <TranslationSet>
+        <base loc="en">Platform the item requires to execute</base>
+        <tran loc="fr">Plate-formes à exécuter requises par l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureProgram.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">exposure,exposureprogram</base>
+        <tran loc="fr">exposition,programmed’exposition,exposureprogram</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPurchaseDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date this item was purchased</base>
+        <tran loc="fr">Date d’achat de l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSLabel.Description</Position>
+      <TranslationSet>
+        <base loc="en">Finder label assigned to the file</base>
+        <tran loc="fr">Étiquette de Finder attribuée au fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemColorSpace.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">colorspace</base>
+        <tran loc="fr">espacecouleur,colorspace</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSContentChangeDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date the file content was last changed</base>
+        <tran loc="fr">Date de dernière modification du contenu du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEditors.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">editor</base>
+        <tran loc="fr">rédacteur,editor</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemVersion</Position>
+      <TranslationSet>
+        <base loc="en">Version</base>
+        <tran loc="fr">Version</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRights</Position>
+      <TranslationSet>
+        <base loc="en">Rights</base>
+        <tran loc="fr">Droits</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOrganizations.Description</Position>
+      <TranslationSet>
+        <base loc="en">Organizations that created the document</base>
+        <tran loc="fr">Entreprises à l’origine du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEmailAddresses.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">email,mail</base>
+        <tran loc="fr">envoyerunemail,email,mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPath.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">path</base>
+        <tran loc="fr">chemind’accès,path</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPhoneNumbers.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">phone,phonenumber</base>
+        <tran loc="fr">téléphone,numérodetéléphone,phone,phonenumber</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProjects</Position>
+      <TranslationSet>
+        <base loc="en">Projects</base>
+        <tran loc="fr">Projets</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSHasCustomIcon</Position>
+      <TranslationSet>
+        <base loc="en">Custom Icon</base>
+        <tran loc="fr">Icône personnalisée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSNodeCount.Description</Position>
+      <TranslationSet>
+        <base loc="en">Number of files and folders in the folder</base>
+        <tran loc="fr">Nombre de fichiers et dossiers dans le dossier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFonts.Description</Position>
+      <TranslationSet>
+        <base loc="en">Fonts used in this item</base>
+        <tran loc="fr">Polices utilisées dans cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAlbum.Description</Position>
+      <TranslationSet>
+        <base loc="en">Title for a collection of media, such as a record album</base>
+        <tran loc="fr">Titre de l’ensemble des données, tel que le nom d’un album musical</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelHeight.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">pixelheight,height</base>
+        <tran loc="fr">hauteurpixel,hauteur,pixelheight,height</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSOwnerUserID.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">owner</base>
+        <tran loc="fr">propriétaire,owner</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOrganizations</Position>
+      <TranslationSet>
+        <base loc="en">Organizations</base>
+        <tran loc="fr">Entreprises</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthors</Position>
+      <TranslationSet>
+        <base loc="en">Authors</base>
+        <tran loc="fr">Auteurs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOrientation</Position>
+      <TranslationSet>
+        <base loc="en">Orientation</base>
+        <tran loc="fr">Orientation</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipients.Description</Position>
+      <TranslationSet>
+        <base loc="en">Recipients of this item</base>
+        <tran loc="fr">Destinataires de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudiences.Description</Position>
+      <TranslationSet>
+        <base loc="en">Who the document is intended for</base>
+        <tran loc="fr">À qui le document est destiné</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCreator</Position>
+      <TranslationSet>
+        <base loc="en">Content Creator</base>
+        <tran loc="fr">Créateur du contenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Synthetic names for search syntax 
+ scope to folders with a given display name </Description>
+      <Position>_kMDItemPathDisplayNames.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">in,scope</base>
+        <tran loc="fr">dans,étendue,in,scope</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPageWidth.Description</Position>
+      <TranslationSet>
+        <base loc="en">Width of the document page in points</base>
+        <tran loc="fr">Largeur de page du document en points</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemWhereFroms.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">from,source,wherefrom</base>
+        <tran loc="fr">de,source,àpartirde,depuis,from,source,wherefrom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPublishers.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">publisher</base>
+        <tran loc="fr">éditeur,publisher</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTextContent.Description</Position>
+      <TranslationSet>
+        <base loc="en">Text content of this item</base>
+        <tran loc="fr">Contenu textuel de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDateAdded.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">dateadded,added,date</base>
+        <tran loc="fr">datedel’ajout,ajouté,date,dateadded,added</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSOwnerGroupID.Description</Position>
+      <TranslationSet>
+        <base loc="en">Group ID of owner of the file</base>
+        <tran loc="fr">Identifiant du groupe du propriétaire du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemUserTags.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">tag</base>
+        <tran loc="fr">balise,tag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelWidth</Position>
+      <TranslationSet>
+        <base loc="en">Pixel width</base>
+        <tran loc="fr">Largeur en pixels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsApplicationManaged</Position>
+      <TranslationSet>
+        <base loc="en">Is Application Managed</base>
+        <tran loc="fr">Est géré par application</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDocumentContainer</Position>
+      <TranslationSet>
+        <base loc="en">Document Container</base>
+        <tran loc="fr">Conteneur du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemHasAlphaChannel.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the image has an Alpha channel</base>
+        <tran loc="fr">Indique si l’image possède un canal alpha</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLatitude</Position>
+      <TranslationSet>
+        <base loc="en">Latitude</base>
+        <tran loc="fr">Latitude</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopsRootKey.Description</Position>
+      <TranslationSet>
+        <base loc="en">Shows the loop’s original key. The key is the root note or tonic for the loop, and does not include the scale type</base>
+        <tran loc="fr">Affiche la clé d’origine de la boucle. La clé correspond à la note repère ou tonique de la boucle et n’inclut pas le type de gamme</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTempo</Position>
+      <TranslationSet>
+        <base loc="en">Tempo</base>
+        <tran loc="fr">Tempo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStartDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">startdate,date</base>
+        <tran loc="fr">datededébut,date</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKeySignature.Description</Position>
+      <TranslationSet>
+        <base loc="en">Musical key of the song in the audio file</base>
+        <tran loc="fr">Clé musicale de la chanson incluse dans le fichier audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDocumentContainer.Description</Position>
+      <TranslationSet>
+        <base loc="en">Containing folder of item</base>
+        <tran loc="fr">Dossier contenant l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemBitsPerSample.Description</Position>
+      <TranslationSet>
+        <base loc="en">Number of bits per sample</base>
+        <tran loc="fr">Nombre de bits par échantillon</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCreator.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">creator</base>
+        <tran loc="fr">créateur,creator</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMaxAperture.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">maxaperture</base>
+        <tran loc="fr">expositionmax,maxaperture</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExecutablePlatform</Position>
+      <TranslationSet>
+        <base loc="en">Executable Platform</base>
+        <tran loc="fr">Plate-forme exécutable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStartDate</Position>
+      <TranslationSet>
+        <base loc="en">Start date</base>
+        <tran loc="fr">Date de début</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProducer.Description</Position>
+      <TranslationSet>
+        <base loc="en">Producer of this item</base>
+        <tran loc="fr">Auteur de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecordingYear.Description</Position>
+      <TranslationSet>
+        <base loc="en">Year the item was recorded</base>
+        <tran loc="fr">Année d’enregistrement de l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsApplicationManaged.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">appmanaged</base>
+        <tran loc="fr">géréparapplication,appmanaged</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCopyright.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">copyright</base>
+        <tran loc="fr">copyright</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEncodingApplications.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">encoder,encodedby,encodingapplication</base>
+        <tran loc="fr">encodeur,encodépar,applicationd’encodage,encoder,encodedby,encodingapplication</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMeteringMode</Position>
+      <TranslationSet>
+        <base loc="en">Metering mode</base>
+        <tran loc="fr">Type de mesure</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioSampleRate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Sample rate of the file’s audio data</base>
+        <tran loc="fr">Fréquence d’échantillonnage des données audio du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMaxAperture</Position>
+      <TranslationSet>
+        <base loc="en">Max aperture</base>
+        <tran loc="fr">Ouverture maximale</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOrientation.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">orientation</base>
+        <tran loc="fr">orientation</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSOwnerGroupID</Position>
+      <TranslationSet>
+        <base loc="en">Group</base>
+        <tran loc="fr">Groupe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAltitude.Description</Position>
+      <TranslationSet>
+        <base loc="en">The altitude of the item in meters above sea level, expressed using the WGS84 datum. Negative values lie below sea level.</base>
+        <tran loc="fr">L’altitude de cet élément en mètres au-dessus du niveau de la mer exprimée à l’aide du système de référence géodésique WGS84. Les valeurs négatives sont situées sous le niveau de la mer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContentModificationDate</Position>
+      <TranslationSet>
+        <base loc="en">Content modified</base>
+        <tran loc="fr">Contenu modifié</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPerformers</Position>
+      <TranslationSet>
+        <base loc="en">Performers</base>
+        <tran loc="fr">Interprètes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPerformers.Description</Position>
+      <TranslationSet>
+        <base loc="en">Performers</base>
+        <tran loc="fr">Interprètes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAcquisitionModel</Position>
+      <TranslationSet>
+        <base loc="en">Device model</base>
+        <tran loc="fr">Modèle du périphérique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipientAddresses.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">to</base>
+        <tran loc="fr">à,to</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFinderComment.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">comment,spotlightcomment</base>
+        <tran loc="fr">commentaire,commentairespotlight,comment,spotlightcomment</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEditors</Position>
+      <TranslationSet>
+        <base loc="en">Editors</base>
+        <tran loc="fr">Rédacteurs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRights.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">rights</base>
+        <tran loc="fr">droits,rights</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemBitsPerSample.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">bitspersample,bps</base>
+        <tran loc="fr">bitsparéchantillon,bit/s,bps,bitspersample</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPhoneNumbers.Description</Position>
+      <TranslationSet>
+        <base loc="en">Phone numbers associated with this item</base>
+        <tran loc="fr">Numéros de téléphone associés à cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContentCreationDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date when the content of this item was created</base>
+        <tran loc="fr">Date de création du contenu de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemHasAlphaChannel.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">alpha</base>
+        <tran loc="fr">alpha</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPageHeight</Position>
+      <TranslationSet>
+        <base loc="en">Page height</base>
+        <tran loc="fr">Hauteur de page</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioTrackNumber</Position>
+      <TranslationSet>
+        <base loc="en">Track number</base>
+        <tran loc="fr">Numéro de piste</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemSubject.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">subject,title,name</base>
+        <tran loc="fr">objet,titre,nom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKeySignature</Position>
+      <TranslationSet>
+        <base loc="en">Key signature</base>
+        <tran loc="fr">Signature clé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCity.Description</Position>
+      <TranslationSet>
+        <base loc="en">City of the item</base>
+        <tran loc="fr">Ville de l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContactKeywords.Description</Position>
+      <TranslationSet>
+        <base loc="en">Contacts associated with this item</base>
+        <tran loc="fr">Contacts associés à cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioEncodingApplication</Position>
+      <TranslationSet>
+        <base loc="en">Audio encoding application</base>
+        <tran loc="fr">Application d’encodage audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCoverage.Description</Position>
+      <TranslationSet>
+        <base loc="en">Extent or scope of the content of the document</base>
+        <tran loc="fr">Étendue du contenu du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExecutablePlatform.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">platform</base>
+        <tran loc="fr">plateforme,platform</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIdentifier</Position>
+      <TranslationSet>
+        <base loc="en">Identifier</base>
+        <tran loc="fr">Identifiant</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEXIFVersion.Description</Position>
+      <TranslationSet>
+        <base loc="en">Version of EXIF used to generate the metadata</base>
+        <tran loc="fr">Version EXIF utilisée pour générer les métadonnées</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemResolutionWidthDPI.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">widthdpi,dpi</base>
+        <tran loc="fr">largeurdpi,dpi,widthdpi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRights.Description</Position>
+      <TranslationSet>
+        <base loc="en">Link to information about the rights held on the document</base>
+        <tran loc="fr">Lien vers plus d’informations sur les droits relatifs à ce document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSContentChangeDate</Position>
+      <TranslationSet>
+        <base loc="en">Modified</base>
+        <tran loc="fr">Modifié le</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContributors.Description</Position>
+      <TranslationSet>
+        <base loc="en">People or organizations contributing to the content of the document</base>
+        <tran loc="fr">Personnes ou entreprises ayant contribué au contenu du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemWhereFroms.Description</Position>
+      <TranslationSet>
+        <base loc="en">Where the item came from</base>
+        <tran loc="fr">Origine de l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDurationSeconds.Description</Position>
+      <TranslationSet>
+        <base loc="en">Duration of this item in seconds</base>
+        <tran loc="fr">Durée de cet élément en secondes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLongitude.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">longitude</base>
+        <tran loc="fr">longitude</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCodecs.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">codec</base>
+        <tran loc="fr">codec</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEXIFVersion</Position>
+      <TranslationSet>
+        <base loc="en">EXIF version</base>
+        <tran loc="fr">Version EXIF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemHasAlphaChannel</Position>
+      <TranslationSet>
+        <base loc="en">Alpha channel</base>
+        <tran loc="fr">Canal alpha</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTitle</Position>
+      <TranslationSet>
+        <base loc="en">Title</base>
+        <tran loc="fr">Titre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFocalLength</Position>
+      <TranslationSet>
+        <base loc="en">Focal length</base>
+        <tran loc="fr">Longueur focale</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudiences</Position>
+      <TranslationSet>
+        <base loc="en">Audiences</base>
+        <tran loc="fr">Publics</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCity.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">city</base>
+        <tran loc="fr">ville,city</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFNumber.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">fnumber,fstop</base>
+        <tran loc="fr">fnombre,fstop,fnumber</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIdentifier.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">id</base>
+        <tran loc="fr">identifiant,id</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemColorSpace</Position>
+      <TranslationSet>
+        <base loc="en">Color space</base>
+        <tran loc="fr">Espace colorimétrique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEndDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date this item ends</base>
+        <tran loc="fr">Date de fin de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSInvisible</Position>
+      <TranslationSet>
+        <base loc="en">File invisible</base>
+        <tran loc="fr">Fichier invisible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInstructions.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">instructions</base>
+        <tran loc="fr">instructions</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTheme</Position>
+      <TranslationSet>
+        <base loc="en">Theme</base>
+        <tran loc="fr">Thème</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemComment.Description</Position>
+      <TranslationSet>
+        <base loc="en">Comments about this item</base>
+        <tran loc="fr">Commentaires sur cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthorAddresses.Description</Position>
+      <TranslationSet>
+        <base loc="en">Addresses for authors of this item</base>
+        <tran loc="fr">Adresses des auteurs de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAltitude</Position>
+      <TranslationSet>
+        <base loc="en">Altitude</base>
+        <tran loc="fr">Altitude</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*
+ 
+*  filename: schema.strings
+ 
+*  created : Wed Mar 17 12:43:17 2004
+ </Description>
+      <Position>kMDItemKeywords</Position>
+      <TranslationSet>
+        <base loc="en">Keywords</base>
+        <tran loc="fr">Mots-clés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEndDate</Position>
+      <TranslationSet>
+        <base loc="en">End date</base>
+        <tran loc="fr">Date de fin</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureMode</Position>
+      <TranslationSet>
+        <base loc="en">Exposure mode</base>
+        <tran loc="fr">Mode de mesure</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioEncodingApplication.Description</Position>
+      <TranslationSet>
+        <base loc="en">Name of the application that encoded the data in the audio file</base>
+        <tran loc="fr">Nom de l’application ayant servi à encoder la partie audio du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFonts.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">font</base>
+        <tran loc="fr">police,font</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelCount.Description</Position>
+      <TranslationSet>
+        <base loc="en">Total number of pixels in the document</base>
+        <tran loc="fr">Nombre total de pixels dans ce document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEXIFVersion.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">exifversion</base>
+        <tran loc="fr">versionexif,exifversion</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsGeneralMIDISequence</Position>
+      <TranslationSet>
+        <base loc="en">General MIDI sequence</base>
+        <tran loc="fr">Séquence MIDI générique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopDescriptors.Description</Position>
+      <TranslationSet>
+        <base loc="en">Keywords describing the mood and other aspects of the loop</base>
+        <tran loc="fr">Mots-clés décrivant l’ambiance et d’autres aspects de la boucle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContentModificationDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">contentmodified,modified,date</base>
+        <tran loc="fr">contenumodifié,modifié,date,contentmodified,modified</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthors.Description</Position>
+      <TranslationSet>
+        <base loc="en">Authors of this item</base>
+        <tran loc="fr">Auteurs de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppStoreCategory</Position>
+      <TranslationSet>
+        <base loc="en">Category</base>
+        <tran loc="fr">Catégorie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCity</Position>
+      <TranslationSet>
+        <base loc="en">City</base>
+        <tran loc="fr">Ville</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSIsExtensionHidden</Position>
+      <TranslationSet>
+        <base loc="en">File extension hidden</base>
+        <tran loc="fr">Extension de fichier masquée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAcquisitionMake.Description</Position>
+      <TranslationSet>
+        <base loc="en">Make of the device used to acquire this document</base>
+        <tran loc="fr">Marque du périphérique employé pour l’acquisition de ce document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemSecurityMethod</Position>
+      <TranslationSet>
+        <base loc="en">Security</base>
+        <tran loc="fr">Sécurité</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDurationSeconds</Position>
+      <TranslationSet>
+        <base loc="en">Duration</base>
+        <tran loc="fr">Durée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContentModificationDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date when the content of this item was modified</base>
+        <tran loc="fr">Date de modification du contenu de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTimeSignature.Description</Position>
+      <TranslationSet>
+        <base loc="en">Time signature of the song in the audio or MIDI file</base>
+        <tran loc="fr">Signature temporelle de la chanson incluse dans le fichier audio ou MIDI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProducer</Position>
+      <TranslationSet>
+        <base loc="en">Producer</base>
+        <tran loc="fr">Producteur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsLikelyJunk.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the file is likely to be considered a junk file</base>
+        <tran loc="fr">Indique si le fichier est considéré comme courrier indésirable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMediaTypes.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">media,contains,mediatype</base>
+        <tran loc="fr">média,contient,typedemédia,media,contains,mediatype</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSIsExtensionHidden.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the file extension is hidden</base>
+        <tran loc="fr">Indique si l’extension du fichier est masquée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCoverage.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">coverage</base>
+        <tran loc="fr">couverture,coverage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemBitsPerSample</Position>
+      <TranslationSet>
+        <base loc="en">Bits per sample</base>
+        <tran loc="fr">Bits par échantillon</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPath</Position>
+      <TranslationSet>
+        <base loc="en">File pathname</base>
+        <tran loc="fr">Chemin d’accès du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAperture</Position>
+      <TranslationSet>
+        <base loc="en">Aperture value</base>
+        <tran loc="fr">Indice d’ouverture</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEXIFGPSVersion</Position>
+      <TranslationSet>
+        <base loc="en">EXIF GPS version</base>
+        <tran loc="fr">Version du GPS selon EXIF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLanguages.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">language</base>
+        <tran loc="fr">langue,language</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureTimeSeconds</Position>
+      <TranslationSet>
+        <base loc="en">Exposure time</base>
+        <tran loc="fr">Temps d’exposition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureTimeString</Position>
+      <TranslationSet>
+        <base loc="en">Exposure time</base>
+        <tran loc="fr">Temps d’exposition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureTimeString.Description</Position>
+      <TranslationSet>
+        <base loc="en">Exposure time</base>
+        <tran loc="fr">Temps d’exposition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStateOrProvince.Description</Position>
+      <TranslationSet>
+        <base loc="en">State or province of the item according to the provider</base>
+        <tran loc="fr">Région, province ou état d’origine de l’élément, d’après le fournisseur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioBitRate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">audiobitrate,bitrate</base>
+        <tran loc="fr">débitaudio,débit,audiobitrate,bitrate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemApplicationCategories.Description</Position>
+      <TranslationSet>
+        <base loc="en">Categories application is a member of</base>
+        <tran loc="fr">Catégories dont l’application fait partie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExecutableArchitectures.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">architectures</base>
+        <tran loc="fr">architectures</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDeliveryType.Description</Position>
+      <TranslationSet>
+        <base loc="en">Method used to deliver the media (Fast Start or RTSP)</base>
+        <tran loc="fr">Méthode utilisée pour délivrer ces données (démarrage rapide ou RTSP)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSSize</Position>
+      <TranslationSet>
+        <base loc="en">File size</base>
+        <tran loc="fr">Taille du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalInstrumentCategory</Position>
+      <TranslationSet>
+        <base loc="en">Instrument category</base>
+        <tran loc="fr">Catégorie d’instrument</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureTimeSeconds.Description</Position>
+      <TranslationSet>
+        <base loc="en">Time the lens was open during exposure</base>
+        <tran loc="fr">Durée d’ouverture de l’objectif pendant l’exposition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelWidth.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">pixelwidth,width</base>
+        <tran loc="fr">largeurpixel,largeur,pixelwidth,width</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDisplayName.Description</Position>
+      <TranslationSet>
+        <base loc="en">Localized name of the file</base>
+        <tran loc="fr">Nom localisé du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTimeSignature</Position>
+      <TranslationSet>
+        <base loc="en">Time signature</base>
+        <tran loc="fr">Signature temporelle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalInstrumentName</Position>
+      <TranslationSet>
+        <base loc="en">Instrument name</base>
+        <tran loc="fr">Nom de l’instrument</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPublishers.Description</Position>
+      <TranslationSet>
+        <base loc="en">Publisher of the document</base>
+        <tran loc="fr">Éditeur du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTextContent.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">content,contains,intext</base>
+        <tran loc="fr">contenu,contient,texteinterne,content,contains,intext</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFlashOnOff</Position>
+      <TranslationSet>
+        <base loc="en">Flash</base>
+        <tran loc="fr">Flash</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLayerNames</Position>
+      <TranslationSet>
+        <base loc="en">Layers</base>
+        <tran loc="fr">Couches</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKind.Description</Position>
+      <TranslationSet>
+        <base loc="en">Kind of this item</base>
+        <tran loc="fr">Type de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopsLoopMode.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the file is a looping or non-looping file. Looping files adjust their tempo to the song tempo, while non-looping files keep their recorded tempo</base>
+        <tran loc="fr">Indique si le fichier est en boucle ou non. Les fichiers en boucle ajustent leur tempo à celui du morceau tandis que les fichiers non en boucle conservent leur tempo enregistré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemSubject.Description</Position>
+      <TranslationSet>
+        <base loc="en">Subject of this item</base>
+        <tran loc="fr">Objet de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAlbum.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">album,title</base>
+        <tran loc="fr">album,titre,title</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPath.Description</Position>
+      <TranslationSet>
+        <base loc="en">Complete pathname of this file</base>
+        <tran loc="fr">Chemin d’accès complet au fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInstantMessageAddresses.Description</Position>
+      <TranslationSet>
+        <base loc="en">Instant message addresses associated with this item</base>
+        <tran loc="fr">Adresses de messagerie instantanée associées à cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSIsStationery.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the file is stationery</base>
+        <tran loc="fr">Indique si le fichier est un modèle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLogicalSize</Position>
+      <TranslationSet>
+        <base loc="en">Logical size</base>
+        <tran loc="fr">Taille logique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSLabel</Position>
+      <TranslationSet>
+        <base loc="en">File label</base>
+        <tran loc="fr">Étiquette du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCodecs</Position>
+      <TranslationSet>
+        <base loc="en">Codecs</base>
+        <tran loc="fr">Codecs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemVideoBitRate</Position>
+      <TranslationSet>
+        <base loc="en">Video bit rate</base>
+        <tran loc="fr">Débit vidéo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemNamedLocation</Position>
+      <TranslationSet>
+        <base loc="en">Location</base>
+        <tran loc="fr">Lieu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopsRootKey</Position>
+      <TranslationSet>
+        <base loc="en">Loop original key</base>
+        <tran loc="fr">Clé d’origine de la boucle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioChannelCount</Position>
+      <TranslationSet>
+        <base loc="en">Audio channels</base>
+        <tran loc="fr">Canaux audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Names for FS attributes </Description>
+      <Position>kMDItemFSName.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">filename</base>
+        <tran loc="fr">nomdufichier,filename</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFonts</Position>
+      <TranslationSet>
+        <base loc="en">Fonts</base>
+        <tran loc="fr">Polices</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemVersion.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">version</base>
+        <tran loc="fr">version</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRedEyeOnOff</Position>
+      <TranslationSet>
+        <base loc="en">Red eye</base>
+        <tran loc="fr">Yeux rouges</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemNumberOfPages.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">pages</base>
+        <tran loc="fr">pages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLyricist.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">by,lyricist,author</base>
+        <tran loc="fr">par,parolier,auteur,by,lyricist,author</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDisplayName.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">name,displayname</base>
+        <tran loc="fr">nom,nomaffiché,name,displayname</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTheme.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">theme</base>
+        <tran loc="fr">thème,theme</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSContentChangeDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">modified</base>
+        <tran loc="fr">modifiéle,modified</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright</base>
+        <tran loc="fr">Copyright</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLatitude.Description</Position>
+      <TranslationSet>
+        <base loc="en">The latitude of the item in degrees north of the equator, expressed using the WGS84 datum. Negative values lie south of the equator.</base>
+        <tran loc="fr">La latitude de l’élément en degrés au nord de l’équateur exprimée à l’aide du système de référence géodésique WGS84. Les valeurs négatives sont situées au sud de l’équateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSSize.Description</Position>
+      <TranslationSet>
+        <base loc="en">Logical size of the file on disk in bytes</base>
+        <tran loc="fr">Taille logique du fichier sur le disque en octets</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCreator.Description</Position>
+      <TranslationSet>
+        <base loc="en">Application used to create the document</base>
+        <tran loc="fr">Application utilisée pour créer le document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStreamable.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the content is prepared for streaming</base>
+        <tran loc="fr">Indique si le contenu est adapté à la diffusion en continu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTitle.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">title</base>
+        <tran loc="fr">titre,title</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOrientation.Description</Position>
+      <TranslationSet>
+        <base loc="en">Orientation of the picture (landscape or portrait)</base>
+        <tran loc="fr">Orientation de l’image (paysage ou portrait)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFinderComment.Description</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight comment for this item</base>
+        <tran loc="fr">Commentaire Spotlight pour cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContentCreationDate</Position>
+      <TranslationSet>
+        <base loc="en">Content created</base>
+        <tran loc="fr">Contenu créé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSIsStationery.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">stationery</base>
+        <tran loc="fr">modèle,stationery</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLongitude.Description</Position>
+      <TranslationSet>
+        <base loc="en">The longitude of the item in degrees east of the prime meridian, expressed using the WGS84 datum. Negative values lie west of the prime meridian.</base>
+        <tran loc="fr">La longitude de l’élément en degrés à l’est du méridien de Greenwich exprimée à l’aide du système de référence géodésique WGS84. Les valeurs négatives sont situées à l’ouest du méridien de Greenwich.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemVideoBitRate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">videobitrate,bitrate</base>
+        <tran loc="fr">débitvidéo,débit,videobitrate,bitrate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAltitude.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">altitude</base>
+        <tran loc="fr">altitude</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Attribute Descriptions That will be presented to the user
+ 
+*
+ 
+* In the form of
+ 
+* Attribute.Description
+ 
+* "." is not a valid character in an Attribute name.
+ </Description>
+      <Position>kMDItemKeywords.Description</Position>
+      <TranslationSet>
+        <base loc="en">Keywords associated with this item</base>
+        <tran loc="fr">Mots-clés associés à cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemUsedDates</Position>
+      <TranslationSet>
+        <base loc="en">Used dates</base>
+        <tran loc="fr">Dates d’utilisation</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDueDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">duedate,date</base>
+        <tran loc="fr">échéance,date,duedate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPageHeight.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">pageheight,height</base>
+        <tran loc="fr">hauteurpage,hauteur,pageheight,height</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCountry.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">country,region</base>
+        <tran loc="fr">pays,région</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCountry.Description</Position>
+      <TranslationSet>
+        <base loc="en">Country, region, or location where the item was created according to the provider</base>
+        <tran loc="fr">Pays, région ou lieu de création de l’élément, d’après son fournisseur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemResolutionWidthDPI.Description</Position>
+      <TranslationSet>
+        <base loc="en">Resolution width of this image in DPI</base>
+        <tran loc="fr">Résolution horizontale de cette image en PPP</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemWhereFroms</Position>
+      <TranslationSet>
+        <base loc="en">Where from</base>
+        <tran loc="fr">Provenant de</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipientAddresses</Position>
+      <TranslationSet>
+        <base loc="en">Recipient addresses</base>
+        <tran loc="fr">Adresses du destinataire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInformation</Position>
+      <TranslationSet>
+        <base loc="en">Movie information</base>
+        <tran loc="fr">Informations sur la vidéo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInformation.Description</Position>
+      <TranslationSet>
+        <base loc="en">Movie information</base>
+        <tran loc="fr">Informations sur la vidéo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemWhiteBalance.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">whitebalance</base>
+        <tran loc="fr">balancedesblancs,whitebalance</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSCreationDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date the file was created</base>
+        <tran loc="fr">Date de création du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> MDLabel support </Description>
+      <Position>_kMDItemLabels.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">label</base>
+        <tran loc="fr">étiquette,label</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDurationSeconds.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">duration,time</base>
+        <tran loc="fr">durée,temps,duration,time</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDueDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date this item is due</base>
+        <tran loc="fr">Date d’échéance de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProducer.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">producer</base>
+        <tran loc="fr">producteur,producer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPublishers</Position>
+      <TranslationSet>
+        <base loc="en">Publishers</base>
+        <tran loc="fr">Éditeurs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemSecurityMethod.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">security,securitymethod</base>
+        <tran loc="fr">sécurité,méthodedesécurité,security,securitymethod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLyricist</Position>
+      <TranslationSet>
+        <base loc="en">Lyricist</base>
+        <tran loc="fr">Parolier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRedEyeOnOff.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether ‘red eye’ correction was on or off</base>
+        <tran loc="fr">Indique si une correction « yeux rouges » a été utilisée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemApplicationCategories.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">categories</base>
+        <tran loc="fr">catégories,categories</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthorEmailAddresses</Position>
+      <TranslationSet>
+        <base loc="en">Author Email addresses</base>
+        <tran loc="fr">Adresses e-mail de l’auteur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCoverage</Position>
+      <TranslationSet>
+        <base loc="en">Coverage</base>
+        <tran loc="fr">Couverture</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppStoreCategory.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">category</base>
+        <tran loc="fr">catégorie,category</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemISOSpeed</Position>
+      <TranslationSet>
+        <base loc="en">ISO speed</base>
+        <tran loc="fr">Vitesse ISO</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemURL.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">url</base>
+        <tran loc="fr">url</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemUsedDates.Description</Position>
+      <TranslationSet>
+        <base loc="en">Dates when this item was used</base>
+        <tran loc="fr">Dates d’utilisation de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPurchaseDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">purchasedate</base>
+        <tran loc="fr">purchasedate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAcquisitionMake.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">make</base>
+        <tran loc="fr">marque,make</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPurchaseDate</Position>
+      <TranslationSet>
+        <base loc="en">Purchase Date</base>
+        <tran loc="fr">Date d’achat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemNamedLocation.Description</Position>
+      <TranslationSet>
+        <base loc="en">Name of the location or point of interest</base>
+        <tran loc="fr">Nom du lieu ou du site touristique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFlashOnOff.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">flash</base>
+        <tran loc="fr">flash</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMediaTypes.Description</Position>
+      <TranslationSet>
+        <base loc="en">Media types present in the content</base>
+        <tran loc="fr">Types de média présents dans le contenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemUsedDates.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">used,date</base>
+        <tran loc="fr">utiliséle,date,used</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemWhiteBalance</Position>
+      <TranslationSet>
+        <base loc="en">White balance</base>
+        <tran loc="fr">Balance des blancs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLastUsedDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">lastused,date</base>
+        <tran loc="fr">dernièreutilisationle,date,lastused,date</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDeliveryType.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">delivery</base>
+        <tran loc="fr">envoi,livraison,delivery</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemComment</Position>
+      <TranslationSet>
+        <base loc="en">Comment</base>
+        <tran loc="fr">Commentaire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAperture.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">aperture,fstop</base>
+        <tran loc="fr">aperture,fstop</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecordingDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">recordingdate,date</base>
+        <tran loc="fr">dateenregistrement,date,recordingdate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelHeight</Position>
+      <TranslationSet>
+        <base loc="en">Pixel height</base>
+        <tran loc="fr">Hauteur en pixels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKind.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">kind</base>
+        <tran loc="fr">type,kind</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipients.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">to,recipient,with</base>
+        <tran loc="fr">à,destinataire,avec,to,recipient,with</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioBitRate.ShortDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Bit Rate</base>
+        <tran loc="fr">Débit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioChannelCount.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">channels</base>
+        <tran loc="fr">canaux,channels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEmailAddresses.Description</Position>
+      <TranslationSet>
+        <base loc="en">Email addresses associated with this item</base>
+        <tran loc="fr">Adresses e-mail associées à cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioBitRate</Position>
+      <TranslationSet>
+        <base loc="en">Audio bit rate</base>
+        <tran loc="fr">Débit audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIdentifier.Description</Position>
+      <TranslationSet>
+        <base loc="en">Reference to a resource within a given context</base>
+        <tran loc="fr">Référence à une ressource dans un contexte donné</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAlternateNames</Position>
+      <TranslationSet>
+        <base loc="en">Alternate display names</base>
+        <tran loc="fr">Autres noms affichables</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPhysicalSize.Description</Position>
+      <TranslationSet>
+        <base loc="en">Physical size of the item in bytes</base>
+        <tran loc="fr">Taille physique de l’élément en octets</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCountry</Position>
+      <TranslationSet>
+        <base loc="en">Region</base>
+        <tran loc="fr">Région</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemNumberOfPages</Position>
+      <TranslationSet>
+        <base loc="en">Pages</base>
+        <tran loc="fr">Pages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemURL</Position>
+      <TranslationSet>
+        <base loc="en">URL</base>
+        <tran loc="fr">URL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDocumentContainer.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">container</base>
+        <tran loc="fr">conteneur,container</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSCreationDate</Position>
+      <TranslationSet>
+        <base loc="en">Created</base>
+        <tran loc="fr">Créé le</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTotalBitRate</Position>
+      <TranslationSet>
+        <base loc="en">Total bit rate</base>
+        <tran loc="fr">Débit total</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPageHeight.Description</Position>
+      <TranslationSet>
+        <base loc="en">Height of the document page in points</base>
+        <tran loc="fr">Hauteur de page du document en points</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthorEmailAddresses.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">from,email,mail</base>
+        <tran loc="fr">de,adresseemail,adresse,email,from,mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExecutableArchitectures</Position>
+      <TranslationSet>
+        <base loc="en">Executable Architectures</base>
+        <tran loc="fr">Architectures exécutables</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalGenre.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">genre,musicalgenre</base>
+        <tran loc="fr">genre,genremusical,musicalgenre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFNumber</Position>
+      <TranslationSet>
+        <base loc="en">F number</base>
+        <tran loc="fr">Numéro F</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMediaTypes</Position>
+      <TranslationSet>
+        <base loc="en">Media types</base>
+        <tran loc="fr">Types de média</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOrganizations.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">organization</base>
+        <tran loc="fr">organisation,organization</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProjects.Description</Position>
+      <TranslationSet>
+        <base loc="en">Projects this item is part of</base>
+        <tran loc="fr">Projets dont cet élément fait partie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemResolutionHeightDPI.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">heightdpi,dpi</base>
+        <tran loc="fr">hauteurdpi,dpi,heightdpi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemKind</Position>
+      <TranslationSet>
+        <base loc="en">Kind</base>
+        <tran loc="fr">Type</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEncodingApplications.Description</Position>
+      <TranslationSet>
+        <base loc="en">Software used to convert the original content</base>
+        <tran loc="fr">Logiciel utilisé pour convertir le contenu original</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureMode.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">exposuremode</base>
+        <tran loc="fr">modeexposition,exposuremode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLanguages</Position>
+      <TranslationSet>
+        <base loc="en">Languages</base>
+        <tran loc="fr">Langues</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLayerNames.Description</Position>
+      <TranslationSet>
+        <base loc="en">Names of the layers in the file</base>
+        <tran loc="fr">Noms des couches du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProfileName.Description</Position>
+      <TranslationSet>
+        <base loc="en">Name of the color profile used for the image</base>
+        <tran loc="fr">Nom du profil de couleurs utilisé pour l’image</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStartDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date this item starts</base>
+        <tran loc="fr">Date de début de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDueDate</Position>
+      <TranslationSet>
+        <base loc="en">Due date</base>
+        <tran loc="fr">Échéance</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAperture.Description</Position>
+      <TranslationSet>
+        <base loc="en">Size of the lens aperture as a log-scale APEX value</base>
+        <tran loc="fr">Taille d’ouverture de l’objectif selon une échelle logarithmique APEX</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureProgram.Description</Position>
+      <TranslationSet>
+        <base loc="en">Type of program used by the camera to set the exposure: Manual, Normal, Aperture priority, …</base>
+        <tran loc="fr">Type de programme utilisé par l’appareil photo pour déterminer l’exposition : Manuel, Normal, Priorité d’ouverture…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStreamable</Position>
+      <TranslationSet>
+        <base loc="en">Streamable</base>
+        <tran loc="fr">Diffusable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipientEmailAddresses.Description</Position>
+      <TranslationSet>
+        <base loc="en">Email addresses for recipients of this item</base>
+        <tran loc="fr">Adresses e-mail des destinataires de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthors.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">from,author,with,by</base>
+        <tran loc="fr">de,auteur,avec,par,from,author,with,by</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureProgram</Position>
+      <TranslationSet>
+        <base loc="en">Exposure program</base>
+        <tran loc="fr">Programme d’exposition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemParticipants.Description</Position>
+      <TranslationSet>
+        <base loc="en">Participants in this item</base>
+        <tran loc="fr">Participants dans cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTempo.Description</Position>
+      <TranslationSet>
+        <base loc="en">Tempo of the music in the audio file in Beats Per Minute</base>
+        <tran loc="fr">Tempo de la musique incluse dans le fichier audio, en BPM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAcquisitionMake</Position>
+      <TranslationSet>
+        <base loc="en">Device make</base>
+        <tran loc="fr">Marque du périphérique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSInvisible.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">invisible</base>
+        <tran loc="fr">invisible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTheme.Description</Position>
+      <TranslationSet>
+        <base loc="en">Theme of this item</base>
+        <tran loc="fr">Thème de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelHeight.Description</Position>
+      <TranslationSet>
+        <base loc="en">Height of the document in pixels</base>
+        <tran loc="fr">Hauteur du document en pixels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemNamedLocation.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">location</base>
+        <tran loc="fr">lieu,location</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Attribute short display names
+ 
+*
+ 
+* In the form of Attribute.ShortDisplayName
+ 
+* Unlike short names, short display names can contain spaces.
+ 
+*
+ 
+* If a short display name is provided, it will be used instead of the first
+ 
+* short name when displaying a short version of the attribute name to the user.
+ 
+*
+ 
+* Note that the attribute's main localized name is the preferred name for an attribute.
+ 
+*
+ 
+* Short names are used where space is at a premium and aliasing attribute names is acceptable.
+ 
+* Aliasing refers to the fact that several attributes can share the same short name.
+ 
+* For example, the short name "from" refers to authors of emails as well as instant messages.
+ 
+*
+ </Description>
+      <Position>kMDItemAudioEncodingApplication.ShortDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Encoded by</base>
+        <tran loc="fr">Encodé par</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEncodingApplications.ShortDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Encoded by</base>
+        <tran loc="fr">Encodé par</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Names for FS attributes </Description>
+      <Position>kMDItemFSName</Position>
+      <TranslationSet>
+        <base loc="en">Filename</base>
+        <tran loc="fr">Nom du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"kMDItemFSExists"                             = "File exists";</Description>
+      <Position>kMDItemFSNodeCount</Position>
+      <TranslationSet>
+        <base loc="en">Number of items</base>
+        <tran loc="fr">Nombre d’éléments</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDescription</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="fr">Description</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioChannelCount.Description</Position>
+      <TranslationSet>
+        <base loc="en">Number of channels in the file’s audio data</base>
+        <tran loc="fr">Nombre de canaux dans les données audio du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMeteringMode.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">metering,meteringmode</base>
+        <tran loc="fr">mesure,modedemesure,metering,meteringmode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDateAdded.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date when this item was last moved</base>
+        <tran loc="fr">Date du dernier déplacement de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTimeSignature.ShortDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Time Signature</base>
+        <tran loc="fr">Signature temporelle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPageWidth</Position>
+      <TranslationSet>
+        <base loc="en">Page width</base>
+        <tran loc="fr">Largeur de page</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemUserTags.Description</Position>
+      <TranslationSet>
+        <base loc="en">Tags associated with this item</base>
+        <tran loc="fr">Tags associés à cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemCodecs.Description</Position>
+      <TranslationSet>
+        <base loc="en">Codecs used to encode and decode the media</base>
+        <tran loc="fr">Codecs utilisés pour encoder et décoder les données</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLayerNames.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">layer</base>
+        <tran loc="fr">couche,layer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContactKeywords</Position>
+      <TranslationSet>
+        <base loc="en">Contact keywords</base>
+        <tran loc="fr">Mots-clés de contact</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInstructions.Description</Position>
+      <TranslationSet>
+        <base loc="en">Other information concerning the item, such as handling instructions</base>
+        <tran loc="fr">Autres informations concernant cet élément comme, par exemple, les instructions de manipulation</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsApplicationManaged.Description</Position>
+      <TranslationSet>
+        <base loc="en">The file is owned and managed by an application</base>
+        <tran loc="fr">Le fichier est détenu et géré par une application</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStreamable.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">streamable</base>
+        <tran loc="fr">diffusable,streamable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOriginalFormat</Position>
+      <TranslationSet>
+        <base loc="en">Original Format</base>
+        <tran loc="fr">Format d’origine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOriginalFormat.Description</Position>
+      <TranslationSet>
+        <base loc="en">Original Format</base>
+        <tran loc="fr">Format d’origine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLastUsedDate</Position>
+      <TranslationSet>
+        <base loc="en">Last opened</base>
+        <tran loc="fr">Ouverture</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemVideoBitRate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Bit rate of the video in the media</base>
+        <tran loc="fr">Débit vidéo de ce média</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopDescriptors</Position>
+      <TranslationSet>
+        <base loc="en">Loop descriptors</base>
+        <tran loc="fr">Descripteurs de boucle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemApplicationCategories</Position>
+      <TranslationSet>
+        <base loc="en">Application Categories</base>
+        <tran loc="fr">Catégories d’applications</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContactKeywords.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">contact,contactkeyword,keyword</base>
+        <tran loc="fr">contact,motclédecontact,motclé,contactkeyword,keyword</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEndDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">enddate,date</base>
+        <tran loc="fr">datedefin,date</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDescription.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">description,comment</base>
+        <tran loc="fr">description,commentaire,comment</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemComment.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">comment</base>
+        <tran loc="fr">commentaire,comment</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalGenre.Description</Position>
+      <TranslationSet>
+        <base loc="en">Musical genre of the song in the audio file</base>
+        <tran loc="fr">Genre musical de la chanson incluse dans le fichier audio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInstantMessageAddresses</Position>
+      <TranslationSet>
+        <base loc="en">Instant message addresses</base>
+        <tran loc="fr">Adresses de messagerie instantanée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioBitRate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Bit rate of the audio in the media</base>
+        <tran loc="fr">Débit audio du média</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAcquisitionModel.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">model</base>
+        <tran loc="fr">modèle,model</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemHeadline.Description</Position>
+      <TranslationSet>
+        <base loc="en">Publishable summary of the contents of the item</base>
+        <tran loc="fr">Résumé public du contenu de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemResolutionHeightDPI.Description</Position>
+      <TranslationSet>
+        <base loc="en">Resolution height of this image in DPI</base>
+        <tran loc="fr">Résolution verticale de cette image en PPP</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopsKeyFilterType.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the loop uses the major or minor scale, neither scale, or can be used with both</base>
+        <tran loc="fr">Indique si la boucle utilise une gamme majeure, une gamme mineure, aucune gamme ou est utilisable avec les deux types de gamme</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSOwnerUserID.Description</Position>
+      <TranslationSet>
+        <base loc="en">User ID of the owner of the file</base>
+        <tran loc="fr">Identifiant utilisateur du propriétaire du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsLikelyJunk.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">isjunk</base>
+        <tran loc="fr">estindésirable,estuncourrierindésirable,isjunk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemSecurityMethod.Description</Position>
+      <TranslationSet>
+        <base loc="en">Encryption method used to make the document secure</base>
+        <tran loc="fr">Méthode de chiffrement utilisée pour sécuriser le document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemHeadline.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">headline,title</base>
+        <tran loc="fr">grostitre,titre,headline,title</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSOwnerUserID</Position>
+      <TranslationSet>
+        <base loc="en">Owner</base>
+        <tran loc="fr">Propriétaire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalInstrumentName.Description</Position>
+      <TranslationSet>
+        <base loc="en">Name of instrument relative to the instrument category</base>
+        <tran loc="fr">Nom d’instrument se rapportant à la catégorie d’instruments</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAlternateNames.Description</Position>
+      <TranslationSet>
+        <base loc="en">Alternate names of the file</base>
+        <tran loc="fr">Autres noms du fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEXIFGPSVersion.Description</Position>
+      <TranslationSet>
+        <base loc="en">The version of GPSInfoIFD in EXIF used to generate the metadata</base>
+        <tran loc="fr">La version de GPSInfoIFD en EXIF utilisée pour générer les métadonnées</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMaxAperture.Description</Position>
+      <TranslationSet>
+        <base loc="en">Smallest F number of the lens in APEX value units, usually in the range of 00.00 to 99.99</base>
+        <tran loc="fr">Le plus petit nombre F de l’objectif. L’unité est la valeur APEX, habituellement comprise entre 00.00 et 99.99</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDirector</Position>
+      <TranslationSet>
+        <base loc="en">Director</base>
+        <tran loc="fr">Réalisateur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDirector.Description</Position>
+      <TranslationSet>
+        <base loc="en">Director</base>
+        <tran loc="fr">Réalisateur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMeteringMode.Description</Position>
+      <TranslationSet>
+        <base loc="en">The metering mode (Unknown, Average, CenterWeightedAverage, Spot, MultiSpot, Pattern, Partial)</base>
+        <tran loc="fr">Le type de mesure (Inconnu, Moyen, Moyenne centrale pondérée, Point, MultiPoint, Motif, Partiel)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopsLoopMode</Position>
+      <TranslationSet>
+        <base loc="en">Loop file type</base>
+        <tran loc="fr">Type de fichier en boucle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemStarRating.Description</Position>
+      <TranslationSet>
+        <base loc="en">User Rating</base>
+        <tran loc="fr">Classement par l’utilisateur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFocalLength.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">focallength</base>
+        <tran loc="fr">longueurfocale,focallength</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDeliveryType</Position>
+      <TranslationSet>
+        <base loc="en">Delivery type</base>
+        <tran loc="fr">Type de livraison</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSInvisible.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the file is visible</base>
+        <tran loc="fr">Indique si le fichier est visible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecordingYear</Position>
+      <TranslationSet>
+        <base loc="en">Year recorded</base>
+        <tran loc="fr">Année d’enregistrement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemGenre</Position>
+      <TranslationSet>
+        <base loc="en">Genre</base>
+        <tran loc="fr">Genre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemGenre.Description</Position>
+      <TranslationSet>
+        <base loc="en">Genre</base>
+        <tran loc="fr">Genre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemUserTags</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="fr">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecordingDate</Position>
+      <TranslationSet>
+        <base loc="en">Recording date</base>
+        <tran loc="fr">Date d’enregistrement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLogicalSize.Description</Position>
+      <TranslationSet>
+        <base loc="en">Logical size of the item in bytes</base>
+        <tran loc="fr">Taille logique de l’élément en octets</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInstantMessageAddresses.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">chat,imname</base>
+        <tran loc="fr">conversation,nommi,chat,imname</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsLikelyJunk</Position>
+      <TranslationSet>
+        <base loc="en">Is Junk</base>
+        <tran loc="fr">Est un courrier indésirable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelWidth.Description</Position>
+      <TranslationSet>
+        <base loc="en">Width of the document in pixels</base>
+        <tran loc="fr">Largeur du document en pixels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsGeneralMIDISequence.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the MIDI sequence contained in the file is setup for use with a General MIDI device</base>
+        <tran loc="fr">Indique si la séquence MIDI incluse dans le fichier est configurée pour être utilisée avec un appareil MIDI générique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemParticipants</Position>
+      <TranslationSet>
+        <base loc="en">Participants</base>
+        <tran loc="fr">Participants</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSCreationDate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">created</base>
+        <tran loc="fr">crééle,created</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioSampleRate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">audiosamplerate,samplerate</base>
+        <tran loc="fr">tauxéchantillonnageaudio,tauxéchantillonnage,audiosamplerate,samplerate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAcquisitionModel.Description</Position>
+      <TranslationSet>
+        <base loc="en">Model of the device used to acquire this document</base>
+        <tran loc="fr">Modèle du périphérique employé pour l’acquisition de ce document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelCount.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">pixelcount</base>
+        <tran loc="fr">nombrepixels,pixelcount</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSOwnerGroupID.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">group</base>
+        <tran loc="fr">groupe,group</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExposureMode.Description</Position>
+      <TranslationSet>
+        <base loc="en">Mode used for the exposure</base>
+        <tran loc="fr">Mode utilisé pour l’exposition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTimeSignature.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">timesignature</base>
+        <tran loc="fr">signaturetemporelle,timesignature</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLanguages.Description</Position>
+      <TranslationSet>
+        <base loc="en">Languages of the content of the document</base>
+        <tran loc="fr">Langues du contenu du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTotalBitRate.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">totalbitrate,bitrate</base>
+        <tran loc="fr">débittotal,débit,totalbitrate,bitrate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemHeadline</Position>
+      <TranslationSet>
+        <base loc="en">Headline</base>
+        <tran loc="fr">Gros titre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemIsGeneralMIDISequence.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">ismidi</base>
+        <tran loc="fr">estmidi,ismidi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProfileName.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="fr">profil,profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioSampleRate.ShortDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Sample Rate</base>
+        <tran loc="fr">Fréquence d’échantillonnage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemISOSpeed.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">iso</base>
+        <tran loc="fr">iso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLensModel.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">lens</base>
+        <tran loc="fr">objectif</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthorEmailAddresses.Description</Position>
+      <TranslationSet>
+        <base loc="en">Email addresses for authors of this item</base>
+        <tran loc="fr">Adresses e-mail des auteurs de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemWhiteBalance.Description</Position>
+      <TranslationSet>
+        <base loc="en">White balance setting of the camera when the picture was taken</base>
+        <tran loc="fr">Réglages de balance des blancs de l’appareil lorsque la photo a été prise</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipientEmailAddresses.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">to,email,mail</base>
+        <tran loc="fr">à,adresse,envoyer,email,to,mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLatitude.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">latitude</base>
+        <tran loc="fr">latitude</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLensModel</Position>
+      <TranslationSet>
+        <base loc="en">Lens model</base>
+        <tran loc="fr">Modèle d’objectif</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLensModel.Description</Position>
+      <TranslationSet>
+        <base loc="en">Model of the lens used to acquire this document</base>
+        <tran loc="fr">Modèle de l’objectif employé pour l’acquisition de ce document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSSize.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">size</base>
+        <tran loc="fr">taille,size</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioEncodingApplication.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">encoder,encodedby,audioencodingapplication</base>
+        <tran loc="fr">encodeur,encodépar,applicationd’encodageaudio,encoder,encodedby,audioencodingapplication</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTempo.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">tempo</base>
+        <tran loc="fr">rythme,tempo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemISOSpeed.Description</Position>
+      <TranslationSet>
+        <base loc="en">ISO speed of the camera when the picture was taken</base>
+        <tran loc="fr">Vitesse ISO de l’appareil lorsque la photo a été prise</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemResolutionWidthDPI</Position>
+      <TranslationSet>
+        <base loc="en">Resolution width</base>
+        <tran loc="fr">Résolution horizontale</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAuthorAddresses.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">from</base>
+        <tran loc="fr">de,from</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOriginalSource</Position>
+      <TranslationSet>
+        <base loc="en">Original Source</base>
+        <tran loc="fr">Source d’origine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemOriginalSource.Description</Position>
+      <TranslationSet>
+        <base loc="en">Original Source</base>
+        <tran loc="fr">Source d’origine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTitle.Description</Position>
+      <TranslationSet>
+        <base loc="en">Title of this item</base>
+        <tran loc="fr">Titre de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemComposer</Position>
+      <TranslationSet>
+        <base loc="en">Composer</base>
+        <tran loc="fr">Compositeur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFlashOnOff.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the picture was taken using a flash</base>
+        <tran loc="fr">Indique si la photo a été prise au flash</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecordingDate.Description</Position>
+      <TranslationSet>
+        <base loc="en">Date the song was recorded</base>
+        <tran loc="fr">Date d’enregistrement de la chanson</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemContributors</Position>
+      <TranslationSet>
+        <base loc="en">Contributors</base>
+        <tran loc="fr">Collaborateurs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppStoreCategory.Description</Position>
+      <TranslationSet>
+        <base loc="en">App Store Category item is a member of</base>
+        <tran loc="fr">Catégorie de l’App Store dont l’élément fait partie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProfileName</Position>
+      <TranslationSet>
+        <base loc="en">Color profile</base>
+        <tran loc="fr">Profil de couleur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemLongitude</Position>
+      <TranslationSet>
+        <base loc="en">Longitude</base>
+        <tran loc="fr">Longitude</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioTrackNumber.Description</Position>
+      <TranslationSet>
+        <base loc="en">Track number of the song that is part of an album</base>
+        <tran loc="fr">Numéro de piste du morceau dans son album</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioTrackNumber.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">tracknumber</base>
+        <tran loc="fr">numéropiste,tracknumber</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemMusicalInstrumentCategory.Description</Position>
+      <TranslationSet>
+        <base loc="en">Instrument category to which the file belongs</base>
+        <tran loc="fr">Catégorie d’instrument à laquelle appartient le fichier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudiences.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">to,audience</base>
+        <tran loc="fr">à,audience,to</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemTextContent</Position>
+      <TranslationSet>
+        <base loc="en">Text content</base>
+        <tran loc="fr">Contenu textuel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecipients</Position>
+      <TranslationSet>
+        <base loc="en">Recipients</base>
+        <tran loc="fr">Destinataires</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDescription.Description</Position>
+      <TranslationSet>
+        <base loc="en">Description of the content of the document</base>
+        <tran loc="fr">Description du contenu du document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemProject.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">project</base>
+        <tran loc="fr">projet,project</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPhoneNumbers</Position>
+      <TranslationSet>
+        <base loc="en">Phone number</base>
+        <tran loc="fr">Numéro de téléphone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPageWidth.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">pagewidth,width</base>
+        <tran loc="fr">largeurdepage,largeur,pagewidth,width</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSIsStationery</Position>
+      <TranslationSet>
+        <base loc="en">Stationery</base>
+        <tran loc="fr">Modèle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemEditors.Description</Position>
+      <TranslationSet>
+        <base loc="en">Editors of this item</base>
+        <tran loc="fr">Rédacteurs de cet élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAudioSampleRate</Position>
+      <TranslationSet>
+        <base loc="en">Sample rate</base>
+        <tran loc="fr">Taux d’échantillonnage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemComposer.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">by,composer,author</base>
+        <tran loc="fr">par,compositeur,auteur,by,composer,author</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemDateAdded</Position>
+      <TranslationSet>
+        <base loc="en">Date added</base>
+        <tran loc="fr">Date de l’ajout</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemRecordingYear.ShortName</Position>
+      <TranslationSet>
+        <base loc="en">yearrecorded,year</base>
+        <tran loc="fr">annéeenregistrement,année,yearrecorded,year</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemAppleLoopsKeyFilterType</Position>
+      <TranslationSet>
+        <base loc="en">Loop scale type</base>
+        <tran loc="fr">Type de gamme de boucle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFSHasCustomIcon.Description</Position>
+      <TranslationSet>
+        <base loc="en">Whether the file has a custom icon</base>
+        <tran loc="fr">Indique si le fichier dispose d’une icône personnalisée</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemExecutableArchitectures.Description</Position>
+      <TranslationSet>
+        <base loc="en">Architectures the item requires to execute</base>
+        <tran loc="fr">Architectures à exécuter requises par l’élément</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemInstructions</Position>
+      <TranslationSet>
+        <base loc="en">Instructions</base>
+        <tran loc="fr">Instructions</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemPixelCount</Position>
+      <TranslationSet>
+        <base loc="en">Pixel count</base>
+        <tran loc="fr">Nombre de pixels</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemSubject</Position>
+      <TranslationSet>
+        <base loc="en">Subject</base>
+        <tran loc="fr">Objet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMDItemFinderComment</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight comment</base>
+        <tran loc="fr">Commentaire Spotlight</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

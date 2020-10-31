@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>StorageKit</ProjName>
+  <File>
+    <Filepath>StorageKit/System/Library/PrivateFrameworks/StorageKit.framework/Versions/A/Resources/en.lproj/SKError.strings</Filepath>
+    <TextItem>
+      <Description> kSKErrorBlessPersonalizationFailedNoConnection </Description>
+      <Position>124</Position>
+      <TranslationSet>
+        <base loc="en">Startup disk personalization for security failed because there is no network connection.</base>
+        <tran loc="ru">Настройка пользовательских параметров безопасности для загрузочного диска не удалась, так как отсутствует сетевое подключение.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKUnlockRateLimitHit </Description>
+      <Position>123</Position>
+      <TranslationSet>
+        <base loc="en">This user has been locked</base>
+        <tran loc="ru">Этот пользователь заблокирован</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  SKError.strings
+  StorageKit
+
+ More user friendly </Description>
+      <Position>DMErrorKey</Position>
+      <TranslationSet>
+        <base loc="en">%@ : (%d)</base>
+        <tran loc="ru">%@ : (%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorUnknownPartitionMapType </Description>
+      <Position>116</Position>
+      <TranslationSet>
+        <base loc="en">Unknown partition map type.</base>
+        <tran loc="ru">Неизвестный тип схемы разделов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorPrivilegeFailure </Description>
+      <Position>112</Position>
+      <TranslationSet>
+        <base loc="en">The calling process lacks the proper privileges to perform this operation</base>
+        <tran loc="ru">В процессе отсутствуют соответствующие права для выполнения этой операции</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorBlessFailure </Description>
+      <Position>127</Position>
+      <TranslationSet>
+        <base loc="en">Failed to bless the startup disk.</base>
+        <tran loc="ru">Не удалось обработать загрузочный диск инструментом bless.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorInvalidConversionType </Description>
+      <Position>111</Position>
+      <TranslationSet>
+        <base loc="en">The specified conversion type is invalid for this disk</base>
+        <tran loc="ru">Указанный тип преобразования недействителен для этого диска</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorInternalState </Description>
+      <Position>102</Position>
+      <TranslationSet>
+        <base loc="en">An internal state error occurred</base>
+        <tran loc="ru">Произошла внутренняя ошибка состояния</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorInvalidDisk </Description>
+      <Position>117</Position>
+      <TranslationSet>
+        <base loc="en">Invalid disk.</base>
+        <tran loc="ru">Неверный диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorDecryptStillEncrypting </Description>
+      <Position>130</Position>
+      <TranslationSet>
+        <base loc="en">This volume is still encrypting. It cannot be decrypted until encryption completes.</base>
+        <tran loc="ru">Этот том еще зашифровывается. Его нельзя расшифровать, пока не завершится шифрование.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKSuppliedPasswordFailedToUnlockDisk </Description>
+      <Position>107</Position>
+      <TranslationSet>
+        <base loc="en">The supplied password failed to unlock the disk.</base>
+        <tran loc="ru">Снять защиту с диска с помощью предоставленного пароля не удалось.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorCantFindNewDisk </Description>
+      <Position>105</Position>
+      <TranslationSet>
+        <base loc="en">Could not discover new disk created by split.</base>
+        <tran loc="ru">Не удалось обнаружить новый диск, созданный разделением.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorRequireFilesMissing </Description>
+      <Position>106</Position>
+      <TranslationSet>
+        <base loc="en">The specified recovery system files do not exist.</base>
+        <tran loc="ru">Указанные файлы восстановления системы не существуют.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorPosixError </Description>
+      <Position>120</Position>
+      <TranslationSet>
+        <base loc="en">Operation failed with a POSIX error.</base>
+        <tran loc="ru">Выполнить операцию не удалось из-за ошибки POSIX.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorNotMounted </Description>
+      <Position>119</Position>
+      <TranslationSet>
+        <base loc="en">The volume needs to be mounted.</base>
+        <tran loc="ru">Необходимо, чтобы том был подключен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorDecryptAlreadyDecrypting </Description>
+      <Position>129</Position>
+      <TranslationSet>
+        <base loc="en">This volume is already decrypting.</base>
+        <tran loc="ru">Этот том уже расшифровывается.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorUnableToStoreCSPassword </Description>
+      <Position>103</Position>
+      <TranslationSet>
+        <base loc="en">The password could not be stored in the password store.</base>
+        <tran loc="ru">Не удалось сохранить пароль в магазине паролей.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorNoFusionDrives </Description>
+      <Position>115</Position>
+      <TranslationSet>
+        <base loc="en">Fusion Drive drives can not be ejected.</base>
+        <tran loc="ru">Не удается извлечь накопители Fusion Drive.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKUnlockRateLimitBackoff </Description>
+      <Position>128</Position>
+      <TranslationSet>
+        <base loc="en">This user has been temporarily locked. Try again later.</base>
+        <tran loc="ru">Пользователь временно заблокирован. Повторите попытку позже.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKUnableToAddUserToFDERecipe </Description>
+      <Position>108</Position>
+      <TranslationSet>
+        <base loc="en">Unable to add a FileVault user to this disk</base>
+        <tran loc="ru">Не удается добавить к этому диску пользователя FileVault</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKUnableToAddRecoveryUserToFDERecipe </Description>
+      <Position>109</Position>
+      <TranslationSet>
+        <base loc="en">Unable to add a FileVault recovery user to this disk</base>
+        <tran loc="ru">Не удается добавить к этому диску пользователя восстановления FileVault</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorBlessPersonalizationFailedTatsuRefused </Description>
+      <Position>125</Position>
+      <TranslationSet>
+        <base loc="en">Startup disk personalization for security was refused.</base>
+        <tran loc="ru">В настройке пользовательских параметров безопасности для загрузочного диска отказано.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorBlessPersonalizationFailedTatsuOther </Description>
+      <Position>126</Position>
+      <TranslationSet>
+        <base loc="en">Startup disk personalization for security was refused.</base>
+        <tran loc="ru">В настройке пользовательских параметров безопасности для загрузочного диска отказано.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorLVGMissing </Description>
+      <Position>104</Position>
+      <TranslationSet>
+        <base loc="en">The requested logical volume group could not be found.</base>
+        <tran loc="ru">Запрошенная группа логических томов не найдена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorNoiCloudUsers </Description>
+      <Position>113</Position>
+      <TranslationSet>
+        <base loc="en">No iCloud recovery users were found on the volume</base>
+        <tran loc="ru">Пользователи восстановления iCloud не найдены на томе</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKUnknownError </Description>
+      <Position>100</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error has occurred.</base>
+        <tran loc="ru">Произошла неизвестная ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorPartitionProducedWrongOutput </Description>
+      <Position>114</Position>
+      <TranslationSet>
+        <base loc="en">Erasing a unformatted device did not produce a rational result.</base>
+        <tran loc="ru">Очистка неотформатированного диска не принесла результатов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorDiskNotEncrypted </Description>
+      <Position>110</Position>
+      <TranslationSet>
+        <base loc="en">Unable to perform an encrypted disk operation on a disk that isn't encrypted</base>
+        <tran loc="ru">Невозможно выполнить операцию для зашифрованного диска на диске, который не зашифрован</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKUnlockRecordNotPresentOnDisk </Description>
+      <Position>122</Position>
+      <TranslationSet>
+        <base loc="en">The supplied unlock record is not present on this volume.</base>
+        <tran loc="ru">Введенная запись разблокировки отсутствует на этом томе.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKVerifyError </Description>
+      <Position>101</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred when verifying your disk.</base>
+        <tran loc="ru">При проверке диска произошла ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kSKErrorNoPCSIdentity </Description>
+      <Position>121</Position>
+      <TranslationSet>
+        <base loc="en">No protected cloud storage identity of the right type found.</base>
+        <tran loc="ru">Не найдено ни одного удостоверения защищенного облачного хранилища требуемого типа.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageKit/System/Library/PrivateFrameworks/StorageKit.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Case-insensitive APFS Encrypted</Position>
+      <TranslationSet>
+        <base loc="en">APFS (Encrypted)</base>
+        <tran loc="ru">APFS (зашифрованный)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> APFS Flavors </Description>
+      <Position>APFS</Position>
+      <TranslationSet>
+        <base loc="en">APFS (Case-sensitive)</base>
+        <tran loc="ru">APFS (чувствительный к регистру символов)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HFS Not Journaled</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended</base>
+        <tran loc="ru">Mac OS Extended</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other file systems </Description>
+      <Position>FAT</Position>
+      <TranslationSet>
+        <base loc="en">MS-DOS (FAT)</base>
+        <tran loc="ru">MS-DOS (FAT)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ExFAT</Position>
+      <TranslationSet>
+        <base loc="en">ExFAT</base>
+        <tran loc="ru">ExFAT</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HFS Generic Encrypted</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Journaled, Encrypted)</base>
+        <tran loc="ru">Mac OS Extended (журналируемый, зашифрованный)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Free space</Position>
+      <TranslationSet>
+        <base loc="en">Free space</base>
+        <tran loc="ru">Свободное пространство</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HFS Case-sensitive Encrypted</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Case-sensitive, Journaled, Encrypted)</base>
+        <tran loc="ru">Mac OS Extended (чувствительный к регистру символов, журналируемый, зашифрованный)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HFS Generic</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Journaled)</base>
+        <tran loc="ru">Mac OS Extended (журналируемый)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Case-insensitive APFS</Position>
+      <TranslationSet>
+        <base loc="en">APFS</base>
+        <tran loc="ru">APFS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HFS Case-sensitive</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Case-sensitive, Journaled)</base>
+        <tran loc="ru">Mac OS Extended (чувствительный к регистру символов, журналируемый)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localized.strings
+  StorageKit
+
+  Created by scento on 8/21/12.
+  Copyright (c) 2012 Apple Inc. All rights reserved.
+</Description>
+      <Position>Untitled</Position>
+      <TranslationSet>
+        <base loc="en">Untitled</base>
+        <tran loc="ru">Без названия</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APFS Encrypted</Position>
+      <TranslationSet>
+        <base loc="en">APFS (Case-sensitive, Encrypted)</base>
+        <tran loc="ru">APFS (чувствительный к регистру символов, зашифрованный)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>BatteryMonitor</ProjName>
+  <File>
+    <Filepath>BatteryMonitor/System/Library/UserNotifications/Bundles/com.apple.battery-monitor.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FDE_OFF_PAUSED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Conversion from FileVault paused</base>
+        <tran loc="zh-CN">从文件保险箱转换已暂停</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_BATTERY_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Your Mac will sleep soon unless plugged into a power outlet.</base>
+        <tran loc="zh-CN">除非插入电源插座，否则Mac将很快进入睡眠。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> FDE Notifications </Description>
+      <Position>DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Details</base>
+        <tran loc="zh-CN">详细信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FDE_ON_PAUSED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Connect power adapter to resume encryption</base>
+        <tran loc="zh-CN">连接电源适配器来继续加密</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FDE_OFF_PAUSED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Connect power adapter to resume decryption</base>
+        <tran loc="zh-CN">连接电源适配器来继续解密</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Options</base>
+        <tran loc="zh-CN">选项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FDE_ON_PAUSED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Conversion to FileVault paused</base>
+        <tran loc="zh-CN">转换为文件保险箱已暂停</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Battery Monitor Notification localization strings 
+ Battery Notifications </Description>
+      <Position>LOW_BATTERY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Low Battery</base>
+        <tran loc="zh-CN">电池电量不足</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>BatteryMonitor/System/Library/UserNotifications/Bundles/com.apple.battery-monitor.bundle/Contents/Resources/en.lproj/Localizable-abed20f1.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>PROMODE_RESET_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Fans will run at normal speed limit untill tomorrow.</base>
+        <tran loc="zh-CN">明天前风扇将以正常速度限制运转。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROMODE_ON_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Apps may run faster, but battery life may decrease and fan noise may increase.</base>
+        <tran loc="zh-CN">App运行可能更快，但是电池续航能力可能下降且风扇噪音可能增加。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROMODE_ON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Fan speed limit overridden</base>
+        <tran loc="zh-CN">风扇速度限制已被覆盖</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pro Mode </Description>
+      <Position>PROMODE_RESET_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Fan speed reset to normal</base>
+        <tran loc="zh-CN">风扇速度已还原为正常</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>BatteryMonitor/System/Library/CoreServices/Menu Extras/Battery.menu/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_TIME_REMAINING</Position>
+      <TranslationSet>
+        <base loc="en">Unknown time remaining</base>
+        <tran loc="zh-CN">剩余时间未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_CALCULATING_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">Calculating battery percentage, charging</base>
+        <tran loc="zh-CN">正在计算电池百分比，正在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONDITION_REPLACE_NOW</Position>
+      <TranslationSet>
+        <base loc="en">Condition: Replace Now</base>
+        <tran loc="zh-CN">状况：现在更换</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOP_APPS_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Using Significant Energy</base>
+        <tran loc="zh-CN">使用大量能耗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_PERCENT_FULL_NOT_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">%@ full, not charging</base>
+        <tran loc="zh-CN">充满%@，不在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_BATTERY_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Your Mac will sleep soon unless plugged into a power outlet.</base>
+        <tran loc="zh-CN">除非插入电源插座，否则Mac将很快进入睡眠。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHARGED</Position>
+      <TranslationSet>
+        <base loc="en">Charged</base>
+        <tran loc="zh-CN">已充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_PERCENT_FULL_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">%@ full, charging</base>
+        <tran loc="zh-CN">充满%@，正在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONDITION_NORMAL</Position>
+      <TranslationSet>
+        <base loc="en">Condition: Normal</base>
+        <tran loc="zh-CN">状况：正常</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BAT_NOT_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">Battery Is Not Charging</base>
+        <tran loc="zh-CN">电池没有在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOP_APPS_EMPTY</Position>
+      <TranslationSet>
+        <base loc="en">No Apps Using Significant Energy</base>
+        <tran loc="zh-CN">没有使用大量能耗的App</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_SOURCE_BATTERY</Position>
+      <TranslationSet>
+        <base loc="en">Power Source: Battery</base>
+        <tran loc="zh-CN">电源：电池</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONDITION_REPLACE_SOON</Position>
+      <TranslationSet>
+        <base loc="en">Condition: Replace Soon</base>
+        <tran loc="zh-CN">状况：尽快更换</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_ES</Position>
+      <TranslationSet>
+        <base loc="en">Open Energy Saver Preferences…</base>
+        <tran loc="zh-CN">打开节能偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_SOURCE_ADAPTER</Position>
+      <TranslationSet>
+        <base loc="en">Power Source: Power Adapter</base>
+        <tran loc="zh-CN">电源：电源适配器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALCULATING_TIME_REMAINING</Position>
+      <TranslationSet>
+        <base loc="en">Calculating Time Remaining…</base>
+        <tran loc="zh-CN">正在计算剩余时间…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BATS_NOT_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">Batteries Are Not Charging</base>
+        <tran loc="zh-CN">电池没有在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPS_CHARGED</Position>
+      <TranslationSet>
+        <base loc="en">UPS Is Charged</base>
+        <tran loc="zh-CN">UPS已充满电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOP_APPS_SEARCHING</Position>
+      <TranslationSet>
+        <base loc="en">Collecting Power Usage Information…</base>
+        <tran loc="zh-CN">正在收集电力使用信息…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALCULATING_TIME_UNTIL_FULL</Position>
+      <TranslationSet>
+        <base loc="en">Calculating Time Until Full…</base>
+        <tran loc="zh-CN">正在计算充满电的时间…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIME_UNTIL_FULL_TOO_LONG</Position>
+      <TranslationSet>
+        <base loc="en">More than 10 hours</base>
+        <tran loc="zh-CN">10小时以上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SERVICE_BATTERY</Position>
+      <TranslationSet>
+        <base loc="en">Service Battery</base>
+        <tran loc="zh-CN">修理电池</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_PERCENT</Position>
+      <TranslationSet>
+        <base loc="en">Percentage</base>
+        <tran loc="zh-CN">百分比</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POWER_SOURCE_UPS</Position>
+      <TranslationSet>
+        <base loc="en">Power Source: UPS</base>
+        <tran loc="zh-CN">电源：UPS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NONE</Position>
+      <TranslationSet>
+        <base loc="en">Icon Only</base>
+        <tran loc="zh-CN">仅图标</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_BATS</Position>
+      <TranslationSet>
+        <base loc="en">No Battery Available</base>
+        <tran loc="zh-CN">没有电池</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIME_REMAINING</Position>
+      <TranslationSet>
+        <base loc="en">%@ Remaining</base>
+        <tran loc="zh-CN">还剩%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BATS_CHARGED</Position>
+      <TranslationSet>
+        <base loc="en">Batteries Are Charged</base>
+        <tran loc="zh-CN">电池已充满电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MIN</Position>
+      <TranslationSet>
+        <base loc="en">min</base>
+        <tran loc="zh-CN">分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIME_UNTIL_FULL</Position>
+      <TranslationSet>
+        <base loc="en">%@ Until Full</base>
+        <tran loc="zh-CN">还需%@才能充满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> used in AXDescription </Description>
+      <Position>Battery menu.</Position>
+      <TranslationSet>
+        <base loc="en">Battery:</base>
+        <tran loc="zh-CN">电池：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Battery:</Position>
+      <TranslationSet>
+        <base loc="en">Battery:</base>
+        <tran loc="zh-CN">电池：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPS_NOT_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">UPS Is Not Charging</base>
+        <tran loc="zh-CN">UPS没有在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_PERCENT_FULL_POWER_CONNECTED</Position>
+      <TranslationSet>
+        <base loc="en">%@ full, power connected, not charging</base>
+        <tran loc="zh-CN">充满%@，已连接电源，不在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPS menu.</Position>
+      <TranslationSet>
+        <base loc="en">UPS menu</base>
+        <tran loc="zh-CN">UPS菜单</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_PERCENTAGE</Position>
+      <TranslationSet>
+        <base loc="en">Show Percentage</base>
+        <tran loc="zh-CN">显示百分比</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BAT_NOT_CHARGING_MENU_BAR</Position>
+      <TranslationSet>
+        <base loc="en">Not Charging</base>
+        <tran loc="zh-CN">不在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BAT_FINISH_TIME</Position>
+      <TranslationSet>
+        <base loc="en">Finishing Charge (%@ Until Full)</base>
+        <tran loc="zh-CN">即将完成充电（%@直到充满）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOP_APPS_BRIGHTNESS</Position>
+      <TranslationSet>
+        <base loc="en">Display Brightness</base>
+        <tran loc="zh-CN">显示器亮度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"BAT_FINISH_LONG" = "Battery Is Finishing Charge";</Description>
+      <Position>BAT_FINISH_PERC</Position>
+      <TranslationSet>
+        <base loc="en">Finishing Charge (%@ Full)</base>
+        <tran loc="zh-CN">即将完成充电（%@已充满）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALCULATING</Position>
+      <TranslationSet>
+        <base loc="en">Calculating…</base>
+        <tran loc="zh-CN">正在计算…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_CALCULATING_NOT_CHARGING</Position>
+      <TranslationSet>
+        <base loc="en">Calculating battery percentage, not charging</base>
+        <tran loc="zh-CN">正在计算电池百分比，不在充电</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISPLAY_TIME</Position>
+      <TranslationSet>
+        <base loc="en">Time</base>
+        <tran loc="zh-CN">时间</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PERCENT_FULL</Position>
+      <TranslationSet>
+        <base loc="en">%@ Full</base>
+        <tran loc="zh-CN">%@充满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_TIME</Position>
+      <TranslationSet>
+        <base loc="en">Unknown Time</base>
+        <tran loc="zh-CN">未知时间</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Battery Monitor localization strings </Description>
+      <Position>SHOW</Position>
+      <TranslationSet>
+        <base loc="en">Show</base>
+        <tran loc="zh-CN">显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICON_ONLY_STATUS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@</base>
+        <tran loc="zh-CN">%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VO_TIME_UNTIL_FULL</Position>
+      <TranslationSet>
+        <base loc="en">%d Hours and %d Minutes Until Full</base>
+        <tran loc="zh-CN">还需要%d小时%d分钟才能充满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOP_APPS_REVERT_FROM_FDE</Position>
+      <TranslationSet>
+        <base loc="en">Reverting from FileVault</base>
+        <tran loc="zh-CN">从文件保险箱复原</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HR</Position>
+      <TranslationSet>
+        <base loc="en">hr</base>
+        <tran loc="zh-CN">小时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UPS:</Position>
+      <TranslationSet>
+        <base loc="en">UPS:</base>
+        <tran loc="zh-CN">UPS：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTENSION_LABEL_TEMPLATE</Position>
+      <TranslationSet>
+        <base loc="en">%@ extension</base>
+        <tran loc="zh-CN">“%@”扩展</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VO_TIME_REMAINING</Position>
+      <TranslationSet>
+        <base loc="en">%d Hours and %d Minutes Remaining </base>
+        <tran loc="zh-CN">还剩%d小时%d分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOP_APPS_CONVERT_TO_FDE</Position>
+      <TranslationSet>
+        <base loc="en">Converting to FileVault</base>
+        <tran loc="zh-CN">转换为文件保险箱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOW_BATTERY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Low Battery</base>
+        <tran loc="zh-CN">电池电量不足</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BAT_FINISHING_CHARGE_MENU_BAR</Position>
+      <TranslationSet>
+        <base loc="en">Finishing Charge…</base>
+        <tran loc="zh-CN">即将完成充电…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BAT_CHARGED</Position>
+      <TranslationSet>
+        <base loc="en">Battery Is Charged</base>
+        <tran loc="zh-CN">电池已充满电</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

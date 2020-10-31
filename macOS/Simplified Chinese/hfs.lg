@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>hfs</ProjName>
+  <File>
+    <Filepath>hfs/System/Library/Filesystems/hfs.fs/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:HFS+:FSName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended</base>
+        <tran loc="zh-CN">Mac OS扩展</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:HFS:FSName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Standard</base>
+        <tran loc="zh-CN">Mac OS标准</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:Journaled HFS+:FSCoreStorageEncryptionName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Journaled, Encrypted)</base>
+        <tran loc="zh-CN">Mac OS扩展（日志式，加密）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:Case-sensitive Journaled HFS+:FSCoreStorageEncryptionName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Case-sensitive, Journaled, Encrypted)</base>
+        <tran loc="zh-CN">Mac OS扩展（区分大小写，日志式，加密）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:Journaled HFS+:FSName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Journaled)</base>
+        <tran loc="zh-CN">Mac OS扩展（日志式）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:Case-sensitive Journaled HFS+:FSName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Case-sensitive, Journaled)</base>
+        <tran loc="zh-CN">Mac OS扩展（区分大小写，日志式）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">hfs</base>
+        <tran loc="zh-CN">hfs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSPersonalities:Case-sensitive HFS+:FSName</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended (Case-sensitive)</base>
+        <tran loc="zh-CN">Mac OS扩展（区分大小写）</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>hfs/System/Library/Filesystems/hfs.fs/Contents/Resources/en.lproj/fsck.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Invalid root file count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid root file count</base>
+        <tran loc="zh-CN">无效的根文件数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking catalog file.</Position>
+      <TranslationSet>
+        <base loc="en">Checking catalog file.</base>
+        <tran loc="zh-CN">正在检查编录文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Exceeded maximum B-tree depth</Position>
+      <TranslationSet>
+        <base loc="en">Exceeded maximum B-tree depth</base>
+        <tran loc="zh-CN">超出最大B-树深度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect block count for attribute %1$@ of file %2$@</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect block count for attribute %1$@ of file %2$@</base>
+        <tran loc="zh-CN">文件“%2$@”的属性“%1$@”的块数不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>B-tree node is split across extents (file id %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">B-tree node is split across extents (file id %1$@)</base>
+        <tran loc="zh-CN">B-树节点被盘区拆分了（文件id %1$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Orphaned open unlinked file %1$@</Position>
+      <TranslationSet>
+        <base loc="en">Orphaned open unlinked file %1$@</base>
+        <tran loc="zh-CN">孤立打开的未链接文件%1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Overlapped extent allocation (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Overlapped extent allocation (id = %1$@)</base>
+        <tran loc="zh-CN">重叠的扩展位置(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ could not be repaired.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ could not be repaired.</base>
+        <tran loc="zh-CN">无法修复宗卷“%1$@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Catalog file entry not found for extent</Position>
+      <TranslationSet>
+        <base loc="en">Catalog file entry not found for extent</base>
+        <tran loc="zh-CN">找不到扩展区的编录文件条目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking multi-linked directories.</Position>
+      <TranslationSet>
+        <base loc="en">Checking multi-linked directories.</base>
+        <tran loc="zh-CN">正在检查多链接目录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid extent entry</Position>
+      <TranslationSet>
+        <base loc="en">Invalid extent entry</base>
+        <tran loc="zh-CN">无效的扩展条目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid header node</Position>
+      <TranslationSet>
+        <base loc="en">Invalid header node</base>
+        <tran loc="zh-CN">无效的标头节点</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect number of thread records</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect number of thread records</base>
+        <tran loc="zh-CN">线程记录的数量不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%1$@ %%</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %%</base>
+        <tran loc="zh-CN">%1$@ %%</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Orphaned file inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Orphaned file inode (id = %1$@)</base>
+        <tran loc="zh-CN">孤立的文件信息节点(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BT map too short during repair</Position>
+      <TranslationSet>
+        <base loc="en">BT map too short during repair</base>
+        <tran loc="zh-CN">修复过程中，BT映射过短</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Rechecking volume.</Position>
+      <TranslationSet>
+        <base loc="en">Rechecking volume.</base>
+        <tran loc="zh-CN">重新检查宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>I can't understand this version of HFS Plus</Position>
+      <TranslationSet>
+        <base loc="en">I can't understand this version of HFS Plus</base>
+        <tran loc="zh-CN">不能识别此版本的HFS Plus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Volume bitmap needs minor repair for orphaned blocks</Position>
+      <TranslationSet>
+        <base loc="en">Volume bitmap needs minor repair for orphaned blocks</base>
+        <tran loc="zh-CN">宗卷位图需要对孤立块稍做修复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Overlapped node allocation</Position>
+      <TranslationSet>
+        <base loc="en">Overlapped node allocation</base>
+        <tran loc="zh-CN">重叠的节点分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid Finder info for directory hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Finder info for directory hard link (id = %1$@)</base>
+        <tran loc="zh-CN">目录硬链接的“访达”信息无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid index key</Position>
+      <TranslationSet>
+        <base loc="en">Invalid index key</base>
+        <tran loc="zh-CN">无效的索引键</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking volume information.</Position>
+      <TranslationSet>
+        <base loc="en">Checking volume information.</base>
+        <tran loc="zh-CN">正在检查宗卷信息。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid BSD file type</Position>
+      <TranslationSet>
+        <base loc="en">Invalid BSD file type</base>
+        <tran loc="zh-CN">无效的BSD文件类型</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Rebuilding extended attributes B-tree.</Position>
+      <TranslationSet>
+        <base loc="en">Rebuilding extended attributes B-tree.</base>
+        <tran loc="zh-CN">正在重建扩展属性B-树。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid first link in hard link chain (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid first link in hard link chain (id = %1$@)</base>
+        <tran loc="zh-CN">硬链接链中的第一个链接无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect number of extended attributes</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect number of extended attributes</base>
+        <tran loc="zh-CN">扩展属性数不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid key for thread record</Position>
+      <TranslationSet>
+        <base loc="en">Invalid key for thread record</base>
+        <tran loc="zh-CN">无效的线程记录键</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking catalog hierarchy.</Position>
+      <TranslationSet>
+        <base loc="en">Checking catalog hierarchy.</base>
+        <tran loc="zh-CN">正在检查编录层次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Previous ID in a hard link chain is incorrect (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Previous ID in a hard link chain is incorrect (id = %1$@)</base>
+        <tran loc="zh-CN">硬链接链中的上一个ID不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid file record length</Position>
+      <TranslationSet>
+        <base loc="en">Invalid file record length</base>
+        <tran loc="zh-CN">无效的文件记录长度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid allocation block size</Position>
+      <TranslationSet>
+        <base loc="en">Invalid allocation block size</base>
+        <tran loc="zh-CN">无效的分配块大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Missing thread record (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Missing thread record (id = %1$@)</base>
+        <tran loc="zh-CN">丢失线程记录(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid node height</Position>
+      <TranslationSet>
+        <base loc="en">Invalid node height</base>
+        <tran loc="zh-CN">无效的节点高度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid B-tree node size</Position>
+      <TranslationSet>
+        <base loc="en">Invalid B-tree node size</base>
+        <tran loc="zh-CN">无效的B-树节点大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking HFS volume.</Position>
+      <TranslationSet>
+        <base loc="en">Checking HFS volume.</base>
+        <tran loc="zh-CN">正在检查HFS宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid catalog record type</Position>
+      <TranslationSet>
+        <base loc="en">Invalid catalog record type</base>
+        <tran loc="zh-CN">无效的编录记录类型</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect size for attribute %1$@ of file %2$@</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect size for attribute %1$@ of file %2$@</base>
+        <tran loc="zh-CN">文件“%2$@”的属性“%1$@”的大小不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid volume directory count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid volume directory count</base>
+        <tran loc="zh-CN">无效的宗卷目录数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Missing thread record for root dir</Position>
+      <TranslationSet>
+        <base loc="en">Missing thread record for root dir</base>
+        <tran loc="zh-CN">丢失根目录的线程记录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid sibling link</Position>
+      <TranslationSet>
+        <base loc="en">Invalid sibling link</base>
+        <tran loc="zh-CN">无效的同属链接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid catalog PEOF</Position>
+      <TranslationSet>
+        <base loc="en">Invalid catalog PEOF</base>
+        <tran loc="zh-CN">无效的编录PEOF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ was found corrupt and can not be repaired.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ was found corrupt and can not be repaired.</base>
+        <tran loc="zh-CN">发现宗卷“%1$@”已损坏，不能修复。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> HFS-specific errors </Description>
+      <Position>Incorrect block count for file %1$@</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect block count for file %1$@</base>
+        <tran loc="zh-CN">文件“%1$@”的块数不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cannot create links to all corrupt files</Position>
+      <TranslationSet>
+        <base loc="en">Cannot create links to all corrupt files</base>
+        <tran loc="zh-CN">无法创建至所有已损坏的文件的链接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ could not be verified completely.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ could not be verified completely.</base>
+        <tran loc="zh-CN">无法完全验证宗卷“%1$@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect flags for directory hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect flags for directory hard link (id = %1$@)</base>
+        <tran loc="zh-CN">目录硬链接的标志不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Illegal name</Position>
+      <TranslationSet>
+        <base loc="en">Illegal name</base>
+        <tran loc="zh-CN">非法名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking extended attributes file.</Position>
+      <TranslationSet>
+        <base loc="en">Checking extended attributes file.</base>
+        <tran loc="zh-CN">正在检查扩展属性文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect owner flags for directory hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect owner flags for directory hard link (id = %1$@)</base>
+        <tran loc="zh-CN">目录硬链接的所有者标志不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid BTH length</Position>
+      <TranslationSet>
+        <base loc="en">Invalid BTH length</base>
+        <tran loc="zh-CN">无效的BTH长度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Hard link record has data extents (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Hard link record has data extents (id = %1$@)</base>
+        <tran loc="zh-CN">硬链接记录中有数据区间（id = %1$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>File thread flag not set in file record</Position>
+      <TranslationSet>
+        <base loc="en">File thread flag not set in file record</base>
+        <tran loc="zh-CN">在文件记录中未设定文件线程标志</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Missing directory record (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Missing directory record (id = %1$@)</base>
+        <tran loc="zh-CN">丢失目录记录(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Orphaned directory hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Orphaned directory hard link (id = %1$@)</base>
+        <tran loc="zh-CN">孤立的目录硬链接(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Nesting of folders has exceeded %1$@ folders</Position>
+      <TranslationSet>
+        <base loc="en">Nesting of folders has exceeded %1$@ folders</base>
+        <tran loc="zh-CN">文件夹嵌套超过了%1$@个文件夹</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid index link</Position>
+      <TranslationSet>
+        <base loc="en">Invalid index link</base>
+        <tran loc="zh-CN">无效的索引链接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid Finder info for file hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Finder info for file hard link (id = %1$@)</base>
+        <tran loc="zh-CN">文件硬链接的“访达”信息无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid catalog record length</Position>
+      <TranslationSet>
+        <base loc="en">Invalid catalog record length</base>
+        <tran loc="zh-CN">无效的编录记录长度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid attribute record</Position>
+      <TranslationSet>
+        <base loc="en">Invalid attribute record</base>
+        <tran loc="zh-CN">无效的属性记录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Orphaned directory inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Orphaned directory inode (id = %1$@)</base>
+        <tran loc="zh-CN">孤立的目录信息节点(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid VBM start block</Position>
+      <TranslationSet>
+        <base loc="en">Invalid VBM start block</base>
+        <tran loc="zh-CN">无效的VBM起始块</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Performing live verification.</Position>
+      <TranslationSet>
+        <base loc="en">Performing live verification.</base>
+        <tran loc="zh-CN">正在执行实时验证。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Loop in directory hierarchy</Position>
+      <TranslationSet>
+        <base loc="en">Loop in directory hierarchy</base>
+        <tran loc="zh-CN">在目录层次中循环</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>File has incorrect number of links (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">File has incorrect number of links (id = %1$@)</base>
+        <tran loc="zh-CN">文件中的链接数目不正确（id = %1$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> HFS-specific standard messages </Description>
+      <Position>Checking extents overflow file.</Position>
+      <TranslationSet>
+        <base loc="en">Checking extents overflow file.</base>
+        <tran loc="zh-CN">正在检查盘区溢出文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Keys out of order</Position>
+      <TranslationSet>
+        <base loc="en">Keys out of order</base>
+        <tran loc="zh-CN">键混乱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid directory item count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid directory item count</base>
+        <tran loc="zh-CN">无效的目录项数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid B-tree header</Position>
+      <TranslationSet>
+        <base loc="en">Invalid B-tree header</base>
+        <tran loc="zh-CN">无效的B-树标头</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Look for missing items in %1$@ directory.</Position>
+      <TranslationSet>
+        <base loc="en">Look for missing items in %1$@ directory.</base>
+        <tran loc="zh-CN">在%1$@目录中查找丢失的项目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HFS wrapper volume needs repair</Position>
+      <TranslationSet>
+        <base loc="en">HFS wrapper volume needs repair</base>
+        <tran loc="zh-CN">HFS wrapper宗卷需要修复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Wrapper catalog file location needs repair</Position>
+      <TranslationSet>
+        <base loc="en">Wrapper catalog file location needs repair</base>
+        <tran loc="zh-CN">Wrapper编录文件位置需要修复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid volume file count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid volume file count</base>
+        <tran loc="zh-CN">无效的宗卷文件数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Trimming unused blocks.</Position>
+      <TranslationSet>
+        <base loc="en">Trimming unused blocks.</base>
+        <tran loc="zh-CN">正在修剪未使用的块。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect folder count in a directory (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect folder count in a directory (id = %1$@)</base>
+        <tran loc="zh-CN">目录中的文件数目不正确（id = %1$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Volume bitmap needs repair for under-allocation</Position>
+      <TranslationSet>
+        <base loc="en">Volume bitmap needs repair for under-allocation</base>
+        <tran loc="zh-CN">宗卷位图需要修复以进行配给</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid name for file inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid name for file inode (id = %1$@)</base>
+        <tran loc="zh-CN">文件信息节点的名称无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Indirect node %1$@ needs link count adjustment</Position>
+      <TranslationSet>
+        <base loc="en">Indirect node %1$@ needs link count adjustment</base>
+        <tran loc="zh-CN">间接节点%1$@需要调整链接计数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking Journaled HFS Plus volume.</Position>
+      <TranslationSet>
+        <base loc="en">Checking Journaled HFS Plus volume.</base>
+        <tran loc="zh-CN">正在检查日志式的HFS Plus宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid map node</Position>
+      <TranslationSet>
+        <base loc="en">Invalid map node</base>
+        <tran loc="zh-CN">无效的映射节点</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ cannot be verified when it is in use.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ cannot be verified when it is in use.</base>
+        <tran loc="zh-CN">宗卷“%1$@”在使用时，不能验证。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Reserved fields in the catalog record have incorrect data</Position>
+      <TranslationSet>
+        <base loc="en">Reserved fields in the catalog record have incorrect data</base>
+        <tran loc="zh-CN">编录记录的保留字段中有错误的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid allocation block start</Position>
+      <TranslationSet>
+        <base loc="en">Invalid allocation block start</base>
+        <tran loc="zh-CN">无效的分配块起始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid map node linkage</Position>
+      <TranslationSet>
+        <base loc="en">Invalid map node linkage</base>
+        <tran loc="zh-CN">无效的映射节点链接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>(It should be %1$@ instead of %2$@)</Position>
+      <TranslationSet>
+        <base loc="en">(It should be %1$@ instead of %2$@)</base>
+        <tran loc="zh-CN">（应该是%1$@，而不是%2$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Bad symbolic link is `%1$@'</Position>
+      <TranslationSet>
+        <base loc="en">Bad symbolic link is `%1$@'</base>
+        <tran loc="zh-CN">错误的符号链接是“%1$@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Master Directory Block needs minor repair</Position>
+      <TranslationSet>
+        <base loc="en">Master Directory Block needs minor repair</base>
+        <tran loc="zh-CN">主目录块需要稍做修复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid file clump size</Position>
+      <TranslationSet>
+        <base loc="en">Invalid file clump size</base>
+        <tran loc="zh-CN">无效的文件簇大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Orphaned file hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Orphaned file hard link (id = %1$@)</base>
+        <tran loc="zh-CN">孤立的文件硬链接(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect number of Access Control Lists</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect number of Access Control Lists</base>
+        <tran loc="zh-CN">访问控制列表数不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect flags for file hard link (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect flags for file hard link (id = %1$@)</base>
+        <tran loc="zh-CN">文件硬链接的标志不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid number of allocation blocks</Position>
+      <TranslationSet>
+        <base loc="en">Invalid number of allocation blocks</base>
+        <tran loc="zh-CN">无效的分配块数目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Rebuilding catalog B-tree.</Position>
+      <TranslationSet>
+        <base loc="en">Rebuilding catalog B-tree.</base>
+        <tran loc="zh-CN">正在重建编录B-树。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid file name</Position>
+      <TranslationSet>
+        <base loc="en">Invalid file name</base>
+        <tran loc="zh-CN">无效的文件名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Unused node is not erased (node = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Unused node is not erased (node = %1$@)</base>
+        <tran loc="zh-CN">不抹掉未使用的节点（节点 = %1$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid BSD User ID</Position>
+      <TranslationSet>
+        <base loc="en">Invalid BSD User ID</base>
+        <tran loc="zh-CN">无效的BSD用户ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Bad information for symbolic link (file id %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Bad information for symbolic link (file id %1$@)</base>
+        <tran loc="zh-CN">符号链接（文件id %1$@）信息错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking non-journaled HFS Plus Volume.</Position>
+      <TranslationSet>
+        <base loc="en">Checking non-journaled HFS Plus Volume.</base>
+        <tran loc="zh-CN">正在检查非日志式的HFS Plus宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Journal needs to be replayed but volume is read-only</Position>
+      <TranslationSet>
+        <base loc="en">Journal needs to be replayed but volume is read-only</base>
+        <tran loc="zh-CN">需要重新播放日志，但宗卷为只读</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>File/folder %1$@ could not be repaired.</Position>
+      <TranslationSet>
+        <base loc="en">File/folder %1$@ could not be repaired.</base>
+        <tran loc="zh-CN">无法修复文件/文件夹“%1$@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid key length</Position>
+      <TranslationSet>
+        <base loc="en">Invalid key length</base>
+        <tran loc="zh-CN">无效的键长度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Internal files overlap (file %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Internal files overlap (file %1$@)</base>
+        <tran loc="zh-CN">内部文件重叠（文件“%1$@”）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Rebuilding extents overflow B-tree.</Position>
+      <TranslationSet>
+        <base loc="en">Rebuilding extents overflow B-tree.</base>
+        <tran loc="zh-CN">正在重建盘区溢出B-树。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid node type</Position>
+      <TranslationSet>
+        <base loc="en">Invalid node type</base>
+        <tran loc="zh-CN">无效的节点类型</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Missing file record for file thread</Position>
+      <TranslationSet>
+        <base loc="en">Missing file record for file thread</base>
+        <tran loc="zh-CN">丢失文件线程的文件记录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid node structure</Position>
+      <TranslationSet>
+        <base loc="en">Invalid node structure</base>
+        <tran loc="zh-CN">无效的节点结构</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid extent file PEOF</Position>
+      <TranslationSet>
+        <base loc="en">Invalid extent file PEOF</base>
+        <tran loc="zh-CN">无效的扩展文件PEOF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Directory name locked</Position>
+      <TranslationSet>
+        <base loc="en">Directory name locked</base>
+        <tran loc="zh-CN">目录名称已锁定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid volume free block count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid volume free block count</base>
+        <tran loc="zh-CN">无效的宗卷可用块数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ was found corrupt and needs to be repaired.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ was found corrupt and needs to be repaired.</base>
+        <tran loc="zh-CN">发现宗卷“%1$@”已损坏，需要修复。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid parent for directory inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid parent for directory inode (id = %1$@)</base>
+        <tran loc="zh-CN">目录信息节点的父信息节点无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid leaf record count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid leaf record count</base>
+        <tran loc="zh-CN">无效的页记录数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Executing %1$@ (version %2$@).</Position>
+      <TranslationSet>
+        <base loc="en">Executing %1$@ (version %2$@).</base>
+        <tran loc="zh-CN">正在执行%1$@（版本%2$@）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect flags for directory hard link ancestor (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect flags for directory hard link ancestor (id = %1$@)</base>
+        <tran loc="zh-CN">目录硬链接来源的标志不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect permissions for private directory</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect permissions for private directory</base>
+        <tran loc="zh-CN">私人目录的权限不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HasFolderCount flag needs to be set (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">HasFolderCount flag needs to be set (id = %1$@)</base>
+        <tran loc="zh-CN">需要设定HasFolderCount标志(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid name for directory inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid name for directory inode (id = %1$@)</base>
+        <tran loc="zh-CN">目录信息节点的名称无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect size for file %1$@</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect size for file %1$@</base>
+        <tran loc="zh-CN">文件“%1$@”的大小不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Standard messages </Description>
+      <Position>Checking volume.</Position>
+      <TranslationSet>
+        <base loc="en">Checking volume.</base>
+        <tran loc="zh-CN">正在检查宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid root directory count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid root directory count</base>
+        <tran loc="zh-CN">无效的根目录数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ could not be verified completely and can not be repaired.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ could not be verified completely and can not be repaired.</base>
+        <tran loc="zh-CN">无法完全验证宗卷“%1$@”，且不能修复。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ was repaired successfully.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ was repaired successfully.</base>
+        <tran loc="zh-CN">已成功修复宗卷“%1$@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect number of directory hard links</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect number of directory hard links</base>
+        <tran loc="zh-CN">目录硬链接的数目不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid volume header</Position>
+      <TranslationSet>
+        <base loc="en">Invalid volume header</base>
+        <tran loc="zh-CN">无效的宗卷标头</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid length for file name</Position>
+      <TranslationSet>
+        <base loc="en">Invalid length for file name</base>
+        <tran loc="zh-CN">文件名长度无效</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume was modified</Position>
+      <TranslationSet>
+        <base loc="en">The volume was modified</base>
+        <tran loc="zh-CN">宗卷已被修改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid thread record length</Position>
+      <TranslationSet>
+        <base loc="en">Invalid thread record length</base>
+        <tran loc="zh-CN">无效的线程记录长度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ cannot be repaired when it is in use.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ cannot be repaired when it is in use.</base>
+        <tran loc="zh-CN">宗卷“%1$@”在使用时，不能修复。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid content in journal</Position>
+      <TranslationSet>
+        <base loc="en">Invalid content in journal</base>
+        <tran loc="zh-CN">日志中的内容无效</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Repairing volume.</Position>
+      <TranslationSet>
+        <base loc="en">Repairing volume.</base>
+        <tran loc="zh-CN">正在修复宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Volume header needs minor repair</Position>
+      <TranslationSet>
+        <base loc="en">Volume header needs minor repair</base>
+        <tran loc="zh-CN">宗卷标头需要稍做修复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>File record has hard link chain flag (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">File record has hard link chain flag (id = %1$@)</base>
+        <tran loc="zh-CN">文件记录中有硬链接链标志（id = %1$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Bad hard link creation date</Position>
+      <TranslationSet>
+        <base loc="en">Bad hard link creation date</base>
+        <tran loc="zh-CN">错误的硬链接创建日期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Next ID in a hard link chain is incorrect (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Next ID in a hard link chain is incorrect (id = %1$@)</base>
+        <tran loc="zh-CN">硬链接链中的下一个ID不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking multi-linked files.</Position>
+      <TranslationSet>
+        <base loc="en">Checking multi-linked files.</base>
+        <tran loc="zh-CN">正在检查多链接文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect flags for directory inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect flags for directory inode (id = %1$@)</base>
+        <tran loc="zh-CN">目录信息节点的标志不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid parent CName in thread record</Position>
+      <TranslationSet>
+        <base loc="en">Invalid parent CName in thread record</base>
+        <tran loc="zh-CN">线程记录中的父CName无效</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Disk full error</Position>
+      <TranslationSet>
+        <base loc="en">Disk full error</base>
+        <tran loc="zh-CN">磁盘已满错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid parent for file inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Invalid parent for file inode (id = %1$@)</base>
+        <tran loc="zh-CN">文件信息节点的父信息节点无效(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect flags for file inode (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect flags for file inode (id = %1$@)</base>
+        <tran loc="zh-CN">文件信息节点的标志不正确(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Limited repair mode, not all repairs available</Position>
+      <TranslationSet>
+        <base loc="en">Limited repair mode, not all repairs available</base>
+        <tran loc="zh-CN">受限的维修模式，并非所有维修选项都可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Missing private directory for directory hard links</Position>
+      <TranslationSet>
+        <base loc="en">Missing private directory for directory hard links</base>
+        <tran loc="zh-CN">缺少目录硬链接的私人目录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume name is %1$@</Position>
+      <TranslationSet>
+        <base loc="en">The volume name is %1$@</base>
+        <tran loc="zh-CN">宗卷名称为“%1$@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Bad parent directory hierarchy (id = %1$@)</Position>
+      <TranslationSet>
+        <base loc="en">Bad parent directory hierarchy (id = %1$@)</base>
+        <tran loc="zh-CN">父目录层次错误(id = %1$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>File/folder %1$@ may be damaged.</Position>
+      <TranslationSet>
+        <base loc="en">File/folder %1$@ may be damaged.</base>
+        <tran loc="zh-CN">文件/文件夹“%1$@”可能已损坏。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Verifying volume when it is mounted with write access.</Position>
+      <TranslationSet>
+        <base loc="en">Verifying volume when it is mounted with write access.</base>
+        <tran loc="zh-CN">宗卷在装载时如果有写访问权限则验证它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ could not be repaired after %2$@ attempts.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ could not be repaired after %2$@ attempts.</base>
+        <tran loc="zh-CN">尝试%2$@次后，无法修复宗卷“%1$@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Incorrect number of file hard links</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect number of file hard links</base>
+        <tran loc="zh-CN">文件硬链接的数目不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Checking volume bitmap.</Position>
+      <TranslationSet>
+        <base loc="en">Checking volume bitmap.</base>
+        <tran loc="zh-CN">正在检查宗卷位图。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid record count</Position>
+      <TranslationSet>
+        <base loc="en">Invalid record count</base>
+        <tran loc="zh-CN">无效的记录数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Symbolic link (file id %1$@) has bad length (is %2$@, should be %3$@)</Position>
+      <TranslationSet>
+        <base loc="en">Symbolic link (file id %1$@) has bad length (is %2$@, should be %3$@)</base>
+        <tran loc="zh-CN">符号链接（文件id %1$@）长度错误（当前是%2$@，本应该是%3$@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid root node number</Position>
+      <TranslationSet>
+        <base loc="en">Invalid root node number</base>
+        <tran loc="zh-CN">无效的根节点编号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid directory record length</Position>
+      <TranslationSet>
+        <base loc="en">Invalid directory record length</base>
+        <tran loc="zh-CN">无效的目录记录长度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Look for links to corrupt files in %1$@ directory.</Position>
+      <TranslationSet>
+        <base loc="en">Look for links to corrupt files in %1$@ directory.</base>
+        <tran loc="zh-CN">在%1$@目录中查找已损坏的文件的链接。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Invalid file or directory ID found</Position>
+      <TranslationSet>
+        <base loc="en">Invalid file or directory ID found</base>
+        <tran loc="zh-CN">发现无效的文件或目录ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Maximum nesting of folders and directory hard links reached</Position>
+      <TranslationSet>
+        <base loc="en">Maximum nesting of folders and directory hard links reached</base>
+        <tran loc="zh-CN">文件夹和目录硬链接的嵌套已达到最大限度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The volume %1$@ appears to be OK.</Position>
+      <TranslationSet>
+        <base loc="en">The volume %1$@ appears to be OK.</base>
+        <tran loc="zh-CN">宗卷“%1$@”似乎是好的。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Detected a case-sensitive volume.</Position>
+      <TranslationSet>
+        <base loc="en">Detected a case-sensitive volume.</base>
+        <tran loc="zh-CN">检测到一个区分大小写的宗卷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Overlapped extent allocation (id = %1$@, %2$@)</Position>
+      <TranslationSet>
+        <base loc="en">Overlapped extent allocation (id = %1$@, %2$@)</base>
+        <tran loc="zh-CN">重叠的扩展位置(id = %1$@, %2$@)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

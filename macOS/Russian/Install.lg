@@ -1,0 +1,2703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>Install</ProjName>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/Distribution.strings</Filepath>
+    <TextItem>
+      <Description> Failed minimum RAM check </Description>
+      <Position>RequiredRAMFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer because it requires at least %@ of memory.</base>
+        <tran loc="ru">ПО %@ не может быть установлено на этом компьютере, так как требуется как минимум %@ памяти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_FAIL_VOLUME</Position>
+      <TranslationSet>
+        <base loc="en">This disk doesn’t meet the requirements for this update.</base>
+        <tran loc="ru">Этот диск не соответствует требованиям для данного обновления.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic failure on RAM check 
+ args = [ product-name, required-ram ] </Description>
+      <Position>InstallationCheckNotEnoughRAM</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer because it requires %@ of memory.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этом компьютере, так как требуется %@ памяти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ACTION_UPGRADE</Position>
+      <TranslationSet>
+        <base loc="en">Upgrade</base>
+        <tran loc="ru">Обновить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed if the package is successfully installed </Description>
+      <Position>InstallSuccessMessage</Position>
+      <TranslationSet>
+        <base loc="en">The software was successfully installed.</base>
+        <tran loc="ru">Приложение успешно установлено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_REQUIRED_BY_ITEM</Position>
+      <TranslationSet>
+        <base loc="en">This item is required by %@.</base>
+        <tran loc="ru">Этот объект необходим объекту %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ACTION_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">Install</base>
+        <tran loc="ru">Установить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_FAIL_LANG</Position>
+      <TranslationSet>
+        <base loc="en">This software doesn’t support your primary system language.</base>
+        <tran loc="ru">Это ПО не поддерживает основной язык системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_OS_SELF_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">You can’t install macOS on the same disk that contains this installation package.</base>
+        <tran loc="ru">Нельзя установить macOS на тот же диск, на котором находится установочный пакет.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> IFInstallController Strings 
+ Time Strings 
+ Estimated time remaining message displayed when there are more than two hours remaining to install </Description>
+      <Position>ManyHoursManyMinutesRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hours and %@ minutes</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_SPACE</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough free space on this disk.</base>
+        <tran loc="ru">На этом диске недостаточно свободного места.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_DISABLED</Position>
+      <TranslationSet>
+        <base loc="en">This item can’t be installed.\n%@</base>
+        <tran loc="ru">Этот объект не может быть установлен.\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>JustManyHoursRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hours</base>
+        <tran loc="ru">около %@ ч</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_VERSION_CONFLICT</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of this item is already installed.</base>
+        <tran loc="ru">Уже установлена более новая версия этого продукта.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OpenGL requirements not met </Description>
+      <Position>RequiredGLRendererFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ doesn’t support this computer’s graphics hardware.</base>
+        <tran loc="ru">%@ не поддерживает аппаратные средства графики этого компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS required check </Description>
+      <Position>AllowedOSNone</Position>
+      <TranslationSet>
+        <base loc="en">macOS isn’t installed.</base>
+        <tran loc="ru">macOS не установлена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_INSTALL_OS_ROOT</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on the startup disk.</base>
+        <tran loc="ru">Невозможно установить %@ на загрузочный диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Messages displayed if the package cannot be installed </Description>
+      <Position>InstallFailureMessage</Position>
+      <TranslationSet>
+        <base loc="en">There were errors installing the software.</base>
+        <tran loc="ru">Обнаружены ошибки при установке приложения.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_BOOT_NEED_GPT</Position>
+      <TranslationSet>
+        <base loc="en">To install on this disk, open Disk Utility by choosing Utilities &gt; Disk Utility, and repartition this disk using “GUID Partition Table.” Important: you will lose all data on this disk by repartitioning it.</base>
+        <tran loc="ru">Чтобы произвести установку на этот диск, откройте Дисковую утилиту, выбрав «Утилиты» &gt; «Дисковая утилита», и повторно разбейте диск, используя вариант «Схема разделов GUID». Внимание: при повторной разбивке диска все данные на этом диске будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>JavaScriptError</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while evaluating JavaScript for the package.</base>
+        <tran loc="ru">Произошла ошибка при оценке JavaScript для пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NOT_JOURNALED</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed because the disk is not journaled. To enable journaling, open Disk Utility by choosing Utilities &gt; Disk Utility, select %@ and then File &gt; Enable Journaling.</base>
+        <tran loc="ru">Невозможно установить %@, так как диск не является журналируемым. Чтобы включить ведение журнала, откройте Дисковую утилиту в папке «Утилиты», выберите %@ и нажмите «Файл» &gt; «Включить журнал».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_DEFERRED_CHECK_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">%@ couldn’t be installed on this disk.</base>
+        <tran loc="ru">Не удалось установить %@ на этот диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_BOOT</Position>
+      <TranslationSet>
+        <base loc="en">%@ cannot start up from this disk.</base>
+        <tran loc="ru">Невозможно запустить %@ с этого диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_BOOT_NEED_APM</Position>
+      <TranslationSet>
+        <base loc="en">To install on this disk, open Disk Utility by choosing Utilities &gt; Disk Utility, and repartition this disk using “Apple Partition Map.” Important: you will lose all data on this disk by repartitioning it.</base>
+        <tran loc="ru">Чтобы произвести установку на этот диск, откройте Дисковую утилиту, выбрав «Утилиты» &gt; «Дисковая утилита», и повторно разбейте диск, используя вариант «Схема разделов Apple». Внимание: при повторной разбивке диска все данные на этом диске будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> disk requires a later minor version of macOS (but 
+*not
+* a paid upgrade) 
+ args = [ product-name, disk-name, minimum-OS-version ] </Description>
+      <Position>VolumeCheckNeedSoftwareUpdate</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on %@ because macOS version %@ or later is required. Choose Software Update from the Apple menu to update macOS.</base>
+        <tran loc="ru">Невозможно установить пакет %@ на диск %@, так как требуется macOS версии %@ или новее. Для обновления macOS выберите в меню Apple пункт «Обновление ПО».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The package is damaged and cannot be read.</Position>
+      <TranslationSet>
+        <base loc="en">The package is damaged and can’t be read.</base>
+        <tran loc="ru">Пакет поврежден и не может быть прочитан.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OneHourManyMinutesRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hour and %@ minutes</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">This item is required.</base>
+        <tran loc="ru">Этот объект необходим.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_WRONG_FS</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on a disk with the %@ format.</base>
+        <tran loc="ru">Невозможно установить %@ на диск с форматом %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ManySecondsRemaining</Position>
+      <TranslationSet>
+        <base loc="en">Less than a minute</base>
+        <tran loc="ru">меньше минуты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> very generic installation-check warning (not sure why this is here, but need to keep it in case some distribution uses it) </Description>
+      <Position>InstallationCheckWarning</Position>
+      <TranslationSet>
+        <base loc="en">Warning</base>
+        <tran loc="ru">Внимание</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ACTION_SKIP</Position>
+      <TranslationSet>
+        <base loc="en">Skip</base>
+        <tran loc="ru">Пропустить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_PASSWORD_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">This disk is locked.</base>
+        <tran loc="ru">На диске установлена защита.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_VERS_CONFLICT</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of this software already exists on this disk.</base>
+        <tran loc="ru">На этом диске уже установлена более новая версия этого ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_EXOTIC_BOOTCAMP</Position>
+      <TranslationSet>
+        <base loc="en">You can’t install macOS on this disk because it shares a physical disk with an unsupported Boot Camp configuration.</base>
+        <tran loc="ru">Вы не можете установить macOS на этот диск, так как он делит физический диск с неподдерживаемой Boot Camp конфигурацией.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ManyHoursOneMinuteRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hours and %@ minute</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** Distribution Related Strings 
+ IFDocument Strings </Description>
+      <Position>ExceptionWhileReadingTitle</Position>
+      <TranslationSet>
+        <base loc="en">There was an error reading the package.</base>
+        <tran loc="ru">Произошла ошибка при чтении пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic errors useful to distribution authors </Description>
+      <Position>GENERIC_FAIL_NEWER</Position>
+      <TranslationSet>
+        <base loc="en">A newer version is already installed.</base>
+        <tran loc="ru">Более новая версия уже установлена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** Distribution Standard Strings (primarily for system.localizedStandardString[WithFormat]) 
+ generic installation-check failure (but distribution should use a more specific one) 
+ args = [ product-name ] </Description>
+      <Position>InstallationCheckError</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этот компьютер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other hardware requirements not met </Description>
+      <Position>RequiredHardwarePropertiesFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ doesn’t support this computer’s hardware.</base>
+        <tran loc="ru">%@ не поддерживает аппаратные средства этого компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS maximum check </Description>
+      <Position>AllowedOSTooNew</Position>
+      <TranslationSet>
+        <base loc="en">The version of macOS is too new.</base>
+        <tran loc="ru">Версия macOS слишком новая.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OneMinuteRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About a minute</base>
+        <tran loc="ru">около минуты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INSTALL_PREPARATION</Position>
+      <TranslationSet>
+        <base loc="en">Preparing for installation…</base>
+        <tran loc="ru">Подготовка к установке…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> IFDTarget Strings </Description>
+      <Position>TARGET_VOLUME_READ_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">The contents of this disk can’t be changed.</base>
+        <tran loc="ru">Нельзя изменить содержимое этого диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS range check </Description>
+      <Position>AllowedOSNeedUpgrade</Position>
+      <TranslationSet>
+        <base loc="en">macOS version %@ or later is required.</base>
+        <tran loc="ru">Требуется macOS версии %@ или новее.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OneHourOneMinuteRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hour and %@ minute</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> disk requires a later major version (i.e. paid upgrade) of macOS 
+ args = [ product-name, disk-name, minimum-OS-version ] </Description>
+      <Position>VolumeCheckNeedOSUpgrade</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on %@ because macOS version %@ or later is required.</base>
+        <tran loc="ru">Невозможно установить пакет %@ на диск %@, так как требуется macOS версии %@ или новее.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RootVolumeOnlyInstall</Position>
+      <TranslationSet>
+        <base loc="en">You can only install this software on the disk that is running macOS.</base>
+        <tran loc="ru">Это программное обеспечение можно установить только на диск с macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed required bundle checks (used only if distribution fails to provide a string) </Description>
+      <Position>RequiredBundlesFailed</Position>
+      <TranslationSet>
+        <base loc="en">The required software is not installed.</base>
+        <tran loc="ru">Требуемое ПО не установлено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ManyMinutesRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ minutes</base>
+        <tran loc="ru">около %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic volume-check failure (but distribution should use a more specific one) 
+ args = [ product-name, disk-name ] </Description>
+      <Position>VolumeCheckError</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on %@.</base>
+        <tran loc="ru">Невозможно установить %@ на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>JustOneHourRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About an hour</base>
+        <tran loc="ru">около часа</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Frameworks/DistributionKit.framework/Versions/A/Resources/English.lproj/Distribution.strings</Filepath>
+    <TextItem>
+      <Description> Failed minimum RAM check </Description>
+      <Position>RequiredRAMFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer because it requires at least %@ of memory.</base>
+        <tran loc="ru">ПО %@ не может быть установлено на этом компьютере, так как требуется как минимум %@ памяти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_FAIL_VOLUME</Position>
+      <TranslationSet>
+        <base loc="en">This disk doesn’t meet the requirements for this update.</base>
+        <tran loc="ru">Этот диск не соответствует требованиям для данного обновления.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic failure on RAM check 
+ args = [ product-name, required-ram ] </Description>
+      <Position>InstallationCheckNotEnoughRAM</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer because it requires %@ of memory.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этом компьютере, так как требуется %@ памяти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ACTION_UPGRADE</Position>
+      <TranslationSet>
+        <base loc="en">Upgrade</base>
+        <tran loc="ru">Обновить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed if the package is successfully installed </Description>
+      <Position>InstallSuccessMessage</Position>
+      <TranslationSet>
+        <base loc="en">The software was successfully installed.</base>
+        <tran loc="ru">Приложение успешно установлено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_REQUIRED_BY_ITEM</Position>
+      <TranslationSet>
+        <base loc="en">This item is required by %@.</base>
+        <tran loc="ru">Этот объект необходим объекту %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ACTION_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">Install</base>
+        <tran loc="ru">Установить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_FAIL_LANG</Position>
+      <TranslationSet>
+        <base loc="en">This software doesn’t support your primary system language.</base>
+        <tran loc="ru">Это ПО не поддерживает основной язык системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_OS_SELF_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">You can’t install macOS on the same disk that contains this installation package.</base>
+        <tran loc="ru">Нельзя установить macOS на тот же диск, на котором находится установочный пакет.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> IFInstallController Strings 
+ Time Strings 
+ Estimated time remaining message displayed when there are more than two hours remaining to install </Description>
+      <Position>ManyHoursManyMinutesRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hours and %@ minutes</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_SPACE</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough free space on this disk.</base>
+        <tran loc="ru">На этом диске недостаточно свободного места.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_DISABLED</Position>
+      <TranslationSet>
+        <base loc="en">This item can’t be installed.\n%@</base>
+        <tran loc="ru">Этот объект не может быть установлен.\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>JustManyHoursRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hours</base>
+        <tran loc="ru">около %@ ч</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_VERSION_CONFLICT</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of this item is already installed.</base>
+        <tran loc="ru">Уже установлена более новая версия этого продукта.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OpenGL requirements not met </Description>
+      <Position>RequiredGLRendererFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ doesn’t support this computer’s graphics hardware.</base>
+        <tran loc="ru">%@ не поддерживает аппаратные средства графики этого компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS required check </Description>
+      <Position>AllowedOSNone</Position>
+      <TranslationSet>
+        <base loc="en">macOS isn’t installed.</base>
+        <tran loc="ru">macOS не установлена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_INSTALL_OS_ROOT</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on the startup disk.</base>
+        <tran loc="ru">Невозможно установить %@ на загрузочный диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Messages displayed if the package cannot be installed </Description>
+      <Position>InstallFailureMessage</Position>
+      <TranslationSet>
+        <base loc="en">There were errors installing the software.</base>
+        <tran loc="ru">Обнаружены ошибки при установке приложения.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_BOOT_NEED_GPT</Position>
+      <TranslationSet>
+        <base loc="en">To install on this disk, open Disk Utility by choosing Utilities &gt; Disk Utility, and repartition this disk using “GUID Partition Table.” Important: you will lose all data on this disk by repartitioning it.</base>
+        <tran loc="ru">Чтобы произвести установку на этот диск, откройте Дисковую утилиту, выбрав «Утилиты» &gt; «Дисковая утилита», и повторно разбейте диск, используя вариант «Схема разделов GUID». Внимание: при повторной разбивке диска все данные на этом диске будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>JavaScriptError</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while evaluating JavaScript for the package.</base>
+        <tran loc="ru">Произошла ошибка при оценке JavaScript для пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NOT_JOURNALED</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed because the disk is not journaled. To enable journaling, open Disk Utility by choosing Utilities &gt; Disk Utility, select %@ and then File &gt; Enable Journaling.</base>
+        <tran loc="ru">Невозможно установить %@, так как диск не является журналируемым. Чтобы включить ведение журнала, откройте Дисковую утилиту в папке «Утилиты», выберите %@ и нажмите «Файл» &gt; «Включить журнал».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_DEFERRED_CHECK_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">%@ couldn’t be installed on this disk.</base>
+        <tran loc="ru">Не удалось установить %@ на этот диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_BOOT</Position>
+      <TranslationSet>
+        <base loc="en">%@ cannot start up from this disk.</base>
+        <tran loc="ru">Невозможно запустить %@ с этого диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_NO_BOOT_NEED_APM</Position>
+      <TranslationSet>
+        <base loc="en">To install on this disk, open Disk Utility by choosing Utilities &gt; Disk Utility, and repartition this disk using “Apple Partition Map.” Important: you will lose all data on this disk by repartitioning it.</base>
+        <tran loc="ru">Чтобы произвести установку на этот диск, откройте Дисковую утилиту, выбрав «Утилиты» &gt; «Дисковая утилита», и повторно разбейте диск, используя вариант «Схема разделов Apple». Внимание: при повторной разбивке диска все данные на этом диске будут потеряны.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> disk requires a later minor version of macOS (but 
+*not
+* a paid upgrade) 
+ args = [ product-name, disk-name, minimum-OS-version ] </Description>
+      <Position>VolumeCheckNeedSoftwareUpdate</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on %@ because macOS version %@ or later is required. Choose Software Update from the Apple menu to update macOS.</base>
+        <tran loc="ru">Невозможно установить пакет %@ на диск %@, так как требуется macOS версии %@ или новее. Для обновления macOS выберите в меню Apple пункт «Обновление ПО».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The package is damaged and cannot be read.</Position>
+      <TranslationSet>
+        <base loc="en">The package is damaged and can’t be read.</base>
+        <tran loc="ru">Пакет поврежден и не может быть прочитан.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OneHourManyMinutesRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hour and %@ minutes</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ITEM_REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">This item is required.</base>
+        <tran loc="ru">Этот объект необходим.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_WRONG_FS</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on a disk with the %@ format.</base>
+        <tran loc="ru">Невозможно установить %@ на диск с форматом %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ManySecondsRemaining</Position>
+      <TranslationSet>
+        <base loc="en">Less than a minute</base>
+        <tran loc="ru">меньше минуты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> very generic installation-check warning (not sure why this is here, but need to keep it in case some distribution uses it) </Description>
+      <Position>InstallationCheckWarning</Position>
+      <TranslationSet>
+        <base loc="en">Warning</base>
+        <tran loc="ru">Внимание</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CUSTOMIZATION_ACTION_SKIP</Position>
+      <TranslationSet>
+        <base loc="en">Skip</base>
+        <tran loc="ru">Пропустить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_PASSWORD_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">This disk is locked.</base>
+        <tran loc="ru">На диске установлена защита.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_VERS_CONFLICT</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of this software already exists on this disk.</base>
+        <tran loc="ru">На этом диске уже установлена более новая версия этого ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TARGET_VOLUME_EXOTIC_BOOTCAMP</Position>
+      <TranslationSet>
+        <base loc="en">You can’t install macOS on this disk because it shares a physical disk with an unsupported Boot Camp configuration.</base>
+        <tran loc="ru">Вы не можете установить macOS на этот диск, так как он делит физический диск с неподдерживаемой Boot Camp конфигурацией.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ManyHoursOneMinuteRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hours and %@ minute</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** Distribution Related Strings 
+ IFDocument Strings </Description>
+      <Position>ExceptionWhileReadingTitle</Position>
+      <TranslationSet>
+        <base loc="en">There was an error reading the package.</base>
+        <tran loc="ru">Произошла ошибка при чтении пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic errors useful to distribution authors </Description>
+      <Position>GENERIC_FAIL_NEWER</Position>
+      <TranslationSet>
+        <base loc="en">A newer version is already installed.</base>
+        <tran loc="ru">Более новая версия уже установлена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** Distribution Standard Strings (primarily for system.localizedStandardString[WithFormat]) 
+ generic installation-check failure (but distribution should use a more specific one) 
+ args = [ product-name ] </Description>
+      <Position>InstallationCheckError</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этот компьютер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other hardware requirements not met </Description>
+      <Position>RequiredHardwarePropertiesFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ doesn’t support this computer’s hardware.</base>
+        <tran loc="ru">%@ не поддерживает аппаратные средства этого компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS maximum check </Description>
+      <Position>AllowedOSTooNew</Position>
+      <TranslationSet>
+        <base loc="en">The version of macOS is too new.</base>
+        <tran loc="ru">Версия macOS слишком новая.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OneMinuteRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About a minute</base>
+        <tran loc="ru">около минуты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INSTALL_PREPARATION</Position>
+      <TranslationSet>
+        <base loc="en">Preparing for installation…</base>
+        <tran loc="ru">Подготовка к установке…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> IFDTarget Strings </Description>
+      <Position>TARGET_VOLUME_READ_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">The contents of this disk can’t be changed.</base>
+        <tran loc="ru">Нельзя изменить содержимое этого диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS range check </Description>
+      <Position>AllowedOSNeedUpgrade</Position>
+      <TranslationSet>
+        <base loc="en">macOS version %@ or later is required.</base>
+        <tran loc="ru">Требуется macOS версии %@ или новее.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OneHourOneMinuteRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ hour and %@ minute</base>
+        <tran loc="ru">около %@ ч %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> disk requires a later major version (i.e. paid upgrade) of macOS 
+ args = [ product-name, disk-name, minimum-OS-version ] </Description>
+      <Position>VolumeCheckNeedOSUpgrade</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on %@ because macOS version %@ or later is required.</base>
+        <tran loc="ru">Невозможно установить пакет %@ на диск %@, так как требуется macOS версии %@ или новее.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RootVolumeOnlyInstall</Position>
+      <TranslationSet>
+        <base loc="en">You can only install this software on the disk that is running macOS.</base>
+        <tran loc="ru">Это программное обеспечение можно установить только на диск с macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed required bundle checks (used only if distribution fails to provide a string) </Description>
+      <Position>RequiredBundlesFailed</Position>
+      <TranslationSet>
+        <base loc="en">The required software is not installed.</base>
+        <tran loc="ru">Требуемое ПО не установлено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ManyMinutesRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About %@ minutes</base>
+        <tran loc="ru">около %@ мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic volume-check failure (but distribution should use a more specific one) 
+ args = [ product-name, disk-name ] </Description>
+      <Position>VolumeCheckError</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on %@.</base>
+        <tran loc="ru">Невозможно установить %@ на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>JustOneHourRemaining</Position>
+      <TranslationSet>
+        <base loc="en">About an hour</base>
+        <tran loc="ru">около часа</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Install</base>
+        <tran loc="ru">Установить</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/Architectures.strings</Filepath>
+    <TextItem>
+      <Description> Map architectures to user friendly strings
+ 
+* The key should either be an architecture name, such as "m68k",
+ 
+* an architecture number, like "12", if the name isn't known, or
+ 
+* the string "Unknown CPU" as a catch-all.  The "Unknown CPU" value
+ 
+* should include a %s to be replaced with the actual architecture's
+ 
+* number.  Here are some examples:
+ 
+*
+ 
+* "i386" = "Intel Processors";
+ 
+* "12" = "ARM";
+ 
+* "Unknown CPU %d" = "Unknown CPU %d";
+ 
+*
+ 
+* There is also an "old" string that is used to describe old
+ 
+* packages where we don't know what kind of contents it has.
+ 
+ To be removed when "any" goes into libc </Description>
+      <Position>-1</Position>
+      <TranslationSet>
+        <base loc="en">All computers</base>
+        <tran loc="ru">Все компьютеры</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>any</Position>
+      <TranslationSet>
+        <base loc="en">All computers</base>
+        <tran loc="ru">Все компьютеры</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>hppa</Position>
+      <TranslationSet>
+        <base loc="en">HP-PA RISC</base>
+        <tran loc="ru">HP-PA RISC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>i386</Position>
+      <TranslationSet>
+        <base loc="en">Intel</base>
+        <tran loc="ru">Intel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for old pre-3.1 packages </Description>
+      <Position>old</Position>
+      <TranslationSet>
+        <base loc="en">(Unknown)</base>
+        <tran loc="ru">(Неизвестно)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>m68k</Position>
+      <TranslationSet>
+        <base loc="en">NeXT</base>
+        <tran loc="ru">NeXT</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/DiskSizes.strings</Filepath>
+    <TextItem>
+      <Description> Format for file sizes between 1MB and 100MB. Value is an floating point value value in megabytes. </Description>
+      <Position>MB</Position>
+      <TranslationSet>
+        <base loc="en">%@ MB</base>
+        <tran loc="ru">%@ МБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for file sizes in the Exabytes </Description>
+      <Position>EB</Position>
+      <TranslationSet>
+        <base loc="en">%@ EB</base>
+        <tran loc="ru">%@ ЭБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for file sizes in the Terabytes </Description>
+      <Position>TB</Position>
+      <TranslationSet>
+        <base loc="en">%@ TB</base>
+        <tran loc="ru">%@ ТБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for file sizes between 1GB and 100GB. Value is floating point value in gigabytes. </Description>
+      <Position>GB</Position>
+      <TranslationSet>
+        <base loc="en">%@ GB</base>
+        <tran loc="ru">%@ ГБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for file sizes in the Petabytes </Description>
+      <Position>PB</Position>
+      <TranslationSet>
+        <base loc="en">%@ PB</base>
+        <tran loc="ru">%@ ПБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for file sizes between 100 bytes and 100 kilobytes. Value is a floating point value in kilobytes. </Description>
+      <Position>KB</Position>
+      <TranslationSet>
+        <base loc="en">%@ KB</base>
+        <tran loc="ru">%@ КБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for file sizes less than 100 bytes. Value is an integer in bytes. </Description>
+      <Position>B</Position>
+      <TranslationSet>
+        <base loc="en">%@ bytes</base>
+        <tran loc="ru">%@ Б</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/VolumeCheck.strings</Filepath>
+    <TextItem>
+      <Description> for all unhandled indexes </Description>
+      <Position>UNDEFINED_INDEX</Position>
+      <TranslationSet>
+        <base loc="en">The specified message could not be found for the index %@.</base>
+        <tran loc="ru">Не удалось найти указанное сообщение для индекса %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Installed system is too old to upgrade, but gives the option of erasing the target volume. </Description>
+      <Position>2</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while running the VolumeCheck tool for %@. Try running the installation again.</base>
+        <tran loc="ru">Произошла ошибка при запуске инструмента VolumeCheck для «%@». Попробуйте запустить установку еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This is for those who do not specify a message.  Tsk...Tsk..</Description>
+      <Position>0</Position>
+      <TranslationSet>
+        <base loc="en">You don’t have permission to install the software on this disk.</base>
+        <tran loc="ru">У Вас нет разрешения на установку ПО на этот диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Installed system is too old to upgrade.  What the heck is this for?</Description>
+      <Position>1</Position>
+      <TranslationSet>
+        <base loc="en">The specified message for index 1 could not be found.</base>
+        <tran loc="ru">Не удалось найти указанное сообщение для индекса 1.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/FileSystemNames.strings</Filepath>
+    <TextItem>
+      <Description> User-readable name for Mac OS extended (HFS+) volumes. </Description>
+      <Position>Mac OS Extended</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Extended</base>
+        <tran loc="ru">Mac OS Extended</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User-readable name for Mac OS (HFS) volumes. </Description>
+      <Position>Mac OS Standard</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS Standard</base>
+        <tran loc="ru">Mac OS Standard</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User-readable name for Mac OS X Server (UFS) volumes </Description>
+      <Position>Mac OS X Server (UFS)</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS X Server (UFS)</base>
+        <tran loc="ru">Mac OS X Server (UFS)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User-readable name for Mac OS X (UFS) volumes </Description>
+      <Position>Mac OS X (UFS)</Position>
+      <TranslationSet>
+        <base loc="en">Mac OS X (UFS)</base>
+        <tran loc="ru">Mac OS X (UFS)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User-readable name for the root (boot) volume. </Description>
+      <Position>Root Volume</Position>
+      <TranslationSet>
+        <base loc="en">Startup Disk</base>
+        <tran loc="ru">Загрузочный диск</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/InstallDescriptions.strings</Filepath>
+    <TextItem>
+      <Description> Possible user action for a package: in this case, the given package is to be upgraded. </Description>
+      <Position>Upgrade</Position>
+      <TranslationSet>
+        <base loc="en">Upgrade</base>
+        <tran loc="ru">Обновить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Possible user action for a package: in this case, the given package is to be installed from scratch. </Description>
+      <Position>Install</Position>
+      <TranslationSet>
+        <base loc="en">Install</base>
+        <tran loc="ru">Установить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description, applicable after a package has successfully been installed (or upgraded). </Description>
+      <Position>Installed</Position>
+      <TranslationSet>
+        <base loc="en">Installed</base>
+        <tran loc="ru">Установлен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description, applicable while the Installer engine is busy processing the given package. </Description>
+      <Position>Busy</Position>
+      <TranslationSet>
+        <base loc="en">Busy</base>
+        <tran loc="ru">Занят</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description, applicable after an installed package has been successfully removed. </Description>
+      <Position>Deleted</Position>
+      <TranslationSet>
+        <base loc="en">Deleted</base>
+        <tran loc="ru">Удаленный</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description, applicable after a package's contents have been read. </Description>
+      <Position>Uninstalled</Position>
+      <TranslationSet>
+        <base loc="en">Uninstalled</base>
+        <tran loc="ru">Не установлен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Package state description, applicable when an installation has been prematurely and intentionally terminated.</Description>
+      <Position>Stopped</Position>
+      <TranslationSet>
+        <base loc="en">Installation Stopped</base>
+        <tran loc="ru">Установка остановлена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description. This applies after a package has been opened, a target disk has been selected, an operation (install, upgrade or delete) has been chosen and the Installer engine has checked that the operation is valid. </Description>
+      <Position>Ready</Position>
+      <TranslationSet>
+        <base loc="en">Ready</base>
+        <tran loc="ru">Готов</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Possible user action for a package: in this case, the given package is to be ignored. </Description>
+      <Position>Skip</Position>
+      <TranslationSet>
+        <base loc="en">Skip</base>
+        <tran loc="ru">Пропустить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Possible user action for a package: in this case, the contents of the given installed package are to be deleted. </Description>
+      <Position>Remove</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description, applicable when a package has first been opened, but none of its contents have been read. </Description>
+      <Position>Uninitialized</Position>
+      <TranslationSet>
+        <base loc="en">Uninitialized</base>
+        <tran loc="ru">Не инициализирован</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Package state description, applicable when an unrecoverable error has occurred while processing the package. </Description>
+      <Position>Failed</Position>
+      <TranslationSet>
+        <base loc="en">Failed</base>
+        <tran loc="ru">Ошибка</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/LogEntries.strings</Filepath>
+    <TextItem>
+      <Description> Message displayed if the package cannot be installed </Description>
+      <Position>FailMessage</Position>
+      <TranslationSet>
+        <base loc="en">There were errors installing the software. Try reinstalling the software.</base>
+        <tran loc="ru">При установке ПО произошли ошибки. Попробуйте переустановить ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadVolumeCheck</Position>
+      <TranslationSet>
+        <base loc="en">The VolumeCheck tool was either not executable or not readable.</base>
+        <tran loc="ru">Инструмент VolumeCheck не удалось запустить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the front end when the user tries to install a single package</Description>
+      <Position>PackageVersionWarning2</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to choose another disk or install \"%@\" (version %@) anyway?</base>
+        <tran loc="ru">Выбрать другой диск или все равно установить «%@» (версия %@)?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadPreflight</Position>
+      <TranslationSet>
+        <base loc="en">The preflight script was either not executable or not readable.</base>
+        <tran loc="ru">Скрипт preflight не удалось исполнить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed if the package is successfully installed </Description>
+      <Position>SuccessMessage</Position>
+      <TranslationSet>
+        <base loc="en">The software was successfully installed.</base>
+        <tran loc="ru">Приложение успешно установлено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoInfo</Position>
+      <TranslationSet>
+        <base loc="en">The Info.plist file wasn’t found.</base>
+        <tran loc="ru">Файл Info.plist не найден.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorUnknown</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred with the package (%i).</base>
+        <tran loc="ru">Неизвестная ошибка в пакете (%i).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Phase strings for reading a specific package. The argument is the name of the package. </Description>
+      <Position>CompositeReadingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Reading %@…</base>
+        <tran loc="ru">Чтение %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed in the log when some languages are included in the package that do not exist on the user's disk. These languages will be removed from the install. </Description>
+      <Position>Some languages were not installed.</Position>
+      <TranslationSet>
+        <base loc="en">Some languages were not installed.</base>
+        <tran loc="ru">Некоторые языки не установлены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorTopNotDir</Position>
+      <TranslationSet>
+        <base loc="en">This file does not appear to be a package.</base>
+        <tran loc="ru">Этот файл не является пакетом установки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoBom</Position>
+      <TranslationSet>
+        <base loc="en">The bill of materials for this package wasn’t found.</base>
+        <tran loc="ru">Не найден файл спецификации этого пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorRootHasNoAccess</Position>
+      <TranslationSet>
+        <base loc="en">The package can’t be installed from a network volume. Copy the package to a local volume and try again.</base>
+        <tran loc="ru">Этот пакет невозможно установить с сетевого тома. Скопируйте пакет в локальный том и повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Suffix used for products that are installed in parts across different volumes or custom locations 
+ Note that the first parameter is deferred, so the double-% is really correct! </Description>
+      <Position>JobTitleSuffix</Position>
+      <TranslationSet>
+        <base loc="en"> (Part %%d of %d)</base>
+        <tran loc="ru"> (часть %%d из %d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CompositePreparingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Preparing %@…</base>
+        <tran loc="ru">Подготовка %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadInstallationCheck</Position>
+      <TranslationSet>
+        <base loc="en">The InstallationCheck tool was either not executable or not readable.</base>
+        <tran loc="ru">Инструмент InstallationCheck не удалось запустить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Reading Package Information...</Position>
+      <TranslationSet>
+        <base loc="en">Reading package information…</base>
+        <tran loc="ru">Чтение информации пакета…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The opened package is valid. </Description>
+      <Position>PackageIsValid</Position>
+      <TranslationSet>
+        <base loc="en">The opened Installer package is valid.</base>
+        <tran loc="ru">Открытый установочный пакет является действительным.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert panel title for a broken package. </Description>
+      <Position>PackageIsInvalid</Position>
+      <TranslationSet>
+        <base loc="en">The Installer package \"%@\" cannot be opened.</base>
+        <tran loc="ru">Не удается открыть установочный пакет «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoResources</Position>
+      <TranslationSet>
+        <base loc="en">The Resources directory wasn’t found.</base>
+        <tran loc="ru">Не найден каталог ресурсов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the front end when older versions of software absolutely cannot be installed on top of newer versions. </Description>
+      <Position>PackageVersionWarning3</Position>
+      <TranslationSet>
+        <base loc="en">The software you are trying to install is older than the version currently installed. You can’t install an older version of this software over a newer version.</base>
+        <tran loc="ru">Уже установлена более новая версия программного обеспечения, которое Вы пытаетесь установить. Невозможно установить более старую версию этого ПО поверх более новой версии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ProcessingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Installing...</base>
+        <tran loc="ru">Установка…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoSizes</Position>
+      <TranslationSet>
+        <base loc="en">The %@.sizes file wasn’t found.</base>
+        <tran loc="ru">Файл %@.sizes не найден.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>	validity check messages</Description>
+      <Position>Error</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="ru">Ошибка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OptimizingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Optimizing system performance…</base>
+        <tran loc="ru">Оптимизация производительности системы…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadPostflight</Position>
+      <TranslationSet>
+        <base loc="en">The postflight script was either not executable or not readable.</base>
+        <tran loc="ru">Скрипт postflight не удалось исполнить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoFlags</Position>
+      <TranslationSet>
+        <base loc="en">A package flags file wasn’t found.</base>
+        <tran loc="ru">Не найден файл флагов пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorIsReceipt</Position>
+      <TranslationSet>
+        <base loc="en">The selected package is a receipt.</base>
+        <tran loc="ru">Выбранный пакет является уведомлением.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoArchive</Position>
+      <TranslationSet>
+        <base loc="en">The archive for this package wasn’t found.</base>
+        <tran loc="ru">Архив для этого пакета не найден.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CompositeOptimizingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Optimizing %@…</base>
+        <tran loc="ru">Оптимизация %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> General purpose phase strings </Description>
+      <Position>NoPhase</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="ru">Нет</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the front end when the user tries to install a single package</Description>
+      <Position>PackageVersionWarning</Position>
+      <TranslationSet>
+        <base loc="en">A newer version of \"%@\" (version %@) already exists on the disk \"%@\".</base>
+        <tran loc="ru">Более новая версия «%@» (версия %@) уже установлена на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorProxyPackage</Position>
+      <TranslationSet>
+        <base loc="en">This package can’t be installed. Open the original package located at %@.</base>
+        <tran loc="ru">Этот пакет невозможно установить. Откройте исходный пакет, расположенный в %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the log if a bundle cannot be installed because a newer version already exists on the target volume. The first argument in the string is the path to the bundle, like /Applications/Mail.app. The arguments in parenthesis are the 5 digit versions of the older and newer bundles. The format specifiers MUST remain in the same order. </Description>
+      <Position>OldBundleVersion</Position>
+      <TranslationSet>
+        <base loc="en">%@ (version %@) was not installed because a newer version (%@) already exists.</base>
+        <tran loc="ru">%@ (версия %@) не была установлена, так как существует более новая версия (%@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadPreinstall</Position>
+      <TranslationSet>
+        <base loc="en">The preinstall script was either not executable or not readable.</base>
+        <tran loc="ru">Скрипт preinstall не удалось исполнить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BOM file is either missing or was created with IndexingKit. Needs to recreated. </Description>
+      <Position>PackageBadBom</Position>
+      <TranslationSet>
+        <base loc="en">Missing or old bill of materials.</base>
+        <tran loc="ru">Файл спецификации имеет старую версию или отсутствует.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CompositeProcessingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Processing %@…</base>
+        <tran loc="ru">Обработка %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ReadingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Reading...</base>
+        <tran loc="ru">Чтение…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadPostupgrade</Position>
+      <TranslationSet>
+        <base loc="en">The postupgrade script was either not executable or not readable.</base>
+        <tran loc="ru">Скрипт postupgrade не удалось исполнить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoMetaPackageList</Position>
+      <TranslationSet>
+        <base loc="en">The package list for the meta-package is missing.</base>
+        <tran loc="ru">Не найден список пакетов этого метапакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the log if a file cannot be installed because a newer version already exists on the target volume. The first argument in the string is the path to the bundle, like /Applications/Mail.app. The arguments in parenthesis are the 5 digit versions of the older and newer bundles. The format specifiers MUST remain in the same order. </Description>
+      <Position>OldFileVersion</Position>
+      <TranslationSet>
+        <base loc="en">%@ (version %@) was not installed because a newer version already exists.</base>
+        <tran loc="ru">%@ (версия %@) не была установлена, так как существует более новая версия.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadPreupgrade</Position>
+      <TranslationSet>
+        <base loc="en">The preupgrade script was either not executable or not readable.</base>
+        <tran loc="ru">Скрипт preupgrade не удалось исполнить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoSize</Position>
+      <TranslationSet>
+        <base loc="en">The size of this package can’t be determined.</base>
+        <tran loc="ru">Не удается определить размер этого пакета.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorNoContents</Position>
+      <TranslationSet>
+        <base loc="en">The Contents directory wasn’t found.</base>
+        <tran loc="ru">Каталог содержания не найден.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Preparing...</Position>
+      <TranslationSet>
+        <base loc="en">Preparing...</base>
+        <tran loc="ru">Подготовка…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PreparingPhase</Position>
+      <TranslationSet>
+        <base loc="en">Preparing...</base>
+        <tran loc="ru">Подготовка…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the front end when a subpackage of a metapackage encounters a newer version already installed.  The format argument for this string is the name of the metapackage. </Description>
+      <Position>MetapackageVersionWarning2</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to select another disk or install \"%@\" anyway?</base>
+        <tran loc="ru">Выбрать другой диск или все равно установить «%@»?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorBadPostinstall</Position>
+      <TranslationSet>
+        <base loc="en">The postinstall script was either not executable or not readable.</base>
+        <tran loc="ru">Скрипт postinstall не удалось исполнить или прочитать.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message is displayed in the front end when a subpackage of a metapackage encounters a newer version already installed. The first format agument for this string is the name of the metapackage. The second is the name of the target volume. </Description>
+      <Position>MetapackageVersionWarning</Position>
+      <TranslationSet>
+        <base loc="en">There are newer versions of some of the software packages in \"%@\" already installed on the disk \"%@\".</base>
+        <tran loc="ru">Для некоторых программ в «%@» уже имеются более новые версии, установленные на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/Errors.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_EXTRACTING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t extract files from the package for %@. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Установщик не может извлечь файлы из пакета для %@. Обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_CONTINUE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Install Anyway</base>
+        <tran loc="ru">Установить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WARNING_PROTECTED_SYSTEM_CONTENT_CONTINUE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Install Anyway</base>
+        <tran loc="ru">Установить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GENERIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t install some files in “%@”. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Установщик не может установить некоторые файлы в «%@». Обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_VALIDATING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t validate the contents of the ‘%@’ package. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Установщик не может проверить содержимое пакета «%@». Обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PREPARING_ARCHIVE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer was unable to archive your previous system.</base>
+        <tran loc="ru">Установщику не удалось архивировать предыдущую систему.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_UNSUPPORTED_INSTALL_VOLUME__MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Features such as FileVault and Recovery Mode won't be available if you install Lion on this disk. Visit www.apple.com/support/no-recovery to learn more. To continue with the installation, select the disk again and click Install.</base>
+        <tran loc="ru">Функции FileVault и Режим восстановления не будут доступны, если Вы установите Lion на этот диск. Посетите www.apple.com/support/no-recovery, чтобы ознакомиться с подробностями. Чтобы продолжить установку, выберите диск повторно и нажмите «Установить».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_INSTALL_STEP_FAILED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The following installation step failed: %@. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Не удалось выполнить следующий шаг установки: %@. Обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_CANCEL_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Quit</base>
+        <tran loc="ru">Завершить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WARNING_PROTECTED_SYSTEM_CONTENT_CANCEL_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Quit</base>
+        <tran loc="ru">Завершить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WARNING_PROTECTED_SYSTEM_CONTENT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Installing this package may damage your system, and the installation may fail. To stop the program and the installation, click “Cancel Installation”.</base>
+        <tran loc="ru">Данный пакет может повредить Вашу систему, и установка может закончится неудачно. Чтобы прекратить установку, нажмите «Отменить установку».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_INSTALL_SCRIPT_MISSING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The package contents could not be completely extracted. The package may have been corrupted during download.</base>
+        <tran loc="ru">Не удалось извлечь все содержимое пакета. Возможно, пакет поврежден во время загрузки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNABLE_TO_START_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not install the software because there was no software found to install.</base>
+        <tran loc="ru">Установщику не удалось установить ПО, так как для установки не было найдено ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNABLE_TO_START_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not install the software.</base>
+        <tran loc="ru">Установщику не удалось установить ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_GENERIC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">macOS could not be installed on this disk.</base>
+        <tran loc="ru">Не удалось установить macOS на этот диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>URL_LOCATING_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t locate the data it needs to install the software. Check your install media or Internet connection and try again, or contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Установщик не может найти данные, необходимые для установки ПО. Проверьте носитель установки или подключение к интернету и повторите попытку или обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_FATAL_RECOVERY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">macOS can’t be installed on the disk %@, because a recovery system can’t be created. Visit www.apple.com/support/no-recovery to learn more.</base>
+        <tran loc="ru">Невозможно установить macOS на диск %@, так как не удается создать систему восстановления. Подробнее см. веб-сайт www.apple.com/ru/support/no-recovery.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CANT_UPGRADE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t perform an upgrade because it can’t find the software to upgrade.</base>
+        <tran loc="ru">Установщик не может выполнить обновление, так как не удается найти ПО для обновления.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">This package is incompatible with this version of macOS.</base>
+        <tran loc="ru">Этот пакет несовместим с данной версией macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_BAD_SOURCE_MEDIA</Position>
+      <TranslationSet>
+        <base loc="en">The item you are installing from is damaged. Try installing from a different copy of the item or contact the manufacturer for a replacement.</base>
+        <tran loc="ru">Носитель, с которого Вы производите установку, поврежден. Попытайтесь произвести установку с другого носителя или свяжитесь с производителем для замены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_OUT_OF_SPACE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%@” ran out of space during the installation. Try making more space available on the disk, and then reinstall the software.</base>
+        <tran loc="ru">Во время установки на диске «%@» закончилось свободное место. Попытайтесь освободить на диске дополнительное место и переустановите ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_INCOMPATIBLE_PKG_FEATURES</Position>
+      <TranslationSet>
+        <base loc="en">The package you are installing is not compatible with this version of macOS. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Устанавливаемый пакет несовместим с данной версией macOS. Обратитесь к производителю ПО для получения помощи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PATCHING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t install the software. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Установщик не может установить ПО. Обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_REAPING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not remove old system files on “%@”.</base>
+        <tran loc="ru">Установщику не удалось удалить старые системные файлы на «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CREATING_RECEIPT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t create the receipt for “%@”.</base>
+        <tran loc="ru">Установщик не может создать уведомление о получении «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** DISTRIBUTION-RETURNED ERRORS 
+  These errors are single strings that can be returned by key from distributions.  
+  The idea being that these strings will get localized and can provide canned      
+  localized messages to users. </Description>
+      <Position>This installer package does not contain support for your system language.</Position>
+      <TranslationSet>
+        <base loc="en">This installer doesn’t support your primary system language.</base>
+        <tran loc="ru">Этот установщик не поддерживает основной язык системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_LOCATING_PATCH_TOOL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not find its patch tool in “%@”. You may need to reinstall macOS.</base>
+        <tran loc="ru">Установщику не удалось найти его патч-инструмент в «%@». Вам, возможно, придется переустановить macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USER_CANCEL_INSTALL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You have chosen to cancel the installation.</base>
+        <tran loc="ru">Вы отменили установку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_WRITING_RECEIPT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t write the receipt for “%@”.</base>
+        <tran loc="ru">Установщик не может записать уведомление о получении «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The package is trying to install content to the system volume. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Этот пакет пытается установить контент на системный том. Обратитесь к производителю ПО для получения помощи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DESTINATION_DISK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer is experiencing errors installing on “%@”. The disk may be damaged. Try installing on another disk.</base>
+        <tran loc="ru">Возникают ошибки при установке на «%@». Диск может быть поврежден. Попробуйте выполнить установку на другом диске.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_UNSUPPORTED_INSTALL_VOLUME_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Some features of macOS are not supported for the disk “%@”.</base>
+        <tran loc="ru">Некоторые функции macOS не поддерживаются на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_PREPARING_DISK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t prepare the disk for installation. You may need to repair your disk using Disk Utility.</base>
+        <tran loc="ru">Установщику не удается подготовить диск для установки. Попытайтесь исправить диск с помощью Дисковой утилиты.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_FINALIZING_DISK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not start up the computer from the disk “%@”. Try selecting your disk using the Startup Disk utility.</base>
+        <tran loc="ru">Установщику не удалось загрузить компьютер с диска «%@». Попробуйте выбрать диск, используя утилиту Загрузочного диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_CREATING_DIR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer can’t create the folder “%@”.</base>
+        <tran loc="ru">Установщик не может создать папку «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_AUTHORIZED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You do not have the necessary authorization to install this software. Make sure you have administrative privileges before trying again.</base>
+        <tran loc="ru">У Вас нет необходимой авторизации на установку данного ПО. Перед повторной попыткой убедитесь, что у Вас есть права администратора.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_UNKNOWN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">An unknown installation error occurred.</base>
+        <tran loc="ru">Произошла неизвестная ошибка установки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_UNKNOWN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Установщик обнаружил ошибку, вызвавшую сбой установки. Обратитесь за помощью к производителю ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WARNING_PROTECTED_SYSTEM_CONTENT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">This package is incompatible with this version of macOS and may fail to install.</base>
+        <tran loc="ru">Этот пакет несовместим с данной версией macOS. Возможно, его не получится установить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** SUMMARY PANEL ERRORS 
+  These errors are single strings that will appear in the Installer's summary panel  </Description>
+      <Position>DOWNLOAD_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There was an error obtaining data from the file “%@,” which is needed to install the software. Check your Internet connection and try again, or contact the software manufacturer for assistance.</base>
+        <tran loc="ru">Произошла ошибка при получении данных из файла «%@», необходимого для установки ПО. Проверьте подключение к интернету и повторите попытку или свяжитесь с производителем ПО для получения помощи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_NEED_MORE_SPACE</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough space on this disk to install the selected items. Deselect at least %@ and try again.</base>
+        <tran loc="ru">На этом диске недостаточно свободного места для установки выбранных объектов. Отмените выбор хотя бы %@ и повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_NEWER_SOFTWARE_ONDISK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer didn’t upgrade the software because a newer version of the software is already installed.</base>
+        <tran loc="ru">Установщику не удалось обновить ПО, так как уже установлена более новая версия ПО.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_IMPORTING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not import your user account from the previous system. You must create a new user account in Setup Assistant. Your original account is stored in the “/Previous System” folder.</base>
+        <tran loc="ru">Установщику не удалось импортировать Вашу учетную запись из предыдущей системы. Вам необходимо создать новую учетную запись в Ассистенте настройки системы. Ваша первоначальная учетная запись сохранена в папке «Предыдущая система».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_VERIFYING_TARGET_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The macOS upgrade couldn't be started because the disk %@ is damaged and can't be repaired. After your computer restarts, back up your data, erase your disk, and try installing again.</base>
+        <tran loc="ru">Обновление macOS не удалось запустить, так как диск «%@» поврежден и не может быть исправлен. После перезагрузки компьютера создайте резервную копию данных на нем, сотрите диск и повторите попытку установки.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**** Installation Error Strings 
+  These errors are title/message pairs that will appear in an alert dialog  </Description>
+      <Position>NOT_AUTHORIZED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">You need to have administrative privileges to install this software.</base>
+        <tran loc="ru">Для установки этого ПО необходимы права администратора.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USER_CANCEL_INSTALL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">The installation was canceled.</base>
+        <tran loc="ru">Установка была отменена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_DOWNLOAD_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">The Installer could not copy the necessary support files.</base>
+        <tran loc="ru">Установщику не удалось скопировать необходимые сопровождающие файлы.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Frameworks/DistributionKit.framework/Versions/A/Resources/English.lproj/PKDistributionController.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>OSUPDATE_RECOVERY_SUGGESTION</Position>
+      <TranslationSet>
+        <base loc="en">You can update macOS from the Software Update pane of System Preferences.</base>
+        <tran loc="ru">Обновить macOS можно в разделе «Обновление ПО» Системных настроек.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RECOVERY_OPTION_SWU</Position>
+      <TranslationSet>
+        <base loc="en">App Store…</base>
+        <tran loc="ru">App Store…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS maximum check </Description>
+      <Position>PKDistributionErrorOSMaximumCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on \U201C%@\U201D because the version of macOS is too new.</base>
+        <tran loc="ru">Невозможно установить %@ на диск \U201C%@\U201D, так как версия macOS слишком новая.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning from JavaScript upgrade-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorUpgradeCheckWarning</Position>
+      <TranslationSet>
+        <base loc="en">%@ may not work correctly on \U201C%@\U201D.</base>
+        <tran loc="ru">%@ может работать с ошибками на «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning from JavaScript volume-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorVolumeCheckWarning</Position>
+      <TranslationSet>
+        <base loc="en">%@ may not work correctly on \U201C%@\U201D.</base>
+        <tran loc="ru">%@ может работать с ошибками на «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ARCH_CHECK_REQUIRES_INTEL_64BIT</Position>
+      <TranslationSet>
+        <base loc="en">%@ can't be installed on this computer, because a 64-bit Intel processor is required.</base>
+        <tran loc="ru">%@ невозможно установить на этом компьютере, так как требуется 64-битный процессор Intel.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Buttons used for SoftwareUpdate (now App Store) recovery options </Description>
+      <Position>RECOVERY_OPTION_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OpenGL and/or OpenCL requirements not met </Description>
+      <Position>PKDistributionErrorGraphicsRequirementsNotMet</Position>
+      <TranslationSet>
+        <base loc="en">%@ doesn't support this computer's graphics hardware.</base>
+        <tran loc="ru">%@ не поддерживает аппаратные средства графики этого компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed JavaScript volume-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorVolumeCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on \U201C%@\U201D.</base>
+        <tran loc="ru">Невозможно установить %@ на «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning from JavaScript peripheral-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorPeripheralCheckWarning</Position>
+      <TranslationSet>
+        <base loc="en">%@ may not work correctly for the appropriate peripheral.</base>
+        <tran loc="ru">%@, возможно, не будет работать корректно на соответствующем периферийном устройстве.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed required bundle checks (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorRequiredBundleCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on \U201C%@\U201D because the required software is not installed.</base>
+        <tran loc="ru">Невозможно установить %@ на «%@», так как требуемое ПО не установлено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Warning from JavaScript installation-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorInstallationCheckWarning</Position>
+      <TranslationSet>
+        <base loc="en">%@ may not work correctly on this computer.</base>
+        <tran loc="ru">%@ может работать с ошибками на этом компьютере.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+   PKDistributionController.strings
+   Install
+
+   Created by Randy Saldinger on 11/16/09.
+   Copyright 2009 Apple Inc.. All rights reserved.
+ 
+ Failed architecture check (generic version used only if more specific scenarios below don't apply) </Description>
+      <Position>PKDistributionErrorArchitectureCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этот компьютер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed JavaScript installation-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorInstallationCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этот компьютер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed JavaScript peripheral-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorPeripheralCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on the appropriate peripheral.</base>
+        <tran loc="ru">%@ нельзя установить на соответствующее периферийное устройство.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed JavaScript upgrade-check (used only if distribution fails to provide a string) </Description>
+      <Position>PKDistributionErrorUpgradeCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be upgraded on \U201C%@\U201D.</base>
+        <tran loc="ru">Невозможно обновить %@ на «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed minimum RAM check </Description>
+      <Position>PKDistributionErrorMinimumRAMCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can't be installed on this computer because it requires at least %@ of memory.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этом компьютере, так как требуется как минимум %@ памяти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS required check </Description>
+      <Position>PKDistributionErrorOSRequiredCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on \U201C%@\U201D because macOS isn’t installed there.</base>
+        <tran loc="ru">Невозможно установить пакет %@ на диск «%@», так как на нем не установлена macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Failed OS range check </Description>
+      <Position>PKDistributionErrorOSMinimumCheckFailed</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on \U201C%@\U201D because macOS version %@ or later is required.</base>
+        <tran loc="ru">Невозможно установить пакет %@ на диск «%@», так как требуется macOS версии %@ или новее.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ARCH_CHECK_REQUIRES_INTEL</Position>
+      <TranslationSet>
+        <base loc="en">%@ can't be installed on this computer, because an Intel processor is required.</base>
+        <tran loc="ru">%@ невозможно установить на этом компьютере, так как требуется процессор Intel.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/IFRequirement.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>PkgMetadataFailMessage</Position>
+      <TranslationSet>
+        <base loc="en">This system doesn't meet the file content requirements.</base>
+        <tran loc="ru">Эта система не удовлетворяет требованиям содержимого файлов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PkgMetadataLabel</Position>
+      <TranslationSet>
+        <base loc="en">certain file content criteria</base>
+        <tran loc="ru">некоторые критерии содержимого файлов</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConflictsLabel</Position>
+      <TranslationSet>
+        <base loc="en">can't be used with %@</base>
+        <tran loc="ru">невозможно использовать с %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VolumeCheckLabel</Position>
+      <TranslationSet>
+        <base loc="en">certain VolumeCheck criteria</base>
+        <tran loc="ru">некоторые критерии VolumeCheck</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InstallationCheckLabel</Position>
+      <TranslationSet>
+        <base loc="en">certain InstallationCheck criteria</base>
+        <tran loc="ru">некоторые критерии InstallationCheck</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GenericFailMessage</Position>
+      <TranslationSet>
+        <base loc="en">Make sure your system meets the requirements.</base>
+        <tran loc="ru">Убедитесь, что Ваша система удовлетворяет требованиям.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/StatusStrings.strings</Filepath>
+    <TextItem>
+      <Description> Status message when the installer is cleaning up temporary files. </Description>
+      <Position>Cleaning up</Position>
+      <TranslationSet>
+        <base loc="en">Finishing the Installation…</base>
+        <tran loc="ru">Завершение установки…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Status message when locationing files for bundle relocation. </Description>
+      <Position>Finding moved files</Position>
+      <TranslationSet>
+        <base loc="en">Locating the software to update…</base>
+        <tran loc="ru">Поиск программного обеспечения для обновления…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is checking the validity of a package. </Description>
+      <Position>ValidatingPackage</Position>
+      <TranslationSet>
+        <base loc="en">Validating package…</base>
+        <tran loc="ru">Проверка пакета…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when erase is being run on volume (for SIU 5923781) </Description>
+      <Position>ERASING_DISK</Position>
+      <TranslationSet>
+        <base loc="en">Erasing the destination disk…</base>
+        <tran loc="ru">Очистка диска назначения…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ARCHIVE AND INSTALL STRINGS 
+ Localized Folder Names for the Previous System.</Description>
+      <Position>ARCHIVE_PREVIOUS_FOLDER_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Previous System</base>
+        <tran loc="ru">Предыдущая система</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> install pre-size </Description>
+      <Position>PRE_INSTALL_SIZING</Position>
+      <TranslationSet>
+        <base loc="en">Calculating space required to install macOS…</base>
+        <tran loc="ru">Вычисление места, необходимого для установки macOS…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used for setting up target volume </Description>
+      <Position>PREPARING_TARGET</Position>
+      <TranslationSet>
+        <base loc="en">Preparing the target disk…</base>
+        <tran loc="ru">Подготовка диска назначения…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> status message </Description>
+      <Position>VERIFY_DISK.</Position>
+      <TranslationSet>
+        <base loc="en">The macOS Install DVD is being checked.</base>
+        <tran loc="ru">Выполняется проверка установочного DVD-диска macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used for Archive and Installs </Description>
+      <Position>PREPARING_UPGRADE_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">Preparing Upgrade Install…</base>
+        <tran loc="ru">Подготовка к установке обновления…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user a package is being installed. The argument is the name of the package. </Description>
+      <Position>InstallingPackage</Position>
+      <TranslationSet>
+        <base loc="en">Installing %@…</base>
+        <tran loc="ru">Установка: %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is running the pre-install actions. </Description>
+      <Position>RUNNING_ACTIONS</Position>
+      <TranslationSet>
+        <base loc="en">Running installer actions…</base>
+        <tran loc="ru">Выполнение действий установщика…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This is the message displayed when the installation check fails and the software cannot be installed at all. </Description>
+      <Position>CannotInstall</Position>
+      <TranslationSet>
+        <base loc="en">This software can’t be installed on this computer. </base>
+        <tran loc="ru">Данное ПО невозможно установить на этот компьютер. </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when config files are being created for packages. </Description>
+      <Position>Configuring Installation</Position>
+      <TranslationSet>
+        <base loc="en">Configuring the installation…</base>
+        <tran loc="ru">Настройка установки…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is running a package script. The argument is the name of the package </Description>
+      <Position>RunPackageScript</Position>
+      <TranslationSet>
+        <base loc="en">Running %@ installer script…</base>
+        <tran loc="ru">Выполнение скрипта установщика %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when fsck is being run on volume </Description>
+      <Position>FSCKING_DISK</Position>
+      <TranslationSet>
+        <base loc="en">Verifying the destination disk…</base>
+        <tran loc="ru">Проверка диска назначения…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is copying files over to the target disk. </Description>
+      <Position>Extracting files</Position>
+      <TranslationSet>
+        <base loc="en">Writing files…</base>
+        <tran loc="ru">Запись файлов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when x percent of optimization is completed. This string reads like "Optimizing volume “MyVolume”: 25% complete" </Description>
+      <Position>Optimization Percent Complete</Position>
+      <TranslationSet>
+        <base loc="en">Optimizing disk \"%1$@\": %2$@%% complete</base>
+        <tran loc="ru">Оптимизация диска «%1$@»: %2$@ %% завершено</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is patching files on the target disk. </Description>
+      <Position>Patching files</Position>
+      <TranslationSet>
+        <base loc="en">Patching files…</base>
+        <tran loc="ru">Исправление файлов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Percentage complete message with additional message. </Description>
+      <Position>PercentCompleteWithMessage</Position>
+      <TranslationSet>
+        <base loc="en">%1$@: %2$@ complete</base>
+        <tran loc="ru">%1$@, выполнено %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ARCHIVE_PREVIOUS_FOLDER_NAME_1</Position>
+      <TranslationSet>
+        <base loc="en">Previous System %d</base>
+        <tran loc="ru">Предыдущая система %d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is running a script which must run after installing/upgrading/removing a package. </Description>
+      <Position>Running post-processing script</Position>
+      <TranslationSet>
+        <base loc="en">Running installer script…</base>
+        <tran loc="ru">Выполнение скрипта установщика…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is running a script which must run before installing/upgrading/removing a package. </Description>
+      <Position>Running pre-processing script</Position>
+      <TranslationSet>
+        <base loc="en">Running installer script…</base>
+        <tran loc="ru">Выполнение скрипта установщика…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOVING_OLD_ARCHIVE</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning up…</base>
+        <tran loc="ru">Очистка…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> recover failed install </Description>
+      <Position>RECOVER_DISK</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning up incomplete macOS installation…</base>
+        <tran loc="ru">Удаление неполной установки macOS…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Download packages before install </Description>
+      <Position>DOWNLOADING_PACKAGES</Position>
+      <TranslationSet>
+        <base loc="en">Downloading selected packages…</base>
+        <tran loc="ru">Загрузка выбранных пакетов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMPORTING_UPGRADE_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">Finishing Upgrade Install…</base>
+        <tran loc="ru">Завершение установки обновления…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Status message when disk is being formatted. </Description>
+      <Position>Preparing Disk</Position>
+      <TranslationSet>
+        <base loc="en">Preparing the disk…</base>
+        <tran loc="ru">Подготовка диска…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message when the installer is writing a package's receipt (a record of which files were installed, to enable future upgrading of the package). </Description>
+      <Position>Writing package receipt</Position>
+      <TranslationSet>
+        <base loc="en">Writing package receipt…</base>
+        <tran loc="ru">Запись уведомления установки…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when a user tries to install a package when anotherone is already installing. </Description>
+      <Position>OthersAreInstalling</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for other installations to complete.</base>
+        <tran loc="ru">Ожидание окончания работы других установок</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/PaxErrors.strings</Filepath>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_MEMERR</Position>
+      <TranslationSet>
+        <base loc="en">Out of memory.</base>
+        <tran loc="ru">Недостаточно памяти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRREAD</Position>
+      <TranslationSet>
+        <base loc="en">The folder can’t be read.</base>
+        <tran loc="ru">Не удается прочитать папку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHADD</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be added to the archive.</base>
+        <tran loc="ru">Не удается добавить файл в архив.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHUNARCH</Position>
+      <TranslationSet>
+        <base loc="en">The files can’t be unarchived.</base>
+        <tran loc="ru">Не удается извлечь файлы из архива.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEREAD</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be read.</base>
+        <tran loc="ru">Не удается прочитать файл.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEERRWRITE</Position>
+      <TranslationSet>
+        <base loc="en">There was an error writing the file.</base>
+        <tran loc="ru">Произошла ошибка при записи файла.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRNF</Position>
+      <TranslationSet>
+        <base loc="en">The folder wasn’t found.</base>
+        <tran loc="ru">Папка не найдена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRWRITE</Position>
+      <TranslationSet>
+        <base loc="en">The folder can’t be written.</base>
+        <tran loc="ru">Не удается записать папку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHOPEN</Position>
+      <TranslationSet>
+        <base loc="en">The archive file can’t be opened.</base>
+        <tran loc="ru">Не удается открыть файл архива.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEAXS</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be accessed.</base>
+        <tran loc="ru">Не удается получить доступ к файлу.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEERRAXS</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be accessed.</base>
+        <tran loc="ru">Не удается получить доступ к файлу.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILECLOSE</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be closed.</base>
+        <tran loc="ru">Не удается закрыть файл.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEDEL</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be deleted.</base>
+        <tran loc="ru">Не удается удалить файл.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHWRITE</Position>
+      <TranslationSet>
+        <base loc="en">The archive file can’t be written.</base>
+        <tran loc="ru">Не удается записать файл архива.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHREAD</Position>
+      <TranslationSet>
+        <base loc="en">The archive file can’t be read.</base>
+        <tran loc="ru">Не удается прочитать файл архива.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRAXS</Position>
+      <TranslationSet>
+        <base loc="en">The folder can’t be accessed.</base>
+        <tran loc="ru">Не удается получить доступ к папке.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEWRITE</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be written.</base>
+        <tran loc="ru">Не удается записать файл.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRDEL</Position>
+      <TranslationSet>
+        <base loc="en">The folder can’t be deleted.</base>
+        <tran loc="ru">Не удается удалить папку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEATTR</Position>
+      <TranslationSet>
+        <base loc="en">The file attributes can’t be set.</base>
+        <tran loc="ru">Не удается задать атрибуты файла.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHFLAWED</Position>
+      <TranslationSet>
+        <base loc="en">The archive file can’t be updated because the archive is flawed.</base>
+        <tran loc="ru">Не удается обновить файл архива, так как он поврежден.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHVOLFULL</Position>
+      <TranslationSet>
+        <base loc="en">The archive volume is full.</base>
+        <tran loc="ru">Том архива переполнен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_INDIGESTION</Position>
+      <TranslationSet>
+        <base loc="en">An internal error occurred.</base>
+        <tran loc="ru">Произошла внутренняя ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHNEXT</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred getting the next archive volume.</base>
+        <tran loc="ru">Произошла ошибка при доступе к следующему тому архива.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRDEST</Position>
+      <TranslationSet>
+        <base loc="en">The destination folder can’t be accessed.</base>
+        <tran loc="ru">Не удается получить доступ к папке назначения.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILELINK</Position>
+      <TranslationSet>
+        <base loc="en">The file can’t be linked.</base>
+        <tran loc="ru">Не удается связать файл.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEERRCOPY</Position>
+      <TranslationSet>
+        <base loc="en">There was an error copying the file.</base>
+        <tran loc="ru">Произошла ошибка при копировании файла.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_PARAMERR</Position>
+      <TranslationSet>
+        <base loc="en">The parameter is invalid.</base>
+        <tran loc="ru">Неверный параметр.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_ARCHERR</Position>
+      <TranslationSet>
+        <base loc="en">An internal archive error occurred.</base>
+        <tran loc="ru">Произошла внутренняя ошибка архива.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FLDRMAKE</Position>
+      <TranslationSet>
+        <base loc="en">The folder can’t be created.</base>
+        <tran loc="ru">Не удается создать папку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User friendly error message </Description>
+      <Position>IFW_FILEERRREAD</Position>
+      <TranslationSet>
+        <base loc="en">There was an error reading the file.</base>
+        <tran loc="ru">Произошла ошибка при чтении файла.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Install/System/Library/PrivateFrameworks/Install.framework/Versions/A/Resources/English.lproj/InstallationCheck.strings</Filepath>
+    <TextItem>
+      <Description> Canned InstallationCheck error message 5 </Description>
+      <Position>5</Position>
+      <TranslationSet>
+        <base loc="en">This installer doesn’t support your system language.</base>
+        <tran loc="ru">Этот установщик не поддерживает язык системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Canned InstallationCheck error message 3 </Description>
+      <Position>3</Position>
+      <TranslationSet>
+        <base loc="en">%@ can’t be installed on this computer.</base>
+        <tran loc="ru">ПО %@ невозможно установить на этот компьютер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Canned InstallationCheck error message 1 </Description>
+      <Position>1</Position>
+      <TranslationSet>
+        <base loc="en">This software can’t be installed on this computer.</base>
+        <tran loc="ru">Данное ПО невозможно установить на этот компьютер.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Canned InstallationCheck error message 2 </Description>
+      <Position>2</Position>
+      <TranslationSet>
+        <base loc="en">This software “%@” can’t be installed on this computer. Check to make sure that the software is compatible with your operating system.</base>
+        <tran loc="ru">Не удается установить ПО «%@» на этот компьютер. Убедитесь, что ПО совместимо с операционной системой.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Canned InstallationCheck error message 4 </Description>
+      <Position>4</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while running the InstallationCheck tool for “%@”. Try running the tool again.</base>
+        <tran loc="ru">Произошла ошибка при запуске инструмента InstallationCheck для «%@». Попробуйте запустить инструмент еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>eap8021x_executables</ProjName>
+  <File>
+    <Filepath>eap8021x_executables/System/Library/SystemConfiguration/EAPOLController.bundle/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> error messages validating input </Description>
+      <Position>You must enter your old password</Position>
+      <TranslationSet>
+        <base loc="en">You must enter your old password</base>
+        <tran loc="zh-CN">您必须输入您的旧密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User Name:			: label for account name field
+ 
+* Password:			: label for the password field
+ 
+* Cancel			: Cancel button
+ 
+* OK				: OK button
+ 
+* Remember information		: 'Remember this information" checkbox
+ </Description>
+      <Position>User Name:</Position>
+      <TranslationSet>
+        <base loc="en">Account Name:</base>
+        <tran loc="zh-CN">帐户名称：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your new password must be different than your old password</Position>
+      <TranslationSet>
+        <base loc="en">Your new password must be different than your old password</base>
+        <tran loc="zh-CN">您的新密码不能与旧密码相同</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* No certificate selected
+ 
+*   In the certificate pop-up, indicates that no certificate is selected but
+ 
+*   does not imply that a certificate is required. Used when we're prompting
+ 
+*   for both the password and the certificate.
+ </Description>
+      <Position>No certificate selected</Position>
+      <TranslationSet>
+        <base loc="en">No certificate selected</base>
+        <tran loc="zh-CN">未选择证书</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* AUTHENTICATION_FAILED
+ 
+* - title of fatal alert for Ethernet
+ </Description>
+      <Position>AUTHENTICATION_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Authentication failed on 802.1X network</base>
+        <tran loc="zh-CN">802.1X网络认证失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Password:</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="zh-CN">密码：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TitleAirPortCertificateAndPassword</Position>
+      <TranslationSet>
+        <base loc="en">Select a certificate or enter a name and password for network “%@”</base>
+        <tran loc="zh-CN">选择网络“%@”的证书或输入该网络的名称和密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your password has expired for network “%@”</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired for network “%@”</base>
+        <tran loc="zh-CN">“%@”网络的密码已过期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*
+ 
+** Password Change Dialogue
+ 
+** - appears if the server supports password change
+ </Description>
+      <Position>Your password has expired for this network</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired for this 802.1X network</base>
+        <tran loc="zh-CN">此802.1X网络的密码已过期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* Old Password:		: label for old/existing password
+ 
+* New Password:		: label for new password
+ 
+* Retype New Password:		: label for retyped new password 
+ 
+* Change Password		: default button label
+ </Description>
+      <Position>Old Password:</Position>
+      <TranslationSet>
+        <base loc="en">Old Password:</base>
+        <tran loc="zh-CN">旧密码：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Remember information</Position>
+      <TranslationSet>
+        <base loc="en">Remember this information</base>
+        <tran loc="zh-CN">记住此信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TitleEthernetPassword</Position>
+      <TranslationSet>
+        <base loc="en">Enter the name and password for this 802.1X network</base>
+        <tran loc="zh-CN">输入此802.1X网络的名称和密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* AUTHENTICATION_FAILED_AIRPORT
+ 
+* - title of fatal alert for Wi-Fi networks
+ 
+* - argument to this format string is SSID of Wi-Fi network
+ </Description>
+      <Position>AUTHENTICATION_FAILED_AIRPORT</Position>
+      <TranslationSet>
+        <base loc="en">Authentication failed on network “%@”</base>
+        <tran loc="zh-CN">“%@”网络认证失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your old password is incorrect</Position>
+      <TranslationSet>
+        <base loc="en">Your old password is incorrect</base>
+        <tran loc="zh-CN">您的旧密码不正确</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* Account Name (optional):
+ 
+*   Used when the dialogue is only asking for a certificate to indicate
+ 
+*   that the account name is not required, but may be specified if it can't
+ 
+*   be derived from the certificate.
+ </Description>
+      <Position>Account Name (optional):</Position>
+      <TranslationSet>
+        <base loc="en">Account Name (optional):</base>
+        <tran loc="zh-CN">帐户名称（选填）：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>New Password:</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="zh-CN">新密码：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* EAPOLCLIENT_FAILURE_MESSAGE_SERVER_NOT_TRUSTED
+ 
+* - failure message that occurs when the server's certificate was not trusted
+ </Description>
+      <Position>EAPOLCLIENT_FAILURE_MESSAGE_SERVER_NOT_TRUSTED</Position>
+      <TranslationSet>
+        <base loc="en">The identity of the authentication server could not be established. Contact your network administrator to verify your configuration settings.</base>
+        <tran loc="zh-CN">未能确定认证服务器的身份。请联系网络管理员以验证配置设置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TitleEthernetCertificate</Position>
+      <TranslationSet>
+        <base loc="en">Select the certificate for this 802.1X network.</base>
+        <tran loc="zh-CN">选择此802.1X网络的证书。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Retype New Password:</Position>
+      <TranslationSet>
+        <base loc="en">Retype New Password:</base>
+        <tran loc="zh-CN">再次输入新密码：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Enter and retype your new password</Position>
+      <TranslationSet>
+        <base loc="en">Enter and retype your new password</base>
+        <tran loc="zh-CN">输入并再次确认您的新密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*
+ 
+** Name, Password, Certificate selection Dialogue
+ 
+ TitleAirPortPassword
+ 
+* TitleAirPortCertificate
+ 
+* TitleAirPortCertificateAndPassword
+ 
+*   These titles are used to ask the user for a name, password, and/or
+ 
+*   certificate on an AirPort network.   The single argument to this format
+ 
+*   string is the SSID of the AirPort network.
+ 
+*
+ 
+* TitleEthernetCertificate
+ 
+* TitleEthernetCertificateAndPassword
+ 
+* TitleAirPortPassword
+ 
+*   These titles are used to ask the user for a name, password, and/or
+ 
+*   certificate on an Ethernet network.
+ </Description>
+      <Position>TitleAirPortCertificate</Position>
+      <TranslationSet>
+        <base loc="en">Select a certificate for network “%@”</base>
+        <tran loc="zh-CN">选择网络“%@”的证书</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*
+ 
+** Certificate Trust Dialogue
+ 
+ Authenticating to network "%@" : title in dialogue for Wi-Fi,
+ 
+*				    argument is SSID of wireless network
+ 
+* Authenticating to 802.1X network : title in dialogue for Ethernet
+ </Description>
+      <Position>Authenticating to network “%@”</Position>
+      <TranslationSet>
+        <base loc="en">Authenticating to network “%@”</base>
+        <tran loc="zh-CN">正在对网络“%@”进行认证</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* EAPOLCLIENT_FAILURE_MESSAGE_DEFAULT
+ 
+* - non-specific failure message to indicate that something went wrong
+ </Description>
+      <Position>EAPOLCLIENT_FAILURE_MESSAGE_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Contact your network administrator to verify your configuration settings.</base>
+        <tran loc="zh-CN">请联系您的网络管理员以验证您的配置设置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* Select a certificate
+ 
+*   When we're only prompting for the certificate, used to tell the user
+ 
+*   to select a certificate, since one is required.
+ </Description>
+      <Position>Select a certificate</Position>
+      <TranslationSet>
+        <base loc="en">Select a certificate</base>
+        <tran loc="zh-CN">选择证书</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>The new passwords do not match</Position>
+      <TranslationSet>
+        <base loc="en">The new passwords do not match</base>
+        <tran loc="zh-CN">新密码不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*
+ 
+** Fatal Alert Dialogue
+ 
+
+ 
+* DISCONNECT
+ 
+* - button label
+ </Description>
+      <Position>DISCONNECT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect</base>
+        <tran loc="zh-CN">断开连接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Change Password</Position>
+      <TranslationSet>
+        <base loc="en">Change Password</base>
+        <tran loc="zh-CN">更改密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* EAPOLCLIENT_FAILURE_MESSAGE_AUTHENTICATION_STALLED
+ 
+* - failure message that occurs when the authentication isn't making progress,
+ 
+*   likely due to a RADIUS server being offline
+ </Description>
+      <Position>EAPOLCLIENT_FAILURE_MESSAGE_AUTHENTICATION_STALLED</Position>
+      <TranslationSet>
+        <base loc="en">The authentication server is unresponsive. Contact your network administrator to check the network infrastructure.</base>
+        <tran loc="zh-CN">认证服务器无响应。请联系网络管理员以检查网络架构。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TitleAirPortPassword</Position>
+      <TranslationSet>
+        <base loc="en">Enter a name and password for network “%@”</base>
+        <tran loc="zh-CN">输入网络“%@”的名称和密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Authenticating to 802.1X network</Position>
+      <TranslationSet>
+        <base loc="en">Authenticating to 802.1X network</base>
+        <tran loc="zh-CN">正在对802.1X网络进行认证</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TitleEthernetCertificateAndPassword</Position>
+      <TranslationSet>
+        <base loc="en">Select the certificate or enter the name and password for this 802.1X network</base>
+        <tran loc="zh-CN">选择此802.1X网络的证书或输入此网络的名称和密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Retype your new password</Position>
+      <TranslationSet>
+        <base loc="en">Retype your new password</base>
+        <tran loc="zh-CN">再次输入您的新密码</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>eap8021x_executables/System/Library/UserEventPlugins/EAPOLMonitor.plugin/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+ 
+* NOTIFICATION_HEADER
+ 
+*   The single argument to this format string is the localized name of
+ 
+*   the network interface. 
+ </Description>
+      <Position>NOTIFICATION_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The network for “%@” requires authentication. Select a configuration then click “Connect”.</base>
+        <tran loc="zh-CN">“%@”网络要求认证。选择一个配置，然后点按“连接”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* DEFAULT_CONFIGURATION
+ 
+*   The placeholder value in the pop-up that represents the default 802.1X
+ 
+*   configuration.
+ </Description>
+      <Position>DEFAULT_CONFIGURATION</Position>
+      <TranslationSet>
+        <base loc="en">Default Configuration</base>
+        <tran loc="zh-CN">默认配置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONNECT</Position>
+      <TranslationSet>
+        <base loc="en">Connect</base>
+        <tran loc="zh-CN">连接</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

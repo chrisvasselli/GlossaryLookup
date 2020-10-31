@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SpotlightPref</ProjName>
+  <File>
+    <Filepath>SpotlightPref/System/Library/PreferencePanes/Spotlight.prefPane/Contents/Resources/English.lproj/aboutSpotlightPrivacy.rtf</Filepath>
+  </File>
+  <File>
+    <Filepath>SpotlightPref/System/Library/PreferencePanes/Spotlight.prefPane/Contents/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight</base>
+        <tran loc="zh-TW">Spotlight</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSPrefPaneIconLabel</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight</base>
+        <tran loc="zh-TW">Spotlight</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpotlightPref/System/Library/PreferencePanes/Spotlight.prefPane/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_REMOVE_AX_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Remove the selected disk or folder to no longer exclude from indexing.</base>
+        <tran loc="zh-TW">移除所選的磁碟或檔案夾來重新建立索引。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DUPLICATE_ITEM_MESSAGE_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">One or more items already exist in the list and were not added.</base>
+        <tran loc="zh-TW">列表中已存在一個或多個項目，所以未加入這些項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">Delete</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>For undo menu</Description>
+      <Position>UNDO_DELETE</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOT_KEY_UNKNOWN_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keyboard Shortcut Error</base>
+        <tran loc="zh-TW">鍵盤快速鍵錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SEARCH_CATEGORIES_AX_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Search categories</base>
+        <tran loc="zh-TW">搜尋類別</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOT_KEY_IN_USE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This keyboard shortcut is already in use by the system or another application. Please choose another shortcut or use Keyboard Preferences to customize other system shortcuts.</base>
+        <tran loc="zh-TW">此鍵盤快速鍵正由系統或其他應用程式使用中。請選擇其他快速鍵或使用「鍵盤」偏好設定來自訂另外的系統快速鍵。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Key names</Description>
+      <Position>RETURN_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Return</base>
+        <tran loc="zh-TW">Return</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_ERROR_BACKUP_EXCEPTED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is a Time Machine backup disk.</base>
+        <tran loc="zh-TW">「%@」是「時光機」備份磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>tool tips</Description>
+      <Position>ADD_ITEM_TOOLTIP</Position>
+      <TranslationSet>
+        <base loc="en">Add a folder or disk to exclude</base>
+        <tran loc="zh-TW">加入要排除的檔案夾或磁碟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ESC_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Esc</base>
+        <tran loc="zh-TW">Esc</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNDO_ADD</Position>
+      <TranslationSet>
+        <base loc="en">Add</base>
+        <tran loc="zh-TW">新增</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button labels</Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_ITEM_TOOLTIP</Position>
+      <TranslationSet>
+        <base loc="en">Remove selected items from list</base>
+        <tran loc="zh-TW">從列表移除所選的項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility</Description>
+      <Position>PRIVACY_ADD_AX_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Add folder or a disk to exclude from indexing.</base>
+        <tran loc="zh-TW">加入不要建立索引的檔案夾或磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Privacy List Error</base>
+        <tran loc="zh-TW">隱私權列表錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_BREAK_APPS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">If you exclude this location from Spotlight searches, the search feature won’t work in some applications.</base>
+        <tran loc="zh-TW">若您將此位置排除在Spotlight搜尋之外，則搜尋功能將無法在某些應用程式裡使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DUPLICATE_ITEM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Duplicate Item</base>
+        <tran loc="zh-TW">重複項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_ERROR_BACKUP_LOC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is a Time Machine backup folder. You cannot add it to the privacy list.</base>
+        <tran loc="zh-TW">「%@」是「時光機」備份檔案夾。您無法將其加入隱私權列表。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kMDExclusionFailed</Description>
+      <Position>PRIVACY_ERROR_UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">The item couldn’t be added or removed because of an unknown error.</base>
+        <tran loc="zh-TW">無法加入或移除項目，因為發生未知的錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TAB_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Tab</base>
+        <tran loc="zh-TW">Tab</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>used to make Cmd Space shortcut string</Description>
+      <Position>SPACEBAR_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Space</base>
+        <tran loc="zh-TW">空白鍵</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOT_KEY_UNKNOWN_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error of type %d occurred while trying to register the selected keyboard shortcut. Please try again or choose another shortcut.</base>
+        <tran loc="zh-TW">當嘗試登錄所選的鍵盤快速鍵時發生未知類型錯誤%d。請再試一次或選擇另外的快速鍵。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kMDExclusionPermissionDenied</Description>
+      <Position>PRIVACY_ERROR_PERMISSION_DENIED</Position>
+      <TranslationSet>
+        <base loc="en">The item couldn’t be added or removed because you don’t have the appropriate permissions.</base>
+        <tran loc="zh-TW">無法加入或移除項目，因為您沒有適當的權限。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_ERROR_BACKUP_EXCEPTED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight will continue to search Time Machine backups but will not search other items on the disk.</base>
+        <tran loc="zh-TW">Spotlight將會繼續搜尋「時光機」備份，但不會搜尋磁碟上的其他項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> kMDExclusionPermissionNonIndexedLocation</Description>
+      <Position>PRIVACY_ERROR_NON_INDEXED</Position>
+      <TranslationSet>
+        <base loc="en">The item couldn’t be added or removed because the location is not indexed.</base>
+        <tran loc="zh-TW">因為尚未建立位置的索引，所以無法加入或移除項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>button titles</Description>
+      <Position>CHOOSE</Position>
+      <TranslationSet>
+        <base loc="en">Choose</base>
+        <tran loc="zh-TW">選擇</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVACY_BREAK_APPS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to prevent Spotlight from searching in “%@”?</base>
+        <tran loc="zh-TW">確定不要讓Spotlight在「%@」裡進行搜尋嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>alerts</Description>
+      <Position>HOT_KEY_IN_USE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keyboard Shortcut in Use</base>
+        <tran loc="zh-TW">鍵盤快速鍵正使用中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENTER_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Enter</base>
+        <tran loc="zh-TW">Enter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DUPLICATE_ITEM_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The item already exists in the list and was not added.</base>
+        <tran loc="zh-TW">此項目已存在於列表中，所以未被加入。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpotlightPref/System/Library/PreferencePanes/Spotlight.prefPane/Contents/Resources/English.lproj/SpotlightPref.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Spotlight helps you quickly find things on your computer and shows suggestions from the Internet, iTunes, App Store, movie showtimes, locations nearby, and more."; ObjectID = "100103"; </Description>
+      <Position>100103.title</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight helps you quickly find things on your computer and shows suggestions from the Internet, iTunes, App Store, movie showtimes, locations nearby, and more.</base>
+        <tran loc="zh-TW">Spotlight能協助您快速尋找電腦上的項目，並且會顯示來自Internet、iTunes、App Store、電影放映時間、附近位置和其他內容的建議。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Done"; ObjectID = "hX2-c0-ENC"; </Description>
+      <Position>hX2-c0-ENC.title</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "Search Results"; ObjectID = "99"; </Description>
+      <Position>99.label</Position>
+      <TranslationSet>
+        <base loc="en">Search Results</base>
+        <tran loc="zh-TW">搜尋結果</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Allow Spotlight Suggestions in Look up"; ObjectID = "100129"; </Description>
+      <Position>100129.title</Position>
+      <TranslationSet>
+        <base loc="en">Allow Spotlight Suggestions in Look up</base>
+        <tran loc="zh-TW">允許查詢字詞時提供Spotlight建議</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Only selected categories will appear in Spotlight search results."; ObjectID = "100106"; </Description>
+      <Position>100106.title</Position>
+      <TranslationSet>
+        <base loc="en">Only selected categories will appear in Spotlight search results.</base>
+        <tran loc="zh-TW">只有所選的類別會出現在Spotlight的搜尋結果中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSImageView"; ibExternalAccessibilityDescription = "spotlight"; ObjectID = "143"; </Description>
+      <Position>143.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">spotlight</base>
+        <tran loc="zh-TW">spotlight</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Keyboard Shortcuts..."; ObjectID = "63b-9a-Ycv"; </Description>
+      <Position>63b-9a-Ycv.title</Position>
+      <TranslationSet>
+        <base loc="en">Keyboard Shortcuts...</base>
+        <tran loc="zh-TW">鍵盤快速鍵⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "Privacy"; ObjectID = "101"; </Description>
+      <Position>101.label</Position>
+      <TranslationSet>
+        <base loc="en">Privacy</base>
+        <tran loc="zh-TW">隱私權</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "100111"; </Description>
+      <Position>100111.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "About Spotlight Suggestions &amp; Privacy"; ObjectID = "CIa-Q3-60h"; </Description>
+      <Position>CIa-Q3-60h.title</Position>
+      <TranslationSet>
+        <base loc="en">About Spotlight Suggestions &amp; Privacy</base>
+        <tran loc="zh-TW">關於Spotlight建議與隱私權</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableView"; ibExternalAccessibilityDescription = "Spotlight Categories"; ObjectID = "108"; </Description>
+      <Position>108.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight Categories</base>
+        <tran loc="zh-TW">Spotlight類別</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Spotlight Privacy"; ObjectID = "joH-q3-9Jw"; </Description>
+      <Position>joH-q3-9Jw.title</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight Privacy</base>
+        <tran loc="zh-TW">Spotlight隱私權</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpotlightPref/System/Library/PreferencePanes/Spotlight.prefPane/Contents/Resources/English.lproj/Spotlight.searchTerms</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/2:array/index:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">lookup, look up</base>
+        <tran loc="zh-TW">查詢, 查詢</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/1:array/index:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">key, keystroke, combination, combo</base>
+        <tran loc="zh-TW">按鍵, 敲擊按鍵, 組合, 複合</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/0:array/index:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">find, results, hits, searches, searching, finding</base>
+        <tran loc="zh-TW">尋找, 結果, 找到, 搜尋, 找, 尋</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/0:array/title:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight search categories</base>
+        <tran loc="zh-TW">Spotlight搜尋類別</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/privacy:dict/localizableStrings:dict/0:array/title:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Block search of private files</base>
+        <tran loc="zh-TW">阻擋搜尋私人檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/privacy:dict/localizableStrings:dict/0:array/index:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">privacy, protect, prevent, secret, hidden, protected, protecting, protection, preventing, prevention, blocked, blocking</base>
+        <tran loc="zh-TW">隱私權, 隱私, 保護, 避免, 秘密, 隱藏, 保護, 防護, 保護, 防止, 避免, 阻擋, 擋住</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/1:array/title:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight shortcuts</base>
+        <tran loc="zh-TW">Spotlight快速鍵</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/2:array/title:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight Suggestions in Look up</base>
+        <tran loc="zh-TW">查詢字詞時提供Spotlight建議</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/privacy:dict/localizableStrings:dict/0:array/comments:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Localizable index words</base>
+        <tran loc="zh-TW">本地化索引詞</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/0:array/comments:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Localizable index words</base>
+        <tran loc="zh-TW">本地化索引詞</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/1:array/comments:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Localizable index words</base>
+        <tran loc="zh-TW">本地化索引詞</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/searchResults:dict/localizableStrings:dict/2:array/comments:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Localizable index words</base>
+        <tran loc="zh-TW">本地化索引詞</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpotlightPref/System/Library/PreferencePanes/Spotlight.prefPane/Contents/Resources/English.lproj/Privacy.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Click Add (+), or drag a folder or disk into the list below."; ObjectID = "100013"; </Description>
+      <Position>100013.title</Position>
+      <TranslationSet>
+        <base loc="en">Click Add (+), or drag a folder or disk into the list below.</base>
+        <tran loc="zh-TW">按一下「加入」(+)，或將檔案夾或磁碟拖到下方列表內。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableView"; ibExternalAccessibilityDescription = "Excluded locations"; ObjectID = "8"; </Description>
+      <Position>8.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Excluded locations</base>
+        <tran loc="zh-TW">排除的位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Prevent Spotlight from searching these locations:"; ObjectID = "100012"; </Description>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">Prevent Spotlight from searching these locations:</base>
+        <tran loc="zh-TW">防止Spotlight搜尋下列位置：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

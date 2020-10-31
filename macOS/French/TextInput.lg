@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>TextInput</ProjName>
+  <File>
+    <Filepath>TextInput/System/Library/PrivateFrameworks/TextInput.framework/Versions/A/Resources/en.lproj/AssistantSettings.strings</Filepath>
+    <TextItem>
+      <Description> For the alert shown when user taps on the button/link to add 3PK. </Description>
+      <Position>EXTENSION_OPT_IN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Add Third-Party Keyboard?</base>
+        <tran loc="fr">Ajouter un clavier tiers ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_ABOUT</Position>
+      <TranslationSet>
+        <base loc="en">Learn More…</base>
+        <tran loc="fr">En savoir plus…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTENSION_OPT_IN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">When using third-party keyboard, the keyboard can access all the data you type.</base>
+        <tran loc="fr">Si vous utilisez un clavier tiers, celui-ci pourra accéder à toute votre saisie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_NOT_NOW</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="fr">Plus tard</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable Dictation?</base>
+        <tran loc="fr">Activer Dictée ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Dictation sends information like your voice input, contacts, and location to Apple to process your requests.</base>
+        <tran loc="fr">La fonction Dictée envoie à Apple des informations telles que votre voix, vos contacts et votre position géographique afin de traiter vos requêtes.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTENSION_OPT_IN_ADD</Position>
+      <TranslationSet>
+        <base loc="en">Add Keyboard In Settings</base>
+        <tran loc="fr">Ajouter le clavier dans les réglages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_ENABLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable Dictation</base>
+        <tran loc="fr">Activer Dictée vocale</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TextInput/System/Library/PrivateFrameworks/TextInput.framework/Versions/A/Resources/en.lproj/SecureCandidate.strings</Filepath>
+    <TextItem>
+      <Description> If autofill source site is nil, use safari keychain instead </Description>
+      <Position>SAFARI_KEYCHAIN</Position>
+      <TranslationSet>
+        <base loc="en">from Safari keychain</base>
+        <tran loc="fr">du trousseau Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Local Authentication Alert title for app autofill, the parameter is the device type. </Description>
+      <Position>AUTOFILL_AUTH_PASSCODE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter %@ passcode to use password</base>
+        <tran loc="fr">Saisir le code de l’%@ pour utiliser le mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFARI_CREDENTIAL_DATE</Position>
+      <TranslationSet>
+        <base loc="en">added %@</base>
+        <tran loc="fr">ajouté : %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">From Messages</base>
+        <tran loc="fr">Provient de Messages</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Aggregated text inserted when the user taps on a location QuickType item (e.g. Gary Danko / 1800 N Point St San Francisco CA 94102). This will be inserted in the context of a sentence like "let's meet at". The first parameter is the POI name, and the 2nd parameter corresponds to it's address. Example: "Gary Danko - 1800 N Point St San Francisco CA 94102" </Description>
+      <Position>LOCATION_AGGREGATED_NAME_AND_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">%@ - %@</base>
+        <tran loc="fr">%@ - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The accessibility concatenation of the header and input text for proactive candidates </Description>
+      <Position>PROACTIVE_CANDIDATE_ACCESSIBILITY_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">%@, %@</base>
+        <tran loc="fr">%@, %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFARI_CREDENTIAL_SITE_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">for %@</base>
+        <tran loc="fr">de %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Analogous string to SEND_CURRENT_LOCATION_BUTTON_CAPTION, but without the glyph. This is vended to assistive technologies and automation. </Description>
+      <Position>SEND_CURRENT_LOCATION_BUTTON_ACCESSIBILITY_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Current Location</base>
+        <tran loc="fr">Emplacement actuel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Local Authentication Alert message for app autofill </Description>
+      <Position>AUTOFILL_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID to Use Password</base>
+        <tran loc="fr">Utiliser Touch ID pour utiliser le mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Caption for a button that sends your current location. The %@ is substituted with a glyph that shows the Location Services triangle icon. This string should be similar to the "Send My Current Location" string in the MobileSMS ("Messages") app, but without the "Send My" part. </Description>
+      <Position>SEND_CURRENT_LOCATION_BUTTON_CAPTION</Position>
+      <TranslationSet>
+        <base loc="en">%@ Current Location</base>
+        <tran loc="fr">%@ Position actuelle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Any parenthesized label: "David Bloom (Work)", or "Mel's Diner Restaurant (from Yelp!)" </Description>
+      <Position>PARENTHESIZED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">%@ (%@)</base>
+        <tran loc="fr">%@ (%@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFARI_CREDENTIAL_SUGGESTED_USERNAME</Position>
+      <TranslationSet>
+        <base loc="en">Suggested User Name</base>
+        <tran loc="fr">Nom d’utilisateur suggéré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Autofill
+ Site source for safari autofill credential </Description>
+      <Position>SAFARI_CREDENTIAL_SITE_LONG</Position>
+      <TranslationSet>
+        <base loc="en">password for %@</base>
+        <tran loc="fr">mot de passe de %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  SecureCandidate.strings
+  TextInput
+
+  Created by David Bloom on 3/8/16.
+
+
+ Proactive quick type
+ The parenthesized part of: "Mel's Diner Restaurant (From Yelp!), 1 Main Street" </Description>
+      <Position>APP_CONNECTION_ATTRIBUTION</Position>
+      <TranslationSet>
+        <base loc="en">From %@</base>
+        <tran loc="fr">De %@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TextInput/System/Library/PrivateFrameworks/TextInput.framework/Versions/A/Resources/en.lproj/TIUserDictionarySampleShortcuts.plist</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/target:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">On my way!</base>
+        <tran loc="fr">J’arrive !</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/shortcut:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">omw</base>
+        <tran loc="fr">jrv</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TextInput/System/Library/TextInput/TextInput_emoji.bundle/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+   Localizable.strings
+   TextInput
+
+   Created by Brad Moore on 9/10/08.
+   Copyright 2008 Apple, Inc. All rights reserved.
+ </Description>
+      <Position>Recents</Position>
+      <TranslationSet>
+        <base loc="en">Recents</base>
+        <tran loc="fr">Récents</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Travel &amp; Places Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Travel</base>
+        <tran loc="fr">Voyage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Activity Category</Position>
+      <TranslationSet>
+        <base loc="en">Activity</base>
+        <tran loc="fr">Activités</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Activity Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Activity</base>
+        <tran loc="fr">Activités</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>People Category</Position>
+      <TranslationSet>
+        <base loc="en">Smileys &amp; People</base>
+        <tran loc="fr">Émoticônes et personnes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects Category</Position>
+      <TranslationSet>
+        <base loc="en">Objects</base>
+        <tran loc="fr">Objets</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Objects</base>
+        <tran loc="fr">Objets</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Food &amp; Drink Category</Position>
+      <TranslationSet>
+        <base loc="en">Food &amp; Drink</base>
+        <tran loc="fr">Mets et boissons</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> category title</Description>
+      <Position>Frequently Used Category</Position>
+      <TranslationSet>
+        <base loc="en">Frequently Used</base>
+        <tran loc="fr">Fréquemment utilisés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Nature Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Nature</base>
+        <tran loc="fr">Nature</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects &amp; Symbols Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Symbols</base>
+        <tran loc="fr">Symboles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Symbols Category</Position>
+      <TranslationSet>
+        <base loc="en">Symbols</base>
+        <tran loc="fr">Symboles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Symbols Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Symbols</base>
+        <tran loc="fr">Symboles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> fallback category title if too long</Description>
+      <Position>Frequently Used Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Frequent</base>
+        <tran loc="fr">Fréquente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects &amp; Symbols Category</Position>
+      <TranslationSet>
+        <base loc="en">Objects &amp; Symbols</base>
+        <tran loc="fr">Objets et symboles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Flags</Position>
+      <TranslationSet>
+        <base loc="en">Flags</base>
+        <tran loc="fr">Drapeaux</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Flags Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Flags</base>
+        <tran loc="fr">Drapeaux</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Skin Tone Emoji Help</Position>
+      <TranslationSet>
+        <base loc="en">Some emoji now offer skin tone variations. You can choose a skin tone by tapping and holding on one of these emoji to change it from the default color.</base>
+        <tran loc="fr">Certains Emoji proposent désormais des variations de couleur de peau. Vous pouvez choisir un teint différent de celui proposé par défaut en touchant de façon prolongée l’un de ces Emoji.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Recents Description</Position>
+      <TranslationSet>
+        <base loc="en">This section will automatically collect your most recent and frequently used icons.</base>
+        <tran loc="fr">Cette section recueille automatiquement vos icônes les plus récentes et les plus utilisées.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Travel &amp; Places Category</Position>
+      <TranslationSet>
+        <base loc="en">Travel &amp; Places</base>
+        <tran loc="fr">Voyages et lieux</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Nature Category</Position>
+      <TranslationSet>
+        <base loc="en">Animals &amp; Nature</base>
+        <tran loc="fr">Animaux et nature</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Food &amp; Drink Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Food</base>
+        <tran loc="fr">Cuisine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Celebration Category</Position>
+      <TranslationSet>
+        <base loc="en">Celebration</base>
+        <tran loc="fr">Célébration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Celebration Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Celebration</base>
+        <tran loc="fr">Célébration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>People Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">People</base>
+        <tran loc="fr">Personnes</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

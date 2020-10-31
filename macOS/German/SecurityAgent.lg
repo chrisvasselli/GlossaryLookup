@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SecurityAgent</ProjName>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/GenericPassphraseGet.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Remember password in my keychain"; ObjectID = "100247"; </Description>
+      <Position>100247.title</Position>
+      <TranslationSet>
+        <base loc="en">Remember password in my keychain</base>
+        <tran loc="de">Passwort im Schlüsselbund sichern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "100216"; </Description>
+      <Position>100216.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100101"; </Description>
+      <Position>100101.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Show password"; ObjectID = "nMF-74-JxY"; </Description>
+      <Position>nMF-74-JxY.title</Position>
+      <TranslationSet>
+        <base loc="en">Show password</base>
+        <tran loc="de">Passwort einblenden</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/KeychainPassphraseUnlock.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "100216"; </Description>
+      <Position>100216.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100101"; </Description>
+      <Position>100101.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/XPCServices/SecurityAgentHelper.xpc/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> NewPwd verify not equal </Description>
+      <Position>Your password is not the same as the verify password.</Position>
+      <TranslationSet>
+        <base loc="en">Your password is not the same as the verify password.</base>
+        <tran loc="de">Das Passwort und die Überprüfung stimmen nicht überein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication failure for any group.  %1$@ gets replaced with group name and %2$@ gets replaced with the calling Application's name. </Description>
+      <Position>You must type the name and password of a user in the \\U201C%1$@\\U201D group to make changes to %2$@.</Position>
+      <TranslationSet>
+        <base loc="en">You must type the name and password of a user in the “%1$@” group to make changes to %2$@.</base>
+        <tran loc="de">Du musst den Namen und das Passwort eines Benutzers aus der Gruppe „%1$@“ eingeben, um an „%2$@“ Änderungen vorzunehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to modify the ACL of a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key of which the ACL is being changed. </Description>
+      <Position>%1$@ wants to change access permissions of the \\U201C%2$@\\U201D item in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to change access permissions of the “%2$@” item in your keychain.</base>
+        <tran loc="de">%1$@ möchte die Zugriffsrechte des Objekts „%2$@“ in deinem Schlüsselbund ändern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to derive a key from a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used to derive a key from. </Description>
+      <Position>%1$@ wants to derive a key from key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to derive a key from key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte einen Schlüssel vom Schlüssel „%2$@“ aus deinem Schlüsselbund ableiten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock canceled </Description>
+      <Position>Sorry, you attempted to unlock \\U201C%1$@\\U201D too many times.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you attempted to unlock “%1$@” too many times.</base>
+        <tran loc="de">Du hast zu oft versucht, „%1$@“ zu öffnen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Try again later </Description>
+      <Position>Try again later.</Position>
+      <TranslationSet>
+        <base loc="en">Try again later.</base>
+        <tran loc="de">Später nochmals versuchen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin. </Description>
+      <Position>Enter an administrator\\U2019s name and password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter an administrator’s name and password to allow this.</base>
+        <tran loc="de">Gib Namen und Passwort eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to export a key in wrapped form. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being exported. </Description>
+      <Position>%1$@ wants to export key \\U201C%2$@\\U201D from your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to export key “%2$@” from your keychain.</base>
+        <tran loc="de">%1$@ möchte den Schlüssel „%2$@“ aus deinem Schlüsselbund exportieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> original app has been modified and moved </Description>
+      <Position>%1$@ has been updated and moved. Do you want to change all your keychain items to allow the new version access to your keychain?</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has been updated and moved. Do you want to change all your keychain items to allow the new version access to your keychain?</base>
+        <tran loc="de">%1$@ wurde aktualisiert und bewegt. Möchtest du alle Schlüsselbundobjekte so ändern, dass die neue Version Zugang zu deinem Schlüsselbund hat?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> detailed message for allowing a process to have the same access as original app. </Description>
+      <Position>This change is permanent and affects all keychain items in all your keychains.</Position>
+      <TranslationSet>
+        <base loc="en">This change is permanent and affects all keychain items in all your keychains.</base>
+        <tran loc="de">Diese Änderung ist endgültig und betrifft alle Objekte deiner Schlüsselbunde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to generate a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being generated. </Description>
+      <Position>%1$@ wants to add the \\U201C%2$@\\U201D item to your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to add the “%2$@” item to your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ zu deinem Schlüsselbund hinzufügen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> confirm that a application changed panel title string </Description>
+      <Position>Confirm Application Change</Position>
+      <TranslationSet>
+        <base loc="en">Confirm Application Change</base>
+        <tran loc="de">Änderung bestätigen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to modify the owner of a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key of which the owner is being changed. </Description>
+      <Position>%1$@ wants to change the owner of the \\U201C%2$@\\U201D item in your keychain (the owner of the item is the one allowed to change access permissions).</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to change the owner of the “%2$@” item in your keychain (the owner of the item is the one allowed to change access permissions).</base>
+        <tran loc="de">%1$@ möchte den Eigentümer des Objekts „%2$@“ in deinem Schlüsselbund ändern. (Der Eigentümer ist derjenige, der die Zugriffsrechte ändern darf.)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin with PIN. </Description>
+      <Position>Enter an administrator\\U2019s name and PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter an administrator’s name and PIN to allow this.</base>
+        <tran loc="de">Gib Namen und PIN eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> In the case of a smartcard instead of a keychain, the PIN label is substituted where the Password label is. </Description>
+      <Position>PIN:</Position>
+      <TranslationSet>
+        <base loc="en">PIN:</base>
+        <tran loc="de">PIN:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sometimes no password is required and the field is inactive.  This string is set in it as a placeholder. </Description>
+      <Position>Not required.</Position>
+      <TranslationSet>
+        <base loc="en">Not required.</base>
+        <tran loc="de">Nicht erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock no longer needed </Description>
+      <Position>Unlock is no longer needed.</Position>
+      <TranslationSet>
+        <base loc="en">Unlock is no longer needed.</base>
+        <tran loc="de">Der Schutz muss nicht mehr aufgehoben werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize with PIN. </Description>
+      <Position>Enter your PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter your PIN to allow this.</base>
+        <tran loc="de">Gib deine PIN ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a user with Watch Unlock enabled. </Description>
+      <Position>Approve with Apple Watch or enter your password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Approve with Apple Watch or enter your password to allow this.</base>
+        <tran loc="de">Verwende die Apple Watch oder gib dein Passwort ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock reason </Description>
+      <Position>%1$@ wants to use the \\U201C%2$@\\U201D keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to use the “%2$@” keychain.</base>
+        <tran loc="de">%1$@ möchte den Schlüsselbund „%2$@“ verwenden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when application signature cannot be verified.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>It is not possible to tell whether \\U201C%1$@\\U201D is unchanged from the last time it was used. Someone could have modified or replaced it.</Position>
+      <TranslationSet>
+        <base loc="en">It is not possible to tell whether “%1$@” is unchanged from the last time it was used. Someone could have modified or replaced it.</base>
+        <tran loc="de">Es kann nicht festgestellt werden, ob sich „%1$@“ geändert hat, seitdem es zum letzten verwendet wurde. Jemand kann es geändert oder ersetzt haben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> pwd unacceptable </Description>
+      <Position>Your password is unacceptable.</Position>
+      <TranslationSet>
+        <base loc="en">Your password is unacceptable.</base>
+        <tran loc="de">Dieses Passwort ist nicht zulässig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown as the title of the Use Password button. </Description>
+      <Position>Use PIN...</Position>
+      <TranslationSet>
+        <base loc="en">Use PIN...</base>
+        <tran loc="de">PIN verwenden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin with PIN when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter an administrator\\U2019s name and PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter an administrator’s name and PIN to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib Namen und PIN eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK button title </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> original app has been updated (paths equal) v2 </Description>
+      <Position>%1$@ has been updated. Do you want to allow the new version to access the same keychain items (such as passwords) as the previous version?</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has been updated. Do you want to allow the new version to access the same keychain items (such as passwords) as the previous version?</base>
+        <tran loc="de">%1$@ wurde aktualisiert. Möchtest du, dass die neue Version auf dieselben Schlüsselbundobjekte (z. B. Passwörter) zugreift wie die vorherige Version?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When configuring a keychain on additional Macs (non-login kc) </Description>
+      <Position>Enter the password for keychain \\U201C%1$@\\U201D on \\U201C%2$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for keychain “%1$@” on “%2$@”.</base>
+        <tran loc="de">Gib das Passwort für den Schlüsselbund „%1$@“ auf „%2$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Please enter the keychain password. </Description>
+      <Position>To allow this, enter the \\U201C%1$@\\U201D keychain password.</Position>
+      <TranslationSet>
+        <base loc="en">To allow this, enter the “%1$@” keychain password.</base>
+        <tran loc="de">Um dies zu erlauben, gib das Passwort für den Schlüsselbund „%1$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> pwd is blank </Description>
+      <Position>You have not provided a password. Please specify one.</Position>
+      <TranslationSet>
+        <base loc="en">You have not provided a password. Please specify one.</base>
+        <tran loc="de">Du hast kein Passwort festgelegt. Bitte gib eines an.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enter the password for keychain \\U201C%1$@\\U201D on one of the computers you have synchronized. </Description>
+      <Position>Enter the password for keychain \\U201C%1$@\\U201D on one of the computers you have synchronized.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for keychain “%1$@” on one of the computers you have synchronized.</base>
+        <tran loc="de">Gib das Passwort für das Schlüsselbund „%1$@“ auf einem der von dir synchronisierten Computern ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when neither a signature nor a path is available to verify the application. </Description>
+      <Position>\\U201C%1$@\\U201D is unknown. Access is denied.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” is unknown. Access is denied.</base>
+        <tran loc="de">„%1$@“ ist nicht bekannt. Zugriff verweigert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Please Try again </Description>
+      <Position>Try entering your information again.</Position>
+      <TranslationSet>
+        <base loc="en">Try entering your information again.</base>
+        <tran loc="de">Versuche erneut, die Informationen einzugeben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel button title </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NewPwd canceled </Description>
+      <Position>Sorry, you attempted to set your password for the \\U201C%1$@\\U201D keychain too many times.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you attempted to set your password for the “%1$@” keychain too many times.</base>
+        <tran loc="de">Du hast zu oft versucht, das Passwort für den Schlüsselbund „%1$@“ zu ändern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to decrypt using a groupkey. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to use your confidential information stored in \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to use your confidential information stored in “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte deine vertraulichen Informationen verwenden, die in „%2$@“ in deinem Schlüsselbund gesichert sind.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Detail disclosure button label.  Details about authorization requests. </Description>
+      <Position>Detail</Position>
+      <TranslationSet>
+        <base loc="en">Detail</base>
+        <tran loc="de">Details</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown as the title of the Use PIN button. </Description>
+      <Position>Use Password...</Position>
+      <TranslationSet>
+        <base loc="en">Use Password...</base>
+        <tran loc="de">Passwort verwenden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Show user provided hint to help remember password </Description>
+      <Position>Password hint: \\U201C%1$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">Password hint: “%1$@”.</base>
+        <tran loc="de">Merkhilfe für das Passwort: „%1$@“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No button title </Description>
+      <Position>No</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="de">Nein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication failure for admin group.  %1$@ gets replaced with Application name. </Description>
+      <Position>You must type an administrator\\U2019s name and password to make changes to %1$@.</Position>
+      <TranslationSet>
+        <base loc="en">You must type an administrator’s name and password to make changes to %1$@.</base>
+        <tran loc="de">Du musst einen Namen und das Passwort eines Administrators eingeben, um an „%1$@“ Änderungen vorzunehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown when mechanism failed to create. %1$@ will be replaced with plugin name and %2$@ with mechanism name </Description>
+      <Position>SecurityAgent was unable to create requested mechanism %1$@:%2$@.</Position>
+      <TranslationSet>
+        <base loc="en">SecurityAgent was unable to create requested mechanism %1$@:%2$@.</base>
+        <tran loc="de">SecurityAgent konnte den angeforderten Mechanismus nicht erstellen (%1$@:%2$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when operation is unknown. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key affected. </Description>
+      <Position>%1$@ wants to access key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to access key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte auf den Schlüssel „%2$@“ in deinem Schlüsselbund zugreifen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive text for when the app doesn't match the item's ACL. </Description>
+      <Position>%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain item.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain item.</base>
+        <tran loc="de">%1$@ wurden möglicherweise durch ein Softwareupdate aktualisiert oder geändert. Gestatte daher die Verwendung des Schlüsselbundobjekts.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ToolType </Description>
+      <Position>Tool:</Position>
+      <TranslationSet>
+        <base loc="en">Tool:</base>
+        <tran loc="de">Werkzeug:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown instead of Password: when asking the user to provide a new password or change an old one. </Description>
+      <Position>New Password:</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="de">Neues Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UnkownProcessType </Description>
+      <Position>Unknown:</Position>
+      <TranslationSet>
+        <base loc="en">Unknown:</base>
+        <tran loc="de">Unbekannt:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User consent prompt. </Description>
+      <Position>Click OK to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Click OK to allow this.</base>
+        <tran loc="de">Klicke auf „OK“, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When configuring a keychain on additional Macs - details text </Description>
+      <Position>This is the same password you used to first synchronize your keychain \\U201C%@\\U201D with .Mac.</Position>
+      <TranslationSet>
+        <base loc="en">This is the same password you used to first synchronize your keychain “%@” with .Mac.</base>
+        <tran loc="de">Mit diesem Passwort hast du deinen Schlüsselbund „%@“ das erste Mal mit .Mac synchronisiert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error after succefully entering a password which then fails to get added to a keychain. </Description>
+      <Position>The item could not be added to your default keychain.</Position>
+      <TranslationSet>
+        <base loc="en">The item could not be added to your default keychain.</base>
+        <tran loc="de">Das Objekt konnte deinem Standardschlüsselbund nicht hinzugefügt werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize. </Description>
+      <Position>Enter your password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password to allow this.</base>
+        <tran loc="de">Gib dein Passwort ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group with PIN.  %1$@ gets replaced with group name. </Description>
+      <Position>Enter the name and PIN of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the name and PIN of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Gib den Namen und die PIN eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do you want to allow this? </Description>
+      <Position>Do you want to allow this?</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to allow this?</base>
+        <tran loc="de">Möchtest du dies erlauben?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When configuring a keychain on additional Macs (login kc) </Description>
+      <Position>To synchronize your keychain on this computer, enter the password for your user account on \\U201C%1$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">To synchronize your keychain on this computer, enter the password for your user account on “%1$@”.</base>
+        <tran loc="de">Um deinen Schlüsselbund für diesen Computer zu synchronisieren, gib das Passwort für deinen Benutzeraccount auf „%1$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a user with Watch Unlock enabled and SmartCard inserted in the reader. </Description>
+      <Position>Approve with Apple Watch or enter your PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Approve with Apple Watch or enter your PIN to allow this.</base>
+        <tran loc="de">Verwende die Apple Watch oder gib deine PIN ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to import a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being imported. </Description>
+      <Position>%1$@ wants to import key \\U201C%2$@\\U201D into your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to import key “%2$@” into your keychain.</base>
+        <tran loc="de">%1$@ möchte den Schlüssel „%2$@“ in deinen Schlüsselbund importieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter your password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter your password to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib dein Passwort ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock unable to continue </Description>
+      <Position>Sorry, unable to continue the unlock.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, unable to continue the unlock.</base>
+        <tran loc="de">Der Schutz kann nicht aufgehoben werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when application has failed dynamic code-signing verification.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>\\U201C%1$@\\U201D has been modified while running and no longer conforms to what was installed on disk.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” has been modified while running and no longer conforms to what was installed on disk.</base>
+        <tran loc="de">„%1$@“ wurde bei der Ausführung geändert und stimmt nicht länger mit dem überein, was auf dem Volume installiert wurde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to decrypt using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to decrypt the \\U201C%2$@\\U201D item in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to decrypt the “%2$@” item in your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ in deinem Schlüsselbund entschlüsseln.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic authenticate prompt.  %1$@ gets replaced with Application name, or the localized string representing the system (macOS). </Description>
+      <Position>%1$@ wants to make changes.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to make changes.</base>
+        <tran loc="de">%1$@ möchte Änderungen vornehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group when Touch ID is enabled.  %1$@ gets replaced with group name. </Description>
+      <Position>Touch ID or enter the name and password of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter the name and password of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib den Namen und das Passwort eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Typical pwd suggestion </Description>
+      <Position>Secure passwords typically are longer than %d characters and should not contain obvious words like dog, cat, and so on.</Position>
+      <TranslationSet>
+        <base loc="en">Secure passwords typically are longer than %d characters and should not contain obvious words like dog, cat, and so on.</base>
+        <tran loc="de">Sichere Passwörter sind länger als %d Buchstaben und sollten keine einfachen Wörter wie Hund, Katze etc. beinhalten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> pwd too simple </Description>
+      <Position>You have specified a non-secure password. Please use a longer one.</Position>
+      <TranslationSet>
+        <base loc="en">You have specified a non-secure password. Please use a longer one.</base>
+        <tran loc="de">Du hast ein unsicheres Passwort eingegeben. Bitte verwende ein längeres Passwort.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unrecoverable error window title </Description>
+      <Position>Unrecoverable error.</Position>
+      <TranslationSet>
+        <base loc="en">Unrecoverable error.</base>
+        <tran loc="de">Nicht behebbarer Fehler.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to encrypt using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to encrypt using key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to encrypt using key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ in deinem Schlüsselbund verschlüsseln.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> new app introduced, give it access? </Description>
+      <Position>An application named %1$@ needs to access your keychain, but there is an existing version. Do you want to change all your keychain items to allow the new version access to your keychain?</Position>
+      <TranslationSet>
+        <base loc="en">An application named %1$@ needs to access your keychain, but there is an existing version. Do you want to change all your keychain items to allow the new version access to your keychain?</base>
+        <tran loc="de">Das Programm „%1$@“ möchte auf den Schlüsselbund zugreifen, aber es ist seit dem letzten Zugriff verändert worden. Möchtest du alle Schlüsselbundobjekte so ändern, dass die neue Version Zugang zu deinem Schlüsselbund hat?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AppType </Description>
+      <Position>Application:</Position>
+      <TranslationSet>
+        <base loc="en">Application:</base>
+        <tran loc="de">Programm:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication failed; invalid username or password </Description>
+      <Position>The name or password you entered is incorrect.</Position>
+      <TranslationSet>
+        <base loc="en">The name or password you entered is incorrect.</base>
+        <tran loc="de">Die Angabe für Name oder Passwort ist nicht korrekt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when application fails static code-signing verification.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>\\U201C%1$@\\U201D has been altered on disk. You might be running something that is pretending to be \\U201C%1$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” has been altered on disk. You might be running something that is pretending to be “%1$@”.</base>
+        <tran loc="de">„%1$@“ wurde auf dem Volume geändert. Möglicherweise führst du etwas aus, das vorgibt, „%1$@“ zu sein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to sign using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to sign with key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to sign with key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte mit dem Schlüssel „%2$@“ deines Schlüsselbunds signieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Copy Location To Clipboard SFURLView menu item </Description>
+      <Position>Copy Location To Clipboard</Position>
+      <TranslationSet>
+        <base loc="en">Copy Location To Clipboard</base>
+        <tran loc="de">Ort in die Zwischenablage kopieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication unable to continue </Description>
+      <Position>Sorry, unable to continue the authentication.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, unable to continue the authentication.</base>
+        <tran loc="de">Die Authentifizierung kann nicht fortgesetzt werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to sign using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to sign using key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to sign using key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte mit dem Schlüssel „%2$@“ deines Schlüsselbunds signieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Yes button title </Description>
+      <Position>Yes</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="de">Ja</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group.  %1$@ gets replaced with group name. </Description>
+      <Position>Enter the name and password of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the name and password of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Gib den Namen und das Passwort eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive text for when the app doesn't match the item acls in a keychain's items. </Description>
+      <Position>%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain.</base>
+        <tran loc="de">Während eines Softwareupdates wurde möglicherweise das Programm „%1$@“ aktualisiert oder geändert. Daher musst du den Zugriff auf den Schlüsselbund erneut erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do you want to allow access to this item? </Description>
+      <Position>Do you want to allow access to this item?</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to allow access to this item?</base>
+        <tran loc="de">Möchtest du Zugriff auf dieses Objekt gewähren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Keychain Access application's name </Description>
+      <Position>Keychain Access.app</Position>
+      <TranslationSet>
+        <base loc="en">Keychain Access.app</base>
+        <tran loc="de">Keychain Access.app</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock failed; invalid password </Description>
+      <Position>Sorry, you entered an invalid password.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you entered an invalid password.</base>
+        <tran loc="de">Das angegebene Passwort ist ungültig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to decrypt using a groupkey. %1$@ is replaced by the name of the application making the request. %2$@ says '...allow?' or '...enter keychain password' if password is required for the operation. </Description>
+      <Position>%1$@ wants to use your .Mac password. %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to use your .Mac password. %2$@</base>
+        <tran loc="de">%1$@ möchte dein .Mac-Passwort verwenden. %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> To synchronize your keychain on this computer, enter your user account password for any of the computers you synchronize. </Description>
+      <Position>To synchronize your keychain on this computer, enter your user account password for any of the computers you synchronize.</Position>
+      <TranslationSet>
+        <base loc="en">To synchronize your keychain on this computer, enter your user account password for any of the computers you synchronize.</base>
+        <tran loc="de">Um deinen Schlüsselbund für diesen Computer zu synchronisieren, gib das Passwort für deinen Benutzeraccount für alle zu synchronisierenden Computer ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication canceled </Description>
+      <Position>Sorry, you attempted to authenticate too many times.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you attempted to authenticate too many times.</base>
+        <tran loc="de">Du hast zu oft versucht, dich zu authentifizieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For referring to the system keychain. </Description>
+      <Position>System</Position>
+      <TranslationSet>
+        <base loc="en">System</base>
+        <tran loc="de">System</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to delete a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being being deleted. </Description>
+      <Position>%1$@ wants to delete the \\U201C%2$@\\U201D item from your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to delete the “%2$@” item from your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ in deinem Schlüsselbund löschen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> changed application wanting access </Description>
+      <Position>Changed Process:</Position>
+      <TranslationSet>
+        <base loc="en">Changed Process:</base>
+        <tran loc="de">Änderung:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication no longer needed </Description>
+      <Position>Authentication is no longer needed.</Position>
+      <TranslationSet>
+        <base loc="en">Authentication is no longer needed.</base>
+        <tran loc="de">Es ist keine Authentifizierung mehr notwendig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group with PIN when Touch ID is enabled.  %1$@ gets replaced with group name. </Description>
+      <Position>Touch ID or enter the name and PIN of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter the name and PIN of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib den Namen und die PIN eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access informational text when application is unsigned.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>The authenticity of \\U201C%1$@\\U201D cannot be verified.</Position>
+      <TranslationSet>
+        <base loc="en">The authenticity of “%1$@” cannot be verified.</base>
+        <tran loc="de">Die Authentizität von „%1$@“ kann nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize with PIN when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter your PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter your PIN to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib deine PIN ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> original app has been updated (paths equal) </Description>
+      <Position>%1$@ has been updated. Do you want to change all your keychain items to allow the new version access to your keychain?</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has been updated. Do you want to change all your keychain items to allow the new version access to your keychain?</base>
+        <tran loc="de">%1$@ wurde aktualisiert. Möchtest du alle Schlüsselbundobjekte so ändern, dass die neue Version Zugang zu deinem Schlüsselbund hat?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter an administrator\\U2019s name and password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter an administrator’s name and password to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib Namen und Passwort eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When referring to a faceless application or tool that represents the system, macOS, your computer, your system, this replaces the client name in the authentication dialog </Description>
+      <Position>macOS</Position>
+      <TranslationSet>
+        <base loc="en">macOS</base>
+        <tran loc="de">macOS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock reason detail </Description>
+      <Position>Please enter the keychain password.</Position>
+      <TranslationSet>
+        <base loc="en">Please enter the keychain password.</base>
+        <tran loc="de">Bitte gib das Passwort für den Schlüsselbund ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic DFR authenticate prompt. </Description>
+      <Position>Touch ID to Make Changes.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID to Make Changes.</base>
+        <tran loc="de">Touch ID zum Vornehmen von Änderungen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Password for a newly created keychain, change keychain password. </Description>
+      <Position>Enter a new password for the keychain \\U201C%1$@.\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">Enter a new password for the keychain “%1$@.”</base>
+        <tran loc="de">Gib ein neues Passwort für den Schlüsselbund „%1$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> used that pwd before </Description>
+      <Position>You have used that password before. Please use a different one.</Position>
+      <TranslationSet>
+        <base loc="en">You have used that password before. Please use a different one.</base>
+        <tran loc="de">Du hast dieses Passwort schon zuvor benutzt. Bitte verwende ein anderes.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/Authentication.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "NLy-0x-NBQ"; </Description>
+      <Position>NLy-0x-NBQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Hint:"; ObjectID = "Qmi-70-VlQ"; </Description>
+      <Position>Qmi-70-VlQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Hint:</base>
+        <tran loc="de">Merkhilfe:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100111"; </Description>
+      <Position>100111.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset Password"; ObjectID = "200216"; </Description>
+      <Position>200216.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100110"; </Description>
+      <Position>100110.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vgp-vr-9lG"; </Description>
+      <Position>vgp-vr-9lG.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Use Password..."; ObjectID = "3AU-o0-d0v"; </Description>
+      <Position>3AU-o0-d0v.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Password...</base>
+        <tran loc="de">Passwort verwenden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "User Name:"; ObjectID = "RRm-h4-nwf"; </Description>
+      <Position>RRm-h4-nwf.title</Position>
+      <TranslationSet>
+        <base loc="en">User Name:</base>
+        <tran loc="de">Benutzername:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Switch User..."; ObjectID = "100159"; </Description>
+      <Position>100159.title</Position>
+      <TranslationSet>
+        <base loc="en">Switch User...</base>
+        <tran loc="de">Benutzer wechseln …</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/CoreServices/SecurityAgentPlugins/loginKC.bundle/Contents/Resources/en.lproj/loginKCLocalizable.strings</Filepath>
+    <TextItem>
+      <Description> confirmation on reset to default </Description>
+      <Position>Are you sure you want to reset your keychain? This will delete all your saved passwords, keys, and certificates. You cannot undo this operation.</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to reset your keychain? This will delete all your saved passwords, keys, and certificates. You cannot undo this operation.</base>
+        <tran loc="de">Möchtest du deinen Schlüsselbund wirklich zurücksetzen? Hiermit werden alle deine gesicherten Passwörter, Schlüssel und Zertifikate gelöscht. Dieser Vorgang kann nicht widerrufen werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> specific default not found </Description>
+      <Position>Keychain \\U201C%1$@\\U201D cannot be found.</Position>
+      <TranslationSet>
+        <base loc="en">Keychain “%1$@” cannot be found.</base>
+        <tran loc="de">Der Schlüsselbund „%1$@“ wurde nicht gefunden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> default not configured </Description>
+      <Position>A keychain cannot be found.</Position>
+      <TranslationSet>
+        <base loc="en">A keychain cannot be found.</base>
+        <tran loc="de">Es wurde kein Schlüsselbund gefunden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> reset button title </Description>
+      <Position>Reset</Position>
+      <TranslationSet>
+        <base loc="en">Reset</base>
+        <tran loc="de">Zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> enter login password </Description>
+      <Position>Please enter your login password. This password will be used to create your new keychain.</Position>
+      <TranslationSet>
+        <base loc="en">Please enter your login password. This password will be used to create your new keychain.</base>
+        <tran loc="de">Bitte gib dein Anmeldepasswort ein. Dieses Passwort wird verwendet, um deinen neuen Schlüsselbund zu erstellen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> specific default not found to add </Description>
+      <Position>Keychain \\U201C%1$@\\U201D cannot be found to store \\U201C%2$@.\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">Keychain “%1$@” cannot be found to store “%2$@.”</base>
+        <tran loc="de">Der Schlüsselbund „%1$@“ wurde nicht gefunden, um „%2$@“ zu sichern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> no keychains found to add </Description>
+      <Position>A keychain cannot be found to store \\U201C%1$@.\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">A keychain cannot be found to store “%1$@.”</base>
+        <tran loc="de">Es wurde kein Schlüsselbund gefunden, um „%1$@“ zu sichern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> warn user of other keychains to re-add to search list </Description>
+      <Position>You currently have additional keychains on your system that will have to be added to your keychain search list. Use Keychain Access to add them back again.</Position>
+      <TranslationSet>
+        <base loc="en">You currently have additional keychains on your system that will have to be added to your keychain search list. Use Keychain Access to add them back again.</base>
+        <tran loc="de">Du hast weitere Schlüsselbunde auf deinem System, die zur Suchliste der Schlüsselbunde hingefügt werden müssen. Mit dem Programm „Schlüsselbundverwaltung“ kannst du sie wieder hinzufügen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> descriptive test </Description>
+      <Position>Your keychain may have been renamed, deleted, or it’s on a unmounted volume.</Position>
+      <TranslationSet>
+        <base loc="en">Your keychain may have been renamed, deleted, or it’s on a unmounted volume.</base>
+        <tran loc="de">Dein Schlüsselbund wurde möglicherweise umbenannt, gelöscht oder er befindet sich auf einem Volume, das deaktiviert wurde.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/CoreServices/SecurityAgentPlugins/loginKC.bundle/Contents/Resources/en.lproj/AskRevertToDefaultsPanel.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Keychain Not Found"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Keychain Not Found</base>
+        <tran loc="de">Schlüsselbund nicht gefunden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset To Defaults"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset To Defaults</base>
+        <tran loc="de">Auf Standard zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/GenericPassphraseNew.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Remember password in my keychain"; ObjectID = "egj-ZC-Rhd"; </Description>
+      <Position>egj-ZC-Rhd.title</Position>
+      <TranslationSet>
+        <base loc="en">Remember password in my keychain</base>
+        <tran loc="de">Passwort im Schlüsselbund sichern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "100216"; </Description>
+      <Position>100216.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100101"; </Description>
+      <Position>100101.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Show password"; ObjectID = "q6f-yH-xyz"; </Description>
+      <Position>q6f-yH-xyz.title</Position>
+      <TranslationSet>
+        <base loc="en">Show password</base>
+        <tran loc="de">Passwort einblenden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify:"; ObjectID = "100184"; </Description>
+      <Position>100184.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify:</base>
+        <tran loc="de">Bestätigen:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/ConfirmAccess.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "hJd-hz-GzF"; </Description>
+      <Position>hJd-hz-GzF.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Allow"; ObjectID = "100268"; </Description>
+      <Position>100268.title</Position>
+      <TranslationSet>
+        <base loc="en">Allow</base>
+        <tran loc="de">Erlauben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Deny"; ObjectID = "100266"; </Description>
+      <Position>100266.title</Position>
+      <TranslationSet>
+        <base loc="en">Deny</base>
+        <tran loc="de">Nicht erlauben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "User Name:"; ObjectID = "Q2F-4n-rKX"; </Description>
+      <Position>Q2F-4n-rKX.title</Position>
+      <TranslationSet>
+        <base loc="en">User Name:</base>
+        <tran loc="de">Benutzername:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Always Allow"; ObjectID = "100267"; </Description>
+      <Position>100267.title</Position>
+      <TranslationSet>
+        <base loc="en">Always Allow</base>
+        <tran loc="de">Immer erlauben</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/ChangeAccountPassword.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Please enter your Apple ID and password in order to change your account password:"; ObjectID = "261"; </Description>
+      <Position>261.title</Position>
+      <TranslationSet>
+        <base loc="en">Please enter your Apple ID and password in order to change your account password:</base>
+        <tran loc="de">Gib deine Apple-ID und dein Passwort ein, um das Accountpasswort zu ändern:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Apple ID:"; ObjectID = "270"; </Description>
+      <Position>270.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID:</base>
+        <tran loc="de">Apple-ID:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "268"; </Description>
+      <Position>268.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Hint:"; ObjectID = "264"; </Description>
+      <Position>264.title</Position>
+      <TranslationSet>
+        <base loc="en">Hint:</base>
+        <tran loc="de">Merkhilfe:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "272"; </Description>
+      <Position>272.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "New Password:"; ObjectID = "269"; </Description>
+      <Position>269.title</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="de">Neues Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "306"; </Description>
+      <Position>306.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="de">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Change Password"; ObjectID = "273"; </Description>
+      <Position>273.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password</base>
+        <tran loc="de">Passwort ändern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "The passwords don't match"; ObjectID = "290"; </Description>
+      <Position>290.title</Position>
+      <TranslationSet>
+        <base loc="en">The passwords don't match</base>
+        <tran loc="de">Die Passwörter stimmen nicht überein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify Password:"; ObjectID = "265"; </Description>
+      <Position>265.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify Password:</base>
+        <tran loc="de">Wiederholung:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/KeychainPassphraseChange.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "100216"; </Description>
+      <Position>100216.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100101"; </Description>
+      <Position>100101.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset Password"; ObjectID = "2ex-H9-eml"; </Description>
+      <Position>2ex-H9-eml.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Current Password:"; ObjectID = "FFj-P4-SuP"; </Description>
+      <Position>FFj-P4-SuP.title</Position>
+      <TranslationSet>
+        <base loc="en">Current Password:</base>
+        <tran loc="de">Aktuelles Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify:"; ObjectID = "100184"; </Description>
+      <Position>100184.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify:</base>
+        <tran loc="de">Bestätigen:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/KeychainPassphraseNew.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "100216"; </Description>
+      <Position>100216.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100101"; </Description>
+      <Position>100101.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset Password"; ObjectID = "C28-kS-5rg"; </Description>
+      <Position>C28-kS-5rg.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify:"; ObjectID = "100184"; </Description>
+      <Position>100184.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify:</base>
+        <tran loc="de">Bestätigen:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/XPCServices/SecurityAgentHelper.xpc/Contents/Resources/en.lproj/ChangeAccountPassword.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Please enter your Apple ID and password in order to change your account password:"; ObjectID = "261"; </Description>
+      <Position>261.title</Position>
+      <TranslationSet>
+        <base loc="en">Please enter your Apple ID and password in order to change your account password:</base>
+        <tran loc="de">Gib deine Apple-ID und dein Passwort ein, um das Accountpasswort zu ändern:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Apple ID:"; ObjectID = "270"; </Description>
+      <Position>270.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID:</base>
+        <tran loc="de">Apple-ID:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "268"; </Description>
+      <Position>268.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Hint:"; ObjectID = "264"; </Description>
+      <Position>264.title</Position>
+      <TranslationSet>
+        <base loc="en">Hint:</base>
+        <tran loc="de">Merkhilfe:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "272"; </Description>
+      <Position>272.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "New Password:"; ObjectID = "269"; </Description>
+      <Position>269.title</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="de">Neues Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "306"; </Description>
+      <Position>306.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="de">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Change Password"; ObjectID = "273"; </Description>
+      <Position>273.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password</base>
+        <tran loc="de">Passwort ändern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "The passwords don't match"; ObjectID = "290"; </Description>
+      <Position>290.title</Position>
+      <TranslationSet>
+        <base loc="en">The passwords don't match</base>
+        <tran loc="de">Die Passwörter stimmen nicht überein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify Password:"; ObjectID = "265"; </Description>
+      <Position>265.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify Password:</base>
+        <tran loc="de">Wiederholung:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> NewPwd verify not equal </Description>
+      <Position>Your password is not the same as the verify password.</Position>
+      <TranslationSet>
+        <base loc="en">Your password is not the same as the verify password.</base>
+        <tran loc="de">Das Passwort und die Überprüfung stimmen nicht überein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication failure for any group.  %1$@ gets replaced with group name and %2$@ gets replaced with the calling Application's name. </Description>
+      <Position>You must type the name and password of a user in the \\U201C%1$@\\U201D group to make changes to %2$@.</Position>
+      <TranslationSet>
+        <base loc="en">You must type the name and password of a user in the “%1$@” group to make changes to %2$@.</base>
+        <tran loc="de">Du musst den Namen und das Passwort eines Benutzers aus der Gruppe „%1$@“ eingeben, um an „%2$@“ Änderungen vorzunehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to modify the ACL of a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key of which the ACL is being changed. </Description>
+      <Position>%1$@ wants to change access permissions of the \\U201C%2$@\\U201D item in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to change access permissions of the “%2$@” item in your keychain.</base>
+        <tran loc="de">%1$@ möchte die Zugriffsrechte des Objekts „%2$@“ in deinem Schlüsselbund ändern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to derive a key from a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used to derive a key from. </Description>
+      <Position>%1$@ wants to derive a key from key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to derive a key from key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte einen Schlüssel vom Schlüssel „%2$@“ aus deinem Schlüsselbund ableiten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock canceled </Description>
+      <Position>Sorry, you attempted to unlock \\U201C%1$@\\U201D too many times.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you attempted to unlock “%1$@” too many times.</base>
+        <tran loc="de">Du hast zu oft versucht, „%1$@“ zu öffnen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Try again later </Description>
+      <Position>Try again later.</Position>
+      <TranslationSet>
+        <base loc="en">Try again later.</base>
+        <tran loc="de">Später nochmals versuchen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin. </Description>
+      <Position>Enter an administrator\\U2019s name and password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter an administrator’s name and password to allow this.</base>
+        <tran loc="de">Gib Namen und Passwort eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to export a key in wrapped form. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being exported. </Description>
+      <Position>%1$@ wants to export key \\U201C%2$@\\U201D from your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to export key “%2$@” from your keychain.</base>
+        <tran loc="de">%1$@ möchte den Schlüssel „%2$@“ aus deinem Schlüsselbund exportieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> original app has been modified and moved </Description>
+      <Position>%1$@ has been updated and moved. Do you want to change all your keychain items to allow the new version access to your keychain?</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has been updated and moved. Do you want to change all your keychain items to allow the new version access to your keychain?</base>
+        <tran loc="de">%1$@ wurde aktualisiert und bewegt. Möchtest du alle Schlüsselbundobjekte so ändern, dass die neue Version Zugang zu deinem Schlüsselbund hat?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> detailed message for allowing a process to have the same access as original app. </Description>
+      <Position>This change is permanent and affects all keychain items in all your keychains.</Position>
+      <TranslationSet>
+        <base loc="en">This change is permanent and affects all keychain items in all your keychains.</base>
+        <tran loc="de">Diese Änderung ist endgültig und betrifft alle Objekte deiner Schlüsselbunde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to generate a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being generated. </Description>
+      <Position>%1$@ wants to add the \\U201C%2$@\\U201D item to your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to add the “%2$@” item to your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ zu deinem Schlüsselbund hinzufügen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> confirm that a application changed panel title string </Description>
+      <Position>Confirm Application Change</Position>
+      <TranslationSet>
+        <base loc="en">Confirm Application Change</base>
+        <tran loc="de">Änderung bestätigen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to modify the owner of a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key of which the owner is being changed. </Description>
+      <Position>%1$@ wants to change the owner of the \\U201C%2$@\\U201D item in your keychain (the owner of the item is the one allowed to change access permissions).</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to change the owner of the “%2$@” item in your keychain (the owner of the item is the one allowed to change access permissions).</base>
+        <tran loc="de">%1$@ möchte den Eigentümer des Objekts „%2$@“ in deinem Schlüsselbund ändern. (Der Eigentümer ist derjenige, der die Zugriffsrechte ändern darf.)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin with PIN. </Description>
+      <Position>Enter an administrator\\U2019s name and PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter an administrator’s name and PIN to allow this.</base>
+        <tran loc="de">Gib Namen und PIN eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> In the case of a smartcard instead of a keychain, the PIN label is substituted where the Password label is. </Description>
+      <Position>PIN:</Position>
+      <TranslationSet>
+        <base loc="en">PIN:</base>
+        <tran loc="de">PIN:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sometimes no password is required and the field is inactive.  This string is set in it as a placeholder. </Description>
+      <Position>Not required.</Position>
+      <TranslationSet>
+        <base loc="en">Not required.</base>
+        <tran loc="de">Nicht erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock no longer needed </Description>
+      <Position>Unlock is no longer needed.</Position>
+      <TranslationSet>
+        <base loc="en">Unlock is no longer needed.</base>
+        <tran loc="de">Der Schutz muss nicht mehr aufgehoben werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize with PIN. </Description>
+      <Position>Enter your PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter your PIN to allow this.</base>
+        <tran loc="de">Gib deine PIN ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a user with Watch Unlock enabled. </Description>
+      <Position>Approve with Apple Watch or enter your password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Approve with Apple Watch or enter your password to allow this.</base>
+        <tran loc="de">Verwende die Apple Watch oder gib dein Passwort ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock reason </Description>
+      <Position>%1$@ wants to use the \\U201C%2$@\\U201D keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to use the “%2$@” keychain.</base>
+        <tran loc="de">%1$@ möchte den Schlüsselbund „%2$@“ verwenden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when application signature cannot be verified.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>It is not possible to tell whether \\U201C%1$@\\U201D is unchanged from the last time it was used. Someone could have modified or replaced it.</Position>
+      <TranslationSet>
+        <base loc="en">It is not possible to tell whether “%1$@” is unchanged from the last time it was used. Someone could have modified or replaced it.</base>
+        <tran loc="de">Es kann nicht festgestellt werden, ob sich „%1$@“ geändert hat, seitdem es zum letzten verwendet wurde. Jemand kann es geändert oder ersetzt haben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> pwd unacceptable </Description>
+      <Position>Your password is unacceptable.</Position>
+      <TranslationSet>
+        <base loc="en">Your password is unacceptable.</base>
+        <tran loc="de">Dieses Passwort ist nicht zulässig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown as the title of the Use Password button. </Description>
+      <Position>Use PIN...</Position>
+      <TranslationSet>
+        <base loc="en">Use PIN...</base>
+        <tran loc="de">PIN verwenden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin with PIN when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter an administrator\\U2019s name and PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter an administrator’s name and PIN to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib Namen und PIN eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK button title </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> original app has been updated (paths equal) v2 </Description>
+      <Position>%1$@ has been updated. Do you want to allow the new version to access the same keychain items (such as passwords) as the previous version?</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has been updated. Do you want to allow the new version to access the same keychain items (such as passwords) as the previous version?</base>
+        <tran loc="de">%1$@ wurde aktualisiert. Möchtest du, dass die neue Version auf dieselben Schlüsselbundobjekte (z. B. Passwörter) zugreift wie die vorherige Version?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When configuring a keychain on additional Macs (non-login kc) </Description>
+      <Position>Enter the password for keychain \\U201C%1$@\\U201D on \\U201C%2$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for keychain “%1$@” on “%2$@”.</base>
+        <tran loc="de">Gib das Passwort für den Schlüsselbund „%1$@“ auf „%2$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Please enter the keychain password. </Description>
+      <Position>To allow this, enter the \\U201C%1$@\\U201D keychain password.</Position>
+      <TranslationSet>
+        <base loc="en">To allow this, enter the “%1$@” keychain password.</base>
+        <tran loc="de">Um dies zu erlauben, gib das Passwort für den Schlüsselbund „%1$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> pwd is blank </Description>
+      <Position>You have not provided a password. Please specify one.</Position>
+      <TranslationSet>
+        <base loc="en">You have not provided a password. Please specify one.</base>
+        <tran loc="de">Du hast kein Passwort festgelegt. Bitte gib eines an.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enter the password for keychain \\U201C%1$@\\U201D on one of the computers you have synchronized. </Description>
+      <Position>Enter the password for keychain \\U201C%1$@\\U201D on one of the computers you have synchronized.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for keychain “%1$@” on one of the computers you have synchronized.</base>
+        <tran loc="de">Gib das Passwort für das Schlüsselbund „%1$@“ auf einem der von dir synchronisierten Computern ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when neither a signature nor a path is available to verify the application. </Description>
+      <Position>\\U201C%1$@\\U201D is unknown. Access is denied.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” is unknown. Access is denied.</base>
+        <tran loc="de">„%1$@“ ist nicht bekannt. Zugriff verweigert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Please Try again </Description>
+      <Position>Try entering your information again.</Position>
+      <TranslationSet>
+        <base loc="en">Try entering your information again.</base>
+        <tran loc="de">Versuche erneut, die Informationen einzugeben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel button title </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NewPwd canceled </Description>
+      <Position>Sorry, you attempted to set your password for the \\U201C%1$@\\U201D keychain too many times.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you attempted to set your password for the “%1$@” keychain too many times.</base>
+        <tran loc="de">Du hast zu oft versucht, das Passwort für den Schlüsselbund „%1$@“ zu ändern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to decrypt using a groupkey. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to use your confidential information stored in \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to use your confidential information stored in “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte deine vertraulichen Informationen verwenden, die in „%2$@“ in deinem Schlüsselbund gesichert sind.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Detail disclosure button label.  Details about authorization requests. </Description>
+      <Position>Detail</Position>
+      <TranslationSet>
+        <base loc="en">Detail</base>
+        <tran loc="de">Details</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown as the title of the Use PIN button. </Description>
+      <Position>Use Password...</Position>
+      <TranslationSet>
+        <base loc="en">Use Password...</base>
+        <tran loc="de">Passwort verwenden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Show user provided hint to help remember password </Description>
+      <Position>Password hint: \\U201C%1$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">Password hint: “%1$@”.</base>
+        <tran loc="de">Merkhilfe für das Passwort: „%1$@“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No button title </Description>
+      <Position>No</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="de">Nein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication failure for admin group.  %1$@ gets replaced with Application name. </Description>
+      <Position>You must type an administrator\\U2019s name and password to make changes to %1$@.</Position>
+      <TranslationSet>
+        <base loc="en">You must type an administrator’s name and password to make changes to %1$@.</base>
+        <tran loc="de">Du musst einen Namen und das Passwort eines Administrators eingeben, um an „%1$@“ Änderungen vorzunehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown when mechanism failed to create. %1$@ will be replaced with plugin name and %2$@ with mechanism name </Description>
+      <Position>SecurityAgent was unable to create requested mechanism %1$@:%2$@.</Position>
+      <TranslationSet>
+        <base loc="en">SecurityAgent was unable to create requested mechanism %1$@:%2$@.</base>
+        <tran loc="de">SecurityAgent konnte den angeforderten Mechanismus nicht erstellen (%1$@:%2$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when operation is unknown. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key affected. </Description>
+      <Position>%1$@ wants to access key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to access key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte auf den Schlüssel „%2$@“ in deinem Schlüsselbund zugreifen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive text for when the app doesn't match the item's ACL. </Description>
+      <Position>%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain item.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain item.</base>
+        <tran loc="de">%1$@ wurden möglicherweise durch ein Softwareupdate aktualisiert oder geändert. Gestatte daher die Verwendung des Schlüsselbundobjekts.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ToolType </Description>
+      <Position>Tool:</Position>
+      <TranslationSet>
+        <base loc="en">Tool:</base>
+        <tran loc="de">Werkzeug:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown instead of Password: when asking the user to provide a new password or change an old one. </Description>
+      <Position>New Password:</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="de">Neues Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UnkownProcessType </Description>
+      <Position>Unknown:</Position>
+      <TranslationSet>
+        <base loc="en">Unknown:</base>
+        <tran loc="de">Unbekannt:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User consent prompt. </Description>
+      <Position>Click OK to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Click OK to allow this.</base>
+        <tran loc="de">Klicke auf „OK“, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When configuring a keychain on additional Macs - details text </Description>
+      <Position>This is the same password you used to first synchronize your keychain \\U201C%@\\U201D with .Mac.</Position>
+      <TranslationSet>
+        <base loc="en">This is the same password you used to first synchronize your keychain “%@” with .Mac.</base>
+        <tran loc="de">Mit diesem Passwort hast du deinen Schlüsselbund „%@“ das erste Mal mit .Mac synchronisiert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error after succefully entering a password which then fails to get added to a keychain. </Description>
+      <Position>The item could not be added to your default keychain.</Position>
+      <TranslationSet>
+        <base loc="en">The item could not be added to your default keychain.</base>
+        <tran loc="de">Das Objekt konnte deinem Standardschlüsselbund nicht hinzugefügt werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize. </Description>
+      <Position>Enter your password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password to allow this.</base>
+        <tran loc="de">Gib dein Passwort ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group with PIN.  %1$@ gets replaced with group name. </Description>
+      <Position>Enter the name and PIN of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the name and PIN of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Gib den Namen und die PIN eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do you want to allow this? </Description>
+      <Position>Do you want to allow this?</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to allow this?</base>
+        <tran loc="de">Möchtest du dies erlauben?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When configuring a keychain on additional Macs (login kc) </Description>
+      <Position>To synchronize your keychain on this computer, enter the password for your user account on \\U201C%1$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">To synchronize your keychain on this computer, enter the password for your user account on “%1$@”.</base>
+        <tran loc="de">Um deinen Schlüsselbund für diesen Computer zu synchronisieren, gib das Passwort für deinen Benutzeraccount auf „%1$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a user with Watch Unlock enabled and SmartCard inserted in the reader. </Description>
+      <Position>Approve with Apple Watch or enter your PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Approve with Apple Watch or enter your PIN to allow this.</base>
+        <tran loc="de">Verwende die Apple Watch oder gib deine PIN ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to import a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being imported. </Description>
+      <Position>%1$@ wants to import key \\U201C%2$@\\U201D into your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to import key “%2$@” into your keychain.</base>
+        <tran loc="de">%1$@ möchte den Schlüssel „%2$@“ in deinen Schlüsselbund importieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter your password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter your password to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib dein Passwort ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock unable to continue </Description>
+      <Position>Sorry, unable to continue the unlock.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, unable to continue the unlock.</base>
+        <tran loc="de">Der Schutz kann nicht aufgehoben werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when application has failed dynamic code-signing verification.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>\\U201C%1$@\\U201D has been modified while running and no longer conforms to what was installed on disk.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” has been modified while running and no longer conforms to what was installed on disk.</base>
+        <tran loc="de">„%1$@“ wurde bei der Ausführung geändert und stimmt nicht länger mit dem überein, was auf dem Volume installiert wurde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to decrypt using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to decrypt the \\U201C%2$@\\U201D item in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to decrypt the “%2$@” item in your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ in deinem Schlüsselbund entschlüsseln.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic authenticate prompt.  %1$@ gets replaced with Application name, or the localized string representing the system (macOS). </Description>
+      <Position>%1$@ wants to make changes.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to make changes.</base>
+        <tran loc="de">%1$@ möchte Änderungen vornehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group when Touch ID is enabled.  %1$@ gets replaced with group name. </Description>
+      <Position>Touch ID or enter the name and password of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter the name and password of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib den Namen und das Passwort eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Typical pwd suggestion </Description>
+      <Position>Secure passwords typically are longer than %d characters and should not contain obvious words like dog, cat, and so on.</Position>
+      <TranslationSet>
+        <base loc="en">Secure passwords typically are longer than %d characters and should not contain obvious words like dog, cat, and so on.</base>
+        <tran loc="de">Sichere Passwörter sind länger als %d Buchstaben und sollten keine einfachen Wörter wie Hund, Katze etc. beinhalten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> pwd too simple </Description>
+      <Position>You have specified a non-secure password. Please use a longer one.</Position>
+      <TranslationSet>
+        <base loc="en">You have specified a non-secure password. Please use a longer one.</base>
+        <tran loc="de">Du hast ein unsicheres Passwort eingegeben. Bitte verwende ein längeres Passwort.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unrecoverable error window title </Description>
+      <Position>Unrecoverable error.</Position>
+      <TranslationSet>
+        <base loc="en">Unrecoverable error.</base>
+        <tran loc="de">Nicht behebbarer Fehler.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to encrypt using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to encrypt using key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to encrypt using key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ in deinem Schlüsselbund verschlüsseln.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> new app introduced, give it access? </Description>
+      <Position>An application named %1$@ needs to access your keychain, but there is an existing version. Do you want to change all your keychain items to allow the new version access to your keychain?</Position>
+      <TranslationSet>
+        <base loc="en">An application named %1$@ needs to access your keychain, but there is an existing version. Do you want to change all your keychain items to allow the new version access to your keychain?</base>
+        <tran loc="de">Das Programm „%1$@“ möchte auf den Schlüsselbund zugreifen, aber es ist seit dem letzten Zugriff verändert worden. Möchtest du alle Schlüsselbundobjekte so ändern, dass die neue Version Zugang zu deinem Schlüsselbund hat?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AppType </Description>
+      <Position>Application:</Position>
+      <TranslationSet>
+        <base loc="en">Application:</base>
+        <tran loc="de">Programm:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication failed; invalid username or password </Description>
+      <Position>The name or password you entered is incorrect.</Position>
+      <TranslationSet>
+        <base loc="en">The name or password you entered is incorrect.</base>
+        <tran loc="de">Die Angabe für Name oder Passwort ist nicht korrekt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access message text when application fails static code-signing verification.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>\\U201C%1$@\\U201D has been altered on disk. You might be running something that is pretending to be \\U201C%1$@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” has been altered on disk. You might be running something that is pretending to be “%1$@”.</base>
+        <tran loc="de">„%1$@“ wurde auf dem Volume geändert. Möglicherweise führst du etwas aus, das vorgibt, „%1$@“ zu sein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to sign using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to sign with key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to sign with key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte mit dem Schlüssel „%2$@“ deines Schlüsselbunds signieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Copy Location To Clipboard SFURLView menu item </Description>
+      <Position>Copy Location To Clipboard</Position>
+      <TranslationSet>
+        <base loc="en">Copy Location To Clipboard</base>
+        <tran loc="de">Ort in die Zwischenablage kopieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication unable to continue </Description>
+      <Position>Sorry, unable to continue the authentication.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, unable to continue the authentication.</base>
+        <tran loc="de">Die Authentifizierung kann nicht fortgesetzt werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to sign using a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being used. </Description>
+      <Position>%1$@ wants to sign using key \\U201C%2$@\\U201D in your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to sign using key “%2$@” in your keychain.</base>
+        <tran loc="de">%1$@ möchte mit dem Schlüssel „%2$@“ deines Schlüsselbunds signieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Yes button title </Description>
+      <Position>Yes</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="de">Ja</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group.  %1$@ gets replaced with group name. </Description>
+      <Position>Enter the name and password of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the name and password of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Gib den Namen und das Passwort eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive text for when the app doesn't match the item acls in a keychain's items. </Description>
+      <Position>%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ may have been updated or changed, perhaps during a software update. Because of this you need to allow permission to use the keychain.</base>
+        <tran loc="de">Während eines Softwareupdates wurde möglicherweise das Programm „%1$@“ aktualisiert oder geändert. Daher musst du den Zugriff auf den Schlüsselbund erneut erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Do you want to allow access to this item? </Description>
+      <Position>Do you want to allow access to this item?</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to allow access to this item?</base>
+        <tran loc="de">Möchtest du Zugriff auf dieses Objekt gewähren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Keychain Access application's name </Description>
+      <Position>Keychain Access.app</Position>
+      <TranslationSet>
+        <base loc="en">Keychain Access.app</base>
+        <tran loc="de">Keychain Access.app</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock failed; invalid password </Description>
+      <Position>Sorry, you entered an invalid password.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you entered an invalid password.</base>
+        <tran loc="de">Das angegebene Passwort ist ungültig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to decrypt using a groupkey. %1$@ is replaced by the name of the application making the request. %2$@ says '...allow?' or '...enter keychain password' if password is required for the operation. </Description>
+      <Position>%1$@ wants to use your .Mac password. %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to use your .Mac password. %2$@</base>
+        <tran loc="de">%1$@ möchte dein .Mac-Passwort verwenden. %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> To synchronize your keychain on this computer, enter your user account password for any of the computers you synchronize. </Description>
+      <Position>To synchronize your keychain on this computer, enter your user account password for any of the computers you synchronize.</Position>
+      <TranslationSet>
+        <base loc="en">To synchronize your keychain on this computer, enter your user account password for any of the computers you synchronize.</base>
+        <tran loc="de">Um deinen Schlüsselbund für diesen Computer zu synchronisieren, gib das Passwort für deinen Benutzeraccount für alle zu synchronisierenden Computer ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication canceled </Description>
+      <Position>Sorry, you attempted to authenticate too many times.</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you attempted to authenticate too many times.</base>
+        <tran loc="de">Du hast zu oft versucht, dich zu authentifizieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For referring to the system keychain. </Description>
+      <Position>System</Position>
+      <TranslationSet>
+        <base loc="en">System</base>
+        <tran loc="de">System</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirm Access message text when attempting to delete a key. %1$@ is replaced by the name of the application making the request, %2$@ is replaced by the label of the key being being deleted. </Description>
+      <Position>%1$@ wants to delete the \\U201C%2$@\\U201D item from your keychain.</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ wants to delete the “%2$@” item from your keychain.</base>
+        <tran loc="de">%1$@ möchte das Objekt „%2$@“ in deinem Schlüsselbund löschen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> changed application wanting access </Description>
+      <Position>Changed Process:</Position>
+      <TranslationSet>
+        <base loc="en">Changed Process:</base>
+        <tran loc="de">Änderung:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authentication no longer needed </Description>
+      <Position>Authentication is no longer needed.</Position>
+      <TranslationSet>
+        <base loc="en">Authentication is no longer needed.</base>
+        <tran loc="de">Es ist keine Authentifizierung mehr notwendig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for any group with PIN when Touch ID is enabled.  %1$@ gets replaced with group name. </Description>
+      <Position>Touch ID or enter the name and PIN of a user in the \\U201C%1$@\\U201D group to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter the name and PIN of a user in the “%1$@” group to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib den Namen und die PIN eines Benutzers aus der Gruppe „%1$@“ ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Part of the Confirm Access informational text when application is unsigned.  %1$@ is replaced by the name of the application making the request. </Description>
+      <Position>The authenticity of \\U201C%1$@\\U201D cannot be verified.</Position>
+      <TranslationSet>
+        <base loc="en">The authenticity of “%1$@” cannot be verified.</base>
+        <tran loc="de">Die Authentizität von „%1$@“ kann nicht überprüft werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for an admin, or a user that can authorize with PIN when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter your PIN to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter your PIN to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib deine PIN ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> original app has been updated (paths equal) </Description>
+      <Position>%1$@ has been updated. Do you want to change all your keychain items to allow the new version access to your keychain?</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ has been updated. Do you want to change all your keychain items to allow the new version access to your keychain?</base>
+        <tran loc="de">%1$@ wurde aktualisiert. Möchtest du alle Schlüsselbundobjekte so ändern, dass die neue Version Zugang zu deinem Schlüsselbund hat?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Authenticate greeting for a non-admin asking to authenticate as an admin when Touch ID is enabled. </Description>
+      <Position>Touch ID or enter an administrator\\U2019s name and password to allow this.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID or enter an administrator’s name and password to allow this.</base>
+        <tran loc="de">Verwende Touch ID oder gib Namen und Passwort eines Administrators ein, um dies zu erlauben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When referring to a faceless application or tool that represents the system, macOS, your computer, your system, this replaces the client name in the authentication dialog </Description>
+      <Position>macOS</Position>
+      <TranslationSet>
+        <base loc="en">macOS</base>
+        <tran loc="de">macOS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unlock reason detail </Description>
+      <Position>Please enter the keychain password.</Position>
+      <TranslationSet>
+        <base loc="en">Please enter the keychain password.</base>
+        <tran loc="de">Bitte gib das Passwort für den Schlüsselbund ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic DFR authenticate prompt. </Description>
+      <Position>Touch ID to Make Changes.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID to Make Changes.</base>
+        <tran loc="de">Touch ID zum Vornehmen von Änderungen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Password for a newly created keychain, change keychain password. </Description>
+      <Position>Enter a new password for the keychain \\U201C%1$@.\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">Enter a new password for the keychain “%1$@.”</base>
+        <tran loc="de">Gib ein neues Passwort für den Schlüsselbund „%1$@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> used that pwd before </Description>
+      <Position>You have used that password before. Please use a different one.</Position>
+      <TranslationSet>
+        <base loc="en">You have used that password before. Please use a different one.</base>
+        <tran loc="de">Du hast dieses Passwort schon zuvor benutzt. Bitte verwende ein anderes.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/Resources/en.lproj/PolicyBanner.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Accept"; ObjectID = "100068"; </Description>
+      <Position>100068.title</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="de">Akzeptieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Agreement"; ObjectID = "64"; </Description>
+      <Position>64.title</Position>
+      <TranslationSet>
+        <base loc="en">Agreement</base>
+        <tran loc="de">Vereinbarung</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SecurityAgent/System/Library/Frameworks/Security.framework/Versions/A/MachServices/SecurityAgent.bundle/Contents/XPCServices/SecurityAgentHelper.xpc/Contents/Resources/en.lproj/Authentication.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "NLy-0x-NBQ"; </Description>
+      <Position>NLy-0x-NBQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Hint:"; ObjectID = "Qmi-70-VlQ"; </Description>
+      <Position>Qmi-70-VlQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Hint:</base>
+        <tran loc="de">Merkhilfe:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100111"; </Description>
+      <Position>100111.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset Password"; ObjectID = "200216"; </Description>
+      <Position>200216.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100110"; </Description>
+      <Position>100110.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vgp-vr-9lG"; </Description>
+      <Position>vgp-vr-9lG.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Use Password..."; ObjectID = "3AU-o0-d0v"; </Description>
+      <Position>3AU-o0-d0v.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Password...</base>
+        <tran loc="de">Passwort verwenden …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "User Name:"; ObjectID = "RRm-h4-nwf"; </Description>
+      <Position>RRm-h4-nwf.title</Position>
+      <TranslationSet>
+        <base loc="en">User Name:</base>
+        <tran loc="de">Benutzername:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Switch User..."; ObjectID = "100159"; </Description>
+      <Position>100159.title</Position>
+      <TranslationSet>
+        <base loc="en">Switch User...</base>
+        <tran loc="de">Benutzer wechseln …</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

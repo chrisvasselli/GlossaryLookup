@@ -1,0 +1,4833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DiscRecording</ProjName>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/SimpleBurnProgress.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - do not localize"; ObjectID = "100012"; </Description>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - do not localize</base>
+        <tran loc="es">Status Text - do not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Burning"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Burning</base>
+        <tran loc="es">Grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Stop"; ObjectID = "100011"; </Description>
+      <Position>100011.title</Position>
+      <TranslationSet>
+        <base loc="en">Stop</base>
+        <tran loc="es">Detener</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Description - do not localize"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Description - do not localize</base>
+        <tran loc="es">Burn Description - do not localize</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseSetupView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase data on disc:"; ObjectID = "100010"; </Description>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase data on disc:</base>
+        <tran loc="es">Borrar datos del disco:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase every block on the disc. This can take over 30 minutes."; ObjectID = "13"; </Description>
+      <Position>13.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase every block on the disc. This can take over 30 minutes.</base>
+        <tran loc="es">Borrar todos los bloques del disco. Este proceso puede tardar más de 30 minutos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100011"; </Description>
+      <Position>100011.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="es">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Completely"; ObjectID = "13"; </Description>
+      <Position>13.title</Position>
+      <TranslationSet>
+        <base loc="en">Completely</base>
+        <tran loc="es">Completamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase the Table of Contents, without affecting the rest of the disc."; ObjectID = "12"; </Description>
+      <Position>12.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase the Table of Contents, without affecting the rest of the disc.</base>
+        <tran loc="es">Borrar la tabla de contenido sin afectar al resto del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Quickly"; ObjectID = "12"; </Description>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Quickly</base>
+        <tran loc="es">Rápidamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Eject the disc in the drive."; ObjectID = "9"; </Description>
+      <Position>9.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="es">Expulsar el disco de la unidad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - \nDo not localize"; ObjectID = "100006"; </Description>
+      <Position>100006.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - \nDo not localize</base>
+        <tran loc="es">Status Text - \nDo not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="es">Borrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="es">Expulsar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseProgressStrings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFailed</Position>
+      <TranslationSet>
+        <base loc="en">Erase failed with an error</base>
+        <tran loc="es">Se ha producido un error al borrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DREraseTypeQuick</Position>
+      <TranslationSet>
+        <base loc="en">Quickly erasing the disc in the %1$@ drive.</base>
+        <tran loc="es">Borrando rápidamente el disco de la unidad %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateDone</Position>
+      <TranslationSet>
+        <base loc="en">The disc was erased successfully</base>
+        <tran loc="es">El disco se ha borrado correctamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateErasing</Position>
+      <TranslationSet>
+        <base loc="en">Erasing disc</base>
+        <tran loc="es">Borrando disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FailedTitle</Position>
+      <TranslationSet>
+        <base loc="en">Erasing the disc in the %1$@ drive failed. %2$@</base>
+        <tran loc="es">Error al borrar el disco de la unidad %1$@. %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DREraseTypeComplete</Position>
+      <TranslationSet>
+        <base loc="en">Completely erasing the disc in the %1$@ drive.</base>
+        <tran loc="es">Borrando completamente el disco de la unidad %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Generic</Position>
+      <TranslationSet>
+        <base loc="en">Erasing the disc in the %1$@ drive.</base>
+        <tran loc="es">Borrando el disco de la unidad %1$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStatePreparing</Position>
+      <TranslationSet>
+        <base loc="en">Preparing to erase</base>
+        <tran loc="es">Preparando para borrar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/ExceptionInfo.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FileRefNumModifiedInfo</Position>
+      <TranslationSet>
+        <base loc="en">\"%RefNum@\" was modified while being read.</base>
+        <tran loc="es">“%RefNum@” se ha modificado mientras se leía.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSIteratorOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not scan children of \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se han podido explorar los elementos secundarios de “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSGetCatalogInfoBulkFailed</Position>
+      <TranslationSet>
+        <base loc="en">Scanning children of \"%FSRef@\" failed (%d)</base>
+        <tran loc="es">Error al explorar los elementos secundarios de “%FSRef@” (%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DataForkOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not open the data fork of \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se ha podido abrir el archivo data fork de “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FileRefNumSizeModifiedInfo</Position>
+      <TranslationSet>
+        <base loc="en">\"%RefNum@\" changed size while being read.</base>
+        <tran loc="es">El tamaño de “%RefNum@” se ha modificado mientras se leía. </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Exception info strings for various file system related failures. </Description>
+      <Position>FileRefNumReadFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not read \"%RefNum@\" (%d).</base>
+        <tran loc="es">No se ha podido leer “%RefNum@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ResForkOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not open the resource fork of \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se ha podido abrir el archivo resource fork de “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSGetCatalogInfoFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not retrieve file metadata information for \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se han podido obtener los metadatos de archivo de “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRMFileReadFailed</Position>
+      <TranslationSet>
+        <base loc="en">\"%FSRef@\" contains protected content and cannot be burned.</base>
+        <tran loc="es">“%FSRef@” contiene datos protegidos y no ha podido grabarse.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FileAtPathUnreadable</Position>
+      <TranslationSet>
+        <base loc="en">Could not read \"%s\".</base>
+        <tran loc="es">No se ha podido leer “%s”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AliasResolutionFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not find original of alias file \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se ha podido encontrar el archivo original del alias “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FileOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not open \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se ha podido abrir “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSRefReadFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not read \"%FSRef@\" (%d).</base>
+        <tran loc="es">No se ha podido leer “%FSRef@” (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSRefFolderModifiedInfo</Position>
+      <TranslationSet>
+        <base loc="en">Contents of folder \"%FSRef@\" changed while being scanned.</base>
+        <tran loc="es">El contenido de la carpeta “%FSRef@” se ha modificado durante la exploración. </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>&lt;unable to get file path&gt;</Position>
+      <TranslationSet>
+        <base loc="en">&lt;unable to get file path&gt;</base>
+        <tran loc="es">&lt;imposible obtener ruta del archivo&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseSetupStrings.strings</Filepath>
+    <TextItem>
+      <Description> Ask the user to insert a disc </Description>
+      <Position>WaitingForDisc</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for a disc to be inserted</base>
+        <tran loc="es">Esperando que introduzcas un disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmMsg</Position>
+      <TranslationSet>
+        <base loc="en">All data on the disc will be lost.</base>
+        <tran loc="es">Se perderán todos los datos del disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc cannot be erased in this drive </Description>
+      <Position>NotAbleToBeErased</Position>
+      <TranslationSet>
+        <base loc="en">The disc in this drive can’t be erased.</base>
+        <tran loc="es">El disco en esta unidad no puede borrarse.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Waiting for media to become ready </Description>
+      <Position>WaitingForReady</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for the drive.</base>
+        <tran loc="es">Esperando a la unidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user it's OK to erase </Description>
+      <Position>ReadyToErase</Position>
+      <TranslationSet>
+        <base loc="en">Ready to erase</base>
+        <tran loc="es">Preparado para borrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc didn't pass muster </Description>
+      <Position>NotSuitable</Position>
+      <TranslationSet>
+        <base loc="en">The disc can’t be erased. Please insert another disc.</base>
+        <tran loc="es">El disco no puede borrarse. Introduce otro.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmTitle</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to erase the disc in the %@ drive?</base>
+        <tran loc="es">¿Seguro que quieres borrar el disco de la unidad %@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the device is currently in use by nother process </Description>
+      <Position>DeviceBusy</Position>
+      <TranslationSet>
+        <base loc="en">This disc drive is busy. Please choose another one.</base>
+        <tran loc="es">La unidad de disco está en uso. Selecciona otra.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is not erasable </Description>
+      <Position>NotErasable</Position>
+      <TranslationSet>
+        <base loc="en">This disc can’t be erased. Please insert another disc.</base>
+        <tran loc="es">Este disco no puede borrarse. Introduce otro.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is reserved by some other app </Description>
+      <Position>ReservedByAnother</Position>
+      <TranslationSet>
+        <base loc="en">Another application is using the disc.</base>
+        <tran loc="es">Otra aplicación está usando el disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No Device Message </Description>
+      <Position>NoDevice</Position>
+      <TranslationSet>
+        <base loc="en">No disc drive is available to erase the disc.</base>
+        <tran loc="es">No hay disponible ninguna unidad de disco para borrar el disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Erase</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="es">Borrar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/OSErrors.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>0x80020067</Position>
+      <TranslationSet>
+        <base loc="en">The track producer can’t do what you ask.</base>
+        <tran loc="es">El productor de pistas no puede realizar la acción solicitada.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020202</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write index points.</base>
+        <tran loc="es">La unidad de disco no puede escribir entradas de índice.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006F</Position>
+      <TranslationSet>
+        <base loc="en">The burn can’t begin because one or more tracks are present multiple times in the layout</base>
+        <tran loc="es">No puede iniciarse la grabación porque una o varias pistas se repiten varias veces en la disposición</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020068</Position>
+      <TranslationSet>
+        <base loc="en">The track is already running a speed test.</base>
+        <tran loc="es">La pista está ejecutando una comprobación de la velocidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020040</Position>
+      <TranslationSet>
+        <base loc="en">One of the volumes on the disc is still in use.</base>
+        <tran loc="es">Uno de los volúmenes del disco aún está en uso.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020100</Position>
+      <TranslationSet>
+        <base loc="en">One of the files being burned to disc changed during the burn.</base>
+        <tran loc="es">Uno de los archivos que se están grabando en el disco ha cambiado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020041</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t contain a disc.</base>
+        <tran loc="es">La unidad de disco no contiene ningún disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020042</Position>
+      <TranslationSet>
+        <base loc="en">The disc isn't writable.</base>
+        <tran loc="es">El disco no es grabable.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020103</Position>
+      <TranslationSet>
+        <base loc="en">The disc can’t use the selected filesystems.</base>
+        <tran loc="es">El disco no puede usar el sistema de archivos seleccionado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006C</Position>
+      <TranslationSet>
+        <base loc="en">The audio file producer does not support the requested file.</base>
+        <tran loc="es">El productor del archivo de audio no soporta el archivo solicitado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020203</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write ISRC data.</base>
+        <tran loc="es">La unidad de disco no puede escribir datos ISRC.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006A</Position>
+      <TranslationSet>
+        <base loc="en">DRBurnDoubleLayerL0DataZoneBlocksKey contains an invalid value.</base>
+        <tran loc="es">DRBurnDoubleLayerL0DataZoneBlocksKey contiene un valor no válido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020021</Position>
+      <TranslationSet>
+        <base loc="en">Another application is using the disc drive.</base>
+        <tran loc="es">Otra aplicación está usando la unidad de disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020046</Position>
+      <TranslationSet>
+        <base loc="en">The disc isn’t valid.</base>
+        <tran loc="es">El disco no es válido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Anything unknown </Description>
+      <Position>UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">Unknown error (%d)</base>
+        <tran loc="es">Error desconocido (%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006D</Position>
+      <TranslationSet>
+        <base loc="en">The disc can't be burned; it might be incompatible with this disc drive. Please try a different brand of disc, or try burning at a slower speed.</base>
+        <tran loc="es">No se puede grabar el disco; puede que no sea compatible con esta unidad de discos ópticos. Inténtalo de nuevo con una marca de disco distinta o prueba a grabar a una velocidad menor.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020101</Position>
+      <TranslationSet>
+        <base loc="en">Two files have conflicting locations.</base>
+        <tran loc="es">Dos archivos tienen un conflicto de ubicaciones.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020063</Position>
+      <TranslationSet>
+        <base loc="en">Verifying the burned data failed.</base>
+        <tran loc="es">Error al verificar los datos grabados.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020200</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t support the requested burn strategy.</base>
+        <tran loc="es">La unidad de disco no admite la estrategia de grabación solicitada.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006B</Position>
+      <TranslationSet>
+        <base loc="en">The double layer transition point has been specified and can’t be changed.</base>
+        <tran loc="es">El punto de transición de doble capa se ha especificado y no puede modificarse.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020201</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write a CD-Text disc.</base>
+        <tran loc="es">La unidad de disco no puede escribir en un disco CD-Text.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020066</Position>
+      <TranslationSet>
+        <base loc="en">User canceled the burn.</base>
+        <tran loc="es">Grabación cancelada por el usuario.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020023</Position>
+      <TranslationSet>
+        <base loc="en">The internal device reference does not point to a valid device.</base>
+        <tran loc="es">La referencia interna del dispositivo no pertenece a un dispositivo válido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020043</Position>
+      <TranslationSet>
+        <base loc="en">The disc is the wrong type for the operation.</base>
+        <tran loc="es">El disco no es del tipo adecuado para la operación.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020024</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive is unavailable now. Try again later.</base>
+        <tran loc="es">La unidad de disco no está disponible. Inténtalo de nuevo más tarde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error codes generated by the OS and other bits and pieces of code. 
+ DiscRecording errors </Description>
+      <Position>0x80020000</Position>
+      <TranslationSet>
+        <base loc="en">An internal error occurred.</base>
+        <tran loc="es">Se ha producido un error interno.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020001</Position>
+      <TranslationSet>
+        <base loc="en">An internal error occurred.</base>
+        <tran loc="es">Se ha producido un error interno.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020062</Position>
+      <TranslationSet>
+        <base loc="en">There was an error producing data for the burn.</base>
+        <tran loc="es">Se ha producido un error al generar datos para la grabación.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020061</Position>
+      <TranslationSet>
+        <base loc="en">You can’t burn to this disc drive.</base>
+        <tran loc="es">No puedes grabar en esta unidad de disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020069</Position>
+      <TranslationSet>
+        <base loc="en">The index points aren’t valid.</base>
+        <tran loc="es">Las entradas de índice no son válidas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020204</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write SCMS data.</base>
+        <tran loc="es">La unidad de disco no puede escribir datos SCMS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020044</Position>
+      <TranslationSet>
+        <base loc="en">The disc isn’t blank.</base>
+        <tran loc="es">El disco no está vacío.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020025</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t support the requested burn operation.</base>
+        <tran loc="es">La unidad de disco no admite la operación de grabación solicitada.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020022</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive didn’t respond properly and can’t recover or retry.</base>
+        <tran loc="es">La unidad de disco no ha respondido correctamente y no puede recuperarse o volver a intentarlo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020065</Position>
+      <TranslationSet>
+        <base loc="en">The track/session layout passed in does not represent a valid burn.</base>
+        <tran loc="es">La disposición de pista/sesión transferida no representa una grabación válida.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020102</Position>
+      <TranslationSet>
+        <base loc="en">Too many filename conflicts to resolve. (10,000,000 or more)</base>
+        <tran loc="es">Hay demasiados conflictos de nombre de archivo (10.000.000 o más).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020064</Position>
+      <TranslationSet>
+        <base loc="en">DVD discs can contain only one track.</base>
+        <tran loc="es">Los discos DVD solo pueden contener una pista.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020205</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t support the requested pregap length.</base>
+        <tran loc="es">La unidad de disco no admite la longitud de pregap solicitada.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020020</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive is unavailable. It may have been disconnected.</base>
+        <tran loc="es">La unidad de disco no está disponible. Puede que se haya desconectado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020060</Position>
+      <TranslationSet>
+        <base loc="en">The burn failed. Please try again at a slower speed.</base>
+        <tran loc="es">Se ha producido un error durante la grabación. Vuelve a intentarlo a una velocidad inferior.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006E</Position>
+      <TranslationSet>
+        <base loc="en">The burn failed because of a medium write error.</base>
+        <tran loc="es">La grabación ha fallado debido a un error de escritura del disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020045</Position>
+      <TranslationSet>
+        <base loc="en">The disc can’t be erased.</base>
+        <tran loc="es">El disco no puede borrarse.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/BurnProgress.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateDone</Position>
+      <TranslationSet>
+        <base loc="en">Burn completed successfully</base>
+        <tran loc="es">La grabación se ha realizado correctamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFinishing</Position>
+      <TranslationSet>
+        <base loc="en">Finishing burn</base>
+        <tran loc="es">Finalizando la grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> session 1 of 6 </Description>
+      <Position>DRStatusStateSessionOpenMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Opening session %1$ld of %2$ld</base>
+        <tran loc="es">Abriendo sesión %1$ld de %2$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose and non-verbose track writing status strings </Description>
+      <Position>DRStatusStateTrackWriteSingle</Position>
+      <TranslationSet>
+        <base loc="en">Writing track %1$ld</base>
+        <tran loc="es">Escribiendo pista %1$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> track 3 of 6</Description>
+      <Position>DRStatusStateTrackCloseMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Closing track %1$ld of %2$ld</base>
+        <tran loc="es">Cerrando pista %1$ld de %2$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose and non-verbose track closing status strings </Description>
+      <Position>DRStatusStateTrackCloseSingle</Position>
+      <TranslationSet>
+        <base loc="en">Closing track %1$ld</base>
+        <tran loc="es">Cerrando pista %1$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose track opening status strings </Description>
+      <Position>DRStatusStateTrackOpenSingle</Position>
+      <TranslationSet>
+        <base loc="en">Opening track %1$d</base>
+        <tran loc="es">Abriendo pista %1$d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FailedMsg</Position>
+      <TranslationSet>
+        <base loc="en">The burn to the %1$@ drive failed. %2$@</base>
+        <tran loc="es">No se ha podido grabar en la unidad %1$@. %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FailedTitle</Position>
+      <TranslationSet>
+        <base loc="en">Burn Failed</base>
+        <tran loc="es">Error en la grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFailed</Position>
+      <TranslationSet>
+        <base loc="en">Burn failed with an error</base>
+        <tran loc="es">Se ha producido un error en la grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> track 3 of 6</Description>
+      <Position>DRStatusStateTrackOpenMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Opening track %1$ld of %2$ld</base>
+        <tran loc="es">Abriendo pista %1$ld de %2$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStatePreparing</Position>
+      <TranslationSet>
+        <base loc="en">Preparing data for burning</base>
+        <tran loc="es">Preparando datos para la grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateVerifying</Position>
+      <TranslationSet>
+        <base loc="en">Verifying disc</base>
+        <tran loc="es">Verificando disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Generic</Position>
+      <TranslationSet>
+        <base loc="en">Burning to the %1$@ drive</base>
+        <tran loc="es">Grabando en la unidad %1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> track 3 of 6</Description>
+      <Position>DRStatusStateTrackWriteMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Writing track %1$ld of %2$ld</base>
+        <tran loc="es">Escribiendo pista %1$ld de %2$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-verbose session opening status string when session == session #1 </Description>
+      <Position>StartingWrite</Position>
+      <TranslationSet>
+        <base loc="en">Preparing drive for burning</base>
+        <tran loc="es">Preparando la unidad para grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-verbose session closing status string when session != last session </Description>
+      <Position>StartingSubsequestSession</Position>
+      <TranslationSet>
+        <base loc="en">Preparing to write session %ld</base>
+        <tran loc="es">Preparando la sesión %ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> session 1 of 6 </Description>
+      <Position>DRStatusStateSessionCloseMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Closing session %1$ld of %2$ld</base>
+        <tran loc="es">Cerrando sesión %1$ld de %2$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose session closing status strings </Description>
+      <Position>DRStatusStateSessionCloseSingle</Position>
+      <TranslationSet>
+        <base loc="en">Closing session</base>
+        <tran loc="es">Cerrando sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose session opening status strings </Description>
+      <Position>DRStatusStateSessionOpenSingle</Position>
+      <TranslationSet>
+        <base loc="en">Opening session</base>
+        <tran loc="es">Abriendo sesión</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/SenseKey.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>09</Position>
+      <TranslationSet>
+        <base loc="en">A vendor specific error occurred</base>
+        <tran loc="es">Se ha producido un error en el dispositivo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C</Position>
+      <TranslationSet>
+        <base loc="en">EQUAL</base>
+        <tran loc="es">IGUAL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>02</Position>
+      <TranslationSet>
+        <base loc="en">The device is not ready</base>
+        <tran loc="es">El dispositivo no está listo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>07</Position>
+      <TranslationSet>
+        <base loc="en">The media is protected from access</base>
+        <tran loc="es">El disco está protegido contra acceso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>04</Position>
+      <TranslationSet>
+        <base loc="en">There is a hardware problem with the device</base>
+        <tran loc="es">El dispositivo tiene un problema de hardware</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>08</Position>
+      <TranslationSet>
+        <base loc="en">The media is not blank</base>
+        <tran loc="es">El disco no está vacío</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>05</Position>
+      <TranslationSet>
+        <base loc="en">An illegal request was sent to the device</base>
+        <tran loc="es">Se ha enviado una petición incorrecta al dispositivo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0E</Position>
+      <TranslationSet>
+        <base loc="en">The data read from the media did not compare correctly</base>
+        <tran loc="es">Los datos leídos del disco no se han comparado correctamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0D</Position>
+      <TranslationSet>
+        <base loc="en">The media is full</base>
+        <tran loc="es">El disco está lleno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0F</Position>
+      <TranslationSet>
+        <base loc="en">Reserved Sense</base>
+        <tran loc="es">Sentido reservado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>03</Position>
+      <TranslationSet>
+        <base loc="en">There is a problem with the media</base>
+        <tran loc="es">El disco tiene algún problema</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B</Position>
+      <TranslationSet>
+        <base loc="en">The command was aborted by the device</base>
+        <tran loc="es">El dispositivo ha anulado el comando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>01</Position>
+      <TranslationSet>
+        <base loc="en">An error was recovered</base>
+        <tran loc="es">Se ha corregido un error</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sense key codes mapped to user nice text 
+ Hopefully these will be somewhat self explanatory </Description>
+      <Position>00</Position>
+      <TranslationSet>
+        <base loc="en">No sense information was returned</base>
+        <tran loc="es">No se ha obtenido información sobre el sentido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0A</Position>
+      <TranslationSet>
+        <base loc="en">The device to device copy was aborted</base>
+        <tran loc="es">La copia de dispositivo a dispositivo se ha cancelado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>06</Position>
+      <TranslationSet>
+        <base loc="en">The device was reset or the media was changed while a command was being processed</base>
+        <tran loc="es">Se ha reiniciado el dispositivo o se ha cambiado el disco mientras se estaba procesando un comando</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/BurnSetup.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "4x"; ObjectID = "95"; </Description>
+      <Position>95.title</Position>
+      <TranslationSet>
+        <base loc="en">4x</base>
+        <tran loc="es">4x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "10x"; ObjectID = "104"; </Description>
+      <Position>104.title</Position>
+      <TranslationSet>
+        <base loc="en">10x</base>
+        <tran loc="es">10x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100274"; </Description>
+      <Position>100274.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="es">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Test Only"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Test Only</base>
+        <tran loc="es">Solo prueba</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "20x"; ObjectID = "116"; </Description>
+      <Position>116.title</Position>
+      <TranslationSet>
+        <base loc="en">20x</base>
+        <tran loc="es">20x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "40x"; ObjectID = "123"; </Description>
+      <Position>123.title</Position>
+      <TranslationSet>
+        <base loc="en">40x</base>
+        <tran loc="es">40x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Burn Disc"; ObjectID = "92"; </Description>
+      <Position>92.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Disc</base>
+        <tran loc="es">Grabar disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "6x"; ObjectID = "94"; </Description>
+      <Position>94.title</Position>
+      <TranslationSet>
+        <base loc="en">6x</base>
+        <tran loc="es">6x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Burn"; ObjectID = "100110"; </Description>
+      <Position>100110.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn</base>
+        <tran loc="es">Grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Disc In:"; ObjectID = "100119"; </Description>
+      <Position>100119.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Disc In:</base>
+        <tran loc="es">Grabar en:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "12x"; ObjectID = "114"; </Description>
+      <Position>114.title</Position>
+      <TranslationSet>
+        <base loc="en">12x</base>
+        <tran loc="es">12x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100111"; </Description>
+      <Position>100111.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "32x"; ObjectID = "128"; </Description>
+      <Position>128.title</Position>
+      <TranslationSet>
+        <base loc="en">32x</base>
+        <tran loc="es">32x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSPopUpButton"; ibShadowedToolTip = "Choose a slower speed if burns have been failing."; ObjectID = "101"; </Description>
+      <Position>101.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Choose a slower speed if burns have been failing.</base>
+        <tran loc="es">Seleccionar una velocidad menor si las grabaciones fallan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Eject the disc in the drive."; ObjectID = "284"; </Description>
+      <Position>284.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="es">Expulsar el disco de la unidad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "After Burning"; ObjectID = "100263"; </Description>
+      <Position>100263.title</Position>
+      <TranslationSet>
+        <base loc="en">After Burning</base>
+        <tran loc="es">Después de grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Maximum Possible"; ObjectID = "121"; </Description>
+      <Position>121.title</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Possible</base>
+        <tran loc="es">Máxima posible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Leave disc appendable"; ObjectID = "100183"; </Description>
+      <Position>100183.title</Position>
+      <TranslationSet>
+        <base loc="en">Leave disc appendable</base>
+        <tran loc="es">Mantener el disco grabable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "8x"; ObjectID = "117"; </Description>
+      <Position>117.title</Position>
+      <TranslationSet>
+        <base loc="en">8x</base>
+        <tran loc="es">8x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Verify burned data"; ObjectID = "100173"; </Description>
+      <Position>100173.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify burned data</base>
+        <tran loc="es">Verificar los datos grabados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to verify the disc’s data after it’s been written."; ObjectID = "173"; </Description>
+      <Position>173.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to verify the disc’s data after it’s been written.</base>
+        <tran loc="es">Verificar los datos del disco al finalizar la grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Mount on Desktop"; ObjectID = "282"; </Description>
+      <Position>282.title</Position>
+      <TranslationSet>
+        <base loc="en">Mount on Desktop</base>
+        <tran loc="es">Montar en el escritorio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject disc"; ObjectID = "281"; </Description>
+      <Position>281.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject disc</base>
+        <tran loc="es">Expulsar disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "24x"; ObjectID = "124"; </Description>
+      <Position>124.title</Position>
+      <TranslationSet>
+        <base loc="en">24x</base>
+        <tran loc="es">24x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "1x"; ObjectID = "113"; </Description>
+      <Position>113.title</Position>
+      <TranslationSet>
+        <base loc="en">1x</base>
+        <tran loc="es">1x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Show or hide advanced options."; ObjectID = "105"; </Description>
+      <Position>105.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Show or hide advanced options.</base>
+        <tran loc="es">Mostrar u ocultar opciones avanzadas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "127"; </Description>
+      <Position>127.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="es">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to eject the disc from the drive when the burn is complete."; ObjectID = "281"; </Description>
+      <Position>281.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to eject the disc from the drive when the burn is complete.</base>
+        <tran loc="es">Expulsar el disco de la unidad cuando la grabación termine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to mount the disc on the desktop when the burn completes."; ObjectID = "282"; </Description>
+      <Position>282.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to mount the disc on the desktop when the burn completes.</base>
+        <tran loc="es">Montar el disco en el escritorio cuando la grabación termine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - \nDo not localize"; ObjectID = "100251"; </Description>
+      <Position>100251.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - \nDo not localize</base>
+        <tran loc="es">Status Text - \nDo not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to allow subsequent burns to append data to the disc."; ObjectID = "183"; </Description>
+      <Position>183.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to allow subsequent burns to append data to the disc.</base>
+        <tran loc="es">Permitir posteriores grabaciones para añadir datos al disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "16x"; ObjectID = "115"; </Description>
+      <Position>115.title</Position>
+      <TranslationSet>
+        <base loc="en">16x</base>
+        <tran loc="es">16x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "2x"; ObjectID = "98"; </Description>
+      <Position>98.title</Position>
+      <TranslationSet>
+        <base loc="en">2x</base>
+        <tran loc="es">2x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Options"; ObjectID = "100262"; </Description>
+      <Position>100262.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Options</base>
+        <tran loc="es">Opciones de grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase disc before burning"; ObjectID = "100358"; </Description>
+      <Position>100358.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase disc before burning</base>
+        <tran loc="es">Borrar el disco antes de grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "36x"; ObjectID = "97"; </Description>
+      <Position>97.title</Position>
+      <TranslationSet>
+        <base loc="en">36x</base>
+        <tran loc="es">36x</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Speed:"; ObjectID = "100120"; </Description>
+      <Position>100120.title</Position>
+      <TranslationSet>
+        <base loc="en">Speed:</base>
+        <tran loc="es">Velocidad:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject"; ObjectID = "100284"; </Description>
+      <Position>100284.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="es">Expulsar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/Setup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Close Help</Position>
+      <TranslationSet>
+        <base loc="en">Close the drive’s tray.</base>
+        <tran loc="es">Cerrar la bandeja de la unidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="es">Aceptar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject Help</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="es">Expulsar el disco de la unidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Close</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="es">Cerrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject Failed</Position>
+      <TranslationSet>
+        <base loc="en">Could not eject the disc in the %@ drive </base>
+        <tran loc="es">No se ha podido expulsar el disco de la unidad %@ </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject Failed Information</Position>
+      <TranslationSet>
+        <base loc="en">Other applications may be using this media. Close those applications and try again.</base>
+        <tran loc="es">Otras aplicaciones pueden estar usando este contenido. Ciérralas y vuelve a intentarlo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Open Help</Position>
+      <TranslationSet>
+        <base loc="en">Open the drive’s tray.</base>
+        <tran loc="es">Abrir la bandeja de la unidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="es">Expulsar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Open</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="es">Abrir</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseProgress.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Erasing"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Erasing</base>
+        <tran loc="es">Borrando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase Description - do not localize\n"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase Description - do not localize\n</base>
+        <tran loc="es">Erase Description - do not localize\n</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/BurnSetupStrings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmTitle</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to erase the disc in the %@ drive before burning it?</base>
+        <tran loc="es">¿Seguro que quieres borrar el disco de la unidad %@ antes de grabarlo?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmMsg</Position>
+      <TranslationSet>
+        <base loc="en">All the data on the disc will be lost</base>
+        <tran loc="es">Se perderán todos los datos del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is reserved by some other app </Description>
+      <Position>ReservedByAnother</Position>
+      <TranslationSet>
+        <base loc="en">Another application is using this disc.</base>
+        <tran loc="es">Otra aplicación está usando este disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the device is currently in use by nother process </Description>
+      <Position>DeviceBusy</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive is busy. Please choose another drive.</base>
+        <tran loc="es">La unidad de disco está en uso. Selecciona otra.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MaxWithSpeed</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Possible (%.*fx)</base>
+        <tran loc="es">Máxima posible (%.*fx)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Waiting for media to become ready </Description>
+      <Position>WaitingForReady</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for the drive.</base>
+        <tran loc="es">Esperando a la unidad.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user it's ready to erase and burn </Description>
+      <Position>ReadyToEraseBurn</Position>
+      <TranslationSet>
+        <base loc="en">Ready to erase and burn the disc.</base>
+        <tran loc="es">Preparado para borrar y grabar el disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The title of the default button when a burn will start as a result of dismissing the panel </Description>
+      <Position>Burn</Position>
+      <TranslationSet>
+        <base loc="en">Burn</base>
+        <tran loc="es">Grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The title of the default button when the disc is to be erased before burning </Description>
+      <Position>Re-Burn</Position>
+      <TranslationSet>
+        <base loc="en">Re-Burn</base>
+        <tran loc="es">Volver a grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is not able to be burned. </Description>
+      <Position>NotAppendable</Position>
+      <TranslationSet>
+        <base loc="en">You can’t append more data to this disc. Please insert another disc.</base>
+        <tran loc="es">No puedes añadir más datos a este disco. Introduce otro.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ShortMax</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Possible</base>
+        <tran loc="es">Máxima posible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No Device Message </Description>
+      <Position>NoDevice</Position>
+      <TranslationSet>
+        <base loc="en">None of the connected disc drives can burn a disc.</base>
+        <tran loc="es">Ninguna de las unidades conectadas puede grabar un disco.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user it's OK to burn </Description>
+      <Position>ReadyToBurn</Position>
+      <TranslationSet>
+        <base loc="en">Ready to burn.</base>
+        <tran loc="es">Preparado para grabar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc didn't pass muster </Description>
+      <Position>NotSuitable</Position>
+      <TranslationSet>
+        <base loc="en">This disc can’t be burned. Please insert another disc.</base>
+        <tran loc="es">Este disco no puede grabarse. Introduce otro.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Erase</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="es">Borrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ask the user to insert a disc </Description>
+      <Position>WaitingForDisc</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for a disc to be inserted…</base>
+        <tran loc="es">Esperando que se inserte un disco…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The title of the default button when a burn object is just being set up </Description>
+      <Position>Save</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="es">Guardar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseSetup.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Erase Disc"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase Disc</base>
+        <tran loc="es">Borrar disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase data on disc:"; ObjectID = "100052"; </Description>
+      <Position>100052.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase data on disc:</base>
+        <tran loc="es">Borrar datos del disco:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase every block on the disc. This can take over 30 minutes."; ObjectID = "66"; </Description>
+      <Position>66.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase every block on the disc. This can take over 30 minutes.</base>
+        <tran loc="es">Borrar todos los bloques del disco. Este proceso puede tardar más de 30 minutos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100062"; </Description>
+      <Position>100062.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="es">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Completely"; ObjectID = "66"; </Description>
+      <Position>66.title</Position>
+      <TranslationSet>
+        <base loc="en">Completely</base>
+        <tran loc="es">Completamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase the Table of Contents, without affecting the rest of the disc."; ObjectID = "65"; </Description>
+      <Position>65.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase the Table of Contents, without affecting the rest of the disc.</base>
+        <tran loc="es">Borrar la tabla de contenido sin afectar al resto del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Quickly"; ObjectID = "65"; </Description>
+      <Position>65.title</Position>
+      <TranslationSet>
+        <base loc="en">Quickly</base>
+        <tran loc="es">Rápidamente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Eject the disc in the drive."; ObjectID = "51"; </Description>
+      <Position>51.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="es">Expulsar el disco de la unidad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - \nDo not localize"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - \nDo not localize</base>
+        <tran loc="es">Status Text - \nDo not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase"; ObjectID = "100017"; </Description>
+      <Position>100017.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="es">Borrar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject"; ObjectID = "100051"; </Description>
+      <Position>100051.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="es">Expulsar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase Disc In:"; ObjectID = "100010"; </Description>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase Disc In:</base>
+        <tran loc="es">Borrar disco de:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/DevicePicker.strings</Filepath>
+    <TextItem>
+      <Description> No Device Message </Description>
+      <Position>NoDevice</Position>
+      <TranslationSet>
+        <base loc="en">No Devices Available</base>
+        <tran loc="es">Ningún dispositivo disponible</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeBDROM</Position>
+      <TranslationSet>
+        <base loc="en">BD-ROM</base>
+        <tran loc="es">BD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRW</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RW</base>
+        <tran loc="es">DVD-RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRWDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-RW DL</base>
+        <tran loc="es">HD DVD-RW DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status States </Description>
+      <Position>DRStatusStateFinishing</Position>
+      <TranslationSet>
+        <base loc="en">Finishing</base>
+        <tran loc="es">Finalizando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectFibreChannel</Position>
+      <TranslationSet>
+        <base loc="en">Fibre Channel</base>
+        <tran loc="es">Canal de fibra</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDROM</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-ROM</base>
+        <tran loc="es">HD DVD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassBD</Position>
+      <TranslationSet>
+        <base loc="en">BD</base>
+        <tran loc="es">BD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device Locations </Description>
+      <Position>top</Position>
+      <TranslationSet>
+        <base loc="en">Upper</base>
+        <tran loc="es">Superior</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMBODRIVE</Position>
+      <TranslationSet>
+        <base loc="en">Combo Drive</base>
+        <tran loc="es">Unidad combinada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelVendorSupported</Position>
+      <TranslationSet>
+        <base loc="en">Vendor Supported</base>
+        <tran loc="es">Compatible con el fabricante</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeBDRE</Position>
+      <TranslationSet>
+        <base loc="en">BD-RE</base>
+        <tran loc="es">BD-RE</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectSCSI</Position>
+      <TranslationSet>
+        <base loc="en">SCSI</base>
+        <tran loc="es">SCSI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateDone</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="es">Aceptar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Drive Types </Description>
+      <Position>CD-ROM</Position>
+      <TranslationSet>
+        <base loc="en">CD-ROM Drive</base>
+        <tran loc="es">Unidad de CD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectFireWire</Position>
+      <TranslationSet>
+        <base loc="en">FireWire</base>
+        <tran loc="es">FireWire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusR</Position>
+      <TranslationSet>
+        <base loc="en">DVD+R</base>
+        <tran loc="es">DVD+R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Media Classes </Description>
+      <Position>DRDeviceMediaClassCD</Position>
+      <TranslationSet>
+        <base loc="en">CD</base>
+        <tran loc="es">CD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeCDR</Position>
+      <TranslationSet>
+        <base loc="en">CD-R</base>
+        <tran loc="es">CD-R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelAppleShipping</Position>
+      <TranslationSet>
+        <base loc="en">Apple Shipping</base>
+        <tran loc="es">Original de Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDROM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-ROM</base>
+        <tran loc="es">DVD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>left</Position>
+      <TranslationSet>
+        <base loc="en">Left</base>
+        <tran loc="es">Izquierda</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRWDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RW DL</base>
+        <tran loc="es">DVD-RW DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusRW</Position>
+      <TranslationSet>
+        <base loc="en">DVD+RW</base>
+        <tran loc="es">DVD+RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassDVD</Position>
+      <TranslationSet>
+        <base loc="en">DVD</base>
+        <tran loc="es">DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUPERDRIVE</Position>
+      <TranslationSet>
+        <base loc="en">SuperDrive</base>
+        <tran loc="es">Unidad SuperDrive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeBDR</Position>
+      <TranslationSet>
+        <base loc="en">BD-R</base>
+        <tran loc="es">BD-R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-R DL</base>
+        <tran loc="es">HD DVD-R DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Support Levels </Description>
+      <Position>DRDeviceSupportLevelNone</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="es">Ninguno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateNone</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="es">Ninguno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRAM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RAM</base>
+        <tran loc="es">DVD-RAM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD-R DL</base>
+        <tran loc="es">DVD-R DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRW</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-RW</base>
+        <tran loc="es">HD DVD-RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelUnsupported</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported</base>
+        <tran loc="es">Incompatible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>bottom</Position>
+      <TranslationSet>
+        <base loc="en">Lower</base>
+        <tran loc="es">Inferior</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DVD-ROM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-ROM Drive</base>
+        <tran loc="es">Unidad de DVD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>right</Position>
+      <TranslationSet>
+        <base loc="en">Right</base>
+        <tran loc="es">Derecha</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusRWDoubleLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD+RW DL</base>
+        <tran loc="es">DVD+RW DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStatePreparing</Position>
+      <TranslationSet>
+        <base loc="en">Preparing</base>
+        <tran loc="es">Preparando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Interconnect Locations </Description>
+      <Position>DRDevicePhysicalInterconnectLocationInternal</Position>
+      <TranslationSet>
+        <base loc="en">Internal</base>
+        <tran loc="es">Interno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="es">Desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="es">Desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectLocationUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="es">Desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CD-R/RW</Position>
+      <TranslationSet>
+        <base loc="en">CD-R/RW Drive</base>
+        <tran loc="es">Unidad de CD-R/RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRAM</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-RAM</base>
+        <tran loc="es">HD DVD-RAM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusRDoubleLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD+R DL</base>
+        <tran loc="es">DVD+R DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelAppleSupported</Position>
+      <TranslationSet>
+        <base loc="en">Apple Supported</base>
+        <tran loc="es">Compatible con Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DVD-RAM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RAM Drive</base>
+        <tran loc="es">Unidad de DVD-RAM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeCDROM</Position>
+      <TranslationSet>
+        <base loc="en">CD-ROM</base>
+        <tran loc="es">CD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFailed</Position>
+      <TranslationSet>
+        <base loc="en">Failed</base>
+        <tran loc="es">Error</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateVerifying</Position>
+      <TranslationSet>
+        <base loc="en">Verifying</base>
+        <tran loc="es">Verificando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDR</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-R</base>
+        <tran loc="es">HD DVD-R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DiscRecording Key Values 
+ Media Types </Description>
+      <Position>DRDeviceMediaTypeCDRW</Position>
+      <TranslationSet>
+        <base loc="en">CD-RW</base>
+        <tran loc="es">CD-RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string for multiple internal device menu title. English would read like 'Upper SuperDrive' (location drive name) </Description>
+      <Position>%@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="es">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Interconnects </Description>
+      <Position>DRDevicePhysicalInterconnectATAPI</Position>
+      <TranslationSet>
+        <base loc="en">ATAPI</base>
+        <tran loc="es">ATAPI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectUSB</Position>
+      <TranslationSet>
+        <base loc="en">USB</base>
+        <tran loc="es">USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectLocationExternal</Position>
+      <TranslationSet>
+        <base loc="en">External</base>
+        <tran loc="es">Externo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassHDDVD</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD</base>
+        <tran loc="es">HD DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDR</Position>
+      <TranslationSet>
+        <base loc="en">DVD-R</base>
+        <tran loc="es">DVD-R</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/AdditionalSense.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>2C02</Position>
+      <TranslationSet>
+        <base loc="en">Invalid combination of windows specified</base>
+        <tran loc="es">Combinación de ventanas incorrecta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1C00</Position>
+      <TranslationSet>
+        <base loc="en">Defect list not found</base>
+        <tran loc="es">Lista de defectos no encontrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0500</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit does not respond to selection</base>
+        <tran loc="es">La unidad lógica no responde a la selección</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B03</Position>
+      <TranslationSet>
+        <base loc="en">Tape or electronic vertical forms unit not ready</base>
+        <tran loc="es">Unidad de formas verticales por cinta o electrónica no disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2400</Position>
+      <TranslationSet>
+        <base loc="en">Invalid field in CDB</base>
+        <tran loc="es">Campo no válido en CDB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110A</Position>
+      <TranslationSet>
+        <base loc="en">Miscorrected error</base>
+        <tran loc="es">Error mal corregido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1502</Position>
+      <TranslationSet>
+        <base loc="en">Positioning error detected by read of medium</base>
+        <tran loc="es">Error de posición detectado al leer el disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6301</Position>
+      <TranslationSet>
+        <base loc="en">Packet does not fit in available space</base>
+        <tran loc="es">Paquete demasiado grande para el espacio disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5C00</Position>
+      <TranslationSet>
+        <base loc="en">RPL status change</base>
+        <tran loc="es">Estado RPL modificado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1109</Position>
+      <TranslationSet>
+        <base loc="en">No gap found</base>
+        <tran loc="es">No se ha encontrado ningún vacío</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6D00</Position>
+      <TranslationSet>
+        <base loc="en">Recalculate failure occurred</base>
+        <tran loc="es">Error al recalcular</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6200</Position>
+      <TranslationSet>
+        <base loc="en">Scan head positioning error</base>
+        <tran loc="es">Error de posición del cabezal de exploración</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0016</Position>
+      <TranslationSet>
+        <base loc="en">Operation in progress (Sequential)</base>
+        <tran loc="es">Operación en curso (secuencial)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0903</Position>
+      <TranslationSet>
+        <base loc="en">Spindle servo failure</base>
+        <tran loc="es">Error del servomotor del eje</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3101</Position>
+      <TranslationSet>
+        <base loc="en">Format command failed</base>
+        <tran loc="es">Error en el comando de formato</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E03</Position>
+      <TranslationSet>
+        <base loc="en">Idle condition activated by command</base>
+        <tran loc="es">Modo de inactividad determinado por comando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7301</Position>
+      <TranslationSet>
+        <base loc="en">Power calibration area almost full</base>
+        <tran loc="es">Área de calibración de energía casi llena</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0600</Position>
+      <TranslationSet>
+        <base loc="en">No reference position found</base>
+        <tran loc="es">No se ha encontrado ninguna posición de referencia</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0100</Position>
+      <TranslationSet>
+        <base loc="en">Mechanical positioning or changer error</base>
+        <tran loc="es">Error de posición mecánica o de cambiador</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B16</Position>
+      <TranslationSet>
+        <base loc="en">Mechanical positioning or changer error</base>
+        <tran loc="es">Error de posición mecánica o de cambiador</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B05</Position>
+      <TranslationSet>
+        <base loc="en">Paper jam</base>
+        <tran loc="es">Atasco de papel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7306</Position>
+      <TranslationSet>
+        <base loc="en">Program memory area is (almost) full</base>
+        <tran loc="es">El área de memoria del programa está casi llena</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7304</Position>
+      <TranslationSet>
+        <base loc="en">Program memory area update failure</base>
+        <tran loc="es">Error al actualizar el área de memoria del programa</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3E02</Position>
+      <TranslationSet>
+        <base loc="en">Timeout on logical unit</base>
+        <tran loc="es">Límite de tiempo en la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6901</Position>
+      <TranslationSet>
+        <base loc="en">Multiple logical unit failures</base>
+        <tran loc="es">Múltiples errores en la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F05</Position>
+      <TranslationSet>
+        <base loc="en">Drive region must be permanent/region reset count error</base>
+        <tran loc="es">La región de la unidad debe ser permanente/error de reinicio de la región</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6B01</Position>
+      <TranslationSet>
+        <base loc="en">Redundancy level got better</base>
+        <tran loc="es">El nivel de redundancia ha mejorado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E02</Position>
+      <TranslationSet>
+        <base loc="en">Standby condition activated by timer</base>
+        <tran loc="es">Modo de pausa activado por temporizador</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B14</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine locked</base>
+        <tran loc="es">Almacén del disco bloqueado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C01</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recovered with auto reallocation</base>
+        <tran loc="es">Error de grabación - Solucionado por reasignación automática</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0405</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, rebuild in progress</base>
+        <tran loc="es">La unidad lógica no está preparada y se está reconstruyendo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0900</Position>
+      <TranslationSet>
+        <base loc="en">Track following error</base>
+        <tran loc="es">Error de seguimiento de pistas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2704</Position>
+      <TranslationSet>
+        <base loc="en">Persistent write protect</base>
+        <tran loc="es">Protección contra escritura persistente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2604</Position>
+      <TranslationSet>
+        <base loc="en">Invalid release of active persistent reservation</base>
+        <tran loc="es">Salida no válida de la reserva persistente activa</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0902</Position>
+      <TranslationSet>
+        <base loc="en">Focus servo failure</base>
+        <tran loc="es">Error del servomotor de enfoque</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5C02</Position>
+      <TranslationSet>
+        <base loc="en">Spindles not synchronized</base>
+        <tran loc="es">Ejes no sincronizados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESERVED</Position>
+      <TranslationSet>
+        <base loc="en">RESERVED (%02X/%02X)</base>
+        <tran loc="es">RESERVADO (%02X/%02X)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1103</Position>
+      <TranslationSet>
+        <base loc="en">Multiple read errors</base>
+        <tran loc="es">Múltiples errores de lectura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B02</Position>
+      <TranslationSet>
+        <base loc="en">Warning - Enclosure degraded</base>
+        <tran loc="es">Atención - Archivo adjunto dañado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4600</Position>
+      <TranslationSet>
+        <base loc="en">Unsuccessful soft reset</base>
+        <tran loc="es">Reinicio del software no efectuado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B01</Position>
+      <TranslationSet>
+        <base loc="en">Warning - Specified temperature exceeded</base>
+        <tran loc="es">Atención - Límite de temperatura superado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110C</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error - Recommend rewrite the data</base>
+        <tran loc="es">Error de lectura - Regrabación de datos recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C09</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Loss of streaming</base>
+        <tran loc="es">Error de grabación - Pérdida de secuencias</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7100</Position>
+      <TranslationSet>
+        <base loc="en">Decompression exception long algorithm ID</base>
+        <tran loc="es">ID de algoritmo largo para excepción de descompresión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6902</Position>
+      <TranslationSet>
+        <base loc="en">A parity/data mismatch</base>
+        <tran loc="es">Error de incongruencia paridad/datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3004</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write medium - Unknown format</base>
+        <tran loc="es">Disco no grabable - Formato desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1804</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with L-EC</base>
+        <tran loc="es">Datos recuperados con L-EC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6E00</Position>
+      <TranslationSet>
+        <base loc="en">Command to logical unit failed</base>
+        <tran loc="es">Error en comando para la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0407</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, operation in progress</base>
+        <tran loc="es">La unidad lógica no está preparada y hay una operación en curso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F02</Position>
+      <TranslationSet>
+        <base loc="en">Copy protection key exchange failure - Key not established</base>
+        <tran loc="es">Error de intercambio de clave en protección de copia - Clave no definida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4500</Position>
+      <TranslationSet>
+        <base loc="en">Select or reselect failure</base>
+        <tran loc="es">Error de selección o reselección</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1106</Position>
+      <TranslationSet>
+        <base loc="en">CIRC unrecovered error</base>
+        <tran loc="es">Error CIRC incorregible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1107</Position>
+      <TranslationSet>
+        <base loc="en">Re-synchronization error</base>
+        <tran loc="es">Error de resincronización</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6700</Position>
+      <TranslationSet>
+        <base loc="en">Configuration failure</base>
+        <tran loc="es">Error de configuración</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BF00</Position>
+      <TranslationSet>
+        <base loc="en">Loss of streaming</base>
+        <tran loc="es">Pérdida de secuencias</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0003</Position>
+      <TranslationSet>
+        <base loc="en">Setmark detected</base>
+        <tran loc="es">Marca de definición detectada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1100</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error</base>
+        <tran loc="es">Error de lectura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E01</Position>
+      <TranslationSet>
+        <base loc="en">Idle condition activated by timer</base>
+        <tran loc="es">Modo de inactividad determinado por temporizador</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B00</Position>
+      <TranslationSet>
+        <base loc="en">Sequential positioning error</base>
+        <tran loc="es">Error de posición secuencial</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3009</Position>
+      <TranslationSet>
+        <base loc="en">Current session not fixated for append</base>
+        <tran loc="es">Sesión en curso no fijada para añadir</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5501</Position>
+      <TranslationSet>
+        <base loc="en">System buffer full</base>
+        <tran loc="es">Búfer del sistema lleno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4E00</Position>
+      <TranslationSet>
+        <base loc="en">Overlapped commands attempted</base>
+        <tran loc="es">Comandos superpuestos intentados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1604</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Recommend reassignment</base>
+        <tran loc="es">Error de sincronización de datos - Reasignación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2600</Position>
+      <TranslationSet>
+        <base loc="en">Invalid field in parameter list</base>
+        <tran loc="es">Campo no válido en la lista de parámetros</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3100</Position>
+      <TranslationSet>
+        <base loc="en">Medium format corrupted</base>
+        <tran loc="es">Formato del disco corrupto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3008</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write - Application code mismatch</base>
+        <tran loc="es">Error de escritura - Fallo en el código de la aplicación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6B02</Position>
+      <TranslationSet>
+        <base loc="en">Redundancy level got worse</base>
+        <tran loc="es">El nivel de redundancia ha empeorado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1602</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Recommend rewrite</base>
+        <tran loc="es">Error de sincronización de datos - Regrabación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B01</Position>
+      <TranslationSet>
+        <base loc="en">Tape position error at beginning of medium</base>
+        <tran loc="es">Error de posición de cinta al principio del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C06</Position>
+      <TranslationSet>
+        <base loc="en">Block not compressible</base>
+        <tran loc="es">Bloque no comprimible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0404</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, format in progress</base>
+        <tran loc="es">La unidad lógica no está preparada y se está aplicando un formato</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1200</Position>
+      <TranslationSet>
+        <base loc="en">Address mark not found for ID field</base>
+        <tran loc="es">Marca de dirección no encontrada para el campo de ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1603</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Data auto-reallocated</base>
+        <tran loc="es">Error de sincronización de datos - Reasignación automática de datos efectuada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2101</Position>
+      <TranslationSet>
+        <base loc="en">Invalid element address</base>
+        <tran loc="es">Dirección de elemento no válida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2B00</Position>
+      <TranslationSet>
+        <base loc="en">Copy cannot execute since host cannot disconnect</base>
+        <tran loc="es">No se puede realizar la copia porque el host no puede desconectarse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1101</Position>
+      <TranslationSet>
+        <base loc="en">Read retries exhausted</base>
+        <tran loc="es">Intentos de lectura finalizados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6A00</Position>
+      <TranslationSet>
+        <base loc="en">Informational, refer to log</base>
+        <tran loc="es">Consulta el registro</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5100</Position>
+      <TranslationSet>
+        <base loc="en">Erase failure</base>
+        <tran loc="es">Error de borrado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5D00</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded - Predicted Logical Unit Failure</base>
+        <tran loc="es">Umbral de predicción de errores excedido - Fallo previsto de la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1805</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data - Recommend reassignment</base>
+        <tran loc="es">Datos recuperados - Reasignación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7205</Position>
+      <TranslationSet>
+        <base loc="en">No more track reservations allowed</base>
+        <tran loc="es">Límite de reservas de pista alcanzado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5001</Position>
+      <TranslationSet>
+        <base loc="en">Write append position error</base>
+        <tran loc="es">Error de posición de la adición de escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1800</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with error correction applied</base>
+        <tran loc="es">Datos recuperados aplicando corrección de errores</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2705</Position>
+      <TranslationSet>
+        <base loc="en">Permanent write protect</base>
+        <tran loc="es">Protección contra escritura permanente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6900</Position>
+      <TranslationSet>
+        <base loc="en">Data loss on logical unit</base>
+        <tran loc="es">Pérdida de datos en la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F00</Position>
+      <TranslationSet>
+        <base loc="en">Target operating conditions have changed</base>
+        <tran loc="es">Condiciones operativas del disco de destino modificadas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2602</Position>
+      <TranslationSet>
+        <base loc="en">Parameter value invalid</base>
+        <tran loc="es">Valor de parámetro no válido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1700</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with no error correction applied</base>
+        <tran loc="es">Datos recuperados sin aplicar ninguna corrección de errores</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B02</Position>
+      <TranslationSet>
+        <base loc="en">Log counter at maximum</base>
+        <tran loc="es">Contador de registro al máximo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2901</Position>
+      <TranslationSet>
+        <base loc="en">Power on occurred</base>
+        <tran loc="es">Proceso de encendido detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2E00</Position>
+      <TranslationSet>
+        <base loc="en">Insufficient time for operation</base>
+        <tran loc="es">Tiempo insuficiente para la operación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3700</Position>
+      <TranslationSet>
+        <base loc="en">Rounded parameter</base>
+        <tran loc="es">Parámetro redondeado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B00</Position>
+      <TranslationSet>
+        <base loc="en">Log exception</base>
+        <tran loc="es">Excepción de registro</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0402</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, initializing command required</base>
+        <tran loc="es">La unidad lógica no está preparada y se está inicializando el comando necesario</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1404</Position>
+      <TranslationSet>
+        <base loc="en">Block sequence error</base>
+        <tran loc="es">Error en la secuencia de bloques</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3300</Position>
+      <TranslationSet>
+        <base loc="en">Tape length error</base>
+        <tran loc="es">Error en la longitud de la cinta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1701</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with retries</base>
+        <tran loc="es">Datos recuperados con reintentos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B11</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine not accessible</base>
+        <tran loc="es">Almacén del disco no accesible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6601</Position>
+      <TranslationSet>
+        <base loc="en">Automatic document feeder lift up</base>
+        <tran loc="es">Alimentador automático de papel abierto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C00</Position>
+      <TranslationSet>
+        <base loc="en">Command sequence error</base>
+        <tran loc="es">Error de secuencia de comandos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>B900</Position>
+      <TranslationSet>
+        <base loc="en">Play operation aborted</base>
+        <tran loc="es">Reproducción cancelada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2000</Position>
+      <TranslationSet>
+        <base loc="en">Invalid command operation code</base>
+        <tran loc="es">Código de comando no válido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3502</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services unavailable</base>
+        <tran loc="es">Servicios de adjuntar archivos no disponibles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C03</Position>
+      <TranslationSet>
+        <base loc="en">Current program area is not empty</base>
+        <tran loc="es">El área del programa actual no está vacía</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5301</Position>
+      <TranslationSet>
+        <base loc="en">Unload tape failure</base>
+        <tran loc="es">Fallo en la descarga de la cinta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6100</Position>
+      <TranslationSet>
+        <base loc="en">Video acquisition error</base>
+        <tran loc="es">Error de obtención de vídeo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1901</Position>
+      <TranslationSet>
+        <base loc="en">Defect list not available</base>
+        <tran loc="es">Lista de defectos no disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5DFF</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded (FALSE)</base>
+        <tran loc="es">Umbral de predicción de errores excedido (FALSE)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0012</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation paused</base>
+        <tran loc="es">Operación de reproducción de audio en pausa</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5002</Position>
+      <TranslationSet>
+        <base loc="en">Position error related to timing</base>
+        <tran loc="es">Error de posición relacionado con el tiempo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6701</Position>
+      <TranslationSet>
+        <base loc="en">Configuration of incapable logical units failed</base>
+        <tran loc="es">Error de configuración en las unidades lógicas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7303</Position>
+      <TranslationSet>
+        <base loc="en">Power calibration area error</base>
+        <tran loc="es">Error en el área de calibración de energía</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F00</Position>
+      <TranslationSet>
+        <base loc="en">Copy protection key exchange failure - Authentication failure</base>
+        <tran loc="es">Error de intercambio de clave en protección de copia - Error de autenticación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0A</Position>
+      <TranslationSet>
+        <base loc="en">Read past beginning of medium</base>
+        <tran loc="es">Intento de lectura antes del inicio del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7200</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error</base>
+        <tran loc="es">Error de fijación de sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4800</Position>
+      <TranslationSet>
+        <base loc="en">Initiator detected error message received</base>
+        <tran loc="es">Mensaje de error detectado por el iniciador</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7202</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error writing lead-out</base>
+        <tran loc="es">Error de fijación de sesión al grabar salida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5500</Position>
+      <TranslationSet>
+        <base loc="en">System resource failure</base>
+        <tran loc="es">Fallo de recursos del sistema</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3600</Position>
+      <TranslationSet>
+        <base loc="en">Ribbon, ink, or toner failure</base>
+        <tran loc="es">Error en el cable, la tinta o el tóner</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5800</Position>
+      <TranslationSet>
+        <base loc="en">Generation does not exist</base>
+        <tran loc="es">Generación inexistente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4A00</Position>
+      <TranslationSet>
+        <base loc="en">Command phase error</base>
+        <tran loc="es">Error de fase de comandos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>70FF</Position>
+      <TranslationSet>
+        <base loc="en">Decompression exception short algorithm ID of %02X</base>
+        <tran loc="es">ID de algoritmo corto de %02X para excepción de descompresión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0004</Position>
+      <TranslationSet>
+        <base loc="en">Beginning-of-partition/medium detected</base>
+        <tran loc="es">Inicio de partición/disco detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B02</Position>
+      <TranslationSet>
+        <base loc="en">Tape position error at end of medium</base>
+        <tran loc="es">Error de posición de cinta al final del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0800</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication failure</base>
+        <tran loc="es">Error de comunicación en la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7305</Position>
+      <TranslationSet>
+        <base loc="en">Program memory area is full</base>
+        <tran loc="es">El área de memoria del programa está llena</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B07</Position>
+      <TranslationSet>
+        <base loc="en">Failed to sense bottom of form</base>
+        <tran loc="es">Error al detectar la parte inferior del formulario</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2703</Position>
+      <TranslationSet>
+        <base loc="en">Associated write protect</base>
+        <tran loc="es">Protección contra escritura asociada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2904</Position>
+      <TranslationSet>
+        <base loc="en">Device internal reset</base>
+        <tran loc="es">Reinicio interno del dispositivo detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7201</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error writing lead-in</base>
+        <tran loc="es">Error de fijación de sesión al grabar entrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3002</Position>
+      <TranslationSet>
+        <base loc="en">Cannot read medium - Incompatible format</base>
+        <tran loc="es">Disco ilegible - Formato incompatible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6500</Position>
+      <TranslationSet>
+        <base loc="en">Voltage fault</base>
+        <tran loc="es">Fallo de voltaje</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E04</Position>
+      <TranslationSet>
+        <base loc="en">Standby condition activated by command</base>
+        <tran loc="es">Modo de pausa activado por comando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C04</Position>
+      <TranslationSet>
+        <base loc="en">Current program area is empty</base>
+        <tran loc="es">El área del programa actual está vacía</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0011</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation in progress</base>
+        <tran loc="es">Operación de reproducción de audio en curso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2801</Position>
+      <TranslationSet>
+        <base loc="en">Import or export element accessed</base>
+        <tran loc="es">Acceso a elemento importado o exportado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5300</Position>
+      <TranslationSet>
+        <base loc="en">Media load or eject failed</base>
+        <tran loc="es">Fallo en la carga o expulsión del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3400</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure failure</base>
+        <tran loc="es">Error en el archivo adjunto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6300</Position>
+      <TranslationSet>
+        <base loc="en">End of user area encountered on this track</base>
+        <tran loc="es">Zona de fin de usuario encontrada en esta pista</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3000</Position>
+      <TranslationSet>
+        <base loc="en">Incompatible medium installed</base>
+        <tran loc="es">Disco incompatible instalado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0801</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication time-out</base>
+        <tran loc="es">Error de límite de tiempo en la comunicación con la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5400</Position>
+      <TranslationSet>
+        <base loc="en">SCSI to host system interface failure</base>
+        <tran loc="es">Error en la interfaz del sistema de SCSI al host</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>40FF</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostic failure on component %02X</base>
+        <tran loc="es">Error en el componente %02X</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4C00</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit failed self-configuration</base>
+        <tran loc="es">Error en la configuración automática de la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1403</Position>
+      <TranslationSet>
+        <base loc="en">End-of-data not found</base>
+        <tran loc="es">Final de datos no encontrado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3200</Position>
+      <TranslationSet>
+        <base loc="en">No defect spare location available</base>
+        <tran loc="es">Ninguna ubicación sobrante de defectos disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1704</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with retries and/or CIRC applied</base>
+        <tran loc="es">Datos recuperados con reintentos y/o aplicación de CIRC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3503</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services transfer failure</base>
+        <tran loc="es">Error de transferencia en los servicios de adjuntar archivos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C07</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recovery needed</base>
+        <tran loc="es">Error de grabación - Recuperación obligatoria</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3A02</Position>
+      <TranslationSet>
+        <base loc="en">Medium not present - tray open</base>
+        <tran loc="es">Disco ausente - Bandeja abierta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B04</Position>
+      <TranslationSet>
+        <base loc="en">Slew failure</base>
+        <tran loc="es">Error grave</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4DFF</Position>
+      <TranslationSet>
+        <base loc="en">Tagged overlapped commands (%02X = QUEUE TAG)</base>
+        <tran loc="es">Comandos superpuestos con etiquetas (%02X = QUEUE TAG)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3201</Position>
+      <TranslationSet>
+        <base loc="en">Defect list update failure</base>
+        <tran loc="es">Error en la actualización de la lista de defectos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2200</Position>
+      <TranslationSet>
+        <base loc="en">Illegal function</base>
+        <tran loc="es">Función no válida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5D03</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded - Predicted Spare Area Exhaustion</base>
+        <tran loc="es">Umbral de predicción de errores excedido - Agotamiento previsto en el área de almacenamiento</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4300</Position>
+      <TranslationSet>
+        <base loc="en">Message error</base>
+        <tran loc="es">Error de mensaje</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1D00</Position>
+      <TranslationSet>
+        <base loc="en">Miscompare during verify operation</base>
+        <tran loc="es">Error de comparación durante la verificación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6602</Position>
+      <TranslationSet>
+        <base loc="en">Document jam in automatic document feeder</base>
+        <tran loc="es">Atasco de papel en el alimentador automático de papel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0901</Position>
+      <TranslationSet>
+        <base loc="en">Tracking servo failure</base>
+        <tran loc="es">Error del servomotor de seguimiento</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0700</Position>
+      <TranslationSet>
+        <base loc="en">Multiple peripheral devices selected</base>
+        <tran loc="es">Hay varios dispositivos periféricos seleccionados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A00</Position>
+      <TranslationSet>
+        <base loc="en">Operator request or state change input</base>
+        <tran loc="es">Solicitud de operador o entrada de cambio de estado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6000</Position>
+      <TranslationSet>
+        <base loc="en">Lamp failure</base>
+        <tran loc="es">Fallo de lámpara</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B00</Position>
+      <TranslationSet>
+        <base loc="en">Warning</base>
+        <tran loc="es">Advertencia</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5000</Position>
+      <TranslationSet>
+        <base loc="en">Write append error</base>
+        <tran loc="es">Error de adición de escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2800</Position>
+      <TranslationSet>
+        <base loc="en">Not ready to ready transition, medium may have changed</base>
+        <tran loc="es">Imposible leer la transición por un cambio en el disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3A01</Position>
+      <TranslationSet>
+        <base loc="en">Medium not present - tray closed</base>
+        <tran loc="es">Disco ausente - Bandeja cerrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110B</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error - Recommend reassignment</base>
+        <tran loc="es">Error de lectura - Reasignación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5D01</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded - Predicted Media Failure</base>
+        <tran loc="es">Umbral de predicción de errores excedido - Fallo previsto en el disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1F00</Position>
+      <TranslationSet>
+        <base loc="en">Partial defect list transfer</base>
+        <tran loc="es">Transferencia parcial de la lista de defectos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F02</Position>
+      <TranslationSet>
+        <base loc="en">Changed operating definition</base>
+        <tran loc="es">Definición operativa modificada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1405</Position>
+      <TranslationSet>
+        <base loc="en">Record not found - Recommend reassignment</base>
+        <tran loc="es">Registro no encontrado - Reasignación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2903</Position>
+      <TranslationSet>
+        <base loc="en">Bus device reset function occurred</base>
+        <tran loc="es">Reinicio del bus del dispositivo detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A02</Position>
+      <TranslationSet>
+        <base loc="en">Operator selected write protect</base>
+        <tran loc="es">Operador seleccionado protegido contra escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6704</Position>
+      <TranslationSet>
+        <base loc="en">Exchange of logical unit failed</base>
+        <tran loc="es">Imposible intercambiar la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110F</Position>
+      <TranslationSet>
+        <base loc="en">Error reading UPC/EAN number</base>
+        <tran loc="es">Error al leer un número UPC/EAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1903</Position>
+      <TranslationSet>
+        <base loc="en">Defect list error in grown list</base>
+        <tran loc="es">Error en la lista de defectos creciente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3001</Position>
+      <TranslationSet>
+        <base loc="en">Cannot read medium - Unknown format</base>
+        <tran loc="es">Disco ilegible - Formato desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F01</Position>
+      <TranslationSet>
+        <base loc="en">Microcode has been changed</base>
+        <tran loc="es">Microcódigo modificado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6702</Position>
+      <TranslationSet>
+        <base loc="en">Add logical unit failed</base>
+        <tran loc="es">Imposible añadir la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5700</Position>
+      <TranslationSet>
+        <base loc="en">Unable to recover table-of-contents</base>
+        <tran loc="es">Imposible recuperar la tabla de contenido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5101</Position>
+      <TranslationSet>
+        <base loc="en">Erase failure - Incomplete erase operation detected</base>
+        <tran loc="es">Error de borrado - Operación de borrado incompleta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B09</Position>
+      <TranslationSet>
+        <base loc="en">Read past end of medium</base>
+        <tran loc="es">Intento de lectura después del final del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C01</Position>
+      <TranslationSet>
+        <base loc="en">Too many windows specified</base>
+        <tran loc="es">Demasiadas ventanas especificadas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C04</Position>
+      <TranslationSet>
+        <base loc="en">Compression check miscompare error</base>
+        <tran loc="es">Error en la comprobación de la compresión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F01</Position>
+      <TranslationSet>
+        <base loc="en">Copy protection key exchange failure - Key not present</base>
+        <tran loc="es">Error de intercambio de clave en protección de copia - Clave ausente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1600</Position>
+      <TranslationSet>
+        <base loc="en">Data synchronization mark error</base>
+        <tran loc="es">Error en la marca de sincronización de datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1111</Position>
+      <TranslationSet>
+        <base loc="en">Read error - loss of streaming</base>
+        <tran loc="es">Error de lectura - Pérdida de secuencias</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1406</Position>
+      <TranslationSet>
+        <base loc="en">Record not found - Data auto-reallocated</base>
+        <tran loc="es">Registro no encontrado - Reasignación automática de datos efectuada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B12</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine removed</base>
+        <tran loc="es">Almacén del disco eliminado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7302</Position>
+      <TranslationSet>
+        <base loc="en">Power calibration area is full</base>
+        <tran loc="es">Área de calibración de energía llena</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5200</Position>
+      <TranslationSet>
+        <base loc="en">Cartridge fault</base>
+        <tran loc="es">Error en el cartucho</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1C02</Position>
+      <TranslationSet>
+        <base loc="en">Grown defect list not found</base>
+        <tran loc="es">Lista de defectos creciente no encontrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C0A</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Padding blocks added</base>
+        <tran loc="es">Error de grabación - Bloques de relleno añadidos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A00</Position>
+      <TranslationSet>
+        <base loc="en">Parameters changed</base>
+        <tran loc="es">Parámetros modificados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6603</Position>
+      <TranslationSet>
+        <base loc="en">Document miss feed automatic in document feeder</base>
+        <tran loc="es">Error en el alimentador de documentos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2603</Position>
+      <TranslationSet>
+        <base loc="en">threshold parameters not supported</base>
+        <tran loc="es">Parámetros umbral no aceptados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C08</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recovery failed</base>
+        <tran loc="es">Error de grabación - Fallo en la recuperación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1709</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Data rewritten</base>
+        <tran loc="es">Datos recuperados sin ECC - Datos regrabados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1708</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Recommend rewrite</base>
+        <tran loc="es">Datos recuperados sin ECC - Regrabación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6101</Position>
+      <TranslationSet>
+        <base loc="en">Unable to acquire video</base>
+        <tran loc="es">Imposible obtener vídeo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6707</Position>
+      <TranslationSet>
+        <base loc="en">Creation of logical unit failed</base>
+        <tran loc="es">Imposible crear la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3006</Position>
+      <TranslationSet>
+        <base loc="en">Cannot format medium - Incompatible medium</base>
+        <tran loc="es">Disco no formateable - Disco incompatible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2500</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not supported</base>
+        <tran loc="es">Unidad lógica no compatible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1C01</Position>
+      <TranslationSet>
+        <base loc="en">Primary defect list not found</base>
+        <tran loc="es">Lista de defectos primaria no encontrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5900</Position>
+      <TranslationSet>
+        <base loc="en">Updated block read</base>
+        <tran loc="es">Lectura de bloque actualizado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A01</Position>
+      <TranslationSet>
+        <base loc="en">Operator medium removal request</base>
+        <tran loc="es">Solicitud de expulsión de disco en el operador</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6705</Position>
+      <TranslationSet>
+        <base loc="en">Remove of logical unit failed</base>
+        <tran loc="es">Imposible eliminar la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1706</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Data auto-reallocated</base>
+        <tran loc="es">Datos recuperados sin ECC - Reasignación automática de datos efectuada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B06</Position>
+      <TranslationSet>
+        <base loc="en">Failed to sense top of form</base>
+        <tran loc="es">Error al detectar la parte superior del formulario</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B03</Position>
+      <TranslationSet>
+        <base loc="en">Log list codes exhausted</base>
+        <tran loc="es">Códigos de lista de registro agotados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B01</Position>
+      <TranslationSet>
+        <base loc="en">Threshold condition met</base>
+        <tran loc="es">Condición de umbral alcanzada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0017</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning requested</base>
+        <tran loc="es">Eliminación solicitada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3504</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services transfer refused</base>
+        <tran loc="es">Transferencia rechazada en los servicios de adjuntar archivos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7203</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error - Incomplete track in session</base>
+        <tran loc="es">Error de fijación de sesión - Pista incompleta en la sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Additional Sense Code/Additional Sense Code Qualifier mappings to user nice text. 
+  The string keys are a string rep of the concatenation of the ASC and ASCQ so for instance,
+	"0B01" corresponds to an ASC = 0B and an ASCQ = 01 </Description>
+      <Position>0000</Position>
+      <TranslationSet>
+        <base loc="en">No additional sense information</base>
+        <tran loc="es">No hay más información sobre el sentido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1A00</Position>
+      <TranslationSet>
+        <base loc="en">Parameter list length error</base>
+        <tran loc="es">Error de longitud en la lista de parámetros</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2902</Position>
+      <TranslationSet>
+        <base loc="en">SCSI bus reset occurred</base>
+        <tran loc="es">Reinicio del bus SCSI detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5C01</Position>
+      <TranslationSet>
+        <base loc="en">Spindles synchronized</base>
+        <tran loc="es">Ejes sincronizados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2701</Position>
+      <TranslationSet>
+        <base loc="en">Hardware write protected</base>
+        <tran loc="es">Hardware protegido contra escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C05</Position>
+      <TranslationSet>
+        <base loc="en">Persistent prevent conflict</base>
+        <tran loc="es">Conflicto de prevención persistente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1105</Position>
+      <TranslationSet>
+        <base loc="en">L-EC uncorrectable error</base>
+        <tran loc="es">Error L-EC incorregible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3E01</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit failure</base>
+        <tran loc="es">Error en la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A03</Position>
+      <TranslationSet>
+        <base loc="en">Reservations preempted</base>
+        <tran loc="es">Reservas vaciadas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1500</Position>
+      <TranslationSet>
+        <base loc="en">Random positioning error</base>
+        <tran loc="es">Error de posición aleatoria</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2102</Position>
+      <TranslationSet>
+        <base loc="en">Invalid address for write</base>
+        <tran loc="es">Dirección no válida para grabar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2D00</Position>
+      <TranslationSet>
+        <base loc="en">Overwrite error on update in place</base>
+        <tran loc="es">Error de sobrescritura al actualizar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0013</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation successfully completed</base>
+        <tran loc="es">Operación de reproducción de audio completada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1705</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data using previous sector ID</base>
+        <tran loc="es">Datos recuperados usando el ID del sector anterior</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2F00</Position>
+      <TranslationSet>
+        <base loc="en">Commands cleared by another initiator</base>
+        <tran loc="es">Otro iniciador ha eliminado los comandos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2900</Position>
+      <TranslationSet>
+        <base loc="en">Power on, reset, or bus device reset occurred</base>
+        <tran loc="es">El dispositivo se ha encendido o reiniciado o el bus de comunicación se ha reiniciado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6703</Position>
+      <TranslationSet>
+        <base loc="en">Modification of logical unit failed</base>
+        <tran loc="es">Imposible modificar la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C02</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Auto reallocation failed</base>
+        <tran loc="es">Error de grabación - Fallo en la reasignación automática</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1807</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with ECC - Data rewritten</base>
+        <tran loc="es">Datos recuperados con ECC - Datos regrabados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0200</Position>
+      <TranslationSet>
+        <base loc="en">No seek complete</base>
+        <tran loc="es">Búsqueda incompleta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1802</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data - data auto-reallocated</base>
+        <tran loc="es">Datos recuperados - Reasignación automática de datos efectuada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6400</Position>
+      <TranslationSet>
+        <base loc="en">Illegal mode for this track</base>
+        <tran loc="es">Modo no válido para esta pista</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0015</Position>
+      <TranslationSet>
+        <base loc="en">No current audio status to return</base>
+        <tran loc="es">Estado de audio desconocido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6401</Position>
+      <TranslationSet>
+        <base loc="en">Invalid packet size</base>
+        <tran loc="es">Tamaño de paquetes no válido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0E</Position>
+      <TranslationSet>
+        <base loc="en">Medium source element empty</base>
+        <tran loc="es">Elemento fuente del disco vacío</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1501</Position>
+      <TranslationSet>
+        <base loc="en">Mechanical positioning error</base>
+        <tran loc="es">Error de posición mecánica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A01</Position>
+      <TranslationSet>
+        <base loc="en">Mode parameters changed</base>
+        <tran loc="es">Parámetros de modo modificados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F03</Position>
+      <TranslationSet>
+        <base loc="en">Inquiry data has changed</base>
+        <tran loc="es">Datos de búsqueda modificados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1000</Position>
+      <TranslationSet>
+        <base loc="en">ID CRC or ECC error</base>
+        <tran loc="es">Error CRC o ECC de ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E00</Position>
+      <TranslationSet>
+        <base loc="en">Low power condition on</base>
+        <tran loc="es">Bajo consumo activado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6102</Position>
+      <TranslationSet>
+        <base loc="en">Out of focus</base>
+        <tran loc="es">Desenfocado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0C</Position>
+      <TranslationSet>
+        <base loc="en">Position past beginning of medium</base>
+        <tran loc="es">Intento de posicionamiento antes del inicio del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3501</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported enclosure function</base>
+        <tran loc="es">Función de archivos adjuntos no compatible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0403</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, manual intervention required</base>
+        <tran loc="es">La unidad lógica no está preparada y se requiere una intervención manual</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1703</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with negative head offset</base>
+        <tran loc="es">Datos recuperados con desplazamiento negativo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0301</Position>
+      <TranslationSet>
+        <base loc="en">No write current</base>
+        <tran loc="es">Ninguna grabación en curso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F03</Position>
+      <TranslationSet>
+        <base loc="en">Read of scrambled sector without authentication</base>
+        <tran loc="es">Lectura del sector problemático sin autenticación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2601</Position>
+      <TranslationSet>
+        <base loc="en">Parameter not supported</base>
+        <tran loc="es">Parámetro no admitido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1402</Position>
+      <TranslationSet>
+        <base loc="en">Filemark or setmark not found</base>
+        <tran loc="es">Marca de archivo o marca establecida no encontrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3D00</Position>
+      <TranslationSet>
+        <base loc="en">Invalid bits in identify message</base>
+        <tran loc="es">Bits no válidos en la identificación del mensaje</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1601</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Data rewritten</base>
+        <tran loc="es">Error de sincronización de datos - Regrabación en curso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2100</Position>
+      <TranslationSet>
+        <base loc="en">Logical block address out of range</base>
+        <tran loc="es">Dirección de bloque lógica fuera de rango</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C05</Position>
+      <TranslationSet>
+        <base loc="en">Data expansion occurred during compression</base>
+        <tran loc="es">Error de expansión de datos durante la compresión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4700</Position>
+      <TranslationSet>
+        <base loc="en">SCSI parity error</base>
+        <tran loc="es">Error de paridad SCSI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1B00</Position>
+      <TranslationSet>
+        <base loc="en">Synchronous data transfer error</base>
+        <tran loc="es">Error en la transferencia de datos sincronizada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C03</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recommend reassignment</base>
+        <tran loc="es">Error de grabación - Reasignación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1707</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Recommend reassignment</base>
+        <tran loc="es">Datos recuperados sin ECC - Reasignación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0014</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation stopped due to error</base>
+        <tran loc="es">Operación de reproducción de audio detenida debido a un error</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0005</Position>
+      <TranslationSet>
+        <base loc="en">End of data detected</base>
+        <tran loc="es">Fin de datos detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1806</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data - Recommend rewrite</base>
+        <tran loc="es">Datos recuperados - Regrabación recomendada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A03</Position>
+      <TranslationSet>
+        <base loc="en">Operator selected write permit</base>
+        <tran loc="es">Operador seleccionado con permiso de escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2702</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit software write protected</base>
+        <tran loc="es">Software de la unidad lógica protegido contra escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3800</Position>
+      <TranslationSet>
+        <base loc="en">Buffer underrun</base>
+        <tran loc="es">Búfer sin datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1803</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with CIRC</base>
+        <tran loc="es">Datos recuperados con CIRC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1102</Position>
+      <TranslationSet>
+        <base loc="en">Error too long to correct</base>
+        <tran loc="es">Error demasiado extenso para corregirlo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0A00</Position>
+      <TranslationSet>
+        <base loc="en">Error log overflow</base>
+        <tran loc="es">Error en el registro de errores</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0006</Position>
+      <TranslationSet>
+        <base loc="en">I/O process terminated</base>
+        <tran loc="es">Proceso de E/S finalizado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0904</Position>
+      <TranslationSet>
+        <base loc="en">Head select fault</base>
+        <tran loc="es">Error de selección de cabezal</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7204</Position>
+      <TranslationSet>
+        <base loc="en">Empty or partially written reserved track</base>
+        <tran loc="es">Pista reservada vacía o parcialmente grabada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6706</Position>
+      <TranslationSet>
+        <base loc="en">Attachment of logical unit failed</base>
+        <tran loc="es">Imposible adjuntar la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3900</Position>
+      <TranslationSet>
+        <base loc="en">Saving parameters not supported</base>
+        <tran loc="es">Parámetros de guardar no admitidos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1801</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with error correction and retries applied</base>
+        <tran loc="es">Datos recuperados aplicando corrección de errores y reintentos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4100</Position>
+      <TranslationSet>
+        <base loc="en">Data path failure</base>
+        <tran loc="es">Error en la ruta de datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1300</Position>
+      <TranslationSet>
+        <base loc="en">Address mark not found for data field</base>
+        <tran loc="es">Marca de dirección no encontrada para el campo de datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1900</Position>
+      <TranslationSet>
+        <base loc="en">Defect list error</base>
+        <tran loc="es">Error en la lista de defectos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0300</Position>
+      <TranslationSet>
+        <base loc="en">Peripheral device write fault</base>
+        <tran loc="es">Error al grabar en el dispositivo periférico</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4900</Position>
+      <TranslationSet>
+        <base loc="en">Invalid message error</base>
+        <tran loc="es">Error de mensaje no válido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0B</Position>
+      <TranslationSet>
+        <base loc="en">Position past end of medium</base>
+        <tran loc="es">Intento de posicionamiento después del final del disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0F</Position>
+      <TranslationSet>
+        <base loc="en">End of medium reached</base>
+        <tran loc="es">Final de disco alcanzado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0406</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, recalculation in progress</base>
+        <tran loc="es">La unidad lógica no está preparada y se están recalculando datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0002</Position>
+      <TranslationSet>
+        <base loc="en">End-of-partition/medium detected</base>
+        <tran loc="es">Fin de partición/disco detectado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3500</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services failure</base>
+        <tran loc="es">Error en los servicios de adjuntar archivos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C00</Position>
+      <TranslationSet>
+        <base loc="en">Write error</base>
+        <tran loc="es">Error de grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1108</Position>
+      <TranslationSet>
+        <base loc="en">Incomplete block read</base>
+        <tran loc="es">Error - Bloque incompleto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B08</Position>
+      <TranslationSet>
+        <base loc="en">Reposition error</base>
+        <tran loc="es">Error de reposicionamiento</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3005</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write medium - Incompatible format</base>
+        <tran loc="es">Disco no grabable - Formato incompatible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1702</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with positive head offset</base>
+        <tran loc="es">Datos recuperados con desplazamiento positivo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4400</Position>
+      <TranslationSet>
+        <base loc="en">Internal target failure</base>
+        <tran loc="es">Error en el destino interno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B15</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine unlocked</base>
+        <tran loc="es">Almacén del disco desbloqueado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5302</Position>
+      <TranslationSet>
+        <base loc="en">Medium removal prevented</base>
+        <tran loc="es">Expulsión del disco imposible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1E00</Position>
+      <TranslationSet>
+        <base loc="en">Recovered ID with ECC correction</base>
+        <tran loc="es">ID recuperado mediante corrección ECC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3A00</Position>
+      <TranslationSet>
+        <base loc="en">Medium not present</base>
+        <tran loc="es">Disco ausente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1401</Position>
+      <TranslationSet>
+        <base loc="en">Record not found</base>
+        <tran loc="es">Registro no encontrado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6C00</Position>
+      <TranslationSet>
+        <base loc="en">Rebuild failure occurred</base>
+        <tran loc="es">Error al reconstruir</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A02</Position>
+      <TranslationSet>
+        <base loc="en">Log parameters changed</base>
+        <tran loc="es">Parámetros de registro modificados</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0400</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, cause not reportable</base>
+        <tran loc="es">La unidad lógica no está disponible por motivos desconocidos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6600</Position>
+      <TranslationSet>
+        <base loc="en">Automatic document feeder cover up</base>
+        <tran loc="es">Alimentador automático de papel cerrado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3102</Position>
+      <TranslationSet>
+        <base loc="en">Zoned formatting failed due to spare linking</base>
+        <tran loc="es">Error en el formato de zonas por vinculación sobrante</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3E00</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit has not self-configured yet</base>
+        <tran loc="es">La unidad lógica aún no se ha autoconfigurado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0302</Position>
+      <TranslationSet>
+        <base loc="en">Excessive write errors</base>
+        <tran loc="es">Demasiados errores de grabación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6B00</Position>
+      <TranslationSet>
+        <base loc="en">State change has occurred</base>
+        <tran loc="es">Error de modificación de estado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1104</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error - Auto reallocate failed</base>
+        <tran loc="es">Error de lectura - Fallo de reasignación automática</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0408</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, long write in progress</base>
+        <tran loc="es">La unidad lógica no está preparada y hay una grabación larga en curso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0D</Position>
+      <TranslationSet>
+        <base loc="en">Medium destination element full</base>
+        <tran loc="es">Elemento de destino del disco lleno</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0401</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit is in process of becoming ready</base>
+        <tran loc="es">La unidad lógica se está preparando</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110E</Position>
+      <TranslationSet>
+        <base loc="en">Cannot decompress using declared algorithm</base>
+        <tran loc="es">No es posible descomprimir usando el algoritmo indicado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VENDOR SPECIFIC</Position>
+      <TranslationSet>
+        <base loc="en">VENDOR SPECIFIC (%02X/%02X)</base>
+        <tran loc="es">PROPIO DEL FABRICANTE (%02X/%02X)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1902</Position>
+      <TranslationSet>
+        <base loc="en">Defect list error in primary list</base>
+        <tran loc="es">Error en la lista de defectos primaria</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4000</Position>
+      <TranslationSet>
+        <base loc="en">RAM failure</base>
+        <tran loc="es">Error en la RAM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2700</Position>
+      <TranslationSet>
+        <base loc="en">Write protected</base>
+        <tran loc="es">Protegido contra escritura</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110D</Position>
+      <TranslationSet>
+        <base loc="en">De-compression CRC error</base>
+        <tran loc="es">Error CRC de descompresión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1808</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with linking</base>
+        <tran loc="es">Datos recuperados mediante vinculación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0803</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication CRC error (ULTRA-DMA/32)</base>
+        <tran loc="es">Error CRC (ULTRA-DMA/32) en la comunicación con la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0802</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication parity error</base>
+        <tran loc="es">Error de paridad en la comunicación con la unidad lógica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F04</Position>
+      <TranslationSet>
+        <base loc="en">Media region code is mismatched to logical unit region</base>
+        <tran loc="es">El código de región del disco y la región de la unidad lógica son diferentes</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0001</Position>
+      <TranslationSet>
+        <base loc="en">Filemark detected</base>
+        <tran loc="es">Marca de archivo detectada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1110</Position>
+      <TranslationSet>
+        <base loc="en">Error reading ISRC number</base>
+        <tran loc="es">Error al leer un número ISRC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4B00</Position>
+      <TranslationSet>
+        <base loc="en">Data phase error</base>
+        <tran loc="es">Error de fase de datos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4200</Position>
+      <TranslationSet>
+        <base loc="en">Power-on or self-test failure</base>
+        <tran loc="es">Error de encendido o en la prueba automática</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1400</Position>
+      <TranslationSet>
+        <base loc="en">Recorded entity not found</base>
+        <tran loc="es">Entidad grabada no encontrada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B13</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine inserted</base>
+        <tran loc="es">Almacén del disco insertado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3003</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning cartridge installed</base>
+        <tran loc="es">Cartucho de limpieza instalado</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7300</Position>
+      <TranslationSet>
+        <base loc="en">CD control error</base>
+        <tran loc="es">Error de control del CD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6800</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not configured</base>
+        <tran loc="es">Unidad lógica no configurada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3007</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning failure</base>
+        <tran loc="es">Error de eliminación</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2706</Position>
+      <TranslationSet>
+        <base loc="en">Conditional write protect</base>
+        <tran loc="es">Protección contra escritura condicional</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

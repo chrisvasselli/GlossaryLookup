@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>backupd</ProjName>
+  <File>
+    <Filepath>backupd/System/Library/CoreServices/backupd.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+	error messages - shared with TMPref pane
+	[TODO] most of these error/warning strings are no longer used by backupd. some are shared between backupd
+	       and the pref pane. this late in cab, we can't risk teasing them all apart and moving things around.
+	       we need to audit health check &amp; BACKUP_WARNING_ codes to see which strings should be where, and
+	       how things should be rearranged.
+
+ NO_ERROR</Description>
+      <Position>RESULTCODE_0_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No error.</base>
+        <tran loc="zh-CN">没有错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_RECOVERY_IMAGE_ASK_LATER_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Back Up Later</base>
+        <tran loc="zh-CN">稍后备份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> miscellaneous 
+ UNITS</Description>
+      <Position>KB</Position>
+      <TranslationSet>
+        <base loc="en">KB</base>
+        <tran loc="zh-CN">KB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> standard dry spell title format
+ dry spell minimum is always multiple days</Description>
+      <Position>NC_DRY_SPELL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">No Backups for %llu Days</base>
+        <tran loc="zh-CN">%llu天没有备份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_THINNING_START</Description>
+      <Position>RESULTCODE_1001_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk “%@” is full.</base>
+        <tran loc="zh-CN">备份磁盘“%@”已满。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_FOUND</Description>
+      <Position>NC_RESULTCODE_18_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Disk Not Available</base>
+        <tran loc="zh-CN">备份磁盘不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_MOUNTED</Description>
+      <Position>NC_RESULTCODE_19_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Disk Not Available</base>
+        <tran loc="zh-CN">备份磁盘不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_LOW_BATTERY</Description>
+      <Position>RESULTCODE_101_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the battery charge was low.</base>
+        <tran loc="zh-CN">时间机器未能备份，因为电池电量不足。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_SETUP</Description>
+      <Position>RESULTCODE_2_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to complete backup. An error occurred while creating the backup folder.</base>
+        <tran loc="zh-CN">无法完成备份。创建备份文件夹时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_BUSY</Description>
+      <Position>RESULTCODE_31_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” is already in use.</base>
+        <tran loc="zh-CN">备份磁盘映像“%@”已经在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_LOW_DISK</Description>
+      <Position>RESULTCODE_1000_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk “%@” is almost full.</base>
+        <tran loc="zh-CN">备份磁盘“%@”几乎已满。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Notification Center strings 
+ standard notification buttons</Description>
+      <Position>NC_DETAILS_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Details</base>
+        <tran loc="zh-CN">详细信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_NO_RECENT_BACKUPS</Description>
+      <Position>NC_RESULTCODE_1002_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Check that “%@” is available or select a new disk.</base>
+        <tran loc="zh-CN">请检查“%@”是否可用，或选择新的磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_INITIAL_BACKUP_COMPLETE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine has finished the first backup to “%@”.</base>
+        <tran loc="zh-CN">时间机器已完成了首次备份到“%@”的操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1004_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To install the update, open AirPort Utility. You may need to provide the password for “%@”.</base>
+        <tran loc="zh-CN">若要安装更新，请打开“AirPort实用工具”。您可能需要提供“%@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SPACE_FOR_LOCAL_SNAPSHOT</Description>
+      <Position>RESULTCODE_50_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not create a local snapshot to back up from because there was insufficient free space on the source volume(s).</base>
+        <tran loc="zh-CN">时间机器无法创建本地快照以进行备份，因为源宗卷的可用空间不足。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_CHECKBOX</Position>
+      <TranslationSet>
+        <base loc="en">Do not show this warning again.</base>
+        <tran loc="zh-CN">不再显示此警告。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_ACLS_DISABLED</Description>
+      <Position>RESULTCODE_9_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk does not have Access Control Lists enabled, which is required.</base>
+        <tran loc="zh-CN">备份磁盘没有启用“访问控制列表”（必需启用）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TO_ABANDON_IMAGE -- obsolete
+ RESULTCODE_43_MESSAGE = "Time Machine could not move aside the existing backup disk image “%@”";
+ BACKUP_FAILED_TO_DELETE_IMAGE</Description>
+      <Position>RESULTCODE_44_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not delete the backup disk image “%@”.</base>
+        <tran loc="zh-CN">时间机器未能删除备份磁盘映像“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Open Time Machine Preferences…</base>
+        <tran loc="zh-CN">打开时间机器偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_APFS_ENCRYPTION_IN_PROGRESS</Description>
+      <Position>RESULTCODE_103_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because FileVault was encrypting or decrypting a disk. Backups will resume once FileVault finishes.</base>
+        <tran loc="zh-CN">时间机器未能备份，因为文件保险箱正在加密或解密磁盘。备份将在文件保险箱完成操作后继续。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_18_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Try backing up again when “%@” is available.</base>
+        <tran loc="zh-CN">当“%@”可用时再次尝试备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_19_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Try backing up again when “%@” is available.</base>
+        <tran loc="zh-CN">当“%@”可用时再次尝试备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_ENCRYPTED_WITH_EMPTY_PASSWORD</Description>
+      <Position>RESULTCODE_52_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the backup was encrypted with an empty password. Use Time Machine Preferences to set up a new backup.</base>
+        <tran loc="zh-CN">时间机器未能备份，因为加密备份的密码为空。请使用“时间机器”偏好设置来设置新的备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error dialog buttons </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_CREATED</Description>
+      <Position>RESULTCODE_20_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image could not be created.</base>
+        <tran loc="zh-CN">未能创建备份磁盘映像。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_40_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Make sure the computer and your backup disk are on the same network, and that the backup disk is turned on. Then try again to verify your backups.</base>
+        <tran loc="zh-CN">请确定电脑和您的备份磁盘都在同一个网络上，并且备份磁盘已开启。然后再试一次以验证备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_RECOVERY_IMAGE_NOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Start New Backup</base>
+        <tran loc="zh-CN">开始新建备份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic backup failure message that includes destination name</Description>
+      <Position>NC_GENERIC_BACKUP_ERROR_MESSAGE_WITH_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn‘t back up to “%@”.</base>
+        <tran loc="zh-CN">时间机器未能完成备份到“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_FOUND</Description>
+      <Position>RESULTCODE_18_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk could not be found. Make sure the backup disk is connected or select a different backup disk.</base>
+        <tran loc="zh-CN">找不到备份磁盘。请确定已连接了备份磁盘，或选择其他备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic backup failure message with no destination name
+ (this is a safety fallback -- it should not happen in practice)</Description>
+      <Position>NC_GENERIC_BACKUP_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine encountered an error while backing up.</base>
+        <tran loc="zh-CN">时间机器在备份时遇到了错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETIMAGE_READONLY</Description>
+      <Position>RESULTCODE_38_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine can’t use the disk image because it is read-only.</base>
+        <tran loc="zh-CN">时间机器不能使用该磁盘映像，因为它是只读的。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_FIRMWARE </Description>
+      <Position>RESULTCODE_1004_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine can’t back up to “%@” because the firmware must be updated.</base>
+        <tran loc="zh-CN">时间机器不能备份到“%@”，因为固件必须更新。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine deleted one or more old backups to make room for new backups. The oldest remaining backup is: %@\n\n%@</base>
+        <tran loc="zh-CN">时间机器删除了一个或多个旧备份来为新备份腾出空间。剩余最旧的备份是：%@\n\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SOURCE_VOLUMES</Description>
+      <Position>NC_RESULTCODE_25_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No disks are available to back up.</base>
+        <tran loc="zh-CN">没有可用于备份的磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_OWNERS_DISABLED</Description>
+      <Position>RESULTCODE_5_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while enabling ownership on the backup disk. You may need to repair or erase the disk using Disk Utility. If the disk can’t be repaired, select a different disk for backups.</base>
+        <tran loc="zh-CN">在备份磁盘上启用所有权时出错。您可能需要使用“磁盘工具”来修复或抹掉该磁盘。如果该磁盘不能修复，请选择其他备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNABLE_TO_INHERIT_BACKUP</Description>
+      <Position>RESULTCODE_30_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not inherit “%@” for use with this computer.</base>
+        <tran loc="zh-CN">时间机器无法继承“%@”以用于这台电脑。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_UNSUPPORTED_FS</Description>
+      <Position>RESULTCODE_3_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not in Mac OS Extended (Journaled) format, which is required.</base>
+        <tran loc="zh-CN">该备份磁盘的格式不是“Mac OS扩展（日志式）”（必需格式）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_JOURNALED</Description>
+      <Position>RESULTCODE_6_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not in Mac OS Extended (Journaled) format, which is required.</base>
+        <tran loc="zh-CN">该备份磁盘的格式不是“Mac OS扩展（日志式）”（必需格式）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CULLING_DISABLED</Description>
+      <Position>RESULTCODE_15_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">All expired backups have been removed, but the backup disk is still full. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="zh-CN">已移除所有过期备份，但备份磁盘仍是满的。请选择一个较大的备份磁盘，或通过排除文件来减小备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CULLING_DATELIMIT</Description>
+      <Position>RESULTCODE_16_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">All expired backups have been removed, but the backup disk is still full. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="zh-CN">已移除所有过期备份，但备份磁盘仍是满的。请选择一个较大的备份磁盘，或通过排除文件来减小备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_INTERRUPTION</Description>
+      <Position>RESULTCODE_27_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk may have been ejected or disconnected from the computer.</base>
+        <tran loc="zh-CN">该备份磁盘可能已经被推出或从电脑断开连接。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_1011_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine is backing up an encrypted disk to an unencrypted disk.</base>
+        <tran loc="zh-CN">时间机器正将加密的磁盘备份到未加密的磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_MOUNTED</Description>
+      <Position>RESULTCODE_21_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” could not be accessed (error %@).</base>
+        <tran loc="zh-CN">无法访问备份磁盘映像“%@”（错误%@）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_NEW_BACKUP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Create New Backup</base>
+        <tran loc="zh-CN">新建备份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_42_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Interruptions are usually caused by network problems. Try again after the network problems are resolved.</base>
+        <tran loc="zh-CN">中断通常是由网络问题造成的。请在解决网络问题后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_41_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is read-only or unreadable.</base>
+        <tran loc="zh-CN">备份磁盘是只读的或不可读。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNSUPPORTED_NETWORK_VOLUME</Description>
+      <Position>RESULTCODE_45_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The network backup disk does not support the required capabilities.</base>
+        <tran loc="zh-CN">网络备份磁盘不支持所需功能。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE_DURING_BACKUP</Description>
+      <Position>RESULTCODE_28_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk did not have enough space to complete the backup.</base>
+        <tran loc="zh-CN">此备份磁盘的可用空间不足，无法完成备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_COPY_STAGE</Description>
+      <Position>RESULTCODE_11_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while copying files.</base>
+        <tran loc="zh-CN">拷贝文件时发生错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1000_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">When the backup disk is full, Time Machine will delete old backups to make room for new ones.\n\n%@</base>
+        <tran loc="zh-CN">备份磁盘已满后，时间机器将删除旧备份来给新备份腾出空间。\n\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_RUNNING_ON_BATTERY</Description>
+      <Position>RESULTCODE_100_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the computer was running on battery power.</base>
+        <tran loc="zh-CN">时间机器未能备份，因为电脑正在使用电池供电。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> string which is shown instead of the _SHOWPREFS message for managed prefs configurations </Description>
+      <Position>MANAGED_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine settings on this computer are controlled by Managed Preferences. Contact your System Administrator.</base>
+        <tran loc="zh-CN">这台电脑上的时间机器设置由“管理偏好设置”控制。请与您的系统管理员联系。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB</Position>
+      <TranslationSet>
+        <base loc="en">GB</base>
+        <tran loc="zh-CN">GB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_HIGH_THERMAL_LEVEL</Description>
+      <Position>RESULTCODE_102_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the computer was in a poor thermal state.</base>
+        <tran loc="zh-CN">时间机器未能备份，因为电脑处于过热状态。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1003_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup was created on a different computer. If you inherit this backup, it can no longer be used by the original computer.</base>
+        <tran loc="zh-CN">该备份在另一台电脑上创建。如果您继承此备份，原来那台电脑则可能无法再使用它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_READONLY</Description>
+      <Position>RESULTCODE_8_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Files can’t be copied onto the backup disk because it is read-only. You may need to repair or erase the disk using Disk Utility. If the disk can’t be repaired, select a different disk for backups.</base>
+        <tran loc="zh-CN">无法将文件拷贝到备份磁盘，因为磁盘是只读的。您可能需要使用“磁盘工具”来修复或抹掉该磁盘。如果该磁盘不能修复，请选择其他备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_SPECIFIED</Description>
+      <Position>RESULTCODE_17_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No backup disk has been selected.</base>
+        <tran loc="zh-CN">尚未选择备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> notification delivered upon completion of the initial backup to a destination</Description>
+      <Position>NC_INITIAL_BACKUP_COMPLETE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Complete</base>
+        <tran loc="zh-CN">备份完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_TARGETVOL_CHANGED</Description>
+      <Position>RESULTCODE_1008_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The identity of the backup disk “%@” has changed since the previous backup.</base>
+        <tran loc="zh-CN">自上次备份后，备份磁盘“%@”的标识已更改。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TOO_MUCH_ACTIVITY -- obsolete
+ RESULTCODE_13_MESSAGE = "Too many files changed while backing up.";
+ BACKUP_FAILED_SNAPSHOT_DELETE_FAILED </Description>
+      <Position>RESULTCODE_14_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while attempting to remove expired backups from the backup disk.</base>
+        <tran loc="zh-CN">从备份磁盘移除过期备份时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_MOUNT_LOCAL_SNAPSHOT</Description>
+      <Position>RESULTCODE_49_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not create a local snapshot to back up from.</base>
+        <tran loc="zh-CN">时间机器无法创建本地快照以进行备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> standard backup error title</Description>
+      <Position>NC_BACKUP_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Failed</base>
+        <tran loc="zh-CN">备份失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_100_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Connect the computer to a power outlet while your backup disk is available.</base>
+        <tran loc="zh-CN">当备份磁盘可用时，请将电脑连接到电源插座。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_LAUNCH</Description>
+      <Position>RESULTCODE_1_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to launch Time Machine.</base>
+        <tran loc="zh-CN">无法启动时间机器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CLOCK_WRONG</Description>
+      <Position>RESULTCODE_33_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The system date and time is incorrect.</base>
+        <tran loc="zh-CN">系统的日期与时间不正确。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_LATER_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Back Up Now</base>
+        <tran loc="zh-CN">现在不备份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE</Description>
+      <Position>RESULTCODE_10_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="zh-CN">准备备份时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_EVENT_PATH_OFF_VOLUME</Description>
+      <Position>RESULTCODE_300_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="zh-CN">准备备份时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_DATABASE_GENERATION</Description>
+      <Position>RESULTCODE_301_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="zh-CN">准备备份时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_MISSING_IN_PROGRESS</Description>
+      <Position>RESULTCODE_302_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="zh-CN">准备备份时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_GATHER_EVENTS</Description>
+      <Position>RESULTCODE_303_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="zh-CN">准备备份时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_FAILED_TARGETVOL_READONLY</Description>
+      <Position>RESULTCODE_41_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@”.</base>
+        <tran loc="zh-CN">时间机器未能验证“%@”上的备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INHERIT_BACKUP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Inherit Backup History</base>
+        <tran loc="zh-CN">继承备份历史</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1006_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Click Start New Backup to create a new backup. This will remove your existing backup history. This could take several hours.\n\nClick Back Up Later to be reminded tomorrow. Time Machine won’t perform backups during this time.</base>
+        <tran loc="zh-CN">点按“开始新建备份”来创建新的备份项。这将移除现有的备份历史记录。该过程可能要花几个小时。\n\n点按“稍后备份”，将在明天提醒您备份。时间机器在这期间不会进行备份操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SOURCE_VOLUMES</Description>
+      <Position>RESULTCODE_25_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There are no disks to back up. This can happen if all available disks are in the “Do not back up” list. Click Options to edit the list.</base>
+        <tran loc="zh-CN">没有要进行备份的磁盘。如果所有可用磁盘都在“不备份”列表中，则可能会发生这种情况。请点按“选项”以编辑列表。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_CANCELED</Description>
+      <Position>RESULTCODE_22_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Backup canceled.</base>
+        <tran loc="zh-CN">已取消备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_STATFS_FAILED</Description>
+      <Position>RESULTCODE_4_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to get status of backup disk.</base>
+        <tran loc="zh-CN">无法获得备份磁盘的状态。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_VERIFICATION_INTERRUPTED</Description>
+      <Position>RESULTCODE_42_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@” because verification was interrupted.</base>
+        <tran loc="zh-CN">时间机器未能验证“%@”上的备份，因为验证已被中断。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_NO_RECENT_BACKUPS_RUNNING_ON_BATTERY</Description>
+      <Position>NC_RESULTCODE_1009_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a power outlet while your backup disk is available.</base>
+        <tran loc="zh-CN">当备份磁盘可用时，请连接到电源插座。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_WARNING_TARGETVOL_CHANGED_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Back Up</base>
+        <tran loc="zh-CN">不备份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_AUTHENTICATION_ERROR</Description>
+      <Position>RESULTCODE_29_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The network backup disk could not be accessed because there was a problem with the network username or password. You may need to re-select the backup disk and enter the correct username and password.</base>
+        <tran loc="zh-CN">无法访问网络备份磁盘，因为网络用户名或密码出了问题。您可能需要重新选择备份磁盘并输入正确的用户名和密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_INHERIT_BACKUPS</Description>
+      <Position>RESULTCODE_1003_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Would you like this computer to inherit the backup history from “%@” on the “%@” backup disk?</base>
+        <tran loc="zh-CN">您要让这台电脑继承“%2$@”备份磁盘上的“%1$@”的备份历史吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1000_SHOWPREFS</Position>
+      <TranslationSet>
+        <base loc="en">If you prefer to keep all your old backups, open Time Machine preferences to select a new backup disk.</base>
+        <tran loc="zh-CN">如果您要保留所有旧备份，请打开时间机器偏好设置以选择新的备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE</Description>
+      <Position>RESULTCODE_7_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk needs %@ for the backup but only %@ are available. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="zh-CN">备份磁盘需要%@进行备份，但只有%@可用。请选择一个较大的备份磁盘，或通过排除文件来减小备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MB</Position>
+      <TranslationSet>
+        <base loc="en">MB</base>
+        <tran loc="zh-CN">MB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_BUSY</Description>
+      <Position>NC_RESULTCODE_31_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup on “%@” is already in use.</base>
+        <tran loc="zh-CN">“%@”上的备份已在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_FOUND</Description>
+      <Position>RESULTCODE_32_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” could not be found.</base>
+        <tran loc="zh-CN">无法找到备份磁盘映像“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_DELETE_IMAGE </Description>
+      <Position>RESULTCODE_1006_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine completed a verification of your backups on “%@”. To improve reliability, Time Machine must create a new backup for you.</base>
+        <tran loc="zh-CN">时间机器已验证完您的备份“%@”。若要增强可靠性，时间机器必须创建新备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIME_MACHINE_ERROR_ON_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t complete the backup to “%@”.</base>
+        <tran loc="zh-CN">时间机器未能完成备份到“%@”的操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_WARNING_TARGETVOL_CHANGED_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Use This Disk</base>
+        <tran loc="zh-CN">使用此磁盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1008_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk may have been replaced or erased, or someone may be trying to trick your computer into backing up to the wrong disk.</base>
+        <tran loc="zh-CN">该磁盘可能已被更换或抹掉，或者有人可能正尝试诱骗您的电脑备份到错误的磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_MOUNTED</Description>
+      <Position>RESULTCODE_19_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not available. Make sure the backup disk is connected or select a different backup disk.</base>
+        <tran loc="zh-CN">备份磁盘不可用。请确定已连接了备份磁盘，或选择其他备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_FAILED_TARGETVOL_RESOLUTION_FAILED</Description>
+      <Position>RESULTCODE_40_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@” because the backup disk is not available.</base>
+        <tran loc="zh-CN">时间机器未能验证“%@”上的备份，因为备份磁盘不可用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_UNENCRYPTED_DESTINATION</Description>
+      <Position>NC_RESULTCODE_1011_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Not Encrypted</base>
+        <tran loc="zh-CN">备份未加密</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE_DURING_BACKUP</Description>
+      <Position>NC_RESULTCODE_28_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There isn’t enough space on “%@”.</base>
+        <tran loc="zh-CN">“%@”上没有足够的空间。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE</Description>
+      <Position>NC_RESULTCODE_7_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There isn’t enough space on “%@”.</base>
+        <tran loc="zh-CN">“%@”上没有足够的空间。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPORT_UTILITY_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Open AirPort Utility…</base>
+        <tran loc="zh-CN">打开AirPort实用工具…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error dialog default title </Description>
+      <Position>TIME_MACHINE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t complete the backup.</base>
+        <tran loc="zh-CN">时间机器未能完成该备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_SHOWPREFS</Position>
+      <TranslationSet>
+        <base loc="en">To preserve your older backups, you should attach a new or larger backup disk and then select it in Time Machine preferences. If you don’t change to a new backup disk, Time Machine will delete additional old backups to make space for new ones.</base>
+        <tran loc="zh-CN">若要保留较旧的备份，您应该连接一个新的或较大的备份磁盘，然后在时间机器偏好设置中选择它。如果不更改为新的备份磁盘，则时间机器会删除额外的旧备份来为新备份腾出空间。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_LINK_SOURCE</Description>
+      <Position>RESULTCODE_12_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while linking files on the backup disk.</base>
+        <tran loc="zh-CN">链接备份磁盘上的文件时出错。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_LONGER_ENCRYPTED</Description>
+      <Position>RESULTCODE_39_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the backup disk was previously encrypted but is no longer encrypted.</base>
+        <tran loc="zh-CN">时间机器未能备份，因为备份磁盘之前被加密而现在已不再加密。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_PRIMARY_NETWORK_INTERFACE -- obsolete
+ RESULTCODE_34_MESSAGE = "The computer does not have a primary network interface.";
+ BACKUP_FAILED_BOOT_COOKIE_NOT_FOUND -- obsolete
+ RESULTCODE_35_MESSAGE = "Time Machine couldn’t find some of its settings.\n\n%@";
+ RESULTCODE_35_SHOWPREFS = "To reestablish Time Machine’s settings, open Time Machine Preferences and reselect the backup disk.";
+ BACKUP_FAILED_DESTINATION_COOKIE_NOT_FOUND -- obsolete
+ RESULTCODE_36_MESSAGE = "Time Machine couldn’t find some of its settings on the backup disk “%@”.\n\nMake sure the backup disk is connected, and that other connected disks don’t use the same name as the backup disk.\n\n%@";
+ RESULTCODE_36_SHOWPREFS = "To reestablish Time Machine’s settings, open Time Machine Preferences and reselect the backup disk.";
+ BACKUP_FAILED_DISK_SOURCE_INTERRUPTION</Description>
+      <Position>RESULTCODE_37_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">One of the disks being backed up may have been ejected or disconnected from the computer.</base>
+        <tran loc="zh-CN">正在备份的其中一个磁盘可能已经被推出或从电脑断开连接。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_FOUND</Description>
+      <Position>NC_RESULTCODE_32_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup could not be found on “%@”.</base>
+        <tran loc="zh-CN">在“%@”上找不到备份磁盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNKNOWN</Description>
+      <Position>RESULTCODE_999_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Error code: %@</base>
+        <tran loc="zh-CN">出错代码：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TB</Position>
+      <TranslationSet>
+        <base loc="en">TB</base>
+        <tran loc="zh-CN">TB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DUPLICATE_VOLNAMES</Description>
+      <Position>RESULTCODE_24_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Two of the disks to back up have the same name. Rename one of the disks named “%@”.</base>
+        <tran loc="zh-CN">要备份的磁盘中有两个名称相同。请将其中一个名称为“%@”的磁盘重新命名。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_1011_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NETWORK_INTERRUPTION</Description>
+      <Position>RESULTCODE_26_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A network problem interrupted the backup. Make sure the computer and the backup disk are on the same network, and that the backup disk is turned on. Then try again to back up.</base>
+        <tran loc="zh-CN">一个网络问题中断了备份。请确定电脑和备份磁盘都在同一个网络上，并且备份磁盘已开启，然后，请再次尝试备份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CASE_SENSITIVITY</Description>
+      <Position>RESULTCODE_23_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A disk you are backing up is case-sensitive, but the backup disk is not. Select a different backup disk or exclude the case-sensitive disk from backups.</base>
+        <tran loc="zh-CN">您正在备份的磁盘区分大小写，但备份磁盘不区分。请选择其他磁盘或将区分大小写的磁盘从备份中排除。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>backupd/System/Library/CoreServices/backupd.bundle/Contents/Resources/en.lproj/MDDateFormatter.strings</Filepath>
+    <TextItem>
+      <Description>*
+ 
+*	filename: MDDateFormatter.strings
+ 
+*	created : Tue Jun  8 10:03:00 2004
+ 
+*	LastEditDate Was "Tue Jun  8 10:03:24 2004"
+ 
+*
+ </Description>
+      <Position>NO_DATE</Position>
+      <TranslationSet>
+        <base loc="en">No Date</base>
+        <tran loc="zh-CN">无日期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The format is: DATE, TIME </Description>
+      <Position>DATE_TIME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, %2$@</base>
+        <tran loc="zh-CN">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YESTERDAY</Position>
+      <TranslationSet>
+        <base loc="en">Yesterday</base>
+        <tran loc="zh-CN">昨天</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Date format we want the date to look like
+ 
+* August 26 (or something suitable in the language)
+ 
+* in english its MMMM d
+ 
+* in japanese it the format would be M月d日
+ </Description>
+      <Position>MONTH_DAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">MMMM d</base>
+        <tran loc="zh-CN">M月d日</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Today</base>
+        <tran loc="zh-CN">今天</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,3479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AssistantUIX</ProjName>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/BuddyEnableSiri.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Enable Ask Siri"; ObjectID = "7cJ-zm-bTr"; </Description>
+      <Position>7cJ-zm-bTr.title</Position>
+      <TranslationSet>
+        <base loc="en">Enable Ask Siri</base>
+        <tran loc="zh-TW">啟用「跟Siri對話」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "About Siri &amp; Privacy…"; ObjectID = "NP3-yL-ZZ3"; </Description>
+      <Position>NP3-yL-ZZ3.title</Position>
+      <TranslationSet>
+        <base loc="en">About Siri &amp; Privacy…</base>
+        <tran loc="zh-TW">關於Siri與隱私權⋯</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/Copy %d item(s):dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Copy %d items</base>
+        <tran loc="zh-TW">拷貝%d個項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Copy %d item(s):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="zh-TW">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/ControlStrip.app/Contents/XPCServices/com.apple.DFRSystemExtra.Siri.xpc/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AssistantUIX
+
+  Created by Nat Hillard on 8/8/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+</Description>
+      <Position>AXDescription</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="zh-TW">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/PlugIns/SiriTodayExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Display name and description for this extension. </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">SiriTodayExtension</base>
+        <tran loc="zh-TW">SiriTodayExtension</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>com.apple.notificationcenter.widget.description</Position>
+      <TranslationSet>
+        <base loc="en">Sample description</base>
+        <tran loc="zh-TW">範例描述</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_DIRECT_ACTION_INTERSTITIAL_1</Position>
+      <TranslationSet>
+        <base loc="en">Just a Moment…</base>
+        <tran loc="zh-TW">請稍候⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMPROVE_SIRI_INFORMATION</Position>
+      <TranslationSet>
+        <base loc="en">Help Apple improve Siri and Dictation by allowing Apple to store audio of your Siri and Dictation interactions from this Mac. Apple may review a sample of stored audio. You can change this later in System Preferences.\n\nThis data is not associated with your Apple ID, and will only be stored for a limited period.</base>
+        <tran loc="zh-TW">允許Apple儲存您在此Mac上與Siri和「聽寫」的互動音訊，以便協助Apple改進Siri和「聽寫」。Apple可能會檢視已儲存的音訊樣本。您可以稍後在「系統偏好設定」中更改此設定。\n\n此資料不會與您的Apple ID產生關聯，並且只會儲存一段時間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility action description for scrolling up</Description>
+      <Position>AX_TRANSCRIPT_SCROLL_VIEW_UP_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Scroll up</base>
+        <tran loc="zh-TW">向上捲動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Win percentage</Description>
+      <Position>PCT</Position>
+      <TranslationSet>
+        <base loc="en">PCT</base>
+        <tran loc="zh-TW">勝率</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for button that brings up the people picker</Description>
+      <Position>CHOOSE_CONTACT_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Other…</base>
+        <tran loc="zh-TW">其他人⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAAI</Position>
+      <TranslationSet>
+        <base loc="en">MUSIC</base>
+        <tran loc="zh-TW">音樂</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Player stats</Description>
+      <Position>METADATA_VALUE_NAME_PAIR %@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ %@</base>
+        <tran loc="zh-TW">%@ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SASports Additions
+ Player</Description>
+      <Position>ROSTER_NAME_AND_LOCATION_FORMAT %@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ %@</base>
+        <tran loc="zh-TW">%@ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "12h" for something posted twelve hours ago</Description>
+      <Position>POST_DATE_RELATIVE_HOURS</Position>
+      <TranslationSet>
+        <base loc="en">%1$@h</base>
+        <tran loc="zh-TW">%1$@小時</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_CONNECTION_FAILED_3</Position>
+      <TranslationSet>
+        <base loc="en">You may be attempting a connection to an internal Siri Server but are not on Apple’s internal network.</base>
+        <tran loc="zh-TW">您正試著連接內部Siri伺服器，但未連接Apple內部網路。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAReminder</Position>
+      <TranslationSet>
+        <base loc="en">REMINDERS</base>
+        <tran loc="zh-TW">提醒事項</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SASetting</Position>
+      <TranslationSet>
+        <base loc="en">SYSTEM PREFERENCES</base>
+        <tran loc="zh-TW">系統偏好設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUEST_UNLOCK</Position>
+      <TranslationSet>
+        <base loc="en">You’ll have to unlock your Mac first.</base>
+        <tran loc="zh-TW">您需要先解鎖Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SPEAKABLE_REQUEST_UNLOCK</Position>
+      <TranslationSet>
+        <base loc="en">You’ll have to unlock your Mac first.</base>
+        <tran loc="zh-TW">您需要先解鎖Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Points Against</Description>
+      <Position>GA</Position>
+      <TranslationSet>
+        <base loc="en">GA</base>
+        <tran loc="zh-TW">失分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAMac</Position>
+      <TranslationSet>
+        <base loc="en">FINDER SEARCH</base>
+        <tran loc="zh-TW">FINDER搜尋</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAStock</Position>
+      <TranslationSet>
+        <base loc="en">STOCKS</base>
+        <tran loc="zh-TW">股市</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MILES_ABBREVIATION</Position>
+      <TranslationSet>
+        <base loc="en">mi</base>
+        <tran loc="zh-TW">英里</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The text "@{tts#\033\\pause=500\\}" inserts a pause for the text to speech engine. Localizations should remove or adjust this value as appropriate for the language.</Description>
+      <Position>SPEAKABLE_PUNCHOUT_FAILURE_FOR_APP</Position>
+      <TranslationSet>
+        <base loc="en">I can’t do that…@{tts#\033\\pause=500\\} you don’t have the %@ app installed.</base>
+        <tran loc="zh-TW">無法完成⋯@{tts#\033\\pause=500\\}您尚未安裝「%@」App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Review dates</Description>
+      <Position>LESS_THAN_ONE_DAY_HOURS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ HOURS AGO</base>
+        <tran loc="zh-TW">%@小時前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable</base>
+        <tran loc="zh-TW">啟用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NO_SOUND_ACTION_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open Sound Preferences</base>
+        <tran loc="zh-TW">打開「聲音」偏好設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label (default) for collection views</Description>
+      <Position>AX_COLLECTION_VIEW_DEFAULT_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Details</base>
+        <tran loc="zh-TW">詳細資訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMPROVE_SIRI_ABOUT_LINK</Position>
+      <TranslationSet>
+        <base loc="en">About Improve Siri and Dictation…</base>
+        <tran loc="zh-TW">關於改進Siri和聽寫⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Wins</Description>
+      <Position>W</Position>
+      <TranslationSet>
+        <base loc="en">W</base>
+        <tran loc="zh-TW">勝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Draws (British synonym for tie)</Description>
+      <Position>D</Position>
+      <TranslationSet>
+        <base loc="en">D</base>
+        <tran loc="zh-TW">和</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility Strings 
+ Accessibility labels for Siri microphone button
+ this should not be "Ask Siri" as the microphone button really is aboout audio input</Description>
+      <Position>AX_FLAMES_SIRI_IDLE_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Talk to Siri</base>
+        <tran loc="zh-TW">跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REVIEWS_PLURAL_ON_PROVIDER_LOGO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ REVIEWS on </base>
+        <tran loc="zh-TW">%@則評論，來自</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Date displayed in schedule view</Description>
+      <Position>SCHEDULE_DATE_FORMAT_TEMPLATE</Position>
+      <TranslationSet>
+        <base loc="en">jmz</base>
+        <tran loc="zh-TW">jmz</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFmf</Position>
+      <TranslationSet>
+        <base loc="en">FIND MY FRIENDS</base>
+        <tran loc="zh-TW">尋找我的朋友</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUALIFICATION_POSITION_FORMAT_CONFERENCE</Position>
+      <TranslationSet>
+        <base loc="en">z - %@</base>
+        <tran loc="zh-TW">z﹣%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unit abbreviations</Description>
+      <Position>FEET_ABBREVIATION</Position>
+      <TranslationSet>
+        <base loc="en">ft</base>
+        <tran loc="zh-TW">英尺</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAEmail</Position>
+      <TranslationSet>
+        <base loc="en">MAIL</base>
+        <tran loc="zh-TW">郵件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label for the collection view containing the conversation</Description>
+      <Position>AX_TRANSCRIPT_SCROLL_VIEW_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Conversation</base>
+        <tran loc="zh-TW">對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INSTALL_APP_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Install %@</base>
+        <tran loc="zh-TW">安裝「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELAYED_SCHEDULE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Delayed – %@</base>
+        <tran loc="zh-TW">比賽延後– %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAMicroblog</Position>
+      <TranslationSet>
+        <base loc="en">SOCIAL</base>
+        <tran loc="zh-TW">社群</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_RESTRICTED_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HITS_SHORT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">H</base>
+        <tran loc="zh-TW">安\n打</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "32s" for something posted 32 seconds ago</Description>
+      <Position>POST_DATE_RELATIVE_SECONDS</Position>
+      <TranslationSet>
+        <base loc="en">%1$@s</base>
+        <tran loc="zh-TW">%1$@秒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Group Names</Description>
+      <Position>SAAB</Position>
+      <TranslationSet>
+        <base loc="en">CONTACTS</base>
+        <tran loc="zh-TW">聯絡人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility action description for scrolling down</Description>
+      <Position>AX_TRANSCRIPT_SCROLL_VIEW_DOWN_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Scroll down</base>
+        <tran loc="zh-TW">向下捲動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUALIFICATION_POSITION_FORMAT_DIVISION</Position>
+      <TranslationSet>
+        <base loc="en">y - %@</base>
+        <tran loc="zh-TW">y﹣%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAUS</Position>
+      <TranslationSet>
+        <base loc="en">UNIVERSAL SEARCH</base>
+        <tran loc="zh-TW">全域搜尋</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SACalendar</Position>
+      <TranslationSet>
+        <base loc="en">CALENDAR</base>
+        <tran loc="zh-TW">行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Points</Description>
+      <Position>PTS</Position>
+      <TranslationSet>
+        <base loc="en">PTS</base>
+        <tran loc="zh-TW">積分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NOT_READY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Siri is adding new users every day. You will receive an alert when you can start using Siri.</base>
+        <tran loc="zh-TW">Siri每天都在增加新的使用者。當您可以開始使用Siri時，將會收到提示。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LESS_THAN_ONE_MINUTE_AGO</Position>
+      <TranslationSet>
+        <base loc="en">LESS THAN 1 MINUTE AGO</base>
+        <tran loc="zh-TW">少於1分鐘之前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_CONNECTION_FAILED_2</Position>
+      <TranslationSet>
+        <base loc="en">Hmm… I’m having a problem with the connection. Please try again in a little bit.</base>
+        <tran loc="zh-TW">哎呀⋯連線時發生問題。請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility custom text attribute to describe a word that siri could have heard something alternate for.</Description>
+      <Position>AX_ALTERNATIVE_TEXT_ATTRIBUTE</Position>
+      <TranslationSet>
+        <base loc="en">Alternate Transcriptions</base>
+        <tran loc="zh-TW">替用聽寫記錄</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_CANCEL_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_ROUTE_PICKER_CANCEL_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These strings are used when we have a provider string.
+ Argument is name of provider (e.g. Yelp!)</Description>
+      <Position>REVIEW_SINGULAR_ON_PROVIDER_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">1 REVIEW on %@</base>
+        <tran loc="zh-TW">1則%@的評論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_zh-CN</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in Mandarin</base>
+        <tran loc="zh-TW">用國語跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label for the collection view containing the suggestions</Description>
+      <Position>AX_TRANSCRIPT_SUGGESTIONS_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Suggestions</base>
+        <tran loc="zh-TW">建議</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SASms</Position>
+      <TranslationSet>
+        <base loc="en">MESSAGES</base>
+        <tran loc="zh-TW">訊息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_PRIVACY_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Siri Privacy…</base>
+        <tran loc="zh-TW">Siri隱私權⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cardinal ranking position. Example: "4 - Bayern Munich"</Description>
+      <Position>CARDINAL_POSITION_FORMAT %@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ - %@</base>
+        <tran loc="zh-TW">%@ - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_PRIVACY_INFORMATIVE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Siri sends information like your voice input, contacts, and location to Apple to process your requests.</base>
+        <tran loc="zh-TW">Siri會將一些資訊，如您的語音輸入、聯絡人和位置等傳送給Apple來處理您的要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Losses</Description>
+      <Position>L</Position>
+      <TranslationSet>
+        <base loc="en">L</base>
+        <tran loc="zh-TW">敗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_TRY_AGAIN</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, could you say that again?</base>
+        <tran loc="zh-TW">不好意思，可以再說一次嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility action description for stashing Siri content cards</Description>
+      <Position>AX_CARD_STASH_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Stash this card into Notification Center</base>
+        <tran loc="zh-TW">將此名片隱藏在通知中心</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Period plus time remaining. Example: "Quarter 3, 12:30"</Description>
+      <Position>PERIOD_TIME_REMAINING_PAIR %@, %@</Position>
+      <TranslationSet>
+        <base loc="en">%@, %@</base>
+        <tran loc="zh-TW">%@ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_CONNECTION_FAILED_1</Position>
+      <TranslationSet>
+        <base loc="en">I’m having some trouble with the connection. Please try again in a moment.</base>
+        <tran loc="zh-TW">連線時發生一些問題。請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Column header for player/team statistics</Description>
+      <Position>STANDINGS_PLAYER</Position>
+      <TranslationSet>
+        <base loc="en">Player</base>
+        <tran loc="zh-TW">球員</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAClock</Position>
+      <TranslationSet>
+        <base loc="en">WORLD CLOCK</base>
+        <tran loc="zh-TW">世界時鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_RESTRICTED_INFORMATIVE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">For more information, contact the person who set up your account.</base>
+        <tran loc="zh-TW">如需更多資訊，請聯絡為您建立帳號的人員。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SASports</Position>
+      <TranslationSet>
+        <base loc="en">SPORTS</base>
+        <tran loc="zh-TW">運動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SALocalSearch</Position>
+      <TranslationSet>
+        <base loc="en">MAPS</base>
+        <tran loc="zh-TW">地圖</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAMovieV2</Position>
+      <TranslationSet>
+        <base loc="en">MOVIES</base>
+        <tran loc="zh-TW">影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SARestaurant</Position>
+      <TranslationSet>
+        <base loc="en">RESTAURANTS</base>
+        <tran loc="zh-TW">餐廳</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Location</Description>
+      <Position>LOC</Position>
+      <TranslationSet>
+        <base loc="en">Location</base>
+        <tran loc="zh-TW">位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Set up language selection</Description>
+      <Position>ASK_SIRI_IN_%@</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in %@</base>
+        <tran loc="zh-TW">用%@跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Very short greeting used to warm the speech synthesizer</Description>
+      <Position>SIRI_PREHEAT_PHRASE</Position>
+      <TranslationSet>
+        <base loc="en">Hello</base>
+        <tran loc="zh-TW">哈囉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NOT_READY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">You can start using Siri soon.</base>
+        <tran loc="zh-TW">您很快就可以開始使用Siri。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_FLAMES_SIRI_THINKING_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Siri is thinking</base>
+        <tran loc="zh-TW">Siri正在思考</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Improve Siri &amp; Dictation</Description>
+      <Position>IMPROVE_SIRI_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Improve Siri &amp; Dictation</base>
+        <tran loc="zh-TW">改進Siri與聽寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label for the summary view</Description>
+      <Position>AX_PLACEHOLDER_LABEL_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Placeholder for %@</base>
+        <tran loc="zh-TW">%@的暫存區</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility titles for window level buttons</Description>
+      <Position>AX_CLOSE_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NO_SOUND_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Siri was unable to hear you. Please check that your microphone is connected and selected in Sound Preferences.</base>
+        <tran loc="zh-TW">Siri無法聽見您的聲音。請檢查麥克風是否已連接，並在「聲音」偏好設定中選取該麥克風。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LESS_THAN_ONE_HOUR_MINUTES_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ MINUTES AGO</base>
+        <tran loc="zh-TW">%@分鐘前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These strings are to be used when the provider is an image rather than a string.</Description>
+      <Position>REVIEW_SINGULAR_ON_PROVIDER_LOGO</Position>
+      <TranslationSet>
+        <base loc="en">1 REVIEW on </base>
+        <tran loc="zh-TW">1則評論，來自</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_SET_UP_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable…</base>
+        <tran loc="zh-TW">啟用⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to show a post was made in the past</Description>
+      <Position>POST_DATE_TIME_AGO</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ ago</base>
+        <tran loc="zh-TW">%1$@前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERROR_SNIPPET_TITLE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Content Not Available</base>
+        <tran loc="zh-TW">無法取得內容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These strings are used when the provider name or logo is missing.</Description>
+      <Position>REVIEW_SINGULAR</Position>
+      <TranslationSet>
+        <base loc="en">1 REVIEW</base>
+        <tran loc="zh-TW">1則評論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_leader</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in:</base>
+        <tran loc="zh-TW">跟Siri對話，使用：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_BACK_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="zh-TW">上一步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Standings playoff qualifications. Example: "x - Bulls"</Description>
+      <Position>QUALIFICATION_POSITION_FORMAT_PLAYOFFS</Position>
+      <TranslationSet>
+        <base loc="en">x - %@</base>
+        <tran loc="zh-TW">x﹣%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Headers for totals in baseball scoreboard view</Description>
+      <Position>RUNS_SHORT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">R</base>
+        <tran loc="zh-TW">得\n分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAWeather</Position>
+      <TranslationSet>
+        <base loc="en">WEATHER</base>
+        <tran loc="zh-TW">天氣</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label for the Siri window</Description>
+      <Position>AX_WINDOW_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="zh-TW">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMPROVE_SIRI_OPT_OUT_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility role description for the card content view</Description>
+      <Position>AX_CARD_CONTENT_ROLE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">snippet</base>
+        <tran loc="zh-TW">片段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_REPORT_PROBLEM_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Report Problem</base>
+        <tran loc="zh-TW">回報問題</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Games behind</Description>
+      <Position>GB</Position>
+      <TranslationSet>
+        <base loc="en">GB</base>
+        <tran loc="zh-TW">勝差</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POSTPONED_SCHEDULE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Postponed – %@</base>
+        <tran loc="zh-TW">比賽延期– %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> e.g. "3m" for something posted three minutes ago</Description>
+      <Position>POST_DATE_RELATIVE_MINUTES</Position>
+      <TranslationSet>
+        <base loc="en">%1$@m</base>
+        <tran loc="zh-TW">%1$@分鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAGK</Position>
+      <TranslationSet>
+        <base loc="en">GENERAL KNOWLEDGE</base>
+        <tran loc="zh-TW">一般知識</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status for games in schedule</Description>
+      <Position>FINAL_SCHEDULE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Final – %@</base>
+        <tran loc="zh-TW">比賽結束– %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_MIC_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Siri Audio Problem</base>
+        <tran loc="zh-TW">Siri語音問題</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCELED_SCHEDULE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Canceled – %@</base>
+        <tran loc="zh-TW">比賽取消– %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ties</Description>
+      <Position>T</Position>
+      <TranslationSet>
+        <base loc="en">T</base>
+        <tran loc="zh-TW">和</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Header for total/runs score in schedule view</Description>
+      <Position>TOTAL_SHORT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">T</base>
+        <tran loc="zh-TW">總計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SiriUICard drag out PNG file name</Description>
+      <Position>SIRI_RESULT_BASENAME</Position>
+      <TranslationSet>
+        <base loc="en">Siri Result</base>
+        <tran loc="zh-TW">Siri結果</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_INTERNET_CONECTION_LOST_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Internet connection lost</base>
+        <tran loc="zh-TW">Internet連線中斷</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label for the card pin button</Description>
+      <Position>AX_STASH_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Pin to Notification Center</base>
+        <tran loc="zh-TW">固定顯示於通知中心</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMPROVE_SIRI_INFORMATION_BUDDY</Position>
+      <TranslationSet>
+        <base loc="en">Help Apple improve Siri and Dictation by allowing Apple to store audio of your Siri and\nDictation interactions from this Mac. Apple may review a sample of stored audio.\nYou can change this later in System Preferences. This data is not associated with\nyour Apple ID, and will only be stored for a limited period.</base>
+        <tran loc="zh-TW">允許Apple儲存您在此Mac上與Siri和「聽寫」的互動音訊，以便協助Apple改進Siri和「聽寫」。\nApple可能會檢視已儲存的音訊樣本。您可以稍後在「系統偏好設定」中更改此設定。\n此資料不會與您的Apple ID產生關聯，並且只會儲存一段時間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STANDINGS_TEAM</Position>
+      <TranslationSet>
+        <base loc="en">Team</base>
+        <tran loc="zh-TW">球隊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for venue + location, e.g. "United Center – Chicago, IL"</Description>
+      <Position>VENUE_LOCATION_FORMAT %@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ – %@</base>
+        <tran loc="zh-TW">%@ – %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility action description for editing user utterances</Description>
+      <Position>AX_EDIT_UTTERANCE_ACTION_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Edit utterance</base>
+        <tran loc="zh-TW">編輯發音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label (default) for collection view cells</Description>
+      <Position>AX_CONTENT_COLLECTION_VIEW_CELL_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="zh-TW">項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAPhone</Position>
+      <TranslationSet>
+        <base loc="en">FACETIME</base>
+        <tran loc="zh-TW">FACETIME</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Points For</Description>
+      <Position>GF</Position>
+      <TranslationSet>
+        <base loc="en">GF</base>
+        <tran loc="zh-TW">得分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ERRORS_SHORT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">E</base>
+        <tran loc="zh-TW">失\n誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NOT_AVAILABLE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Siri Not Available</base>
+        <tran loc="zh-TW">無法使用Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>METERS_ABBREVIATION</Position>
+      <TranslationSet>
+        <base loc="en">m</base>
+        <tran loc="zh-TW">公尺</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_CONNECTION_FAILED_0</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, I’m having trouble with the connection. Please try again in a moment.</base>
+        <tran loc="zh-TW">很抱歉，連線時發生一些問題。請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Post dates
+ the relative time for a tweet that was posted less than a second ago</Description>
+      <Position>POST_DATE_RELATIVE_NOW</Position>
+      <TranslationSet>
+        <base loc="en">now</base>
+        <tran loc="zh-TW">現在</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMPROVE_SIRI_OPT_IN_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Share Audio Recordings</base>
+        <tran loc="zh-TW">分享錄音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_LISTENING_NUDGE_COMPACT</Position>
+      <TranslationSet>
+        <base loc="en">Go ahead, I’m listening…</base>
+        <tran loc="zh-TW">請開始，我正在聆聽⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_LISTENING_NUDGE_REGULAR</Position>
+      <TranslationSet>
+        <base loc="en">Go ahead, I’m listening…</base>
+        <tran loc="zh-TW">請開始，我正在聆聽⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NO_NETWORK_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">You are not connected to the Internet.</base>
+        <tran loc="zh-TW">您尚未連接Internet。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_yue-CN</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in Cantonese</base>
+        <tran loc="zh-TW">用粵語跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_zh-HK</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in Cantonese</base>
+        <tran loc="zh-TW">用粵語跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_DIRECT_ACTION_INTERSTITIAL_0</Position>
+      <TranslationSet>
+        <base loc="en">One Moment…</base>
+        <tran loc="zh-TW">請稍候⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Switch_Off</Position>
+      <TranslationSet>
+        <base loc="en">OFF</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_HELP_BUTTON_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-TW">輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AX_FLAMES_SIRI_LISTENING_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Siri is listening</base>
+        <tran loc="zh-TW">Siri正在聆聽</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for Scoreboard header score</Description>
+      <Position>SCOREBOARD_SCORE_TITLE %@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%@-%@</base>
+        <tran loc="zh-TW">%@-%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Overtime losses</Description>
+      <Position>OTL</Position>
+      <TranslationSet>
+        <base loc="en">OTL</base>
+        <tran loc="zh-TW">延敗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KILOMETERS_ABBREVIATION</Position>
+      <TranslationSet>
+        <base loc="en">km</base>
+        <tran loc="zh-TW">公里</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Concatenation of height and weight for an athlete
+Example: "5'7" 130lb".   %1$@ is the height, and $2$@ is the weight</Description>
+      <Position>HEIGHT_AND_WEIGHT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="zh-TW">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SANote</Position>
+      <TranslationSet>
+        <base loc="en">NOTES</base>
+        <tran loc="zh-TW">備忘錄</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_NO_MICROPHONE_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Connect a microphone</base>
+        <tran loc="zh-TW">連接麥克風</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_TYPE_TO_SIRI_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">Unlock your Mac for Type to Siri</base>
+        <tran loc="zh-TW">解鎖Mac以執行「輸入來和Siri對話」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAAnswer</Position>
+      <TranslationSet>
+        <base loc="en">WOLFRAM ALPHA</base>
+        <tran loc="zh-TW">WOLFRAM ALPHA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Time displayed for games that day with an unscheduled time</Description>
+      <Position>TO_BE_DETERMINED</Position>
+      <TranslationSet>
+        <base loc="en">TBD</base>
+        <tran loc="zh-TW">待決定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> regular device width specific variant allows localization to set a custom line break when we have more available horizontal space</Description>
+      <Position>ASSISTANT_INITIAL_QUERY</Position>
+      <TranslationSet>
+        <base loc="en">What can I help you with?</base>
+        <tran loc="zh-TW">有什麼我可以幫忙的嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_INITIAL_QUERY_COMPACT</Position>
+      <TranslationSet>
+        <base loc="en">What can I help you with?</base>
+        <tran loc="zh-TW">有什麼我可以幫忙的嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_INITIAL_QUERY_REGULAR</Position>
+      <TranslationSet>
+        <base loc="en">What can I help you with?</base>
+        <tran loc="zh-TW">有什麼我可以幫忙的嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Siri Restricted</Description>
+      <Position>SIRI_RESTRICTED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You do not have permission to use Siri</base>
+        <tran loc="zh-TW">您沒有使用Siri的權限</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REVIEWS_PLURAL_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ REVIEWS</base>
+        <tran loc="zh-TW">%@則評論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Set up</Description>
+      <Position>SETUP_ENABLE_ASK_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to enable Ask Siri?</base>
+        <tran loc="zh-TW">您要啟用「跟Siri對話」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Accessibility label for Type to Siri's text field</Description>
+      <Position>AX_TYPE_TO_SIRI_TEXT_FIELD_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Type to Siri</base>
+        <tran loc="zh-TW">輸入來和Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_TYPE_TO_SIRI</Position>
+      <TranslationSet>
+        <base loc="en">Type to Siri</base>
+        <tran loc="zh-TW">輸入來和Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> First argument is number of reviews. Second argument is provider of the reviews (e.g. Yelp!)</Description>
+      <Position>REVIEWS_PLURAL_ON_PROVIDER_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ REVIEWS on %2$@</base>
+        <tran loc="zh-TW">%1$@則%2$@的評論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PUNCHOUT_FAILURE_FOR_APP</Position>
+      <TranslationSet>
+        <base loc="en">I can’t do that… you don’t have the %@ app installed.</base>
+        <tran loc="zh-TW">無法完成⋯您尚未安裝「%@」App。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>SiriUISwitch
+ Switch On/Off. Use I/O for other languages</Description>
+      <Position>Switch_On</Position>
+      <TranslationSet>
+        <base loc="en">ON</base>
+        <tran loc="zh-TW">開啟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAMP</Position>
+      <TranslationSet>
+        <base loc="en">MEDIA</base>
+        <tran loc="zh-TW">媒體</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_RESTRICTED_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI_RESTRICTED_INFORMATIVE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">For more information, contact the person who set up your account.</base>
+        <tran loc="zh-TW">如需更多資訊，請聯絡為您建立帳號的人員。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AssistantUIX
+
+  Created by Linden Siahaan on 2/2/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+
+ Siri Restricted</Description>
+      <Position>SIRI_RESTRICTED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You do not have permission to use Siri</base>
+        <tran loc="zh-TW">您沒有使用Siri的權限</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/Buddy.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CHOOSE_LANGUAGE_AMBIGUOUS_LANGUAGE</Position>
+      <TranslationSet>
+        <base loc="en">Siri supports several languages for your region. Selecting a language\nwill also apply to dictation. You can change this later in System Preferences.</base>
+        <tran loc="zh-TW">Siri在您的地區支援幾種語言。您選擇的語言\n也會套用至聽寫。您可以稍後於「系統偏好設定」中更改語言。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SIRI_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Siri helps you get things done just by asking. Siri can also make suggestions before you ask in apps,\nsearch, and keyboards. Apple stores transcripts of your interactions with Siri and may review a subset\nof these transcripts. Siri also sends information like your voice input, Hey Siri setup, contacts\nand location to Apple to process your request. Data is not associated with your Apple ID.</base>
+        <tran loc="zh-TW">只要您說一聲，Siri便可以幫您搞定大小事。Siri也可以在您於App、\n搜尋和使用鍵盤詢問之前即提供建議。Apple會儲存您與Siri互動的聽寫記錄並可能檢閱其\n子集。Siri也會將一些資訊，如您的語音輸入、「嘿Siri」設定、聯絡人\n和位置等傳送給Apple來處理您的要求。資料不會和您的Apple ID產生關聯。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_zh-CN</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in Mandarin</base>
+        <tran loc="zh-TW">用國語跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHOOSE_LANGUAGE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Select Your Language for Siri</base>
+        <tran loc="zh-TW">選取您的Siri語言</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_%@</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in %@</base>
+        <tran loc="zh-TW">用%@跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Buddy.strings
+  AssistantUIX
+
+  Created by Chris Nebel on 3/11/17.
+  Copyright © 2017 Apple Inc. All rights reserved.
+</Description>
+      <Position>ENABLE_SIRI_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="zh-TW">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_yue-CN</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in Cantonese</base>
+        <tran loc="zh-TW">用粵語跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_SIRI_IN_zh-HK</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in Cantonese</base>
+        <tran loc="zh-TW">用粵語跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHOOSE_LANGUAGE_NO_LANGUAGE</Position>
+      <TranslationSet>
+        <base loc="en">Siri does not support any languages for your region, but you may use\nany of the languages shown here. Selecting a language will also apply\nto dictation. You can change this later in System Preferences.</base>
+        <tran loc="zh-TW">Siri不支援您所在地區的任何語言，但您可使用此處顯示的任何語言。\n語言選擇也會套用到聽寫。您可以稍後在「系統偏好設定」中更改此設定。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/SiriUICardHeaderViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "SUMMARY TITLE"; ObjectID = "OBD-wv-6UZ"; </Description>
+      <Position>OBD-wv-6UZ.title</Position>
+      <TranslationSet>
+        <base loc="en">SUMMARY TITLE</base>
+        <tran loc="zh-TW">摘要標題</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/SiriUISetupAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Ask Siri in %@"; ObjectID = "eSW-uU-gMo"; </Description>
+      <Position>eSW-uU-gMo.title</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in %@</base>
+        <tran loc="zh-TW">用%@跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Ask Siri in %@"; ObjectID = "oT6-4d-GVW"; </Description>
+      <Position>oT6-4d-GVW.title</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in %@</base>
+        <tran loc="zh-TW">用%@跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Ask Siri in:"; ObjectID = "uaH-3z-IfN"; </Description>
+      <Position>uaH-3z-IfN.title</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in:</base>
+        <tran loc="zh-TW">跟Siri對話，使用：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/Resources/en.lproj/SiriNCService.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSViewController"; title = "Alert View Controller"; ObjectID = "vj5-mV-EH0"; </Description>
+      <Position>vj5-mV-EH0.title</Position>
+      <TranslationSet>
+        <base loc="en">Alert View Controller</base>
+        <tran loc="zh-TW">提示顯示方式控制器</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/PlugIns/SiriTodayExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AssistantUIX
+
+  Created by Nat Hillard on 4/14/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+</Description>
+      <Position>UPDATE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Could not update</base>
+        <tran loc="zh-TW">無法更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_FILE_RESULTS</Position>
+      <TranslationSet>
+        <base loc="en">No Files Found</base>
+        <tran loc="zh-TW">找不到檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_LESS</Position>
+      <TranslationSet>
+        <base loc="en">Show less…</base>
+        <tran loc="zh-TW">顯示較少資訊⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHOW_MORE</Position>
+      <TranslationSet>
+        <base loc="en">Show more…</base>
+        <tran loc="zh-TW">顯示更多資訊⋯</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/BuddyChooseLanguage.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "About Siri &amp; Privacy…"; ObjectID = "NP3-yL-ZZ3"; </Description>
+      <Position>NP3-yL-ZZ3.title</Position>
+      <TranslationSet>
+        <base loc="en">About Siri &amp; Privacy…</base>
+        <tran loc="zh-TW">關於Siri與隱私權⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Ask Siri in %@"; ObjectID = "1iN-MM-ykJ"; </Description>
+      <Position>1iN-MM-ykJ.title</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in %@</base>
+        <tran loc="zh-TW">用%@跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Ask Siri in %@"; ObjectID = "ss4-Ay-Mfk"; </Description>
+      <Position>ss4-Ay-Mfk.title</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in %@</base>
+        <tran loc="zh-TW">用%@跟Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Ask Siri in"; ObjectID = "UEq-fr-ofD"; </Description>
+      <Position>UEq-fr-ofD.title</Position>
+      <TranslationSet>
+        <base loc="en">Ask Siri in</base>
+        <tran loc="zh-TW">跟Siri對話，使用</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/SiriTranscript.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSCollectionView"; ibExternalAccessibilityDescription = "Transcript"; ObjectID = "qPo-r7-eNn"; </Description>
+      <Position>qPo-r7-eNn.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Transcript</base>
+        <tran loc="zh-TW">聽寫記錄</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/Resources/en.lproj/Main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Ruler"; ObjectID = "vLm-3I-IUL"; </Description>
+      <Position>vLm-3I-IUL.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Ruler</base>
+        <tran loc="zh-TW">顯示尺標</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Page Setup…"; ObjectID = "qIS-W8-SiK"; </Description>
+      <Position>qIS-W8-SiK.title</Position>
+      <TranslationSet>
+        <base loc="en">Page Setup…</base>
+        <tran loc="zh-TW">設定頁面⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste Style"; ObjectID = "vKC-jM-MkH"; </Description>
+      <Position>vKC-jM-MkH.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste Style</base>
+        <tran loc="zh-TW">貼上樣式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; </Description>
+      <Position>pa3-QI-u2k.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste Ruler"; ObjectID = "LVM-kO-fVI"; </Description>
+      <Position>LVM-kO-fVI.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste Ruler</base>
+        <tran loc="zh-TW">貼上尺標</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9"; </Description>
+      <Position>IAo-SY-fd9.title</Position>
+      <TranslationSet>
+        <base loc="en">Open…</base>
+        <tran loc="zh-TW">打開⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "HFQ-gK-NFA"; </Description>
+      <Position>HFQ-gK-NFA.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Replacement</base>
+        <tran loc="zh-TW">替代文字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "hz2-CU-CR7"; </Description>
+      <Position>hz2-CU-CR7.title</Position>
+      <TranslationSet>
+        <base loc="en">Check Document Now</base>
+        <tran loc="zh-TW">立即檢查文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "78Y-hA-62v"; </Description>
+      <Position>78Y-hA-62v.title</Position>
+      <TranslationSet>
+        <base loc="en">Correct Spelling Automatically</base>
+        <tran loc="zh-TW">自動更正拼字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "HFo-cy-zxI"; </Description>
+      <Position>HFo-cy-zxI.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Spelling and Grammar</base>
+        <tran loc="zh-TW">顯示拼字和文法檢查</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Revert to Saved"; ObjectID = "KaW-ft-85H"; </Description>
+      <Position>KaW-ft-85H.title</Position>
+      <TranslationSet>
+        <base loc="en">Revert to Saved</base>
+        <tran loc="zh-TW">回復成儲存過的版本</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Baseline"; ObjectID = "OaQ-X3-Vso"; </Description>
+      <Position>OaQ-X3-Vso.title</Position>
+      <TranslationSet>
+        <base loc="en">Baseline</base>
+        <tran loc="zh-TW">基線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Baseline"; ObjectID = "ijk-EB-dga"; </Description>
+      <Position>ijk-EB-dga.title</Position>
+      <TranslationSet>
+        <base loc="en">Baseline</base>
+        <tran loc="zh-TW">基線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paragraph"; ObjectID = "ZvO-Gk-QUH"; </Description>
+      <Position>ZvO-Gk-QUH.title</Position>
+      <TranslationSet>
+        <base loc="en">Paragraph</base>
+        <tran loc="zh-TW">段落</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "Oyz-dy-DGm"; </Description>
+      <Position>Oyz-dy-DGm.title</Position>
+      <TranslationSet>
+        <base loc="en">Stop Speaking</base>
+        <tran loc="zh-TW">停止朗讀</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "Dv1-io-Yv7"; </Description>
+      <Position>Dv1-io-Yv7.title</Position>
+      <TranslationSet>
+        <base loc="en">Spelling and Grammar</base>
+        <tran loc="zh-TW">拼字和文法檢查</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Save…"; ObjectID = "pxx-59-PXV"; </Description>
+      <Position>pxx-59-PXV.title</Position>
+      <TranslationSet>
+        <base loc="en">Save…</base>
+        <tran loc="zh-TW">儲存⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "YEy-JH-Tfz"; </Description>
+      <Position>YEy-JH-Tfz.title</Position>
+      <TranslationSet>
+        <base loc="en">Find and Replace…</base>
+        <tran loc="zh-TW">尋找與取代⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "S0p-oC-mLd"; </Description>
+      <Position>S0p-oC-mLd.title</Position>
+      <TranslationSet>
+        <base loc="en">Jump to Selection</base>
+        <tran loc="zh-TW">跳至所選範圍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Justify"; ObjectID = "J5U-5w-g23"; </Description>
+      <Position>J5U-5w-g23.title</Position>
+      <TranslationSet>
+        <base loc="en">Justify</base>
+        <tran loc="zh-TW">齊行</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "Q5e-8K-NDq"; </Description>
+      <Position>Q5e-8K-NDq.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Fonts</base>
+        <tran loc="zh-TW">顯示字體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; </Description>
+      <Position>AYu-sK-qS6.title</Position>
+      <TranslationSet>
+        <base loc="en">Main Menu</base>
+        <tran loc="zh-TW">主選單</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "snW-S8-Cw5"; </Description>
+      <Position>snW-S8-Cw5.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Toolbar</base>
+        <tran loc="zh-TW">顯示工具列</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Font"; ObjectID = "Gi5-1S-RQB"; </Description>
+      <Position>Gi5-1S-RQB.title</Position>
+      <TranslationSet>
+        <base loc="en">Font</base>
+        <tran loc="zh-TW">字體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Font"; ObjectID = "aXa-aM-Jaq"; </Description>
+      <Position>aXa-aM-Jaq.title</Position>
+      <TranslationSet>
+        <base loc="en">Font</base>
+        <tran loc="zh-TW">字體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "vNY-rz-j42"; </Description>
+      <Position>vNY-rz-j42.title</Position>
+      <TranslationSet>
+        <base loc="en">Clear Menu</base>
+        <tran loc="zh-TW">清除選單</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Print…"; ObjectID = "aTl-1u-JFS"; </Description>
+      <Position>aTl-1u-JFS.title</Position>
+      <TranslationSet>
+        <base loc="en">Print…</base>
+        <tran loc="zh-TW">列印⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Subscript"; ObjectID = "I0S-gh-46l"; </Description>
+      <Position>I0S-gh-46l.title</Position>
+      <TranslationSet>
+        <base loc="en">Subscript</base>
+        <tran loc="zh-TW">下標</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "z6F-FW-3nz"; </Description>
+      <Position>z6F-FW-3nz.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Substitutions</base>
+        <tran loc="zh-TW">顯示替代項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Selection"; ObjectID = "cqv-fj-IhA"; </Description>
+      <Position>cqv-fj-IhA.title</Position>
+      <TranslationSet>
+        <base loc="en">Selection</base>
+        <tran loc="zh-TW">所選範圍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Ligatures"; ObjectID = "o6e-r0-MWq"; </Description>
+      <Position>o6e-r0-MWq.title</Position>
+      <TranslationSet>
+        <base loc="en">Ligatures</base>
+        <tran loc="zh-TW">連字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Ligatures"; ObjectID = "w0m-vy-SC9"; </Description>
+      <Position>w0m-vy-SC9.title</Position>
+      <TranslationSet>
+        <base loc="en">Ligatures</base>
+        <tran loc="zh-TW">連字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; </Description>
+      <Position>H8h-7b-M4v.title</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-TW">顯示方式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; </Description>
+      <Position>HyV-fh-RgO.title</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-TW">顯示方式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use Default"; ObjectID = "3Om-Ey-2VK"; </Description>
+      <Position>3Om-Ey-2VK.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Default</base>
+        <tran loc="zh-TW">使用預設值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use Default"; ObjectID = "GUa-eO-cwY"; </Description>
+      <Position>GUa-eO-cwY.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Default</base>
+        <tran loc="zh-TW">使用預設值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use Default"; ObjectID = "agt-UL-0e3"; </Description>
+      <Position>agt-UL-0e3.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Default</base>
+        <tran loc="zh-TW">使用預設值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; </Description>
+      <Position>5QF-Oa-p0T.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-TW">編輯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; </Description>
+      <Position>W48-6f-4Dl.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-TW">編輯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "hQb-2v-fYv"; </Description>
+      <Position>hQb-2v-fYv.title</Position>
+      <TranslationSet>
+        <base loc="en">Smart Quotes</base>
+        <tran loc="zh-TW">智慧型引號</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; </Description>
+      <Position>NMo-om-nkz.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-TW">服務</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; </Description>
+      <Position>hz9-B4-Xy5.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-TW">服務</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Align Left"; ObjectID = "ZM1-6Q-yy1"; </Description>
+      <Position>ZM1-6Q-yy1.title</Position>
+      <TranslationSet>
+        <base loc="en">Align Left</base>
+        <tran loc="zh-TW">齊左</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Center"; ObjectID = "VIY-Ag-zcb"; </Description>
+      <Position>VIY-Ag-zcb.title</Position>
+      <TranslationSet>
+        <base loc="en">Center</base>
+        <tran loc="zh-TW">置中</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; </Description>
+      <Position>Kd2-mp-pUS.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-TW">顯示全部</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Italic"; ObjectID = "Vjx-xi-njq"; </Description>
+      <Position>Vjx-xi-njq.title</Position>
+      <TranslationSet>
+        <base loc="en">Italic</base>
+        <tran loc="zh-TW">斜體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; </Description>
+      <Position>gVA-U4-sdL.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="zh-TW">貼上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Superscript"; ObjectID = "Rqc-34-cIF"; </Description>
+      <Position>Rqc-34-cIF.title</Position>
+      <TranslationSet>
+        <base loc="en">Superscript</base>
+        <tran loc="zh-TW">上標</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; </Description>
+      <Position>OwM-mh-QMV.title</Position>
+      <TranslationSet>
+        <base loc="en">Find Previous</base>
+        <tran loc="zh-TW">尋找上一個</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; </Description>
+      <Position>bib-Uj-vzu.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-TW">檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; </Description>
+      <Position>dMs-cI-mzQ.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-TW">檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "buJ-ug-pKt"; </Description>
+      <Position>buJ-ug-pKt.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Selection for Find</base>
+        <tran loc="zh-TW">使用所選範圍尋找</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy Ruler"; ObjectID = "MkV-Pr-PK5"; </Description>
+      <Position>MkV-Pr-PK5.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy Ruler</base>
+        <tran loc="zh-TW">拷貝尺標</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bold"; ObjectID = "GB9-OM-e27"; </Description>
+      <Position>GB9-OM-e27.title</Position>
+      <TranslationSet>
+        <base loc="en">Bold</base>
+        <tran loc="zh-TW">粗體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "5Vv-lz-BsD"; </Description>
+      <Position>5Vv-lz-BsD.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy Style</base>
+        <tran loc="zh-TW">拷貝樣式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use None"; ObjectID = "J7y-lM-qPV"; </Description>
+      <Position>J7y-lM-qPV.title</Position>
+      <TranslationSet>
+        <base loc="en">Use None</base>
+        <tran loc="zh-TW">不使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use None"; ObjectID = "cDB-IK-hbR"; </Description>
+      <Position>cDB-IK-hbR.title</Position>
+      <TranslationSet>
+        <base loc="en">Use None</base>
+        <tran loc="zh-TW">不使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Transformations"; ObjectID = "2oI-Rn-ZJC"; </Description>
+      <Position>2oI-Rn-ZJC.title</Position>
+      <TranslationSet>
+        <base loc="en">Transformations</base>
+        <tran loc="zh-TW">轉換</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Transformations"; ObjectID = "c8a-y6-VQd"; </Description>
+      <Position>c8a-y6-VQd.title</Position>
+      <TranslationSet>
+        <base loc="en">Transformations</base>
+        <tran loc="zh-TW">轉換</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; </Description>
+      <Position>DVo-aG-piG.title</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; </Description>
+      <Position>R4o-n2-Eq4.title</Position>
+      <TranslationSet>
+        <base loc="en">Zoom</base>
+        <tran loc="zh-TW">縮放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Siri"; ObjectID = "Olw-nP-bQN"; </Description>
+      <Position>Olw-nP-bQN.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Siri</base>
+        <tran loc="zh-TW">隱藏Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Data Detectors"; ObjectID = "tRr-pd-1PS"; </Description>
+      <Position>tRr-pd-1PS.title</Position>
+      <TranslationSet>
+        <base loc="en">Data Detectors</base>
+        <tran loc="zh-TW">資料偵測器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Siri"; ObjectID = "4sb-4s-VLi"; </Description>
+      <Position>4sb-4s-VLi.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Siri</base>
+        <tran loc="zh-TW">結束Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; </Description>
+      <Position>dRJ-4n-Yzg.title</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="zh-TW">還原</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find Next"; ObjectID = "q09-fT-Sye"; </Description>
+      <Position>q09-fT-Sye.title</Position>
+      <TranslationSet>
+        <base loc="en">Find Next</base>
+        <tran loc="zh-TW">尋找下一個</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; </Description>
+      <Position>BOF-NM-1cW.title</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="zh-TW">偏好設定⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; </Description>
+      <Position>OY7-WF-poV.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="zh-TW">縮到最小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Open Recent"; ObjectID = "oas-Oc-fiZ"; </Description>
+      <Position>oas-Oc-fiZ.title</Position>
+      <TranslationSet>
+        <base loc="en">Open Recent</base>
+        <tran loc="zh-TW">打開最近使用過的檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws"; </Description>
+      <Position>tXI-mr-wws.title</Position>
+      <TranslationSet>
+        <base loc="en">Open Recent</base>
+        <tran loc="zh-TW">打開最近使用過的檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "WeT-3V-zwk"; </Description>
+      <Position>WeT-3V-zwk.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste and Match Style</base>
+        <tran loc="zh-TW">貼上並符合樣式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "mK6-2p-4JG"; </Description>
+      <Position>mK6-2p-4JG.title</Position>
+      <TranslationSet>
+        <base loc="en">Check Grammar With Spelling</base>
+        <tran loc="zh-TW">檢查拼字文法</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; </Description>
+      <Position>Vdr-fp-XzO.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-TW">隱藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; </Description>
+      <Position>6dh-zS-Vam.title</Position>
+      <TranslationSet>
+        <base loc="en">Redo</base>
+        <tran loc="zh-TW">重做</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "New"; ObjectID = "Was-JA-tGl"; </Description>
+      <Position>Was-JA-tGl.title</Position>
+      <TranslationSet>
+        <base loc="en">New</base>
+        <tran loc="zh-TW">新增</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Siri Help"; ObjectID = "FKE-Sm-Kum"; </Description>
+      <Position>FKE-Sm-Kum.title</Position>
+      <TranslationSet>
+        <base loc="en">Siri Help</base>
+        <tran loc="zh-TW">Siri輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Tighten"; ObjectID = "46P-cB-AYj"; </Description>
+      <Position>46P-cB-AYj.title</Position>
+      <TranslationSet>
+        <base loc="en">Tighten</base>
+        <tran loc="zh-TW">緊密</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Align Right"; ObjectID = "wb2-vD-lq4"; </Description>
+      <Position>wb2-vD-lq4.title</Position>
+      <TranslationSet>
+        <base loc="en">Align Right</base>
+        <tran loc="zh-TW">齊右</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Spelling"; ObjectID = "3IN-sU-3Bg"; </Description>
+      <Position>3IN-sU-3Bg.title</Position>
+      <TranslationSet>
+        <base loc="en">Spelling</base>
+        <tran loc="zh-TW">拼字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Siri"; ObjectID = "1Xt-HY-uBw"; </Description>
+      <Position>1Xt-HY-uBw.title</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="zh-TW">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Siri"; ObjectID = "uQy-DD-JDr"; </Description>
+      <Position>uQy-DD-JDr.title</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="zh-TW">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Lower"; ObjectID = "1tx-W0-xDw"; </Description>
+      <Position>1tx-W0-xDw.title</Position>
+      <TranslationSet>
+        <base loc="en">Lower</base>
+        <tran loc="zh-TW">調低</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "9yt-4B-nSM"; </Description>
+      <Position>9yt-4B-nSM.title</Position>
+      <TranslationSet>
+        <base loc="en">Smart Copy/Paste</base>
+        <tran loc="zh-TW">智慧型拷貝/貼上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; </Description>
+      <Position>x3v-GG-iWU.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="zh-TW">拷貝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; </Description>
+      <Position>1b7-l0-nxx.title</Position>
+      <TranslationSet>
+        <base loc="en">Find</base>
+        <tran loc="zh-TW">尋找</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find"; ObjectID = "4EN-yA-p0u"; </Description>
+      <Position>4EN-yA-p0u.title</Position>
+      <TranslationSet>
+        <base loc="en">Find</base>
+        <tran loc="zh-TW">尋找</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Kern"; ObjectID = "jBQ-r6-VK2"; </Description>
+      <Position>jBQ-r6-VK2.title</Position>
+      <TranslationSet>
+        <base loc="en">Kern</base>
+        <tran loc="zh-TW">字元間距</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Kern"; ObjectID = "tlD-Oa-oAM"; </Description>
+      <Position>tlD-Oa-oAM.title</Position>
+      <TranslationSet>
+        <base loc="en">Kern</base>
+        <tran loc="zh-TW">字元間距</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Format"; ObjectID = "GEO-Iw-cKr"; </Description>
+      <Position>GEO-Iw-cKr.title</Position>
+      <TranslationSet>
+        <base loc="en">Format</base>
+        <tran loc="zh-TW">格式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Format"; ObjectID = "jxT-CU-nIS"; </Description>
+      <Position>jxT-CU-nIS.title</Position>
+      <TranslationSet>
+        <base loc="en">Format</base>
+        <tran loc="zh-TW">格式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use All"; ObjectID = "xQD-1f-W4t"; </Description>
+      <Position>xQD-1f-W4t.title</Position>
+      <TranslationSet>
+        <base loc="en">Use All</base>
+        <tran loc="zh-TW">使用全部</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "Nop-cj-93Q"; </Description>
+      <Position>Nop-cj-93Q.title</Position>
+      <TranslationSet>
+        <base loc="en">\tDefault</base>
+        <tran loc="zh-TW">\t預設值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "YGs-j5-SAR"; </Description>
+      <Position>YGs-j5-SAR.title</Position>
+      <TranslationSet>
+        <base loc="en">\tDefault</base>
+        <tran loc="zh-TW">\t預設值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Save As…"; ObjectID = "Bw7-FT-i3A"; </Description>
+      <Position>Bw7-FT-i3A.title</Position>
+      <TranslationSet>
+        <base loc="en">Save As…</base>
+        <tran loc="zh-TW">儲存為⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "9ic-FL-obx"; </Description>
+      <Position>9ic-FL-obx.title</Position>
+      <TranslationSet>
+        <base loc="en">Substitutions</base>
+        <tran loc="zh-TW">替代</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Substitutions"; ObjectID = "FeM-D8-WVr"; </Description>
+      <Position>FeM-D8-WVr.title</Position>
+      <TranslationSet>
+        <base loc="en">Substitutions</base>
+        <tran loc="zh-TW">替代</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "Ynk-f8-cLZ"; </Description>
+      <Position>Ynk-f8-cLZ.title</Position>
+      <TranslationSet>
+        <base loc="en">Start Speaking</base>
+        <tran loc="zh-TW">開始朗讀</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Underline"; ObjectID = "WRG-CD-K1S"; </Description>
+      <Position>WRG-CD-K1S.title</Position>
+      <TranslationSet>
+        <base loc="en">Underline</base>
+        <tran loc="zh-TW">底線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Text"; ObjectID = "Fal-I4-PZk"; </Description>
+      <Position>Fal-I4-PZk.title</Position>
+      <TranslationSet>
+        <base loc="en">Text</base>
+        <tran loc="zh-TW">文字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Text"; ObjectID = "d9c-me-L2H"; </Description>
+      <Position>d9c-me-L2H.title</Position>
+      <TranslationSet>
+        <base loc="en">Text</base>
+        <tran loc="zh-TW">文字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "UEZ-Bs-lqG"; </Description>
+      <Position>UEZ-Bs-lqG.title</Position>
+      <TranslationSet>
+        <base loc="en">Capitalize</base>
+        <tran loc="zh-TW">首字大寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; </Description>
+      <Position>Td7-aD-5lo.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; </Description>
+      <Position>aUF-d1-5bR.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bigger"; ObjectID = "Ptp-SP-VEL"; </Description>
+      <Position>Ptp-SP-VEL.title</Position>
+      <TranslationSet>
+        <base loc="en">Bigger</base>
+        <tran loc="zh-TW">放大</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "vmV-6d-7jI"; </Description>
+      <Position>vmV-6d-7jI.title</Position>
+      <TranslationSet>
+        <base loc="en">Make Upper Case</base>
+        <tran loc="zh-TW">大寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; </Description>
+      <Position>Ruw-6m-B2m.title</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="zh-TW">全選</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; </Description>
+      <Position>F2S-fz-NVQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-TW">輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; </Description>
+      <Position>wpr-3q-Mcd.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-TW">輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Siri"; ObjectID = "5kV-Vb-QxS"; </Description>
+      <Position>5kV-Vb-QxS.title</Position>
+      <TranslationSet>
+        <base loc="en">About Siri</base>
+        <tran loc="zh-TW">關於Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "RB4-Sm-HuC"; </Description>
+      <Position>RB4-Sm-HuC.title</Position>
+      <TranslationSet>
+        <base loc="en">\tRight to Left</base>
+        <tran loc="zh-TW">\t由右至左</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "jFq-tB-4Kx"; </Description>
+      <Position>jFq-tB-4Kx.title</Position>
+      <TranslationSet>
+        <base loc="en">\tRight to Left</base>
+        <tran loc="zh-TW">\t由右至左</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; </Description>
+      <Position>uRl-iY-unG.title</Position>
+      <TranslationSet>
+        <base loc="en">Cut</base>
+        <tran loc="zh-TW">剪下</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "BgM-ve-c93"; </Description>
+      <Position>BgM-ve-c93.title</Position>
+      <TranslationSet>
+        <base loc="en">\tLeft to Right</base>
+        <tran loc="zh-TW">\t由左至右</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "Lbh-J2-qVU"; </Description>
+      <Position>Lbh-J2-qVU.title</Position>
+      <TranslationSet>
+        <base loc="en">\tLeft to Right</base>
+        <tran loc="zh-TW">\t由左至右</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "cwL-P1-jid"; </Description>
+      <Position>cwL-P1-jid.title</Position>
+      <TranslationSet>
+        <base loc="en">Smart Links</base>
+        <tran loc="zh-TW">智慧型連結</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find…"; ObjectID = "Xz5-n4-O0W"; </Description>
+      <Position>Xz5-n4-O0W.title</Position>
+      <TranslationSet>
+        <base loc="en">Find…</base>
+        <tran loc="zh-TW">尋找⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; </Description>
+      <Position>1UK-8n-QPP.title</Position>
+      <TranslationSet>
+        <base loc="en">Customize Toolbar…</base>
+        <tran loc="zh-TW">自訂工具列⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "rbD-Rh-wIN"; </Description>
+      <Position>rbD-Rh-wIN.title</Position>
+      <TranslationSet>
+        <base loc="en">Check Spelling While Typing</base>
+        <tran loc="zh-TW">在輸入時同步檢查拼字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Speech"; ObjectID = "3rS-ZA-NoH"; </Description>
+      <Position>3rS-ZA-NoH.title</Position>
+      <TranslationSet>
+        <base loc="en">Speech</base>
+        <tran loc="zh-TW">語音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Speech"; ObjectID = "xrE-MZ-jX0"; </Description>
+      <Position>xrE-MZ-jX0.title</Position>
+      <TranslationSet>
+        <base loc="en">Speech</base>
+        <tran loc="zh-TW">語音</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "d9M-CD-aMd"; </Description>
+      <Position>d9M-CD-aMd.title</Position>
+      <TranslationSet>
+        <base loc="en">Make Lower Case</base>
+        <tran loc="zh-TW">小寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Colors"; ObjectID = "bgn-CT-cEk"; </Description>
+      <Position>bgn-CT-cEk.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Colors</base>
+        <tran loc="zh-TW">顯示顏色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Loosen"; ObjectID = "ogc-rX-tC1"; </Description>
+      <Position>ogc-rX-tC1.title</Position>
+      <TranslationSet>
+        <base loc="en">Loosen</base>
+        <tran loc="zh-TW">寬鬆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Raise"; ObjectID = "2h7-ER-AoG"; </Description>
+      <Position>2h7-ER-AoG.title</Position>
+      <TranslationSet>
+        <base loc="en">Raise</base>
+        <tran loc="zh-TW">調高</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; </Description>
+      <Position>LE2-aR-0XJ.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="zh-TW">將此程式所有視窗移至最前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "rgM-f4-ycn"; </Description>
+      <Position>rgM-f4-ycn.title</Position>
+      <TranslationSet>
+        <base loc="en">Smart Dashes</base>
+        <tran loc="zh-TW">智慧型破折號</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Writing Direction"; ObjectID = "8mr-sm-Yjd"; </Description>
+      <Position>8mr-sm-Yjd.title</Position>
+      <TranslationSet>
+        <base loc="en">Writing Direction</base>
+        <tran loc="zh-TW">書寫方向</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Writing Direction"; ObjectID = "H1b-Si-o9J"; </Description>
+      <Position>H1b-Si-o9J.title</Position>
+      <TranslationSet>
+        <base loc="en">Writing Direction</base>
+        <tran loc="zh-TW">書寫方向</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Smaller"; ObjectID = "i1d-Er-qST"; </Description>
+      <Position>i1d-Er-qST.title</Position>
+      <TranslationSet>
+        <base loc="en">Smaller</base>
+        <tran loc="zh-TW">縮小</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/PlugIns/SiriTodayExtension.appex/Contents/Resources/en.lproj/STVErrorViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;Could not update&gt;&gt;"; ObjectID = "lvf-lk-4wo"; </Description>
+      <Position>lvf-lk-4wo.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;Could not update&gt;&gt;</base>
+        <tran loc="zh-TW">&lt;&lt;無法更新&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/CoreServices/Siri.app/Contents/PlugIns/SiriTodayExtension.appex/Contents/Resources/en.lproj/STVShowMoreViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Show More"; ObjectID = "hVH-9o-HSR"; </Description>
+      <Position>hVH-9o-HSR.title</Position>
+      <TranslationSet>
+        <base loc="en">Show More</base>
+        <tran loc="zh-TW">顯示更多</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/BuddyVoiceTriggerIntro.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Set Up Later"; ObjectID = "NP3-yL-ZZ3"; </Description>
+      <Position>NP3-yL-ZZ3.title</Position>
+      <TranslationSet>
+        <base loc="en">Set Up Later</base>
+        <tran loc="zh-TW">稍後設定</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/VoiceTriggerUI.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_DOAP_GENERIC_HEY_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to listen for “%TRIGGER_PHRASE%” on your supported headphones?</base>
+        <tran loc="zh-TW">您要在支援的耳機上聽取「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> System Preferences </Description>
+      <Position>PREFS_CHECKBOX_HEY_SIRI</Position>
+      <TranslationSet>
+        <base loc="en">Listen for “%TRIGGER_PHRASE%”</base>
+        <tran loc="zh-TW">聽取「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_MAIN_ABORT</Position>
+      <TranslationSet>
+        <base loc="en">You can set up “%TRIGGER_PHRASE%” in Settings &gt; Siri.</base>
+        <tran loc="zh-TW">您可以在「設定」&gt; Siri中設定「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_MAIN_UNSUPPORTED_LOCALE</Position>
+      <TranslationSet>
+        <base loc="en">Siri is yet to speak this language. Allow some time to learn it.</base>
+        <tran loc="zh-TW">Siri尚未學會這種語言。請給我們一些時間來學習。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_ASK_SIRI_AND_BUILT_IN_HEY_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to enable Siri and set up “%TRIGGER_PHRASE%”?</base>
+        <tran loc="zh-TW">您要啟用Siri並設定「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UTT3</Position>
+      <TranslationSet>
+        <base loc="en">Now say:\n“%SIRI_LANGUAGE__TRAINING_PHRASE_UTT3%”</base>
+        <tran loc="zh-TW">現在說：\n「%SIRI_LANGUAGE__TRAINING_PHRASE_UTT3%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRAINING_PHRASE_UTT2</Position>
+      <TranslationSet>
+        <base loc="en">%TRIGGER_PHRASE%, open the documents folder.</base>
+        <tran loc="zh-TW">%TRIGGER_PHRASE%，打開文件檔案夾。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Siri Watch Incompatibility </Description>
+      <Position>ALERT_TITLE_LANGUAGE_NOT_SUPPORTED_ON_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">Language Not Supported</base>
+        <tran loc="zh-TW">不支援此語言</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_DEFERRED</Position>
+      <TranslationSet>
+        <base loc="en">You can set up “%TRIGGER_PHRASE%” later in System Preferences.</base>
+        <tran loc="zh-TW">您可以稍後在「系統偏好設定」中設定「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BLUETOOTH_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth Device</base>
+        <tran loc="zh-TW">藍牙裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CHANGE_LANGUAGE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Changing your Siri language on this Mac will also change it on other devices signed in to your iCloud account.</base>
+        <tran loc="zh-TW">在此Mac上更改Siri語言也會在其他已登入iCloud帳號的裝置上更改Siri語言。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_AIRPLAY_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">AirPlay</base>
+        <tran loc="zh-TW">AirPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_SETUP_HEYSIRI</Position>
+      <TranslationSet>
+        <base loc="en">Set Up “%TRIGGER_PHRASE%”</base>
+        <tran loc="zh-TW">設定「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_MESSAGE_LANGUAGE_NOT_SUPPORTED_ON_WATCH</Position>
+      <TranslationSet>
+        <base loc="en">The language you’ve chosen for your iPhone isn’t supported by Siri on Apple Watch. You can continue setup, but Siri will be disabled on Apple Watch unless you change your Siri language preference in iPhone settings.</base>
+        <tran loc="zh-TW">Apple Watch上的Siri不支援您所選的iPhone語言。您可以繼續設定，但除非在iPhone設定中更改您的Siri語言，否則將停用Apple Watch的Siri功能。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_BUILT_IN_HEY_SIRI_INFORMATIVE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This helps Siri recognize your voice when you say “%TRIGGER_PHRASE%”.</base>
+        <tran loc="zh-TW">這可協助Siri辨識您說「%TRIGGER_PHRASE%」的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UNSUPPORTED_LOCALE_1</Position>
+      <TranslationSet>
+        <base loc="en">Locale not yet supported.</base>
+        <tran loc="zh-TW">尚未支援此地區。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEY_SIRI_UNAVAILABLE_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">Setting up “%TRIGGER_PHRASE%” is not available while the built-in display is closed.</base>
+        <tran loc="zh-TW">內建顯示器關閉時，無法設定「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_MESSAGE_CLAMSHELL</Position>
+      <TranslationSet>
+        <base loc="en">Setting up “%TRIGGER_PHRASE%” is not available while the built-in display is closed.</base>
+        <tran loc="zh-TW">內建顯示器關閉時，無法設定「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other strings </Description>
+      <Position>PAGE_PROGRESS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ of %2$@</base>
+        <tran loc="zh-TW">%1$@/%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the Home button or say “%TRIGGER_PHRASE%” when your iPhone is connected to power.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕，或在iPhone接上電源時說出「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEY_SIRI_UNAVAILABLE_BUDDY</Position>
+      <TranslationSet>
+        <base loc="en">Setting up “%TRIGGER_PHRASE%” is not available while the built-in display is closed.\nOpen the built-in display to set up “%TRIGGER_PHRASE%”, or you can set it up later in System Preferences.</base>
+        <tran loc="zh-TW">內建顯示器關閉時，無法設定「%TRIGGER_PHRASE%」。\n請打開內建顯示器關閉來設定「%TRIGGER_PHRASE%」，或者您可以稍後在「系統偏好設定」中設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro paragraph 2 for older devices if Siri and PHS enrollment are offered (e.g., upgrading) </Description>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the Home button or say “%TRIGGER_PHRASE%” when your device is connected to power.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕，或在裝置接上電源時說出「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_READY_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Siri will recognize your voice when your iPod is connected to power and you say, “%TRIGGER_PHRASE%.”</base>
+        <tran loc="zh-TW">iPod連接電源時，只要說出「%TRIGGER_PHRASE%」，Siri便會辨識您的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_HEADPHONE_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">Headphones</base>
+        <tran loc="zh-TW">耳機</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_READY_CONTINUE_SETUP_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Tap Continue to finish setting up your iPod.</base>
+        <tran loc="zh-TW">點一下「繼續」來完成iPod設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the Home button or say “%TRIGGER_PHRASE%” when your iPod is connected to power.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕，或在iPod接上電源時說出「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CHANGE_LANGUAGE_DISABLE_HEY_SIRI_MULTI_USER</Position>
+      <TranslationSet>
+        <base loc="en">HomePod voice recognition and Personal Requests are not available in “%@.” Changing Siri’s language will also turn off “%TRIGGER_PHRASE%.” To teach Siri to understand your voice in a new language, turn on “%TRIGGER_PHRASE%” again.</base>
+        <tran loc="zh-TW">無法在「%@」中使用HomePod語音辨識和「個人化要求」。更改Siri的語言也會關閉「%TRIGGER_PHRASE%」。若要訓練Siri理解您說新語言時的聲音，請再次開啟「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UTT2</Position>
+      <TranslationSet>
+        <base loc="en">Say:\n“%SIRI_LANGUAGE__TRAINING_PHRASE_UTT2%”</base>
+        <tran loc="zh-TW">請說：\n「%SIRI_LANGUAGE__TRAINING_PHRASE_UTT2%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_ABORT_BACK</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_ABORT_BACK_CONS</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Devices that don’t need to be connected to power for Hey Siri </Description>
+      <Position>TEXT_MAIN_READY_AOP</Position>
+      <TranslationSet>
+        <base loc="en">Siri will recognize your voice whenever you say, “%TRIGGER_PHRASE%.”</base>
+        <tran loc="zh-TW">隨時說出「%TRIGGER_PHRASE%」，Siri便會辨識您的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UTT5</Position>
+      <TranslationSet>
+        <base loc="en">Now say:\n“%SIRI_LANGUAGE__TRAINING_PHRASE_UTT5%”</base>
+        <tran loc="zh-TW">現在說：\n「%SIRI_LANGUAGE__TRAINING_PHRASE_UTT5%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro strings for upgrades (erase installs) </Description>
+      <Position>HEY_SIRI_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">This helps Siri recognize your voice when you say “%TRIGGER_PHRASE%.”</base>
+        <tran loc="zh-TW">這可協助Siri辨識您說「%TRIGGER_PHRASE%」的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_MAIN_ABORT_CONS</Position>
+      <TranslationSet>
+        <base loc="en">You can set up Siri in Settings &gt; Siri.</base>
+        <tran loc="zh-TW">您可以在「設定」&gt; Siri中設定Siri。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro strings 
+ Note - these are shown on the intro screen in Buddy 
+ But this screen is omitted when PHS is trained in prefs 
+ Intro strings - first paragraph 
+ Intro strings for non-upgrades (erase installs) </Description>
+      <Position>ASSISTANT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Siri helps you get things done just by asking. Send a message, dictate a note, or check the weather.</base>
+        <tran loc="zh-TW">只要您說一聲，Siri便可以幫您搞定大小事，比如傳送訊息、聽寫筆記或查詢天氣。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Enrollment Finished Strings 
+ These are shown on the final screen after enrollment success 
+
+ 
+* First paragraph.
+ 
+* The text that appears at the final page after a successful enrollment.
+ 
+ Default for unknown devices </Description>
+      <Position>TEXT_MAIN_READY</Position>
+      <TranslationSet>
+        <base loc="en">Siri will recognize your voice when your device is connected to power and you say, “%TRIGGER_PHRASE%.”</base>
+        <tran loc="zh-TW">裝置連接電源時，只要說出「%TRIGGER_PHRASE%」，Siri便會辨識您的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_DOAP_AIRPODS_HEY_SIRI_INFORMATIVE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">When you are wearing your AirPods, you can activate Siri by saying “%TRIGGER_PHRASE%”.</base>
+        <tran loc="zh-TW">當您戴上AirPods時，可以說出「%TRIGGER_PHRASE%」來啟用Siri。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_CONTINUE_OPTIN</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_CONTINUE_READY</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Buttons </Description>
+      <Position>BUTTON_CONTINUE_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_FINE_PRINT</Position>
+      <TranslationSet>
+        <base loc="en">Siri sends information like your voice input, contacts, and location to Apple to process your requests.</base>
+        <tran loc="zh-TW">Siri會將一些資訊，如您的語音輸入、聯絡人和位置等傳送給Apple來處理您的要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro strings - Footer           </Description>
+      <Position>TEXT_FOOTER_CONS</Position>
+      <TranslationSet>
+        <base loc="en">Siri sends information like your voice input, contacts, and location to Apple to process your requests.</base>
+        <tran loc="zh-TW">Siri會將一些資訊，如您的語音輸入、聯絡人和位置等傳送給Apple來處理您的要求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SiriUISetupAlert                </Description>
+      <Position>SETUP_ENABLE_BUILT_IN_HEY_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to set up “%TRIGGER_PHRASE%”?</base>
+        <tran loc="zh-TW">您要設定「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UTT4</Position>
+      <TranslationSet>
+        <base loc="en">Now say:\n“%SIRI_LANGUAGE__TRAINING_PHRASE_UTT4%”</base>
+        <tran loc="zh-TW">現在說：\n「%SIRI_LANGUAGE__TRAINING_PHRASE_UTT4%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRAINING_PHRASE_UTT5</Position>
+      <TranslationSet>
+        <base loc="en">%TRIGGER_PHRASE%, what does the rest of my day look like?</base>
+        <tran loc="zh-TW">%TRIGGER_PHRASE%，今天過得如何？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_SIRI_AND_DOAP_AIRPODS_HEY_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to enable Siri and listen for “%TRIGGER_PHRASE%” on your AirPods?</base>
+        <tran loc="zh-TW">您要在AirPods上啟用Siri並聽取「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_ABORT_ABORT_CONS</Position>
+      <TranslationSet>
+        <base loc="en">Set Up Siri Later</base>
+        <tran loc="zh-TW">稍後設定Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_TURN_ON_SIRI</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Siri</base>
+        <tran loc="zh-TW">開啟Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_DOAP_GENERIC_HEY_SIRI_INFORMATIVE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">When you are wearing your wireless headphones, you can activate Siri by saying “%TRIGGER_PHRASE%”.</base>
+        <tran loc="zh-TW">當您戴上無線耳機時，可以說出「%TRIGGER_PHRASE%」來啟用Siri。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert box if the microphone selected is not the builtin mic.</Description>
+      <Position>ALERT_TITLE_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect %@ to Set Up Siri</base>
+        <tran loc="zh-TW">中斷連接%@來設定Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CLOSE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_UNSUPPORTED_LOCALE_1</Position>
+      <TranslationSet>
+        <base loc="en">Skip</base>
+        <tran loc="zh-TW">略過</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_UNSUPPORTED_LOCALE_2</Position>
+      <TranslationSet>
+        <base loc="en">Skip</base>
+        <tran loc="zh-TW">略過</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_HDMI_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">HDMI</base>
+        <tran loc="zh-TW">HDMI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION_SIRI_ONLY_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the Home button.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the Home button or say “%TRIGGER_PHRASE%” when your iPad is connected to power.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕，或在iPad接上電源時說出「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CHANGE_LANGUAGE_DISABLE_HEY_SIRI</Position>
+      <TranslationSet>
+        <base loc="en">Changing Siri’s language will also turn off “%TRIGGER_PHRASE%.” To teach Siri to understand your voice in a new language, turn on “%TRIGGER_PHRASE%” again.</base>
+        <tran loc="zh-TW">更改Siri的語言也會關閉「%TRIGGER_PHRASE%」。若要訓練Siri理解您說新語言時的聲音，請再次開啟「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_INFORMATIVE_CLAMSHELL</Position>
+      <TranslationSet>
+        <base loc="en">To set up ”%TRIGGER_PHRASE%”, open the built-in display.</base>
+        <tran loc="zh-TW">若要設定「%TRIGGER_PHRASE%」，請打開內建顯示器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_TITLE_ABORT_CONS</Position>
+      <TranslationSet>
+        <base loc="en">Set Up Siri Later?</base>
+        <tran loc="zh-TW">要稍後設定Siri嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_NAV_BACK</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="zh-TW">上一步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_CONS</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="zh-TW">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_CONS_NOT_NOW</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_DESCRIPTION_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Siri helps you get things done just by asking. Dictate a note, send a message, send money, even request a ride using your favorite apps.</base>
+        <tran loc="zh-TW">只要您說一聲，Siri便可以幫您搞定大小事，比如聽寫備忘錄、傳送訊息、匯款，或甚至是使用喜愛的App叫車。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_DESCRIPTION_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Siri helps you get things done just by asking. Dictate a note, send a message, send money, even request a ride using your favorite apps.</base>
+        <tran loc="zh-TW">只要您說一聲，Siri便可以幫您搞定大小事，比如聽寫備忘錄、傳送訊息、匯款，或甚至是使用喜愛的App叫車。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro paragraph 2 for older devices in Buddy (Siri only setup) 
+ linebreak (\n) added to make sure Home Button doesn’t split lines on smaller devices.</Description>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION_SIRI_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the\nHome button.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert box upon the user pressed "later" button.</Description>
+      <Position>ALERT_TITLE_ABORT</Position>
+      <TranslationSet>
+        <base loc="en">Set Up “%TRIGGER_PHRASE%” Later?</base>
+        <tran loc="zh-TW">要稍後設定「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_CHECKBOX_HEY_SIRI_GENERIC_DEVICES</Position>
+      <TranslationSet>
+        <base loc="en">Listen for “%TRIGGER_PHRASE%” on headphones</base>
+        <tran loc="zh-TW">在耳機上聽取「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRAINING_PHRASE_UTT4</Position>
+      <TranslationSet>
+        <base loc="en">%TRIGGER_PHRASE%, what‘s the weather?</base>
+        <tran loc="zh-TW">%TRIGGER_PHRASE%，天氣如何？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Devices that need power for Hey Siri </Description>
+      <Position>TEXT_MAIN_READY_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Siri will recognize your voice when your iPhone is connected to power and you say, “%TRIGGER_PHRASE%.”</base>
+        <tran loc="zh-TW">iPhone連接電源時，只要說出「%TRIGGER_PHRASE%」，Siri便會辨識您的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIMEOUT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Siri was unable to finish training because too much time has elapsed. Please try again.</base>
+        <tran loc="zh-TW">Siri無法完成訓諫，因為已經過太長時間。請再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CONTINUE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Change Language</base>
+        <tran loc="zh-TW">更改語言</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ 
+* Second paragraph (Buddy Only).
+ 
+* Continue setup text that appears at the final page after a successful enrollment, when launched from Buddy
+ </Description>
+      <Position>TEXT_MAIN_READY_CONTINUE_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Tap Continue to finish setting up your device.</base>
+        <tran loc="zh-TW">點一下「繼續」來完成裝置設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_SIRI_AND_DOAP_GENERIC_HEY_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to enable Siri and listen for “%TRIGGER_PHRASE%” on your supported headphones?</base>
+        <tran loc="zh-TW">您要在支援的耳機上啟用Siri並聽取「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_READY_CONTINUE_SETUP_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Tap Continue to finish setting up your iPad.</base>
+        <tran loc="zh-TW">點一下「繼續」來完成iPad設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRAINING_PHRASE_UTT3</Position>
+      <TranslationSet>
+        <base loc="en">%TRIGGER_PHRASE%, show my downloads.</base>
+        <tran loc="zh-TW">%TRIGGER_PHRASE%，顯示我的下載項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ VoiceTriggerUI.strings
+ VoiceTriggerUI
+ 
+ Created by Shoichiro Yamanishi on 3/8/15.
+ Copyright © 2015 Apple. All rights reserved.
+ 
+ Alert box if the locale is not supported.</Description>
+      <Position>ALERT_TITLE_UNSUPPORTED_LOCALE</Position>
+      <TranslationSet>
+        <base loc="en">Oops!</base>
+        <tran loc="zh-TW">哎呀！</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UNSUPPORTED_LOCALE_2</Position>
+      <TranslationSet>
+        <base loc="en">Oops!</base>
+        <tran loc="zh-TW">哎呀！</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_CHECKBOX_HEY_SIRI_AIRPODS</Position>
+      <TranslationSet>
+        <base loc="en">Listen for “%TRIGGER_PHRASE%” on AirPods</base>
+        <tran loc="zh-TW">在AirPods上聽取「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_CONS_ABOUT_SIRI</Position>
+      <TranslationSet>
+        <base loc="en">About Siri</base>
+        <tran loc="zh-TW">關於Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_SET_UP_LATER</Position>
+      <TranslationSet>
+        <base loc="en">Set Up “%TRIGGER_PHRASE%” Later</base>
+        <tran loc="zh-TW">稍後設定「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_READY_CONTINUE_SETUP_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Tap Continue to finish setting up your iPhone.</base>
+        <tran loc="zh-TW">點一下「繼續」來完成iPhone設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_ENABLE_DOAP_AIRPODS_HEY_SIRI_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to listen for “%TRIGGER_PHRASE%” on your AirPods?</base>
+        <tran loc="zh-TW">您要在AirPods上聽取「%TRIGGER_PHRASE%」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_TIMEOUT_BACK</Position>
+      <TranslationSet>
+        <base loc="en">Start Over</base>
+        <tran loc="zh-TW">重新開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_CONS_LATER</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Use Siri</base>
+        <tran loc="zh-TW">不使用Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_UNSUPPORTED_LOCALE</Position>
+      <TranslationSet>
+        <base loc="en">Okay</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASSISTANT_DESCRIPTION_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Siri helps you get things done just by asking. Make a call, send a message, send money, even request a ride using your favorite apps.</base>
+        <tran loc="zh-TW">只要您說一聲，Siri便可以幫您搞定大小事，比如撥打電話、傳送訊息、匯款，或甚至是使用喜愛的App叫車。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_BUTTON_ABORT_ABORT</Position>
+      <TranslationSet>
+        <base loc="en">Set up “%TRIGGER_PHRASE%” later</base>
+        <tran loc="zh-TW">稍後設定「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_UTT1</Position>
+      <TranslationSet>
+        <base loc="en">Say “%TRIGGER_PHRASE%”</base>
+        <tran loc="zh-TW">請說「%TRIGGER_PHRASE%」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro strings - second paragraph 
+ Intro paragraph 2 for newer devices </Description>
+      <Position>ASSISTANT_TRIGGER_INSTRUCTION_AOP</Position>
+      <TranslationSet>
+        <base loc="en">To use Siri, press and hold the Home button or say “%TRIGGER_PHRASE%” anytime.</base>
+        <tran loc="zh-TW">若要使用Siri，請按住主畫面按鈕或隨時說出「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Other strings </Description>
+      <Position>TEXT_MAIN_UNSUPPORTED_LOCALE_1</Position>
+      <TranslationSet>
+        <base loc="en">This is not supported in the current version. Skipping the enrollment, and turning on “%TRIGGER_PHRASE%” without the personalization.</base>
+        <tran loc="zh-TW">目前的版本不支援。略過登記步驟，然後不經過個人化步驟來開啟「%TRIGGER_PHRASE%」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_UNSUPPORTED_LOCALE_2</Position>
+      <TranslationSet>
+        <base loc="en">“Hey Siri” is yet to speak this language. Skipping.</base>
+        <tran loc="zh-TW">「嘿Siri」尚未學會這種語言。正在略過。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_CARAUDIO_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">Car Audio</base>
+        <tran loc="zh-TW">車用音訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_MAIN_READY_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Siri will recognize your voice when your iPad is connected to power and you say, “%TRIGGER_PHRASE%.”</base>
+        <tran loc="zh-TW">iPad連接電源時，只要說出「%TRIGGER_PHRASE%」，Siri便會辨識您的聲音。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRY_AGAIN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Siri didn’t quite get that. Try again.</base>
+        <tran loc="zh-TW">Siri沒聽懂。再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFS_ALERT_CHANGE_LANGUAGE_DISABLE_MULTI_USER</Position>
+      <TranslationSet>
+        <base loc="en">HomePod voice recognition and Personal Requests are not available in “%@.”</base>
+        <tran loc="zh-TW">無法在「%@」中使用HomePod語音辨識和「個人化要求」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TEXT_TITLE_READY</Position>
+      <TranslationSet>
+        <base loc="en">\U200e“%TRIGGER_PHRASE%” Is Ready</base>
+        <tran loc="zh-TW">\U200e「%TRIGGER_PHRASE%」已就緒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BUTTON_SETUP_LATER</Position>
+      <TranslationSet>
+        <base loc="en">Set Up Later</base>
+        <tran loc="zh-TW">稍後設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_MAIN_BAD_MIC</Position>
+      <TranslationSet>
+        <base loc="en">Siri uses the built-in microphone to learn how to recognize your voice</base>
+        <tran loc="zh-TW">Siri會使用內建麥克風來學習如何辨識您的聲音</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AssistantUIX/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/Resources/en.lproj/SiriUI.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSViewController"; title = "SiriViewController"; ObjectID = "OiY-0m-Dyx"; </Description>
+      <Position>OiY-0m-Dyx.title</Position>
+      <TranslationSet>
+        <base loc="en">SiriViewController</base>
+        <tran loc="zh-TW">SiriViewController</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Type to Siri"; ObjectID = "cKI-Xl-Yjs"; </Description>
+      <Position>cKI-Xl-Yjs.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Type to Siri</base>
+        <tran loc="zh-TW">輸入來和Siri對話</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

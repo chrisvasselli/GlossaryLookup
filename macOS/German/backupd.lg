@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>backupd</ProjName>
+  <File>
+    <Filepath>backupd/System/Library/CoreServices/backupd.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+	error messages - shared with TMPref pane
+	[TODO] most of these error/warning strings are no longer used by backupd. some are shared between backupd
+	       and the pref pane. this late in cab, we can't risk teasing them all apart and moving things around.
+	       we need to audit health check &amp; BACKUP_WARNING_ codes to see which strings should be where, and
+	       how things should be rearranged.
+
+ NO_ERROR</Description>
+      <Position>RESULTCODE_0_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No error.</base>
+        <tran loc="de">Kein Fehler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_RECOVERY_IMAGE_ASK_LATER_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Back Up Later</base>
+        <tran loc="de">Backup später erstellen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> miscellaneous 
+ UNITS</Description>
+      <Position>KB</Position>
+      <TranslationSet>
+        <base loc="en">KB</base>
+        <tran loc="de">KB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> standard dry spell title format
+ dry spell minimum is always multiple days</Description>
+      <Position>NC_DRY_SPELL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">No Backups for %llu Days</base>
+        <tran loc="de">Keine Backups seit %llu Tagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_THINNING_START</Description>
+      <Position>RESULTCODE_1001_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk “%@” is full.</base>
+        <tran loc="de">Das Backup-Volume „%@“ ist voll.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_FOUND</Description>
+      <Position>NC_RESULTCODE_18_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Disk Not Available</base>
+        <tran loc="de">Backup-Volume nicht verfügbar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_MOUNTED</Description>
+      <Position>NC_RESULTCODE_19_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Disk Not Available</base>
+        <tran loc="de">Backup-Volume nicht verfügbar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_LOW_BATTERY</Description>
+      <Position>RESULTCODE_101_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the battery charge was low.</base>
+        <tran loc="de">Time Machine hat das Backup nicht gestartet, da die Batterie fast leer war.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_SETUP</Description>
+      <Position>RESULTCODE_2_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to complete backup. An error occurred while creating the backup folder.</base>
+        <tran loc="de">Das Backup konnte nicht abgeschlossen werden. Beim Erstellen des Backup-Ordners ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_BUSY</Description>
+      <Position>RESULTCODE_31_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” is already in use.</base>
+        <tran loc="de">Das Image des Backup-Volumes „%@“ wird bereits verwendet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_LOW_DISK</Description>
+      <Position>RESULTCODE_1000_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk “%@” is almost full.</base>
+        <tran loc="de">Das Backup-Volume „%@“ ist fast voll.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Notification Center strings 
+ standard notification buttons</Description>
+      <Position>NC_DETAILS_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Details</base>
+        <tran loc="de">Details</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_NO_RECENT_BACKUPS</Description>
+      <Position>NC_RESULTCODE_1002_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Check that “%@” is available or select a new disk.</base>
+        <tran loc="de">Prüfe, ob „%@“ verfügbar ist oder wähle eine andere Festplatte.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_INITIAL_BACKUP_COMPLETE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine has finished the first backup to “%@”.</base>
+        <tran loc="de">Erstes Backup auf „%@“ abgeschlossen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1004_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To install the update, open AirPort Utility. You may need to provide the password for “%@”.</base>
+        <tran loc="de">Öffne zur Installation des Updates das AirPort-Dienstprogramm. Möglicherweise musst du auch das Passwort für „%@“ angeben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SPACE_FOR_LOCAL_SNAPSHOT</Description>
+      <Position>RESULTCODE_50_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not create a local snapshot to back up from because there was insufficient free space on the source volume(s).</base>
+        <tran loc="de">Time Machine konnte keinen lokalen Schnappschuss für ein Backup erstellen, da auf dem Quellvolume/den Quellvolumes nicht genügend Speicherplatz frei war.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_CHECKBOX</Position>
+      <TranslationSet>
+        <base loc="en">Do not show this warning again.</base>
+        <tran loc="de">Diese Warnung nicht erneut zeigen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_ACLS_DISABLED</Description>
+      <Position>RESULTCODE_9_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk does not have Access Control Lists enabled, which is required.</base>
+        <tran loc="de">Auf dem Backup-Volume sind keine Zugriffssteuerungslisten (Access Control Lists) aktiviert. Dies ist jedoch erforderlich.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TO_ABANDON_IMAGE -- obsolete
+ RESULTCODE_43_MESSAGE = "Time Machine could not move aside the existing backup disk image “%@”";
+ BACKUP_FAILED_TO_DELETE_IMAGE</Description>
+      <Position>RESULTCODE_44_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not delete the backup disk image “%@”.</base>
+        <tran loc="de">Time Machine konnte das Backup-Image „%@“ nicht löschen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Open Time Machine Preferences…</base>
+        <tran loc="de">Systemeinstellung „Time Machine“ öffnen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_APFS_ENCRYPTION_IN_PROGRESS</Description>
+      <Position>RESULTCODE_103_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because FileVault was encrypting or decrypting a disk. Backups will resume once FileVault finishes.</base>
+        <tran loc="de">Time Machine hat kein Backup erstellt, da FileVault eine Festplatte verschlüsselte oder entschlüsselte. Die Erstellung von Backups wird fortgesetzt, sobald FileVault fertig ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_18_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Try backing up again when “%@” is available.</base>
+        <tran loc="de">Versuche, das Backup erneut zu starten, wenn „%@“ verfügbar ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_19_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Try backing up again when “%@” is available.</base>
+        <tran loc="de">Versuche, das Backup erneut zu starten, wenn „%@“ verfügbar ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_ENCRYPTED_WITH_EMPTY_PASSWORD</Description>
+      <Position>RESULTCODE_52_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the backup was encrypted with an empty password. Use Time Machine Preferences to set up a new backup.</base>
+        <tran loc="de">Time Machine konnte kein Backup erstellen, da das Backup mit einem leeren Passwort verschlüsselt war. Verwende die Systemeinstellung „Time Machine“, um ein neues Backup zu konfigurieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error dialog buttons </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_CREATED</Description>
+      <Position>RESULTCODE_20_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image could not be created.</base>
+        <tran loc="de">Das Backup-Image konnte nicht erstellt werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_40_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Make sure the computer and your backup disk are on the same network, and that the backup disk is turned on. Then try again to verify your backups.</base>
+        <tran loc="de">Vergewissere dich, dass sich der Computer und das Backup-Volume im selben Netzwerk befindet. Versuche dann erneut, deine Backups zu überprüfen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_RECOVERY_IMAGE_NOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Start New Backup</base>
+        <tran loc="de">Neues Backup starten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic backup failure message that includes destination name</Description>
+      <Position>NC_GENERIC_BACKUP_ERROR_MESSAGE_WITH_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn‘t back up to “%@”.</base>
+        <tran loc="de">Time Machine konnte kein Backup auf „%@“ erstellen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_FOUND</Description>
+      <Position>RESULTCODE_18_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk could not be found. Make sure the backup disk is connected or select a different backup disk.</base>
+        <tran loc="de">Das Backup-Volume konnte nicht gefunden werden. Vergewissere dich, dass das Backup-Volume angeschlossen ist oder wähle ein anderes Backup-Volume aus.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic backup failure message with no destination name
+ (this is a safety fallback -- it should not happen in practice)</Description>
+      <Position>NC_GENERIC_BACKUP_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine encountered an error while backing up.</base>
+        <tran loc="de">Bei der Datensicherung mit Time Machine ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETIMAGE_READONLY</Description>
+      <Position>RESULTCODE_38_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine can’t use the disk image because it is read-only.</base>
+        <tran loc="de">Time Machine kann das Image nicht verwenden, da es schreibgeschützt ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_FIRMWARE </Description>
+      <Position>RESULTCODE_1004_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine can’t back up to “%@” because the firmware must be updated.</base>
+        <tran loc="de">Time Machine kann das Backup nicht auf „%@“ erstellen, da die Firmware aktualisiert werden muss.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine deleted one or more old backups to make room for new backups. The oldest remaining backup is: %@\n\n%@</base>
+        <tran loc="de">Time Machine hat mindestens ein altes Backup gelöscht, um Platz für neue Backups zu schaffen. Ältestes verbleibendes Backup: %@\n\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SOURCE_VOLUMES</Description>
+      <Position>NC_RESULTCODE_25_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No disks are available to back up.</base>
+        <tran loc="de">Für das Backup sind keine Volumes verfügbar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_OWNERS_DISABLED</Description>
+      <Position>RESULTCODE_5_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while enabling ownership on the backup disk. You may need to repair or erase the disk using Disk Utility. If the disk can’t be repaired, select a different disk for backups.</base>
+        <tran loc="de">Beim Aktivieren des Eigentümers auf dem Backup-Volume ist ein Fehler aufgetreten. Du musst das Volume u. U. mit dem Festplattendienstprogramm reparieren oder löschen. Wenn das Volume nicht repariert werden kann, wähle ein anderes Volume für die Backups aus.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNABLE_TO_INHERIT_BACKUP</Description>
+      <Position>RESULTCODE_30_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not inherit “%@” for use with this computer.</base>
+        <tran loc="de">Time Machine konnte „%@“ nicht zur Verwendung auf diesem Computer übernehmen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_UNSUPPORTED_FS</Description>
+      <Position>RESULTCODE_3_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not in Mac OS Extended (Journaled) format, which is required.</base>
+        <tran loc="de">Das Backup-Volume hat nicht das Format „Mac OS Extended (Journaled)“. Dies ist jedoch erforderlich.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_JOURNALED</Description>
+      <Position>RESULTCODE_6_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not in Mac OS Extended (Journaled) format, which is required.</base>
+        <tran loc="de">Das Backup-Volume hat nicht das Format „Mac OS Extended (Journaled)“. Dies ist jedoch erforderlich.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CULLING_DISABLED</Description>
+      <Position>RESULTCODE_15_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">All expired backups have been removed, but the backup disk is still full. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="de">Alle abgelaufenen Backups wurden entfernt, aber das Backup-Volume ist noch immer voll. Wähle ein größeres Backup-Volume oder verkleinere das Backup durch Ausschließen von Dateien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CULLING_DATELIMIT</Description>
+      <Position>RESULTCODE_16_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">All expired backups have been removed, but the backup disk is still full. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="de">Alle abgelaufenen Backups wurden entfernt, aber das Backup-Volume ist noch immer voll. Wähle ein größeres Backup-Volume oder verkleinere das Backup durch Ausschließen von Dateien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_INTERRUPTION</Description>
+      <Position>RESULTCODE_27_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk may have been ejected or disconnected from the computer.</base>
+        <tran loc="de">Das Backup-Volume wurde möglicherweise ausgeworfen oder die Verbindung zum Computer wurde getrennt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_1011_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine is backing up an encrypted disk to an unencrypted disk.</base>
+        <tran loc="de">Verschlüsselte Festplatte wird auf unverschlüsselter gesichert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_MOUNTED</Description>
+      <Position>RESULTCODE_21_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” could not be accessed (error %@).</base>
+        <tran loc="de">Auf das Image des Backup-Volumes „%@“ konnte nicht zugegriffen werden (Fehler %@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_NEW_BACKUP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Create New Backup</base>
+        <tran loc="de">Neues Backup erstellen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_42_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Interruptions are usually caused by network problems. Try again after the network problems are resolved.</base>
+        <tran loc="de">Unterbrechungen werden für gewöhnlich durch Netzwerkprobleme verursacht. Versuche es erneut, nachdem die Netzwerkprobleme gelöst wurden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_41_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is read-only or unreadable.</base>
+        <tran loc="de">Das Backup-Volume ist schreibgeschützt oder nicht lesbar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNSUPPORTED_NETWORK_VOLUME</Description>
+      <Position>RESULTCODE_45_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The network backup disk does not support the required capabilities.</base>
+        <tran loc="de">Das Backup-Volume im Netzwerk unterstützt die notwendigen Funktionalitäten nicht.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE_DURING_BACKUP</Description>
+      <Position>RESULTCODE_28_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk did not have enough space to complete the backup.</base>
+        <tran loc="de">Das Backup-Medium hatte nicht genügend Speicherplatz, um das Backup abzuschließen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_COPY_STAGE</Description>
+      <Position>RESULTCODE_11_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while copying files.</base>
+        <tran loc="de">Beim Kopieren von Dateien ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1000_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">When the backup disk is full, Time Machine will delete old backups to make room for new ones.\n\n%@</base>
+        <tran loc="de">Wenn das Backup-Volume voll ist, werden die alten Backups von Time Machine gelöscht, um Platz für neue zu schaffen.\n\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_RUNNING_ON_BATTERY</Description>
+      <Position>RESULTCODE_100_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the computer was running on battery power.</base>
+        <tran loc="de">Time Machine konnte kein Backup erstellen, da der Computer im Batteriebetrieb gearbeitet hat.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> string which is shown instead of the _SHOWPREFS message for managed prefs configurations </Description>
+      <Position>MANAGED_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine settings on this computer are controlled by Managed Preferences. Contact your System Administrator.</base>
+        <tran loc="de">Die Time Machine-Einstellungen auf diesem Computer werden durch verwaltete Einstellungen festgelegt. Wende dich an deinen Systemadministrator.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB</Position>
+      <TranslationSet>
+        <base loc="en">GB</base>
+        <tran loc="de">GB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_HIGH_THERMAL_LEVEL</Description>
+      <Position>RESULTCODE_102_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the computer was in a poor thermal state.</base>
+        <tran loc="de">Time Machine hat das Backup nicht gestartet, da sich der Computer überhitzt hatte.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1003_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup was created on a different computer. If you inherit this backup, it can no longer be used by the original computer.</base>
+        <tran loc="de">Das Backup wurde auf einem anderen Computer erstellt. Wenn du dieses Backup übernimmst, kann es nicht mehr für den Originalcomputer verwendet werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_READONLY</Description>
+      <Position>RESULTCODE_8_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Files can’t be copied onto the backup disk because it is read-only. You may need to repair or erase the disk using Disk Utility. If the disk can’t be repaired, select a different disk for backups.</base>
+        <tran loc="de">Es ist nicht möglich, Dateien auf das Backup-Volume zu kopieren, da dieses schreibgeschützt ist. Du musst das Volume u. U. mit dem Festplattendienstprogramm reparieren oder löschen. Wenn das Volume nicht repariert werden kann, wähle ein anderes Volume für die Backups aus.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_SPECIFIED</Description>
+      <Position>RESULTCODE_17_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No backup disk has been selected.</base>
+        <tran loc="de">Es wurde kein Backup-Volume ausgewählt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> notification delivered upon completion of the initial backup to a destination</Description>
+      <Position>NC_INITIAL_BACKUP_COMPLETE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Complete</base>
+        <tran loc="de">Backup abgeschlossen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_TARGETVOL_CHANGED</Description>
+      <Position>RESULTCODE_1008_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The identity of the backup disk “%@” has changed since the previous backup.</base>
+        <tran loc="de">Die Identität des Backup-Volumes „%@“ hat sich seit dem letzten Backup geändert.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TOO_MUCH_ACTIVITY -- obsolete
+ RESULTCODE_13_MESSAGE = "Too many files changed while backing up.";
+ BACKUP_FAILED_SNAPSHOT_DELETE_FAILED </Description>
+      <Position>RESULTCODE_14_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while attempting to remove expired backups from the backup disk.</base>
+        <tran loc="de">Beim Versuch, abgelaufene Backups vom Backup-Volume zu entfernen, ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_MOUNT_LOCAL_SNAPSHOT</Description>
+      <Position>RESULTCODE_49_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not create a local snapshot to back up from.</base>
+        <tran loc="de">Time Machine konnte keinen lokalen Schnappschuss für ein Backup erstellen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> standard backup error title</Description>
+      <Position>NC_BACKUP_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Failed</base>
+        <tran loc="de">Backup fehlgeschlagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_100_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Connect the computer to a power outlet while your backup disk is available.</base>
+        <tran loc="de">Schließe den Computer an das Stromnetz an, während dein Backup-Volume verfügbar ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_LAUNCH</Description>
+      <Position>RESULTCODE_1_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to launch Time Machine.</base>
+        <tran loc="de">Time Machine konnte nicht gestartet werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CLOCK_WRONG</Description>
+      <Position>RESULTCODE_33_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The system date and time is incorrect.</base>
+        <tran loc="de">Systemzeit und -datum sind inkorrekt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_LATER_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Back Up Now</base>
+        <tran loc="de">Jetzt kein Backup erstellen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE</Description>
+      <Position>RESULTCODE_10_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="de">Beim Vorbereiten des Backups ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_EVENT_PATH_OFF_VOLUME</Description>
+      <Position>RESULTCODE_300_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="de">Beim Vorbereiten des Backups ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_DATABASE_GENERATION</Description>
+      <Position>RESULTCODE_301_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="de">Beim Vorbereiten des Backups ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_MISSING_IN_PROGRESS</Description>
+      <Position>RESULTCODE_302_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="de">Beim Vorbereiten des Backups ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_GATHER_EVENTS</Description>
+      <Position>RESULTCODE_303_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="de">Beim Vorbereiten des Backups ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_FAILED_TARGETVOL_READONLY</Description>
+      <Position>RESULTCODE_41_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@”.</base>
+        <tran loc="de">Time Machine konnte deine Backups auf „%@“ nicht überprüfen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INHERIT_BACKUP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Inherit Backup History</base>
+        <tran loc="de">Backup-Verlauf übernehmen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1006_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Click Start New Backup to create a new backup. This will remove your existing backup history. This could take several hours.\n\nClick Back Up Later to be reminded tomorrow. Time Machine won’t perform backups during this time.</base>
+        <tran loc="de">Klicke auf „Neues Backup starten“, um ein neues Backup zu erstellen. Dabei wird dein bestehender Backup-Verlauf gelöscht. Dies kann mehrere Stunden dauern.\n\nKlicke auf „Backup später erstellen“, um morgen an das Backup erinnert zu werden. Währenddessen erstellt Time Machine keine Backups.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SOURCE_VOLUMES</Description>
+      <Position>RESULTCODE_25_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There are no disks to back up. This can happen if all available disks are in the “Do not back up” list. Click Options to edit the list.</base>
+        <tran loc="de">Es sind keine Volumes zum Sichern vorhanden. Dies kann vorkommen, wenn alle verfügbaren Volumes in der Liste „Nicht sichern“ aufgeführt werden. Klicke auf „Optionen“, um die Liste zu bearbeiten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_CANCELED</Description>
+      <Position>RESULTCODE_22_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Backup canceled.</base>
+        <tran loc="de">Backup abgebrochen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_STATFS_FAILED</Description>
+      <Position>RESULTCODE_4_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to get status of backup disk.</base>
+        <tran loc="de">Der Status des Backup-Volumes konnte nicht abgefragt werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_VERIFICATION_INTERRUPTED</Description>
+      <Position>RESULTCODE_42_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@” because verification was interrupted.</base>
+        <tran loc="de">Time Machine konnte deine Backups auf „%@“ nicht überprüfen, da die Überprüfung unterbrochen wurde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_NO_RECENT_BACKUPS_RUNNING_ON_BATTERY</Description>
+      <Position>NC_RESULTCODE_1009_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a power outlet while your backup disk is available.</base>
+        <tran loc="de">Stelle die Verbindung zum Stromnetz her, während dein Backup-Volume verfügbar ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_WARNING_TARGETVOL_CHANGED_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Back Up</base>
+        <tran loc="de">Nicht sichern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_AUTHENTICATION_ERROR</Description>
+      <Position>RESULTCODE_29_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The network backup disk could not be accessed because there was a problem with the network username or password. You may need to re-select the backup disk and enter the correct username and password.</base>
+        <tran loc="de">Auf das Backup-Volume im Server konnte nicht zugegriffen werden, da ein Problem mit dem Netzwerkbenutzernamen oder -passwort aufgetreten ist. Du musst u. U. das Backup-Volume erneut auswählen oder Benutzernamen und Passwort korrekt eingeben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_INHERIT_BACKUPS</Description>
+      <Position>RESULTCODE_1003_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Would you like this computer to inherit the backup history from “%@” on the “%@” backup disk?</base>
+        <tran loc="de">Soll dieser Computer den Backup-Verlauf von „%@“ auf dem Backup-Volume „%@“ übernehmen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1000_SHOWPREFS</Position>
+      <TranslationSet>
+        <base loc="en">If you prefer to keep all your old backups, open Time Machine preferences to select a new backup disk.</base>
+        <tran loc="de">Falls du lieber alle Deine alten Backups behalten möchtest, öffne die Systemeinstellung „Time Machine“ und wähle ein neues Backup-Volume aus.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE</Description>
+      <Position>RESULTCODE_7_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk needs %@ for the backup but only %@ are available. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="de">Das Backup-Volume benötigt %@ für das Backup, es sind jedoch nur %@ verfügbar. Wähle ein größeres Backup-Volume oder verkleinere das Backup durch Ausschließen von Dateien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MB</Position>
+      <TranslationSet>
+        <base loc="en">MB</base>
+        <tran loc="de">MB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_BUSY</Description>
+      <Position>NC_RESULTCODE_31_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup on “%@” is already in use.</base>
+        <tran loc="de">Das Backup auf „%@“ wird bereits verwendet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_FOUND</Description>
+      <Position>RESULTCODE_32_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” could not be found.</base>
+        <tran loc="de">Das Image des Backup-Volumes „%@“ konnte nicht gefunden werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_DELETE_IMAGE </Description>
+      <Position>RESULTCODE_1006_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine completed a verification of your backups on “%@”. To improve reliability, Time Machine must create a new backup for you.</base>
+        <tran loc="de">Time Machine hat die Überprüfung deiner Backups auf „%@“ abgeschlossen. Um die Zuverlässigkeit zu verbessern, muss Time Machine ein neues Backup für dich erstellen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIME_MACHINE_ERROR_ON_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t complete the backup to “%@”.</base>
+        <tran loc="de">Time Machine konnte das Backup auf „%@“ nicht abschließen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_WARNING_TARGETVOL_CHANGED_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Use This Disk</base>
+        <tran loc="de">Dieses Volume verwenden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1008_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk may have been replaced or erased, or someone may be trying to trick your computer into backing up to the wrong disk.</base>
+        <tran loc="de">Das Volume wurde möglicherweise ersetzt oder gelöscht oder jemand versucht deinen Computer so zu manipulieren, dass ein Backup von einem falschen Volume erstellt wird.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_MOUNTED</Description>
+      <Position>RESULTCODE_19_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not available. Make sure the backup disk is connected or select a different backup disk.</base>
+        <tran loc="de">Das Backup-Volume ist nicht verfügbar. Vergewissere dich, dass das Backup-Volume angeschlossen ist oder wähle ein anderes Backup-Volume aus.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_FAILED_TARGETVOL_RESOLUTION_FAILED</Description>
+      <Position>RESULTCODE_40_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@” because the backup disk is not available.</base>
+        <tran loc="de">Time Machine konnte deine Backups auf „%@“ nicht überprüfen, da das Backup-Volume nicht verfügbar ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_UNENCRYPTED_DESTINATION</Description>
+      <Position>NC_RESULTCODE_1011_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Not Encrypted</base>
+        <tran loc="de">Backup nicht verschlüsselt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE_DURING_BACKUP</Description>
+      <Position>NC_RESULTCODE_28_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There isn’t enough space on “%@”.</base>
+        <tran loc="de">Es ist nicht genügend Speicherplatz auf „%@“ verfügbar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE</Description>
+      <Position>NC_RESULTCODE_7_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There isn’t enough space on “%@”.</base>
+        <tran loc="de">Es ist nicht genügend Speicherplatz auf „%@“ verfügbar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPORT_UTILITY_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Open AirPort Utility…</base>
+        <tran loc="de">AirPort-Dienstprogramm öffnen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error dialog default title </Description>
+      <Position>TIME_MACHINE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t complete the backup.</base>
+        <tran loc="de">Time Machine konnte das Backup nicht abschließen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_SHOWPREFS</Position>
+      <TranslationSet>
+        <base loc="en">To preserve your older backups, you should attach a new or larger backup disk and then select it in Time Machine preferences. If you don’t change to a new backup disk, Time Machine will delete additional old backups to make space for new ones.</base>
+        <tran loc="de">Wenn du deine älteren Backups behalten willst, musst du eine neue oder größere Backup-Festplatte anschließen und in den Time Machine-Einstellungen auswählen. Wenn du keine neue Backup-Festplatte angibst, löscht Time Machine weitere ältere Backups, um Platz für die neuen Backups zu schaffen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_LINK_SOURCE</Description>
+      <Position>RESULTCODE_12_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while linking files on the backup disk.</base>
+        <tran loc="de">Beim Verknüpfen von Dateien auf dem Backup-Volume ist ein Fehler aufgetreten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_LONGER_ENCRYPTED</Description>
+      <Position>RESULTCODE_39_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the backup disk was previously encrypted but is no longer encrypted.</base>
+        <tran loc="de">Time Machine konnte kein Backup erstellen, da die Backup-Festplatte zuvor verschlüsselt war, jetzt aber nicht mehr verschlüsselt ist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_PRIMARY_NETWORK_INTERFACE -- obsolete
+ RESULTCODE_34_MESSAGE = "The computer does not have a primary network interface.";
+ BACKUP_FAILED_BOOT_COOKIE_NOT_FOUND -- obsolete
+ RESULTCODE_35_MESSAGE = "Time Machine couldn’t find some of its settings.\n\n%@";
+ RESULTCODE_35_SHOWPREFS = "To reestablish Time Machine’s settings, open Time Machine Preferences and reselect the backup disk.";
+ BACKUP_FAILED_DESTINATION_COOKIE_NOT_FOUND -- obsolete
+ RESULTCODE_36_MESSAGE = "Time Machine couldn’t find some of its settings on the backup disk “%@”.\n\nMake sure the backup disk is connected, and that other connected disks don’t use the same name as the backup disk.\n\n%@";
+ RESULTCODE_36_SHOWPREFS = "To reestablish Time Machine’s settings, open Time Machine Preferences and reselect the backup disk.";
+ BACKUP_FAILED_DISK_SOURCE_INTERRUPTION</Description>
+      <Position>RESULTCODE_37_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">One of the disks being backed up may have been ejected or disconnected from the computer.</base>
+        <tran loc="de">Eines der zu sichernden Volumes wurde möglicherweise ausgeworfen oder die Verbindung zum Computer wurde getrennt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_FOUND</Description>
+      <Position>NC_RESULTCODE_32_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup could not be found on “%@”.</base>
+        <tran loc="de">Das Backup konnte auf „%@“ nicht gefunden werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNKNOWN</Description>
+      <Position>RESULTCODE_999_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Error code: %@</base>
+        <tran loc="de">Fehlercode: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TB</Position>
+      <TranslationSet>
+        <base loc="en">TB</base>
+        <tran loc="de">TB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DUPLICATE_VOLNAMES</Description>
+      <Position>RESULTCODE_24_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Two of the disks to back up have the same name. Rename one of the disks named “%@”.</base>
+        <tran loc="de">Zwei der Volumes, von denen ein Backup erstellt werden soll, haben denselben Namen. Benenne das Volume „%@“ um.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_1011_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NETWORK_INTERRUPTION</Description>
+      <Position>RESULTCODE_26_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A network problem interrupted the backup. Make sure the computer and the backup disk are on the same network, and that the backup disk is turned on. Then try again to back up.</base>
+        <tran loc="de">Ein Netzwerkproblem hat das Backup unterbrochen. Vergewissere dich, dass sich Computer und Backup-Volume im selben Netzwerk befinden. Starte das Backup dann erneut.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CASE_SENSITIVITY</Description>
+      <Position>RESULTCODE_23_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A disk you are backing up is case-sensitive, but the backup disk is not. Select a different backup disk or exclude the case-sensitive disk from backups.</base>
+        <tran loc="de">Ein Volume, von dem du ein Backup erstellen möchtest, beachtet Groß- und Kleinschreibung, das Backup-Volume nicht. Wähle ein anderes Backup-Volume oder schließe Volumes mit Groß-/Kleinschreibung von den Backups aus.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>backupd/System/Library/CoreServices/backupd.bundle/Contents/Resources/en.lproj/MDDateFormatter.strings</Filepath>
+    <TextItem>
+      <Description>*
+ 
+*	filename: MDDateFormatter.strings
+ 
+*	created : Tue Jun  8 10:03:00 2004
+ 
+*	LastEditDate Was "Tue Jun  8 10:03:24 2004"
+ 
+*
+ </Description>
+      <Position>NO_DATE</Position>
+      <TranslationSet>
+        <base loc="en">No Date</base>
+        <tran loc="de">Ohne Datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The format is: DATE, TIME </Description>
+      <Position>DATE_TIME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, %2$@</base>
+        <tran loc="de">%1$@, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YESTERDAY</Position>
+      <TranslationSet>
+        <base loc="en">Yesterday</base>
+        <tran loc="de">Gestern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Date format we want the date to look like
+ 
+* August 26 (or something suitable in the language)
+ 
+* in english its MMMM d
+ 
+* in japanese it the format would be M月d日
+ </Description>
+      <Position>MONTH_DAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">MMMM d</base>
+        <tran loc="de">d. MMMM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Today</base>
+        <tran loc="de">Heute</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

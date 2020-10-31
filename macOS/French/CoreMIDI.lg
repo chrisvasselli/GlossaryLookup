@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreMIDI</ProjName>
+  <File>
+    <Filepath>CoreMIDI/System/Library/Extensions/AppleMIDIUSBDriver.plugin/Contents/Resources/en.lproj/USBMIDILocalizable.strings</Filepath>
+    <TextItem>
+      <Description> USB MIDI device numbered port format-template string </Description>
+      <Position>Port %d</Position>
+      <TranslationSet>
+        <base loc="en">Port %d</base>
+        <tran loc="fr">Port %d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic USB MIDI device manufacturer name </Description>
+      <Position>Generic</Position>
+      <TranslationSet>
+        <base loc="en">Generic</base>
+        <tran loc="fr">Générique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic USB MIDI device name </Description>
+      <Position>USB MIDI Device</Position>
+      <TranslationSet>
+        <base loc="en">USB MIDI Device</base>
+        <tran loc="fr">Périphérique MIDI USB</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMIDI/System/Library/Extensions/AppleMIDIBluetoothDriver.plugin/Contents/Resources/en.lproj/BTLEMIDILocalizable.strings</Filepath>
+    <TextItem>
+      <Description> Null Device Name </Description>
+      <Position>BT</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth</base>
+        <tran loc="fr">Bluetooth</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Manufacturer Unavailable</Position>
+      <TranslationSet>
+        <base loc="en">Manufacturer Unavailable</base>
+        <tran loc="fr">Fabricant non disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Others </Description>
+      <Position>Bluetooth MIDI Peripheral</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth MIDI Peripheral</base>
+        <tran loc="fr">Appareil Bluetooth MIDI périphérique</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device Name </Description>
+      <Position>Bluetooth MIDI Driver</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth MIDI Driver</base>
+        <tran loc="fr">Pilote Bluetooth MIDI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Local Peripheral Default Names </Description>
+      <Position>iOS</Position>
+      <TranslationSet>
+        <base loc="en">iOS</base>
+        <tran loc="fr">iOS</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Manufacturer Name </Description>
+      <Position>Apple Inc.</Position>
+      <TranslationSet>
+        <base loc="en">Apple Inc.</base>
+        <tran loc="fr">Apple Inc.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Bluetooth MIDI Central</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth MIDI Central</base>
+        <tran loc="fr">Appareil Bluetooth MIDI central</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Bluetooth MIDI</Position>
+      <TranslationSet>
+        <base loc="en">Bluetooth MIDI</base>
+        <tran loc="fr">Bluetooth MIDI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model Unavailable</Position>
+      <TranslationSet>
+        <base loc="en">Model Unavailable</base>
+        <tran loc="fr">Modèle non disponible</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>macOS</Position>
+      <TranslationSet>
+        <base loc="en">macOS</base>
+        <tran loc="fr">macOS</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMIDI/System/Library/Frameworks/CoreMIDI.framework/Versions/A/Resources/en.lproj/MIDIServerLocalizable.strings</Filepath>
+    <TextItem>
+      <Description> Device/entity separator, e.g. Network&lt;&gt;Session 1 </Description>
+      <Position> </Position>
+      <TranslationSet>
+        <base loc="en"> </base>
+        <tran loc="fr"> </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Multiple name separator </Description>
+      <Position>, </Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="fr">, </tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMIDI/System/Library/Extensions/AppleMIDIIACDriver.plugin/Contents/Resources/en.lproj/IACLocalizable.strings</Filepath>
+    <TextItem>
+      <Description> template string for numbered busses </Description>
+      <Position>Bus %d</Position>
+      <TranslationSet>
+        <base loc="en">Bus %d</base>
+        <tran loc="fr">Bus %d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> IAC driver manufacturer (Apple) </Description>
+      <Position>Apple Inc.</Position>
+      <TranslationSet>
+        <base loc="en">Apple Inc.</base>
+        <tran loc="fr">Apple Inc.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> IAC Driver name (IAC stands for Inter-Application Communication) </Description>
+      <Position>IAC Driver</Position>
+      <TranslationSet>
+        <base loc="en">IAC Driver</base>
+        <tran loc="fr">Gestionnaire IAC</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreMIDI/System/Library/Extensions/AppleMIDIRTPDriver.plugin/Contents/Resources/en.lproj/RTPMIDILocalizable.strings</Filepath>
+    <TextItem>
+      <Description> Dropped connection </Description>
+      <Position>LostConnectionErr</Position>
+      <TranslationSet>
+        <base loc="en">The connection to %@ was lost.</base>
+        <tran loc="fr">La connexion à %@ a été interrompue.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Errors in establishing a connection </Description>
+      <Position>BadHostErr</Position>
+      <TranslationSet>
+        <base loc="en">%@ couldn’t be located. Make sure you entered the address correctly.</base>
+        <tran loc="fr">Impossible de localiser %@. Assurez-vous d’avoir entré l’adresse correctement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RefusedConnectionErr</Position>
+      <TranslationSet>
+        <base loc="en">%s refused the connection request.</base>
+        <tran loc="fr">%s a refusé la demande de connexion.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IncompatibleProtocolErr</Position>
+      <TranslationSet>
+        <base loc="en">Due to incompatible protocol versions, %s refused the connection request.</base>
+        <tran loc="fr">En raison de versions incompatibles de protocole, %s a refusé la demande de connexion.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NoConnectResponseErr</Position>
+      <TranslationSet>
+        <base loc="en">%s didn’t respond to the connection request. Check the address and port, and any firewall or router settings.</base>
+        <tran loc="fr">%s n’a pas répondu à la demande de connexion. Vérifiez l’adresse et le port, ainsi que les réglages de coupe-feu ou de routeur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The name of the network device as it appears in Audio MIDI Setup </Description>
+      <Position>NetworkDevice</Position>
+      <TranslationSet>
+        <base loc="en">Network</base>
+        <tran loc="fr">Réseau</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>StorageManagement</ProjName>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/GarageBandStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="zh-TW">系統資訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Music Creation</base>
+        <tran loc="zh-TW">音樂創作</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/GarageBandStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>InstrumentLibrary</Position>
+      <TranslationSet>
+        <base loc="en">Instrument Library</base>
+        <tran loc="zh-TW">樂器庫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_APPRUNNING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot delete content while GarageBand is open</base>
+        <tran loc="zh-TW">當GarageBand開啟時無法刪除內容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_MSG_GB_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">The GarageBand Sound Library contains instruments, sounds, and lessons. This content can be removed and reinstalled later if needed.</base>
+        <tran loc="zh-TW">「GarageBand聲音資料庫」包含樂器、聲音和課程。如有需要，可以稍後移除和重新安裝此內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  StorageManagement
+
+  Created by robert on 3/28/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+</Description>
+      <Position>SIZE_FMT</Position>
+      <TranslationSet>
+        <base loc="en">The GarageBand Sound Library contains instruments, sounds, and lessons using %@ of space. This content can be removed and reinstalled later if needed.</base>
+        <tran loc="zh-TW">「GarageBand聲音資料庫」包含使用了%@的樂器、聲音和課程。如有需要，可以稍後移除和重新安裝此內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_GARAGEBAND</Position>
+      <TranslationSet>
+        <base loc="en">Open GarageBand</base>
+        <tran loc="zh-TW">打開GarageBand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEMS_DELETE_CONFIRM_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This will free up %@ of storage. You can’t undo this action, but you can reinstall this content later if needed.</base>
+        <tran loc="zh-TW">這將會清出%@的儲存空間。此動作無法還原，但您可以稍後重新安裝此內容（如有需要）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_GB_CONTENT</Position>
+      <TranslationSet>
+        <base loc="en">Remove GarageBand Sound Library</base>
+        <tran loc="zh-TW">移除GarageBand聲音資料庫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOVE</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="zh-TW">移除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_CONFIRM_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This will free up %@ of storage. You can’t undo this action, but you can reinstall the Sound Library later if needed.</base>
+        <tran loc="zh-TW">這將會清出%@的儲存空間。此動作無法還原，但您可以稍後重新安裝聲音資料庫（如有需要）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_MAINSTAGE</Position>
+      <TranslationSet>
+        <base loc="en">Open MainStage</base>
+        <tran loc="zh-TW">打開MainStage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LTPBasic</Position>
+      <TranslationSet>
+        <base loc="en">Basic Lessons</base>
+        <tran loc="zh-TW">基本課程</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIZE_CALC</Position>
+      <TranslationSet>
+        <base loc="en">Calculating…</base>
+        <tran loc="zh-TW">正在計算⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_LOGIC</Position>
+      <TranslationSet>
+        <base loc="en">Open Logic</base>
+        <tran loc="zh-TW">打開Logic</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AppleLoops</Position>
+      <TranslationSet>
+        <base loc="en">Apple Loops</base>
+        <tran loc="zh-TW">Apple Loops</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_CONFIRM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Remove GarageBand Sound Library from disk?</base>
+        <tran loc="zh-TW">要從磁碟中移除GarageBand聲音資料庫嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_MSG</Position>
+      <TranslationSet>
+        <base loc="en">The Instrument Library and Apple Loops are used by GarageBand, Logic Pro X, and MainStage. The lessons are used only by GarageBand. All or part of this content can be removed and reinstalled later if needed.</base>
+        <tran loc="zh-TW">「樂器庫」和Apple Loops正被GarageBand、Logic Pro X和MainStage使用中。課程僅被GarageBand使用。如有需要，可以稍後移除和重新安裝此內容的全部或其中一部分。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_APPRUNNING_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">GarageBand is using the content you are trying to delete. Please quit GarageBand first, then try deleting content.</base>
+        <tran loc="zh-TW">GarageBand正在使用您嘗試刪除的內容。請先結束GarageBand，然後再嘗試刪除內容。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/iOSFilesStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>POD_IPSW_FMT</Position>
+      <TranslationSet>
+        <base loc="en">Firmware %@ for %@</base>
+        <tran loc="zh-TW">適用於%2$@的韌體%1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Device Backups</Position>
+      <TranslationSet>
+        <base loc="en">Device Backups</base>
+        <tran loc="zh-TW">裝置備份</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>iOS Installers</Position>
+      <TranslationSet>
+        <base loc="en">iOS Installers</base>
+        <tran loc="zh-TW">iOS安裝程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IOS_IPSW_FMT</Position>
+      <TranslationSet>
+        <base loc="en">iOS %@ for %@</base>
+        <tran loc="zh-TW">適用於%2$@的iOS %1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ATV_IPSW_FMT</Position>
+      <TranslationSet>
+        <base loc="en">tvOS %@ for %@</base>
+        <tran loc="zh-TW">適用於%2$@的tvOS %1$@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DM_REMOVE</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeCopy_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to copy this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="zh-TW">需要%@的額外磁碟空間才能拷貝此檔案。您可以在「關於這台Mac」的「儲存空間」移除項目來管理磁碟空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeDownload</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to download \“%@\”</base>
+        <tran loc="zh-TW">磁碟空間不足，無法下載「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeExport</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to export \“%@\”</base>
+        <tran loc="zh-TW">磁碟空間不足，無法輸出「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORAGE_CRITICALLY_LOW_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Save space by optimizing storage.</base>
+        <tran loc="zh-TW">讓儲存空間最佳化以節省空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeInstall_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to install this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="zh-TW">需要%@的額外磁碟空間才能安裝此檔案。您可以在「關於這台Mac」的「儲存空間」移除項目來管理磁碟空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_STMUI</Position>
+      <TranslationSet>
+        <base loc="en">Manage…</base>
+        <tran loc="zh-TW">管理⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeCopy</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to copy \“%@\”</base>
+        <tran loc="zh-TW">磁碟空間不足，無法拷貝「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_OPEN_X</Position>
+      <TranslationSet>
+        <base loc="en">Open %@</base>
+        <tran loc="zh-TW">打開「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeExport_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to export this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="zh-TW">需要%@的額外磁碟空間才能輸出此檔案。您可以在「關於這台Mac」的「儲存空間」移除項目來管理磁碟空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeDownload_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to download this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="zh-TW">需要%@的額外磁碟空間才能下載此檔案。您可以在「關於這台Mac」的「儲存空間」移除項目來管理磁碟空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INFO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of free space is needed to continue. You can create disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="zh-TW">需要%@的額外可用空間才能繼續執行。您可以在「關於這台Mac」的「儲存空間」移除項目來取得磁碟空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> diskspaced strings</Description>
+      <Position>STORAGE_CRITICALLY_LOW</Position>
+      <TranslationSet>
+        <base loc="en">Your disk is almost full</base>
+        <tran loc="zh-TW">您的磁碟將滿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeInstall</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to install \“%@\”</base>
+        <tran loc="zh-TW">磁碟空間不足，無法安裝「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_OPEN</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="zh-TW">打開</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Applications</base>
+        <tran loc="zh-TW">應用程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="zh-TW">系統資訊</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>APPS_OLDER</Position>
+      <TranslationSet>
+        <base loc="en">Older Versions</base>
+        <tran loc="zh-TW">較舊版本</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_DUPLS</Position>
+      <TranslationSet>
+        <base loc="en">Duplicates</base>
+        <tran loc="zh-TW">重複項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_TYPE_UNSUPPORTED</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported</base>
+        <tran loc="zh-TW">不支援</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_OPEN</Position>
+      <TranslationSet>
+        <base loc="en">Open Applications</base>
+        <tran loc="zh-TW">打開「應用程式」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_VERS_FMT</Position>
+      <TranslationSet>
+        <base loc="en">%@ (v%@)</base>
+        <tran loc="zh-TW">%@（v%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_APPLS</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="zh-TW">其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_STORE</Position>
+      <TranslationSet>
+        <base loc="en">App Store</base>
+        <tran loc="zh-TW">App Store</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/GarageBandStorageExtension.appex/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/ITEMS_DELETE_CONFIRM_TITLE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the %1$ld selected items?</base>
+        <tran loc="zh-TW">確定要刪除所選的%1$ld個項目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ITEMS_DELETE_CONFIRM_TITLE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="zh-TW">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/OtherUsersStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Other Users</base>
+        <tran loc="zh-TW">其他使用者</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_TITLE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the %1$ld selected items?</base>
+        <tran loc="zh-TW">確定要刪除所選的%1$ld個項目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_MESSAGE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$ld items will be deleted immediately, freeing %2$@ of storage. You can’t undo this action.</base>
+        <tran loc="zh-TW">將立即刪除%1$ld個項目，釋放%2$@的儲存空間。無法還原此動作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_MESSAGE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="zh-TW">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_NOSIZE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="zh-TW">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_TITLE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="zh-TW">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_NOSIZE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$ld items will be deleted immediately. You can’t undo this action.</base>
+        <tran loc="zh-TW">將立即刪除%1$ld個項目。無法還原此動作。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/iOSFilesStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iOS Files</base>
+        <tran loc="zh-TW">iOS檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="zh-TW">系統資訊</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/STMUIHelper.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MANAGE_STORAGE</Position>
+      <TranslationSet>
+        <base loc="en">Manage Disk Space</base>
+        <tran loc="zh-TW">管理磁碟空間</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/CloudFilesStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Cloud Files</base>
+        <tran loc="zh-TW">雲端檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="zh-TW">系統資訊</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/CloudFilesStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>PINNED_FMT</Position>
+      <TranslationSet>
+        <base loc="en">Local %@ items (Pinned)</base>
+        <tran loc="zh-TW">本機%@項目（已釘選）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNSYNC_FMT</Position>
+      <TranslationSet>
+        <base loc="en">Local %@ items (Waiting to Upload)</base>
+        <tran loc="zh-TW">本機%@項目（等候上傳）</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/TrashStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Trash</base>
+        <tran loc="zh-TW">垃圾桶</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="zh-TW">系統資訊</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/TrashStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>EMPTY_TRASH</Position>
+      <TranslationSet>
+        <base loc="en">Empty Trash</base>
+        <tran loc="zh-TW">清空垃圾桶</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to empty Trash automatically?</base>
+        <tran loc="zh-TW">確定要自動清空「垃圾桶」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On…</base>
+        <tran loc="zh-TW">開啟⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIP_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Save space by automatically erasing items that have been in the Trash for more than 30 days.</base>
+        <tran loc="zh-TW">自動清除在「垃圾桶」內保留超過30天的項目來節省空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_MSG</Position>
+      <TranslationSet>
+        <base loc="en">Items left in the Trash for more than 30 days will be automatically erased. You can change this setting later in Finder preferences.</base>
+        <tran loc="zh-TW">在「垃圾桶」內保留超過30天的項目將會自動刪除。您可以稍後在Finder偏好設定中更改此設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_OK</Position>
+      <TranslationSet>
+        <base loc="en">Turn On</base>
+        <tran loc="zh-TW">開啟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIP_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Empty Trash Automatically</base>
+        <tran loc="zh-TW">自動清空垃圾桶</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICLOUD_TRASH</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Trash</base>
+        <tran loc="zh-TW">iCloud垃圾桶</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

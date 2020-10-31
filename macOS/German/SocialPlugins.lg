@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SocialPlugins</ProjName>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/FacebookAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_APPROVAL_REQUIRED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You will receive a text message containing a temporary code. Please use this code instead of your password to sign in.</base>
+        <tran loc="de">Du erhältst eine Nachricht mit einem temporären Code. Bitte verwende diesen Code statt deines Passworts, um dich anzumelden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_NO_CONNECTION</Position>
+      <TranslationSet>
+        <base loc="en">There is no connection to the Internet.</base>
+        <tran loc="de">Es gibt keine Internetverbindung.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Could not communicate with the server.</base>
+        <tran loc="de">Die Kommunikation mit dem Server ist fehlgeschlagen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_BLOCKED</Position>
+      <TranslationSet>
+        <base loc="en">Your account has been blocked for suspicious activity. Please log in to facebook.com from your computer and follow the instructions given.</base>
+        <tran loc="de">Dein Account wurde aufgrund verdächtiger Aktivitäten gesperrt. Melde dich von deinem Computer bei facebook.com an und folge dort den Anweisungen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Facebook
+
+  Created by Kalle Haglunds on 2/3/12.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>FB_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Facebook password for “%@” in Settings.</base>
+        <tran loc="de">Gib das Facebook-Passwort für „%@“ in den Einstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_OPTED_OUT</Position>
+      <TranslationSet>
+        <base loc="en">You cannot sign in from your iPhone since you have opted out of Facebook Platform.</base>
+        <tran loc="de">Du kannst dich nicht über dein iPhone anmelden, da du dich von der Facebook-Plattform abgemeldet hast.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="de">Gib das Passwort für „%@“ in den Systemeinstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="de">Einstellungen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MUST_VERIFY</Position>
+      <TranslationSet>
+        <base loc="en">You need to verify your email address before you can start using your Facebook account.</base>
+        <tran loc="de">Du musst deine E-Mail-Adresse verifizieren, bevor du deinen Facebook-Account verwenden kannst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">The user name or password is incorrect.</base>
+        <tran loc="de">Benutzername oder Passwort sind falsch.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_APPROVAL_REQUIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Login Approval Required</base>
+        <tran loc="de">Anmeldungsgenehmigung erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Error Signing In</base>
+        <tran loc="de">Fehler bei der Anmeldung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Facebook Password</base>
+        <tran loc="de">Facebook-Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/WeiboAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_USER_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">User canceled password prompt</base>
+        <tran loc="de">Die Passworteingabe wurde vom Benutzer abgebrochen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Weibo Password</base>
+        <tran loc="de">Weibo-Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ERROR_NOT_PERMITTED</Position>
+      <TranslationSet>
+        <base loc="en">The application does not have permission to add Weibo accounts using a password.</base>
+        <tran loc="de">Das Programm verfügt nicht über die Berechtigung, mit einem Passwort Weibo-Accounts hinzuzufügen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="de">Gib das Passwort für „%@“ in den Systemeinstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="de">Einstellungen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ERROR_NO_CREDENTIAL</Position>
+      <TranslationSet>
+        <base loc="en">The account could not be verified because it does not have the necessary credentials.</base>
+        <tran loc="de">Der Account konnte nicht überprüft werden, da er kein geeigneten Anmeldedaten besitzt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by Guy Fullerton on 5/30/12.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>WEIBO_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Weibo password for “%@” in Settings.</base>
+        <tran loc="de">Gib das Weibo-Passwort für „%@“ in den Einstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/GoogleAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_NOTIF_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Google Password Required</base>
+        <tran loc="de">Google-Passwort erforderlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Google password for “%@” in Internet Accounts.</base>
+        <tran loc="de">Gib das Google-Passwort für „%@“ in der Systemeinstellung „Internetaccounts“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Google
+
+  Created by Guy Fullerton on 10/17/14.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>GOOGLE_AUTH_ALERT_TITLE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Google password for “%@” in Settings.</base>
+        <tran loc="de">Gib das Google-Passwort für „%@“ in den Einstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_EMAIL_MISMATCH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Email Address Mismatch</base>
+        <tran loc="de">E-Mail-Adressen stimmen nicht überein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_EMAIL_MISMATCH_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_NOTIF_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="de">Fortfahren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_SETTINGS_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Internet Accounts</base>
+        <tran loc="de">Internetaccounts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_EMAIL_MISMATCH_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The email address you entered does not match your account.</base>
+        <tran loc="de">Die eingegebene E-Mail-Adresse stimmt nicht mit deinem Account überein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_SETTINGS_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_NOTIF_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password for “%@” in Internet Accounts.</base>
+        <tran loc="de">Gib dein Passwort für „%@“ in der Systemeinstellung „Internetaccounts“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Access/FacebookAccessPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_STREAM</Position>
+      <TranslationSet>
+        <base loc="en">News Feed</base>
+        <tran loc="de">News-Feed</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_RELATIONSHIPS</Position>
+      <TranslationSet>
+        <base loc="en">relationships</base>
+        <tran loc="de">Beziehungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_RELATIONSHIPS</Position>
+      <TranslationSet>
+        <base loc="en">relationships</base>
+        <tran loc="de">Beziehungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">notes</base>
+        <tran loc="de">Notizen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">notes</base>
+        <tran loc="de">Notizen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_MANAGE_FRIENDLISTS</Position>
+      <TranslationSet>
+        <base loc="en">custom friend lists</base>
+        <tran loc="de">eigene Freundeslisten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_FRIENDLISTS</Position>
+      <TranslationSet>
+        <base loc="en">custom friend lists</base>
+        <tran loc="de">eigene Freundeslisten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_XMPP_LOGIN</Position>
+      <TranslationSet>
+        <base loc="en">messages</base>
+        <tran loc="de">Mitteilungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">messages</base>
+        <tran loc="de">Mitteilungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Predicates </Description>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ</Position>
+      <TranslationSet>
+        <base loc="en">access %@</base>
+        <tran loc="de">auf %@ zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> See comment for ACCOUNT_ACCESS_MANAGE_MULTIPLE. </Description>
+      <Position>ACCOUNT_ACCESS_MANAGE_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">manage %@ and %@</base>
+        <tran loc="de">%@ und %@ verwalten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The placeholder will be one of the Audience Descriptions that appear below. </Description>
+      <Position>ACCCOUNT_ACCESS_WRITE</Position>
+      <TranslationSet>
+        <base loc="en">post %@</base>
+        <tran loc="de">%@ posten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_INSIGHTS</Position>
+      <TranslationSet>
+        <base loc="en">insights</base>
+        <tran loc="de">Einblicke</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_ONLINE_PRESENCE</Position>
+      <TranslationSet>
+        <base loc="en">chat status</base>
+        <tran loc="de">Chatstatus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_RELIGION_POLITICS</Position>
+      <TranslationSet>
+        <base loc="en">religious and political views</base>
+        <tran loc="de">religiöse und politische Ansichten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_RELIGION_POLITICS</Position>
+      <TranslationSet>
+        <base loc="en">religious and political views</base>
+        <tran loc="de">religiöse und politische Ansichten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_CHECKINS</Position>
+      <TranslationSet>
+        <base loc="en">checkins</base>
+        <tran loc="de">Anmeldungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_CHECKINS</Position>
+      <TranslationSet>
+        <base loc="en">checkins</base>
+        <tran loc="de">Anmeldungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by Lestat Ali on 4/30/12.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>ACCOUNT_ACCESS_REQUEST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Facebook</base>
+        <tran loc="de">Facebook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_TWO_PERMISSION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@, and %@ on your behalf.</base>
+        <tran loc="de">„%@“ möchte in deinem Namen %@ und %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Audience Descriptions </Description>
+      <Position>POST_PUBLICALLY</Position>
+      <TranslationSet>
+        <base loc="en">publicly</base>
+        <tran loc="de">öffentlich</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Object Names </Description>
+      <Position>FACEBOOK_READ_PERMISSION_BASIC_PROFILE</Position>
+      <TranslationSet>
+        <base loc="en">basic profile info</base>
+        <tran loc="de">Standardprofilinfos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_ADS_MANAGEMENT</Position>
+      <TranslationSet>
+        <base loc="en">ads</base>
+        <tran loc="de">Werbung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_GROUPS</Position>
+      <TranslationSet>
+        <base loc="en">groups</base>
+        <tran loc="de">Gruppen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_GROUPS</Position>
+      <TranslationSet>
+        <base loc="en">groups</base>
+        <tran loc="de">Gruppen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">status updates</base>
+        <tran loc="de">Status-Updates</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">status updates</base>
+        <tran loc="de">Status-Updates</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> We display this when an app requests basic-read access. 
+ The placeholder is for the app name, e.g. "Flipboard". </Description>
+      <Position>ACCOUNT_ACCESS_BASIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to access your basic profile info and list of friends.</base>
+        <tran loc="de">„%@“ möchte auf deine Basisprofilinfos und auf Freundesliste zugreifen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_ABOUT_ME</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_ACTIVITIES</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_BIRTHDAY</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_EDUCATION_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_HOMETOWN</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_INTERESTS</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_SUBSCRIPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_WEBSITE</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_WORK_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="de">Profile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_FRIENDS</Position>
+      <TranslationSet>
+        <base loc="en">your friends’ %@</base>
+        <tran loc="de">%@ deiner Freunde</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_PHOTOS</Position>
+      <TranslationSet>
+        <base loc="en">photos</base>
+        <tran loc="de">Fotos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_PHOTOS</Position>
+      <TranslationSet>
+        <base loc="en">photos</base>
+        <tran loc="de">Fotos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POST_PRIVATELY</Position>
+      <TranslationSet>
+        <base loc="en">privately</base>
+        <tran loc="de">privat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">access %@ as well as %@</base>
+        <tran loc="de">auf %@ sowie auf %@ zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_RELATIONSHIP_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">relationship interests</base>
+        <tran loc="de">Interessiert an</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_RELATIONSHIP_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">relationship interests</base>
+        <tran loc="de">Interessiert an</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_DO_NOT_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="de">Nicht erlauben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_LIKES</Position>
+      <TranslationSet>
+        <base loc="en">likes</base>
+        <tran loc="de">„Gefällt mir“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_LIKES</Position>
+      <TranslationSet>
+        <base loc="en">likes</base>
+        <tran loc="de">„Gefällt mir“</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_LOCATION</Position>
+      <TranslationSet>
+        <base loc="en">current cities</base>
+        <tran loc="de">Aktuelle Städte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_MANAGE</Position>
+      <TranslationSet>
+        <base loc="en">manage %@</base>
+        <tran loc="de">%@ verwalten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_MANAGE_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Pages</base>
+        <tran loc="de">Seiten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_VIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">videos</base>
+        <tran loc="de">Videos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_VIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">videos</base>
+        <tran loc="de">Videos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_USER</Position>
+      <TranslationSet>
+        <base loc="en">your %@</base>
+        <tran loc="de">deine %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WORD_LIST_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="de">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_ONLINE_PRESENCE</Position>
+      <TranslationSet>
+        <base loc="en">chat statuses</base>
+        <tran loc="de">Chatstatus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POST_TO_FRIENDS</Position>
+      <TranslationSet>
+        <base loc="en">to your friends</base>
+        <tran loc="de">an deine Freunde</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_CREATE_EVENT</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="de">Ereignisse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_RSVP_EVENT</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="de">Ereignisse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="de">Ereignisse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="de">Ereignisse</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_QUESTIONS</Position>
+      <TranslationSet>
+        <base loc="en">questions</base>
+        <tran loc="de">Fragen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_QUESTIONS</Position>
+      <TranslationSet>
+        <base loc="en">questions</base>
+        <tran loc="de">Fragen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_REQUESTS</Position>
+      <TranslationSet>
+        <base loc="en">friend requests</base>
+        <tran loc="de">Freundschaftsanfragen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_FRIENDS_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">your friends’ %@ and %@</base>
+        <tran loc="de">%@ und %@ deiner Freunde</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_MANAGE_NOTIFICATIONS</Position>
+      <TranslationSet>
+        <base loc="en">notifications</base>
+        <tran loc="de">Mitteilungen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_THREE_PERMISSION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@. It would also like to %@ and %@ on your behalf.</base>
+        <tran loc="de">„%@“ möchte %@. Es möchte in deinem Namen auch %@ und %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ONE_PERMISSION_SHORT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@.</base>
+        <tran loc="de">„%@“ möchte %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When unknown permissions are requested, we ask the server for a localized message.
+ The first placeholder is for the app name, and the second is for the server message.
+ Note the punctation at the end of the string. </Description>
+      <Position>ACCOUNT_ACCESS_UNKNOWN_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@.</base>
+        <tran loc="de">„%@“ möchte %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_ABOUT_ME</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_ACTIVITIES</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_EDUCATION_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_HOMETOWN</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_INTERESTS</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_SUBSCRIPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_WEBSITE</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_WORK_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="de">Profil</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_USER_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">your %@ and %@</base>
+        <tran loc="de">deine %@ und %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS</Position>
+      <TranslationSet>
+        <base loc="en">list of friends</base>
+        <tran loc="de">Liste von Freunden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> If an unknown permission is requested along with other known permissions,
+ this message is appended to the one we have generated. The placeholder is
+ for a server-provided description. "It" refers to the app. </Description>
+      <Position>ACCOUNT_ACCESS_UNKNOWN_ADDITIONAL_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">In addition, it would like to %@.</base>
+        <tran loc="de">Außerdem möchte die App %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> We allow an app to request up to three categories of permissions (e.g. read, write, manage, etc...).
+ We need a format string for each case. The first placeholder in each string is the app name.
+ The subsequent placeholders are for what I am loosely referring to as "predicates." Each permission
+ category gets a predicate, and each predicate is a phrase that describes the permissions in that category. 
+ For example, if Flipboard requests permissions in two categories, the string might read:
+ "Flipboard" would like to post publicly, and manage friend lists on your behalf.
+ Here we have two predicates: "post publicly" and "manage friendlists". </Description>
+      <Position>ACCOUNT_ACCESS_ONE_PERMISSION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@ on your behalf.</base>
+        <tran loc="de">„%@“ möchte in deinem Namen %@.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/TwitterAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="de">Gib das Passwort für „%@“ in den Systemeinstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="de">Einstellungen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+ Social
+ 
+ Created by Guy Fullerton on 5/29/12.
+ Copyright (c) 2014 Apple Inc. All rights reserved.
+ </Description>
+      <Position>TWITTER_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Twitter password for “%@” in Settings.</base>
+        <tran loc="de">Gib das Twitter-Passwort für „%@“ in den Einstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Twitter Password</base>
+        <tran loc="de">Twitter-Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Access/LinkedInAccessPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_EMAILADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">Access your email address</base>
+        <tran loc="de">Auf deine E-Mail-Adresse zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> LinkedIn permission items. Theses are displayed as a bullet list</Description>
+      <Position>LINKEDIN_PERM_BASICPROFILE</Position>
+      <TranslationSet>
+        <base loc="en">Access your basic profile</base>
+        <tran loc="de">Auf dein Basisprofil zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_GROUPS</Position>
+      <TranslationSet>
+        <base loc="en">Retrieve and post group discussions</base>
+        <tran loc="de">Gruppendiskussionen abrufen und posten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by Arnaud Douceur on 1/8/13.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+
+ %@ is the name of the application requesting access</Description>
+      <Position>ACCOUNT_ACCESS_REQUEST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">%@ is requesting access to your LinkedIn account. This application will be able to:</base>
+        <tran loc="de">%@ möchte auf deinen LinkedIn-Account zugreifen. Dieses Programm kann Folgendes ausführen:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_CONTACTINFO</Position>
+      <TranslationSet>
+        <base loc="en">Access your contact information</base>
+        <tran loc="de">Auf deine Kontaktinformationen zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_NUS</Position>
+      <TranslationSet>
+        <base loc="en">Retrieve and post network updates</base>
+        <tran loc="de">Netzwerkupdates abrufen und posten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">Send messages and invitations to connect</base>
+        <tran loc="de">Mitteilungen und Verbindungseinladungen senden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_FULLPROFILE</Position>
+      <TranslationSet>
+        <base loc="en">Access your full profile</base>
+        <tran loc="de">Auf dein vollständiges Profil zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_DO_NOT_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="de">Nicht erlauben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bullet list item. This string is used to build a bullet list item from a string</Description>
+      <Position>BULLET_LIST_ITEM</Position>
+      <TranslationSet>
+        <base loc="en">• %@</base>
+        <tran loc="de">• %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_NETWORK</Position>
+      <TranslationSet>
+        <base loc="en">Access your connections</base>
+        <tran loc="de">Auf deine Verbindungen zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/YahooAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ACCOUNT_TYPE_YAHOO</Position>
+      <TranslationSet>
+        <base loc="en">Yahoo!</base>
+        <tran loc="de">Yahoo!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ACCOUNT_TYPE_AOL</Position>
+      <TranslationSet>
+        <base loc="en">AOL</base>
+        <tran loc="de">AOL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Yahoo!
+
+  Created by Guy Fullerton on 10/17/14.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>YAHOO_AUTH_ALERT_TITLE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the %@ password for “%@” in Settings.</base>
+        <tran loc="de">Gib in den Einstellungen das %@-Passwort für „%@“ ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ALERT_SETTINGS_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Access/TencentWeiboAccessPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  localizable.strings
+  Social
+
+  Created by Nat Hillard on 3/4/13.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>ACCOUNT_ACCESS_REQUEST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Tencent Weibo</base>
+        <tran loc="de">Tencent Weibo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_INVALID_ACCESS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Access Token</base>
+        <tran loc="de">Ungültiger Zugriffstoken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> We display this when an app requests basic-read access.
+ The placeholder is for the app name, e.g. "Flipboard". </Description>
+      <Position>ACCOUNT_ACCESS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to access your Tencent Weibo Account</base>
+        <tran loc="de">„%@“ möchte auf deinen Tencent Weibo-Account zugreifen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_GENERAL</Position>
+      <TranslationSet>
+        <base loc="en">Request failed</base>
+        <tran loc="de">Anfrage fehlgeschlagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_DO_NOT_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="de">Nicht erlauben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_PARAMETER</Position>
+      <TranslationSet>
+        <base loc="en">Missing request parameter</base>
+        <tran loc="de">Fehlender Anfrageparameter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WORD_LIST_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="de">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_REPEATED_REQUEST</Position>
+      <TranslationSet>
+        <base loc="en">Requests have been too frequent</base>
+        <tran loc="de">Zu häufige Anfragen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_MALFORMED_REQUEST</Position>
+      <TranslationSet>
+        <base loc="en">Malformed request</base>
+        <tran loc="de">Anfrage ungültig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_INVALID_APPID</Position>
+      <TranslationSet>
+        <base loc="en">Invalid App ID</base>
+        <tran loc="de">Ungültige App-ID</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/LinkedInAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">LinkedIn Password</base>
+        <tran loc="de">LinkedIn-Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_USER_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">User canceled password prompt</base>
+        <tran loc="de">Die Passworteingabe wurde vom Benutzer abgebrochen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="de">Gib das Passwort für „%@“ in den Systemeinstellungen ein.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="de">Einstellungen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by John Scalo on 10/24/12.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>LINKEDIN_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ needs you to enter the password for “%2$@” in Settings.</base>
+        <tran loc="de">%1$@ setzt voraus, dass du das Passwort für „%2$@“ in den Einstellungen eingibst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ERROR_NO_CREDENTIAL</Position>
+      <TranslationSet>
+        <base loc="en">The account could not be verified because it does not have the necessary credentials.</base>
+        <tran loc="de">Der Account konnte nicht überprüft werden, da er kein geeigneten Anmeldedaten besitzt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ERROR_NOT_PERMITTED</Position>
+      <TranslationSet>
+        <base loc="en">The application does not have permission to add LinkedIn accounts using a password.</base>
+        <tran loc="de">Das Programm hat keine Berechtigung, LinkedIn-Accounts mit einem Passwort hinzuzufügen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="de">Einstellungen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

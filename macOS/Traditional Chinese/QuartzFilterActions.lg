@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>QuartzFilterActions</ProjName>
+  <File>
+    <Filepath>QuartzFilterActions/System/Library/Automator/Apply Quartz Filter to PDF Documents.action/Contents/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description>  AMKeyword localized strings  
+ "PDF" = "PDF"; </Description>
+      <Position>Change</Position>
+      <TranslationSet>
+        <base loc="en">Change</base>
+        <tran loc="zh-TW">更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Message</Position>
+      <TranslationSet>
+        <base loc="en">This action will change the PDF files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</base>
+        <tran loc="zh-TW">這項動作會更改傳送到其中的PDF檔。您要加入「拷貝Finder項目」動作，更改拷貝的項目並保留原始檔案嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IgnoreButton</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Add</base>
+        <tran loc="zh-TW">不要加入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDRequires</Position>
+      <TranslationSet>
+        <base loc="en">PDF files (.pdf)</base>
+        <tran loc="zh-TW">PDF檔案（.pdf）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ApplyButton</Position>
+      <TranslationSet>
+        <base loc="en">Add</base>
+        <tran loc="zh-TW">加入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  Description localized strings  </Description>
+      <Position>AMDSummary</Position>
+      <TranslationSet>
+        <base loc="en">This action applies a selected Quartz Filter to PDF documents.</base>
+        <tran loc="zh-TW">這項動作會將所選的「Quartz濾鏡」套用到PDF文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMApplication localized strings  </Description>
+      <Position>PDF</Position>
+      <TranslationSet>
+        <base loc="en">PDF</base>
+        <tran loc="zh-TW">PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">© Apple Computer, 2004-2015</base>
+        <tran loc="zh-TW">© Apple Computer, 2004-2015</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMCategory localized strings  
+ "PDF" = "PDF"; </Description>
+      <Position>Couldn't create PDF/X-3 document</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t create PDF/X-3 document</base>
+        <tran loc="zh-TW">無法製作PDF/X-3文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMName</Position>
+      <TranslationSet>
+        <base loc="en">Apply Quartz Filter to PDF Documents</base>
+        <tran loc="zh-TW">將「Quartz濾鏡」套用至PDF文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Apply Quartz Filter to PDF Documents</base>
+        <tran loc="zh-TW">將「Quartz濾鏡」套用至PDF文件</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>QuartzFilterActions/System/Library/Automator/Apply Quartz Filter to PDF Documents.action/Contents/Resources/English.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Filter:"; ObjectID = "100022"; </Description>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">Filter:</base>
+        <tran loc="zh-TW">濾鏡：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item2"; ObjectID = "25"; </Description>
+      <Position>25.title</Position>
+      <TranslationSet>
+        <base loc="en">Item2</base>
+        <tran loc="zh-TW">Item2</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Advanced options"; ObjectID = "100043"; </Description>
+      <Position>100043.title</Position>
+      <TranslationSet>
+        <base loc="en">Advanced options</base>
+        <tran loc="zh-TW">進階選項</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Choose filter from the list below"; ObjectID = "100060"; </Description>
+      <Position>100060.title</Position>
+      <TranslationSet>
+        <base loc="en">Choose filter from the list below</base>
+        <tran loc="zh-TW">從下方的列表裡選擇濾鏡</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "▷"; ObjectID = "100056"; </Description>
+      <Position>100056.title</Position>
+      <TranslationSet>
+        <base loc="en">▷</base>
+        <tran loc="zh-TW">▷</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "None"; ObjectID = "27"; </Description>
+      <Position>27.title</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-TW">無</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item3"; ObjectID = "26"; </Description>
+      <Position>26.title</Position>
+      <TranslationSet>
+        <base loc="en">Item3</base>
+        <tran loc="zh-TW">Item3</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-TW">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "18"; </Description>
+      <Position>18.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-TW">Box</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>QuartzFilterActions/System/Library/Automator/Apply ColorSync Profile to Images.action/Contents/Resources/English.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Preserve original color space"; ObjectID = "100042"; </Description>
+      <Position>100042.title</Position>
+      <TranslationSet>
+        <base loc="en">Preserve original color space</base>
+        <tran loc="zh-TW">保留原始色彩空間</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Named Color"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Named Color</base>
+        <tran loc="zh-TW">命名的顏色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Named Color"; ObjectID = "88"; </Description>
+      <Position>88.title</Position>
+      <TranslationSet>
+        <base loc="en">Named Color</base>
+        <tran loc="zh-TW">命名的顏色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Named Color"; ObjectID = "89"; </Description>
+      <Position>89.title</Position>
+      <TranslationSet>
+        <base loc="en">Named Color</base>
+        <tran loc="zh-TW">命名的顏色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Abstract"; ObjectID = "25"; </Description>
+      <Position>25.title</Position>
+      <TranslationSet>
+        <base loc="en">Abstract</base>
+        <tran loc="zh-TW">抽象</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Abstract"; ObjectID = "79"; </Description>
+      <Position>79.title</Position>
+      <TranslationSet>
+        <base loc="en">Abstract</base>
+        <tran loc="zh-TW">抽象</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Abstract"; ObjectID = "80"; </Description>
+      <Position>80.title</Position>
+      <TranslationSet>
+        <base loc="en">Abstract</base>
+        <tran loc="zh-TW">抽象</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "▷"; ObjectID = "100053"; </Description>
+      <Position>100053.title</Position>
+      <TranslationSet>
+        <base loc="en">▷</base>
+        <tran loc="zh-TW">▷</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "None"; ObjectID = "111"; </Description>
+      <Position>111.title</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-TW">無</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "None"; ObjectID = "27"; </Description>
+      <Position>27.title</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-TW">無</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Color Space"; ObjectID = "26"; </Description>
+      <Position>26.title</Position>
+      <TranslationSet>
+        <base loc="en">Color Space</base>
+        <tran loc="zh-TW">色彩空間</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Color Space"; ObjectID = "85"; </Description>
+      <Position>85.title</Position>
+      <TranslationSet>
+        <base loc="en">Color Space</base>
+        <tran loc="zh-TW">色彩空間</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Color Space"; ObjectID = "86"; </Description>
+      <Position>86.title</Position>
+      <TranslationSet>
+        <base loc="en">Color Space</base>
+        <tran loc="zh-TW">色彩空間</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item"; ObjectID = "81"; </Description>
+      <Position>81.title</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="zh-TW">項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item"; ObjectID = "84"; </Description>
+      <Position>84.title</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="zh-TW">項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item"; ObjectID = "87"; </Description>
+      <Position>87.title</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="zh-TW">項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item"; ObjectID = "90"; </Description>
+      <Position>90.title</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="zh-TW">項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item"; ObjectID = "93"; </Description>
+      <Position>93.title</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="zh-TW">項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Display</base>
+        <tran loc="zh-TW">顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display"; ObjectID = "82"; </Description>
+      <Position>82.title</Position>
+      <TranslationSet>
+        <base loc="en">Display</base>
+        <tran loc="zh-TW">顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Display"; ObjectID = "83"; </Description>
+      <Position>83.title</Position>
+      <TranslationSet>
+        <base loc="en">Display</base>
+        <tran loc="zh-TW">顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-TW">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "18"; </Description>
+      <Position>18.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-TW">Box</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Profile:"; ObjectID = "100022"; </Description>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">Profile:</base>
+        <tran loc="zh-TW">色彩描述：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Output"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">Output</base>
+        <tran loc="zh-TW">輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Output"; ObjectID = "91"; </Description>
+      <Position>91.title</Position>
+      <TranslationSet>
+        <base loc="en">Output</base>
+        <tran loc="zh-TW">輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Output"; ObjectID = "92"; </Description>
+      <Position>92.title</Position>
+      <TranslationSet>
+        <base loc="en">Output</base>
+        <tran loc="zh-TW">輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Menu"; ObjectID = "59"; </Description>
+      <Position>59.title</Position>
+      <TranslationSet>
+        <base loc="en">Menu</base>
+        <tran loc="zh-TW">選單</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>QuartzFilterActions/System/Library/Automator/Apply ColorSync Profile to Images.action/Contents/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Change</Position>
+      <TranslationSet>
+        <base loc="en">Change</base>
+        <tran loc="zh-TW">更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photo</Position>
+      <TranslationSet>
+        <base loc="en">Photo</base>
+        <tran loc="zh-TW">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IgnoreButton</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Add</base>
+        <tran loc="zh-TW">不要加入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMKeyword localized strings  </Description>
+      <Position>Image</Position>
+      <TranslationSet>
+        <base loc="en">Image</base>
+        <tran loc="zh-TW">影像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMApplication localized strings  </Description>
+      <Position>Preview</Position>
+      <TranslationSet>
+        <base loc="en">Preview</base>
+        <tran loc="zh-TW">預覽程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ApplyButton</Position>
+      <TranslationSet>
+        <base loc="en">Add</base>
+        <tran loc="zh-TW">加入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Message</Position>
+      <TranslationSet>
+        <base loc="en">This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</base>
+        <tran loc="zh-TW">這一項動作將變更傳送到其中的影像檔。您想要加入「拷貝 Finder 項目」的動作，好讓備份檔案變更時保存原來的檔案嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  Description localized strings  </Description>
+      <Position>AMDSummary</Position>
+      <TranslationSet>
+        <base loc="en">This action applies a selected ColorSync profile to images.</base>
+        <tran loc="zh-TW">這項動作會將所選的「色彩同步」色彩描述套用至影像。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMName</Position>
+      <TranslationSet>
+        <base loc="en">Apply ColorSync Profile to Images</base>
+        <tran loc="zh-TW">將「色彩同步」色彩描述套用至影像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Apply ColorSync Profile to Images</base>
+        <tran loc="zh-TW">將「色彩同步」色彩描述套用至影像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">© Apple Computer, 2004-2015</base>
+        <tran loc="zh-TW">© Apple Computer, 2004-2015</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMCategory localized strings  </Description>
+      <Position>Pictures</Position>
+      <TranslationSet>
+        <base loc="en">Pictures</base>
+        <tran loc="zh-TW">圖片</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

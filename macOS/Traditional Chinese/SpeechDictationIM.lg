@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SpeechDictationIM</ProjName>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Dictation</base>
+        <tran loc="zh-TW">聽寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Dictation</base>
+        <tran loc="zh-TW">聽寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>com.apple.inputmethod.ironwood</Position>
+      <TranslationSet>
+        <base loc="en">Dictation</base>
+        <tran loc="zh-TW">聽寫</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/IntroAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Don’t Ask Again"; ObjectID = "1080"; </Description>
+      <Position>1080.title</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Ask Again</base>
+        <tran loc="zh-TW">不要再問</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt; DO NOT LOCALIZE&gt;&gt;  (IntroAlert/IntroText/
+*)"; ObjectID = "1063"; </Description>
+      <Position>1063.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt; DO NOT LOCALIZE&gt;&gt;  (IntroAlert/IntroText/*)</base>
+        <tran loc="zh-TW">&lt;&lt; DO NOT LOCALIZE&gt;&gt;  (IntroAlert/IntroText/*)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "1059"; </Description>
+      <Position>1059.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Do you want to enable Dictation?"; ObjectID = "1057"; </Description>
+      <Position>1057.title</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to enable Dictation?</base>
+        <tran loc="zh-TW">您要啟用「聽寫」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Not Now"; ObjectID = "1060"; </Description>
+      <Position>1060.title</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/BuiltinCommands.plist</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/ModifierKeyName.Option:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Option</base>
+        <tran loc="zh-TW">Option</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.NumberTwoThroughNinetyNine.2:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">count</base>
+        <tran loc="zh-TW">數量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.NumberTwoThroughNinetyNine:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">count</base>
+        <tran loc="zh-TW">數量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.ScreenDistanceCardinalNumber:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">count</base>
+        <tran loc="zh-TW">數量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.TextSegmentCardinalNumber:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">count</base>
+        <tran loc="zh-TW">數量</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.select:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">highlight</base>
+        <tran loc="zh-TW">反白</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.ModifierKeys:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modifier keys</base>
+        <tran loc="zh-TW">變更鍵</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.preferences:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">settings</base>
+        <tran loc="zh-TW">設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.close:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">dismiss quit cancel</base>
+        <tran loc="zh-TW">關閉結束取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.Dictation.2:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">phrase</base>
+        <tran loc="zh-TW">詞句</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.Dictation:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">phrase</base>
+        <tran loc="zh-TW">詞句</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.quit:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">close dismiss</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.document:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">file</base>
+        <tran loc="zh-TW">檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.RunningApplication:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">application name</base>
+        <tran loc="zh-TW">應用程式名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.SwitchableApplication:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">application name</base>
+        <tran loc="zh-TW">應用程式名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ModifierKeyName.Command:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Command</base>
+        <tran loc="zh-TW">Command</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.OverlayLabel.2:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">number</base>
+        <tran loc="zh-TW">編號</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.OverlayLabel:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">number</base>
+        <tran loc="zh-TW">編號</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.MenuBarItem:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">menu name</base>
+        <tran loc="zh-TW">選單名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Application.MinimizeWindow.search:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">smaller</base>
+        <tran loc="zh-TW">縮小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.WindowItem:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">item name</base>
+        <tran loc="zh-TW">項目名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.unselect:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">deselect</base>
+        <tran loc="zh-TW">取消選取</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandManager.defaultKeyword:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Computer</base>
+        <tran loc="zh-TW">電腦</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.beginning:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">start</base>
+        <tran loc="zh-TW">開始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.all:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">whole</base>
+        <tran loc="zh-TW">全字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ModifierKeyName.Caps Lock:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Caps Lock</base>
+        <tran loc="zh-TW">大寫鎖定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.make:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">create</base>
+        <tran loc="zh-TW">製作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ModifierKeyName.Shift:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Shift</base>
+        <tran loc="zh-TW">Shift</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.open:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">launch start</base>
+        <tran loc="zh-TW">啟動</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.go:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">goto move</base>
+        <tran loc="zh-TW">搬移</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CommandSynonym.capitalize:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">uppercase</base>
+        <tran loc="zh-TW">大寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DictationStreamingStartFactor:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">1.0</base>
+        <tran loc="zh-TW">1.0</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/BuiltInLM.MenuItem:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">menu item name</base>
+        <tran loc="zh-TW">選單項目名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ModifierKeyName.Control:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Control</base>
+        <tran loc="zh-TW">Control</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/IntroAlertMicError.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Don’t Ask Again"; ObjectID = "1097"; </Description>
+      <Position>1097.title</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Ask Again</base>
+        <tran loc="zh-TW">不要再問</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Dictation Preferences…"; ObjectID = "1086"; </Description>
+      <Position>1086.title</Position>
+      <TranslationSet>
+        <base loc="en">Dictation Preferences…</base>
+        <tran loc="zh-TW">聽寫偏好設定⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "To use Dictation, you need to select a microphone or connect an external microphone."; ObjectID = "1084"; </Description>
+      <Position>1084.title</Position>
+      <TranslationSet>
+        <base loc="en">To use Dictation, you need to select a microphone or connect an external microphone.</base>
+        <tran loc="zh-TW">若要使用「聽寫」，您需要選擇麥克風或連接外接麥克風。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Not Now"; ObjectID = "1083"; </Description>
+      <Position>1083.title</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can configure your microphone in Dictation preferences."; ObjectID = "1080"; </Description>
+      <Position>1080.title</Position>
+      <TranslationSet>
+        <base loc="en">You can configure your microphone in Dictation preferences.</base>
+        <tran loc="zh-TW">您可以在「聽寫」偏好設定中設定麥克風。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>IntroAlert/IntroText/Cmd</Position>
+      <TranslationSet>
+        <base loc="en">To start dictating, press the ⌘ (Command) key twice or choose Start Dictation from the Edit menu.</base>
+        <tran loc="zh-TW">若要啟動聽寫，請按兩下⌘（Command）鍵，或從「編輯」選單中選擇「啟動聽寫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroAlert/IntroText/Fn</Position>
+      <TranslationSet>
+        <base loc="en">To start dictating, press the Fn (Function) key twice or choose Start Dictation from the Edit menu.</base>
+        <tran loc="zh-TW">若要啟動聽寫，請按兩下Fn（功能）鍵，或從「編輯」選單中選擇「啟動聽寫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Dynamic text is a shorcut description, e.g. '^⌥D',</Description>
+      <Position>IntroAlert/IntroText/CustomShortcut</Position>
+      <TranslationSet>
+        <base loc="en">To start dictating, press %@ or choose Start Dictation from the Edit menu.</base>
+        <tran loc="zh-TW">若要啟動聽寫，請按%@或從「編輯」選單中選擇「啟動聽寫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MissingLanguageDataError.DefaultButtonTitle</Position>
+      <TranslationSet>
+        <base loc="en">Voice Control Preferences…</base>
+        <tran loc="zh-TW">「語音控制」偏好設定⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MissingLanguageDataError.Description</Position>
+      <TranslationSet>
+        <base loc="en">Please confirm your dictation language in Voice Control preferences.</base>
+        <tran loc="zh-TW">請在「語音控制」偏好設定中確認您的聽寫語言。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Command Error Strings </Description>
+      <Position>CommandErrorDefaultButtonTitle</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MissingLanguageDataError.AlternateButtonTitle</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InfoMessage.ClosestMatchingMultipleCommandEntry</Position>
+      <TranslationSet>
+        <base loc="en">\n      • “%@”</base>
+        <tran loc="zh-TW">\n      •「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CustomCommandOpenFile/CannotFindFile/Title</Position>
+      <TranslationSet>
+        <base loc="en">The file to be opened for the command “%@” could not be found.</base>
+        <tran loc="zh-TW">找不到指令「%@」要打開的檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Intro alert strings 
+Dynamic text is the unsupported language / locale, e.g. 'Catalan', 'Canadian English', or 'English (India)'</Description>
+      <Position>IntroAlertLanguageError/LanguageNotAvailable</Position>
+      <TranslationSet>
+        <base loc="en">Dictation is not currently available in %@.</base>
+        <tran loc="zh-TW">目前無法使用%@聽寫。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroAlert/OfflineDictationDescWithDownload</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced dictation allows offline use and continuous dictation within a window with live feedback. Dictation speech is not sent to Apple. A %@ download is required.</base>
+        <tran loc="zh-TW">進階聽寫允許離線使用和同一視窗中即時回饋的連續聽寫。聽寫的語音不會傳送給Apple。需要下載%@。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroAlert/IntroText/LeftCmd</Position>
+      <TranslationSet>
+        <base loc="en">To start dictating, press the Left ⌘ (Command) key twice or choose Start Dictation from the Edit menu.</base>
+        <tran loc="zh-TW">若要啟動聽寫，請按兩下左側的⌘（Command）鍵，或從「編輯」選單中選擇「啟動聽寫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Language data doesn't exist for desired locale identifier </Description>
+      <Position>MissingLanguageDataError.Title</Position>
+      <TranslationSet>
+        <base loc="en">Data for the desired language is missing</base>
+        <tran loc="zh-TW">遺失所需的語言資料</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic version of  'English (India)'</Description>
+      <Position>IntroAlertLanguageError/LanguageNotAvailableGeneric</Position>
+      <TranslationSet>
+        <base loc="en">Please confirm your dictation language before enabling Dictation.</base>
+        <tran loc="zh-TW">啟用「聽寫」前，請先確認您的聽寫語言。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroAlert/IntroText/RightCmd</Position>
+      <TranslationSet>
+        <base loc="en">To start dictating, press the Right ⌘ (Command) key twice or choose Start Dictation from the Edit menu.</base>
+        <tran loc="zh-TW">若要啟動聽寫，請按兩下右側的⌘（Command）鍵，或從「編輯」選單中選擇「啟動聽寫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Information messages </Description>
+      <Position>InfoMessage.ClosestMatchingCommand</Position>
+      <TranslationSet>
+        <base loc="en">Try: “%@”</base>
+        <tran loc="zh-TW">嘗試：「%@」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroAlert/OfflineDictationDesc</Position>
+      <TranslationSet>
+        <base loc="en">Enhanced dictation allows offline use and continuous dictation with live feedback. Dictation speech is not sent to Apple.</base>
+        <tran loc="zh-TW">進階聽寫允許離線使用和即時回饋的連續聽寫。聽寫的語音不會傳送給Apple。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InfoMessage.ClosestMatchingMultipleCommands</Position>
+      <TranslationSet>
+        <base loc="en">Suggested Commands %@</base>
+        <tran loc="zh-TW">建議的指令%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Display name of Spotlight </Description>
+      <Position>SpotlightDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Spotlight</base>
+        <tran loc="zh-TW">Spotlight</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/IntroAlertLanguageError.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Don’t Ask Again"; ObjectID = "1108"; </Description>
+      <Position>1108.title</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Ask Again</base>
+        <tran loc="zh-TW">不要再問</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Dictation Preferences…"; ObjectID = "1093"; </Description>
+      <Position>1093.title</Position>
+      <TranslationSet>
+        <base loc="en">Dictation Preferences…</base>
+        <tran loc="zh-TW">聽寫偏好設定⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;DO NOT LOCALIZE&gt;&gt;"; ObjectID = "1095"; </Description>
+      <Position>1095.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</base>
+        <tran loc="zh-TW">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Not Now"; ObjectID = "1092"; </Description>
+      <Position>1092.title</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-TW">稍後再說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can choose from available languages in Dictation preferences."; ObjectID = "1096"; </Description>
+      <Position>1096.title</Position>
+      <TranslationSet>
+        <base loc="en">You can choose from available languages in Dictation preferences.</base>
+        <tran loc="zh-TW">您可以在「聽寫」偏好設定中選擇可用的語言。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SpeechDictationIM/System/Library/Input Methods/DictationIM.app/Contents/Resources/en.lproj/GenericModalAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "&lt;&lt;DO NOT LOCALIZE&gt;&gt;"; ObjectID = "1092"; </Description>
+      <Position>1092.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</base>
+        <tran loc="zh-TW">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "&lt;&lt;DO NOT LOCALIZE&gt;&gt;"; ObjectID = "1093"; </Description>
+      <Position>1093.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</base>
+        <tran loc="zh-TW">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;DO NOT LOCALIZE&gt;&gt;"; ObjectID = "1095"; </Description>
+      <Position>1095.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</base>
+        <tran loc="zh-TW">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;DO NOT LOCALIZE&gt;&gt;"; ObjectID = "1096"; </Description>
+      <Position>1096.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</base>
+        <tran loc="zh-TW">&lt;&lt;DO NOT LOCALIZE&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

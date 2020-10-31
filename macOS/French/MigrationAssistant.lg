@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>MigrationAssistant</ProjName>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FUS_WAITING_FOR_USERS_TO_LOG_OUT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Before migrating your information, you need to log out of these user accounts:</base>
+        <tran loc="fr">Avant de transférer vos informations, déconnectez-vous de ces comptes utilisateur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FUS_WAITING_FOR_USERS_TO_LOG_OUT</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for users to log out…</base>
+        <tran loc="fr">Attente de la déconnexion des utilisateurs…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FUS_ALL_USERS_LOGGED_OUT</Position>
+      <TranslationSet>
+        <base loc="en">All Users logged out.</base>
+        <tran loc="fr">Tous les utilisateurs sont déconnectés.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Displayed after apps are succesfully closed, while we spin up MacBuddy in the background. The phrase is mostly meaningless</Description>
+      <Position>LOGOUT_LOGOUT_SETTING_UP</Position>
+      <TranslationSet>
+        <base loc="en">Setting up…</base>
+        <tran loc="fr">Configuration…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGOUT_LOGGING_OUT</Position>
+      <TranslationSet>
+        <base loc="en">Closing Applications and logging out, one moment…</base>
+        <tran loc="fr">Fermeture des applications et déconnexion, un moment…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Migration Assistant</Position>
+      <TranslationSet>
+        <base loc="en">Migration Assistant</base>
+        <tran loc="fr">Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This is displayed if someone clicks on the Migration Assistant handoff item in the dock, where THIS Mac will be put into "To Another Mac" (Target) mode
+ Variable #1 is the computer name of the Mac that the Handoff event came from</Description>
+      <Position>HANDOFF_TARGET_EXPLANATION</Position>
+      <TranslationSet>
+        <base loc="en">If you continue, all of the data on this Mac will be made available to “%1$@” for Migration.\n\nAll other apps will quit when you click Continue.</base>
+        <tran loc="fr">Si vous continuez, toutes les données de ce Mac pourront être migrées vers « %1$@ ».\n\nToutes les autres apps seront quittées lorsque vous cliquerez sur Continuer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancelled?</Description>
+      <Position>LOGOUT_LOGOUT_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Logging out failed.</base>
+        <tran loc="fr">Échec de la déconnexion.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FUS_WAITING_FOR_USER_TO_LOG_OUT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Before migrating your information, you need to log out of this user account:</base>
+        <tran loc="fr">Avant de transférer vos informations, déconnectez-vous de ce compte utilisateur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FUS_WAITING_FOR_USER_TO_LOG_OUT</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for the last user to log out…</base>
+        <tran loc="fr">En attente de la déconnexion du dernier utilisateur…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Delete"; ObjectID = "164"; </Description>
+      <Position>164.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="fr">Supprimer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Migration Assistant Help"; ObjectID = "o0i-OL-rGF"; </Description>
+      <Position>o0i-OL-rGF.title</Position>
+      <TranslationSet>
+        <base loc="en">Migration Assistant Help</base>
+        <tran loc="fr">Aide Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Go Back"; ObjectID = "K17-Pb-rTH"; </Description>
+      <Position>K17-Pb-rTH.title</Position>
+      <TranslationSet>
+        <base loc="en">Go Back</base>
+        <tran loc="fr">Revenir</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Migration Assistant"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About Migration Assistant</base>
+        <tran loc="fr">À propos d’Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; </Description>
+      <Position>163.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="fr">Édition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Edit"; ObjectID = "169"; </Description>
+      <Position>169.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="fr">Édition</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "130"; </Description>
+      <Position>130.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="fr">Services</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; </Description>
+      <Position>131.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="fr">Services</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="fr">Tout afficher</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; </Description>
+      <Position>171.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="fr">Coller</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Continue"; ObjectID = "yfY-vc-TsA"; </Description>
+      <Position>yfY-vc-TsA.title</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="fr">Continuer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Migration Assistant"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Migration Assistant</base>
+        <tran loc="fr">Masquer Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "        "; ObjectID = "Azj-G6-Ix2"; </Description>
+      <Position>Azj-G6-Ix2.title</Position>
+      <TranslationSet>
+        <base loc="en">        </base>
+        <tran loc="fr">        </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Migration Assistant"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Migration Assistant</base>
+        <tran loc="fr">Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Migration Assistant"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Migration Assistant</base>
+        <tran loc="fr">Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Close"; ObjectID = "234"; </Description>
+      <Position>234.title</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="fr">Fermer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Zoom"; ObjectID = "212"; </Description>
+      <Position>212.title</Position>
+      <TranslationSet>
+        <base loc="en">Zoom</base>
+        <tran loc="fr">Réduire/agrandir</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; </Description>
+      <Position>158.title</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "209"; </Description>
+      <Position>209.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="fr">Placer dans le Dock</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="fr">Masquer les autres</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; </Description>
+      <Position>173.title</Position>
+      <TranslationSet>
+        <base loc="en">Redo</base>
+        <tran loc="fr">Rétablir</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; </Description>
+      <Position>157.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="fr">Copier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">MainMenu</base>
+        <tran loc="fr">MainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "207"; </Description>
+      <Position>207.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="fr">Fenêtre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "208"; </Description>
+      <Position>208.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="fr">Fenêtre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Select All"; ObjectID = "172"; </Description>
+      <Position>172.title</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="fr">Tout sélectionner</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Help"; ObjectID = "0y5-vg-PY2"; </Description>
+      <Position>0y5-vg-PY2.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="fr">Aide</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "6DC-pm-EAW"; </Description>
+      <Position>6DC-pm-EAW.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="fr">Aide</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; </Description>
+      <Position>160.title</Position>
+      <TranslationSet>
+        <base loc="en">Cut</base>
+        <tran loc="fr">Couper</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "211"; </Description>
+      <Position>211.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="fr">Tout ramener au premier plan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Migration Assistant"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Migration Assistant</base>
+        <tran loc="fr">Quitter Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/HandoffTargetLandingPane.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;!#x2028;!#x2028;All other apps will quit when you click Continue."; ObjectID = "qTx-mq-DcF"; </Description>
+      <Position>qTx-mq-DcF.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;!#x2028;!#x2028;All other apps will quit when you click Continue.</base>
+        <tran loc="fr">&lt;DNL&gt;!#x2028;!#x2028;All other apps will quit when you click Continue.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/WelcomePane.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Use Migration Assistant to transfer information (data, computer settings, and apps) to this Mac from another Mac, a Windows PC, a Time Machine backup, or a disk. You can also transfer information from this Mac to another Mac.!#x2028;!#x2028;All other apps will quit when you click Continue."; ObjectID = "blx-Xn-EbB"; </Description>
+      <Position>blx-Xn-EbB.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Migration Assistant to transfer information (data, computer settings, and apps) to this Mac from another Mac, a Windows PC, a Time Machine backup, or a disk. You can also transfer information from this Mac to another Mac.!#x2028;!#x2028;All other apps will quit when you click Continue.</base>
+        <tran loc="fr">Utilisez Assistant migration pour transférer des informations (données, réglages et applications) sur ce Mac depuis un autre Mac, un PC Windows, une sauvegarde Time Machine ou un disque. Vous pouvez également transférer des informations depuis ce Mac vers un autre Mac.!#x2028;!#x2028;Toutes les autres applications fermeront lorsque vous cliquerez sur Continuer.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MDItemKeywords</Position>
+      <TranslationSet>
+        <base loc="en">Migrate, Transfer, Setup, Restore</base>
+        <tran loc="fr">Migrer, Transférer, Configurer, Restaurer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Migration Assistant</base>
+        <tran loc="fr">Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Migration Assistant</base>
+        <tran loc="fr">Assistant migration</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2015 Apple Inc. All rights reserved.</base>
+        <tran loc="fr">Copyright © 2015 Apple Inc. Tous droits réservés.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/FUSLogoutPane.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Before migrating your information, you need to log out of these user accounts:"; ObjectID = "wik-wM-Fje"; </Description>
+      <Position>wik-wM-Fje.title</Position>
+      <TranslationSet>
+        <base loc="en">Before migrating your information, you need to log out of these user accounts:</base>
+        <tran loc="fr">Avant de transférer vos informations, déconnectez-vous de ces comptes utilisateur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Waiting for users to log out…"; ObjectID = "IqL-1N-512"; </Description>
+      <Position>IqL-1N-512.title</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for users to log out…</base>
+        <tran loc="fr">Attente de la déconnexion des utilisateurs…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "5yU-9L-fwQ"; </Description>
+      <Position>5yU-9L-fwQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="fr">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>MigrationAssistant/System/Applications/Utilities/Migration Assistant.app/Contents/Resources/English.lproj/LogoutPane.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Closing Applications and logging out, one moment…"; ObjectID = "oPF-1h-rCR"; </Description>
+      <Position>oPF-1h-rCR.title</Position>
+      <TranslationSet>
+        <base loc="en">Closing Applications and logging out, one moment…</base>
+        <tran loc="fr">Fermeture des applications et déconnexion, un moment…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

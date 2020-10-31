@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>syspolicyd_framework</ProjName>
+  <File>
+    <Filepath>syspolicyd_framework/System/Library/PrivateFrameworks/SystemPolicy.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Message in alert pane when blocking a new kernel extension signed by a given developer name. </Description>
+      <Position>BLOCKED_KEXT_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A program tried to load new system extension(s) signed by “%@”.  If you want to enable these extensions, open Security &amp; Privacy System Preferences.</base>
+        <tran loc="es">Un programa ha intentado cargar nuevas extensiones del sistema firmadas por “%@”. Si quieres activar estas extensiones, abre el panel de preferencias “Seguridad y privacidad”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+ syspolicyd
+
+ Copyright (c) 2017 Apple Inc. All rights reserved.
+ 
+ Title of alert pane when blocking a new kernel extension. </Description>
+      <Position>BLOCKED_KEXT_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">System Extension Blocked</base>
+        <tran loc="es">Se ha bloqueado la extensión del sistema</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in an alert pane after the user has approved a kext that isn't notarized and may not load in a future version of macOS. </Description>
+      <Position>APPROVED_KEXT_ALERT_LEGACY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">One or more system extensions that you have approved will be incompatible with a future version of macOS. Please contact “%@” for support.</base>
+        <tran loc="es">Una o más extensiones del sistema que has aprobado serán incompatibles con una futura versión de macOS. Ponte en contacto con “%@” para obtener soporte.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Common alert button for acknowledging. </Description>
+      <Position>ALERT_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="es">Aceptar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert pane when approving a kext that may not load in the future. </Description>
+      <Position>ALLOWED_KEXT_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Legacy System Extension</base>
+        <tran loc="es">Extensión del sistema antigua</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button for opening the General pane of Security &amp; Privacy Preferences pane. </Description>
+      <Position>ALERT_OPEN_SECURITY_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Open Security Preferences</base>
+        <tran loc="es">Abrir el panel de preferencias Seguridad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert pane when recovering from a panic loop by disabling all third party kernel extensions. </Description>
+      <Position>PANIC_MEDIC_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A third party kernel extension was preventing the machine from successfully booting.  All third party kernel extensions have been disabled.  You will be prompted to re-enable them in the Security &amp; Privacy System Preferences pane as they are used.</base>
+        <tran loc="es">Una extensión del kernel de terceros estaba impidiendo que el ordenador se iniciara correctamente. Se han desactivado todas las extensiones del kernel de terceros. Cuando estas extensiones vayan a utilizarse, se te solicitará que las vuelvas a activar en el panel de preferencias “Seguridad y privacidad”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert pane when blocking a kernel extension with a revocation ticket from the notarization service. </Description>
+      <Position>BLOCKED_KEXT_ALERT_REVOKED</Position>
+      <TranslationSet>
+        <base loc="en">A program tried to load new system extension(s) signed by “%@” that will damage your computer and have been blocked.</base>
+        <tran loc="es">Un programa ha intentado cargar nuevas extensiones del sistema firmadas por “%@”, que dañarán tu ordenador, y se han bloqueado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert pane when recovering from a panic loop by disabling third party kernel extensions. </Description>
+      <Position>PANIC_MEDIC_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Panic Medic Boot</base>
+        <tran loc="es">Arranque tras fallo de kernel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert pane when blocking a new kernel extension that isn't notarized and was signed by a given developer name. </Description>
+      <Position>BLOCKED_KEXT_ALERT_LEGACY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A program tried to load new system extension(s) signed by “%@” that need to be updated by the developer.</base>
+        <tran loc="es">Un programa ha intentado cargar nuevas extensiones del sistema firmadas por “%@”, que el desarrollador debe actualizar.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

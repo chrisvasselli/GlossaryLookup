@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>backupd</ProjName>
+  <File>
+    <Filepath>backupd/System/Library/CoreServices/backupd.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+	error messages - shared with TMPref pane
+	[TODO] most of these error/warning strings are no longer used by backupd. some are shared between backupd
+	       and the pref pane. this late in cab, we can't risk teasing them all apart and moving things around.
+	       we need to audit health check &amp; BACKUP_WARNING_ codes to see which strings should be where, and
+	       how things should be rearranged.
+
+ NO_ERROR</Description>
+      <Position>RESULTCODE_0_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No error.</base>
+        <tran loc="ru">Без ошибки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_RECOVERY_IMAGE_ASK_LATER_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Back Up Later</base>
+        <tran loc="ru">Создать позже</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> miscellaneous 
+ UNITS</Description>
+      <Position>KB</Position>
+      <TranslationSet>
+        <base loc="en">KB</base>
+        <tran loc="ru">КБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> standard dry spell title format
+ dry spell minimum is always multiple days</Description>
+      <Position>NC_DRY_SPELL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">No Backups for %llu Days</base>
+        <tran loc="ru">%llu дн без резервных копий</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_THINNING_START</Description>
+      <Position>RESULTCODE_1001_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk “%@” is full.</base>
+        <tran loc="ru">Резервный диск «%@» заполнен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_FOUND</Description>
+      <Position>NC_RESULTCODE_18_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Disk Not Available</base>
+        <tran loc="ru">Резервный диск недоступен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_MOUNTED</Description>
+      <Position>NC_RESULTCODE_19_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Disk Not Available</base>
+        <tran loc="ru">Резервный диск недоступен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_LOW_BATTERY</Description>
+      <Position>RESULTCODE_101_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the battery charge was low.</base>
+        <tran loc="ru">Резервная копия Time Machine не была создана из-за низкого заряда аккумулятора.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_SETUP</Description>
+      <Position>RESULTCODE_2_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to complete backup. An error occurred while creating the backup folder.</base>
+        <tran loc="ru">Не удается завершить резервное копирование. Ошибка при создании папки резервной копии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_BUSY</Description>
+      <Position>RESULTCODE_31_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” is already in use.</base>
+        <tran loc="ru">Образ резервного диска «%@» уже используется.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_LOW_DISK</Description>
+      <Position>RESULTCODE_1000_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk “%@” is almost full.</base>
+        <tran loc="ru">Резервный диск «%@» почти заполнен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Notification Center strings 
+ standard notification buttons</Description>
+      <Position>NC_DETAILS_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Details</base>
+        <tran loc="ru">Подробнее</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_NO_RECENT_BACKUPS</Description>
+      <Position>NC_RESULTCODE_1002_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Check that “%@” is available or select a new disk.</base>
+        <tran loc="ru">Если диск «%@» недоступен, выберите новый.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_INITIAL_BACKUP_COMPLETE_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine has finished the first backup to “%@”.</base>
+        <tran loc="ru">Time Machine завершила 1‑е копирование на «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1004_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To install the update, open AirPort Utility. You may need to provide the password for “%@”.</base>
+        <tran loc="ru">Для установки обновления откройте Утилиту AirPort. Возможно, потребуется указать пароль для «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SPACE_FOR_LOCAL_SNAPSHOT</Description>
+      <Position>RESULTCODE_50_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not create a local snapshot to back up from because there was insufficient free space on the source volume(s).</base>
+        <tran loc="ru">Time Machine не удалось создать локальный снимок для восстановления, так как на одном или нескольких исходных томах было недостаточно свободного места.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_CHECKBOX</Position>
+      <TranslationSet>
+        <base loc="en">Do not show this warning again.</base>
+        <tran loc="ru">Больше не показывать это предупреждение.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_ACLS_DISABLED</Description>
+      <Position>RESULTCODE_9_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk does not have Access Control Lists enabled, which is required.</base>
+        <tran loc="ru">На резервном диске отсутствуют списки управления доступом (обязательный параметр).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TO_ABANDON_IMAGE -- obsolete
+ RESULTCODE_43_MESSAGE = "Time Machine could not move aside the existing backup disk image “%@”";
+ BACKUP_FAILED_TO_DELETE_IMAGE</Description>
+      <Position>RESULTCODE_44_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not delete the backup disk image “%@”.</base>
+        <tran loc="ru">Time Machine не удалось удалить образ диска резервного копирования «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Open Time Machine Preferences…</base>
+        <tran loc="ru">Открыть настройки Time Machine…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_APFS_ENCRYPTION_IN_PROGRESS</Description>
+      <Position>RESULTCODE_103_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because FileVault was encrypting or decrypting a disk. Backups will resume once FileVault finishes.</base>
+        <tran loc="ru">Резервная копия Time Machine не была создана из-за текущего процесса шифрования или расшифровывания диска FileVault. Создание резервных копий возобновится, когда процесс FileVault завершится.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_18_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Try backing up again when “%@” is available.</base>
+        <tran loc="ru">Повторите, когда «%@» станет доступен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_19_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Try backing up again when “%@” is available.</base>
+        <tran loc="ru">Повторите, когда «%@» станет доступен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_ENCRYPTED_WITH_EMPTY_PASSWORD</Description>
+      <Position>RESULTCODE_52_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the backup was encrypted with an empty password. Use Time Machine Preferences to set up a new backup.</base>
+        <tran loc="ru">Резервная копия Time Machine не была создана, так как для шифрования резервной копии использовался пустой пароль. Задайте параметры для создания новой резервной копии в настройках Time Machine.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error dialog buttons </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_CREATED</Description>
+      <Position>RESULTCODE_20_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image could not be created.</base>
+        <tran loc="ru">Не удалось создать резервный образ диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_40_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Make sure the computer and your backup disk are on the same network, and that the backup disk is turned on. Then try again to verify your backups.</base>
+        <tran loc="ru">Убедитесь, что компьютер и диск резервного копирования подключены к одной сети и что диск резервного копирования включен, затем повторите попытку резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_RECOVERY_IMAGE_NOW_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Start New Backup</base>
+        <tran loc="ru">Создать новую копию</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic backup failure message that includes destination name</Description>
+      <Position>NC_GENERIC_BACKUP_ERROR_MESSAGE_WITH_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn‘t back up to “%@”.</base>
+        <tran loc="ru">Не удалось создать резервную копию на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_FOUND</Description>
+      <Position>RESULTCODE_18_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk could not be found. Make sure the backup disk is connected or select a different backup disk.</base>
+        <tran loc="ru">Не удалось найти резервный диск. Убедитесь, что резервный диск подключен, или выберите другой диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> generic backup failure message with no destination name
+ (this is a safety fallback -- it should not happen in practice)</Description>
+      <Position>NC_GENERIC_BACKUP_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine encountered an error while backing up.</base>
+        <tran loc="ru">При создании резервной копии Time Machine столкнулась с ошибкой.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETIMAGE_READONLY</Description>
+      <Position>RESULTCODE_38_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine can’t use the disk image because it is read-only.</base>
+        <tran loc="ru">Time Machine не удается использовать образ диска, так как он доступен «только для чтения».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_FIRMWARE </Description>
+      <Position>RESULTCODE_1004_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine can’t back up to “%@” because the firmware must be updated.</base>
+        <tran loc="ru">Time Machine не удается создать резервную копию «%@», так как должна быть обновлена прошивка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine deleted one or more old backups to make room for new backups. The oldest remaining backup is: %@\n\n%@</base>
+        <tran loc="ru">Time Machine удалила одну или несколько резервных копий, чтобы освободить место на диске. Самая старая из оставшихся копий: %@\n\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SOURCE_VOLUMES</Description>
+      <Position>NC_RESULTCODE_25_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No disks are available to back up.</base>
+        <tran loc="ru">Нет дисков, доступных для резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_OWNERS_DISABLED</Description>
+      <Position>RESULTCODE_5_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while enabling ownership on the backup disk. You may need to repair or erase the disk using Disk Utility. If the disk can’t be repaired, select a different disk for backups.</base>
+        <tran loc="ru">При активации прав доступа на диске резервного копирования произошла ошибка. Возможно, необходимо восстановить или стереть этот диск с помощью Дисковой утилиты. Если диск невозможно восстановить, для хранения резервных копий необходимо использовать другой диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNABLE_TO_INHERIT_BACKUP</Description>
+      <Position>RESULTCODE_30_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not inherit “%@” for use with this computer.</base>
+        <tran loc="ru">Time Machine не удалось унаследовать «%@» для использования на этом компьютере.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_UNSUPPORTED_FS</Description>
+      <Position>RESULTCODE_3_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not in Mac OS Extended (Journaled) format, which is required.</base>
+        <tran loc="ru">Резервный диск должен иметь формат Mac OS Extended (журналируемый).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_JOURNALED</Description>
+      <Position>RESULTCODE_6_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not in Mac OS Extended (Journaled) format, which is required.</base>
+        <tran loc="ru">Резервный диск должен иметь формат Mac OS Extended (журналируемый).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CULLING_DISABLED</Description>
+      <Position>RESULTCODE_15_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">All expired backups have been removed, but the backup disk is still full. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="ru">Все просроченные копии удалены, однако на резервном диске по‑прежнему недостаточно места. Выберите резервный диск большего объема или уменьшите размер резервной копии, исключив из нее часть файлов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CULLING_DATELIMIT</Description>
+      <Position>RESULTCODE_16_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">All expired backups have been removed, but the backup disk is still full. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="ru">Все просроченные копии удалены, однако на резервном диске по‑прежнему недостаточно места. Выберите резервный диск большего объема или уменьшите размер резервной копии, исключив из нее часть файлов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_INTERRUPTION</Description>
+      <Position>RESULTCODE_27_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk may have been ejected or disconnected from the computer.</base>
+        <tran loc="ru">Возможно, резервный диск извлечен или отключен от компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_1011_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine is backing up an encrypted disk to an unencrypted disk.</base>
+        <tran loc="ru">Time Machine копирует зашифрован-ный диск на незашифрованный.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_MOUNTED</Description>
+      <Position>RESULTCODE_21_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” could not be accessed (error %@).</base>
+        <tran loc="ru">Нет доступа к образу резервного диска «%@» (ошибка %@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_NEW_BACKUP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Create New Backup</base>
+        <tran loc="ru">Создать новую копию</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_42_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Interruptions are usually caused by network problems. Try again after the network problems are resolved.</base>
+        <tran loc="ru">Причиной прерываний обычно являются сетевые проблемы. Повторите попытку, когда сетевые проблемы будут разрешены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_41_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is read-only or unreadable.</base>
+        <tran loc="ru">Диск резервного копирования доступен «только для чтения» или его невозможно прочесть.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNSUPPORTED_NETWORK_VOLUME</Description>
+      <Position>RESULTCODE_45_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The network backup disk does not support the required capabilities.</base>
+        <tran loc="ru">Сетевой диск резервного копирования не поддерживает запрашиваемые возможности.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE_DURING_BACKUP</Description>
+      <Position>RESULTCODE_28_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk did not have enough space to complete the backup.</base>
+        <tran loc="ru">На резервном диске недостаточно места для завершения резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_COPY_STAGE</Description>
+      <Position>RESULTCODE_11_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while copying files.</base>
+        <tran loc="ru">При копировании файлов произошла ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1000_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">When the backup disk is full, Time Machine will delete old backups to make room for new ones.\n\n%@</base>
+        <tran loc="ru">Если резервный диск заполнен, Time Machine удалит старые резервные копии, чтобы освободить место.\n\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_RUNNING_ON_BATTERY</Description>
+      <Position>RESULTCODE_100_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the computer was running on battery power.</base>
+        <tran loc="ru">Резервная копия Time Machine не была создана, так как компьютер работал на питании от аккумулятора.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> string which is shown instead of the _SHOWPREFS message for managed prefs configurations </Description>
+      <Position>MANAGED_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine settings on this computer are controlled by Managed Preferences. Contact your System Administrator.</base>
+        <tran loc="ru">Параметры Time Machine на этом компьютере задаются в Управляемых настройках. Обратитесь к системному администратору.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB</Position>
+      <TranslationSet>
+        <base loc="en">GB</base>
+        <tran loc="ru">ГБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_DELAYED_HIGH_THERMAL_LEVEL</Description>
+      <Position>RESULTCODE_102_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the computer was in a poor thermal state.</base>
+        <tran loc="ru">Резервная копия Time Machine не была создана из-за перегрева компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1003_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup was created on a different computer. If you inherit this backup, it can no longer be used by the original computer.</base>
+        <tran loc="ru">Эта резервная копия была создана на другом компьютере. Если Вы унаследуете эту копию, ее нельзя будет использовать на исходном компьютере.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_READONLY</Description>
+      <Position>RESULTCODE_8_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Files can’t be copied onto the backup disk because it is read-only. You may need to repair or erase the disk using Disk Utility. If the disk can’t be repaired, select a different disk for backups.</base>
+        <tran loc="ru">Скопировать файлы на этот резервный диск нельзя, так как он доступен «только для чтения». Возможно, необходимо восстановить или стереть этот диск с помощью Дисковой утилиты. Если диск невозможно восстановить, для хранения резервных копий необходимо использовать другой диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_SPECIFIED</Description>
+      <Position>RESULTCODE_17_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">No backup disk has been selected.</base>
+        <tran loc="ru">Резервный диск не выбран.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> notification delivered upon completion of the initial backup to a destination</Description>
+      <Position>NC_INITIAL_BACKUP_COMPLETE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Complete</base>
+        <tran loc="ru">Копирование завершено</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_TARGETVOL_CHANGED</Description>
+      <Position>RESULTCODE_1008_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">The identity of the backup disk “%@” has changed since the previous backup.</base>
+        <tran loc="ru">Идентификация диска резервного копирования «%@» изменилась со времени создания предыдущей резервной копии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TOO_MUCH_ACTIVITY -- obsolete
+ RESULTCODE_13_MESSAGE = "Too many files changed while backing up.";
+ BACKUP_FAILED_SNAPSHOT_DELETE_FAILED </Description>
+      <Position>RESULTCODE_14_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while attempting to remove expired backups from the backup disk.</base>
+        <tran loc="ru">Произошла ошибка при попытке удалить просроченные копии с резервного диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_MOUNT_LOCAL_SNAPSHOT</Description>
+      <Position>RESULTCODE_49_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine could not create a local snapshot to back up from.</base>
+        <tran loc="ru">Time Machine не удалось создать локальный снимок для восстановления.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> standard backup error title</Description>
+      <Position>NC_BACKUP_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Failed</base>
+        <tran loc="ru">Сбой резервного копирования</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_100_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Connect the computer to a power outlet while your backup disk is available.</base>
+        <tran loc="ru">Подключите к питанию, если доступен диск резервирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_LAUNCH</Description>
+      <Position>RESULTCODE_1_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to launch Time Machine.</base>
+        <tran loc="ru">Не удается запустить Time Machine.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CLOCK_WRONG</Description>
+      <Position>RESULTCODE_33_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The system date and time is incorrect.</base>
+        <tran loc="ru">Дата и время в системе установлены неверно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ASK_LATER_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Back Up Now</base>
+        <tran loc="ru">Не создавать сейчас</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE</Description>
+      <Position>RESULTCODE_10_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="ru">Произошла ошибка при подготовке резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_EVENT_PATH_OFF_VOLUME</Description>
+      <Position>RESULTCODE_300_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="ru">Произошла ошибка при подготовке резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_DATABASE_GENERATION</Description>
+      <Position>RESULTCODE_301_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="ru">Произошла ошибка при подготовке резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_MISSING_IN_PROGRESS</Description>
+      <Position>RESULTCODE_302_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="ru">Произошла ошибка при подготовке резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_PREFLIGHT_STAGE_GATHER_EVENTS</Description>
+      <Position>RESULTCODE_303_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the backup.</base>
+        <tran loc="ru">Произошла ошибка при подготовке резервного копирования.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_FAILED_TARGETVOL_READONLY</Description>
+      <Position>RESULTCODE_41_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@”.</base>
+        <tran loc="ru">Time Machine не удалось проверить Ваши резервные копии на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INHERIT_BACKUP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Inherit Backup History</base>
+        <tran loc="ru">Унаследовать историю</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1006_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Click Start New Backup to create a new backup. This will remove your existing backup history. This could take several hours.\n\nClick Back Up Later to be reminded tomorrow. Time Machine won’t perform backups during this time.</base>
+        <tran loc="ru">Нажмите «Создать новую копию» для создания новой резервной копии. Данная операция удалит существующую историю резервного копирования. Это может занять несколько часов.\n\nНажмите «Создать позже», чтобы получить напоминание завтра. В этот период времени Time Machine резервные копии создавать не будет.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_SOURCE_VOLUMES</Description>
+      <Position>RESULTCODE_25_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There are no disks to back up. This can happen if all available disks are in the “Do not back up” list. Click Options to edit the list.</base>
+        <tran loc="ru">Нет дисков, для которых требуется резервное копирование. Возможно, все доступные диски находятся в списке объектов, не предназначенных для резервного копирования. Для внесения изменений в этот список нажмите «Параметры».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_CANCELED</Description>
+      <Position>RESULTCODE_22_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Backup canceled.</base>
+        <tran loc="ru">Копирование отменено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_STATFS_FAILED</Description>
+      <Position>RESULTCODE_4_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to get status of backup disk.</base>
+        <tran loc="ru">Не удается выяснить статус резервного диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_VERIFICATION_INTERRUPTED</Description>
+      <Position>RESULTCODE_42_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@” because verification was interrupted.</base>
+        <tran loc="ru">Time Machine не удалось проверить Ваши резервные копии на диске «%@», так как процесс проверки был прерван.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_NO_RECENT_BACKUPS_RUNNING_ON_BATTERY</Description>
+      <Position>NC_RESULTCODE_1009_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Connect to a power outlet while your backup disk is available.</base>
+        <tran loc="ru">Подключите к розетке, пока доступен резервный диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_WARNING_TARGETVOL_CHANGED_CANCEL_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Back Up</base>
+        <tran loc="ru">Не создавать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_AUTHENTICATION_ERROR</Description>
+      <Position>RESULTCODE_29_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The network backup disk could not be accessed because there was a problem with the network username or password. You may need to re-select the backup disk and enter the correct username and password.</base>
+        <tran loc="ru">Не удалось получить доступ к сетевому резервному диску из-за неверного сетевого имени пользователя или пароля. Попытайтесь повторно выбрать резервный диск, а затем ввести имя пользователя и пароль.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_INHERIT_BACKUPS</Description>
+      <Position>RESULTCODE_1003_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Would you like this computer to inherit the backup history from “%@” on the “%@” backup disk?</base>
+        <tran loc="ru">Хотите, чтобы этот компьютер унаследовал историю резервного копирования с «%@» на диске резервного копирования «%@»?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1000_SHOWPREFS</Position>
+      <TranslationSet>
+        <base loc="en">If you prefer to keep all your old backups, open Time Machine preferences to select a new backup disk.</base>
+        <tran loc="ru">Если Вы хотите оставить все старые резервные копии, откройте параметры Time Machine и выберите новый резервный диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE</Description>
+      <Position>RESULTCODE_7_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk needs %@ for the backup but only %@ are available. Select a larger backup disk or make the backup smaller by excluding files.</base>
+        <tran loc="ru">На резервном диске должно быть %@ свободного пространства, однако доступно только %@. Выберите резервный диск большего объема или уменьшите размер резервной копии, исключив из нее часть файлов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MB</Position>
+      <TranslationSet>
+        <base loc="en">MB</base>
+        <tran loc="ru">МБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_BUSY</Description>
+      <Position>NC_RESULTCODE_31_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup on “%@” is already in use.</base>
+        <tran loc="ru">Резервная копия на диске «%@» уже используется.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_FOUND</Description>
+      <Position>RESULTCODE_32_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk image “%@” could not be found.</base>
+        <tran loc="ru">Образ резервного диска «%@» не найден.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_DELETE_IMAGE </Description>
+      <Position>RESULTCODE_1006_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine completed a verification of your backups on “%@”. To improve reliability, Time Machine must create a new backup for you.</base>
+        <tran loc="ru">Time Machine завершила проверку Ваших резервных копий «%@». Для повышения надежности Time Machine должна создать новую резервную копию.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIME_MACHINE_ERROR_ON_DESTINATION</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t complete the backup to “%@”.</base>
+        <tran loc="ru">Time Machine не удалось завершить резервное копирование на диск «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BACKUP_WARNING_TARGETVOL_CHANGED_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Use This Disk</base>
+        <tran loc="ru">Использовать этот диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1008_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk may have been replaced or erased, or someone may be trying to trick your computer into backing up to the wrong disk.</base>
+        <tran loc="ru">Возможно, диск был заменен или стерт, или кто-то пытается незаконно создать резервную копию Вашего компьютера не на Вашем диске.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_NOT_MOUNTED</Description>
+      <Position>RESULTCODE_19_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk is not available. Make sure the backup disk is connected or select a different backup disk.</base>
+        <tran loc="ru">Резервный диск недоступен. Убедитесь, что резервный диск подключен, или выберите другой диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_HC_FAILED_TARGETVOL_RESOLUTION_FAILED</Description>
+      <Position>RESULTCODE_40_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t verify your backups on “%@” because the backup disk is not available.</base>
+        <tran loc="ru">Time Machine не удалось проверить Ваши резервные копии на диске «%@», так как диск резервного копирования недоступен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_WARNING_UNENCRYPTED_DESTINATION</Description>
+      <Position>NC_RESULTCODE_1011_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Backup Not Encrypted</base>
+        <tran loc="ru">Резервная копия не зашифрована</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE_DURING_BACKUP</Description>
+      <Position>NC_RESULTCODE_28_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There isn’t enough space on “%@”.</base>
+        <tran loc="ru">На «%@» недостаточно места.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_TARGETVOL_DISK_SPACE</Description>
+      <Position>NC_RESULTCODE_7_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">There isn’t enough space on “%@”.</base>
+        <tran loc="ru">На «%@» недостаточно места.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AIRPORT_UTILITY_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Open AirPort Utility…</base>
+        <tran loc="ru">Открыть Утилиту AirPort…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error dialog default title </Description>
+      <Position>TIME_MACHINE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine couldn’t complete the backup.</base>
+        <tran loc="ru">Time Machine не удалось завершить резервное копирование.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESULTCODE_1001_SHOWPREFS</Position>
+      <TranslationSet>
+        <base loc="en">To preserve your older backups, you should attach a new or larger backup disk and then select it in Time Machine preferences. If you don’t change to a new backup disk, Time Machine will delete additional old backups to make space for new ones.</base>
+        <tran loc="ru">Для сохранения более старых резервных копий нужно подключить еще один диск или диск большего размера и выбрать его в настройках Time Machine. Если не перейти на новый резервный диск, Time Machine удалит некоторые старые резервные копии, чтобы освободить место для новых.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_LINK_SOURCE</Description>
+      <Position>RESULTCODE_12_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while linking files on the backup disk.</base>
+        <tran loc="ru">Произошла ошибка при создании ссылок для файлов на резервном диске.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_LONGER_ENCRYPTED</Description>
+      <Position>RESULTCODE_39_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine did not back up because the backup disk was previously encrypted but is no longer encrypted.</base>
+        <tran loc="ru">Резервная копия Time Machine не была создана, так как диск резервного копирования больше не зашифрован.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NO_PRIMARY_NETWORK_INTERFACE -- obsolete
+ RESULTCODE_34_MESSAGE = "The computer does not have a primary network interface.";
+ BACKUP_FAILED_BOOT_COOKIE_NOT_FOUND -- obsolete
+ RESULTCODE_35_MESSAGE = "Time Machine couldn’t find some of its settings.\n\n%@";
+ RESULTCODE_35_SHOWPREFS = "To reestablish Time Machine’s settings, open Time Machine Preferences and reselect the backup disk.";
+ BACKUP_FAILED_DESTINATION_COOKIE_NOT_FOUND -- obsolete
+ RESULTCODE_36_MESSAGE = "Time Machine couldn’t find some of its settings on the backup disk “%@”.\n\nMake sure the backup disk is connected, and that other connected disks don’t use the same name as the backup disk.\n\n%@";
+ RESULTCODE_36_SHOWPREFS = "To reestablish Time Machine’s settings, open Time Machine Preferences and reselect the backup disk.";
+ BACKUP_FAILED_DISK_SOURCE_INTERRUPTION</Description>
+      <Position>RESULTCODE_37_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">One of the disks being backed up may have been ejected or disconnected from the computer.</base>
+        <tran loc="ru">Возможно, один из копируемых дисков извлечен или отключен от компьютера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DISK_IMAGE_NOT_FOUND</Description>
+      <Position>NC_RESULTCODE_32_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The backup could not be found on “%@”.</base>
+        <tran loc="ru">Не удалось найти резервную копию на диске «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_UNKNOWN</Description>
+      <Position>RESULTCODE_999_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Error code: %@</base>
+        <tran loc="ru">Код ошибки: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TB</Position>
+      <TranslationSet>
+        <base loc="en">TB</base>
+        <tran loc="ru">ТБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_DUPLICATE_VOLNAMES</Description>
+      <Position>RESULTCODE_24_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Two of the disks to back up have the same name. Rename one of the disks named “%@”.</base>
+        <tran loc="ru">Два копируемых диска имеют одно и то же имя. Переименуйте диск с именем «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NC_RESULTCODE_1011_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="ru">Настройки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_NETWORK_INTERRUPTION</Description>
+      <Position>RESULTCODE_26_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A network problem interrupted the backup. Make sure the computer and the backup disk are on the same network, and that the backup disk is turned on. Then try again to back up.</base>
+        <tran loc="ru">Резервное копирование прервано из-за сетевой проблемы. Убедитесь, что компьютер и диск резервного копирования подключены к одной сети и что диск резервного копирования включен, затем повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> BACKUP_FAILED_CASE_SENSITIVITY</Description>
+      <Position>RESULTCODE_23_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">A disk you are backing up is case-sensitive, but the backup disk is not. Select a different backup disk or exclude the case-sensitive disk from backups.</base>
+        <tran loc="ru">Диск создаваемой резервной копии является чувствительным к регистру символов, а диск, на котором создается резервная копия — нет. Выберите другой резервный диск или не создавайте резервную копию чувствительного к регистру символов диска.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>backupd/System/Library/CoreServices/backupd.bundle/Contents/Resources/en.lproj/MDDateFormatter.strings</Filepath>
+    <TextItem>
+      <Description>*
+ 
+*	filename: MDDateFormatter.strings
+ 
+*	created : Tue Jun  8 10:03:00 2004
+ 
+*	LastEditDate Was "Tue Jun  8 10:03:24 2004"
+ 
+*
+ </Description>
+      <Position>NO_DATE</Position>
+      <TranslationSet>
+        <base loc="en">No Date</base>
+        <tran loc="ru">Нет даты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The format is: DATE, TIME </Description>
+      <Position>DATE_TIME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, %2$@</base>
+        <tran loc="ru">%1$@, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YESTERDAY</Position>
+      <TranslationSet>
+        <base loc="en">Yesterday</base>
+        <tran loc="ru">Вчера</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Date format we want the date to look like
+ 
+* August 26 (or something suitable in the language)
+ 
+* in english its MMMM d
+ 
+* in japanese it the format would be M月d日
+ </Description>
+      <Position>MONTH_DAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">MMMM d</base>
+        <tran loc="ru">d MMMM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Today</base>
+        <tran loc="ru">Сегодня</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

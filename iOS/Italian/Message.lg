@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>Message</ProjName>
+  <File>
+    <Filepath>Message/System/Library/PrivateFrameworks/Message.framework/en.lproj/Assistant.strings</Filepath>
+    <TextItem>
+      <Description> Task name for validating a mail server. </Description>
+      <Position>CHECKING_CONNECTION</Position>
+      <TranslationSet>
+        <base loc="en">Checking connection</base>
+        <tran loc="it">Verifico connessione</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for alert message shown if we can’t connect to the mail server using the information the user specified. Arguments are the type of server (IMAP or POP) and the server address. </Description>
+      <Position>CONNECTION_FAILED_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the “Incoming Mail Server” field.</base>
+        <tran loc="it">Il server %1$@ “%2$@” non risponde. Controlla la connessione della rete e verifica che le informazioni inserite nel campo “Server posta in arrivo” siano corrette.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for alert message shown if we can’t connect to the mail server using the information the user specified. Argument is the SMTP server address. </Description>
+      <Position>SMTP_CONNECTION_FAILED_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the “Outgoing Mail Server” field.</base>
+        <tran loc="it">Il server %1$@ “%2$@” non risponde. Controlla la connessione della rete e verifica che le informazioni inserite nel campo “Server posta in uscita” siano corrette.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Message/System/Library/PrivateFrameworks/Message.framework/en.lproj/MailBulletin.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/PREVIEW_TOPIC:dict/message_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u mail messages</base>
+        <tran loc="it">%u messaggi di posta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_ACCOUNT_%1$u%2$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@message_count@</base>
+        <tran loc="it">%#@message_count@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_FAVORITE_MAILBOX_%1$u%2$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@message_count@</base>
+        <tran loc="it">%#@message_count@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_THREAD_%1$u%2$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@message_count@</base>
+        <tran loc="it">%#@message_count@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_VIP_%1$u%2$@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@message_count@</base>
+        <tran loc="it">%#@message_count@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PREVIEW_TOPIC:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@message_count@</base>
+        <tran loc="it">%#@message_count@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_FAVORITE_MAILBOX_%1$u%2$@:dict/message_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more messages in %@</base>
+        <tran loc="it">Altri %u messaggi in %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_THREAD_%1$u%2$@:dict/message_count:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more message for thread %@</base>
+        <tran loc="it">%u altro messaggio dal thread %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_ACCOUNT_%1$u%2$@:dict/message_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more messages from %@</base>
+        <tran loc="it">Altri %u messaggi da %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_VIP_%1$u%2$@:dict/message_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more messages from %@</base>
+        <tran loc="it">Altri %u messaggi da %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_ACCOUNT_%1$u%2$@:dict/message_count:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more message from %@</base>
+        <tran loc="it">%u altro messaggio da %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_VIP_%1$u%2$@:dict/message_count:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more message from %@</base>
+        <tran loc="it">%u altro messaggio da %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_FAVORITE_MAILBOX_%1$u%2$@:dict/message_count:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more message in %@</base>
+        <tran loc="it">%u altro messaggio in %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PREVIEW_TOPIC:dict/message_count:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Mail message</base>
+        <tran loc="it">Messaggio di posta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NUMBER_OF_MESSAGE_FROM_THREAD_%1$u%2$@:dict/message_count:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%u more messages for thread %@</base>
+        <tran loc="it">Altri %u messaggi dal thread %@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Message/System/Library/PrivateFrameworks/Message.framework/en.lproj/MailBulletin.strings</Filepath>
+    <TextItem>
+      <Description> Notification Action: Archive </Description>
+      <Position>NOTIFICATION_ARCHIVE</Position>
+      <TranslationSet>
+        <base loc="en">Archive</base>
+        <tran loc="it">Archivio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_ARCHIVE_ALERT</Position>
+      <TranslationSet>
+        <base loc="en">Archive</base>
+        <tran loc="it">Archivio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> VIP section display name in Notification Center Mail settings </Description>
+      <Position>VIP_SECTION_DISPLAY_NAME</Position>
+      <TranslationSet>
+        <base loc="en">VIP</base>
+        <tran loc="it">VIP</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This message has no content. </Description>
+      <Position>NO_SUMMARY</Position>
+      <TranslationSet>
+        <base loc="en">This message has no content.</base>
+        <tran loc="it">Questo messaggio non ha contenuto.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> (No sender) </Description>
+      <Position>NO_FROM</Position>
+      <TranslationSet>
+        <base loc="en">(No Sender)</base>
+        <tran loc="it">(Nessun mittente)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>The _ALERT variants are for modal alerts. This allows us to show different strings on alert buttons and NC buttons.
+ Notification Action: Trash </Description>
+      <Position>NOTIFICATION_TRASH</Position>
+      <TranslationSet>
+        <base loc="en">Trash</base>
+        <tran loc="it">Cestino</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_TRASH_ALERT</Position>
+      <TranslationSet>
+        <base loc="en">Trash</base>
+        <tran loc="it">Cestino</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ MailBulletin.strings
+ Message
+
+ Copyright 2011 Apple Inc. All rights reserved.
+ 
+ (No Subject) </Description>
+      <Position>NO_SUBJECT</Position>
+      <TranslationSet>
+        <base loc="en">(No Subject)</base>
+        <tran loc="it">(Nessun oggetto)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Notification Action: Mark As Read </Description>
+      <Position>NOTIFICATION_READ</Position>
+      <TranslationSet>
+        <base loc="en">Mark as Read</base>
+        <tran loc="it">Segna come letto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_READ_ALERT</Position>
+      <TranslationSet>
+        <base loc="en">Mark as Read</base>
+        <tran loc="it">Segna come letto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Dismiss button text for Alert style notifications </Description>
+      <Position>ALERT_DISMISS</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="it">Chiudi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Notification Action: Flag </Description>
+      <Position>NOTIFICATION_FLAG</Position>
+      <TranslationSet>
+        <base loc="en">Flag</base>
+        <tran loc="it">Contrassegna</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_FLAG_ALERT</Position>
+      <TranslationSet>
+        <base loc="en">Flag</base>
+        <tran loc="it">Contrassegna</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Favorite Mailboxes section display name in Notification Center Mail settings </Description>
+      <Position>FAVORITE_MAILBOXES_SECTION_DISPLAY_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Favorite Mailboxes</base>
+        <tran loc="it">Caselle di posta preferite</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> full string for lock screen text </Description>
+      <Position>SLIDE_TO_READ</Position>
+      <TranslationSet>
+        <base loc="en">slide to read</base>
+        <tran loc="it">scorri per leggere</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Thread notifications section display name in Notification Center Mail settings </Description>
+      <Position>THREADS_SECTION_DISPLAY_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Thread Notifications</base>
+        <tran loc="it">Notifiche thread</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Read button text for Alert style notifications </Description>
+      <Position>ALERT_READ</Position>
+      <TranslationSet>
+        <base loc="en">Read</base>
+        <tran loc="it">Leggi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> action in lock screen text "slide to read" </Description>
+      <Position>READ</Position>
+      <TranslationSet>
+        <base loc="en">read</base>
+        <tran loc="it">leggi</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Message/System/Library/PrivateFrameworks/Message.framework/en.lproj/Main.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/MESSAGE_COUNT_FORMAT%1$lu:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@messages@</base>
+        <tran loc="it">%#@messages@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/UNREAD_COUNT_FORMAT%1$lu:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@messages@</base>
+        <tran loc="it">%#@messages@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MESSAGE_COUNT_FORMAT%1$lu:dict/messages:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu Message</base>
+        <tran loc="it">%1$lu messaggio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/UNREAD_COUNT_FORMAT%1$lu:dict/messages:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">No Unread Messages</base>
+        <tran loc="it">0 messaggi non letti</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MESSAGE_COUNT_FORMAT%1$lu:dict/messages:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">No Messages</base>
+        <tran loc="it">Nessun messaggio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MESSAGE_COUNT_FORMAT%1$lu:dict/messages:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu Messages</base>
+        <tran loc="it">%1$lu messaggi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/UNREAD_COUNT_FORMAT%1$lu:dict/messages:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu Unread Messages</base>
+        <tran loc="it">%1$lu messaggi non letti</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/UNREAD_COUNT_FORMAT%1$lu:dict/messages:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$lu Unread Message</base>
+        <tran loc="it">%1$lu messaggio non letto</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Message/System/Library/PrivateFrameworks/Message.framework/en.lproj/Delayed.strings</Filepath>
+    <TextItem>
+      <Description> Alert message shown when the user has chosen a type of authentication not supported by their mail server. Arguments are the type of account (POP, IMAP or SMTP), the server hostname and the type of authentication (eg, Plain-Text, Kerberos, ....) </Description>
+      <Position>AUTH_NOT_SUPPORTED_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The %1$@ server “%2$@” doesn’t support %3$@ authentication. Please check your account settings and try again.</base>
+        <tran loc="it">Il server %1$@ “%2$@” non supporta l'autenticazione %3$@. Verifica le impostazioni account e riprova.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name of status item shown while downloading new messages with a defined count known </Description>
+      <Position>DOWNLOADING_STATUS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Downloading %1$@ of %2$@</base>
+        <tran loc="it">Scarico %1$@ di %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which uses the NTLM protocol to authenticate Exchange connections. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_NTLM</Position>
+      <TranslationSet>
+        <base loc="en">NTLM</base>
+        <tran loc="it">NTLM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when you are missing a trusted certifiate in your keychain and cannot encrypt messages. Argument is the email addresses missing a certificate. </Description>
+      <Position>SMIME_MISSING_ENCRYPTION_CERT_MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">You don’t have certificates in your keychain matching the following email addresses:\n\n%@\n\nWithout certificates, you can’t encrypt messages sent to these addresses.</base>
+        <tran loc="it">Nel portachiavi non ci sono certificati che corrispondano ai seguenti indirizzi e-mail:\n\n%@\n\nSenza certificati, non puoi codificare messaggi inviati a questi indirizzi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of message of alert shown when connecting a server has failed for some reason. The arguments are the server hostname and a port number. </Description>
+      <Position>CONNECTION_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">The mail server “%@” is not responding. Verify that you have entered the correct account info in Mail settings.</base>
+        <tran loc="it">Il server e-mail “%@” non risponde. Assicurati di aver inserito correttamente i dati dell'account nelle impostazioni Mail.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when you are missing a signing identity and cannot sign a message. Argument is the email address missing the identity. </Description>
+      <Position>SMIME_MISSING_SIGNING_IDENTITY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You can’t send signed messages because a signing identity for the address “%@” could not be found.  Go to the Advanced settings for this account to choose a signing identity.</base>
+        <tran loc="it">Non puoi inviare i messaggi firmati perché non è stato possibile trovare un'identità di firma per l'indirizzo “%@”. Per scegliere un'identità di firma vai alle impostazioni avanzate di questo account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when an unrecognized SSL write error. Argument is the name of the server. </Description>
+      <Position>SSL_GENERIC_WRITE_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">An SSL error occurred while trying to provide data to the server “%@”. Verify that this server supports SSL and that your account settings are correct.</base>
+        <tran loc="it">Si è verificato un errore SSL nel fornire dati al server “%@”. Verifica che questo server supporti SSL e che le tue impostazioni account siano corrette.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error when the user’s account is in the requires-weblogin state, parameter is the display name of the account </Description>
+      <Position>WEBLOGIN_PROMPT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Log in to your %@ account</base>
+        <tran loc="it">Accedi al tuo account di %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when no recipients are present and you attempt to encrypt a message. </Description>
+      <Position>SMIME_NO_RECIPIENTS</Position>
+      <TranslationSet>
+        <base loc="en">There are no recipients in this message.</base>
+        <tran loc="it">Non esistono destinatari in questo messaggio.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the user tries to send a digitally signed S/MIME message, but creating the signature fails for some reason. Argument is the email address of the sending account. </Description>
+      <Position>SMIME_CANT_SIGN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while trying to sign this message with a certificate from “%@”. Verify that your certificate for this address is correct, and that its private key is in your keychain.</base>
+        <tran loc="it">Si è verificato un errore durante la firma del messaggio con un certificato da “%@”. Verifica che il certificato per questo indirizzo sia corretto e che la chiave privata sia presente nel portachiavi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when Mail is unable to decrypt an encrypted S/MIME message. </Description>
+      <Position>SMIME_CANT_DECRYPT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to decrypt message</base>
+        <tran loc="it">Non posso decodificare il messaggio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the user tries to deliver a message without having specified an SMTP server in the prefs panel </Description>
+      <Position>NO_SMTP_HOST</Position>
+      <TranslationSet>
+        <base loc="en">You have not specified an SMTP server in Mail Preferences. You must specify a server before you can send mail.</base>
+        <tran loc="it">Non hai specificato un server SMTP nelle Preferenze di Mail. Devi specificare un server prima di inviare dei messaggi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in attachment view when content is disabled </Description>
+      <Position>DISABLED_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">Not Available</base>
+        <tran loc="it">Non disponibile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when a trusted certifiate cannot be found on the server and you therefore cannot encrypt a message. Argument is the email address missing the certificate. </Description>
+      <Position>SMIME_MISSING_REMOTE_ENCRYPTION_CERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An encryption certificate for “%@” could not be found on the server. Without a certificate, you can’t encrypt messages sent to this address.</base>
+        <tran loc="it">Impossibile trovare sul server un certificato di codifica per “%@”. Senza un certificato, non puoi criptare messaggi inviati a questo indirizzo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of panel shown when the user tries to create an account that already exists </Description>
+      <Position>DUP_ACCOUNT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Duplicate Account</base>
+        <tran loc="it">Account duplicato</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the prompt presented when an account’s password is missing </Description>
+      <Position>PASSWORD_REQUIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password Required</base>
+        <tran loc="it">Password richiesta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user leaves the hostname field empty when editing an account’s preferences </Description>
+      <Position>INVALID_HOST_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The “Incoming Mail Server” field cannot be empty.</base>
+        <tran loc="it">Il campo “Server posta in arrivo” non può essere vuoto.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message returned when the sending address is not accepted by the SMTP server. The argument is the address that was rejected </Description>
+      <Position>SMTP_INVALID_SENDER_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">The sender address “%@” was rejected by the server.</base>
+        <tran loc="it">L'indirizzo del mittente “%@” è stato rifiutato dal server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when a new mailbox name would include a disallowed character (such as ’/’). Argument is the disallowed character. </Description>
+      <Position>MAILBOX_NAME_INCLUDES_PATH_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">Mailbox names may not include “%@”.</base>
+        <tran loc="it">I nomi delle caselle non possono includere “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user tries to edit an account and set the hostname and username to the same values as an account that already exists. Argument is a string: the name of the exisiting account. </Description>
+      <Position>DUP_ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The account “%@” already has this hostname and username.</base>
+        <tran loc="it">L'account “%@” ha già questo nome host e nome utente.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name of status item shown while downloading new messages </Description>
+      <Position>DOWNLOADING_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">Downloading</base>
+        <tran loc="it">Scarico</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when we receive the errSSLHostMismatch error when trying to connect to an SSL server. </Description>
+      <Position>SSL_HOST_MISMATCH_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The certificate hostname does not match “%@”.</base>
+        <tran loc="it">Il nome host del certificato non corrisponde a “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when an unexpected error occurs while searching the keychain for an encryption certificate.  Argument is the email addresses missing a certificate. </Description>
+      <Position>SMIME_OTHER_ENCRYPTION_CERT_ERROR_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while searching for an encryption certificate for “%@” in your keychain.</base>
+        <tran loc="it">Si è verificato un errore durante la ricerca di un certificato di codifica per “%@” nel portachiavi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which uses an MD5 digest to authenticate POP connections. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_APOP</Position>
+      <TranslationSet>
+        <base loc="en">Authenticated POP (APOP)</base>
+        <tran loc="it">POP (APOP) autenticato</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for string reporting an IMAP server error. Argument is the text of an IMAP command. </Description>
+      <Position>IMAP_COMMAND_FAILED_FORMAT1</Position>
+      <TranslationSet>
+        <base loc="en">IMAP command “%@” failed.</base>
+        <tran loc="it">Comando IMAP “%@” non riuscito.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of message of alert shown when an attempt to connect to a host is refused. Arguments are the server hostname and a TCP/IP port number. </Description>
+      <Position>CONNECTION_REFUSED</Position>
+      <TranslationSet>
+        <base loc="en">The server “%1$@” refused to allow a connection on port %2$d.</base>
+        <tran loc="it">Il server “%1$@” ha rifiutato la connessione sulla porta %2$d.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when a recipient's encryption certificate has expired. The first argument is the recipient's email address. The second argument is a datetime string representing when the certificate expired. </Description>
+      <Position>MF_SMIME_CERTIFICATE_EXPIRED_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The certificate for the address “%1$@” expired on %2$@.</base>
+        <tran loc="it">Il certificato per l'indirizzo “%1$@” è scaduto in data %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the enter an account path that is already being used by an other account. </Description>
+      <Position>INVALID_ACCOUNT_DIR_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The account path %1$@ is already being used by the account “%2$@”</base>
+        <tran loc="it">Il percorso account %1$@ è già utilizzato dall'account “%2$@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of panel shown when the user tries to enter an empty hostname for an account </Description>
+      <Position>INVALID_HOST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Incoming Mail Server</base>
+        <tran loc="it">Server di posta in arrivo non valido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when an SMTP server fails to send a message </Description>
+      <Position>SMTP_SENDING_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Send Email</base>
+        <tran loc="it">Impossibile inviare e-mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button label for OK button in password prompts </Description>
+      <Position>PASSWORD_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="it">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message shown when the message was rejected by the server due to size limitations, invalid attachment or other reasons. </Description>
+      <Position>MF_FAILED_SEND_MESSAGE_REJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The message was rejected by the server.</base>
+        <tran loc="it">Questo messaggio è stato rifiutato dal server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert when an internal Mail error occurs while attempting delivery. The argument is an error message. </Description>
+      <Position>INTERNAL_DELIVERY_ERROR_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">This message couldn’t be delivered because the following internal error occurred: %@</base>
+        <tran loc="it">Questo messaggio non è stato inviato perché si è verificato il seguente errore interno: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when an S/MIME message’s signing certificate cannot be trusted. Argument is the email address of the certificate. </Description>
+      <Position>SMIME_UNTRUSTED_SIGNING_CERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You have chosen not to trust the S/MIME certificate used by “%@” to sign this message.</base>
+        <tran loc="it">Hai scelto di non accettare come sicuro il certificato S/MIME utilizzato da “%@” per firmare questo messaggio.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert when the the SMTP server couldn’t be contacted for some reason. Argument is the name of the server. </Description>
+      <Position>SMTP_NO_CONNECTION</Position>
+      <TranslationSet>
+        <base loc="en">The connection to the outgoing server “%@” failed. Additional Outgoing Mail Servers can be configured for Mail accounts in Settings &gt; Accounts &amp; Passwords.</base>
+        <tran loc="it">La connessione con il server di uscita “%@” non è riuscita. Puoi configurare server in uscita aggiuntivi per gli account Mail da Impostazioni &gt; Account e password.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of activity launched when the user disables (deactivates) an account. Argument is the account’s name. </Description>
+      <Position>DISABLING_ACCOUNT_TASK_NAME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disabling account “%@”</base>
+        <tran loc="it">Disabilito account “%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message shown when Mail is unable to authenticate to a server because the server requires SSL but user didn’t turn it on. </Description>
+      <Position>FAILED_SEND_SSL_NEEDED</Position>
+      <TranslationSet>
+        <base loc="en">Check the SSL setting for the outgoing server “%@”.</base>
+        <tran loc="it">Verifica l'impostazione SSL del server in uscita “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of warning message shown when Mail cannot verify the identity of the signer of an S/MIME message. The argument is the certificate’s email address. </Description>
+      <Position>SMIME_CONFIRM_SIGNATURE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to verify the authenticity of the S/MIME certificate provided by “%@”. Messages signed by this user may be coming from a different source.</base>
+        <tran loc="it">Mail non ha potuto verificare l'autenticità del certificato S/MIME fornito da “%@”. I messaggi firmati da questo utente potrebbero provenire da una fonte diversa.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user enters an account directory that is not writable. </Description>
+      <Position>READONLY_ACCOUNT_DIR_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The account path %@ is not writable. Please change the Account Directory field in the Account Options tab to a writable directory</base>
+        <tran loc="it">Il percorso dell'account %@ non è scrivibile. Modifica il campo Directory account nella linguetta Opzioni account per fare in modo che una directory scrivibile</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when we receive the errSSLXCertChainInvalid error (Invalid certificate chain) when trying to connect to an SSL server. </Description>
+      <Position>SSL_CERT_CHAIN_INVALID_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The certificate for the server is invalid.</base>
+        <tran loc="it">Il certificato per questo server non è valido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of a general purpose error alert </Description>
+      <Position>ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="it">Errore</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button label for Cancel button in password prompts </Description>
+      <Position>PASSWORD_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="it">Annulla</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for string that reports an IMAP alert to the user. The first argument is the account name, the second argument will be a response string from the server, most likely in English because that appears to be the only language servers know. </Description>
+      <Position>IMAP_SERVER_ALERT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The IMAP server for “%1$@” wishes to alert you to the following:\n\n%2$@</base>
+        <tran loc="it">Avviso del server IMAP per “%1$@”:\n\n%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown in alert when an encrypted S/MIME message cannot be decrypted for some reason. </Description>
+      <Position>SMIME_CANT_DECRYPT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This message is encrypted.  Install a profile containing your encryption identity to decrypt this message.</base>
+        <tran loc="it">Questo messaggio è codificato. Installa un profilo contenente la tua identità di codifica per decodificarlo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which uses the Apple Token protocol to authenticate IMAP and SMTP connections. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_ATOKEN</Position>
+      <TranslationSet>
+        <base loc="en">Apple Token</base>
+        <tran loc="it">Token Apple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for error message shown when renaming a mailbox fails because a file in the filesystem couldn’t be renamed. Argument is a filesystem path. </Description>
+      <Position>RENAME_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to rename “%@”.</base>
+        <tran loc="it">Mail non ha potuto rinominare “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message shown when the message was rejected by the server due to its size. </Description>
+      <Position>MF_FAILED_SEND_MESSAGE_TOO_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">The message was rejected by the server because it is too large.</base>
+        <tran loc="it">Questo messaggio è stato rifiutato dal server perché è troppo grande.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message returned when an error happens while sending the message body content. </Description>
+      <Position>SMTP_SENDING_CONTENT_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Sending the message content to the server failed.</base>
+        <tran loc="it">L'invio del contenuto del messaggio al server non è riuscito.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when Mail is unable to encrypt an outgoing S/MIME message. </Description>
+      <Position>SMIME_CANT_ENCRYPT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Encrypt</base>
+        <tran loc="it">Impossibile codificare messaggio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button label for button when a recovery option is available </Description>
+      <Position>PASSWORD_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="it">Continua</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when an IMAP server responds with an [UNAVAILABLE] response code. The first argument is the account name. </Description>
+      <Position>IMAP_UNAVAILABLE_SERVER</Position>
+      <TranslationSet>
+        <base loc="en">%@ is currently unavailable.</base>
+        <tran loc="it">%@ non è al momento disponibile.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of essage of alert shown when we can’t determine which TCP/IP port number to use when connecting to a server </Description>
+      <Position>DONT_KNOW_SERVICE_PORT</Position>
+      <TranslationSet>
+        <base loc="en">Can’t determine port to use for the TCP/IP service “%@”.</base>
+        <tran loc="it">Impossibile determinare la porta da usare per il servizio TCP/IP “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message shown when Mail is unable to send a message because the account is inactive. </Description>
+      <Position>MF_FAILED_SEND_INACTIVE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">This account is inactive. Check the settings in Settings &gt; Accounts &amp; Passwords.</base>
+        <tran loc="it">Questo account non è attivo. Verifica le preferenze in Impostazioni &gt; Account e password.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the SMTP server rejected an unknown user. </Description>
+      <Position>MF_SMTP_RECIPIENT_UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">The recipient “%@” was rejected by the server because the user is unknown.</base>
+        <tran loc="it">Il destinatario “%@” è stato rifiutato dal server perché l'utente è sconosciuto.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of panel shown when the user tries to enter an account with an invalid path </Description>
+      <Position>INVALID_DIRECTORY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Directory</base>
+        <tran loc="it">Directory non valida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which uses the OAuth 2.0 Token protocol to authenticate IMAP and SMTP connections. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_OAUTH2TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">OAuth 2.0 Token</base>
+        <tran loc="it">Token OAuth 2.0</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which uses CRAM-MD5 to encrypt the user’s password. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_CRAM_MD5</Position>
+      <TranslationSet>
+        <base loc="en">MD5 Challenge-Response</base>
+        <tran loc="it">MD5 Challenge-Response</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The label shown for an iCloud SMTP server. </Description>
+      <Position>CASTLE_SMTP_SERVER</Position>
+      <TranslationSet>
+        <base loc="en">iCloud SMTP Server</base>
+        <tran loc="it">Server SMTP iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert panel shown when we failed to delete a mailbox </Description>
+      <Position>DELETE_FAILED_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Unable to delete “%@”.</base>
+        <tran loc="it">Impossibile eliminare “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user leaves the username field empty when editing an account’s preferences </Description>
+      <Position>INVALID_USER_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The “User Name” field cannot be empty.</base>
+        <tran loc="it">Il campo “Nome utente” non può essere vuoto.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of message of alert shown when an attempt to connect to a host times out. Arguments are the server hostname and a TCP/IP port number. </Description>
+      <Position>CONNECTION_TIMED_OUT</Position>
+      <TranslationSet>
+        <base loc="en">The connection to the server “%1$@” on port %2$d timed out.</base>
+        <tran loc="it">La connessione al server “%1$@” sulla porta %2$d è scaduta.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when a digitally signed message’s checksum (digest) doesn’t match, indicating that the message has changed in transit. Argument is the email address of the sender (signer). </Description>
+      <Position>SMIME_DAMAGED_SIG</Position>
+      <TranslationSet>
+        <base loc="en">The digital signature for this message is incorrect. The message may have been tampered with or corrupted since being signed by “%@”.</base>
+        <tran loc="it">La firma digitale per questo messaggio non è corretta. Il messaggio potrebbe essere stato danneggiato o corrotto dopo esser stato firmato da “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of message for alert shown when the user has chosen an invalid item from the Text Encoding menu for an outgoing message. Argument is the (localized) name of the encoding chosen. </Description>
+      <Position>BAD_CHARSET_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Some characters in your message could not be converted to the “%@” text encoding. Please choose a different entry from the “Text Encoding” menu.</base>
+        <tran loc="it">Alcuni caratteri nel messaggio non sono stati convertiti nella codifica testo “%@”. Scegli una voce diversa dal menu “Codifica testo”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for error dialog reporting a problem (like a certificate problem) validating an SSL server. Argument is the name of the server (like ’mail.mac.com’. </Description>
+      <Position>SSL_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Unable to verify SSL server %@</base>
+        <tran loc="it">Impossibile verificare il server SSL %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of a general purpose warning alert </Description>
+      <Position>WARNING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Warning</base>
+        <tran loc="it">Avviso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the SMTP server doesn’t recognize some of the addresses specified as recipients. First argument is the name of the server, the second is a list of email addresses (the invalid recipients). </Description>
+      <Position>SMTP_BAD_RECIPIENTS</Position>
+      <TranslationSet>
+        <base loc="en">The recipients were rejected by the server.</base>
+        <tran loc="it">I destinatari sono stati rifiutati dal server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of message of alert shown when an IMAP server refuses to open a mailbox. Argument is the name of the server (eg, \"mail.mac.com\"). </Description>
+      <Position>IMAP_OPEN_FAILED_MSG_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to open this mailbox on the server “%@”.</base>
+        <tran loc="it">Mail non ha potuto aprire questa casella sul server “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive name for the Yahoo! SMTP Server </Description>
+      <Position>YAHOO_DELIVERY_HOSTNAME</Position>
+      <TranslationSet>
+        <base loc="en">Yahoo! SMTP Server</base>
+        <tran loc="it">Server SMTP Yahoo!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when a new mailbox name would include one or more characters disallowed by the server. Argument is the the disallowed character. </Description>
+      <Position>MAILBOX_NAME_INCLUDES_SPECIAL_CHARACTERS</Position>
+      <TranslationSet>
+        <base loc="en">This account does not allow mailbox names containing “%@”.</base>
+        <tran loc="it">Questo account non consente nomi casella contenenti “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when we receive the errSSLCertExpired error (chain had an expired cert) when trying to connect to an SSL server. </Description>
+      <Position>SSL_CERT_EXPIRED_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The certificate for this server has expired.</base>
+        <tran loc="it">Il certificato per questo server è scaduto.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string for status message when an account is being deleted. Argument is the name of the account. </Description>
+      <Position>DELETING_ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Deleting account “%@”</base>
+        <tran loc="it">Elimino account “%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the user tries to send an encrypted S/MIME message, but this fails for some reason. </Description>
+      <Position>SMIME_CANT_ENCRYPT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while trying to encrypt your message. Verify that you have valid certificates in your keychain for all of the recipients.</base>
+        <tran loc="it">Si è verificato un errore durante la codifica del messaggio. Assicurati di disporre di certificati validi nel tuo portachiavi per tutti i destinatari.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when the user tries to send a digitally signed S/MIME message, but creating the signature fails for some reason. </Description>
+      <Position>SMIME_CANT_SIGN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Sign</base>
+        <tran loc="it">Impossibile effettuare l'accesso</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive name for the Gmail SMTP Server </Description>
+      <Position>GMAIL_DELIVERY_HOSTNAME</Position>
+      <TranslationSet>
+        <base loc="en">Gmail SMTP Server</base>
+        <tran loc="it">Server SMTP Gmail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user tries to rename or move mailboxes in an offline account (This isn’t supported). </Description>
+      <Position>NO_OFFLINE_MAILBOX_RENAMING</Position>
+      <TranslationSet>
+        <base loc="en">You can’t rename mailboxes while an account is offline.</base>
+        <tran loc="it">Non puoi rinominare le caselle mentre l'account non è in linea.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when an unrecognized SSL read error. Argument is the name of the server. </Description>
+      <Position>SSL_GENERIC_READ_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">An SSL error occurred while trying to read data from the server “%@”. Verify that this server supports SSL and that your account settings are correct.</base>
+        <tran loc="it">Si è verificato un errore SSL nel fornire dati al server “%@”. Verifica che questo server supporti SSL e che le tue impostazioni account siano corrette.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message returned when an error happens because the sending limit was reached. </Description>
+      <Position>MF_SMTP_SENDING_LIMIT_EXCEEDED</Position>
+      <TranslationSet>
+        <base loc="en">Sending the message failed because you exceeded your sending limit.</base>
+        <tran loc="it">L'invio del messaggio non è riuscito perché hai superato il limite di invio.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the SMTP server rejected the addresses specified as recipients. First argument is the name of the server, second argument is the email address that wasn’t recognized. </Description>
+      <Position>SMTP_1_BAD_RECIPIENT</Position>
+      <TranslationSet>
+        <base loc="en">The recipient “%@” was rejected by the server.</base>
+        <tran loc="it">Il destinatario “%@” è stato rifiutato dal server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user enters an account name that is already being used by an other account </Description>
+      <Position>INVALID_ACCOUNT_NAME_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You already have an account named “%@”.</base>
+        <tran loc="it">Disponi già di un account denominato “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for date inserted in compose window before the body of a message reply. The first two arguments will be strings representing the date and time the original message was received (formatted according to settings in International prefs). The third argument is a string, and will usually be someone’s name, but could be an email address. </Description>
+      <Position>REPLY_ATTRIBUTION</Position>
+      <TranslationSet>
+        <base loc="en">On %1$@, at %2$@, %3$@ wrote:\n\n</base>
+        <tran loc="it">Il giorno %1$@, alle ore %2$@, %3$@ ha scritto:\n\n</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown in activity viewer when the server returns an error indicating that the username or password is invalid </Description>
+      <Position>FAILED_FETCH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Get Mail</base>
+        <tran loc="it">Impossibile ricevere posta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the alert message shown when Mail is unable to send a message. </Description>
+      <Position>FAILED_SEND_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Send Mail</base>
+        <tran loc="it">Impossibile inviare posta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown in activity viewer when the server returns an error indicating that the username or password is invalid </Description>
+      <Position>FAILED_LOGIN</Position>
+      <TranslationSet>
+        <base loc="en">The user name or password for “%@” is incorrect.</base>
+        <tran loc="it">Il nome utente o la password per “%@” non sono corretti.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of title of alert shown when an IMAP server refuses to open a mailbox. Argument is the name of the mailbox. </Description>
+      <Position>IMAP_OPEN_FAILED_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Unable to open “%@”</base>
+        <tran loc="it">Impossibile aprire “%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the prompt presented when an account’s password is incorrect </Description>
+      <Position>INVALID_PASSWORD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password Incorrect</base>
+        <tran loc="it">Password non valida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message displayed when a server rejects Mail’s attempt to start TLS. First argument is the type of account involved (POP, IMAP or SMTP), second is the hostname of the server. </Description>
+      <Position>TLS_FAILED_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Starting TLS failed on %1$@ server “%2$@”. Please check your account settings and try again.</base>
+        <tran loc="it">L’avvio di TLS sul server %1$@ “%2$@” non è riuscito. Verifica le impostazioni account e riprova.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when we receive the errSSLBadCert error (bad certificate format) when trying to connect to an SSL server. </Description>
+      <Position>SSL_BAD_CERT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The format of the certificate for the server is bad.</base>
+        <tran loc="it">Il formato del certificato per il server non è valido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when we receive the errSSLUnknownRootCert error (valid cert chain, untrusted root) when trying to connect to an SSL server. Argument is the name of the server. </Description>
+      <Position>SSL_UNKNOWN_ROOT_CERT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The root certificate for this server could not be verified.</base>
+        <tran loc="it">Non è stato possibile verificare il certificato root per questo server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when we receive the errSSLNoRootCert error (cert chain not verified by root) when trying to connect to an SSL server. </Description>
+      <Position>SSL_NO_ROOT_CERT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">There is no root certificate for this server.</base>
+        <tran loc="it">Non esiste un certificato root per questo server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the SMTP server rejected the addresses due to relaying. </Description>
+      <Position>MF_SMTP_RECIPIENT_RELAYING_NOT_ALLOWED</Position>
+      <TranslationSet>
+        <base loc="en">The recipient “%@” was rejected by the server because it does not allow relaying.</base>
+        <tran loc="it">Il destinatario “%@” è stato rifiutato dal server perché non consente l'inoltro.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the user tries to send an encrypted S/MIME message to some address, but encryption fails. Argument is the email address of the recipient. </Description>
+      <Position>SMIME_CANT_ENCRYPT_FOR_USER_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while trying to encrypt your message for “%@”. Verify that you have a valid certificate in your keychain for this address.</base>
+        <tran loc="it">Si è verificato un errore durante la codifica del messaggio per “%@”. Verifica di avere un certificato valido nel portachiavi per questo indirizzo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which uses the Gmail Client Token protocol to authenticate IMAP and SMTP connections. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_GMAIL_CLIENTTOKEN</Position>
+      <TranslationSet>
+        <base loc="en">Gmail Client Token</base>
+        <tran loc="it">Token client Gmail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when the user has chosen an invalid item from the Text Encoding menu for an outgoing message. </Description>
+      <Position>BAD_CHARSET_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Text Encoding</base>
+        <tran loc="it">Codifica testo non valida</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for authentication which sends the user’s password over the network in the clear. Used as the title for an item in the authentication popups in Advanced account preferences. </Description>
+      <Position>MESSAGE_AUTH_PLAIN_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="it">Password</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Placeholder text for the password entry field </Description>
+      <Position>PASSWORD_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="it">Password</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when you are missing a trusted certifiate in your keychain and cannot encrypt a message. Argument is the email address missing the certificate. </Description>
+      <Position>SMIME_MISSING_ENCRYPTION_CERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You can’t send encrypted messages because an encryption certificate for the address “%@” could not be found.</base>
+        <tran loc="it">Non puoi inviare messaggi codificati perché è impossibile trovare un certificato di codifica per l'indirizzo “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Descriptive name for the AOL SMTP Server </Description>
+      <Position>AOL_DELIVERY_HOSTNAME</Position>
+      <TranslationSet>
+        <base loc="en">AOL SMTP Server</base>
+        <tran loc="it">Server SMTP AOL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for alert message shown when a server error occurs. The first argument is one of Mail’s error messages (eg, ’There may be a problem with the mail server or network. Check the settings for account \"My MobileMe Account\" or try again.’). The second argument is a string returned by the server (eg, ’Login failed.’) </Description>
+      <Position>MSG_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">%1$@\n\nThe server error encountered was: %2$@</base>
+        <tran loc="it">%1$@\n\nErrore server rilevato: %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string for error message when the user tries to create a mailbox which already exists. Argument is a path to a mailbox, like ’~/Library/Mail/Mailboxes/Foo.mbox’. </Description>
+      <Position>MAILBOX_EXISTS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The mailbox “%@” already exists.</base>
+        <tran loc="it">La casella “%@” esiste già.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message describing a failure to verify the identity of a mail server. The first argument is the hostname the certificate was issued to, the second is a more detailed error message, and the third is the actual hostname of the server. </Description>
+      <Position>MF_SSL_CERT_VERIFICATION_FAILED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to verify the identity of this server, which has a certificate issued to “%1$@”. The error was:\n\n%2$@\n\nYou might be connecting to a computer that is pretending to be “%3$@”, and putting your confidential information at risk.</base>
+        <tran loc="it">Mail non ha potuto verificare l'identità del server che dispone di un certificato emesso a “%1$@”. Errore:\n\n%2$@\n\nPotresti aver eseguito la connessione a un computer che finge di essere “%3$@” e mette a rischio le tue informazioni riservate.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of message of alert shown when an attempt to connect to a host and we fail to connect. Arguments are the server hostname and a TCP/IP port number. </Description>
+      <Position>HOST_UNREACHABLE</Position>
+      <TranslationSet>
+        <base loc="en">The server “%1$@” cannot be contacted on port %2$d.</base>
+        <tran loc="it">Il server “%1$@” non può essere collegato alla porta %2$d.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when you are missing a both a singing and encryption identity. Argument is the email address missing the identity. </Description>
+      <Position>SMIME_MISSING_SIGNING_AND_ENCRYPTION_IDENTITY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You can’t send signed or encrypted messages because identities for the address “%@” could not be found.  Go to the Advanced settings for this account to choose signing and encryption identities.</base>
+        <tran loc="it">Non puoi inviare messaggi firmati o codificati perché non è stato possibile trovare identità per l'indirizzo “%@”. Per scegliere identità di firma e di codifica, vai alle impostazioni avanzate di questo account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when you are missing an encryption identity and cannot encrypt a message. Argument is the email address missing the identity. </Description>
+      <Position>SMIME_MISSING_ENCRYPTION_IDENTITY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You can’t send encrypted messages because an encryption identity for the address “%@” could not be found.  Go to the Advanced settings for this account to choose an encryption identity.</base>
+        <tran loc="it">Non puoi inviare messaggi codificati perché non è stato possibile trovare un'identità di codifica per l'indirizzo “%@”. Per scegliere un'identità di codifica, vai alle impostazioni avanzate di questo account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when Mail is unable to sign or encrypt an outgoing S/MIME message. </Description>
+      <Position>SMIME_CANT_SIGN_OR_ENCRYPT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Sign or Encrypt</base>
+        <tran loc="it">Impossibile accedere o codificare</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert when the the SMTP server returns an unexpected response. Argument is the name of the server. </Description>
+      <Position>SMTP_GENERIC_ERROR_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while delivering this message via the SMTP server “%@”</base>
+        <tran loc="it">Si è verificato un errore durante l'invio del messaggio tramite il server SMTP “%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown in activity viewer when the server returns an error indicating that the username used to log in is not valid </Description>
+      <Position>POP_BAD_USERNAME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">POP user name “%@” unrecognized.</base>
+        <tran loc="it">Nome utente POP “%@” non riconosciuto.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Explanatory text that is displayed in the message viewer when Mail cannot decode it. The arguments are the type and subtype of the message. </Description>
+      <Position>CANNOT_DECODE_MULTIPART_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This message cannot be displayed because of the way it is formatted. Ask the sender to send it again using a different format or email program.\n\n%1$@/%2$@</base>
+        <tran loc="it">Questo messaggio non può essere visualizzato a causa del formato utilizzato. Chiedi al mittente di inviarlo di nuovo utilizzando un formato o programma di posta elettronica diverso.\n\n%1$@/%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of alert shown when removing deleted messages on an IMAP server, when the server returns no error message. Arguments are a mailbox name and a server name. </Description>
+      <Position>IMAP_COMPACT_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to remove the deleted messages in the mailbox “%1$@” on server “%2$@”.</base>
+        <tran loc="it">Mail non è stato in grado di rimuovere i messaggi eliminati nella casella “%1$@” sul server “%2$@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of panel shown when the user tries to enter an empty username for an account </Description>
+      <Position>INVALID_USER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid User Name</base>
+        <tran loc="it">Nome utente non valido</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in attachment view when content is downloadable </Description>
+      <Position>DOWNLOADABLE_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">Tap to Download</base>
+        <tran loc="it">Scarica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the user attempts to deliver mail with no recipients specified </Description>
+      <Position>NO_RECIPIENTS</Position>
+      <TranslationSet>
+        <base loc="en">This message couldn’t be delivered because you haven’t specified any recipients.</base>
+        <tran loc="it">Questo messaggio non è stato inviato perché non hai specificato nessun destinatario.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message shown when Mail is unable to send a message because no outgoing server was found. </Description>
+      <Position>MF_FAILED_SEND_NO_SERVER</Position>
+      <TranslationSet>
+        <base loc="en">Check the settings for the outgoing servers in Settings &gt; Accounts &amp; Passwords.</base>
+        <tran loc="it">Verifica le impostazioni dei server di uscita in Impostazioni &gt; Account e password.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for MF_WEBLOGIN_PROMPT_FORMAT </Description>
+      <Position>VERIFICATION_REQUIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Verification Required</base>
+        <tran loc="it">Richiesta verifica</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown when the signature of an S/MIME digitally signed message cannot be read for some reason. </Description>
+      <Position>SMIME_UNREADABLE_SIG</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem reading the digital signature for this message.</base>
+        <tran loc="it">Si è verificato un problema nella lettura della firma per questo messaggio.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when a recipient's encryption certificate will not be valid until a future date. The first argument is the recipient's email address. The second argument is a datetime string representing when the certificate will become valid. </Description>
+      <Position>MF_SMIME_CERTIFICATE_NOT_YET_VALID_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The certificate for the address “%1$@” is not valid until %2$@.</base>
+        <tran loc="it">Il certificato per l'indirizzo “%1$@” è valido dal giorno %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String inserted in compose window before the body of a forwarded message </Description>
+      <Position>FORWARDED_MESSAGE_PREFIX</Position>
+      <TranslationSet>
+        <base loc="en">Begin forwarded message:\n\n</base>
+        <tran loc="it">Inizio messaggio inoltrato:\n\n</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when the user tries to edit an account and set the hostname and username to the same values as an account that already exists but that other account is of a different type (e.g. POP vs. IMAP). The argument is the name of the existing account. </Description>
+      <Position>DUP_ACCOUNT_DIFFERENT_TYPES_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The account “%@” already has this hostname and username, but it is of a different type.</base>
+        <tran loc="it">L'account “%@” ha già questo nome host e utente, ma è di tipo diverso.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the SMTP server rejected an unknown user. </Description>
+      <Position>MF_SMTP_RECIPIENT_INVALID_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">The recipient “%@” was rejected by the server because it is not a valid email address.</base>
+        <tran loc="it">Il destinatario “%@” è stato rifiutato dal server perché l'indirizzo e-mail non è valido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message shown when Mail is unable to send a message. </Description>
+      <Position>FAILED_SEND</Position>
+      <TranslationSet>
+        <base loc="en">Check the account settings for the outgoing server “%@”.</base>
+        <tran loc="it">Verifica le impostazioni account del server in uscita “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when an unexpected error occurred during  fetching. The argument is the name of the account. </Description>
+      <Position>CONNECT_FAILED_NO_REASON_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the mail server or network. Check the settings for account “%@” or try again.</base>
+        <tran loc="it">Potrebbe esserci un problema con il server di posta o con la rete. Verifica le impostazioni per l'account “%@” o riprova.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text for error dialog reporting a general SSL connection failure. Arguments are the server address and the port number. </Description>
+      <Position>MF_SSL_CONNECTION_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to connect to server “%1$@” using SSL on port %2$d. Verify that this server supports SSL and that your account settings are correct.</base>
+        <tran loc="it">Mail non ha potuto collegarsi al server “%1$@” utilizzando SSL sulla porta %2$d. Verifica che questo server supporti SSL e che le tue impostazioni account siano corrette.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of alert shown when the SMTP server doesn’t recognize any address specified as a recipient. </Description>
+      <Position>SMTP_RECIPIENTS_UNRECOGNIZED</Position>
+      <TranslationSet>
+        <base loc="en">Verify that you have addressed this message correctly. Check your SMTP server settings in Mail Preferences and verify any advanced settings with your system administrator.</base>
+        <tran loc="it">Verifica che l'intestazione di questo messaggio sia corretta. Verifica le impostazioni del server SMTP nelle preferenze di Mail e le eventuali impostazioni avanzate con il tuo amministratore di sistema.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message displayed when a server doesn’t support TLS (a.k.a SSL), and the user has checked the ’Use SSL’ checkbox in this account’s prefs. First argument is the type of account involved (POP, IMAP or SMTP), second is the hostname of the server, and the third is a positive integer, the IP port number (eg, 143)’ </Description>
+      <Position>TLS_NOT_SUPPORTED_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The %1$@ server “%2$@” doesn’t support TLS (SSL) on port %3$u. Please check your account settings and try again.</base>
+        <tran loc="it">Il server %1$@ “%2$@” non supporta TLS (SSL) sulla porta %3$u. Verifica le impostazioni account e riprova.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message returned when an error happens while sending the message body content but a retry is queued. </Description>
+      <Position>SMTP_SENDING_CONTENT_LATER</Position>
+      <TranslationSet>
+        <base loc="en">Mail will try to send the message again later.</base>
+        <tran loc="it">Mail proverà a inviare di nuovo il messaggio più tardi.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when an error occurred while attempting to fetch an encryption certificate from the server. </Description>
+      <Position>MIME_GENERIC_REMOTE_ENCRYPTION_CERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while retrieving the encryption certificate.</base>
+        <tran loc="it">Si è verificato un errore durante il recupero del certificato di codifica.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Password prompt message </Description>
+      <Position>INVALID_PASSWORD_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the %1$@ account “%2$@”</base>
+        <tran loc="it">Inserisci la password dell'account %1$@ “%2$@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of alert shown when there is a problem verifying the signature of an S/MIME signed message. </Description>
+      <Position>SMIME_SIG_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to verify message signature</base>
+        <tran loc="it">Non posso verificare la firma del messaggio</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Message/System/Library/PrivateFrameworks/Message.framework/en.lproj/Message.strings</Filepath>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>MailboxContentViewCellLabelTo</Position>
+      <TranslationSet>
+        <base loc="en">TO</base>
+        <tran loc="it">A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>MailboxContentViewCellLabelToShort</Position>
+      <TranslationSet>
+        <base loc="en">TO</base>
+        <tran loc="it">A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Archive container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>ARCHIVE_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Archive</base>
+        <tran loc="it">Archivio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for status message shown when a mailbox is being opened. </Description>
+      <Position>OPENING_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Opening mailbox…</base>
+        <tran loc="it">Apro casella…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>VIP_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">VIP</base>
+        <tran loc="it">VIP</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for alert shown when a message can’t be delivered because its size exceeds the maximum an SMTP server allows. Arguments are both localized strings representing the message size and the max allowed size (eg, in English, ’5 MB’). </Description>
+      <Position>MESSAGE_TOO_LARGE</Position>
+      <TranslationSet>
+        <base loc="en">Your message has size %1$@, which exceeds %2$@, the maximum allowed by the server.</base>
+        <tran loc="it">Le dimensioni del tuo messaggio sono %1$@ ed eccedono il limite massimo concesso dal server, pari a %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>ALL_SENT</Position>
+      <TranslationSet>
+        <base loc="en">All Sent</base>
+        <tran loc="it">Inviate (tutte)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Trash container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>TRASH_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Trash</base>
+        <tran loc="it">Cestino</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description to provide password for an account. The argument is the account’s name. </Description>
+      <Position>PROVIDE_PASSWORD_FOR_ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the account “%@”.</base>
+        <tran loc="it">Inserisci password per l'account “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sender name format (used in attribution reply prefix) for when the sender has a full name and email address. The first argument is the sender’s full name, the second is their email address. </Description>
+      <Position>REPLY_ATTRIBUTION_SENDER</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ &lt;%2$@&gt;</base>
+        <tran loc="it">%1$@ &lt;%2$@&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String added to message for compose on iPod </Description>
+      <Position>DEFAULT_SIGNATURE_IPOD</Position>
+      <TranslationSet>
+        <base loc="en">Sent from my iPod</base>
+        <tran loc="it">Inviato da iPod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Reply-To header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Reply-To</Position>
+      <TranslationSet>
+        <base loc="en">Reply-To</base>
+        <tran loc="it">Rispondi a</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message when there is no network connection </Description>
+      <Position>NETWORK_OFFLINE</Position>
+      <TranslationSet>
+        <base loc="en">Network Offline</base>
+        <tran loc="it">Rete offline</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Portion of Account Error message prompting the use to click for details. </Description>
+      <Position>ACCOUNT_ERROR_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Details…</base>
+        <tran loc="it">Dettagli…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>UNREAD_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Unread</base>
+        <tran loc="it">Non letto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when writing changes to disk. </Description>
+      <Position>WRITING_CHANGES_TO_DISK_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Writing changes to disk</base>
+        <tran loc="it">Scrivo le modifiche sul disco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Bcc header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Bcc</Position>
+      <TranslationSet>
+        <base loc="en">Bcc</base>
+        <tran loc="it">Ccn</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>INCLUDES_ME_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">To or Cc</base>
+        <tran loc="it">A o Cc</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Inbox container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>INBOX_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Inbox</base>
+        <tran loc="it">In entrata</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the To header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>To</Position>
+      <TranslationSet>
+        <base loc="en">To</base>
+        <tran loc="it">A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when sending a message. The argument is the subject of the message being sent. </Description>
+      <Position>SEND_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Sending message: %@</base>
+        <tran loc="it">Invio messaggio: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when synchronizing the list of mailboxes with the filesystem. </Description>
+      <Position>SYNCHRONIZING_WITH_FILE_SYSTEM_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Synchronizing with file system</base>
+        <tran loc="it">Sincronizzo con file system</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>MUTED_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Muted Threads</base>
+        <tran loc="it">Senza notifiche</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when the user cancels a login password panel. </Description>
+      <Position>NO_PASSWORD_PROVIDED_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">No password provided.\n\nPlease go to Mail Account Settings and enter a password.</base>
+        <tran loc="it">Non sono state fornite password.\n\nVai alle impostazioni dell'account di Mail e inserisci una password.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when the server reports that logins are disabled for an account. The argument is the account’s name. </Description>
+      <Position>LOGIN_DISABLED_FOR_ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Logins are disabled for “%@”.</base>
+        <tran loc="it">Login disabilitati per “%@”.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>ALL_ARCHIVE</Position>
+      <TranslationSet>
+        <base loc="en">All Archive</base>
+        <tran loc="it">Archivio (tutte)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Attachments header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Attachments</Position>
+      <TranslationSet>
+        <base loc="en">Attachments</base>
+        <tran loc="it">Allegati</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>HAS_ATTACHMENTS_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Attachments</base>
+        <tran loc="it">Allegati</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>COMPOSE_APP_SHORTCUT</Position>
+      <TranslationSet>
+        <base loc="en">New Message</base>
+        <tran loc="it">Nuovo messaggio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status message shown when cleaning up old IMAP message files from disk. </Description>
+      <Position>IMAP_REMOVING_CACHE_FILES</Position>
+      <TranslationSet>
+        <base loc="en">Removing old cache files…</base>
+        <tran loc="it">Rimuovo i file obsoleti dalla cache…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Resent-Cc header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Resent-Cc</Position>
+      <TranslationSet>
+        <base loc="en">Resent-Cc</base>
+        <tran loc="it">Rinvia-Cc</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string for when there's a single file in a message.  Parameter is the filename. </Description>
+      <Position>SINGLE_FILE</Position>
+      <TranslationSet>
+        <base loc="en">Attachment: %@</base>
+        <tran loc="it">Allegato: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when sending data to a server. The argument is the percentage of the data we’ve sent so far. </Description>
+      <Position>SENDING_DATA_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Sending data (%d%% done)</base>
+        <tran loc="it">Invio dati (%d%% inviato)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when the user cancels a login password panel. The first argument is the user name and the second is the server name. </Description>
+      <Position>NO_PASSWORD_PROVIDED_FOR_USER_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">No password provided for user “%1$@” on server “%2$@”.\n\nPlease go to Mail Account Settings and enter a password.</base>
+        <tran loc="it">Non sono state fornite password per l’utente “%1$@” sul server “%2$@”.\n\nVai alle impostazioni dell'account di Mail e inseriscine una.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>ADD_ACCOUNT_APP_SHORTCUT</Position>
+      <TranslationSet>
+        <base loc="en">Add Account</base>
+        <tran loc="it">Aggiungi account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>ALL_DRAFTS</Position>
+      <TranslationSet>
+        <base loc="en">All Drafts</base>
+        <tran loc="it">Bozze (tutte)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message shown in the activity viewer when multiple accounts have connection errors. </Description>
+      <Position>MULTIPLE_ACCOUNT_ERRORS</Position>
+      <TranslationSet>
+        <base loc="en">Multiple Account Errors</base>
+        <tran loc="it">Diversi errori account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>MailboxContentViewCellLabelCc</Position>
+      <TranslationSet>
+        <base loc="en">CC</base>
+        <tran loc="it">CC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>MailboxContentViewCellLabelCcShort</Position>
+      <TranslationSet>
+        <base loc="en">CC</base>
+        <tran loc="it">CC</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Date header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Date</Position>
+      <TranslationSet>
+        <base loc="en">Date</base>
+        <tran loc="it">Data</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>TODAY_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Today</base>
+        <tran loc="it">Oggi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Activity viewer string that shows up when the user is transferring messages </Description>
+      <Position>DELETING_MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">Deleting messages</base>
+        <tran loc="it">Elimino messaggi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of activity when the user deletes some messages from a mailbox. </Description>
+      <Position>DELETING_MESSAGES_TASK_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Deleting messages</base>
+        <tran loc="it">Elimino messaggi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported when the password for the account is innaccessible. The argument is the account’s name. </Description>
+      <Position>PASSWORD_INACCESSIBLE_FOR_ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The password for “%@” cannot be used at this time.</base>
+        <tran loc="it">Impossibile usare la password di “%@” in questo momento.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of activity shown when Mail checks IMAP connections after the network configuration has changed. </Description>
+      <Position>CHECKING_CONNECTIONS_TASK_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Checking connections</base>
+        <tran loc="it">Verifico connessioni</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Sent container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>SENT_MESSAGES_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Sent</base>
+        <tran loc="it">Inviata</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level All Mail container for Gmail accounts. Whenever possible, the localization for this string should match the localization used by Google in the Gmail web interface. </Description>
+      <Position>GMAIL_ALL_MAIL_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">All Mail</base>
+        <tran loc="it">Tutte le e-mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of the indeterminate progress in the MFActivityMonitor when performing an action of unknown length or time. The argument is the action being performed (i.e. DOWNLOADING_STATUS). </Description>
+      <Position>MF_INDETERMINATE_PROGRESS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@…</base>
+        <tran loc="it">%@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Cc header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Cc</Position>
+      <TranslationSet>
+        <base loc="en">Cc</base>
+        <tran loc="it">Cc</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>ALL_TRASH</Position>
+      <TranslationSet>
+        <base loc="en">All Trash</base>
+        <tran loc="it">Cestino (tutte)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Junk container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>JUNK_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Junk</base>
+        <tran loc="it">Indesiderata</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Separator in text for lists of filenames. </Description>
+      <Position>SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="it">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Resent-From header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Resent-From</Position>
+      <TranslationSet>
+        <base loc="en">Resent-From</base>
+        <tran loc="it">Rinvia-Da</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>ALL_INBOXES_LONG</Position>
+      <TranslationSet>
+        <base loc="en">All Inboxes</base>
+        <tran loc="it">In entrata</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when waiting for a connection to the server. </Description>
+      <Position>WAITING_FOR_CONNECTION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for open connection…</base>
+        <tran loc="it">Attendo l'apertura della connessione…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String added to message for compose on iPhone </Description>
+      <Position>DEFAULT_SIGNATURE_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Sent from my iPhone</base>
+        <tran loc="it">Inviato da iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Drafts container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>DRAFTS_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Drafts</base>
+        <tran loc="it">Bozze</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when synchronizing an IMAP mailbox with the server. </Description>
+      <Position>SYNCHRONIZING_WITH_SERVER_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Synchronizing with server</base>
+        <tran loc="it">Sincronizzo con server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String fragment shown in status message when the message being indexed doesn’t specify a subject string. </Description>
+      <Position>NO_SUBJECT</Position>
+      <TranslationSet>
+        <base loc="en">No subject</base>
+        <tran loc="it">Nessun oggetto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name of account containing on-disk mailboxes (as opposed to POP or IMAP). </Description>
+      <Position>PERSONAL_MAILBOXES</Position>
+      <TranslationSet>
+        <base loc="en">Local Mailboxes</base>
+        <tran loc="it">Caselle locali</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format of the indeterminate progress in the MFActivityMonitor when sending a message </Description>
+      <Position>MF_SENDING_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Sending %1$@ of %2$@</base>
+        <tran loc="it">Invio %1$@ di %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string for when there's more than one file in a message.  Parameter is the joined filenames. </Description>
+      <Position>MULTI_FILE</Position>
+      <TranslationSet>
+        <base loc="en">Attachments: %@</base>
+        <tran loc="it">Allegati: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when an account has an error </Description>
+      <Position>ACCOUNT_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Account Error: %@.</base>
+        <tran loc="it">Errore account: %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>NOTIFY_ME_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Thread Notifications</base>
+        <tran loc="it">Notifiche thread</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string shown in the MFActivityMonitor when rebuilding a mailbox. </Description>
+      <Position>REBUILDING_MAILBOX_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Rebuilding</base>
+        <tran loc="it">Ricostruisco</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Resent-To header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Resent-To</Position>
+      <TranslationSet>
+        <base loc="en">Resent-To</base>
+        <tran loc="it">Rinvia-A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message reported no password is set for an account. The argument is the account’s name. </Description>
+      <Position>NO_PASSWORD_PROVIDED_FOR_ACCOUNT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">No password provided for “%@”.\n\nPlease go to Mail Account Settings and enter a password.</base>
+        <tran loc="it">Non sono state fornite password per “%@”.\n\nVai alle impostazioni dell'account di Mail e inseriscine una.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for displaying a mailbox name, for example in  status text. First argument is the last component of the mailbox’s name (eg, \"Sent\"), second is the mailbox’s account name or hostname (eg, \"Work\", or \"mail.mac.com\"). </Description>
+      <Position>MAILBOX_DISPLAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ — %2$@</base>
+        <tran loc="it">%1$@ — %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>SEARCH_APP_SHORTCUT</Position>
+      <TranslationSet>
+        <base loc="en">Search</base>
+        <tran loc="it">Cerca</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>FLAGGED_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Flagged</base>
+        <tran loc="it">Contrassegnati</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String added to message for compose on iPad </Description>
+      <Position>DEFAULT_SIGNATURE_IPAD</Position>
+      <TranslationSet>
+        <base loc="en">Sent from my iPad</base>
+        <tran loc="it">Inviato da iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the special top-level Outbox container. This is a UI element only, no actual mailbox will have this name </Description>
+      <Position>OUTBOX_SPECIAL_MAILBOX_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Outbox</base>
+        <tran loc="it">In uscita</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the From header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>From</Position>
+      <TranslationSet>
+        <base loc="en">From</base>
+        <tran loc="it">Da</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message shown when multiple acounts have errors </Description>
+      <Position>ACCOUNT_ERRORS</Position>
+      <TranslationSet>
+        <base loc="en">Account Errors</base>
+        <tran loc="it">Errori account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used when displaying the Subject header of a message in the main window. This value is only ever used for display and will not be part of any outgoing email. </Description>
+      <Position>Subject</Position>
+      <TranslationSet>
+        <base loc="en">Subject</base>
+        <tran loc="it">Oggetto</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

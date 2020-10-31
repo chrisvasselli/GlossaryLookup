@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AVFoundation</ProjName>
+  <File>
+    <Filepath>AVFoundation/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/English.lproj/AVMediaSelectionOption.strings</Filepath>
+    <TextItem>
+      <Description> Append one or more characteristics, sometimes with format information, to a legible option's display name, e.g. "English CC Easy Reader" </Description>
+      <Position>SDH_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ SDH</base>
+        <tran loc="zh-TW">%1$@SDH</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EASYTOREAD_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ Easy Reader</base>
+        <tran loc="zh-TW">%1$@簡易閱讀器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Append one or more characteristics, sometimes with format information, to an audible option's display name, e.g. "Russian Overdub Audio Dolby Digital". </Description>
+      <Position>DESCRIBESVIDEO_AUDIO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ AD</base>
+        <tran loc="zh-TW">%1$@口述影像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CC_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ CC</base>
+        <tran loc="zh-TW">%1$@隱藏式字幕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORCEDONLY_SUBTITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ Forced</base>
+        <tran loc="zh-TW">%1$@強制字幕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Use this as the option's language name if it's missing </Description>
+      <Position>UNKNOWN_LANGUAGE</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-TW">未知的</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When a media selection option has a title in its metadata, arrange the language code next to it, e.g. "Director's Commentary - English" </Description>
+      <Position>SUBTITLE_TRACK_DISPLAY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ - %2$@</base>
+        <tran loc="zh-TW">%1$@ - %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUDIOENCODING_AUDIO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="zh-TW">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This characteristic will be used for voice overdubs for which a narrator speaks over the main program audio in another language (e.g. Russian, Polish). </Description>
+      <Position>VOICEOVERTRANSLATION_AUDIO_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ Overdub Audio</base>
+        <tran loc="zh-TW">%1$@原帶配音</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AVFoundation/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/English.lproj/AVError.strings</Filepath>
+    <TextItem>
+      <Description> the file cannot be larger than a certain size on disk </Description>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumFileSizeReached_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The recording reached the maximum allowable file size.</base>
+        <tran loc="zh-TW">錄製已達到允許的最大檔案大小。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileAlreadyExists_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Save</base>
+        <tran loc="zh-TW">無法儲存</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileTypeDoesNotSupportSampleReferences_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write output file</base>
+        <tran loc="zh-TW">無法寫入輸出檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidOutputURLPathExtension_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write output file</base>
+        <tran loc="zh-TW">無法寫入輸出檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorized_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionAssetNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCompositionTrackSegmentsNotContiguous_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsNotAuthorized_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFailedToParse_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFormatNotRecognized_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncompatibleAsset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentDuration_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceDuration_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceStartTime_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidSourceMedia_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoImageAtTime_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoSourceTrack_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorReferenceForbiddenByReferencePolicy_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %d is the underlying error code, most likely in the OSStatus domain </Description>
+      <Position>AVFoundationErrorDomain_AVErrorUnknown_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">An unknown error occurred (%d)</base>
+        <tran loc="zh-TW">發生未知的錯誤（%d）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExternalPlaybackNotSupportedForAsset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The content cannot be played on the device.</base>
+        <tran loc="zh-TW">內容無法在此裝置上播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoCompatibleAlternatesForExternalDisplay_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The content cannot be played on the device.</base>
+        <tran loc="zh-TW">內容無法在此裝置上播放。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaServicesWereReset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Complete Action</base>
+        <tran loc="zh-TW">無法完成動作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOutOfMemory_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Complete Action</base>
+        <tran loc="zh-TW">無法完成動作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPIN_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try connecting again using the correct passcode.</base>
+        <tran loc="zh-TW">使用正確的密碼來重新連接一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoCompatibleAlternatesForExternalDisplay_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot open</base>
+        <tran loc="zh-TW">無法打開</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceWasDisconnected_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumDurationReached_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumFileSizeReached_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumNumberOfSamplesForFileFormatReached_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaChanged_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDiscontinuity_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionConfigurationChanged_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionWasInterrupted_Description</Position>
+      <TranslationSet>
+        <base loc="en">Recording Stopped</base>
+        <tran loc="zh-TW">停止錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaServicesWereReset_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try again later.</base>
+        <tran loc="zh-TW">請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOutOfMemory_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try again later.</base>
+        <tran loc="zh-TW">請稍後再試。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentNotUpdated_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">Stream ended unexpectedly.</base>
+        <tran loc="zh-TW">串流未預期地結束。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderTemporarilyUnavailable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The decoder required for this media is busy.</base>
+        <tran loc="zh-TW">此媒體所需的解碼器忙碌中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFormatNotRecognized_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media format is not supported.</base>
+        <tran loc="zh-TW">不支援此媒體格式。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidSourceMedia_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media format is not supported.</base>
+        <tran loc="zh-TW">不支援此媒體格式。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDisplayWasDisabled_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot capture</base>
+        <tran loc="zh-TW">無法擷取</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayControllerRequiresInternet_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This device requires an internet connection.</base>
+        <tran loc="zh-TW">此裝置需要Internet連線。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorizedToUseDevice_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot use %@</base>
+        <tran loc="zh-TW">無法使用%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationRequiresBothBudsInEar_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Set Listening Mode</base>
+        <tran loc="zh-TW">無法設定聆聽模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorVideoCompositorFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The video could not be composited.</base>
+        <tran loc="zh-TW">無法製作影片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationRequiresBothBudsInEar_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">Must have both buds in ear to set the desired listening mode.</base>
+        <tran loc="zh-TW">兩邊耳機都必須放入耳中才能設定想要的聆聽模式。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDataWritingExceededPredeterminedSize_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The size of the media data would exceed the predetermined size.</base>
+        <tran loc="zh-TW">媒體資料大小會超過預先定義的大小。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncompatibleAsset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media cannot be used on this computer.</base>
+        <tran loc="zh-TW">無法在此電腦上使用媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorizedToUseDevice_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This app is not authorized to use %@.</base>
+        <tran loc="zh-TW">未授權此App使用%@。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorTorchLevelUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">The torch could not be turned on.</base>
+        <tran loc="zh-TW">無法開啟補光燈。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceAlreadyUsedByAnotherSession_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the %@ and try again.</base>
+        <tran loc="zh-TW">停止其他使用%@的動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceInUseByAnotherApplication_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the %@ and try again.</base>
+        <tran loc="zh-TW">停止其他使用%@的動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceLockedForConfigurationByAnotherProcess_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the %@ and try again.</base>
+        <tran loc="zh-TW">停止其他使用%@的動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceInUseByAnotherApplication_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Use %@</base>
+        <tran loc="zh-TW">無法使用%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceIsNotAvailableInBackground_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Use %@</base>
+        <tran loc="zh-TW">無法使用%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceLockedForConfigurationByAnotherProcess_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Use %@</base>
+        <tran loc="zh-TW">無法使用%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionAssetNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The collection of audiovisual resources does not contain the requested media.</base>
+        <tran loc="zh-TW">音訊視覺資源集未包含要求的媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUnsupportedOutputSettings_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The encoding parameters are not supported.</base>
+        <tran loc="zh-TW">不支援編碼參數。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the device name (for example, "Camera") </Description>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceIsNotAvailableInBackground_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">%@ may not be used by an app running in the background.</base>
+        <tran loc="zh-TW">%@可能無法由在背景執行的App所使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUndecodableMediaData_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media data could not be decoded on this computer.</base>
+        <tran loc="zh-TW">無法在這部電腦上解碼媒體資料。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidFileAtDownloadDestinationURL_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The cache file at the download destination URL cannot be used.</base>
+        <tran loc="zh-TW">無法使用下載目標URL的快取檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaFileSegmentationFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Media segmentation stopped</base>
+        <tran loc="zh-TW">已停止媒體分段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecodeFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media data could not be decoded. It may be damaged.</base>
+        <tran loc="zh-TW">無法解碼媒體資料。可能已損毀。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPassword_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The password is incorrect.</base>
+        <tran loc="zh-TW">密碼不正確。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorClientProgrammingError_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The application encountered a programming error.</base>
+        <tran loc="zh-TW">應用程式發生程式方面的錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotAllowed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The application encountered a programming error.</base>
+        <tran loc="zh-TW">應用程式發生程式方面的錯誤。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderTemporarilyUnavailable_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions that decode media and try again.</base>
+        <tran loc="zh-TW">請停止其他媒體解碼動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotAllowed_Description</Position>
+      <TranslationSet>
+        <base loc="en">The operation is not allowed</base>
+        <tran loc="zh-TW">不允許操作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the path</Description>
+      <Position>AVFoundationErrorDomain_AVErrorAssetCollectionNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">“%@” does not contain a supported collection of audiovisual resources.</base>
+        <tran loc="zh-TW">「%@」不包含支援的音訊視覺資源集。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUnsupportedOutputSettings_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Encode Media</base>
+        <tran loc="zh-TW">無法編碼媒體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the file type </Description>
+      <Position>AVFoundationErrorDomain_AVErrorFileTypeDoesNotSupportSampleReferences_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">File type “%@” does not support this feature</base>
+        <tran loc="zh-TW">檔案類型「%@」不支援此功能</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file is DRM protected </Description>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsProtected_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The operation is not supported for protected files.</base>
+        <tran loc="zh-TW">版權保護的檔案不支援此操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPIN_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The passcode is incorrect.</base>
+        <tran loc="zh-TW">密碼不正確。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file is DRM protected </Description>
+      <Position>AVFoundationErrorDomain_AVErrorApplicationIsNotAuthorized_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This app is not authorized to play protected files.</base>
+        <tran loc="zh-TW">此App未被授權播放受保護的檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoLongerPlayable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">Could not download required resources.</base>
+        <tran loc="zh-TW">無法下載所需資源。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorClientProgrammingError_Description</Position>
+      <TranslationSet>
+        <base loc="en">The operation could not be completed</base>
+        <tran loc="zh-TW">無法完成操作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localized strings for NSErrors returned by AVFoundation.
+
+ When displayed in an alert, the strings whose keys end in _Description will be the alert title.
+ The strings whose keys end in _RecoverySuggestion or _FailureReason will be the alert body.
+ </Description>
+      <Position>AVFoundationErrorDomain_AVErrorUnknown_Description</Position>
+      <TranslationSet>
+        <base loc="en">The operation could not be completed</base>
+        <tran loc="zh-TW">無法完成操作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file cannot be longer than a certain duration </Description>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumDurationReached_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The recording reached the maximum allowable length.</base>
+        <tran loc="zh-TW">錄製已達到允許的最大長度。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file cannot be longer than a certain duration </Description>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumNumberOfSamplesForFileFormatReached_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The recording reached the maximum allowable length.</base>
+        <tran loc="zh-TW">錄製已達到允許的最大長度。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExportFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Complete Export</base>
+        <tran loc="zh-TW">無法完成輸出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsProtected_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCreateContentKeyRequestFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDiskFull_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToLoadMediaData_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidFileAtDownloadDestinationURL_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidVideoComposition_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForAsset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForPreset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorServerIncorrectlyConfigured_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSubscriptionHasExpired_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorVideoCompositorFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Operation Stopped</base>
+        <tran loc="zh-TW">操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorScreenCaptureFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Capture</base>
+        <tran loc="zh-TW">無法擷取</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToParse_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Parse</base>
+        <tran loc="zh-TW">無法剖析</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToLoadMediaData_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media may be damaged.</base>
+        <tran loc="zh-TW">此媒體可能已損毀。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileFailedToParse_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media may be damaged.</base>
+        <tran loc="zh-TW">此媒體可能已損毀。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForPreset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The operation cannot be performed for this preset.</base>
+        <tran loc="zh-TW">此預設組不支援此操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExternalPlaybackNotSupportedForAsset_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot play</base>
+        <tran loc="zh-TW">無法播放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMalformedDepth_Description</Position>
+      <TranslationSet>
+        <base loc="en">Depth is malformed</base>
+        <tran loc="zh-TW">深度格式錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceNotConnected_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="zh-TW">請嘗試重新錄製。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceWasDisconnected_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="zh-TW">請嘗試重新錄製。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaChanged_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="zh-TW">請嘗試重新錄製。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoDataCaptured_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="zh-TW">請嘗試重新錄製。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionConfigurationChanged_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="zh-TW">請嘗試重新錄製。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionNotRunning_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try recording again.</base>
+        <tran loc="zh-TW">請嘗試重新錄製。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorExportFailed_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try exporting again.</base>
+        <tran loc="zh-TW">請嘗試重新輸出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumStillImageCaptureRequestsExceeded_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try taking a photo again.</base>
+        <tran loc="zh-TW">請嘗試重新拍攝照片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayReceiverRequiresInternet_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Check the AirPlay device’s network settings and try again.</base>
+        <tran loc="zh-TW">請檢查AirPlay裝置的網路設定，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPIN_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot connect to device</base>
+        <tran loc="zh-TW">無法連接裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPassword_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot connect to device</base>
+        <tran loc="zh-TW">無法連接裝置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDisplayWasDisabled_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Make sure the display does not go to sleep or become disconnected during the capture.</base>
+        <tran loc="zh-TW">在擷取期間，請勿讓顯示器進入睡眠或中斷連線。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayControllerRequiresInternet_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Check network settings and try again.</base>
+        <tran loc="zh-TW">請檢查網路設定，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileWritingExceededPredeterminedSize_Description</Position>
+      <TranslationSet>
+        <base loc="en">File writing Stopped</base>
+        <tran loc="zh-TW">已停止檔案寫入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDataWritingExceededPredeterminedSize_Description</Position>
+      <TranslationSet>
+        <base loc="en">File writing Stopped</base>
+        <tran loc="zh-TW">已停止檔案寫入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidVideoComposition_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The video could not be composed.</base>
+        <tran loc="zh-TW">無法製作影片。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCompositionTrackSegmentsNotContiguous_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentDuration_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceDuration_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidCompositionTrackSegmentSourceStartTime_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoImageAtTime_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoSourceTrack_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorReferenceForbiddenByReferencePolicy_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This media cannot be used.</base>
+        <tran loc="zh-TW">無法使用此媒體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileAlreadyExists_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">The requested file name is already in use. Try a different file name or location.</base>
+        <tran loc="zh-TW">要求的檔案名稱正在使用中。請嘗試不同的檔名或位置。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMaximumStillImageCaptureRequestsExceeded_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Take Photo</base>
+        <tran loc="zh-TW">無法拍攝照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDiskFull_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">There is not enough available space to continue the file writing. Make room by deleting existing videos or photos.</base>
+        <tran loc="zh-TW">沒有足夠的空間來繼續寫入檔案。請刪除現有的影片或照片來取得更多空間。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The decoder required for this media cannot be found.</base>
+        <tran loc="zh-TW">找不到此媒體所需的解碼器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecodeFailed_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="zh-TW">無法解碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="zh-TW">無法解碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDecoderTemporarilyUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="zh-TW">無法解碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorUndecodableMediaData_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Decode</base>
+        <tran loc="zh-TW">無法解碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaDiscontinuity_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the recording device and try again.</base>
+        <tran loc="zh-TW">停止其他使用錄製裝置的動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionWasInterrupted_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions using the recording device and try again.</base>
+        <tran loc="zh-TW">停止其他使用錄製裝置的動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationNotSupportedForAsset_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The operation is not supported for this media.</base>
+        <tran loc="zh-TW">此媒體不支援此操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayControllerRequiresInternet_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot AirPlay</base>
+        <tran loc="zh-TW">無法AirPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayReceiverRequiresInternet_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot AirPlay</base>
+        <tran loc="zh-TW">無法AirPlay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDisplayWasDisabled_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The display became disabled.</base>
+        <tran loc="zh-TW">顯示器已停用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderTemporarilyUnavailable_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Stop any other actions that encode media and try again.</base>
+        <tran loc="zh-TW">請停止其他媒體編碼動作，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceAlreadyUsedByAnotherSession_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="zh-TW">無法錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorDeviceNotConnected_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="zh-TW">無法錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoDataCaptured_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="zh-TW">無法錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSessionNotRunning_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Record</base>
+        <tran loc="zh-TW">無法錄製</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorIncorrectPassword_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try connecting again using the correct password.</base>
+        <tran loc="zh-TW">使用正確的密碼來重新連接一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderNotFound_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The encoder required for this media cannot be found.</base>
+        <tran loc="zh-TW">找不到此媒體所需的編碼器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFormatUnsupported_Description</Position>
+      <TranslationSet>
+        <base loc="en">Format Unsupported</base>
+        <tran loc="zh-TW">格式不支援</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMalformedDepth_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The depth data provided is malformed and cannot be used.</base>
+        <tran loc="zh-TW">提供的深度資料格式錯誤，無法使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFileWritingExceededPredeterminedSize_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The size of the file would exceed the predetermined size.</base>
+        <tran loc="zh-TW">檔案大小會超過預先定義的大小。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFailedToParse_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This data is damaged, incomplete, or incompatible.</base>
+        <tran loc="zh-TW">此資料已損毀、不完整或不相容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorTorchLevelUnavailable_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Try turning the torch on at a lower level.</base>
+        <tran loc="zh-TW">請嘗試調低補光燈亮度。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorScreenCaptureFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">There was an unexpected problem with the graphics sub-system that prevented screen capture.</base>
+        <tran loc="zh-TW">圖形子系統發生未預期的問題，導致螢幕擷取無法執行。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsUnavailable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This content is no longer available.</base>
+        <tran loc="zh-TW">此內容已無法使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorMediaFileSegmentationFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The media file could not be segmented.</base>
+        <tran loc="zh-TW">無法分段媒體檔案。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorServerIncorrectlyConfigured_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The server is not correctly configured.</base>
+        <tran loc="zh-TW">伺服器設定不正確。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the file is DRM protected, %@ is the file name </Description>
+      <Position>AVFoundationErrorDomain_AVErrorContentIsNotAuthorized_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This computer is not authorized to play %@.</base>
+        <tran loc="zh-TW">這台電腦未被授權播放「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorOperationRequiresBothBudsInEar_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Make sure both buds are in ear.</base>
+        <tran loc="zh-TW">確定兩邊耳機都已放入耳中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorFormatUnsupported_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The format of this content is unsupported.</base>
+        <tran loc="zh-TW">此內容的格式不支援。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderTemporarilyUnavailable_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The encoder required for this media is busy.</base>
+        <tran loc="zh-TW">此媒體所需的編碼器忙碌中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorAirPlayReceiverRequiresInternet_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">The AirPlay device requires an internet connection.</base>
+        <tran loc="zh-TW">AirPlay裝置需要Internet連線。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorInvalidOutputURLPathExtension_RecoverySuggestion</Position>
+      <TranslationSet>
+        <base loc="en">Change the output extension and try again.</base>
+        <tran loc="zh-TW">更改輸出檔案的副檔名，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderNotFound_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Encode</base>
+        <tran loc="zh-TW">無法編碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorEncoderTemporarilyUnavailable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Encode</base>
+        <tran loc="zh-TW">無法編碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorSubscriptionHasExpired_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This content is not authorized.</base>
+        <tran loc="zh-TW">此內容未經授權。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorCreateContentKeyRequestFailed_FailureReason</Position>
+      <TranslationSet>
+        <base loc="en">This content cannot be authorized.</base>
+        <tran loc="zh-TW">無法授權此內容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorContentNotUpdated_Description</Position>
+      <TranslationSet>
+        <base loc="en">Playback Stopped</base>
+        <tran loc="zh-TW">已停止播放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVFoundationErrorDomain_AVErrorNoLongerPlayable_Description</Position>
+      <TranslationSet>
+        <base loc="en">Playback Stopped</base>
+        <tran loc="zh-TW">已停止播放</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AVFoundation/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/English.lproj/AVCaptureDeviceNames.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>AVCaptureDeviceUnknownDevice</Position>
+      <TranslationSet>
+        <base loc="en">Unknown Device</base>
+        <tran loc="zh-TW">未知的裝置</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

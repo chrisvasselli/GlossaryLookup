@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AppSSO</ProjName>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/Support/KerberosMenuExtra.app/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/TOOLTIP_PASSWORD_EXPIRES_IN_DAYS_SINGLE_LINE_FORMAT:dict/days:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Password expires in %d day</base>
+        <tran loc="fr">Le mot de passe expire dans %d jour</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/TOOLTIP_PASSWORD_EXPIRES_IN_DAYS_SINGLE_LINE_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="fr">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/TOOLTIP_PASSWORD_EXPIRES_IN_DAYS_SINGLE_LINE_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Password expires in %d days</base>
+        <tran loc="fr">Le mot de passe expire dans %d jours</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/NOTIFICATION_DESC_NORMAL_FORMAT:dict/days:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire in %d day</base>
+        <tran loc="fr">Votre mot de passe expirera dans %d jour</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NOTIFICATION_DESC_NORMAL_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire in %d days</base>
+        <tran loc="fr">Votre mot de passe expirera dans %d jours</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NOTIFICATION_DESC_NORMAL_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="fr">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosMacKeychainPasswordPrompter.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "No"; ObjectID = "Lb1-PK-0QM"; </Description>
+      <Position>Lb1-PK-0QM.title</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="fr">Non</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Would you like to automatically sign in from now on?"; ObjectID = "oAu-0c-3ll"; </Description>
+      <Position>oAu-0c-3ll.title</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to automatically sign in from now on?</base>
+        <tran loc="fr">Souhaitez-vous vous connecter automatiquement à partir de maintenant ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Yes"; ObjectID = "Ftu-7v-Xkg"; </Description>
+      <Position>Ftu-7v-Xkg.title</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="fr">Oui</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosMacLoginViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Username:"; ObjectID = "BiH-Mc-cyx"; </Description>
+      <Position>BiH-Mc-cyx.title</Position>
+      <TranslationSet>
+        <base loc="en">Username:</base>
+        <tran loc="fr">Nom d’utilisateur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Domain: test.com"; ObjectID = "TkT-jn-1sE"; </Description>
+      <Position>TkT-jn-1sE.title</Position>
+      <TranslationSet>
+        <base loc="en">Domain: test.com</base>
+        <tran loc="fr">Domaine : test.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Sign In"; ObjectID = "mJb-na-L9Y"; </Description>
+      <Position>mJb-na-L9Y.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="fr">Se connecter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "B0r-Wl-htk"; </Description>
+      <Position>B0r-Wl-htk.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="fr">Mot de passe :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibExternalAccessibilityDescription = "Username field"; ObjectID = "fcV-dV-0Zx"; </Description>
+      <Position>fcV-dV-0Zx.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Username field</base>
+        <tran loc="fr">Champ du nom d’utilisateur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Y58-Hj-O0O"; </Description>
+      <Position>Y58-Hj-O0O.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use a smart card or identity"; ObjectID = "1ea-Md-6GR"; </Description>
+      <Position>1ea-Md-6GR.title</Position>
+      <TranslationSet>
+        <base loc="en">Use a smart card or identity</base>
+        <tran loc="fr">Utiliser une carte à puce ou une identité</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use a smart card or identity"; ObjectID = "jf2-NH-7lJ"; </Description>
+      <Position>jf2-NH-7lJ.title</Position>
+      <TranslationSet>
+        <base loc="en">Use a smart card or identity</base>
+        <tran loc="fr">Utiliser une carte à puce ou une identité</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibExternalAccessibilityDescription = "Sign In button"; ObjectID = "9ey-cD-fVc"; </Description>
+      <Position>9ey-cD-fVc.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Sign In button</base>
+        <tran loc="fr">Bouton Se connecter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Identity..."; ObjectID = "2w9-hS-B4g"; </Description>
+      <Position>2w9-hS-B4g.title</Position>
+      <TranslationSet>
+        <base loc="en">Identity...</base>
+        <tran loc="fr">Identité...</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Options"; ObjectID = "c85-VV-iSA"; </Description>
+      <Position>c85-VV-iSA.title</Position>
+      <TranslationSet>
+        <base loc="en">Options</base>
+        <tran loc="fr">Options</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSecureTextField"; ibExternalAccessibilityDescription = "Password field"; ObjectID = "M08-Op-OKf"; </Description>
+      <Position>M08-Op-OKf.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Password field</base>
+        <tran loc="fr">Champ de mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSecureTextFieldCell"; placeholderString = "Password"; ObjectID = "wph-S2-hV9"; </Description>
+      <Position>wph-S2-hV9.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="fr">Mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Error text"; ObjectID = "HFa-Uy-t9r"; </Description>
+      <Position>HFa-Uy-t9r.title</Position>
+      <TranslationSet>
+        <base loc="en">Error text</base>
+        <tran loc="fr">Texte d’erreur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Sign in automatically"; ObjectID = "2UU-X8-v1U"; </Description>
+      <Position>2UU-X8-v1U.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign in automatically</base>
+        <tran loc="fr">Se connecter automatiquement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Not configured"; ObjectID = "AX4-ml-Yr8"; </Description>
+      <Position>AX4-ml-Yr8.title</Position>
+      <TranslationSet>
+        <base loc="en">Not configured</base>
+        <tran loc="fr">Non configuré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Username"; ObjectID = "cbd-QZ-TcU"; </Description>
+      <Position>cbd-QZ-TcU.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="fr">Nom d’utilisateur</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosPasswordChangeViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Old Password:"; ObjectID = "Cxd-a9-9u0"; </Description>
+      <Position>Cxd-a9-9u0.title</Position>
+      <TranslationSet>
+        <base loc="en">Old Password:</base>
+        <tran loc="fr">Ancien mot de passe :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "C2G-uS-da4"; </Description>
+      <Position>C2G-uS-da4.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "New Password:"; ObjectID = "Vsn-3O-7zc"; </Description>
+      <Position>Vsn-3O-7zc.title</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="fr">Nouveau mot de passe :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify:"; ObjectID = "SsY-OR-p7V"; </Description>
+      <Position>SsY-OR-p7V.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify:</base>
+        <tran loc="fr">Confirmation :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Change Password"; ObjectID = "fFL-FZ-nxB"; </Description>
+      <Position>fFL-FZ-nxB.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password</base>
+        <tran loc="fr">Modifier le mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>UNSUPPORTED_ENC_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported encryption type</base>
+        <tran loc="fr">Type de chiffrement non prix en charge</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_BINDPROBLEM_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Please contact an administrator to re-bind your Mac to Active Directory.</base>
+        <tran loc="fr">Veuillez contacter un administrateur pour associer à nouveau votre Mac à Active Directory.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired. Click OK to change your password, then sign in with your new password.</base>
+        <tran loc="fr">Votre mot de passe a expiré. Cliquez sur OK pour modifier votre mot de passe, puis connectez-vous à l’aide de votre nouveau mot de passe.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCAL_PASSWORD_SYNC_CANCELLED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">By selecting Cancel, your Mac’s login password will not be set to match your Active Directory password. Are you sure you want to do this?</base>
+        <tran loc="fr">Si vous sélectionnez Annuler, votre mot de passe Active Directory ne sera pas adopté comme mot de passe de session de votre Mac. Voulez-vous vraiment poursuivre ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password Expired</base>
+        <tran loc="fr">Mot de passe expiré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Confirmation</base>
+        <tran loc="fr">Confirmation</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_LOGIN_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to sign in automatically from now on?</base>
+        <tran loc="fr">Souhaitez-vous vous connecter automatiquement à partir de maintenant ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_INCORRECT</Position>
+      <TranslationSet>
+        <base loc="en">Password is incorrect</base>
+        <tran loc="fr">Le mot de passe est incorrect</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_SYNC_ALERT_TEXT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">\n\nAdditionally, your Mac’s login password has been set to match your new Active Directory password.</base>
+        <tran loc="fr">\n\nSachez également que le mot de passe de session de votre Mac correspond à votre nouveau mot de passe Active Directory.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLEASE_INSERT_SMARTCARD</Position>
+      <TranslationSet>
+        <base loc="en">Please insert your smart card</base>
+        <tran loc="fr">Insérez votre carte à puce</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_KEYCHAIN_FAILED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem updating your Keychain password. You’ll be prompted to update your Keychain password the next time you log into your Mac.</base>
+        <tran loc="fr">Un problème s’est produit lors de la mise à jour du mot de passe de votre trousseau. Vous devrez le mettre à jour la prochaine fois que vous ouvrez une session sur votre Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+</Description>
+      <Position>ACCOUNT_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">Account is locked</base>
+        <tran loc="fr">Le compte est verrouillé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_MATCH_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Please make sure the new passwords match, then try again.</base>
+        <tran loc="fr">Vérifiez que les nouveaux mots de passe correspondent, puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNABLE_TO_RESOLVE_REALM</Position>
+      <TranslationSet>
+        <base loc="en">Unable to resolve realm</base>
+        <tran loc="fr">Impossible de résoudre le domaine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_OLD_PASSWORD_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your old password is incorrect. Please try again.</base>
+        <tran loc="fr">Votre ancien mot de passe est incorrect. Veuillez réessayer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGES_DISABLED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password changes disabled</base>
+        <tran loc="fr">Changements de mot de passe désactivés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CERTIFICATE_NOT_FOUND</Position>
+      <TranslationSet>
+        <base loc="en">Certificate not found</base>
+        <tran loc="fr">Certificat introuvable</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_MATCH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">New passwords don’t match</base>
+        <tran loc="fr">Les nouveaux mots de passe ne correspondent pas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_KEYCHAIN_FAILED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keychain password change failed</base>
+        <tran loc="fr">Échec de la modification du mot de passe du trousseau</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password change failed</base>
+        <tran loc="fr">Échec de la modification du mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="fr">Non</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Unknown error</base>
+        <tran loc="fr">Erreur inconnue</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SYNCFAILED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Problem setting login password</base>
+        <tran loc="fr">Problème de configuration du mot de passe de session</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCAL_PASSWORD_SYNC_PASSED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your login and Active Directory passwords now match. Going forward, use your Active Directory password to log into your Mac.</base>
+        <tran loc="fr">Votre mot de passe de session et votre mot de passe Active Directory sont désormais identiques. À l’avenir, utilisez votre mot de passe Active Directory pour ouvrir une session sur votre Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USERNAME_INCORRECT</Position>
+      <TranslationSet>
+        <base loc="en">Username is incorrect</base>
+        <tran loc="fr">Le nom d’utilisateur est incorrect</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_LOGIN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Login automatically?</base>
+        <tran loc="fr">Ouvrir une session automatiquement ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_ALERT_TEXT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Your Active Directory password has been successfully changed.%@</base>
+        <tran loc="fr">Votre mot de passe Active Directory a été modifié avec succès.%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password change successful</base>
+        <tran loc="fr">Mot de passe modifié</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_SERVER_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your password didn’t meet server requirements. Please try again.</base>
+        <tran loc="fr">Votre mot de passe ne remplit pas les conditions requises par le serveur. Veuillez réessayer.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your Active Directory password has been successfully changed.</base>
+        <tran loc="fr">Votre mot de passe Active Directory a été modifié avec succès.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIGURED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Configured</base>
+        <tran loc="fr">Configuré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_HISTORY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Current password must not match any of %d previous passwords</base>
+        <tran loc="fr">Le mot de passe actuel doit être différent des %d anciens mot de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WRONG_PASSWORD_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Wrong password - Please try again</base>
+        <tran loc="fr">Mot de passe incorrect - Réessayez</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_CONFIGURED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Not Configured</base>
+        <tran loc="fr">Non configuré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SYNCFAILED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem setting your login password to match your Active Directory password. Please contact your IT help desk for assistance.</base>
+        <tran loc="fr">Un problème s’est produit lors de la configuration de votre mot de passe de session afin qu’il corresponde à votre mot de passe Active Directory. Veuillez contacter le service d’assistance informatique pour obtenir de l’aide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_MISC_FAILURE_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem changing your password. Make sure you’re on your organization’s network, then try again.</base>
+        <tran loc="fr">Un problème s’est produit lors de la modification de votre mot de passe. Vérifiez que vous êtes sur le réseau de votre entreprise, puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCAL_PASSWORD_SYNC_PASSED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Passwords in sync</base>
+        <tran loc="fr">Mots de passe synchronisés</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YES_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="fr">Oui</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Password has expired</base>
+        <tran loc="fr">Le mot de passe a expiré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KDC_UNREACHABLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to connect, please check your connection</base>
+        <tran loc="fr">Connexion impossible, vérifier votre connexion</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGES_DISABLED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your adminstrator has disabled password changes.</base>
+        <tran loc="fr">Votre administrateur a désactivé les changements de mot de passe.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AppSSO
+
+  Created by admin on 3/6/19.
+  
+</Description>
+      <Position>NOTIFICATION_CHANGE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Change</base>
+        <tran loc="fr">Modifier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_TITLE_SOON</Position>
+      <TranslationSet>
+        <base loc="en">Password expiring soon</base>
+        <tran loc="fr">Le mot de passe expire bientôt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_TITLE_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Password expired</base>
+        <tran loc="fr">Mot de passe expiré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_IGNORE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="fr">Ignorer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_DESC_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired. Please change your password immediately.</base>
+        <tran loc="fr">Votre mot de passe a expiré. Veuillez le modifier immédiatement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_DESC_TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire today.</base>
+        <tran loc="fr">Votre mot de passe expire aujourd’hui.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/MINIMUM_PASSWORD_AGE_FORMAT:dict/days:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Current password must be more than %d day old</base>
+        <tran loc="fr">Le mot de passe actuel doit avoir été créé il y a plus de %d jour</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DAYS_COUNT_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d days</base>
+        <tran loc="fr">%d jours</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PASSWORD_REQUIRED_LENGTH_TEXT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@characters@</base>
+        <tran loc="fr">%#@characters@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DAYS_COUNT_FORMAT:dict/days:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d day</base>
+        <tran loc="fr">%d jour</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DAYS_COUNT_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="fr">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MINIMUM_PASSWORD_AGE_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="fr">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PASSWORD_REQUIRED_LENGTH_TEXT:dict/characters:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d or more characters</base>
+        <tran loc="fr">%d caractère ou plus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PASSWORD_REQUIRED_LENGTH_TEXT:dict/characters:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d or more characters</base>
+        <tran loc="fr">%d caractères ou plus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MINIMUM_PASSWORD_AGE_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Current password must be more than %d days old</base>
+        <tran loc="fr">Le mot de passe actuel doit avoir été créé il y a plus de %d jours</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosLocalPasswordView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter your Active Directory or network password:"; ObjectID = "ORm-Ft-7Zy"; </Description>
+      <Position>ORm-Ft-7Zy.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter your Active Directory or network password:</base>
+        <tran loc="fr">Saisissez votre mot de passe Active Directory ou réseau :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "8Di-wb-4HG"; </Description>
+      <Position>8Di-wb-4HG.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="fr">Étiquette</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "wT2-zO-iat"; </Description>
+      <Position>wT2-zO-iat.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="fr">Étiquette</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "n1W-XM-OF1"; </Description>
+      <Position>n1W-XM-OF1.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Sync Password"; ObjectID = "RlM-MF-lMK"; </Description>
+      <Position>RlM-MF-lMK.title</Position>
+      <TranslationSet>
+        <base loc="en">Sync Password</base>
+        <tran loc="fr">Synchroniser les mots de passe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter your login password - the one you use to log into your Mac and unlock the screen saver:"; ObjectID = "aqW-JK-4eZ"; </Description>
+      <Position>aqW-JK-4eZ.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter your login password - the one you use to log into your Mac and unlock the screen saver:</base>
+        <tran loc="fr">Saisissez votre mot de passe de session, celui que vous utilisez pour ouvrir une session sur votre Mac et pour déverrouiller l’économiseur d’écran :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Your login and Active Directory passwords may not match. We will bring them into sync."; ObjectID = "KWZ-kr-wGd"; </Description>
+      <Position>KWZ-kr-wGd.title</Position>
+      <TranslationSet>
+        <base loc="en">Your login and Active Directory passwords may not match. We will bring them into sync.</base>
+        <tran loc="fr">Vos mots de passe de session et Active Directory ne correspondent pas. Nous allons les synchroniser.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosPasswordPolicyPopoverInteractive.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Meets all requirements"; ObjectID = "hi3-bh-mPA"; </Description>
+      <Position>hi3-bh-mPA.title</Position>
+      <TranslationSet>
+        <base loc="en">Meets all requirements</base>
+        <tran loc="fr">Remplit toutes les conditions</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "At least 8 characters"; ObjectID = "LRj-n9-tlE"; </Description>
+      <Position>LRj-n9-tlE.title</Position>
+      <TranslationSet>
+        <base loc="en">At least 8 characters</base>
+        <tran loc="fr">Contient au moins 8 caractères</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosPasswordPolicyPopoverInteractiveComplex.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has lowercase letter"; ObjectID = "D4s-CX-Czy"; </Description>
+      <Position>D4s-CX-Czy.title</Position>
+      <TranslationSet>
+        <base loc="en">Has lowercase letter</base>
+        <tran loc="fr">Contient une lettre minuscule</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Meets all requirements"; ObjectID = "hi3-bh-mPA"; </Description>
+      <Position>hi3-bh-mPA.title</Position>
+      <TranslationSet>
+        <base loc="en">Meets all requirements</base>
+        <tran loc="fr">Remplit toutes les conditions</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has a special character"; ObjectID = "cDG-Jd-Fpk"; </Description>
+      <Position>cDG-Jd-Fpk.title</Position>
+      <TranslationSet>
+        <base loc="en">Has a special character</base>
+        <tran loc="fr">Contient un caractère spécial</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has uppercase letter"; ObjectID = "KxH-Fu-Fle"; </Description>
+      <Position>KxH-Fu-Fle.title</Position>
+      <TranslationSet>
+        <base loc="en">Has uppercase letter</base>
+        <tran loc="fr">Contient une lettre majuscule</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "passwordAge"; ObjectID = "r36-jC-WmQ"; </Description>
+      <Position>r36-jC-WmQ.title</Position>
+      <TranslationSet>
+        <base loc="en">passwordAge</base>
+        <tran loc="fr">passwordAge</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Doesn't contain any words in your display name or username"; ObjectID = "3Gy-dQ-0Dh"; </Description>
+      <Position>3Gy-dQ-0Dh.title</Position>
+      <TranslationSet>
+        <base loc="en">Doesn't contain any words in your display name or username</base>
+        <tran loc="fr">Ne contient aucun mot figurant dans votre nom affiché ou votre nom d’utilisateur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has a Unicode character"; ObjectID = "GdH-Rp-vXo"; </Description>
+      <Position>GdH-Rp-vXo.title</Position>
+      <TranslationSet>
+        <base loc="en">Has a Unicode character</base>
+        <tran loc="fr">Contient un caractère Unicode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "passwordHistory"; ObjectID = "kcH-gL-J5X"; </Description>
+      <Position>kcH-gL-J5X.title</Position>
+      <TranslationSet>
+        <base loc="en">passwordHistory</base>
+        <tran loc="fr">passwordHistory</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "At least 8 characters"; ObjectID = "LRj-n9-tlE"; </Description>
+      <Position>LRj-n9-tlE.title</Position>
+      <TranslationSet>
+        <base loc="en">At least 8 characters</base>
+        <tran loc="fr">Contient au moins 8 caractères</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has a number"; ObjectID = "aEm-a7-i1h"; </Description>
+      <Position>aEm-a7-i1h.title</Position>
+      <TranslationSet>
+        <base loc="en">Has a number</base>
+        <tran loc="fr">Contient un chiffre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Three of these requirements:"; ObjectID = "bkI-3f-Ty1"; </Description>
+      <Position>bkI-3f-Ty1.title</Position>
+      <TranslationSet>
+        <base loc="en">Three of these requirements:</base>
+        <tran loc="fr">Remplit trois de ces conditions :</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/Support/KerberosMenuExtra.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Sign Out"; ObjectID = "hGd-4v-U7m"; </Description>
+      <Position>hGd-4v-U7m.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign Out</base>
+        <tran loc="fr">Déconnexion</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Sign In"; ObjectID = "PBW-NI-1Ac"; </Description>
+      <Position>PBW-NI-1Ac.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="fr">Se connecter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Change Password..."; ObjectID = "uZG-b8-QyL"; </Description>
+      <Position>uZG-b8-QyL.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password...</base>
+        <tran loc="fr">Changer de mot de passe...</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Updating…"; ObjectID = "DT6-Vt-VRN"; </Description>
+      <Position>DT6-Vt-VRN.title</Position>
+      <TranslationSet>
+        <base loc="en">Updating…</base>
+        <tran loc="fr">Mise à jour…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Updating…"; ObjectID = "GGK-Be-g4f"; </Description>
+      <Position>GGK-Be-g4f.title</Position>
+      <TranslationSet>
+        <base loc="en">Updating…</base>
+        <tran loc="fr">Mise à jour…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosCertPickerPopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Available certificates"; ObjectID = "o9U-lX-IDe"; </Description>
+      <Position>o9U-lX-IDe.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Available certificates</base>
+        <tran loc="fr">Certificats disponibles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Select"; ObjectID = "aeH-EB-X45"; </Description>
+      <Position>aeH-EB-X45.title</Position>
+      <TranslationSet>
+        <base loc="en">Select</base>
+        <tran loc="fr">Sélectionner</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "User Principal Name"; ObjectID = "Hja-Pa-g52"; </Description>
+      <Position>Hja-Pa-g52.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">User Principal Name</base>
+        <tran loc="fr">Nom principal de l’utilisateur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Inspect..."; ObjectID = "ryy-Gl-AOH"; </Description>
+      <Position>ryy-Gl-AOH.title</Position>
+      <TranslationSet>
+        <base loc="en">Inspect...</base>
+        <tran loc="fr">Inspecter...</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text"; ObjectID = "1xS-6A-WYx"; </Description>
+      <Position>1xS-6A-WYx.title</Position>
+      <TranslationSet>
+        <base loc="en">Text</base>
+        <tran loc="fr">Text</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ZMO-HL-Of6"; </Description>
+      <Position>ZMO-HL-Of6.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="fr">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

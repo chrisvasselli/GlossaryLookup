@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>configd_executables</ProjName>
+  <File>
+    <Filepath>configd_executables/System/Library/UserEventPlugins/SCMonitor.plugin/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_NP</Position>
+      <TranslationSet>
+        <base loc="en">Network Preferences…</base>
+        <tran loc="fr">Préférences Réseau…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MESSAGE_EN</Position>
+      <TranslationSet>
+        <base loc="en">\r\rTo set up these interfaces, use Network Preferences.</base>
+        <tran loc="fr">\r\rPour configurer ces interfaces, utilisez les préférences Réseau.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This header/message will appear when a "new" network interface has
+ been detected.
+   %@ will take an interface name; Ethernet, USB Ethernet, USB Modem, etc..</Description>
+      <Position>HEADER_1</Position>
+      <TranslationSet>
+        <base loc="en">A new network interface has been detected.</base>
+        <tran loc="fr">Une nouvelle interface réseau a été détectée.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MESSAGE_1</Position>
+      <TranslationSet>
+        <base loc="en">The “%@” network interface has not been set up. To set up this interface, use Network Preferences.</base>
+        <tran loc="fr">L’interface réseau « %@ » n’a pas été configurée. Pour la configurer, utilisez les préférences Réseau.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MESSAGE_SN</Position>
+      <TranslationSet>
+        <base loc="en">The following network interfaces have not been set up.\r</base>
+        <tran loc="fr">Les interfaces réseau suivantes n’ont pas été configurées.\r</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> This header/message appear when multiple "new" network interfaces have
+ been detected. A list of interfaces will be added between MESSAGE_SN
+ and MESSAGE_EN.</Description>
+      <Position>HEADER_N</Position>
+      <TranslationSet>
+        <base loc="en">New network interfaces have been detected.</base>
+        <tran loc="fr">De nouvelles interfaces réseau ont été détectées.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

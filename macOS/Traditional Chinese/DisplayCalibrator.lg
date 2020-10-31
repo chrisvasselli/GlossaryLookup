@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DisplayCalibrator</ProjName>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/SetupPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Before you begin calibration, you should make some initial adjustments to the brightness and contrast controls of your display.</base>
+        <tran loc="zh-TW">開始校正顏色前，您應先初步調整顯示器的亮度及對比控制按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100024.title</Position>
+      <TranslationSet>
+        <base loc="en">too bright</base>
+        <tran loc="zh-TW">太亮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done these steps, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100023.title</Position>
+      <TranslationSet>
+        <base loc="en">too dark</base>
+        <tran loc="zh-TW">太暗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">First, set the contrast control to the highest setting.\n\nNext, set the brightness control using the image on the right as a guide.  Increase brightness until the oval center is barely visible. Decrease brightness if the right half of the background appears brighter than the left.</base>
+        <tran loc="zh-TW">首先，將對比控制選項調整至最高設定值。\n\n接著以右方的影像為指引來設定顯示器的亮度。調整亮度至幾乎看不見圖像中央的圖形。若背景的右半部顯得比左半部亮，則降低亮度。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/AdminPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Normally, this assistant creates a calibrated display profile that is used only when you are using this computer.\n\nAs an administrator of this computer, you may choose to have the profile be useable as the default profile for other users of this computer.</base>
+        <tran loc="zh-TW">正常情況下，這個輔助程式會建立一份已校正的顯示器色彩描述，這只能在您登入這台電腦時使用。\n\n身為電腦的管理者，您可以選擇讓這份色彩描述作為這台電腦其他使用者的預設色彩描述。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Allow other users to use this calibration</base>
+        <tran loc="zh-TW">允許其他使用者使用這份校正結果</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Display Calibrator</base>
+        <tran loc="zh-TW">顯示器校正器</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/ConclusionPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">To quit the calibrator, click the Done button.</base>
+        <tran loc="zh-TW">要結束「校正器」，請按一下「完成」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100028.title</Position>
+      <TranslationSet>
+        <base loc="en">0000</base>
+        <tran loc="zh-TW">0000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100040.title</Position>
+      <TranslationSet>
+        <base loc="en">0000</base>
+        <tran loc="zh-TW">0000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100020.title</Position>
+      <TranslationSet>
+        <base loc="en">Chromaticities</base>
+        <tran loc="zh-TW">色度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Target White Point:</base>
+        <tran loc="zh-TW">目標白色點：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">0.00\n0.00</base>
+        <tran loc="zh-TW">0.00\n0.00</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>42.title</Position>
+      <TranslationSet>
+        <base loc="en">Profile Summary:</base>
+        <tran loc="zh-TW">色彩描述摘要：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100027.title</Position>
+      <TranslationSet>
+        <base loc="en">y</base>
+        <tran loc="zh-TW">y</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100024.title</Position>
+      <TranslationSet>
+        <base loc="en">0.000\n0.000\n0.000\n0.000</base>
+        <tran loc="zh-TW">0.000\n0.000\n0.000\n0.000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100026.title</Position>
+      <TranslationSet>
+        <base loc="en">0.000\n0.000\n0.000\n0.000</base>
+        <tran loc="zh-TW">0.000\n0.000\n0.000\n0.000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100015.title</Position>
+      <TranslationSet>
+        <base loc="en">Name:</base>
+        <tran loc="zh-TW">名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100019.title</Position>
+      <TranslationSet>
+        <base loc="en">Red Phosphor:\nGreen Phosphor:\nBlue Phosphor:\nNative White Point:</base>
+        <tran loc="zh-TW">紅色螢光層：\n綠色螢光層：\n藍色螢光層：\n原始白色點：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100021.title</Position>
+      <TranslationSet>
+        <base loc="en">Native Gamma:\nTarget Gamma:</base>
+        <tran loc="zh-TW">原始Gamma：\n目標Gamma：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100017.title</Position>
+      <TranslationSet>
+        <base loc="en">Calibrated Profile</base>
+        <tran loc="zh-TW">已校正的色彩描述</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100013.title</Position>
+      <TranslationSet>
+        <base loc="en">A new calibrated display profile has been created and set to be the current profile for this display.\n\nYou can change the current profile for this display by using the Displays pane of System Preferences or the Devices pane of ColorSync Utility.</base>
+        <tran loc="zh-TW">已製作新的已校正顯示器色彩描述，並設為此顯示器目前使用的色彩描述。\n\n您可以使用「系統偏好設定」的「顯示器」面板或「色彩同步工具程式」的「裝置」面板來更改此顯示器目前使用的色彩描述。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100025.title</Position>
+      <TranslationSet>
+        <base loc="en">x</base>
+        <tran loc="zh-TW">x</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/IntroductionPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">Expert Mode - This turns on extra options.</base>
+        <tran loc="zh-TW">專業模式 - 此模式會打開額外的選項。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">This assistant will help you calibrate your display and create a custom ColorSync profile.  With a properly calibrated display, the system and other software that uses ColorSync can better display images in their intended colors.</base>
+        <tran loc="zh-TW">此輔助程式可用來校正顯示器的顏色，並製作自訂的「色彩同步」色彩描述。顯示器經過正確校正後，系統與其他使用「色彩同步」的軟體，就能以最逼真的顏色顯示影像。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Welcome to the Apple Display Calibrator Assistant!</base>
+        <tran loc="zh-TW">歡迎使用「Apple顯示器校正器輔助程式」！</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Display calibration involves several steps:\n(some steps may be skipped on some displays)\n\n• Adjust the display's brightness and contrast\r• Determine the display's native luminance \n   response curve\r• Choose a desired response curve gamma\n• Choose a desired white point (warmth or\n   coolness of white)</base>
+        <tran loc="zh-TW">顯示器校正有好幾個步驟：\n（在某些顯示器上，某些步驟是可以略過的）\n\n• 調整顯示器的亮度及對比\r• 決定顯示器的原始光反應曲線\r• 選擇理想的反應曲線gamma\n• 選擇理想的白色點（暖白色或冷白色）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">Click the Continue button below to begin.</base>
+        <tran loc="zh-TW">按下方的「繼續」按鈕來開始校正。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/NamePane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Give your profile a name.</base>
+        <tran loc="zh-TW">為色彩描述命名。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/NameAsciiPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Give your profile a name.</base>
+        <tran loc="zh-TW">為色彩描述命名。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Please enter an additional name for this profile that only contains basic English characters or numbers.</base>
+        <tran loc="zh-TW">請輸入此色彩描述的額外名稱（只能包含基本英文字元或數字）。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/TargetGammaPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100051.title</Position>
+      <TranslationSet>
+        <base loc="en">Standard</base>
+        <tran loc="zh-TW">標準</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100016.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100030.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-TW">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Gamma 1.8</base>
+        <tran loc="zh-TW">Gamma 1.8</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100052.title</Position>
+      <TranslationSet>
+        <base loc="en">Linear</base>
+        <tran loc="zh-TW">線性</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Select your desired gamma setting for this display. This will adjust the overall contrast of the display.  Watch the picture on the right to see the effect of the different options.  In most cases, it is best to use the Mac Standard gamma of 2.2.</base>
+        <tran loc="zh-TW">為顯示器選擇理想的gamma設定。這會調整顯示器的整體對比。請觀察右邊的圖片來看看不同選項所呈現的效果。在大部分的情況下，最好使用Mac標準gamma值2.2。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100033.title</Position>
+      <TranslationSet>
+        <base loc="en">Select your desired gamma setting for this display. This will adjust the overall contrast of the display.  Watch the picture on the right to see the effect of the different options.  In most cases, it is best to use the Mac Standard gamma of 2.2.</base>
+        <tran loc="zh-TW">為顯示器選擇理想的gamma設定。這會調整顯示器的整體對比。請觀察右邊的圖片來看看不同選項所呈現的效果。在大部分的情況下，最好使用Mac標準gamma值2.2。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100047.title</Position>
+      <TranslationSet>
+        <base loc="en">1.8</base>
+        <tran loc="zh-TW">1.8</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100032.title</Position>
+      <TranslationSet>
+        <base loc="en">Target Gamma = %.2f</base>
+        <tran loc="zh-TW">目標Gamma = %.2f</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100040.title</Position>
+      <TranslationSet>
+        <base loc="en">Use native gamma</base>
+        <tran loc="zh-TW">使用原始gamma</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>13.title</Position>
+      <TranslationSet>
+        <base loc="en">Use native gamma</base>
+        <tran loc="zh-TW">使用原始gamma</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100048.title</Position>
+      <TranslationSet>
+        <base loc="en">2.2</base>
+        <tran loc="zh-TW">2.2</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>11.title</Position>
+      <TranslationSet>
+        <base loc="en">Gamma 2.2 (Standard)</base>
+        <tran loc="zh-TW">Gamma 2.2（標準）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100049.title</Position>
+      <TranslationSet>
+        <base loc="en">1.0</base>
+        <tran loc="zh-TW">1.0</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/BuildingPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Creating ColorSync profile...</base>
+        <tran loc="zh-TW">正在製作色彩同步色彩描述⋯</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/TargetWhitePane.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "After you have done this step, click the Continue button."; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "After you have done this step, click the Continue button."; ObjectID = "100025"; </Description>
+      <Position>100025.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Native"; ObjectID = "17"; </Description>
+      <Position>17.title</Position>
+      <TranslationSet>
+        <base loc="en">Native</base>
+        <tran loc="zh-TW">原始模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100011"; </Description>
+      <Position>100011.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-TW">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "D65"; ObjectID = "100040"; </Description>
+      <Position>100040.title</Position>
+      <TranslationSet>
+        <base loc="en">D65</base>
+        <tran loc="zh-TW">D65</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "D65"; ObjectID = "15"; </Description>
+      <Position>15.title</Position>
+      <TranslationSet>
+        <base loc="en">D65</base>
+        <tran loc="zh-TW">D65</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Use native white point"; ObjectID = "100024"; </Description>
+      <Position>100024.title</Position>
+      <TranslationSet>
+        <base loc="en">Use native white point</base>
+        <tran loc="zh-TW">使用原始白色點</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "7000"; ObjectID = "100069"; </Description>
+      <Position>100069.title</Position>
+      <TranslationSet>
+        <base loc="en">7000</base>
+        <tran loc="zh-TW">7000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Target White = %d K"; ObjectID = "100033"; </Description>
+      <Position>100033.title</Position>
+      <TranslationSet>
+        <base loc="en">Target White = %d K</base>
+        <tran loc="zh-TW">目標白色點 = %d K</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Warm yellowish white -\nstandard for graphic arts work."; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Warm yellowish white -\nstandard for graphic arts work.</base>
+        <tran loc="zh-TW">暖黃色系的白光 - 觀賞平面設計作品的標準。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "6000"; ObjectID = "100068"; </Description>
+      <Position>100068.title</Position>
+      <TranslationSet>
+        <base loc="en">6000</base>
+        <tran loc="zh-TW">6000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Use native white point of this display."; ObjectID = "100021"; </Description>
+      <Position>100021.title</Position>
+      <TranslationSet>
+        <base loc="en">Use native white point of this display.</base>
+        <tran loc="zh-TW">使用這個顯示器的原始白色點。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "9000"; ObjectID = "100071"; </Description>
+      <Position>100071.title</Position>
+      <TranslationSet>
+        <base loc="en">9000</base>
+        <tran loc="zh-TW">9000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Neutral white - equivalent to midday sunlight."; ObjectID = "100019"; </Description>
+      <Position>100019.title</Position>
+      <TranslationSet>
+        <base loc="en">Neutral white - equivalent to midday sunlight.</base>
+        <tran loc="zh-TW">自然白光 - 相當於正午陽光。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "5000"; ObjectID = "100067"; </Description>
+      <Position>100067.title</Position>
+      <TranslationSet>
+        <base loc="en">5000</base>
+        <tran loc="zh-TW">5000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "D50"; ObjectID = "100041"; </Description>
+      <Position>100041.title</Position>
+      <TranslationSet>
+        <base loc="en">D50</base>
+        <tran loc="zh-TW">D50</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "D50"; ObjectID = "14"; </Description>
+      <Position>14.title</Position>
+      <TranslationSet>
+        <base loc="en">D50</base>
+        <tran loc="zh-TW">D50</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "9300"; ObjectID = "100042"; </Description>
+      <Position>100042.title</Position>
+      <TranslationSet>
+        <base loc="en">9300</base>
+        <tran loc="zh-TW">9300</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "9300"; ObjectID = "16"; </Description>
+      <Position>16.title</Position>
+      <TranslationSet>
+        <base loc="en">9300</base>
+        <tran loc="zh-TW">9300</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "8000"; ObjectID = "100070"; </Description>
+      <Position>100070.title</Position>
+      <TranslationSet>
+        <base loc="en">8000</base>
+        <tran loc="zh-TW">8000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Select the white point setting you want for your display.  This will adjust the overall color tint of the display.  In most cases it is best to use the display’s native white point or a standard white point such as D50 or D65."; ObjectID = "100008"; </Description>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Select the white point setting you want for your display.  This will adjust the overall color tint of the display.  In most cases it is best to use the display’s native white point or a standard white point such as D50 or D65.</base>
+        <tran loc="zh-TW">為顯示器選擇白色點設定。這會調整顯示器的整體色調。在大部分的情況下，最好使用顯示器的原始白色點或標準白色點，如D50或D65。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Select the white point setting you want for your display.  This will adjust the overall color tint of the display.  In most cases it is best to use the display’s native white point or a standard white point such as D50 or D65."; ObjectID = "100034"; </Description>
+      <Position>100034.title</Position>
+      <TranslationSet>
+        <base loc="en">Select the white point setting you want for your display.  This will adjust the overall color tint of the display.  In most cases it is best to use the display’s native white point or a standard white point such as D50 or D65.</base>
+        <tran loc="zh-TW">為顯示器選擇白色點設定。這會調整顯示器的整體色調。在大部分的情況下，最好使用顯示器的原始白色點或標準白色點，如D50或D65。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Cool blueish white - standard for most displays and televisions."; ObjectID = "100020"; </Description>
+      <Position>100020.title</Position>
+      <TranslationSet>
+        <base loc="en">Cool blueish white - standard for most displays and televisions.</base>
+        <tran loc="zh-TW">冷藍色系的白光 - 大部分顯示器與電視的標準。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/NativeGammaExpertPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100042.title</Position>
+      <TranslationSet>
+        <base loc="en">Move the left slider until the brightness of the grey shape in the middle matches the backgrounds as much as possible.  Move the right slider until the shape is neutral compared to its background.  It may help to squint or sit back from the display.</base>
+        <tran loc="zh-TW">移動左邊滑桿直到中間灰階圖形的亮度與背景一致。移動右邊滑桿直到圖形與背景融成一體。從側邊斜看或從較遠位置觀看顯示器可能比較容易進行調整。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">This is the %@ of five steps used to determine the display's native luminance response curves.</base>
+        <tran loc="zh-TW">決定顯示器的原始光反應曲線有五個步驟，這是%@個。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Display Calibrator"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About Display Calibrator</base>
+        <tran loc="zh-TW">關於顯示器校正器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Delete"; ObjectID = "164"; </Description>
+      <Position>164.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; alternateTitle = "Done"; ObjectID = "100200"; </Description>
+      <Position>100200.alternateTitle</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Display Calibrator"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Display Calibrator</base>
+        <tran loc="zh-TW">結束顯示器校正器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Go Back"; ObjectID = "100201"; </Description>
+      <Position>100201.title</Position>
+      <TranslationSet>
+        <base loc="en">Go Back</base>
+        <tran loc="zh-TW">返回</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; </Description>
+      <Position>163.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-TW">編輯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Edit"; ObjectID = "169"; </Description>
+      <Position>169.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-TW">編輯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "130"; </Description>
+      <Position>130.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-TW">服務</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; </Description>
+      <Position>131.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-TW">服務</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-TW">全部顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; </Description>
+      <Position>171.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="zh-TW">貼上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Continue"; ObjectID = "100200"; </Description>
+      <Position>100200.title</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Close"; ObjectID = "227"; </Description>
+      <Position>227.title</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Zoom"; ObjectID = "229"; </Description>
+      <Position>229.title</Position>
+      <TranslationSet>
+        <base loc="en">Zoom</base>
+        <tran loc="zh-TW">縮放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; </Description>
+      <Position>158.title</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="zh-TW">還原</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display Calibrator"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Display Calibrator</base>
+        <tran loc="zh-TW">顯示器校正器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Display Calibrator"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Display Calibrator</base>
+        <tran loc="zh-TW">顯示器校正器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "220"; </Description>
+      <Position>220.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="zh-TW">縮到最小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-TW">隱藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; </Description>
+      <Position>173.title</Position>
+      <TranslationSet>
+        <base loc="en">Redo</base>
+        <tran loc="zh-TW">重做</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; </Description>
+      <Position>157.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="zh-TW">拷貝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">MainMenu</base>
+        <tran loc="zh-TW">MainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Display Calibrator"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Display Calibrator</base>
+        <tran loc="zh-TW">隱藏顯示器校正器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "222"; </Description>
+      <Position>222.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "224"; </Description>
+      <Position>224.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Select All"; ObjectID = "172"; </Description>
+      <Position>172.title</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="zh-TW">全選</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; </Description>
+      <Position>103.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-TW">輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; </Description>
+      <Position>160.title</Position>
+      <TranslationSet>
+        <base loc="en">Cut</base>
+        <tran loc="zh-TW">剪下</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Display Calibrator Assistant"; ObjectID = "21"; </Description>
+      <Position>21.title</Position>
+      <TranslationSet>
+        <base loc="en">Display Calibrator Assistant</base>
+        <tran loc="zh-TW">顯示器校正器輔助程式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "202"; </Description>
+      <Position>202.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-TW">Box</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "[PaneTitle]"; ObjectID = "100199"; </Description>
+      <Position>100199.title</Position>
+      <TranslationSet>
+        <base loc="en">[PaneTitle]</base>
+        <tran loc="zh-TW">[PaneTitle]</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "221"; </Description>
+      <Position>221.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="zh-TW">將此程式所有視窗移至最前</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>NameAsciiPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Give the profile a name</base>
+        <tran loc="zh-TW">為色彩描述命名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NamePaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Give the profile a name</base>
+        <tran loc="zh-TW">為色彩描述命名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdminPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Administrator options</base>
+        <tran loc="zh-TW">管理者選項</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NameAsciiPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="zh-TW">名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NamePaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="zh-TW">名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Native</Position>
+      <TranslationSet>
+        <base loc="en">Native</base>
+        <tran loc="zh-TW">原始模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AdminPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Admin</base>
+        <tran loc="zh-TW">管理者</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NativeGammaExpertPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Native Gamma</base>
+        <tran loc="zh-TW">原始Gamma</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NativeGammaPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Native Gamma</base>
+        <tran loc="zh-TW">原始Gamma</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CanNotCalibrateDisplay</Position>
+      <TranslationSet>
+        <base loc="en">Can’t calibrate the display</base>
+        <tran loc="zh-TW">無法校正顯示器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Quit</Position>
+      <TranslationSet>
+        <base loc="en">Quit</base>
+        <tran loc="zh-TW">結束</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TargetWhitePaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Target White Point</base>
+        <tran loc="zh-TW">目標白色點</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TargetWhitePaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Select a target white point</base>
+        <tran loc="zh-TW">選擇目標白色點</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>third</Position>
+      <TranslationSet>
+        <base loc="en">third</base>
+        <tran loc="zh-TW">第三</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>A profile with this name already exists.\rPlease choose a different name.</Position>
+      <TranslationSet>
+        <base loc="en">A profile with this name already exists.\rPlease choose a different name.</base>
+        <tran loc="zh-TW">這個色彩描述名稱已存在。請選擇一個不同的名稱。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>A profile name is required.\nPlease choose a name.</Position>
+      <TranslationSet>
+        <base loc="en">A profile name is required.\nPlease choose a name.</base>
+        <tran loc="zh-TW">您必須為色彩描述命名。\n請選擇一個名稱。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DoYouWantToQuit</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to quit display calibration?</base>
+        <tran loc="zh-TW">您要結束顯示器色彩校正嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CouldNotCreateProfile</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred.\n\nThe new calibrated display profile could not be created or set to be the current profile for this display.</base>
+        <tran loc="zh-TW">發生錯誤。\n\n無法製作新的已校正顯示器色彩描述，或無法將其設定為此顯示器目前使用的色彩描述。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ClickThisWindow</Position>
+      <TranslationSet>
+        <base loc="en">Click this window to calibrate\nthe display ‘%@’.</base>
+        <tran loc="zh-TW">按這個視窗一下，以校正顯示器「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BuildingPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Conclusion</base>
+        <tran loc="zh-TW">結論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BuildingPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Conclusion</base>
+        <tran loc="zh-TW">結論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConclusionPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Conclusion</base>
+        <tran loc="zh-TW">結論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConclusionPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Conclusion</base>
+        <tran loc="zh-TW">結論</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Continue</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroductionPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Introduction</base>
+        <tran loc="zh-TW">簡介</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IntroductionPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Introduction</base>
+        <tran loc="zh-TW">簡介</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>fourth</Position>
+      <TranslationSet>
+        <base loc="en">fourth</base>
+        <tran loc="zh-TW">第四</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Profile name contains an illegal character.\rPlease choose a different name.</Position>
+      <TranslationSet>
+        <base loc="en">Profile name contains an illegal character.\rPlease choose a different name.</base>
+        <tran loc="zh-TW">描述檔名稱包含無效的字元。\r請輸入其他名稱。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>second</Position>
+      <TranslationSet>
+        <base loc="en">second</base>
+        <tran loc="zh-TW">秒鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>first</Position>
+      <TranslationSet>
+        <base loc="en">first</base>
+        <tran loc="zh-TW">第一</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SetupPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Set Up</base>
+        <tran loc="zh-TW">設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>native gamma (approximate)</Position>
+      <TranslationSet>
+        <base loc="en">%@ (approximate)</base>
+        <tran loc="zh-TW">%@（約略值）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>native temp (approximate)</Position>
+      <TranslationSet>
+        <base loc="en">%@ (approximate)</base>
+        <tran loc="zh-TW">%@（約略值）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>target gamma</Position>
+      <TranslationSet>
+        <base loc="en">%@ (approximate)</base>
+        <tran loc="zh-TW">%@（約略值）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NativeGammaExpertPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Determine your display’s native response</base>
+        <tran loc="zh-TW">決定顯示器的原始反應</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ Calibrated</Position>
+      <TranslationSet>
+        <base loc="en">%@ Calibrated</base>
+        <tran loc="zh-TW">%@已校正</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SetupPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Display Adjustment</base>
+        <tran loc="zh-TW">顯示器調整</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TargetGammaPaneBullet</Position>
+      <TranslationSet>
+        <base loc="en">Target Gamma</base>
+        <tran loc="zh-TW">目標Gamma</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>fifth</Position>
+      <TranslationSet>
+        <base loc="en">fifth</base>
+        <tran loc="zh-TW">第五</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>A profile with this name already exists.\rThe existing profile will be replaced.</Position>
+      <TranslationSet>
+        <base loc="en">A profile with this name already exists.\rThe existing profile will be replaced.</base>
+        <tran loc="zh-TW">這個色彩描述名稱已存在。原來的色彩描述將會被取代。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>targetTemp</Position>
+      <TranslationSet>
+        <base loc="en">%@ </base>
+        <tran loc="zh-TW">%@ </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FactoryProfileNotFound</Position>
+      <TranslationSet>
+        <base loc="en">The factory profile for the display could not be found.</base>
+        <tran loc="zh-TW">找不到顯示器的出廠色彩描述。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NativeGammaPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Determine your display’s native gamma</base>
+        <tran loc="zh-TW">決定顯示器的原始gamma</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TargetGammaPaneTitle</Position>
+      <TranslationSet>
+        <base loc="en">Select a target gamma</base>
+        <tran loc="zh-TW">選擇目標gamma</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DisplayCalibrator/System/Library/ColorSync/Calibrators/Display Calibrator.app/Contents/Resources/English.lproj/NativeGammaPane.nib.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">After you have done this step, click the Continue button.</base>
+        <tran loc="zh-TW">在您完成這個步驟後，請按一下「繼續」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">3.5</base>
+        <tran loc="zh-TW">3.5</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100023.title</Position>
+      <TranslationSet>
+        <base loc="en">This step is used to determine the gamma of the display's native luminance response curve.</base>
+        <tran loc="zh-TW">這個步驟是用來決定顯示器原始光反應曲線的gamma。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100008.title</Position>
+      <TranslationSet>
+        <base loc="en">Move the slider until the grey shape in the middle matches the background as much as possible.  It may help to squint or sit back from the display.</base>
+        <tran loc="zh-TW">移動滑桿直到中間灰階圖形與背景一致。從側邊斜看或從較遠位置觀看顯示器可能比較容易進行調整。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>100021.title</Position>
+      <TranslationSet>
+        <base loc="en">1.0</base>
+        <tran loc="zh-TW">1.0</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

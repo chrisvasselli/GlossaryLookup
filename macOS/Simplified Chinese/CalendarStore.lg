@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CalendarStore</ProjName>
+  <File>
+    <Filepath>CalendarStore/System/Library/Frameworks/CalendarStore.framework/Versions/A/Resources/en.lproj/DialogStrings.strings</Filepath>
+    <TextItem>
+      <Description> Generic OK button in dialog </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CalendarStore/System/Library/Frameworks/CalendarStore.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Error details displayed when the user has attempted to add an event to a read-only calendar, or modify an event whose calendar is read-only </Description>
+      <Position>You can\\U2019t add, remove, or modify events in the %@ calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t add, remove, or modify events in the %@ calendar.</base>
+        <tran loc="zh-CN">您不能在“%@”日历中添加、删除或更改日程。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error details displayed when the user has attempted to change the all-day flag on a recurring event that has exceptions to the recurrence </Description>
+      <Position>You can\\U2019t make a repeating event an all-day event if there are exceptions to the repeat rules.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t make a repeating event an all-day event if there are exceptions to the repeat rules.</base>
+        <tran loc="zh-CN">即使重复规则有例外情况，您也不能将重复日程设为全天日程。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of default 'work' calendar </Description>
+      <Position>Work</Position>
+      <TranslationSet>
+        <base loc="en">Work</base>
+        <tran loc="zh-CN">工作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Informative message in a dialog box explaning to the user that the information that cannot be transfered to Exchange will be stored in the note field </Description>
+      <Position>Some of the fields in your original reminders aren't available in Exchange. If you continue, your reminders will be added to Exchange, and some information will appear in the note field of the reminders.</Position>
+      <TranslationSet>
+        <base loc="en">Some of the fields in your original reminders aren't available in Exchange. If you continue, your reminders will be added to Exchange, and some information will appear in the note field of the reminders.</base>
+        <tran loc="zh-CN">原始提醒事项中的一些栏位在Exchange中不可用。如果继续，提醒事项将添加到Exchange，并且有些信息将出现在提醒事项的“备注”栏中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error details displayed when the user has attempted to add an event to a calendar that does not support them </Description>
+      <Position>You cannot add tasks to the %@ calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You cannot add tasks to the %@ calendar.</base>
+        <tran loc="zh-CN">您不能将任务添加到“%@”日历。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of a dialog explaining to the user that some information from the todos cannot be transfered into an Microsoft Exchange </Description>
+      <Position>Some information in your reminders will be saved to a different field. Do you want to continue?</Position>
+      <TranslationSet>
+        <base loc="en">Some information in your reminders will be saved to a different field. Do you want to continue?</base>
+        <tran loc="zh-CN">提醒事项中的一些信息将存储到其他栏位。您要继续吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error details displayed when the user has attempted to add an event to a calendar that does not support them </Description>
+      <Position>You can\\U2019t add events to the %@ calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t add events to the %@ calendar.</base>
+        <tran loc="zh-CN">您不能将日程添加到“%@”日历。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to access a calendar that does not exist </Description>
+      <Position>The %@ calendar was not found.</Position>
+      <TranslationSet>
+        <base loc="en">The %@ calendar was not found.</base>
+        <tran loc="zh-CN">“%@”日历找不到。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Joined list: format string for last item in long quoted list </Description>
+      <Position>, and %@</Position>
+      <TranslationSet>
+        <base loc="en">, and %@</base>
+        <tran loc="zh-CN">和%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to change the title of a calendar to a title already in use. </Description>
+      <Position>The title %@ is already in use.</Position>
+      <TranslationSet>
+        <base loc="en">The title %@ is already in use.</base>
+        <tran loc="zh-CN">标题“%@”已在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of default 'home' calendar </Description>
+      <Position>Home</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="zh-CN">家庭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error reason returned when the client tries to change the title or notes of a birthday calendar </Description>
+      <Position>You can\\U2019t edit the title or notes of a Birthdays calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t edit the title or notes of a Birthdays calendar.</base>
+        <tran loc="zh-CN">您不能编辑“生日”日历的标题或备注。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to add an event or todo to a read-only calendar, or modify an event or todo whose calendar is read-only </Description>
+      <Position>You can\\U2019t edit the %@ calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t edit the %@ calendar.</base>
+        <tran loc="zh-CN">您不能编辑“%@”日历。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Joined list: format string for list of two items </Description>
+      <Position>%@ and %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ and %@</base>
+        <tran loc="zh-CN">%@和%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of default reminder list </Description>
+      <Position>Reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="zh-CN">提醒事项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to add a task to a calendar that does not support them </Description>
+      <Position>The %@ calendar does not support tasks.</Position>
+      <TranslationSet>
+        <base loc="en">The %@ calendar does not support tasks.</base>
+        <tran loc="zh-CN">“%@”日历不支持任务。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message of sheet displayed for cert error. </Description>
+      <Position>The certificate for this server was signed by an unknown certifying authority. You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk. Would you like to connect to the server anyway?</Position>
+      <TranslationSet>
+        <base loc="en">The certificate for this server was signed by an unknown certifying authority. You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk. Would you like to connect to the server anyway?</base>
+        <tran loc="zh-CN">此服务器的证书是由未知颁发机构签署的。您可能正在连接到一个伪装成“%@”的服务器，您的机密信息可能会有风险。您仍想连接到该服务器吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of a dialog explaining to the user that some information from the todo cannot be transfered into Microsoft Exchange </Description>
+      <Position>Some information in your reminder will be saved to a different field. Do you want to continue?</Position>
+      <TranslationSet>
+        <base loc="en">Some information in your reminder will be saved to a different field. Do you want to continue?</base>
+        <tran loc="zh-CN">提醒事项中的一些信息将存储到其他栏位。您要继续吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of sheet displayed for HTTPS can't connect/continue anyway dialog. </Description>
+      <Position>The identity of the server \"%@\" cannot be verified.</Position>
+      <TranslationSet>
+        <base loc="en">The identity of the server \"%@\" cannot be verified.</base>
+        <tran loc="zh-CN">不能验证服务器“%1$@”的身份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to add an event to a calendar that does not support them </Description>
+      <Position>The %@ calendar does not support events.</Position>
+      <TranslationSet>
+        <base loc="en">The %@ calendar does not support events.</base>
+        <tran loc="zh-CN">“%@”日历不支持日程。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error reason returned when the client tries to save an event whose start date is scheduled to occur after its end date </Description>
+      <Position>An event cannot be scheduled to start after it ends.</Position>
+      <TranslationSet>
+        <base loc="en">An event cannot be scheduled to start after it ends.</base>
+        <tran loc="zh-CN">不能将日程安排在其结束后才开始。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Joined list: format string for rest of long list </Description>
+      <Position>, and %d others</Position>
+      <TranslationSet>
+        <base loc="en">, and %d others</base>
+        <tran loc="zh-CN">和其他%d人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error details displayed when the user has attempted to add a todo to a read-only calendar, or modify a todo whose calendar is read-only </Description>
+      <Position>You can\\U2019t add, remove, or modify reminders in the %@ calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t add, remove, or modify reminders in the %@ calendar.</base>
+        <tran loc="zh-CN">您不能在“%@”日历中添加、移除或更改提醒事项。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Joined list: separator between items in list </Description>
+      <Position>, </Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="zh-CN">、</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to change the all-day flag on only a subset of the recurring event. </Description>
+      <Position>The all-day property must apply to all instances.</Position>
+      <TranslationSet>
+        <base loc="en">The all-day property must apply to all instances.</base>
+        <tran loc="zh-CN">全天属性必须应用到所有实例。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to change the notes of the birthday calendar </Description>
+      <Position>You can\\U2019t edit the notes in a Birthdays calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t edit the notes in a Birthdays calendar.</base>
+        <tran loc="zh-CN">您不能编辑“生日”日历中的备注。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error reason returned when the client tries to change the title of a calendar to a title already in use. </Description>
+      <Position>The title of a calendar must be unique. Choose a different title.</Position>
+      <TranslationSet>
+        <base loc="en">The title of a calendar must be unique. Choose a different title.</base>
+        <tran loc="zh-CN">日历的标题必须是唯一的。请选取一个不同的标题。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Group name for local calendars all words capitalized </Description>
+      <Position>On My Mac</Position>
+      <TranslationSet>
+        <base loc="en">On My Mac</base>
+        <tran loc="zh-CN">我的Mac上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message returned when the client tries to save an event whose start date is scheduled to occur after its end date </Description>
+      <Position>The date range is not valid.</Position>
+      <TranslationSet>
+        <base loc="en">The date range is not valid.</base>
+        <tran loc="zh-CN">日期范围无效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to change the all-day flag on a recurring event with exceptions to the recurrence. </Description>
+      <Position>You can\\U2019t change the all-day property of this repeating event.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t change the all-day property of this repeating event.</base>
+        <tran loc="zh-CN">您不能更改此重复日程的全天属性。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Informative message in a dialog box explaning to the user that the information that cannot be transfered to Exchange will be stored in the note field </Description>
+      <Position>Some of the fields in your original reminder aren't available in Exchange. If you continue, your reminder will be added to Exchange, and some information will appear in the note field of the reminder.</Position>
+      <TranslationSet>
+        <base loc="en">Some of the fields in your original reminder aren't available in Exchange. If you continue, your reminder will be added to Exchange, and some information will appear in the note field of the reminder.</base>
+        <tran loc="zh-CN">原始提醒事项中的一些栏位在Exchange中不可用。如果继续，提醒事项将添加到Exchange，并且有些信息将出现在提醒事项的“备注”栏中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message displayed when the user has attempted to change the title of the birthday calendar </Description>
+      <Position>You can\\U2019t edit the title of a Birthdays calendar.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t edit the title of a Birthdays calendar.</base>
+        <tran loc="zh-CN">您不能编辑“生日”日历的标题。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error details displayed when the user has attempted to change the all-day flag on only a subset of the recurring event </Description>
+      <Position>Changes to the all-day property of a repeating event must apply to all occurrences of that event.</Position>
+      <TranslationSet>
+        <base loc="en">Changes to the all-day property of a repeating event must apply to all occurrences of that event.</base>
+        <tran loc="zh-CN">对重复日程的全天属性的更改必须应用到该日程的所有重复。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

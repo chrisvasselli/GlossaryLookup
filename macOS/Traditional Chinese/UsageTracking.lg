@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>UsageTracking</ProjName>
+  <File>
+    <Filepath>UsageTracking/System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Error saving after deleting a budget. </Description>
+      <Position>DeleteBudgetError</Position>
+      <TranslationSet>
+        <base loc="en">Failed to delete a usage budget</base>
+        <tran loc="zh-TW">無法刪除使用限制</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Additional text for PersistBudgetError/FetchBudgetError/DeleteBudgetError </Description>
+      <Position>SeeSystemLog</Position>
+      <TranslationSet>
+        <base loc="en">See Console for additional details.</base>
+        <tran loc="zh-TW">  家      </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error trying to fetch a budget (possibly to delete it). </Description>
+      <Position>FetchBudgetError</Position>
+      <TranslationSet>
+        <base loc="en">Failed to fetch a usage budget</base>
+        <tran loc="zh-TW">無法擷取使用限制</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  UsageTracking
+
+  Copyright © 2018-2019 Apple Inc. All rights reserved.
+
+ Error when a client doesn't have an application identifier entitlement. </Description>
+      <Position>NoApplicationIdentifierError</Position>
+      <TranslationSet>
+        <base loc="en">Something without a %@ entitlement tried to manage usage budgets</base>
+        <tran loc="zh-TW">有一個未包含%@授權的用戶端嘗試管理使用限制。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error saving after creating or updating a budget. </Description>
+      <Position>PersistBudgetError</Position>
+      <TranslationSet>
+        <base loc="en">Failed to persist a usage budget</base>
+        <tran loc="zh-TW">無法儲存使用限制</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

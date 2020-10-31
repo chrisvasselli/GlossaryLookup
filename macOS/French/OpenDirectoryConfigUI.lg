@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>OpenDirectoryConfigUI</ProjName>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCServersView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Status"; ObjectID = "29"; </Description>
+      <Position>29.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Status</base>
+        <tran loc="fr">État</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "30"; </Description>
+      <Position>30.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="fr">Nom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Info"; ObjectID = "28"; </Description>
+      <Position>28.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="fr">Infos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibExternalAccessibilityDescription = "AddServer"; ObjectID = "18"; </Description>
+      <Position>18.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">AddServer</base>
+        <tran loc="fr">AjouterServeur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Add a new Directory Server"; ObjectID = "18"; </Description>
+      <Position>18.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Add a new Directory Server</base>
+        <tran loc="fr">Ajouter un nouveau serveur d’annuaire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Delete the selected Directory Server"; ObjectID = "19"; </Description>
+      <Position>19.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Delete the selected Directory Server</base>
+        <tran loc="fr">Supprimer le serveur d’annuaire sélectionné</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibExternalAccessibilityDescription = "RemoveServer"; ObjectID = "19"; </Description>
+      <Position>19.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">RemoveServer</base>
+        <tran loc="fr">SupprimerServeur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "33"; </Description>
+      <Position>33.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="fr">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "35"; </Description>
+      <Position>35.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="fr">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kUnknownErrorMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">%@\n(%d)</base>
+        <tran loc="fr">%@\n(%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to unbind from this Active Directory Domain? To do this you’ll need to enter an administrator name and password for the Domain.</base>
+        <tran loc="fr">Voulez-vous vraiment rompre la liaison avec ce domaine Active Directory ? Pour effectuer cette opération, saisissez un nom et un mot de passe d’administrateur du domaine.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kNoPrivsToOverwriteExitingComputerRecord</Position>
+      <TranslationSet>
+        <base loc="en">Your account on the server does not have privileges to overwrite the computer record “%@”. Please inform the server administrator.</base>
+        <tran loc="fr">Votre compte sur le serveur n’est pas autorisé à écraser la fiche de l’ordinateur « %@ ». Veuillez en informer l’administrateur du serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDontUnbindFromADButton</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Unbind</base>
+        <tran loc="fr">Ne pas rompre la liaison</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kMultipleServers</Position>
+      <TranslationSet>
+        <base loc="en">Multiple</base>
+        <tran loc="fr">Multiple</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringODUnknown</Position>
+      <TranslationSet>
+        <base loc="en">The status of this server is unknown.</base>
+        <tran loc="fr">L’état de ce serveur est inconnu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringODDown</Position>
+      <TranslationSet>
+        <base loc="en">This server is not responding.</base>
+        <tran loc="fr">Ce serveur ne répond pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kAuthBindingAllowedMsg</Position>
+      <TranslationSet>
+        <base loc="en">This server allows authenticated binding. You may choose to enter a name and password. You may also leave them blank to bind anonymously.</base>
+        <tran loc="fr">Ce serveur autorise la liaison authentifiée. Vous pouvez soit saisir un nom et un mot de passe, soit effectuer une liaison anonyme en laissant ces champs vides.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADIsSourceNodeTitle</Position>
+      <TranslationSet>
+        <base loc="en">Unbind from the Active Directory Domain containing your current user record?</base>
+        <tran loc="fr">Rompre la liaison avec le domaine Active Directory contenant l’enregistrement de votre utilisateur actuel ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDuplicateServerNameFormat</Position>
+      <TranslationSet>
+        <base loc="en">This computer is already using %@ or a matching replica.</base>
+        <tran loc="fr">Cet ordinateur utilise déjà %@ ou une réplique correspondante.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kOKBtn</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This string is too short. It must contain at least %lu characters.</Position>
+      <TranslationSet>
+        <base loc="en">This string is too short. It must contain at least %lu characters.</base>
+        <tran loc="fr">Cette chaîne est trop courte. Elle doit comporter au moins %lu caractères.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSSLNotSupportedMsg</Position>
+      <TranslationSet>
+        <base loc="en">You can continue without a secure connection, which could allow unauthorized access to your computer.</base>
+        <tran loc="fr">Vous pouvez continuer sans connexion sécurisée, mais il est possible que vous permettiez des accès non autorisés à votre ordinateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kODServerType</Position>
+      <TranslationSet>
+        <base loc="en">Open Directory Server</base>
+        <tran loc="fr">Serveur Open Directory</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSSLNotSupportedTitle</Position>
+      <TranslationSet>
+        <base loc="en">This server does not provide a secure (SSL) connection. Do you want to continue?</base>
+        <tran loc="fr">Ce serveur ne prend pas en charge les connexions sécurisées (SSL). Souhaitez-vous continuer ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerIsSourceNodeMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to stop using the Directory Server %@? It appears that this server contains the user record that is currently logged into this computer. Removing this server could cause serious problems that are difficult or impossible to repair. This action cannot be undone.</base>
+        <tran loc="fr">Voulez-vous vraiment arrêter d’utiliser le serveur d’annuaire %@ ? Il contient probablement l’enregistrement de l’utilisateur actuellement connecté à cet ordinateur. La suppression de ce serveur risque d’entraîner de graves problèmes, difficiles ou même impossibles à réparer. Cette action est irréversible.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kTrustSSLCertificatesTitle</Position>
+      <TranslationSet>
+        <base loc="en">This server provides SSL certificates. Do you want to trust the certificates from %@?</base>
+        <tran loc="fr">Ce serveur fournit des certificats SSL. Souhaitez-vous faire confiance aux certificats de %@ ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kCancelBtn</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDontDeleteServerBtn</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to stop using the Directory Server %@? This action cannot be undone.</base>
+        <tran loc="fr">Voulez-vous vraiment ne plus utiliser le serveur d’annuaire %@ ? Cette action est irréversible.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kContinueBtn</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="fr">Continuer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kADServerType</Position>
+      <TranslationSet>
+        <base loc="en">Active Directory Domain</base>
+        <tran loc="fr">Domaine Active Directory</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayNotInAuthSearchPolicyFormat</Position>
+      <TranslationSet>
+        <base loc="en">%@ This server is not in your authentication search policy.</base>
+        <tran loc="fr">%@ Ce serveur ne se trouve pas dans vos règles de recherche d’authentification.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDupeComputerRecordFound</Position>
+      <TranslationSet>
+        <base loc="en">There is already a computer in the directory with this name. You may choose to overwrite it, but this may disable another computer if it is in use.</base>
+        <tran loc="fr">Il existe déjà un ordinateur avec ce nom dans l’annuaire. Vous pouvez choisir de l’écraser, au risque de désactiver un autre ordinateur en cours d’utilisation.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerTitle</Position>
+      <TranslationSet>
+        <base loc="en">Stop using the Directory Server?</base>
+        <tran loc="fr">Interrompre l’utilisation du serveur d’annuaire ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDontTrust</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Trust</base>
+        <tran loc="fr">Ne pas se fier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringADUp</Position>
+      <TranslationSet>
+        <base loc="en">This domain is responding normally.</base>
+        <tran loc="fr">Ce domaine répond normalement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADTitle</Position>
+      <TranslationSet>
+        <base loc="en">Unbind from the Active Directory Domain?</base>
+        <tran loc="fr">Rompre la liaison avec le domaine Active Directory ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kLocalODServerName</Position>
+      <TranslationSet>
+        <base loc="en">Local Server</base>
+        <tran loc="fr">Serveur local</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+   Localizable.strings
+   OpenDirectoryConfigUI
+
+   Created by Forest Hill on 6/23/08.
+   Copyright 2008 Apple Computer, Inc. All rights reserved.
+ </Description>
+      <Position>kNoDirectoryServersFoundMsg</Position>
+      <TranslationSet>
+        <base loc="en">No Directory Servers Configured</base>
+        <tran loc="fr">Aucun serveur d’annuaire configuré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kUnbindFromADButton</Position>
+      <TranslationSet>
+        <base loc="en">Unbind</base>
+        <tran loc="fr">Rompre la liaison</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This string is too short. It must contain at least 1 character.</Position>
+      <TranslationSet>
+        <base loc="en">This string is too short. It must contain at least 1 character.</base>
+        <tran loc="fr">Cette chaîne est trop courte. Elle doit comporter au moins 1 caractère.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kAuthBindingRequiredMsg</Position>
+      <TranslationSet>
+        <base loc="en">This server requires authenticated binding. Please enter a name and password for the server.</base>
+        <tran loc="fr">Ce serveur requiert une liaison authentifiée. Saisissez un nom et un mot de passe pour ce serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kAuthBindingAuthFailure</Position>
+      <TranslationSet>
+        <base loc="en">Authentication failed. Please check the name and password and try again.</base>
+        <tran loc="fr">Échec de l’authentification. Vérifiez vos nom et mot de passe, puis réessayez.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kDeleteServerBtn</Position>
+      <TranslationSet>
+        <base loc="en">Stop Using Server</base>
+        <tran loc="fr">Arrêter d’utiliser le serveur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kTrust</Position>
+      <TranslationSet>
+        <base loc="en">Trust</base>
+        <tran loc="fr">Se fier</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kCouldntAddServer</Position>
+      <TranslationSet>
+        <base loc="en">Unable to add server.</base>
+        <tran loc="fr">Impossible d’ajouter le serveur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kTrustSSLCertificatesMsg</Position>
+      <TranslationSet>
+        <base loc="en">You can continue without trusting certificates. Trusting these certificates could allow unauthorized access to your computer.</base>
+        <tran loc="fr">Vous pouvez continuer sans faire confiance aux certificats. Faire confiance à ces certificats pourrait permettre l’accès non autorisé à votre ordinateur.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kOperationFailed</Position>
+      <TranslationSet>
+        <base loc="en">Operation failed.</base>
+        <tran loc="fr">L’opération a échoué.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToUnbindFromADIsSourceNodeMsgFormat</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to unbind from this Active Directory Domain? It appears that this domain contains the user record that is currently logged into this computer. Unbinding from this domain could cause serious problems that are difficult or impossible to repair. To do this you’ll need to enter an administrator name and password for the Domain.</base>
+        <tran loc="fr">Voulez-vous vraiment rompre la liaison avec ce domaine Active Directory ? Il contient probablement la fiche de l’utilisateur actuellement connecté à cet ordinateur. Si vous rompez la liaison, cela peut entraîner de graves problèmes difficiles, voire impossibles à réparer. Pour effectuer cette opération, saisissez un nom et un mot de passe d’administrateur du domaine.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringODUp</Position>
+      <TranslationSet>
+        <base loc="en">This server is responding normally.</base>
+        <tran loc="fr">Ce serveur répond normalement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringADDown</Position>
+      <TranslationSet>
+        <base loc="en">This domain is not responding.</base>
+        <tran loc="fr">Ce domaine ne répond pas.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kSureToDeleteODServerIsSourceNodeTitle</Position>
+      <TranslationSet>
+        <base loc="en">Stop using the Directory Server containing your current user record?</base>
+        <tran loc="fr">Interrompre l’utilisation du serveur d’annuaire contenant l’enregistrement de votre utilisateur actuel ?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kStatusDisplayStringADUnknown</Position>
+      <TranslationSet>
+        <base loc="en">The status of this domain is unknown.</base>
+        <tran loc="fr">L’état de ce domaine est inconnu.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCSummaryView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Edit…"; ObjectID = "6"; </Description>
+      <Position>6.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit…</base>
+        <tran loc="fr">Modifier…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Done"; ObjectID = "16"; </Description>
+      <Position>16.title</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="fr">Terminé</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Network Account Server:"; ObjectID = "4"; </Description>
+      <Position>4.title</Position>
+      <TranslationSet>
+        <base loc="en">Network Account Server:</base>
+        <tran loc="fr">Compte serveur réseau :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "12"; </Description>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="fr">Fenêtre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Join…"; ObjectID = "30"; </Description>
+      <Position>30.title</Position>
+      <TranslationSet>
+        <base loc="en">Join…</base>
+        <tran loc="fr">Rejoindre…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Open Directory Utility…"; ObjectID = "18"; </Description>
+      <Position>18.title</Position>
+      <TranslationSet>
+        <base loc="en">Open Directory Utility…</base>
+        <tran loc="fr">Ouvrir Utilitaire d’annuaire…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCAddServerSheet.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can enter the address of an Open Directory Server or Active Directory Domain."; ObjectID = "LwG-pb-eW3"; </Description>
+      <Position>LwG-pb-eW3.title</Position>
+      <TranslationSet>
+        <base loc="en">You can enter the address of an Open Directory Server or Active Directory Domain.</base>
+        <tran loc="fr">Vous pouvez saisir l’adresse d’un serveur Open Directory ou d’un domaine Active Directory.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Active Directory Settings:"; ObjectID = "bON-fR-Q5E"; </Description>
+      <Position>bON-fR-Q5E.title</Position>
+      <TranslationSet>
+        <base loc="en">Active Directory Settings:</base>
+        <tran loc="fr">Réglages Active Directory :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "GZt-Ly-PdP"; </Description>
+      <Position>GZt-Ly-PdP.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="fr">Mot de passe :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Client Computer ID:"; ObjectID = "qez-yg-vAw"; </Description>
+      <Position>qez-yg-vAw.title</Position>
+      <TranslationSet>
+        <base loc="en">Client Computer ID:</base>
+        <tran loc="fr">Identifiant de l’ordinateur client :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Client Computer ID:"; ObjectID = "qsv-mQ-Dmm"; </Description>
+      <Position>qsv-mQ-Dmm.title</Position>
+      <TranslationSet>
+        <base loc="en">Client Computer ID:</base>
+        <tran loc="fr">Identifiant de l’ordinateur client :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "jem-TQ-a6X"; </Description>
+      <Position>jem-TQ-a6X.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="fr">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "K84-92-Tcl"; </Description>
+      <Position>K84-92-Tcl.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="fr">Annuler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "AD Admin User:"; ObjectID = "clD-4m-UAn"; </Description>
+      <Position>clD-4m-UAn.title</Position>
+      <TranslationSet>
+        <base loc="en">AD Admin User:</base>
+        <tran loc="fr">Utilisateur administrateur AD :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "User Name:"; ObjectID = "fRh-JU-Xpt"; </Description>
+      <Position>fRh-JU-Xpt.title</Position>
+      <TranslationSet>
+        <base loc="en">User Name:</base>
+        <tran loc="fr">Nom d’utilisateur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(required)"; ObjectID = "FD5-bC-HpE"; </Description>
+      <Position>FD5-bC-HpE.title</Position>
+      <TranslationSet>
+        <base loc="en">(required)</base>
+        <tran loc="fr">(requis)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Server:"; ObjectID = "itw-J1-7vq"; </Description>
+      <Position>itw-J1-7vq.title</Position>
+      <TranslationSet>
+        <base loc="en">Server:</base>
+        <tran loc="fr">Serveur :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Overwrite"; ObjectID = "Xgk-ng-fkW"; </Description>
+      <Position>Xgk-ng-fkW.title</Position>
+      <TranslationSet>
+        <base loc="en">Overwrite</base>
+        <tran loc="fr">Écraser</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Add Server"; ObjectID = "AB1-eV-hrf"; </Description>
+      <Position>AB1-eV-hrf.title</Position>
+      <TranslationSet>
+        <base loc="en">Add Server</base>
+        <tran loc="fr">Ajouter un serveur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Open Directory Utility…"; ObjectID = "eYf-Xp-uJh"; </Description>
+      <Position>eYf-Xp-uJh.title</Position>
+      <TranslationSet>
+        <base loc="en">Open Directory Utility…</base>
+        <tran loc="fr">Ouvrir Utilitaire d’annuaire…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "AD Admin Password:"; ObjectID = "4c4-1u-BOT"; </Description>
+      <Position>4c4-1u-BOT.title</Position>
+      <TranslationSet>
+        <base loc="en">AD Admin Password:</base>
+        <tran loc="fr">Mot de passe d’administrateur AD :</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>OpenDirectoryConfigUI/System/Library/PrivateFrameworks/OpenDirectoryConfigUI.framework/Versions/A/Resources/English.lproj/ODCUnbindFromADSheet.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "17"; </Description>
+      <Position>17.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="fr">Mot de passe :</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Administrator:"; ObjectID = "15"; </Description>
+      <Position>15.title</Position>
+      <TranslationSet>
+        <base loc="en">Administrator:</base>
+        <tran loc="fr">Administrateur :</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

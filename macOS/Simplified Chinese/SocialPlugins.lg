@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SocialPlugins</ProjName>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/FacebookAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_APPROVAL_REQUIRED_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You will receive a text message containing a temporary code. Please use this code instead of your password to sign in.</base>
+        <tran loc="zh-CN">您将收到一条包含临时验证码的短信。请使用此验证码取代您的密码进行登录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_NO_CONNECTION</Position>
+      <TranslationSet>
+        <base loc="en">There is no connection to the Internet.</base>
+        <tran loc="zh-CN">没有接入互联网。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Could not communicate with the server.</base>
+        <tran loc="zh-CN">未能与服务器通信。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_BLOCKED</Position>
+      <TranslationSet>
+        <base loc="en">Your account has been blocked for suspicious activity. Please log in to facebook.com from your computer and follow the instructions given.</base>
+        <tran loc="zh-CN">由于发现可疑活动，您的帐户被阻止。请从您的电脑登录到facebook.com，然后按照给定的指示进行操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Facebook
+
+  Created by Kalle Haglunds on 2/3/12.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>FB_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Facebook password for “%@” in Settings.</base>
+        <tran loc="zh-CN">请在“设置”中输入“%@”的Facebook密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_OPTED_OUT</Position>
+      <TranslationSet>
+        <base loc="en">You cannot sign in from your iPhone since you have opted out of Facebook Platform.</base>
+        <tran loc="zh-CN">无法从您的iPhone登录，因为您已退出Facebook平台。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="zh-CN">请在“系统偏好设置”中输入“%@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="zh-CN">偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MUST_VERIFY</Position>
+      <TranslationSet>
+        <base loc="en">You need to verify your email address before you can start using your Facebook account.</base>
+        <tran loc="zh-CN">您需要先验证您的电子邮件地址，然后才能开始使用您的Facebook帐户。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">The user name or password is incorrect.</base>
+        <tran loc="zh-CN">用户名称或密码不正确。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_APPROVAL_REQUIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Login Approval Required</base>
+        <tran loc="zh-CN">需要登录批准</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Error Signing In</base>
+        <tran loc="zh-CN">登录时出错</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FB_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Facebook Password</base>
+        <tran loc="zh-CN">Facebook密码</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/WeiboAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_USER_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">User canceled password prompt</base>
+        <tran loc="zh-CN">用户取消了密码提示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Weibo Password</base>
+        <tran loc="zh-CN">微博密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ERROR_NOT_PERMITTED</Position>
+      <TranslationSet>
+        <base loc="en">The application does not have permission to add Weibo accounts using a password.</base>
+        <tran loc="zh-CN">该应用程序没有权限来添加使用密码的微博帐户。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="zh-CN">请在“系统偏好设置”中输入“%@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="zh-CN">偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ERROR_NO_CREDENTIAL</Position>
+      <TranslationSet>
+        <base loc="en">The account could not be verified because it does not have the necessary credentials.</base>
+        <tran loc="zh-CN">未能验证该帐户，因为它没有必需的凭证。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by Guy Fullerton on 5/30/12.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>WEIBO_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Weibo password for “%@” in Settings.</base>
+        <tran loc="zh-CN">请在“设置”中输入“%@”的微博密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WEIBO_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/GoogleAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_NOTIF_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Google Password Required</base>
+        <tran loc="zh-CN">需要谷歌密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Google password for “%@” in Internet Accounts.</base>
+        <tran loc="zh-CN">请在“互联网帐户”中输入“%@”的谷歌密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Google
+
+  Created by Guy Fullerton on 10/17/14.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>GOOGLE_AUTH_ALERT_TITLE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Google password for “%@” in Settings.</base>
+        <tran loc="zh-CN">请在“设置”中输入“%@”的谷歌密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_EMAIL_MISMATCH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Email Address Mismatch</base>
+        <tran loc="zh-CN">电子邮件地址不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_EMAIL_MISMATCH_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_NOTIF_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-CN">继续</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_SETTINGS_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Internet Accounts</base>
+        <tran loc="zh-CN">互联网帐户</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_EMAIL_MISMATCH_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The email address you entered does not match your account.</base>
+        <tran loc="zh-CN">您输入的电子邮件地址与您的帐户不匹配。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_ALERT_SETTINGS_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GOOGLE_AUTH_NOTIF_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password for “%@” in Internet Accounts.</base>
+        <tran loc="zh-CN">请在“互联网帐户”中输入“%@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Access/FacebookAccessPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_STREAM</Position>
+      <TranslationSet>
+        <base loc="en">News Feed</base>
+        <tran loc="zh-CN">新闻提要</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_RELATIONSHIPS</Position>
+      <TranslationSet>
+        <base loc="en">relationships</base>
+        <tran loc="zh-CN">感情状况</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_RELATIONSHIPS</Position>
+      <TranslationSet>
+        <base loc="en">relationships</base>
+        <tran loc="zh-CN">感情状况</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">notes</base>
+        <tran loc="zh-CN">网志</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">notes</base>
+        <tran loc="zh-CN">网志</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_MANAGE_FRIENDLISTS</Position>
+      <TranslationSet>
+        <base loc="en">custom friend lists</base>
+        <tran loc="zh-CN">自定朋友列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_FRIENDLISTS</Position>
+      <TranslationSet>
+        <base loc="en">custom friend lists</base>
+        <tran loc="zh-CN">自定朋友列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_XMPP_LOGIN</Position>
+      <TranslationSet>
+        <base loc="en">messages</base>
+        <tran loc="zh-CN">信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">messages</base>
+        <tran loc="zh-CN">邮件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Predicates </Description>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ</Position>
+      <TranslationSet>
+        <base loc="en">access %@</base>
+        <tran loc="zh-CN">访问“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> See comment for ACCOUNT_ACCESS_MANAGE_MULTIPLE. </Description>
+      <Position>ACCOUNT_ACCESS_MANAGE_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">manage %@ and %@</base>
+        <tran loc="zh-CN">管理%@和%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The placeholder will be one of the Audience Descriptions that appear below. </Description>
+      <Position>ACCCOUNT_ACCESS_WRITE</Position>
+      <TranslationSet>
+        <base loc="en">post %@</base>
+        <tran loc="zh-CN">发布“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_INSIGHTS</Position>
+      <TranslationSet>
+        <base loc="en">insights</base>
+        <tran loc="zh-CN">见解</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_ONLINE_PRESENCE</Position>
+      <TranslationSet>
+        <base loc="en">chat status</base>
+        <tran loc="zh-CN">聊天状态</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_RELIGION_POLITICS</Position>
+      <TranslationSet>
+        <base loc="en">religious and political views</base>
+        <tran loc="zh-CN">宗教和政治观点</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_RELIGION_POLITICS</Position>
+      <TranslationSet>
+        <base loc="en">religious and political views</base>
+        <tran loc="zh-CN">宗教和政治观点</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_CHECKINS</Position>
+      <TranslationSet>
+        <base loc="en">checkins</base>
+        <tran loc="zh-CN">签到</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_CHECKINS</Position>
+      <TranslationSet>
+        <base loc="en">checkins</base>
+        <tran loc="zh-CN">签到</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by Lestat Ali on 4/30/12.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>ACCOUNT_ACCESS_REQUEST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Facebook</base>
+        <tran loc="zh-CN">Facebook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_TWO_PERMISSION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@, and %@ on your behalf.</base>
+        <tran loc="zh-CN">“%@”想代表您“%@”和“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Audience Descriptions </Description>
+      <Position>POST_PUBLICALLY</Position>
+      <TranslationSet>
+        <base loc="en">publicly</base>
+        <tran loc="zh-CN">公开地</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Object Names </Description>
+      <Position>FACEBOOK_READ_PERMISSION_BASIC_PROFILE</Position>
+      <TranslationSet>
+        <base loc="en">basic profile info</base>
+        <tran loc="zh-CN">基本个人信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_ADS_MANAGEMENT</Position>
+      <TranslationSet>
+        <base loc="en">ads</base>
+        <tran loc="zh-CN">广告</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_GROUPS</Position>
+      <TranslationSet>
+        <base loc="en">groups</base>
+        <tran loc="zh-CN">群</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_GROUPS</Position>
+      <TranslationSet>
+        <base loc="en">groups</base>
+        <tran loc="zh-CN">群</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">status updates</base>
+        <tran loc="zh-CN">状态更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_STATUS</Position>
+      <TranslationSet>
+        <base loc="en">status updates</base>
+        <tran loc="zh-CN">状态更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> We display this when an app requests basic-read access. 
+ The placeholder is for the app name, e.g. "Flipboard". </Description>
+      <Position>ACCOUNT_ACCESS_BASIC_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to access your basic profile info and list of friends.</base>
+        <tran loc="zh-CN">“%@”想访问您的基本个人信息和朋友列表。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_ABOUT_ME</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_ACTIVITIES</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_BIRTHDAY</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_EDUCATION_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_HOMETOWN</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_INTERESTS</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_SUBSCRIPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_WEBSITE</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_WORK_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profiles</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_FRIENDS</Position>
+      <TranslationSet>
+        <base loc="en">your friends’ %@</base>
+        <tran loc="zh-CN">您朋友的“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_PHOTOS</Position>
+      <TranslationSet>
+        <base loc="en">photos</base>
+        <tran loc="zh-CN">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_PHOTOS</Position>
+      <TranslationSet>
+        <base loc="en">photos</base>
+        <tran loc="zh-CN">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POST_PRIVATELY</Position>
+      <TranslationSet>
+        <base loc="en">privately</base>
+        <tran loc="zh-CN">秘密地</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">access %@ as well as %@</base>
+        <tran loc="zh-CN">访问“%@”和“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_RELATIONSHIP_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">relationship interests</base>
+        <tran loc="zh-CN">关系兴趣</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_RELATIONSHIP_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">relationship interests</base>
+        <tran loc="zh-CN">关系兴趣</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_DO_NOT_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="zh-CN">不允许</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_LIKES</Position>
+      <TranslationSet>
+        <base loc="en">likes</base>
+        <tran loc="zh-CN">爱好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_LIKES</Position>
+      <TranslationSet>
+        <base loc="en">likes</base>
+        <tran loc="zh-CN">爱好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_LOCATION</Position>
+      <TranslationSet>
+        <base loc="en">current cities</base>
+        <tran loc="zh-CN">当前城市</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_MANAGE</Position>
+      <TranslationSet>
+        <base loc="en">manage %@</base>
+        <tran loc="zh-CN">管理%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_MANAGE_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">Pages</base>
+        <tran loc="zh-CN">页面</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_VIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">videos</base>
+        <tran loc="zh-CN">视频</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_VIDEOS</Position>
+      <TranslationSet>
+        <base loc="en">videos</base>
+        <tran loc="zh-CN">视频</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_USER</Position>
+      <TranslationSet>
+        <base loc="en">your %@</base>
+        <tran loc="zh-CN">您的“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WORD_LIST_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="zh-CN">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_ONLINE_PRESENCE</Position>
+      <TranslationSet>
+        <base loc="en">chat statuses</base>
+        <tran loc="zh-CN">聊天状态</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>POST_TO_FRIENDS</Position>
+      <TranslationSet>
+        <base loc="en">to your friends</base>
+        <tran loc="zh-CN">给您的朋友</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_CREATE_EVENT</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="zh-CN">活动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_RSVP_EVENT</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="zh-CN">活动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="zh-CN">活动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">events</base>
+        <tran loc="zh-CN">活动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS_QUESTIONS</Position>
+      <TranslationSet>
+        <base loc="en">questions</base>
+        <tran loc="zh-CN">问题</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_QUESTIONS</Position>
+      <TranslationSet>
+        <base loc="en">questions</base>
+        <tran loc="zh-CN">问题</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_READ_REQUESTS</Position>
+      <TranslationSet>
+        <base loc="en">friend requests</base>
+        <tran loc="zh-CN">交友邀请</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_FRIENDS_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">your friends’ %@ and %@</base>
+        <tran loc="zh-CN">您朋友的“%@”和“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_MANAGE_PERMISSION_MANAGE_NOTIFICATIONS</Position>
+      <TranslationSet>
+        <base loc="en">notifications</base>
+        <tran loc="zh-CN">通知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_THREE_PERMISSION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@. It would also like to %@ and %@ on your behalf.</base>
+        <tran loc="zh-CN">“%@”想“%@”。它也想代表您“%@”和“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ONE_PERMISSION_SHORT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@.</base>
+        <tran loc="zh-CN">“%@”想“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> When unknown permissions are requested, we ask the server for a localized message.
+ The first placeholder is for the app name, and the second is for the server message.
+ Note the punctation at the end of the string. </Description>
+      <Position>ACCOUNT_ACCESS_UNKNOWN_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@.</base>
+        <tran loc="zh-CN">“%@”想“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_ABOUT_ME</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_ACTIVITIES</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_EDUCATION_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_HOMETOWN</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_INTERESTS</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_SUBSCRIPTIONS</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_WEBSITE</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_USER_WORK_HISTORY</Position>
+      <TranslationSet>
+        <base loc="en">profile</base>
+        <tran loc="zh-CN">个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_EXTENDED_READ_USER_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">your %@ and %@</base>
+        <tran loc="zh-CN">您的“%@”和“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FACEBOOK_READ_PERMISSION_FRIENDS</Position>
+      <TranslationSet>
+        <base loc="en">list of friends</base>
+        <tran loc="zh-CN">朋友列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> If an unknown permission is requested along with other known permissions,
+ this message is appended to the one we have generated. The placeholder is
+ for a server-provided description. "It" refers to the app. </Description>
+      <Position>ACCOUNT_ACCESS_UNKNOWN_ADDITIONAL_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">In addition, it would like to %@.</base>
+        <tran loc="zh-CN">此外，它想“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> We allow an app to request up to three categories of permissions (e.g. read, write, manage, etc...).
+ We need a format string for each case. The first placeholder in each string is the app name.
+ The subsequent placeholders are for what I am loosely referring to as "predicates." Each permission
+ category gets a predicate, and each predicate is a phrase that describes the permissions in that category. 
+ For example, if Flipboard requests permissions in two categories, the string might read:
+ "Flipboard" would like to post publicly, and manage friend lists on your behalf.
+ Here we have two predicates: "post publicly" and "manage friendlists". </Description>
+      <Position>ACCOUNT_ACCESS_ONE_PERMISSION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to %@ on your behalf.</base>
+        <tran loc="zh-CN">“%@”想代表您“%@”。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/TwitterAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="zh-CN">请在“系统偏好设置”中输入“%@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="zh-CN">偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+ Social
+ 
+ Created by Guy Fullerton on 5/29/12.
+ Copyright (c) 2014 Apple Inc. All rights reserved.
+ </Description>
+      <Position>TWITTER_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Twitter password for “%@” in Settings.</base>
+        <tran loc="zh-CN">请在“设置”中输入“%@”的Twitter密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Twitter Password</base>
+        <tran loc="zh-CN">Twitter密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TWITTER_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Access/LinkedInAccessPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_EMAILADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">Access your email address</base>
+        <tran loc="zh-CN">访问您的电子邮件地址</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> LinkedIn permission items. Theses are displayed as a bullet list</Description>
+      <Position>LINKEDIN_PERM_BASICPROFILE</Position>
+      <TranslationSet>
+        <base loc="en">Access your basic profile</base>
+        <tran loc="zh-CN">访问您的基本个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_GROUPS</Position>
+      <TranslationSet>
+        <base loc="en">Retrieve and post group discussions</base>
+        <tran loc="zh-CN">取回和发布群组讨论</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by Arnaud Douceur on 1/8/13.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+
+ %@ is the name of the application requesting access</Description>
+      <Position>ACCOUNT_ACCESS_REQUEST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">%@ is requesting access to your LinkedIn account. This application will be able to:</base>
+        <tran loc="zh-CN">%[tt]@正请求访问您的LinkedIn帐户。此应用程序将能够：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_CONTACTINFO</Position>
+      <TranslationSet>
+        <base loc="en">Access your contact information</base>
+        <tran loc="zh-CN">访问您的联系信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_NUS</Position>
+      <TranslationSet>
+        <base loc="en">Retrieve and post network updates</base>
+        <tran loc="zh-CN">取回和发布网络更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">Send messages and invitations to connect</base>
+        <tran loc="zh-CN">发送联系信息和邀请</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_FULLPROFILE</Position>
+      <TranslationSet>
+        <base loc="en">Access your full profile</base>
+        <tran loc="zh-CN">访问您的完整个人主页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_DO_NOT_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="zh-CN">不允许</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bullet list item. This string is used to build a bullet list item from a string</Description>
+      <Position>BULLET_LIST_ITEM</Position>
+      <TranslationSet>
+        <base loc="en">• %@</base>
+        <tran loc="zh-CN">• %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_PERM_NETWORK</Position>
+      <TranslationSet>
+        <base loc="en">Access your connections</base>
+        <tran loc="zh-CN">访问您的关系网络</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/YahooAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ACCOUNT_TYPE_YAHOO</Position>
+      <TranslationSet>
+        <base loc="en">Yahoo!</base>
+        <tran loc="zh-CN">Yahoo!</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ACCOUNT_TYPE_AOL</Position>
+      <TranslationSet>
+        <base loc="en">AOL</base>
+        <tran loc="zh-CN">AOL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Yahoo!
+
+  Created by Guy Fullerton on 10/17/14.
+  Copyright (c) 2014 Apple, Inc. All rights reserved.
+</Description>
+      <Position>YAHOO_AUTH_ALERT_TITLE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the %@ password for “%@” in Settings.</base>
+        <tran loc="zh-CN">请在“设置”中输入“%2$@”的 %1$@ 密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YAHOO_AUTH_ALERT_SETTINGS_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Access/TencentWeiboAccessPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  localizable.strings
+  Social
+
+  Created by Nat Hillard on 3/4/13.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>ACCOUNT_ACCESS_REQUEST_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Tencent Weibo</base>
+        <tran loc="zh-CN">腾讯微博</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_INVALID_ACCESS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Access Token</base>
+        <tran loc="zh-CN">访问令牌无效</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> We display this when an app requests basic-read access.
+ The placeholder is for the app name, e.g. "Flipboard". </Description>
+      <Position>ACCOUNT_ACCESS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">“%@” would like to access your Tencent Weibo Account</base>
+        <tran loc="zh-CN">“%@”想访问您的腾讯微博帐户</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_GENERAL</Position>
+      <TranslationSet>
+        <base loc="en">Request failed</base>
+        <tran loc="zh-CN">请求失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_ACCESS_DO_NOT_ALLOW_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Allow</base>
+        <tran loc="zh-CN">不允许</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_PARAMETER</Position>
+      <TranslationSet>
+        <base loc="en">Missing request parameter</base>
+        <tran loc="zh-CN">缺少请求参数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WORD_LIST_SEPARATOR</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="zh-CN">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_REPEATED_REQUEST</Position>
+      <TranslationSet>
+        <base loc="en">Requests have been too frequent</base>
+        <tran loc="zh-CN">请求太频繁</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_MALFORMED_REQUEST</Position>
+      <TranslationSet>
+        <base loc="en">Malformed request</base>
+        <tran loc="zh-CN">请求的格式错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THIRD_PARTY_ACCESS_ERROR_MESSAGE_INVALID_APPID</Position>
+      <TranslationSet>
+        <base loc="en">Invalid App ID</base>
+        <tran loc="zh-CN">App ID无效</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SocialPlugins/System/Library/Accounts/Authentication/LinkedInAuthenticationPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_TITLE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">LinkedIn Password</base>
+        <tran loc="zh-CN">LinkedIn密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_USER_CANCELED</Position>
+      <TranslationSet>
+        <base loc="en">User canceled password prompt</base>
+        <tran loc="zh-CN">用户取消了密码提示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_MESSAGE_OSX</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” in System Preferences.</base>
+        <tran loc="zh-CN">请在“系统偏好设置”中输入“%@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_PREFERENCES</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="zh-CN">偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  Social
+
+  Created by John Scalo on 10/24/12.
+  Copyright (c) 2014 Apple Inc. All rights reserved.
+</Description>
+      <Position>LINKEDIN_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ needs you to enter the password for “%2$@” in Settings.</base>
+        <tran loc="zh-CN">%1$@需要您在“设置”中输入“%2$@”的密码。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ERROR_NO_CREDENTIAL</Position>
+      <TranslationSet>
+        <base loc="en">The account could not be verified because it does not have the necessary credentials.</base>
+        <tran loc="zh-CN">未能验证该帐户，因为它没有必需的凭证。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ERROR_NOT_PERMITTED</Position>
+      <TranslationSet>
+        <base loc="en">The application does not have permission to add LinkedIn accounts using a password.</base>
+        <tran loc="zh-CN">该应用程序没有权限添加使用密码的LinkedIn帐户。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LINKEDIN_AUTH_ALERT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="zh-CN">设置</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

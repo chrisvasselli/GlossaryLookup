@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>TextInput</ProjName>
+  <File>
+    <Filepath>TextInput/System/Library/PrivateFrameworks/TextInput.framework/Versions/A/Resources/en.lproj/AssistantSettings.strings</Filepath>
+    <TextItem>
+      <Description> For the alert shown when user taps on the button/link to add 3PK. </Description>
+      <Position>EXTENSION_OPT_IN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Add Third-Party Keyboard?</base>
+        <tran loc="zh-CN">添加第三方键盘？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_ABOUT</Position>
+      <TranslationSet>
+        <base loc="en">Learn More…</base>
+        <tran loc="zh-CN">了解更多…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTENSION_OPT_IN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">When using third-party keyboard, the keyboard can access all the data you type.</base>
+        <tran loc="zh-CN">使用第三方键盘时，键盘可以访问您键入的所有数据。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_NOT_NOW</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="zh-CN">以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable Dictation?</base>
+        <tran loc="zh-CN">启用听写？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Dictation sends information like your voice input, contacts, and location to Apple to process your requests.</base>
+        <tran loc="zh-CN">“听写”会将语音输入、联系人和位置等信息发送到Apple以处理您的请求。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXTENSION_OPT_IN_ADD</Position>
+      <TranslationSet>
+        <base loc="en">Add Keyboard In Settings</base>
+        <tran loc="zh-CN">在“设置”中添加“键盘”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For the alert shown when user taps the Dictation key while in Dictation Discovery mode. </Description>
+      <Position>DICTATION_OPT_IN_ENABLE</Position>
+      <TranslationSet>
+        <base loc="en">Enable Dictation</base>
+        <tran loc="zh-CN">启用听写</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TextInput/System/Library/PrivateFrameworks/TextInput.framework/Versions/A/Resources/en.lproj/SecureCandidate.strings</Filepath>
+    <TextItem>
+      <Description> If autofill source site is nil, use safari keychain instead </Description>
+      <Position>SAFARI_KEYCHAIN</Position>
+      <TranslationSet>
+        <base loc="en">from Safari keychain</base>
+        <tran loc="zh-CN">来自Safari浏览器钥匙串</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Local Authentication Alert title for app autofill, the parameter is the device type. </Description>
+      <Position>AUTOFILL_AUTH_PASSCODE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter %@ passcode to use password</base>
+        <tran loc="zh-CN">输入%@密码来使用密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFARI_CREDENTIAL_DATE</Position>
+      <TranslationSet>
+        <base loc="en">added %@</base>
+        <tran loc="zh-CN">添加于%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FROM_MESSAGES</Position>
+      <TranslationSet>
+        <base loc="en">From Messages</base>
+        <tran loc="zh-CN">来自“信息”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Aggregated text inserted when the user taps on a location QuickType item (e.g. Gary Danko / 1800 N Point St San Francisco CA 94102). This will be inserted in the context of a sentence like "let's meet at". The first parameter is the POI name, and the 2nd parameter corresponds to it's address. Example: "Gary Danko - 1800 N Point St San Francisco CA 94102" </Description>
+      <Position>LOCATION_AGGREGATED_NAME_AND_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">%@ - %@</base>
+        <tran loc="zh-CN">%@ - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The accessibility concatenation of the header and input text for proactive candidates </Description>
+      <Position>PROACTIVE_CANDIDATE_ACCESSIBILITY_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">%@, %@</base>
+        <tran loc="zh-CN">%@，%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFARI_CREDENTIAL_SITE_SHORT</Position>
+      <TranslationSet>
+        <base loc="en">for %@</base>
+        <tran loc="zh-CN">%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Analogous string to SEND_CURRENT_LOCATION_BUTTON_CAPTION, but without the glyph. This is vended to assistive technologies and automation. </Description>
+      <Position>SEND_CURRENT_LOCATION_BUTTON_ACCESSIBILITY_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Current Location</base>
+        <tran loc="zh-CN">当前位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Local Authentication Alert message for app autofill </Description>
+      <Position>AUTOFILL_AUTH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID to Use Password</base>
+        <tran loc="zh-CN">使用触控ID来使用密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Caption for a button that sends your current location. The %@ is substituted with a glyph that shows the Location Services triangle icon. This string should be similar to the "Send My Current Location" string in the MobileSMS ("Messages") app, but without the "Send My" part. </Description>
+      <Position>SEND_CURRENT_LOCATION_BUTTON_CAPTION</Position>
+      <TranslationSet>
+        <base loc="en">%@ Current Location</base>
+        <tran loc="zh-CN">%@当前位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Any parenthesized label: "David Bloom (Work)", or "Mel's Diner Restaurant (from Yelp!)" </Description>
+      <Position>PARENTHESIZED_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">%@ (%@)</base>
+        <tran loc="zh-CN">%@（%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SAFARI_CREDENTIAL_SUGGESTED_USERNAME</Position>
+      <TranslationSet>
+        <base loc="en">Suggested User Name</base>
+        <tran loc="zh-CN">建议用户名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Autofill
+ Site source for safari autofill credential </Description>
+      <Position>SAFARI_CREDENTIAL_SITE_LONG</Position>
+      <TranslationSet>
+        <base loc="en">password for %@</base>
+        <tran loc="zh-CN">“%@”的密码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  SecureCandidate.strings
+  TextInput
+
+  Created by David Bloom on 3/8/16.
+
+
+ Proactive quick type
+ The parenthesized part of: "Mel's Diner Restaurant (From Yelp!), 1 Main Street" </Description>
+      <Position>APP_CONNECTION_ATTRIBUTION</Position>
+      <TranslationSet>
+        <base loc="en">From %@</base>
+        <tran loc="zh-CN">来自“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TextInput/System/Library/PrivateFrameworks/TextInput.framework/Versions/A/Resources/en.lproj/TIUserDictionarySampleShortcuts.plist</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/target:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">On my way!</base>
+        <tran loc="zh-CN">马上到！</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/shortcut:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">omw</base>
+        <tran loc="zh-CN">msd</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TextInput/System/Library/TextInput/TextInput_emoji.bundle/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+   Localizable.strings
+   TextInput
+
+   Created by Brad Moore on 9/10/08.
+   Copyright 2008 Apple, Inc. All rights reserved.
+ </Description>
+      <Position>Recents</Position>
+      <TranslationSet>
+        <base loc="en">Recents</base>
+        <tran loc="zh-CN">最近使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Travel &amp; Places Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Travel</base>
+        <tran loc="zh-CN">旅行</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Activity Category</Position>
+      <TranslationSet>
+        <base loc="en">Activity</base>
+        <tran loc="zh-CN">活动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Activity Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Activity</base>
+        <tran loc="zh-CN">活动</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>People Category</Position>
+      <TranslationSet>
+        <base loc="en">Smileys &amp; People</base>
+        <tran loc="zh-CN">表情符号与人物</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects Category</Position>
+      <TranslationSet>
+        <base loc="en">Objects</base>
+        <tran loc="zh-CN">物体</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Objects</base>
+        <tran loc="zh-CN">物体</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Food &amp; Drink Category</Position>
+      <TranslationSet>
+        <base loc="en">Food &amp; Drink</base>
+        <tran loc="zh-CN">食物与饮料</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> category title</Description>
+      <Position>Frequently Used Category</Position>
+      <TranslationSet>
+        <base loc="en">Frequently Used</base>
+        <tran loc="zh-CN">常用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Nature Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Nature</base>
+        <tran loc="zh-CN">自然</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects &amp; Symbols Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Symbols</base>
+        <tran loc="zh-CN">符号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Symbols Category</Position>
+      <TranslationSet>
+        <base loc="en">Symbols</base>
+        <tran loc="zh-CN">符号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Symbols Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Symbols</base>
+        <tran loc="zh-CN">符号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> fallback category title if too long</Description>
+      <Position>Frequently Used Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Frequent</base>
+        <tran loc="zh-CN">常用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Objects &amp; Symbols Category</Position>
+      <TranslationSet>
+        <base loc="en">Objects &amp; Symbols</base>
+        <tran loc="zh-CN">物体与符号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Flags</Position>
+      <TranslationSet>
+        <base loc="en">Flags</base>
+        <tran loc="zh-CN">旗帜</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Flags Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Flags</base>
+        <tran loc="zh-CN">旗帜</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Skin Tone Emoji Help</Position>
+      <TranslationSet>
+        <base loc="en">Some emoji now offer skin tone variations. You can choose a skin tone by tapping and holding on one of these emoji to change it from the default color.</base>
+        <tran loc="zh-CN">部分表情符号现有更多肤色选择。您可以长按表情符号来更改其默认颜色。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Recents Description</Position>
+      <TranslationSet>
+        <base loc="en">This section will automatically collect your most recent and frequently used icons.</base>
+        <tran loc="zh-CN">最近使用的图标和常用图标将收集在此栏。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Travel &amp; Places Category</Position>
+      <TranslationSet>
+        <base loc="en">Travel &amp; Places</base>
+        <tran loc="zh-CN">旅行与地点</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Nature Category</Position>
+      <TranslationSet>
+        <base loc="en">Animals &amp; Nature</base>
+        <tran loc="zh-CN">动物与自然</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Food &amp; Drink Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Food</base>
+        <tran loc="zh-CN">食物</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Celebration Category</Position>
+      <TranslationSet>
+        <base loc="en">Celebration</base>
+        <tran loc="zh-CN">庆祝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Celebration Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">Celebration</base>
+        <tran loc="zh-CN">庆祝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>People Category Fallback</Position>
+      <TranslationSet>
+        <base loc="en">People</base>
+        <tran loc="zh-CN">人物</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

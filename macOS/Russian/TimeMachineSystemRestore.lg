@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>TimeMachineSystemRestore</ProjName>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine System Restore</base>
+        <tran loc="ru">Восстановление системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2014 Apple Inc.\nAll rights reserved.</base>
+        <tran loc="ru">Copyright © 2014 Apple Inc.\nВсе права защищены.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/TMSRSelectSnapshotViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Restore From:"; ObjectID = "9Qt-lu-Rz3"; </Description>
+      <Position>9Qt-lu-Rz3.title</Position>
+      <TranslationSet>
+        <base loc="en">Restore From:</base>
+        <tran loc="ru">Восстановить из:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Backup Date &amp; Time"; ObjectID = "Uqk-iZ-JnV"; </Description>
+      <Position>Uqk-iZ-JnV.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Backup Date &amp; Time</base>
+        <tran loc="ru">Дата и время резервной копии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "xfu-1p-eb0"; </Description>
+      <Position>xfu-1p-eb0.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="ru">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "macOS Version"; ObjectID = "23j-Vl-IzN"; </Description>
+      <Position>23j-Vl-IzN.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">macOS Version</base>
+        <tran loc="ru">Версия macOS</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/TMSRWelcomeViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Important information about restoring your system:"; ObjectID = "rS1-Tn-nFl"; </Description>
+      <Position>rS1-Tn-nFl.title</Position>
+      <TranslationSet>
+        <base loc="en">Important information about restoring your system:</base>
+        <tran loc="ru">Важная информация о восстановлении системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "• To restore individual files use Time Machine in the Finder."; ObjectID = "ncw-Il-Zk2"; </Description>
+      <Position>ncw-Il-Zk2.title</Position>
+      <TranslationSet>
+        <base loc="en">• To restore individual files use Time Machine in the Finder.</base>
+        <tran loc="ru">• Для восстановления отдельных файлов используйте Time Machine в Finder.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "• Restoring will erase the selected destination disk."; ObjectID = "GZx-xV-3VY"; </Description>
+      <Position>GZx-xV-3VY.title</Position>
+      <TranslationSet>
+        <base loc="en">• Restoring will erase the selected destination disk.</base>
+        <tran loc="ru">• Восстановление приведет к стиранию выбранного диска назначения.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "• Use Migration Assistant to restore to a new computer."; ObjectID = "WnT-hv-Q6M"; </Description>
+      <Position>WnT-hv-Q6M.title</Position>
+      <TranslationSet>
+        <base loc="en">• Use Migration Assistant to restore to a new computer.</base>
+        <tran loc="ru">• Используйте Ассистент миграции для восстановления на новом компьютере.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "To restore your system from a Time Machine backup or local snapshot, !#x2028;click Continue and follow the instructions."; ObjectID = "Ncv-Fe-Cap"; </Description>
+      <Position>Ncv-Fe-Cap.title</Position>
+      <TranslationSet>
+        <base loc="en">To restore your system from a Time Machine backup or local snapshot, !#x2028;click Continue and follow the instructions.</base>
+        <tran loc="ru">Для восстановления системы из резервной или локальной моментальной копии Time Machine нажмите «Продолжить» и следуйте инструкциям.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/TMSRRestoreSuccessViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt; Do not localize &gt;&gt; "; ObjectID = "5Yx-wQ-Zqv"; </Description>
+      <Position>5Yx-wQ-Zqv.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt; Do not localize &gt;&gt; </base>
+        <tran loc="ru">&lt;&lt; Do not localize &gt;&gt; </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt; Do not localize &gt;&gt; "; ObjectID = "k98-KT-UDZ"; </Description>
+      <Position>k98-KT-UDZ.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt; Do not localize &gt;&gt; </base>
+        <tran loc="ru">&lt;&lt; Do not localize &gt;&gt; </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DO NOT LOC&gt;"; ObjectID = "jvz-I0-gTy"; </Description>
+      <Position>jvz-I0-gTy.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DO NOT LOC&gt;</base>
+        <tran loc="ru">&lt;DO NOT LOC&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>No suitable disks were found.</Position>
+      <TranslationSet>
+        <base loc="en">No suitable disks were found.</base>
+        <tran loc="ru">Подходящих дисков не найдено.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select the local snapshot you want to roll back to.</Position>
+      <TranslationSet>
+        <base loc="en">Select the local snapshot you want to roll back to.</base>
+        <tran loc="ru">Выберите локальную моментальную копию, которую хотите восстановить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>You can\\U2019t restore this backup because it was created by a different model of Mac.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t restore this backup because it was created by a different model of Mac.</base>
+        <tran loc="ru">Невозможно восстановить эту резервную копию, так как она была создана на другой модели Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Install macOS\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Install macOS…</base>
+        <tran loc="ru">Установка macOS…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Try Again</Position>
+      <TranslationSet>
+        <base loc="en">Try Again</base>
+        <tran loc="ru">Повторить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">UNKNOWN</base>
+        <tran loc="ru">НЕИЗВЕСТНЫЙ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>%d minutes</Position>
+      <TranslationSet>
+        <base loc="en">%d minutes</base>
+        <tran loc="ru">%d мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Automatically restarting in %@ seconds.</Position>
+      <TranslationSet>
+        <base loc="en">Automatically restarting in %@ seconds.</base>
+        <tran loc="ru">Автоматическая перезагрузка через %@ с.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>There is a problem with this backup and it can\\U2019t be restored.</Position>
+      <TranslationSet>
+        <base loc="en">There is a problem with this backup and it can’t be restored.</base>
+        <tran loc="ru">Возникла проблема с резервной копией. Копию не удается сохранить.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>An error occurred while finding the size of this backup. Click \\U201CGo Back\\U201D and select another backup, or restart your computer and try restoring from this backup again.</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while finding the size of this backup. Click “Go Back” and select another backup, or restart your computer and try restoring from this backup again.</base>
+        <tran loc="ru">Произошла ошибка при определении размера данной резервной копии. Нажмите «Назад» и выберите другую резервную копию или перезагрузите компьютер и повторите попытку восстановления из данной резервной копии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>If you stop restoring your system now, you will be unable to start up your computer using the restored system.</Position>
+      <TranslationSet>
+        <base loc="en">If you stop restoring your system now, you will be unable to start up your computer using the restored system.</base>
+        <tran loc="ru">Если Вы остановите процесс восстановления системы сейчас, Вы не сможете загрузить Ваш компьютер, используя восстановленную систему.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The system will be restored onto this disk.</Position>
+      <TranslationSet>
+        <base loc="en">The system will be restored onto this disk.</base>
+        <tran loc="ru">Система будет восстановлена на этом диске.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Quit</Position>
+      <TranslationSet>
+        <base loc="en">Quit</base>
+        <tran loc="ru">Завершить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Local Snapshot Date &amp; Time</Position>
+      <TranslationSet>
+        <base loc="en">Local Snapshot Date &amp; Time</base>
+        <tran loc="ru">Дата и время локальной моментальной копии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>My account on \\U201C%@\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">My account on “%@”</base>
+        <tran loc="ru">Моя учетная запись в «%@»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>An error occurred while restoring from the backup.</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while restoring from the backup.</base>
+        <tran loc="ru">Произошла ошибка при восстановлении с резервной копии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restoring</Position>
+      <TranslationSet>
+        <base loc="en">Restoring</base>
+        <tran loc="ru">Восстановление</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Use a reliable network connection while restoring.</Position>
+      <TranslationSet>
+        <base loc="en">Use a reliable network connection while restoring.</base>
+        <tran loc="ru">Используйте надежное сетевое подключение при восстановлении.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The backup disk was disconnected while restoring from the backup.</Position>
+      <TranslationSet>
+        <base loc="en">The backup disk was disconnected while restoring from the backup.</base>
+        <tran loc="ru">Резервный диск был отключен во время восстановления из резервной копии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Finishing restore\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Finishing restore…</base>
+        <tran loc="ru">Завершение восстановления…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The disk couldn\\U2019t be prepared for restoring files.</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be prepared for restoring files.</base>
+        <tran loc="ru">Не удалось подготовить диск для восстановления файлов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restore from Time Machine</Position>
+      <TranslationSet>
+        <base loc="en">Restore from Time Machine</base>
+        <tran loc="ru">Восстановление из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>This disk does not have enough space to restore your system.</Position>
+      <TranslationSet>
+        <base loc="en">This disk does not have enough space to restore your system.</base>
+        <tran loc="ru">На этом диске недостаточно места для восстановления системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Erase Disk</Position>
+      <TranslationSet>
+        <base loc="en">Erase Disk</base>
+        <tran loc="ru">Стереть диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>No backups were found.</Position>
+      <TranslationSet>
+        <base loc="en">No backups were found.</base>
+        <tran loc="ru">Резервные копии не найдены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Backup Date &amp; Time</Position>
+      <TranslationSet>
+        <base loc="en">Backup Date &amp; Time</base>
+        <tran loc="ru">Дата и время резервной копии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The disk \\U201C%@\\U201D will be erased. Are you sure you want to continue?</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%@” will be erased. Are you sure you want to continue?</base>
+        <tran loc="ru">Диск «%@» будет стерт. Вы действительно хотите продолжить?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>1 hour</Position>
+      <TranslationSet>
+        <base loc="en">1 hour</base>
+        <tran loc="ru">1 час</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>After the restore is complete, use Security &amp; Privacy preferences to turn on FileVault encryption.</Position>
+      <TranslationSet>
+        <base loc="en">After the restore is complete, use Security &amp; Privacy preferences to turn on FileVault encryption.</base>
+        <tran loc="ru">После завершения восстановления включите шифрование FileVault в настройках «Защита и безопасность».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>\\U201C%@\\U201D on \\U201C%@\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” on “%2$@”</base>
+        <tran loc="ru">«%1$@» на «%2$@»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Go Back</Position>
+      <TranslationSet>
+        <base loc="en">Go Back</base>
+        <tran loc="ru">Назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>You can\\U2019t restore this backup because this Mac does not support booting from APFS.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t restore this backup because this Mac does not support booting from APFS.</base>
+        <tran loc="ru">Восстановление из этой резервной копии невозможно, так как данный Mac не поддерживает загрузку с томов APFS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>FileVault encryption will be turned off for \\U201C%@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">FileVault encryption will be turned off for “%@”.</base>
+        <tran loc="ru">Шифрование FileVault будет отключено для «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>%d hours and %d minutes</Position>
+      <TranslationSet>
+        <base loc="en">%1$d hours and %2$d minutes</base>
+        <tran loc="ru">%1$d ч %2$d мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select the Time Machine backup you want to restore.\nOnly complete backups of macOS appear in the list.</Position>
+      <TranslationSet>
+        <base loc="en">Select the Time Machine backup you want to restore.\nOnly complete backups of macOS appear in the list.</base>
+        <tran loc="ru">Выберите резервную копию Time Machine, которую хотите восстановить.\nВ списке появятся только полные резервные копии macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Try erasing the disk with Disk Utility or choosing a different disk to restore to.</Position>
+      <TranslationSet>
+        <base loc="en">Try erasing the disk with Disk Utility or choosing a different disk to restore to.</base>
+        <tran loc="ru">Попробуйте стереть диск с помощью Дисковой утилиты или восстановить на другой диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restart</Position>
+      <TranslationSet>
+        <base loc="en">Restart</base>
+        <tran loc="ru">Перезагрузить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select a Restore Source</Position>
+      <TranslationSet>
+        <base loc="en">Select a Restore Source</base>
+        <tran loc="ru">Выбор источника для восстановления</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Automatically restarting in 1 second.</Position>
+      <TranslationSet>
+        <base loc="en">Automatically restarting in 1 second.</base>
+        <tran loc="ru">Автоматическая перезагрузка через 1 с.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Time remaining: %@</Position>
+      <TranslationSet>
+        <base loc="en">Time remaining: %@</base>
+        <tran loc="ru">Осталось: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>No Time Machine backups were found.</Position>
+      <TranslationSet>
+        <base loc="en">No Time Machine backups were found.</base>
+        <tran loc="ru">Резервные копии Time Machine не найдены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>less than a minute</Position>
+      <TranslationSet>
+        <base loc="en">less than a minute</base>
+        <tran loc="ru">меньше минуты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restoring files\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Restoring files…</base>
+        <tran loc="ru">Восстановление файлов…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Continue</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="ru">Продолжить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Try restoring from a different backup or reinstall macOS and then transfer your information from a Time Machine backup using Migration Assistant.</Position>
+      <TranslationSet>
+        <base loc="en">Try restoring from a different backup or reinstall macOS and then transfer your information from a Time Machine backup using Migration Assistant.</base>
+        <tran loc="ru">Попробуйте восстановить из другой резервной копии или переустановить macOS, а затем перенести свои данные из резервной копии Time Machine с помощью Ассистента миграции.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>An error occurred while preparing the disk \\U201C%@\\U201D.</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while preparing the disk “%@”.</base>
+        <tran loc="ru">При подготовке диска «%@» произошла ошибка.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Preparing to restore \\U201C%@\\U201D\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Preparing to restore “%@”…</base>
+        <tran loc="ru">Подготовка к восстановлению «%@»…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>You will lose all information currently on the disk. Make sure you have backed up any items you want to keep.</Position>
+      <TranslationSet>
+        <base loc="en">You will lose all information currently on the disk. Make sure you have backed up any items you want to keep.</base>
+        <tran loc="ru">Вся информация, находящаяся сейчас на диске, будет утрачена. Рекомендуется создать резервные копии всех нужных объектов.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>\\U201C%@\\U201D Restored</Position>
+      <TranslationSet>
+        <base loc="en">“%@” Restored</base>
+        <tran loc="ru">«%@» восстановлен</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>1 minute</Position>
+      <TranslationSet>
+        <base loc="en">1 minute</base>
+        <tran loc="ru">1 минута</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Stopping restore\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Stopping restore…</base>
+        <tran loc="ru">Остановка восстановления…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The password you entered for this backup is not correct.</Position>
+      <TranslationSet>
+        <base loc="en">The password you entered for this backup is not correct.</base>
+        <tran loc="ru">Введенный для этой резервной копии пароль неверен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Searching for Time Machine backups\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Searching for Time Machine backups…</base>
+        <tran loc="ru">Поиск резервных копий Time Machine…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The backup appears to be damaged and can\\U2019t be read.</Position>
+      <TranslationSet>
+        <base loc="en">The backup appears to be damaged and can’t be read.</base>
+        <tran loc="ru">Резервная копия повреждена и не может быть прочитана.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Are you sure you want to roll back \\U201C%@\\U201D to its state on %@?</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to roll back “%1$@” to its state on %2$@?</base>
+        <tran loc="ru">Вы действительно хотите вернуть «%1$@» в его состояние на дату %2$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restart to complete restore.</Position>
+      <TranslationSet>
+        <base loc="en">Restart to complete restore.</base>
+        <tran loc="ru">Перезагрузите, чтобы завершить восстановление.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Rolling back \\U201C%@\\U201D to its initial factory state.</Position>
+      <TranslationSet>
+        <base loc="en">Rolling back “%@” to its initial factory state.</base>
+        <tran loc="ru">Возврат заводских настроек «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Stop Restoring</Position>
+      <TranslationSet>
+        <base loc="en">Stop Restoring</base>
+        <tran loc="ru">Остановить восстановление</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>An error occurred while rolling back the local snapshot. The system may be in an inconsistent state.</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while rolling back the local snapshot. The system may be in an inconsistent state.</base>
+        <tran loc="ru">Произошла ошибка при откате локального снимка. Система может находиться в неустойчивом состоянии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select a Backup</Position>
+      <TranslationSet>
+        <base loc="en">Select a Backup</base>
+        <tran loc="ru">Выбрать резервную копию</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The files couldn\\U2019t be restored.</Position>
+      <TranslationSet>
+        <base loc="en">The files couldn’t be restored.</base>
+        <tran loc="ru">Не удалось восстановить файлы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select the disk where you want to restore your system. If you want to use an external disk, you can connect it now.</Position>
+      <TranslationSet>
+        <base loc="en">Select the disk where you want to restore your system. If you want to use an external disk, you can connect it now.</base>
+        <tran loc="ru">Выберите диск, на котором хотите восстановить систему. Если Вы хотите использовать внешний диск, подключите его сейчас.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Looking for macOS system backups\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Looking for macOS system backups…</base>
+        <tran loc="ru">Поиск резервных копий macOS…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The computer is restarting.</Position>
+      <TranslationSet>
+        <base loc="en">The computer is restarting.</base>
+        <tran loc="ru">Компьютер перезагружается.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>1 hour and %d minutes</Position>
+      <TranslationSet>
+        <base loc="en">1 hour and %d minutes</base>
+        <tran loc="ru">1 ч %d мин</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The URL is not valid.</Position>
+      <TranslationSet>
+        <base loc="en">The URL is not valid.</base>
+        <tran loc="ru">Недопустимый URL-адрес.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Calculating\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Calculating…</base>
+        <tran loc="ru">Вычисление…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Connect\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Connect…</base>
+        <tran loc="ru">Подключить…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Your system has been restored successfully.</Position>
+      <TranslationSet>
+        <base loc="en">Your system has been restored successfully.</base>
+        <tran loc="ru">Ваша система успешно восстановлена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>All changes made to the disk since then will be lost!</Position>
+      <TranslationSet>
+        <base loc="en">All changes made to the disk since then will be lost!</base>
+        <tran loc="ru">Все изменения настроек и данных на диске, внесенные после этого, будут утрачены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Searching for disks\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Searching for disks…</base>
+        <tran loc="ru">Поиск дисков…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restore</Position>
+      <TranslationSet>
+        <base loc="en">Restore</base>
+        <tran loc="ru">Восстановить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Time Machine is calculating the space needed to restore your system.  Depending on the size of your backup, this may take a while.</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine is calculating the space needed to restore your system.  Depending on the size of your backup, this may take a while.</base>
+        <tran loc="ru">Time Machine вычисляет свободное пространство, необходимое для восстановления системы. В зависимости от размера резервной копии процесс может занять некоторое время.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>A unexpected error occurred trying to open the backup. (Error %d)</Position>
+      <TranslationSet>
+        <base loc="en">A unexpected error occurred trying to open the backup. (Error %d)</base>
+        <tran loc="ru">Произошла неожиданная ошибка при попытке открыть резервную копию. (Ошибка %d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>It appears that this backup is already in use.  Make sure the backup is not currently mounted by another machine and try again.</Position>
+      <TranslationSet>
+        <base loc="en">It appears that this backup is already in use.  Make sure the backup is not currently mounted by another machine and try again.</base>
+        <tran loc="ru">Эта резервная копия уже используется. Убедитесь, что резервная копия не подключена в настоящий момент другим компьютером, и повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Choose Other Disk</Position>
+      <TranslationSet>
+        <base loc="en">Choose Other Disk</base>
+        <tran loc="ru">Выберите другой диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Initial Factory Configuration</Position>
+      <TranslationSet>
+        <base loc="en">Initial Factory Configuration</base>
+        <tran loc="ru">Заводская конфигурация</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Calculating space required to restore data\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Calculating space required to restore data…</base>
+        <tran loc="ru">Вычисление места, необходимого для восстановления данных…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Restored %@\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Restored %@…</base>
+        <tran loc="ru">Восстановлено %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The restore process is complete.</Position>
+      <TranslationSet>
+        <base loc="en">The restore process is complete.</base>
+        <tran loc="ru">Процесс восстановления завершен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Unlock\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Unlock…</base>
+        <tran loc="ru">Снять защиту…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>%d hours</Position>
+      <TranslationSet>
+        <base loc="en">%d hours</base>
+        <tran loc="ru">%d ч</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Rolling back \\U201C%@\\U201D to its state on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Rolling back “%1$@” to its state on %2$@.</base>
+        <tran loc="ru">Возврат «%1$@» в состояние на дату %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The backup cannot be opened.</Position>
+      <TranslationSet>
+        <base loc="en">The backup cannot be opened.</base>
+        <tran loc="ru">Не удается открыть резервную копию.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Success</Position>
+      <TranslationSet>
+        <base loc="en">Success</base>
+        <tran loc="ru">Успешное восстановление</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Choose Startup Disk\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Choose Startup Disk…</base>
+        <tran loc="ru">Загрузочный диск…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Your computer will restart using the restored system.</Position>
+      <TranslationSet>
+        <base loc="en">Your computer will restart using the restored system.</base>
+        <tran loc="ru">Компьютер будет перезагружен с использованием восстановленной системы.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>The system can\\U2019t be restored onto this disk because HFS systems can\\U2019t be restored to space sharing APFS volumes. Reinstall macOS on this disk and then use Migration Assistant to transfer data from your backup instead.</Position>
+      <TranslationSet>
+        <base loc="en">The system can’t be restored onto this disk because HFS systems can’t be restored to space sharing APFS volumes. Reinstall macOS on this disk and then use Migration Assistant to transfer data from your backup instead.</base>
+        <tran loc="ru">Систему невозможно восстановить на этом диске, так как системы формата HFS нельзя восстанавливать на томах APFS, совместно использующих пространство. Переустановите macOS на этом диске, а затем воспользуйтесь Ассистентом миграции для переноса данных из резервной копии.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>%@ on %@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ on %2$@</base>
+        <tran loc="ru">%1$@ на %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>You can\\U2019t restore this backup because this Mac does not support booting from HFS.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t restore this backup because this Mac does not support booting from HFS.</base>
+        <tran loc="ru">Восстановление из этой резервной копии невозможно, так как данный Mac не поддерживает загрузку с томов HFS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Keep the backup disk connected while restoring.</Position>
+      <TranslationSet>
+        <base loc="en">Keep the backup disk connected while restoring.</base>
+        <tran loc="ru">Оставить резервный диск подключенным во время восстановления.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>No macOS system backups were found.</Position>
+      <TranslationSet>
+        <base loc="en">No macOS system backups were found.</base>
+        <tran loc="ru">Резервные копии системы macOS не найдены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select a Destination</Position>
+      <TranslationSet>
+        <base loc="en">Select a Destination</base>
+        <tran loc="ru">Выбор места установки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>No macOS system local snapshots were found.</Position>
+      <TranslationSet>
+        <base loc="en">No macOS system local snapshots were found.</base>
+        <tran loc="ru">Не найдены локальные снимки системы macOS.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Are you sure you want to stop restoring your system?</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to stop restoring your system?</base>
+        <tran loc="ru">Вы действительно хотите остановить процесс восстановления системы?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>\\U201C%@\\U201D on disk \\U201C%@\\U201D</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” on disk “%2$@”</base>
+        <tran loc="ru">«%1$@» на диске «%2$@»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Are you sure you want to roll back \\U201C%@\\U201D to its initial factory state?</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to roll back “%@” to its initial factory state?</base>
+        <tran loc="ru">Вы действительно хотите вернуть заводские настройки для «%@»?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Choose Other Backup</Position>
+      <TranslationSet>
+        <base loc="en">Choose Other Backup</base>
+        <tran loc="ru">Выбрать другую копию</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Start Disk Utility\\U2026</Position>
+      <TranslationSet>
+        <base loc="en">Start Disk Utility…</base>
+        <tran loc="ru">Запустить Дисковую утилиту…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Local snapshots on %@</Position>
+      <TranslationSet>
+        <base loc="en">Local snapshots on %@</base>
+        <tran loc="ru">Локальные моментальные копии на %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No comment provided by engineer. </Description>
+      <Position>Select a Local Snapshot</Position>
+      <TranslationSet>
+        <base loc="en">Select a Local Snapshot</base>
+        <tran loc="ru">Выбор локальной моментальной копии</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/TMSRSelectDestinationViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Restore Destination Disk"; ObjectID = "r7z-Bt-v5N"; </Description>
+      <Position>r7z-Bt-v5N.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Restore Destination Disk</base>
+        <tran loc="ru">Диск назначения для восстановления</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Space Available"; ObjectID = "zrr-rn-nwv"; </Description>
+      <Position>zrr-rn-nwv.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Space Available</base>
+        <tran loc="ru">Свободное пространство</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Xd1-mn-eHf"; </Description>
+      <Position>Xd1-mn-eHf.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="ru">Текстовая ячейка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "dOT-OP-05n"; </Description>
+      <Position>dOT-OP-05n.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="ru">Текстовая ячейка</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Other Server..."; ObjectID = "87f-HC-3wz"; </Description>
+      <Position>87f-HC-3wz.title</Position>
+      <TranslationSet>
+        <base loc="en">Other Server...</base>
+        <tran loc="ru">Другой сервер…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Delete"; ObjectID = "202"; </Description>
+      <Position>202.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="ru">Удалить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Time Machine System Restore"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About Time Machine System Restore</base>
+        <tran loc="ru">О Восстановлении системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Time Machine System Restore"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Time Machine System Restore</base>
+        <tran loc="ru">Завершить Восстановление системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt; Pane Title"; ObjectID = "1AX-1l-H4b"; </Description>
+      <Position>1AX-1l-H4b.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt; Pane Title</base>
+        <tran loc="ru">&lt;DNL&gt; Pane Title</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter the address of a file server used for Time Machine backups:"; ObjectID = "F6r-Gh-KhN"; </Description>
+      <Position>F6r-Gh-KhN.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter the address of a file server used for Time Machine backups:</base>
+        <tran loc="ru">Введите адрес файлового сервера с резервной копией Time Machine:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "534"; </Description>
+      <Position>534.title</Position>
+      <TranslationSet>
+        <base loc="en">Find and Replace…</base>
+        <tran loc="ru">Найти и заменить…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "210"; </Description>
+      <Position>210.title</Position>
+      <TranslationSet>
+        <base loc="en">Jump to Selection</base>
+        <tran loc="ru">Перейти к выбранному</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Edit"; ObjectID = "205"; </Description>
+      <Position>205.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="ru">Правка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; </Description>
+      <Position>217.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="ru">Правка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "130"; </Description>
+      <Position>130.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="ru">Службы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; </Description>
+      <Position>131.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="ru">Службы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "7XP-kE-bTA"; </Description>
+      <Position>7XP-kE-bTA.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="ru">Показать все</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; </Description>
+      <Position>203.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="ru">Вставить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Continue"; ObjectID = "1us-79-0gx"; </Description>
+      <Position>1us-79-0gx.title</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="ru">Продолжить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "213"; </Description>
+      <Position>213.title</Position>
+      <TranslationSet>
+        <base loc="en">Find Previous</base>
+        <tran loc="ru">Найти ранее</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Time Machine System Restore"; ObjectID = "371"; </Description>
+      <Position>371.title</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine System Restore</base>
+        <tran loc="ru">Восстановление системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Time Machine System Restore"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine System Restore</base>
+        <tran loc="ru">Восстановление системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Time Machine System Restore"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Time Machine System Restore</base>
+        <tran loc="ru">Восстановление системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "221"; </Description>
+      <Position>221.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Selection for Find</base>
+        <tran loc="ru">Найти выбранное</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "smb://Server/ShareName"; ObjectID = "LBR-D3-HVi"; </Description>
+      <Position>LBR-D3-HVi.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">smb://Server/ShareName</base>
+        <tran loc="ru">smb://Server/ShareName</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; </Description>
+      <Position>207.title</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find Next"; ObjectID = "208"; </Description>
+      <Position>208.title</Position>
+      <TranslationSet>
+        <base loc="en">Find Next</base>
+        <tran loc="ru">Найти далее</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; </Description>
+      <Position>129.title</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="ru">Настройки…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "485"; </Description>
+      <Position>485.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste and Match Style</base>
+        <tran loc="ru">Вставить и согласовать стиль</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="ru">Скрыть остальные</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Redo"; ObjectID = "215"; </Description>
+      <Position>215.title</Position>
+      <TranslationSet>
+        <base loc="en">Redo</base>
+        <tran loc="ru">Повторить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Back"; ObjectID = "hEi-yP-XDC"; </Description>
+      <Position>hEi-yP-XDC.title</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="ru">Назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; </Description>
+      <Position>197.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="ru">Скопировать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find"; ObjectID = "218"; </Description>
+      <Position>218.title</Position>
+      <TranslationSet>
+        <base loc="en">Find</base>
+        <tran loc="ru">Поиск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Find"; ObjectID = "220"; </Description>
+      <Position>220.title</Position>
+      <TranslationSet>
+        <base loc="en">Find</base>
+        <tran loc="ru">Поиск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Log Window"; ObjectID = "beg-Oz-THM"; </Description>
+      <Position>beg-Oz-THM.title</Position>
+      <TranslationSet>
+        <base loc="en">Log Window</base>
+        <tran loc="ru">Окно журнала</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="ru">Окно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="ru">Окно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "X4l-Le-L9D"; </Description>
+      <Position>X4l-Le-L9D.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="ru">Окно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; </Description>
+      <Position>198.title</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="ru">Выбрать все</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; </Description>
+      <Position>199.title</Position>
+      <TranslationSet>
+        <base loc="en">Cut</base>
+        <tran loc="ru">Вырезать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Find…"; ObjectID = "209"; </Description>
+      <Position>209.title</Position>
+      <TranslationSet>
+        <base loc="en">Find…</base>
+        <tran loc="ru">Найти…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">AMainMenu</base>
+        <tran loc="ru">AMainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Connect"; ObjectID = "eSb-0b-lBq"; </Description>
+      <Position>eSb-0b-lBq.title</Position>
+      <TranslationSet>
+        <base loc="en">Connect</base>
+        <tran loc="ru">Подключить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Time Machine System Restore"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Time Machine System Restore</base>
+        <tran loc="ru">Скрыть Восстановление системы из Time Machine</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="ru">Все окна — на передний план</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TimeMachineSystemRestore/System/Installation/CDIS/Time Machine System Restore.app/Contents/Resources/en.lproj/TMSRSelectSourceViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Select the disk that contains the Time Machine backup or Time Machine local snapshot you want to restore. If you have an external disk, you can connect it now."; ObjectID = "zg0-3z-eh0"; </Description>
+      <Position>zg0-3z-eh0.title</Position>
+      <TranslationSet>
+        <base loc="en">Select the disk that contains the Time Machine backup or Time Machine local snapshot you want to restore. If you have an external disk, you can connect it now.</base>
+        <tran loc="ru">Выберите диск, содержащий резервную копию Time Machine или локальную моментальную копию Time Machine, которую Вы хотите восстановить. Если Вы используете внешний диск, подключите его сейчас.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Opening Time Machine backup…"; ObjectID = "5ac-gK-Xiq"; </Description>
+      <Position>5ac-gK-Xiq.title</Position>
+      <TranslationSet>
+        <base loc="en">Opening Time Machine backup…</base>
+        <tran loc="ru">Открытие резервной копии Time Machine…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Backups"; ObjectID = "nJk-dg-hmZ"; </Description>
+      <Position>nJk-dg-hmZ.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Backups</base>
+        <tran loc="ru">Резервные копии</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "onw-ZM-CKr"; </Description>
+      <Position>onw-ZM-CKr.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="ru">Окно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Rsc-pP-Omc"; </Description>
+      <Position>Rsc-pP-Omc.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="ru">Текстовая ячейка</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

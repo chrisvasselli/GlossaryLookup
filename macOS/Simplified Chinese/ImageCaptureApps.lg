@@ -1,0 +1,2992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>ImageCaptureApps</ProjName>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Automator/Download Pictures.action/Contents/Resources/en.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Camera Name:"; ObjectID = "100012"; </Description>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">Camera Name:</base>
+        <tran loc="zh-CN">相机名称：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "camera status"; ObjectID = "100017"; </Description>
+      <Position>100017.title</Position>
+      <TranslationSet>
+        <base loc="en">camera status</base>
+        <tran loc="zh-CN">相机状态</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "AMPathPopUpButton"; placeholder = "No Selection"; ObjectID = "100010"; </Description>
+      <Position>100010.placeholder</Position>
+      <TranslationSet>
+        <base loc="en">No Selection</base>
+        <tran loc="zh-CN">未选择</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Camera Status:"; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Camera Status:</base>
+        <tran loc="zh-CN">相机状态：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "camera name"; ObjectID = "100014"; </Description>
+      <Position>100014.title</Position>
+      <TranslationSet>
+        <base loc="en">camera name</base>
+        <tran loc="zh-CN">相机名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "500010"; </Description>
+      <Position>500010.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Download To:"; ObjectID = "100020"; </Description>
+      <Position>100020.title</Position>
+      <TranslationSet>
+        <base loc="en">Download To:</base>
+        <tran loc="zh-CN">下载到：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete pictures from camera after downloading"; ObjectID = "100022"; </Description>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete pictures from camera after downloading</base>
+        <tran loc="zh-CN">下载后从相机中删除图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "No supported cameras found"; ObjectID = "500024"; </Description>
+      <Position>500024.ibShadowedIsNilPlaceholder</Position>
+      <TranslationSet>
+        <base loc="en">No supported cameras found</base>
+        <tran loc="zh-CN">找不到支持的相机</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Applications/Image Capture.app/Contents/Resources/en.lproj/ScannerButtons.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Select the application to open when a scanner button is pressed."; ObjectID = "13"; </Description>
+      <Position>13.title</Position>
+      <TranslationSet>
+        <base loc="en">Select the application to open when a scanner button is pressed.</base>
+        <tran loc="zh-CN">请选择在按下扫描仪按钮时所打开的应用程序。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item 3"; ObjectID = "ixe-xI-dfZ"; </Description>
+      <Position>ixe-xI-dfZ.title</Position>
+      <TranslationSet>
+        <base loc="en">Item 3</base>
+        <tran loc="zh-CN">项目3</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "35"; </Description>
+      <Position>35.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item 1"; ObjectID = "acn-cj-1kz"; </Description>
+      <Position>acn-cj-1kz.title</Position>
+      <TranslationSet>
+        <base loc="en">Item 1</base>
+        <tran loc="zh-CN">项目1</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "MwO-zB-4HD"; </Description>
+      <Position>MwO-zB-4HD.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="zh-CN">标签</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "37"; </Description>
+      <Position>37.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "1"; </Description>
+      <Position>1.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">Window</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item 2"; ObjectID = "cla-Ci-TF5"; </Description>
+      <Position>cla-Ci-TF5.title</Position>
+      <TranslationSet>
+        <base loc="en">Item 2</base>
+        <tran loc="zh-CN">项目2</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Automator/Take Picture.action/Contents/Resources/en.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Camera Name:"; ObjectID = "100012"; </Description>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">Camera Name:</base>
+        <tran loc="zh-CN">相机名称：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "camera status"; ObjectID = "100017"; </Description>
+      <Position>100017.title</Position>
+      <TranslationSet>
+        <base loc="en">camera status</base>
+        <tran loc="zh-CN">相机状态</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Camera Status:"; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Camera Status:</base>
+        <tran loc="zh-CN">相机状态：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "camera name"; ObjectID = "100014"; </Description>
+      <Position>100014.title</Position>
+      <TranslationSet>
+        <base loc="en">camera name</base>
+        <tran loc="zh-CN">相机名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "AMPathPopUpButton"; placeholder = "No Selection No Selection No Selection No Selection No Selection No Selection No Selection No Selection"; ObjectID = "100010"; </Description>
+      <Position>100010.placeholder</Position>
+      <TranslationSet>
+        <base loc="en">No Selection No Selection No Selection No Selection No Selection No Selection No Selection No Selection</base>
+        <tran loc="zh-CN">No Selection No Selection No Selection No Selection No Selection No Selection No Selection No Selection</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete picture from camera after downloading"; ObjectID = "100022"; </Description>
+      <Position>100022.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete picture from camera after downloading</base>
+        <tran loc="zh-CN">下载后从相机中删除图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "500010"; </Description>
+      <Position>500010.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Download To:"; ObjectID = "100020"; </Description>
+      <Position>100020.title</Position>
+      <TranslationSet>
+        <base loc="en">Download To:</base>
+        <tran loc="zh-CN">下载到：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "No supported cameras found"; ObjectID = "500024"; </Description>
+      <Position>500024.ibShadowedIsNilPlaceholder</Position>
+      <TranslationSet>
+        <base loc="en">No supported cameras found</base>
+        <tran loc="zh-CN">找不到支持的相机</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Services/ImageCaptureService.app/Contents/Resources/en.lproj/ImportImageBrowser.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Select a camera or a scanner"; ObjectID = "1"; </Description>
+      <Position>1.title</Position>
+      <TranslationSet>
+        <base loc="en">Select a camera or a scanner</base>
+        <tran loc="zh-CN">选择相机或扫描仪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Select"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Select</base>
+        <tran loc="zh-CN">选择</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/AutoImporter.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Importing %d items"; ObjectID = "673"; </Description>
+      <Position>673.title</Position>
+      <TranslationSet>
+        <base loc="en">Importing %d items</base>
+        <tran loc="zh-CN">正在导入%d项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Delete"; ObjectID = "202"; </Description>
+      <Position>202.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-CN">删除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Spelling and Grammar"; ObjectID = "200"; </Description>
+      <Position>200.title</Position>
+      <TranslationSet>
+        <base loc="en">Spelling and Grammar</base>
+        <tran loc="zh-CN">拼写和语法</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "216"; </Description>
+      <Position>216.title</Position>
+      <TranslationSet>
+        <base loc="en">Spelling and Grammar</base>
+        <tran loc="zh-CN">拼写和语法</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Edit"; ObjectID = "205"; </Description>
+      <Position>205.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-CN">编辑</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; </Description>
+      <Position>217.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-CN">编辑</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Spelling…"; ObjectID = "204"; </Description>
+      <Position>204.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Spelling…</base>
+        <tran loc="zh-CN">显示拼写…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "130"; </Description>
+      <Position>130.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-CN">服务</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; </Description>
+      <Position>131.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-CN">服务</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-CN">全部显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; </Description>
+      <Position>203.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="zh-CN">粘贴</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "File"; ObjectID = "81"; </Description>
+      <Position>81.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "File"; ObjectID = "83"; </Description>
+      <Position>83.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; </Description>
+      <Position>73.title</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-CN">关闭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; </Description>
+      <Position>239.title</Position>
+      <TranslationSet>
+        <base loc="en">Zoom</base>
+        <tran loc="zh-CN">缩放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Check Spelling"; ObjectID = "201"; </Description>
+      <Position>201.title</Position>
+      <TranslationSet>
+        <base loc="en">Check Spelling</base>
+        <tran loc="zh-CN">检查拼写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide AutoImporter"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide AutoImporter</base>
+        <tran loc="zh-CN">隐藏AutoImporter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; </Description>
+      <Position>207.title</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="zh-CN">撤销</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; </Description>
+      <Position>129.title</Position>
+      <TranslationSet>
+        <base loc="en">Preferences…</base>
+        <tran loc="zh-CN">偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; </Description>
+      <Position>23.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="zh-CN">最小化</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "346"; </Description>
+      <Position>346.title</Position>
+      <TranslationSet>
+        <base loc="en">Check Grammar With Spelling</base>
+        <tran loc="zh-CN">检查拼写和语法</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-CN">隐藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Redo"; ObjectID = "215"; </Description>
+      <Position>215.title</Position>
+      <TranslationSet>
+        <base loc="en">Redo</base>
+        <tran loc="zh-CN">重做</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "NewApplication"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">NewApplication</base>
+        <tran loc="zh-CN">NewApplication</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "NewApplication"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">NewApplication</base>
+        <tran loc="zh-CN">NewApplication</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; </Description>
+      <Position>197.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="zh-CN">拷贝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "AutoImporter Help"; ObjectID = "111"; </Description>
+      <Position>111.title</Position>
+      <TranslationSet>
+        <base loc="en">AutoImporter Help</base>
+        <tran loc="zh-CN">AutoImporter帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Importing"; ObjectID = "371"; </Description>
+      <Position>371.title</Position>
+      <TranslationSet>
+        <base loc="en">Importing</base>
+        <tran loc="zh-CN">正在导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; </Description>
+      <Position>198.title</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="zh-CN">全选</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; </Description>
+      <Position>103.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-CN">帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Help"; ObjectID = "106"; </Description>
+      <Position>106.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-CN">帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; </Description>
+      <Position>199.title</Position>
+      <TranslationSet>
+        <base loc="en">Cut</base>
+        <tran loc="zh-CN">剪切</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About AutoImporter"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About AutoImporter</base>
+        <tran loc="zh-CN">关于AutoImporter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">AMainMenu</base>
+        <tran loc="zh-CN">AMainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "219"; </Description>
+      <Position>219.title</Position>
+      <TranslationSet>
+        <base loc="en">Check Spelling While Typing</base>
+        <tran loc="zh-CN">键入时检查拼写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit AutoImporter"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit AutoImporter</base>
+        <tran loc="zh-CN">退出AutoImporter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;&lt;&gt;&gt;&gt;"; ObjectID = "674"; </Description>
+      <Position>674.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;&lt;&gt;&gt;&gt;</base>
+        <tran loc="zh-CN">&lt;&lt;&lt;&gt;&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;&lt;&gt;&gt;&gt;"; ObjectID = "678"; </Description>
+      <Position>678.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;&lt;&gt;&gt;&gt;</base>
+        <tran loc="zh-CN">&lt;&lt;&lt;&gt;&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="zh-CN">前置全部窗口</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Services/ImageCaptureService.app/Contents/Resources/en.lproj/ServicesMenu.strings</Filepath>
+    <TextItem>
+      <Description> Services menu item to allow summarizing the selected text 
+"Image Capture/Import Image" = "Image Capture/Import Image";</Description>
+      <Position>Image Capture</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Import Image</Position>
+      <TranslationSet>
+        <base loc="en">Import Image</base>
+        <tran loc="zh-CN">导入图像</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Automatic Tasks/Build Web Page.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Build Web Page</base>
+        <tran loc="zh-CN">构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Automator/Take Picture.action/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Taking picture …</Position>
+      <TranslationSet>
+        <base loc="en">Taking picture …</base>
+        <tran loc="zh-CN">正在拍照…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Failed to download picture</Position>
+      <TranslationSet>
+        <base loc="en">Failed to download picture</base>
+        <tran loc="zh-CN">下载图片失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Opening camera …</Position>
+      <TranslationSet>
+        <base loc="en">Opening camera …</base>
+        <tran loc="zh-CN">正在打开相机…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Downloading picture …</Position>
+      <TranslationSet>
+        <base loc="en">Downloading picture …</base>
+        <tran loc="zh-CN">正在下载图片…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Ready</Position>
+      <TranslationSet>
+        <base loc="en">Ready</base>
+        <tran loc="zh-CN">准备就绪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>No supported cameras found</Position>
+      <TranslationSet>
+        <base loc="en">No supported cameras found</base>
+        <tran loc="zh-CN">找不到支持的相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Failed to open camera</Position>
+      <TranslationSet>
+        <base loc="en">Failed to open camera</base>
+        <tran loc="zh-CN">打开相机失败</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Automatic Tasks/MakePDF.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">MakePDF</base>
+        <tran loc="zh-CN">制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/ImportImage.bundle/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">ImportImage</base>
+        <tran loc="zh-CN">ImportImage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">ImportImage</base>
+        <tran loc="zh-CN">ImportImage</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2000-2018 Apple Inc.\nAll rights reserved.</base>
+        <tran loc="zh-CN">Copyright © 2000-2018 Apple Inc.\n保留一切权利。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Applications/Image Capture.app/Contents/Resources/en.lproj/TakePicture.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "8"; </Description>
+      <Position>8.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-CN">单选按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete after downloading"; ObjectID = "14"; </Description>
+      <Position>14.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete after downloading</base>
+        <tran loc="zh-CN">下载后删除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "seconds"; ObjectID = "20"; </Description>
+      <Position>20.title</Position>
+      <TranslationSet>
+        <base loc="en">seconds</base>
+        <tran loc="zh-CN">秒钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Manual (space or return key)"; ObjectID = "6"; </Description>
+      <Position>6.title</Position>
+      <TranslationSet>
+        <base loc="en">Manual (space or return key)</base>
+        <tran loc="zh-CN">手动（空格键或return键）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Start"; ObjectID = "173"; </Description>
+      <Position>173.title</Position>
+      <TranslationSet>
+        <base loc="en">Start</base>
+        <tran loc="zh-CN">开始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Start"; ObjectID = "87"; </Description>
+      <Position>87.title</Position>
+      <TranslationSet>
+        <base loc="en">Start</base>
+        <tran loc="zh-CN">开始</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "85"; </Description>
+      <Position>85.title</Position>
+      <TranslationSet>
+        <base loc="en">00:00:00</base>
+        <tran loc="zh-CN">00:00:00</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Take Picture"; ObjectID = "1"; </Description>
+      <Position>1.title</Position>
+      <TranslationSet>
+        <base loc="en">Take Picture</base>
+        <tran loc="zh-CN">拍照</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "hours"; ObjectID = "22"; </Description>
+      <Position>22.title</Position>
+      <TranslationSet>
+        <base loc="en">hours</base>
+        <tran loc="zh-CN">小时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "minutes"; ObjectID = "21"; </Description>
+      <Position>21.title</Position>
+      <TranslationSet>
+        <base loc="en">minutes</base>
+        <tran loc="zh-CN">分钟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Stop"; ObjectID = "175"; </Description>
+      <Position>175.title</Position>
+      <TranslationSet>
+        <base loc="en">Stop</base>
+        <tran loc="zh-CN">停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Stop"; ObjectID = "92"; </Description>
+      <Position>92.title</Position>
+      <TranslationSet>
+        <base loc="en">Stop</base>
+        <tran loc="zh-CN">停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Download new images to"; ObjectID = "12"; </Description>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Download new images to</base>
+        <tran loc="zh-CN">将新图像下载到</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Automatic every"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Automatic every</base>
+        <tran loc="zh-CN">自动，每隔</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "203"; </Description>
+      <Position>203.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-CN">Box</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "204"; </Description>
+      <Position>204.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-CN">Box</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Automatic Tasks/MakePDF.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Fit in 3x5</Position>
+      <TranslationSet>
+        <base loc="en">Fit in 3x5</base>
+        <tran loc="zh-CN">适合于3x5</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Crop to 3x5</Position>
+      <TranslationSet>
+        <base loc="en">Crop to 3x5</base>
+        <tran loc="zh-CN">裁剪至3x5</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> time separator</Description>
+      <Position>.</Position>
+      <TranslationSet>
+        <base loc="en">.</base>
+        <tran loc="zh-CN">.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Fit in 5x7</Position>
+      <TranslationSet>
+        <base loc="en">Fit in 5x7</base>
+        <tran loc="zh-CN">适合于5x7</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Crop to 5x7</Position>
+      <TranslationSet>
+        <base loc="en">Crop to 5x7</base>
+        <tran loc="zh-CN">裁剪至5x7</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>customMenuString</Position>
+      <TranslationSet>
+        <base loc="en">New Layout…</base>
+        <tran loc="zh-CN">新建版面…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>cancelString</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Fit in 8x10</Position>
+      <TranslationSet>
+        <base loc="en">Fit in 8x10</base>
+        <tran loc="zh-CN">适合于8x10</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ on %@ at %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ on %@ at %@</base>
+        <tran loc="zh-CN">%@%@ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Contact sheet</Position>
+      <TranslationSet>
+        <base loc="en">Contact sheet</base>
+        <tran loc="zh-CN">名片纸</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>writingString</Position>
+      <TranslationSet>
+        <base loc="en">Writing PDF file to disk…</base>
+        <tran loc="zh-CN">正在将PDF文件写入磁盘…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>addingString</Position>
+      <TranslationSet>
+        <base loc="en">Adding images to layout…</base>
+        <tran loc="zh-CN">正在将图像添加到版面上…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>customString</Position>
+      <TranslationSet>
+        <base loc="en">Custom</base>
+        <tran loc="zh-CN">自定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>customLayoutString</Position>
+      <TranslationSet>
+        <base loc="en">Untitled</base>
+        <tran loc="zh-CN">未命名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sheetmessage2String</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t save, no PDF file will be created.</base>
+        <tran loc="zh-CN">如果您不存储，则不会创建PDF文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Crop to 4x6</Position>
+      <TranslationSet>
+        <base loc="en">Crop to 4x6</base>
+        <tran loc="zh-CN">裁剪至4x6</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Fit in 4x6</Position>
+      <TranslationSet>
+        <base loc="en">Fit in 4x6</base>
+        <tran loc="zh-CN">适合于4x6</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>sheetmessage1String</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to save this layout to a PDF file before closing?</base>
+        <tran loc="zh-CN">关闭之前，您要将此版面存储成PDF文件吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>dontsaveString</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Save</base>
+        <tran loc="zh-CN">不存储</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Crop to 8x10</Position>
+      <TranslationSet>
+        <base loc="en">Crop to 8x10</base>
+        <tran loc="zh-CN">裁剪至8x10</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>customSizeString</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="zh-CN">其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>saveString</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="zh-CN">存储</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Applications/Image Capture.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kICNoCameraOrScannerConnected</Position>
+      <TranslationSet>
+        <base loc="en">No camera or scanner connected.</base>
+        <tran loc="zh-CN">未连接相机或扫描仪。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kICCameraLocalizedItems</Position>
+      <TranslationSet>
+        <base loc="en">items</base>
+        <tran loc="zh-CN">项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kICTakePictureNormal</Position>
+      <TranslationSet>
+        <base loc="en">Manual (space or return key)</base>
+        <tran loc="zh-CN">手动（空格键或return键）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kICCameraLocalizedItem</Position>
+      <TranslationSet>
+        <base loc="en">item</base>
+        <tran loc="zh-CN">项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kICNoCameraOrScannerSelected</Position>
+      <TranslationSet>
+        <base loc="en">No camera or scanner selected.</base>
+        <tran loc="zh-CN">未选择相机或扫描仪。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kICTakePictureFullKeyBoardAccess</Position>
+      <TranslationSet>
+        <base loc="en">Manual (return key)</base>
+        <tran loc="zh-CN">手动（return键）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kICLocalizedNoPostprocessApplication</Position>
+      <TranslationSet>
+        <base loc="en">No application</base>
+        <tran loc="zh-CN">无应用程序</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Services/ImageCaptureService.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">ImageCaptureService</base>
+        <tran loc="zh-CN">ImageCaptureService</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">ImageCaptureService</base>
+        <tran loc="zh-CN">ImageCaptureService</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2000-2018 Apple Inc.\nAll rights reserved.</base>
+        <tran loc="zh-CN">Copyright © 2000-2018 Apple Inc.\n保留一切权利。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Services/ImageCaptureService.app/Contents/Resources/en.lproj/ImportImageScanner.strings</Filepath>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; scanControlLabel = "Import"; ObjectID = "26"; </Description>
+      <Position>26.scanControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import</base>
+        <tran loc="zh-CN">导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Scanner"; ObjectID = "1"; </Description>
+      <Position>1.title</Position>
+      <TranslationSet>
+        <base loc="en">Scanner</base>
+        <tran loc="zh-CN">扫描仪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; overviewControlLabel = "Overview"; ObjectID = "26"; </Description>
+      <Position>26.overviewControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Overview</base>
+        <tran loc="zh-CN">概览</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; documentName = "Scan"; ObjectID = "26"; </Description>
+      <Position>26.documentName</Position>
+      <TranslationSet>
+        <base loc="en">Scan</base>
+        <tran loc="zh-CN">扫描</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/AutoImporter.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceDisconnectedWhileDownloading</Position>
+      <TranslationSet>
+        <base loc="en">Camera disconnected while importing</base>
+        <tran loc="zh-CN">导入过程中断开了与相机的连接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceDisconnectedWhileDeleting</Position>
+      <TranslationSet>
+        <base loc="en">Camera disconnected while deleting</base>
+        <tran loc="zh-CN">删除过程中断开了与相机的连接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> n of m - &lt;image name&gt; </Description>
+      <Position>kIKCameraDeviceImportProgressNew</Position>
+      <TranslationSet>
+        <base loc="en">%1 of %2 - %3  (%4/%5)</base>
+        <tran loc="zh-CN">%1/%2 - %3  (%4/%5)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceCouldNotDownloadAllItemsText2</Position>
+      <TranslationSet>
+        <base loc="en">An error occured while importing. %d items were not imported:\n</base>
+        <tran loc="zh-CN">导入时出错。%d项未被导入：\n</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceCouldNotDownloadAllItemsButton</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraLocalizedOK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKAutoDownloaderPrefsSequenceToken</Position>
+      <TranslationSet>
+        <base loc="en">sequence #</base>
+        <tran loc="zh-CN">序列号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceCouldNotDownloadAllItemsText</Position>
+      <TranslationSet>
+        <base loc="en">An error occured while importing. The item ‘%@’ was not imported.</base>
+        <tran loc="zh-CN">导入时出错。项目“%@”未被导入。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">AutoImporter</base>
+        <tran loc="zh-CN">AutoImporter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">AutoImporter</base>
+        <tran loc="zh-CN">AutoImporter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKAutoDownloaderPathPopupTooltipPathSeparator</Position>
+      <TranslationSet>
+        <base loc="en"> &gt; </base>
+        <tran loc="zh-CN"> &gt; </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceDisconnectedWhileDeletingText</Position>
+      <TranslationSet>
+        <base loc="en">The camera ‘%@’ was disconnected while deleting. Some items may not be deleted.</base>
+        <tran loc="zh-CN">删除过程中断开了与相机“%@”的连接。一些项目可能未被删除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_StatusText_DownloadingItem</Position>
+      <TranslationSet>
+        <base loc="en">Importing ‘%@’</base>
+        <tran loc="zh-CN">正在导入“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_FileSizeKBFormat</Position>
+      <TranslationSet>
+        <base loc="en">%.1f KB</base>
+        <tran loc="zh-CN">%.1f KB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKAutoDownloaderPrefsDateToken</Position>
+      <TranslationSet>
+        <base loc="en">date</base>
+        <tran loc="zh-CN">日期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_ApertureFormat</Position>
+      <TranslationSet>
+        <base loc="en">ƒ/%.1f</base>
+        <tran loc="zh-CN">ƒ/%.1f</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_Download</Position>
+      <TranslationSet>
+        <base loc="en">Import</base>
+        <tran loc="zh-CN">导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_DefaultPostProcessingApplication</Position>
+      <TranslationSet>
+        <base loc="en">/Applications/Preview.app</base>
+        <tran loc="zh-CN">/应用程序/预览.app</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceImportingTo</Position>
+      <TranslationSet>
+        <base loc="en">to ‘%@’</base>
+        <tran loc="zh-CN">到“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKAutoDownloaderPrefsCameraNameToken</Position>
+      <TranslationSet>
+        <base loc="en">camera name</base>
+        <tran loc="zh-CN">相机名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_FocalLengthFormat</Position>
+      <TranslationSet>
+        <base loc="en">%dmm</base>
+        <tran loc="zh-CN">%d毫米</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceDisconnectedWhileDownloadingText</Position>
+      <TranslationSet>
+        <base loc="en">The camera ‘%@’ was disconnected while importing. %d items were not imported.</base>
+        <tran loc="zh-CN">导入过程中断开了与相机“%@”的连接。%d项未被导入。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_FileSizeMBFormat</Position>
+      <TranslationSet>
+        <base loc="en">%.1f MB</base>
+        <tran loc="zh-CN">%.1f MB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceImportingFromTo</Position>
+      <TranslationSet>
+        <base loc="en">Importing from ‘%@’ to ‘%@’</base>
+        <tran loc="zh-CN">正在从“%@”导入到“%@”</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ----- IKCameraDeviceView ----- </Description>
+      <Position>kIKCameraDeviceView_DownloadAll</Position>
+      <TranslationSet>
+        <base loc="en">Import All</base>
+        <tran loc="zh-CN">全部导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_DefaultDownloadFolder</Position>
+      <TranslationSet>
+        <base loc="en">~/Pictures</base>
+        <tran loc="zh-CN">~/图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_StatusText_DownloadSelectedItems</Position>
+      <TranslationSet>
+        <base loc="en">Importing selected items</base>
+        <tran loc="zh-CN">正在导入所选项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_StatusText_DownloadAllItems</Position>
+      <TranslationSet>
+        <base loc="en">Importing all items</base>
+        <tran loc="zh-CN">正在导入所有项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKAutoDownloaderPrefsUserNameToken</Position>
+      <TranslationSet>
+        <base loc="en">user name</base>
+        <tran loc="zh-CN">用户名</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_FileSizeByteFormat</Position>
+      <TranslationSet>
+        <base loc="en">%d B</base>
+        <tran loc="zh-CN">%d B</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceImportingFrom</Position>
+      <TranslationSet>
+        <base loc="en">Importing from ‘%@’</base>
+        <tran loc="zh-CN">正在从“%@”导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_FileSizeGBFormat</Position>
+      <TranslationSet>
+        <base loc="en">%.1f GB</base>
+        <tran loc="zh-CN">%.1f GB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceView_NoPostProcessingApplication</Position>
+      <TranslationSet>
+        <base loc="en">No Application</base>
+        <tran loc="zh-CN">无应用程序</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDeviceCouldNotDownloadAllItems</Position>
+      <TranslationSet>
+        <base loc="en">Import error.</base>
+        <tran loc="zh-CN">导入错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2000-2018 Apple Inc.\nAll rights reserved.</base>
+        <tran loc="zh-CN">Copyright © 2000-2018 Apple Inc.\n保留一切权利。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>kIKCameraDevicePreparingImport</Position>
+      <TranslationSet>
+        <base loc="en">Preparing import from ‘%@’…</base>
+        <tran loc="zh-CN">正在准备从“%@”导入…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Applications/Image Capture.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Delete"; ObjectID = "202"; </Description>
+      <Position>202.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-CN">删除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "No camera or scanner connected."; ObjectID = "561"; </Description>
+      <Position>561.title</Position>
+      <TranslationSet>
+        <base loc="en">No camera or scanner connected.</base>
+        <tran loc="zh-CN">未连接相机或扫描仪。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Scan Results"; ObjectID = "598"; </Description>
+      <Position>598.title</Position>
+      <TranslationSet>
+        <base loc="en">Scan Results</base>
+        <tran loc="zh-CN">扫描结果</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "NoDevice"; ObjectID = "452"; </Description>
+      <Position>452.label</Position>
+      <TranslationSet>
+        <base loc="en">NoDevice</base>
+        <tran loc="zh-CN">无设备</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "Camera"; ObjectID = "453"; </Description>
+      <Position>453.label</Position>
+      <TranslationSet>
+        <base loc="en">Camera</base>
+        <tran loc="zh-CN">相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Edit"; ObjectID = "205"; </Description>
+      <Position>205.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-CN">编辑</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; </Description>
+      <Position>217.title</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="zh-CN">编辑</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "130"; </Description>
+      <Position>130.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-CN">服务</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; </Description>
+      <Position>131.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-CN">服务</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-CN">全部显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; </Description>
+      <Position>203.title</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="zh-CN">粘贴</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Take Picture…"; ObjectID = "594"; </Description>
+      <Position>594.title</Position>
+      <TranslationSet>
+        <base loc="en">Take Picture…</base>
+        <tran loc="zh-CN">拍照…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "File"; ObjectID = "81"; </Description>
+      <Position>81.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "File"; ObjectID = "83"; </Description>
+      <Position>83.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Scanner Buttons…"; ObjectID = "579"; </Description>
+      <Position>579.title</Position>
+      <TranslationSet>
+        <base loc="en">Scanner Buttons…</base>
+        <tran loc="zh-CN">扫描仪按钮…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Troubleshooting..."; ObjectID = "Uft-s6-SOc"; </Description>
+      <Position>Uft-s6-SOc.title</Position>
+      <TranslationSet>
+        <base loc="en">Troubleshooting...</base>
+        <tran loc="zh-CN">故障诊断…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; </Description>
+      <Position>73.title</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-CN">关闭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; </Description>
+      <Position>239.title</Position>
+      <TranslationSet>
+        <base loc="en">Zoom</base>
+        <tran loc="zh-CN">缩放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKCameraDeviceView"; downloadSelectedControlLabel = "Import"; ObjectID = "459"; </Description>
+      <Position>459.downloadSelectedControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import</base>
+        <tran loc="zh-CN">导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; </Description>
+      <Position>207.title</Position>
+      <TranslationSet>
+        <base loc="en">Undo</base>
+        <tran loc="zh-CN">撤销</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; </Description>
+      <Position>23.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="zh-CN">最小化</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-CN">隐藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Image Capture Help"; ObjectID = "111"; </Description>
+      <Position>111.title</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture Help</base>
+        <tran loc="zh-CN">图像捕捉帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Redo"; ObjectID = "215"; </Description>
+      <Position>215.title</Position>
+      <TranslationSet>
+        <base loc="en">Redo</base>
+        <tran loc="zh-CN">重做</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Reset TWAIN devices…"; ObjectID = "weA-m8-RcQ"; </Description>
+      <Position>weA-m8-RcQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset TWAIN devices…</base>
+        <tran loc="zh-CN">将TWAIN设备复位…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Share Camera"; ObjectID = "583"; </Description>
+      <Position>583.title</Position>
+      <TranslationSet>
+        <base loc="en">Share Camera</base>
+        <tran loc="zh-CN">共享相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Image Capture"; ObjectID = "371"; </Description>
+      <Position>371.title</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Image Capture"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Image Capture"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Image Capture"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Image Capture</base>
+        <tran loc="zh-CN">退出图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; </Description>
+      <Position>197.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="zh-CN">拷贝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Troubleshooting"; ObjectID = "97p-u3-JMW"; </Description>
+      <Position>97p-u3-JMW.title</Position>
+      <TranslationSet>
+        <base loc="en">Troubleshooting</base>
+        <tran loc="zh-CN">故障诊断</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Image Capture"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Image Capture</base>
+        <tran loc="zh-CN">隐藏图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "Scanner"; ObjectID = "457"; </Description>
+      <Position>457.label</Position>
+      <TranslationSet>
+        <base loc="en">Scanner</base>
+        <tran loc="zh-CN">扫描仪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKCameraDeviceView"; downloadAllControlLabel = "Import All"; ObjectID = "459"; </Description>
+      <Position>459.downloadAllControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import All</base>
+        <tran loc="zh-CN">全部导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; overviewControlLabel = "Overview"; ObjectID = "460"; </Description>
+      <Position>460.overviewControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Overview</base>
+        <tran loc="zh-CN">概览</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; </Description>
+      <Position>198.title</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="zh-CN">全选</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; </Description>
+      <Position>103.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-CN">帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Help"; ObjectID = "106"; </Description>
+      <Position>106.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-CN">帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; </Description>
+      <Position>199.title</Position>
+      <TranslationSet>
+        <base loc="en">Cut</base>
+        <tran loc="zh-CN">剪切</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">AMainMenu</base>
+        <tran loc="zh-CN">AMainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; documentName = "Scan"; ObjectID = "460"; </Description>
+      <Position>460.documentName</Position>
+      <TranslationSet>
+        <base loc="en">Scan</base>
+        <tran loc="zh-CN">扫描</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; scanControlLabel = "Scan"; ObjectID = "460"; </Description>
+      <Position>460.scanControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Scan</base>
+        <tran loc="zh-CN">扫描</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Image Capture"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About Image Capture</base>
+        <tran loc="zh-CN">关于图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="zh-CN">前置全部窗口</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Automator/Download Pictures.action/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Download</Position>
+      <TranslationSet>
+        <base loc="en">Download</base>
+        <tran loc="zh-CN">下载</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photo</Position>
+      <TranslationSet>
+        <base loc="en">Photo</base>
+        <tran loc="zh-CN">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMCategory localized strings  
+  e.g. "Text" = "Text";  </Description>
+      <Position>AMCategoryPhotos</Position>
+      <TranslationSet>
+        <base loc="en">AMCategoryPhotos</base>
+        <tran loc="zh-CN">AMCategoryPhotos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2004-2015 Apple Inc. All rights reserved.</base>
+        <tran loc="zh-CN">Copyright © 2004-2015 Apple Inc. 保留一切权利。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMDefaultParameters localized values  
+  e.g. myDefaultIntegerParameter = 0;  
+  e.g. myDefaultStringParameter = "Default String Value";  
+  AMDescription localized strings  </Description>
+      <Position>AMDNote</Position>
+      <TranslationSet>
+        <base loc="en">Any camera that is recognized by Image Capture or iPhoto will work with this action.</base>
+        <tran loc="zh-CN">任何可以被“图像捕捉”或iPhoto识别的相机都可以进行此操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDResult</Position>
+      <TranslationSet>
+        <base loc="en">One or more image files.</base>
+        <tran loc="zh-CN">一个或多个图像文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Image</Position>
+      <TranslationSet>
+        <base loc="en">Image</base>
+        <tran loc="zh-CN">图像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMKeyword localized strings  
+  e.g. "Filter" = "Filter";  </Description>
+      <Position>Camera</Position>
+      <TranslationSet>
+        <base loc="en">Camera</base>
+        <tran loc="zh-CN">相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDSummary</Position>
+      <TranslationSet>
+        <base loc="en">This action will download all images from a camera to the designated folder.</base>
+        <tran loc="zh-CN">此操作会将相机中的所有图像下载到所指定的文件夹。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMName</Position>
+      <TranslationSet>
+        <base loc="en">Download Pictures</base>
+        <tran loc="zh-CN">下载图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Download Pictures</base>
+        <tran loc="zh-CN">下载图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMApplication localized strings  
+  e.g. "TextEdit" = "TextEdit";  </Description>
+      <Position>Image Capture</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Pictures</Position>
+      <TranslationSet>
+        <base loc="en">Pictures</base>
+        <tran loc="zh-CN">图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDRequires</Position>
+      <TranslationSet>
+        <base loc="en">A digital camera or card reader connected to your computer.</base>
+        <tran loc="zh-CN">数码相机或读卡器已连接在您的电脑上。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Picture</Position>
+      <TranslationSet>
+        <base loc="en">Picture</base>
+        <tran loc="zh-CN">图片</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Automatic Tasks/MakePDF.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Open..."; ObjectID = "72"; </Description>
+      <Position>72.title</Position>
+      <TranslationSet>
+        <base loc="en">Open...</base>
+        <tran loc="zh-CN">打开…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Crop images to picture size"; ObjectID = "359"; </Description>
+      <Position>359.title</Position>
+      <TranslationSet>
+        <base loc="en">Crop images to picture size</base>
+        <tran loc="zh-CN">将图像裁剪到图片大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "MakePDF"; ObjectID = "324"; </Description>
+      <Position>324.title</Position>
+      <TranslationSet>
+        <base loc="en">MakePDF</base>
+        <tran loc="zh-CN">制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "MakePDF"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">MakePDF</base>
+        <tran loc="zh-CN">制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "MakePDF"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">MakePDF</base>
+        <tran loc="zh-CN">制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "1000"; ObjectID = "100348"; </Description>
+      <Position>100348.title</Position>
+      <TranslationSet>
+        <base loc="en">1000</base>
+        <tran loc="zh-CN">1000</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit MakePDF"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit MakePDF</base>
+        <tran loc="zh-CN">退出制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "100"; ObjectID = "100374"; </Description>
+      <Position>100374.title</Position>
+      <TranslationSet>
+        <base loc="en">100</base>
+        <tran loc="zh-CN">100</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100357"; </Description>
+      <Position>100357.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-CN">单选按钮</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Height in pixels:"; ObjectID = "100363"; </Description>
+      <Position>100363.title</Position>
+      <TranslationSet>
+        <base loc="en">Height in pixels:</base>
+        <tran loc="zh-CN">像素高度：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Height in pixels:"; ObjectID = "100373"; </Description>
+      <Position>100373.title</Position>
+      <TranslationSet>
+        <base loc="en">Height in pixels:</base>
+        <tran loc="zh-CN">像素高度：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Save Layout"; ObjectID = "100376"; </Description>
+      <Position>100376.title</Position>
+      <TranslationSet>
+        <base loc="en">Save Layout</base>
+        <tran loc="zh-CN">存储版面</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "600"; ObjectID = "100347"; </Description>
+      <Position>100347.title</Position>
+      <TranslationSet>
+        <base loc="en">600</base>
+        <tran loc="zh-CN">600</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Print..."; ObjectID = "78"; </Description>
+      <Position>78.title</Position>
+      <TranslationSet>
+        <base loc="en">Print...</base>
+        <tran loc="zh-CN">打印…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-CN">全部显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Picture Size:"; ObjectID = "100365"; </Description>
+      <Position>100365.title</Position>
+      <TranslationSet>
+        <base loc="en">Picture Size:</base>
+        <tran loc="zh-CN">图片大小：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "File"; ObjectID = "81"; </Description>
+      <Position>81.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "File"; ObjectID = "83"; </Description>
+      <Position>83.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; </Description>
+      <Position>73.title</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-CN">关闭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Layout"; ObjectID = "331"; </Description>
+      <Position>331.title</Position>
+      <TranslationSet>
+        <base loc="en">Layout</base>
+        <tran loc="zh-CN">版面</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Layout"; ObjectID = "332"; </Description>
+      <Position>332.title</Position>
+      <TranslationSet>
+        <base loc="en">Layout</base>
+        <tran loc="zh-CN">版面</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; </Description>
+      <Position>23.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="zh-CN">最小化</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Adding images to layout"; ObjectID = "100322"; </Description>
+      <Position>100322.title</Position>
+      <TranslationSet>
+        <base loc="en">Adding images to layout</base>
+        <tran loc="zh-CN">正在将图像添加到版面上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-CN">隐藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About MakePDF"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About MakePDF</base>
+        <tran loc="zh-CN">关于制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item1"; ObjectID = "355"; </Description>
+      <Position>355.title</Position>
+      <TranslationSet>
+        <base loc="en">Item1</base>
+        <tran loc="zh-CN">Item1</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Item1"; ObjectID = "369"; </Description>
+      <Position>369.title</Position>
+      <TranslationSet>
+        <base loc="en">Item1</base>
+        <tran loc="zh-CN">Item1</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "150"; ObjectID = "100372"; </Description>
+      <Position>100372.title</Position>
+      <TranslationSet>
+        <base loc="en">150</base>
+        <tran loc="zh-CN">150</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Custom"; ObjectID = "397"; </Description>
+      <Position>397.title</Position>
+      <TranslationSet>
+        <base loc="en">Custom</base>
+        <tran loc="zh-CN">自定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "someimag.JPG"; ObjectID = "100323"; </Description>
+      <Position>100323.title</Position>
+      <TranslationSet>
+        <base loc="en">someimag.JPG</base>
+        <tran loc="zh-CN">someimag.JPG</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">MainMenu</base>
+        <tran loc="zh-CN">MainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "353"; </Description>
+      <Position>353.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "367"; </Description>
+      <Position>367.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "299"; </Description>
+      <Position>299.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-CN">Window</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "77"; </Description>
+      <Position>77.title</Position>
+      <TranslationSet>
+        <base loc="en">Page Setup...</base>
+        <tran loc="zh-CN">页面设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide MakePDF"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide MakePDF</base>
+        <tran loc="zh-CN">隐藏制作PDF</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Layout Settings"; ObjectID = "346"; </Description>
+      <Position>346.title</Position>
+      <TranslationSet>
+        <base loc="en">Layout Settings</base>
+        <tran loc="zh-CN">版面设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Fit images within picture size"; ObjectID = "358"; </Description>
+      <Position>358.title</Position>
+      <TranslationSet>
+        <base loc="en">Fit images within picture size</base>
+        <tran loc="zh-CN">使图像适合图片大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Paper Size:  "; ObjectID = "100361"; </Description>
+      <Position>100361.title</Position>
+      <TranslationSet>
+        <base loc="en">Paper Size:  </base>
+        <tran loc="zh-CN">纸张大小：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="zh-CN">前置全部窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Width in pixels:"; ObjectID = "100362"; </Description>
+      <Position>100362.title</Position>
+      <TranslationSet>
+        <base loc="en">Width in pixels:</base>
+        <tran loc="zh-CN">像素宽度：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Width in pixels:"; ObjectID = "100371"; </Description>
+      <Position>100371.title</Position>
+      <TranslationSet>
+        <base loc="en">Width in pixels:</base>
+        <tran loc="zh-CN">像素宽度：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Save"; ObjectID = "75"; </Description>
+      <Position>75.title</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="zh-CN">存储</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Services/ImageCaptureService.app/Contents/Resources/en.lproj/ImportImageCamera.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Camera"; ObjectID = "26"; </Description>
+      <Position>26.title</Position>
+      <TranslationSet>
+        <base loc="en">Camera</base>
+        <tran loc="zh-CN">相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKCameraDeviceView"; downloadSelectedControlLabel = "Import"; ObjectID = "28"; </Description>
+      <Position>28.downloadSelectedControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import</base>
+        <tran loc="zh-CN">导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKCameraDeviceView"; downloadAllControlLabel = "Import All"; ObjectID = "28"; </Description>
+      <Position>28.downloadAllControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import All</base>
+        <tran loc="zh-CN">全部导入</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/ImportImage.bundle/Contents/Resources/en.lproj/ImportImageCamera.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Camera"; ObjectID = "26"; </Description>
+      <Position>26.title</Position>
+      <TranslationSet>
+        <base loc="en">Camera</base>
+        <tran loc="zh-CN">相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKCameraDeviceView"; downloadSelectedControlLabel = "Import"; ObjectID = "28"; </Description>
+      <Position>28.downloadSelectedControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import</base>
+        <tran loc="zh-CN">导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKCameraDeviceView"; downloadAllControlLabel = "Import All"; ObjectID = "28"; </Description>
+      <Position>28.downloadAllControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import All</base>
+        <tran loc="zh-CN">全部导入</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/AutoImporter.app/Contents/Resources/en.lproj/Preferences.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Import folder:"; ObjectID = "67"; </Description>
+      <Position>67.title</Position>
+      <TranslationSet>
+        <base loc="en">Import folder:</base>
+        <tran loc="zh-CN">导入文件夹：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "For each import create a subfolder named:"; ObjectID = "44"; </Description>
+      <Position>44.title</Position>
+      <TranslationSet>
+        <base loc="en">For each import create a subfolder named:</base>
+        <tran loc="zh-CN">为每次导入都创建一个子文件夹，名称为：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "AutoImporter Preferences"; ObjectID = "3"; </Description>
+      <Position>3.title</Position>
+      <TranslationSet>
+        <base loc="en">AutoImporter Preferences</base>
+        <tran loc="zh-CN">AutoImporter偏好设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete items from camera after successful import"; ObjectID = "46"; </Description>
+      <Position>46.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete items from camera after successful import</base>
+        <tran loc="zh-CN">导入成功后从相机中删除项目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTokenFieldCell"; title = "sequence #"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">sequence #</base>
+        <tran loc="zh-CN">序列号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "All cameras"; ObjectID = "66"; </Description>
+      <Position>66.title</Position>
+      <TranslationSet>
+        <base loc="en">All cameras</base>
+        <tran loc="zh-CN">所有相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTokenFieldCell"; title = "date"; ObjectID = "51"; </Description>
+      <Position>51.title</Position>
+      <TranslationSet>
+        <base loc="en">date</base>
+        <tran loc="zh-CN">日期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTokenFieldCell"; title = "camera name"; ObjectID = "53"; </Description>
+      <Position>53.title</Position>
+      <TranslationSet>
+        <base loc="en">camera name</base>
+        <tran loc="zh-CN">相机名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "65"; </Description>
+      <Position>65.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTokenFieldCell"; title = "user name"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">user name</base>
+        <tran loc="zh-CN">用户名</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/ImportImage.bundle/Contents/Resources/en.lproj/ImportImageBrowser.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Select a camera or a scanner"; ObjectID = "1"; </Description>
+      <Position>1.title</Position>
+      <TranslationSet>
+        <base loc="en">Select a camera or a scanner</base>
+        <tran loc="zh-CN">选择相机或扫描仪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Select"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Select</base>
+        <tran loc="zh-CN">选择</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Automatic Tasks/Build Web Page.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Show image names"; ObjectID = "100326"; </Description>
+      <Position>100326.title</Position>
+      <TranslationSet>
+        <base loc="en">Show image names</base>
+        <tran loc="zh-CN">显示图像名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Open..."; ObjectID = "72"; </Description>
+      <Position>72.title</Position>
+      <TranslationSet>
+        <base loc="en">Open...</base>
+        <tran loc="zh-CN">打开…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Build Web Page"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Build Web Page</base>
+        <tran loc="zh-CN">退出构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Build Web Page"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About Build Web Page</base>
+        <tran loc="zh-CN">关于构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "200"; ObjectID = "100340"; </Description>
+      <Position>100340.title</Position>
+      <TranslationSet>
+        <base loc="en">200</base>
+        <tran loc="zh-CN">200</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Build Web Page"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Build Web Page</base>
+        <tran loc="zh-CN">隐藏构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Build Web Page Help"; ObjectID = "111"; </Description>
+      <Position>111.title</Position>
+      <TranslationSet>
+        <base loc="en">Build Web Page Help</base>
+        <tran loc="zh-CN">构建网页帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Background"; ObjectID = "100328"; </Description>
+      <Position>100328.title</Position>
+      <TranslationSet>
+        <base loc="en">Background</base>
+        <tran loc="zh-CN">背景</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Build Web Page"; ObjectID = "299"; </Description>
+      <Position>299.title</Position>
+      <TranslationSet>
+        <base loc="en">Build Web Page</base>
+        <tran loc="zh-CN">构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Build Web Page"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Build Web Page</base>
+        <tran loc="zh-CN">构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Build Web Page"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Build Web Page</base>
+        <tran loc="zh-CN">构建网页</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Image sizes"; ObjectID = "Ct8-4q-D0R"; </Description>
+      <Position>Ct8-4q-D0R.title</Position>
+      <TranslationSet>
+        <base loc="en">Image sizes</base>
+        <tran loc="zh-CN">图像大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Image names"; ObjectID = "100329"; </Description>
+      <Position>100329.title</Position>
+      <TranslationSet>
+        <base loc="en">Image names</base>
+        <tran loc="zh-CN">图像名称</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Preferences..."; ObjectID = "129"; </Description>
+      <Position>129.title</Position>
+      <TranslationSet>
+        <base loc="en">Preferences...</base>
+        <tran loc="zh-CN">偏好设置…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-CN">全部显示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "File"; ObjectID = "81"; </Description>
+      <Position>81.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "File"; ObjectID = "83"; </Description>
+      <Position>83.title</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="zh-CN">文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-CN">隐藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Large image"; ObjectID = "100343"; </Description>
+      <Position>100343.title</Position>
+      <TranslationSet>
+        <base loc="en">Large image</base>
+        <tran loc="zh-CN">大图像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Small image"; ObjectID = "100342"; </Description>
+      <Position>100342.title</Position>
+      <TranslationSet>
+        <base loc="en">Small image</base>
+        <tran loc="zh-CN">小图像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "someimag.JPG"; ObjectID = "100307"; </Description>
+      <Position>100307.title</Position>
+      <TranslationSet>
+        <base loc="en">someimag.JPG</base>
+        <tran loc="zh-CN">someimag.JPG</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "800"; ObjectID = "100341"; </Description>
+      <Position>100341.title</Position>
+      <TranslationSet>
+        <base loc="en">800</base>
+        <tran loc="zh-CN">800</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">MainMenu</base>
+        <tran loc="zh-CN">MainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Adding images to web page"; ObjectID = "100304"; </Description>
+      <Position>100304.title</Position>
+      <TranslationSet>
+        <base loc="en">Adding images to web page</base>
+        <tran loc="zh-CN">将图像添加到网页上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; </Description>
+      <Position>103.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-CN">帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Help"; ObjectID = "106"; </Description>
+      <Position>106.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-CN">帮助</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Build Web Page Preferences"; ObjectID = "320"; </Description>
+      <Position>320.title</Position>
+      <TranslationSet>
+        <base loc="en">Build Web Page Preferences</base>
+        <tran loc="zh-CN">构建网页偏好设置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Page colors"; ObjectID = "8j6-7G-oaz"; </Description>
+      <Position>8j6-7G-oaz.title</Position>
+      <TranslationSet>
+        <base loc="en">Page colors</base>
+        <tran loc="zh-CN">页面颜色</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Automator/Take Picture.action/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>AMDResult</Position>
+      <TranslationSet>
+        <base loc="en">An image file.</base>
+        <tran loc="zh-CN">一个图像文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photo</Position>
+      <TranslationSet>
+        <base loc="en">Photo</base>
+        <tran loc="zh-CN">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMCategory localized strings  
+  e.g. "Text" = "Text";  </Description>
+      <Position>AMCategoryPhotos</Position>
+      <TranslationSet>
+        <base loc="en">AMCategoryPhotos</base>
+        <tran loc="zh-CN">AMCategoryPhotos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2004-2015 Apple Inc. All rights reserved.</base>
+        <tran loc="zh-CN">Copyright © 2004-2015 Apple Inc. 保留一切权利。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Image</Position>
+      <TranslationSet>
+        <base loc="en">Image</base>
+        <tran loc="zh-CN">图像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMKeyword localized strings  
+  e.g. "Filter" = "Filter";  </Description>
+      <Position>Camera</Position>
+      <TranslationSet>
+        <base loc="en">Camera</base>
+        <tran loc="zh-CN">相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDRequires</Position>
+      <TranslationSet>
+        <base loc="en">A digital camera connected to your computer.</base>
+        <tran loc="zh-CN">数码相机已经连接在您的电脑上。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>AMName</Position>
+      <TranslationSet>
+        <base loc="en">Take Picture</base>
+        <tran loc="zh-CN">拍照</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Take Picture</base>
+        <tran loc="zh-CN">拍照</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMApplication localized strings  
+  e.g. "TextEdit" = "TextEdit";  </Description>
+      <Position>Image Capture</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Picture</Position>
+      <TranslationSet>
+        <base loc="en">Picture</base>
+        <tran loc="zh-CN">图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Take</Position>
+      <TranslationSet>
+        <base loc="en">Take</base>
+        <tran loc="zh-CN">拍照</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDSummary</Position>
+      <TranslationSet>
+        <base loc="en">This action will tell a camera to take a picture, then download the image to the designated folder.</base>
+        <tran loc="zh-CN">此操作将命令相机拍照，然后将图像下载到所指定的文件夹。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>  AMDefaultParameters localized values  
+  e.g. myDefaultIntegerParameter = 0;  
+  e.g. myDefaultStringParameter = "Default String Value";  
+  AMDescription localized strings  </Description>
+      <Position>AMDNote</Position>
+      <TranslationSet>
+        <base loc="en">Not all cameras support this feature, connect your camera now to check its status.  If your camera has a setting for configuring its USB connection, choose PTP.</base>
+        <tran loc="zh-CN">并非所有相机都支持此功能，请现在就连接您的相机以检查其状态。如果您的相机提供了一个设置可配置其USB连接，那么请选取PTP。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Automatic Tasks/Build Web Page.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>.</Position>
+      <TranslationSet>
+        <base loc="en">.</base>
+        <tran loc="zh-CN">.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> for example, Webpage on 5/1 at 12:30PM</Description>
+      <Position>%@ on %@ at %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ on %@ at %@</base>
+        <tran loc="zh-CN">%@%@ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>addingString</Position>
+      <TranslationSet>
+        <base loc="en">Adding images to web page…</base>
+        <tran loc="zh-CN">将图像添加到网页上…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> web page title shown in Safari title bar</Description>
+      <Position>titlestring</Position>
+      <TranslationSet>
+        <base loc="en">Pictures</base>
+        <tran loc="zh-CN">图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>filesfoldername</Position>
+      <TranslationSet>
+        <base loc="en">web files</base>
+        <tran loc="zh-CN">网页文件</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>mainfoldername</Position>
+      <TranslationSet>
+        <base loc="en">Webpage</base>
+        <tran loc="zh-CN">网页</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Automator/Download Pictures.action/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Opening camera …</Position>
+      <TranslationSet>
+        <base loc="en">Opening camera …</base>
+        <tran loc="zh-CN">正在打开相机…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%d pictures to download</Position>
+      <TranslationSet>
+        <base loc="en">%d pictures to download</base>
+        <tran loc="zh-CN">要下载%d张图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Ready</Position>
+      <TranslationSet>
+        <base loc="en">Ready</base>
+        <tran loc="zh-CN">准备就绪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Downloading pictures …</Position>
+      <TranslationSet>
+        <base loc="en">Downloading pictures …</base>
+        <tran loc="zh-CN">正在下载图片…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%d picture to download</Position>
+      <TranslationSet>
+        <base loc="en">%d picture to download</base>
+        <tran loc="zh-CN">要下载%d张图片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>No supported cameras found</Position>
+      <TranslationSet>
+        <base loc="en">No supported cameras found</base>
+        <tran loc="zh-CN">找不到支持的相机</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Failed to open camera</Position>
+      <TranslationSet>
+        <base loc="en">Failed to open camera</base>
+        <tran loc="zh-CN">打开相机失败</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Library/Image Capture/Support/Application/ImportImage.bundle/Contents/Resources/en.lproj/ImportImageScanner.strings</Filepath>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; scanControlLabel = "Import"; ObjectID = "26"; </Description>
+      <Position>26.scanControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Import</base>
+        <tran loc="zh-CN">导入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Scanner"; ObjectID = "1"; </Description>
+      <Position>1.title</Position>
+      <TranslationSet>
+        <base loc="en">Scanner</base>
+        <tran loc="zh-CN">扫描仪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; overviewControlLabel = "Overview"; ObjectID = "26"; </Description>
+      <Position>26.overviewControlLabel</Position>
+      <TranslationSet>
+        <base loc="en">Overview</base>
+        <tran loc="zh-CN">概览</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "IKScannerDeviceView"; documentName = "Scan"; ObjectID = "26"; </Description>
+      <Position>26.documentName</Position>
+      <TranslationSet>
+        <base loc="en">Scan</base>
+        <tran loc="zh-CN">扫描</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ImageCaptureApps/System/Applications/Image Capture.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Image Capture</base>
+        <tran loc="zh-CN">图像捕捉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright © 2000-2018 Apple Inc.\nAll rights reserved.</base>
+        <tran loc="zh-CN">Copyright © 2000-2018 Apple Inc.\n保留一切权利。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

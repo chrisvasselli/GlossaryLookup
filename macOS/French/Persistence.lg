@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>Persistence</ProjName>
+  <File>
+    <Filepath>Persistence/System/Library/Frameworks/CoreData.framework/Versions/A/Resources/English.lproj/CoreDataErrors.strings</Filepath>
+    <TextItem>
+      <Description> NSMigrationCancelledError </Description>
+      <Position>Err134120</Position>
+      <TranslationSet>
+        <base loc="en">Persistent store migration was cancelled before completion.</base>
+        <tran loc="fr">La migration du magasin persistant a été annulée avant son achèvement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationRelationshipDeniedDeleteError </Description>
+      <Position>Err1600</Position>
+      <TranslationSet>
+        <base loc="en">Items cannot be deleted from %{PROPERTY}@.</base>
+        <tran loc="fr">Les éléments ne peuvent être supprimés de %{PROPERTY}@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationStringTooShortError </Description>
+      <Position>Err1670</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is too short.</base>
+        <tran loc="fr">%{PROPERTY}@ est trop court.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSMigrationMissingSourceModelError </Description>
+      <Position>Err134130</Position>
+      <TranslationSet>
+        <base loc="en">Persistent store migration failed, missing source managed object model.</base>
+        <tran loc="fr">La migration du magasin persistant a échoué car le modèle d’objet géré source est absent.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationMissingMandatoryPropertyError </Description>
+      <Position>Err1570</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is a required value.</base>
+        <tran loc="fr">%{PROPERTY}@ est une valeur obligatoire.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSMigrationError </Description>
+      <Position>Err134110</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred during persistent store migration.</base>
+        <tran loc="fr">Un erreur de migration du magasin persistant est survenue.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSManagedObjectExternalRelationshipError </Description>
+      <Position>Err133010</Position>
+      <TranslationSet>
+        <base loc="en">Cannot save objects with references outside of their own stores.</base>
+        <tran loc="fr">Impossible d’enregistrer des objets avec des références hors de leur magasin.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreIncompatibleSchemaError </Description>
+      <Position>Err134020</Position>
+      <TranslationSet>
+        <base loc="en">The model configuration used to open the store is incompatible with the one that was used to create the store.</base>
+        <tran loc="fr">La configuration de modèle utilisée pour ouvrir le magasin est incompatible avec celle utilisée lors de sa création.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreSaveError </Description>
+      <Position>Err134030</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while saving.</base>
+        <tran loc="fr">Une erreur est survenue lors de l’enregistrement.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationRelationshipLacksMinimumCountError </Description>
+      <Position>Err1580</Position>
+      <TranslationSet>
+        <base loc="en">Too few items in %{PROPERTY}@.</base>
+        <tran loc="fr">Trop peu d’éléments dans %{PROPERTY}@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationDateTooLateError </Description>
+      <Position>Err1630</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is too late.</base>
+        <tran loc="fr">%{PROPERTY}@ survient trop tard.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSEntityMigrationPolicyError </Description>
+      <Position>Err134170</Position>
+      <TranslationSet>
+        <base loc="en">Persistent store migration failed while processing entity migration policy.</base>
+        <tran loc="fr">La migration du magasin persistant a échoué lors du traitement du règlement de migration d’entité.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationMultipleErrorsError </Description>
+      <Position>Err1560</Position>
+      <TranslationSet>
+        <base loc="en">Multiple validation errors occurred.</base>
+        <tran loc="fr">Plusieurs erreurs de validation sont survenues.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreInvalidTypeError </Description>
+      <Position>Err134000</Position>
+      <TranslationSet>
+        <base loc="en">Failed to save. Unknown store type, format, or version.</base>
+        <tran loc="fr">Échec d’enregistrement. Le type, le format, ou la version du magasin sont inconnus.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreOpenError </Description>
+      <Position>Err134080</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred while opening the persistent store.</base>
+        <tran loc="fr">Une erreur d’ouverture du magasin persistant est survenue.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSSQLiteError </Description>
+      <Position>Err134180</Position>
+      <TranslationSet>
+        <base loc="en">An SQLite error occurred.</base>
+        <tran loc="fr">Une erreur SQLite est survenue.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreTimeoutError </Description>
+      <Position>Err134090</Position>
+      <TranslationSet>
+        <base loc="en">A timeout error occurred while connecting to the persistent store.</base>
+        <tran loc="fr">Un erreur de délai est survenue lors de la connexion au magasin persistant.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreIncompatibleVersionHashError </Description>
+      <Position>Err134100</Position>
+      <TranslationSet>
+        <base loc="en">The managed object model version used to open the persistent store is incompatible with the one that was used to create the persistent store.</base>
+        <tran loc="fr">La version de modèle d’objet géré utilisée pour ouvrir le magasin persistant est incompatible avec celle utilisée lors de sa création.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationRelationshipExceedsMaximumCountError </Description>
+      <Position>Err1590</Position>
+      <TranslationSet>
+        <base loc="en">Too many items in %{PROPERTY}@.</base>
+        <tran loc="fr">Trop d’éléments dans %{PROPERTY}@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationNumberTooSmallError </Description>
+      <Position>Err1620</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is too small.</base>
+        <tran loc="fr">%{PROPERTY}@ est trop petit.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSMigrationManagerDestinationStoreError </Description>
+      <Position>Err134160</Position>
+      <TranslationSet>
+        <base loc="en">Persistent store migration failed, there was a problem with the destination persistent store.</base>
+        <tran loc="fr">La migration du magasin persistant a échoué, un problème du magasin persistant cible est survenu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSManagedObjectConstraintValidationError </Description>
+      <Position>Err1551</Position>
+      <TranslationSet>
+        <base loc="en">One or more constraints were violated.</base>
+        <tran loc="fr">Une ou plusieurs contraintes non respectées.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreCoordinatorLockingError </Description>
+      <Position>Err132010</Position>
+      <TranslationSet>
+        <base loc="en">Could not acquire a lock in a managed persistent store coordinator.</base>
+        <tran loc="fr">Impossible d’obtenir un verrou dans un coordinateur de magasin persistant géré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSManagedObjectContextLockingError </Description>
+      <Position>Err132000</Position>
+      <TranslationSet>
+        <base loc="en">Could not acquire a lock in a managed object context.</base>
+        <tran loc="fr">Impossible d’obtenir un verrou dans un contexte d’objet géré</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationInvalidDateError </Description>
+      <Position>Err1650</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is invalid.</base>
+        <tran loc="fr">%{PROPERTY}@ est invalide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationStringPatternMatchingError </Description>
+      <Position>Err1680</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is invalid.</base>
+        <tran loc="fr">%{PROPERTY}@ est invalide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationStringTooLongError </Description>
+      <Position>Err1660</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is too long.</base>
+        <tran loc="fr">%{PROPERTY}@ est trop long.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSCoreDataError </Description>
+      <Position>Err134060</Position>
+      <TranslationSet>
+        <base loc="en">A Core Data error occurred.</base>
+        <tran loc="fr">Une erreur Core Data est survenue.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSMigrationManagerSourceStoreError </Description>
+      <Position>Err134150</Position>
+      <TranslationSet>
+        <base loc="en">Persistent store migration failed, there was a problem with the source persistent store.</base>
+        <tran loc="fr">La migration du magasin persistant a échoué, un problème du magasin persistant source est survenu.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationDateTooSoonError </Description>
+      <Position>Err1640</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is too soon.</base>
+        <tran loc="fr">%{PROPERTY}@ survient trop tôt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSManagedObjectValidationError </Description>
+      <Position>Err1550</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is not valid.</base>
+        <tran loc="fr">%{PROPERTY}@ est invalide.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreIncompleteSaveError </Description>
+      <Position>Err134040</Position>
+      <TranslationSet>
+        <base loc="en">Save operation could not be completed.</base>
+        <tran loc="fr">L’enregistrement n’a pu s’achever.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSManagedObjectMergeError </Description>
+      <Position>Err133020</Position>
+      <TranslationSet>
+        <base loc="en">Could not merge changes.</base>
+        <tran loc="fr">Impossible de fusionner les changements.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreOperationError </Description>
+      <Position>Err134070</Position>
+      <TranslationSet>
+        <base loc="en">An error occurred in the persistent store.</base>
+        <tran loc="fr">Une erreur du magasin persistant est survenue.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSValidationNumberTooLargeError </Description>
+      <Position>Err1610</Position>
+      <TranslationSet>
+        <base loc="en">%{PROPERTY}@ is too large.</base>
+        <tran loc="fr">%{PROPERTY}@ est trop grand.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSMangedObjectReferentialIntegrityError </Description>
+      <Position>Err133000</Position>
+      <TranslationSet>
+        <base loc="en">Attempt to access an object not found in store.</base>
+        <tran loc="fr">Tentative d’accès à un objet introuvable en magasin.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSMigrationMissingMappingModelError </Description>
+      <Position>Err134140</Position>
+      <TranslationSet>
+        <base loc="en">Persistent store migration failed, missing mapping model.</base>
+        <tran loc="fr">La migration du magasin persistant a échoué car le modèle de mappage est absent.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> NSPersistentStoreTypeMismatchError </Description>
+      <Position>Err134010</Position>
+      <TranslationSet>
+        <base loc="en">The store type is inconsistent with the data format.</base>
+        <tran loc="fr">Le type de magasin est incohérent avec le format des données.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

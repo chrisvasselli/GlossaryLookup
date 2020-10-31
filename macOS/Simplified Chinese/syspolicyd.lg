@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>syspolicyd</ProjName>
+  <File>
+    <Filepath>syspolicyd/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/XPCServices/ExecutionPolicyService.xpc/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>error_NotSystemProfile</Position>
+      <TranslationSet>
+        <base loc="en">The profile must be a system profile. User profiles are not supported.</base>
+        <tran loc="zh-CN">描述文件必须是系统描述文件。不支持用户描述文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>value_No</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="zh-CN">否</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error Messages </Description>
+      <Position>error_UnapprovedSource</Position>
+      <TranslationSet>
+        <base loc="en">The profile must originate from a user approved MDM server.</base>
+        <tran loc="zh-CN">描述文件必须来自用户批准的MDM服务器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+ ExecutionPolicyService
+
+ Copyright (c) 2017 Apple Inc. All rights reserved.
+
+ Payload preference pane display strings </Description>
+      <Position>desc_UserApprovalAllowed</Position>
+      <TranslationSet>
+        <base loc="en">User approvals allowed?</base>
+        <tran loc="zh-CN">允许用户批准？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>error_InternalError</Position>
+      <TranslationSet>
+        <base loc="en">Internal error installing profile.</base>
+        <tran loc="zh-CN">安装描述文件时出现内部错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>desc_ApprovedBundles</Position>
+      <TranslationSet>
+        <base loc="en">Approved Bundle Identifiers</base>
+        <tran loc="zh-CN">批准的捆绑包标识符</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>value_Yes</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="zh-CN">是</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>error_InvalidPayload</Position>
+      <TranslationSet>
+        <base loc="en">The profile's payload did not validate properly.</base>
+        <tran loc="zh-CN">描述文件的有效负载未正确验证。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>syspolicyd/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/XPCServices/ExecutionPolicyService.xpc/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountFirst:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@PayloadType@</base>
+        <tran loc="zh-CN">%#@PayloadType@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountLast:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@PayloadType@</base>
+        <tran loc="zh-CN">%#@PayloadType@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_SingularOnly:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@PayloadType@</base>
+        <tran loc="zh-CN">%#@PayloadType@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountLast:dict/PayloadType:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Kernel Extension Policy Controls (%lu)</base>
+        <tran loc="zh-CN">内核扩展策略控制（%lu个）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountFirst:dict/PayloadType:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Kernel Extension Policy Controls</base>
+        <tran loc="zh-CN">%lu个内核扩展策略控制</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_SingularOnly:dict/PayloadType:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/CPPayloadCountStringsDictKey_SingularOnly:dict/PayloadType:dict/other:dict/:string)</base>
+        <tran loc="zh-CN">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/CPPayloadCountStringsDictKey_SingularOnly:dict/PayloadType:dict/other:dict/:string)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

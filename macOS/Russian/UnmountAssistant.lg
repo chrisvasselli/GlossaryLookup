@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>UnmountAssistant</ProjName>
+  <File>
+    <Filepath>UnmountAssistant/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/Resources/en.lproj/UAAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button A"; ObjectID = "y2N-Lb-R44"; </Description>
+      <Position>y2N-Lb-R44.title</Position>
+      <TranslationSet>
+        <base loc="en">Button A</base>
+        <tran loc="ru">Кнопка A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button C"; ObjectID = "P56-K4-zaN"; </Description>
+      <Position>P56-K4-zaN.title</Position>
+      <TranslationSet>
+        <base loc="en">Button C</base>
+        <tran loc="ru">Кнопка C</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Trying to eject"; ObjectID = "uNg-Ov-gFz"; </Description>
+      <Position>uNg-Ov-gFz.title</Position>
+      <TranslationSet>
+        <base loc="en">Trying to eject</base>
+        <tran loc="ru">Попытка извлечения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button B"; ObjectID = "I9F-cy-p4M"; </Description>
+      <Position>I9F-cy-p4M.title</Position>
+      <TranslationSet>
+        <base loc="en">Button B</base>
+        <tran loc="ru">Кнопка B</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>UnmountAssistant/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_FORCE_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to eject “%@”?</base>
+        <tran loc="ru">Вы действительно хотите извлечь «%@»?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_3GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because “%@” and other applications are using it.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он используется программой «%@» и другими программами.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_DISKIMAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because it is in use.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он используется.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">Sharing Preferences…</base>
+        <tran loc="ru">Общий доступ…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRY_AGAIN</Position>
+      <TranslationSet>
+        <base loc="en">Try Again</base>
+        <tran loc="ru">Повторить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Remote Process is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_REMOTEPROCESS</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because a remote process is using it.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он используется удаленным процессом.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_FORCEEJECT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Ejecting the disk might cause problems with the disk or the information on it.</base>
+        <tran loc="ru">Извлечение диска может привести к повреждению диска или информации на нем.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_FORCE_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to eject the disk?</base>
+        <tran loc="ru">Вы действительно хотите извлечь диск?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGOUT_ONE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">When “%@” is no longer using the disk, try ejecting it again.</base>
+        <tran loc="ru">Повторите попытку извлечения диска, когда пользователь «%@» закончит работу с ним.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOP_FINDER_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Stop the Finder action and then try to eject the disk again.</base>
+        <tran loc="ru">Остановите действие Finder и попробуйте извлечь диск еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_2DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and “%2$@” first and then try to eject the disk again.</base>
+        <tran loc="ru">Сначала извлеките «%1$@» и «%2$@», а затем попробуйте извлечь диск еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_WAS_EJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%@” was ejected.</base>
+        <tran loc="ru">Диск «%@» извлечен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Misc strings </Description>
+      <Position>TRYING_TO_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Trying to eject</base>
+        <tran loc="ru">Попытка извлечения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_1USER</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” cannot be ejected because another user (“%2$@”) is using it.</base>
+        <tran loc="ru">Невозможно извлечь диск «%1$@», так как он используется другим пользователем («%2$@»).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_HAS_2DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and “%2$@” first and then try to eject the “%3$@” again.</base>
+        <tran loc="ru">Сначала извлеките «%1$@» и «%2$@», а затем попробуйте извлечь «%3$@» еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORCE_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Force Eject…</base>
+        <tran loc="ru">Извлечь принудительно…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_FILESERVER</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because it is being shared.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он совместно используется.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_3DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and other disks first and then try to eject the disk again.</base>
+        <tran loc="ru">Сначала извлеките «%1$@» и другие диски, а затем попробуйте извлечь диск еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_2GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because “%2$@” and “%3$@” are using it.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он используется приложениями «%2$@» и «%3$@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUIT_ONE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Quit that application and try to eject the disk again.</base>
+        <tran loc="ru">Завершите эту программу и попробуйте извлечь диск еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+	UnmountAssistant Localizable.strings
+	Copyright 2008-2009 Apple Inc. All rights reserved.
+ 
+ Alert buttons </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_3GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because “%2$@” and other applications are using it.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он используется программой «%2$@» и другими программами.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> non-GUI app is using the disk </Description>
+      <Position>UNKNOWN_IN_USE</Position>
+      <TranslationSet>
+        <base loc="en">The disk wasn’t ejected because one or more programs may be using it.</base>
+        <tran loc="ru">Диск не был извлечен, так как он используется одной или несколькими программами.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUIT_MULTIPLE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Quit those applications and try to eject the disk again.</base>
+        <tran loc="ru">Завершите эти программы и попробуйте извлечь диск еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_1USER</Position>
+      <TranslationSet>
+        <base loc="en">The disk cannot be ejected because another user (“%@”) is using it.</base>
+        <tran loc="ru">Невозможно извлечь диск, так как он используется другим пользователем («%@»).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROCESS_PID</Position>
+      <TranslationSet>
+        <base loc="en">Process %d</base>
+        <tran loc="ru">Процесс %d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Finder is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_FINDER</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because the Finder is using it.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он используется Finder.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%@” wasn’t ejected because one or more programs may be using it.</base>
+        <tran loc="ru">Диск «%@» не был извлечен, так как он используется одной или несколькими программами.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_1DISKIMAGE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” first and then try to eject the disk again.</base>
+        <tran loc="ru">Сначала извлеките «%1$@», а затем попробуйте извлечь диск еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_FORCE</Position>
+      <TranslationSet>
+        <base loc="en">Force Eject</base>
+        <tran loc="ru">Извлечь принудительно</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_3USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk cannot be ejected because other users (“%1$@”, “%2$@” and others) are using it.</base>
+        <tran loc="ru">Невозможно извлечь диск, так как он используется другими пользователями («%1$@», «%2$@» и др.).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_FINDER</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because the Finder is using it.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он используется Finder.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGOUT_MULTIPLE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">When the other users are no longer using the disk, try ejecting it again.</base>
+        <tran loc="ru">Повторите попытку извлечения диска, когда все пользователи закончат работу с ним.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRYING_TO_EJECT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">To eject the disk immediately, click the Force Eject button.</base>
+        <tran loc="ru">Чтобы извлечь диск сейчас, нажмите кнопку «Извлечь принудительно».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNABLE_TO_EJECT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">You can try to eject the disk again or click Force Eject to eject it immediately.</base>
+        <tran loc="ru">Можно повторить попытку извлечения диска или нажать «Извлечь принудительно» для немедленного извлечения.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_REMOTEPROCESS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because a remote process is using it.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он используется удаленным процессом.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Disk Image is mounted from the disk the disk </Description>
+      <Position>VOLUME_HAS_DISKIMAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because it is in use.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он используется.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOP_FILESERVER</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disk on the other machine or stop file sharing in the Sharing preferences and then try to eject the disk again.</base>
+        <tran loc="ru">Извлеките диск на другом компьютере или закройте общий доступ в Настройках общего доступа, затем повторите попытку извлечь диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> File Server is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_FILESERVER</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because it is being shared.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он совместно используется.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_HAS_3DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and other disks first and then try to eject the “%2$@” again.</base>
+        <tran loc="ru">Сначала извлеките «%1$@» и другие диски, а затем попробуйте извлечь «%2$@» еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_2GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because “%1$@” and “%2$@” are using it.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он используется приложениями «%1$@» и «%2$@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_2USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk cannot be ejected because other users (“%1$@” and “%2$@”) are using it.</base>
+        <tran loc="ru">Невозможно извлечь диск, так как он используется другими пользователями («%1$@» и «%2$@»).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_2USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” cannot be ejected because other users (“%2$@” and “%3$@”) are using it.</base>
+        <tran loc="ru">Невозможно извлечь диск «%1$@», так как он используется другими пользователями («%2$@» и «%3$@»).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_1GUIPROC</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because “%2$@” is using it.</base>
+        <tran loc="ru">Не удалось извлечь диск «%1$@», так как он используется приложениями «%2$@».</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_3USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” cannot be ejected because other users (“%2$@”, “%3$@” and others) are using it.</base>
+        <tran loc="ru">Невозможно извлечь диск «%1$@», так как он используется другими пользователями («%2$@», «%3$@» и др.).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_HAS_1DISKIMAGE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” first and then try to eject the “%2$@” again.</base>
+        <tran loc="ru">Сначала извлеките «%1$@», а затем попробуйте извлечь «%2$@» еще раз.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> volume was ejected </Description>
+      <Position>UNKNOWN_WAS_EJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The disk was ejected.</base>
+        <tran loc="ru">Диск извлечен.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> GUI app is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_1GUIPROC</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because “%@” is using it.</base>
+        <tran loc="ru">Не удалось извлечь диск, так как он используется приложением «%@».</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>UnmountAssistant/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/Resources/English.lproj/UAAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button A"; ObjectID = "y2N-Lb-R44"; </Description>
+      <Position>y2N-Lb-R44.title</Position>
+      <TranslationSet>
+        <base loc="en">Button A</base>
+        <tran loc="ru">Кнопка A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button C"; ObjectID = "P56-K4-zaN"; </Description>
+      <Position>P56-K4-zaN.title</Position>
+      <TranslationSet>
+        <base loc="en">Button C</base>
+        <tran loc="ru">Кнопка C</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Trying to eject"; ObjectID = "uNg-Ov-gFz"; </Description>
+      <Position>uNg-Ov-gFz.title</Position>
+      <TranslationSet>
+        <base loc="en">Trying to eject</base>
+        <tran loc="ru">Попытка извлечения</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button B"; ObjectID = "I9F-cy-p4M"; </Description>
+      <Position>I9F-cy-p4M.title</Position>
+      <TranslationSet>
+        <base loc="en">Button B</base>
+        <tran loc="ru">Кнопка B</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

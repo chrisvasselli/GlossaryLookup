@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CryptoTokenKit</ProjName>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/SystemProfiler/SPCtkReporter.spreporter/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SPSmartCardsDataType</Position>
+      <TranslationSet>
+        <base loc="en">SmartCards</base>
+        <tran loc="ru">Смарт-карты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVAIL_SMARTCARDS_TOKEN</Position>
+      <TranslationSet>
+        <base loc="en">Available SmartCards (token)</base>
+        <tran loc="ru">Доступные смарт-карты (токен)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>READERS_DRIVERS</Position>
+      <TranslationSet>
+        <base loc="en">Reader Drivers</base>
+        <tran loc="ru">Драйверы устройств чтения карт</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOKEN_DRIVERS</Position>
+      <TranslationSet>
+        <base loc="en">Tokend Drivers</base>
+        <tran loc="ru">Драйверы Tokend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AVAIL_SMARTCARDS_KEYCHAIN</Position>
+      <TranslationSet>
+        <base loc="en">Available SmartCards (keychain)</base>
+        <tran loc="ru">Доступные смарт-карты (связка ключей)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>_name</Position>
+      <TranslationSet>
+        <base loc="en">SmartCards Name</base>
+        <tran loc="ru">Название смарт-карты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>READERS</Position>
+      <TranslationSet>
+        <base loc="en">Readers</base>
+        <tran loc="ru">Устройства чтения карт</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMARTCARDS_DRIVERS</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Drivers</base>
+        <tran loc="ru">Драйверы смарт-карт</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  CryptoTokenKit
+</Description>
+      <Position>INVALID_PIN</Position>
+      <TranslationSet>
+        <base loc="en">PIN has invalid format</base>
+        <tran loc="ru">Некорректный формат PIN</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CryptoTokenKit
+
+  Created by Dan Seknicka on 10/03/2016.
+  Copyright © 2016 Apple. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Pairing</base>
+        <tran loc="ru">Создание пары со смарт-картой</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Pairing</base>
+        <tran loc="ru">Создание пары со смарт-картой</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app/Contents/Resources/en.lproj/Bind.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>STORE_UNLOCK_KEY_CURRENT_USER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Login keychain unlock key can be stored only when pairing the current user.</base>
+        <tran loc="ru">Ключ разблокировки для связки ключей «Вход» может быть сохранен только при создании пары с текущим пользователем.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SC_IS_ALREADY_PAIRED</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard is already paired.</base>
+        <tran loc="ru">Смарт-карта уже связана.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORE_UNLOCK_KEY_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Failed to store Login keychain unlock key</base>
+        <tran loc="ru">Не удалось сохранить ключ разблокировки для связки ключей «Вход»</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UN_PAIR</Position>
+      <TranslationSet>
+        <base loc="en">Pair</base>
+        <tran loc="ru">Создать пару</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORE_UNLOCK_KEY_FAILED_INFO</Position>
+      <TranslationSet>
+        <base loc="en">User was successfully paired but user password will be required after next SmartCard login to unlock Login keychain.</base>
+        <tran loc="ru">Создание пары с пользователем было завершено успешно, однако чтобы разблокировать связку ключей «Вход» после следующего входа с использованием смарт-карты, потребуется ввести пароль пользователя.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTH_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Authorization failed (%d).</base>
+        <tran loc="ru">Ошибка авторизации (%d).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNPAIR</Position>
+      <TranslationSet>
+        <base loc="en">Unpair</base>
+        <tran loc="ru">Разорвать пару</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Bind.strings
+  CryptoTokenKit
+
+  Created by Dan Seknicka on 09/03/2016.
+  Copyright © 2016 Apple. All rights reserved.
+</Description>
+      <Position>PAIRING_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard pairing failed.</base>
+        <tran loc="ru">Не удалось создать пару со смарт-картой.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_WRAP_KEY_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">No suitable key was found on the selected SmartCard.</base>
+        <tran loc="ru">На выбранной смарт‑карте не найден подходящий ключ.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UN_UNSUPPORTED_SC</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported SmartCard inserted</base>
+        <tran loc="ru">Вставлена неподдерживаемая смарт-карта</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UN_UNPAIRED_SC</Position>
+      <TranslationSet>
+        <base loc="en">Unpaired SmartCard inserted:\n%@</base>
+        <tran loc="ru">Вставлена смарт-карта, с которой не создана пара:\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMART_CARD</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard</base>
+        <tran loc="ru">Смарт-карта</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNSUITABLE_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Current user is paired with unsuitable identity: ’%@’.\nPlease use different identity</base>
+        <tran loc="ru">Для текущего пользователя создана пара с неподходящим идентифицирующим объектом: %@.\nИспользуйте другой идентифицирующий объект.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRING_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Cannot pair SmartCard with the current user.\n%@</base>
+        <tran loc="ru">Не удается создать пару между смарт-картой и текущим пользователем.\n%@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CryptoTokenKit
+
+  Copyright © 2016 Apple. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Smartcard Agent</base>
+        <tran loc="ru">Агент смарт-карты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Smartcard Agent</base>
+        <tran loc="ru">Агент смарт-карты</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>USERSELECTOR_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Unable to use internal component.</base>
+        <tran loc="ru">Не удается использовать внутренний компонент.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  CryptoTokenKit
+</Description>
+      <Position>SC_INIT_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard initialization error.</base>
+        <tran loc="ru">Ошибка инициализации смарт-карты.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SC_TRUST_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">The SmartCard certificate is not trusted.</base>
+        <tran loc="ru">Сертификат смарт-карты не является достоверным.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SC_ALGO_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard algorithm initialization error.</base>
+        <tran loc="ru">Ошибка инициализации алгоритма смарт-карты.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OD_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">OpenDirectory error.</base>
+        <tran loc="ru">Ошибка OpenDirectory.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/PlugIns/pivtoken.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>WRONG_CONSTR</Position>
+      <TranslationSet>
+        <base loc="en">Unexpected constraint</base>
+        <tran loc="ru">Неожиданное ограничение</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PIV_AUTH_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For PIV Authentication</base>
+        <tran loc="ru">Сертификат для аутентификации PIV</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARD_AUTH_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For Card Authentication</base>
+        <tran loc="ru">Сертификат для аутентификации карт</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CARD_AUTH_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For Card Authentication</base>
+        <tran loc="ru">Ключ для аутентификации карт</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIG_SIG_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For Digital Signature</base>
+        <tran loc="ru">Сертификат для цифровой подписи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEY_MGMT_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For Key Management</base>
+        <tran loc="ru">Ключ для управления ключами</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RET_KEY_MGMT_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Retired Certificate For Key Management %ld</base>
+        <tran loc="ru">Списанный сертификат для управления ключами %ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+ pivtoken
+ </Description>
+      <Position>CORRUPTED_CERT</Position>
+      <TranslationSet>
+        <base loc="en">corrupted certificate data</base>
+        <tran loc="ru">повреждены данные сертификата</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RET_KEY_MGMT_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Retired Key For Key Management %ld</base>
+        <tran loc="ru">Списанный ключ для управления ключами %ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEY_MGMT_CERT</Position>
+      <TranslationSet>
+        <base loc="en">Certificate For Key Management</base>
+        <tran loc="ru">Сертификат для управления ключами</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PIV_AUTH_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For PIV Authentication</base>
+        <tran loc="ru">Ключ для аутентификации PIV</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIG_SIG_KEY</Position>
+      <TranslationSet>
+        <base loc="en">Key For Digital Signature</base>
+        <tran loc="ru">Ключ для цифровой подписи</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, %d tries left</base>
+        <tran loc="ru">Не удалось проверить PIN, осталось %d попытки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, %d tries left</base>
+        <tran loc="ru">Не удалось проверить PIN, осталось %d попыток</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, %d tries left</base>
+        <tran loc="ru">Не удалось проверить PIN, осталось %d попыток</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@tries@</base>
+        <tran loc="ru">%1$#@tries@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, PIN blocked</base>
+        <tran loc="ru">Не удалось проверить PIN. PIN заблокирован</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/VERIFY_TRY_LEFT:dict/tries:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">PIN verification failed, one try left</base>
+        <tran loc="ru">Не удалось проверить PIN, осталось %d попытка</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CryptoTokenKit/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app/Contents/Resources/en.lproj/BindDialog.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Driver Name"; ObjectID = "5Qp-bv-0oB"; </Description>
+      <Position>5Qp-bv-0oB.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Driver Name</base>
+        <tran loc="ru">Имя драйвера</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Reader Name"; ObjectID = "q8e-0L-cVQ"; </Description>
+      <Position>q8e-0L-cVQ.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Reader Name</base>
+        <tran loc="ru">Имя устройства чтения карт</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Reader:"; ObjectID = "uxh-O0-Umr"; </Description>
+      <Position>uxh-O0-Umr.title</Position>
+      <TranslationSet>
+        <base loc="en">Reader:</base>
+        <tran loc="ru">Устройство чтения карт:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "XHK-fY-6Iz"; </Description>
+      <Position>XHK-fY-6Iz.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Card Identity:"; ObjectID = "9C8-UB-rtC"; </Description>
+      <Position>9C8-UB-rtC.title</Position>
+      <TranslationSet>
+        <base loc="en">Card Identity:</base>
+        <tran loc="ru">Идентификатор карты:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Pair"; ObjectID = "0fw-xO-7qI"; </Description>
+      <Position>0fw-xO-7qI.title</Position>
+      <TranslationSet>
+        <base loc="en">Pair</base>
+        <tran loc="ru">Создать пару</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Driver:"; ObjectID = "Lja-Wn-r5N"; </Description>
+      <Position>Lja-Wn-r5N.title</Position>
+      <TranslationSet>
+        <base loc="en">Driver:</base>
+        <tran loc="ru">Драйвер:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Do you want to connect the inserted SmartCard with the current user?"; ObjectID = "DYa-Jc-3Ur"; </Description>
+      <Position>DYa-Jc-3Ur.title</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to connect the inserted SmartCard with the current user?</base>
+        <tran loc="ru">Хотите связать вставленную смарт-карту с текущим пользователем?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Do not show again"; ObjectID = "mve-qQ-5ug"; </Description>
+      <Position>mve-qQ-5ug.title</Position>
+      <TranslationSet>
+        <base loc="en">Do not show again</base>
+        <tran loc="ru">Больше не показывать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "SmartCard Pairing"; ObjectID = "F0z-JX-Cv5"; </Description>
+      <Position>F0z-JX-Cv5.title</Position>
+      <TranslationSet>
+        <base loc="en">SmartCard Pairing</base>
+        <tran loc="ru">Создание пары со смарт-картой</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

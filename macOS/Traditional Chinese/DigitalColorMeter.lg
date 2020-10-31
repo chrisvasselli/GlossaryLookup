@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DigitalColorMeter</ProjName>
+  <File>
+    <Filepath>DigitalColorMeter/System/Applications/Utilities/Digital Color Meter.app/Contents/Resources/English.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">© Copyright 2001-2018 Apple Inc.,
+All Rights Reserved.</base>
+        <tran loc="zh-TW">© Copyright 2001-2018 Apple Inc.
+保留一切權利。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Digital Color Meter</base>
+        <tran loc="zh-TW">數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Digital Color Meter</base>
+        <tran loc="zh-TW">數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DigitalColorMeter/System/Applications/Utilities/Digital Color Meter.app/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>greenLabelStringForLab</Position>
+      <TranslationSet>
+        <base loc="en">a*:</base>
+        <tran loc="zh-TW">a*：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>greenLabelStringForRGB</Position>
+      <TranslationSet>
+        <base loc="en">G:</base>
+        <tran loc="zh-TW">G：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MousePositionString</Position>
+      <TranslationSet>
+        <base loc="en">(%@, %@)</base>
+        <tran loc="zh-TW">（%@，%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>blueLabelStringForLab</Position>
+      <TranslationSet>
+        <base loc="en">b*:</base>
+        <tran loc="zh-TW">b*：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DisplayP3String</Position>
+      <TranslationSet>
+        <base loc="en">Display in P3</base>
+        <tran loc="zh-TW">在P3中顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>redLabelStringForRGB</Position>
+      <TranslationSet>
+        <base loc="en">R:</base>
+        <tran loc="zh-TW">R：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>blueLabelStringForRGB</Position>
+      <TranslationSet>
+        <base loc="en">B:</base>
+        <tran loc="zh-TW">B：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>redLabelStringForLab</Position>
+      <TranslationSet>
+        <base loc="en">L*:</base>
+        <tran loc="zh-TW">L*：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DigitalColorMeter/System/Applications/Utilities/Digital Color Meter.app/Contents/Resources/English.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display in L
+*a
+*b
+*"; ObjectID = "802"; </Description>
+      <Position>802.title</Position>
+      <TranslationSet>
+        <base loc="en">Display in L*a*b*</base>
+        <tran loc="zh-TW">以L*a*b*顯示 </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "About Digital Color Meter"; ObjectID = "58"; </Description>
+      <Position>58.title</Position>
+      <TranslationSet>
+        <base loc="en">About Digital Color Meter</base>
+        <tran loc="zh-TW">關於數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "4x"; ObjectID = "763"; </Description>
+      <Position>763.title</Position>
+      <TranslationSet>
+        <base loc="en">4x</base>
+        <tran loc="zh-TW">4倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "G:"; ObjectID = "552"; </Description>
+      <Position>552.title</Position>
+      <TranslationSet>
+        <base loc="en">G:</base>
+        <tran loc="zh-TW">G：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Digital Color Meter"; ObjectID = "134"; </Description>
+      <Position>134.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Digital Color Meter</base>
+        <tran loc="zh-TW">隱藏數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show Mouse Location"; ObjectID = "756"; </Description>
+      <Position>756.title</Position>
+      <TranslationSet>
+        <base loc="en">Show Mouse Location</base>
+        <tran loc="zh-TW">顯示滑鼠位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(clipped)"; ObjectID = "569"; </Description>
+      <Position>569.title</Position>
+      <TranslationSet>
+        <base loc="en">(clipped)</base>
+        <tran loc="zh-TW">（被截）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(clipped)"; ObjectID = "571"; </Description>
+      <Position>571.title</Position>
+      <TranslationSet>
+        <base loc="en">(clipped)</base>
+        <tran loc="zh-TW">（被截）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(clipped)"; ObjectID = "573"; </Description>
+      <Position>573.title</Position>
+      <TranslationSet>
+        <base loc="en">(clipped)</base>
+        <tran loc="zh-TW">（被截）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "as Decimal"; ObjectID = "776"; </Description>
+      <Position>776.title</Position>
+      <TranslationSet>
+        <base loc="en">as Decimal</base>
+        <tran loc="zh-TW">十進位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy Color as Image"; ObjectID = "699"; </Description>
+      <Position>699.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy Color as Image</base>
+        <tran loc="zh-TW">拷貝顏色為影像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Color"; ObjectID = "590"; </Description>
+      <Position>590.title</Position>
+      <TranslationSet>
+        <base loc="en">Color</base>
+        <tran loc="zh-TW">顏色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Color"; ObjectID = "591"; </Description>
+      <Position>591.title</Position>
+      <TranslationSet>
+        <base loc="en">Color</base>
+        <tran loc="zh-TW">顏色</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "View"; ObjectID = "754"; </Description>
+      <Position>754.title</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-TW">顯示方式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "View"; ObjectID = "755"; </Description>
+      <Position>755.title</Position>
+      <TranslationSet>
+        <base loc="en">View</base>
+        <tran loc="zh-TW">顯示方式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Lock X"; ObjectID = "760"; </Description>
+      <Position>760.title</Position>
+      <TranslationSet>
+        <base loc="en">Lock X</base>
+        <tran loc="zh-TW">鎖定X</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Services"; ObjectID = "130"; </Description>
+      <Position>130.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-TW">服務</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; </Description>
+      <Position>131.title</Position>
+      <TranslationSet>
+        <base loc="en">Services</base>
+        <tran loc="zh-TW">服務</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; </Description>
+      <Position>150.title</Position>
+      <TranslationSet>
+        <base loc="en">Show All</base>
+        <tran loc="zh-TW">顯示全部</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "as Percentage"; ObjectID = "778"; </Description>
+      <Position>778.title</Position>
+      <TranslationSet>
+        <base loc="en">as Percentage</base>
+        <tran loc="zh-TW">百分比</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Lock Position"; ObjectID = "751"; </Description>
+      <Position>751.title</Position>
+      <TranslationSet>
+        <base loc="en">Lock Position</base>
+        <tran loc="zh-TW">鎖定位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display in Adobe RGB"; ObjectID = "576"; </Description>
+      <Position>576.title</Position>
+      <TranslationSet>
+        <base loc="en">Display in Adobe RGB</base>
+        <tran loc="zh-TW">以Adobe RGB顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display Values"; ObjectID = "774"; </Description>
+      <Position>774.title</Position>
+      <TranslationSet>
+        <base loc="en">Display Values</base>
+        <tran loc="zh-TW">顯示數值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Display Values"; ObjectID = "775"; </Description>
+      <Position>775.title</Position>
+      <TranslationSet>
+        <base loc="en">Display Values</base>
+        <tran loc="zh-TW">顯示數值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; </Description>
+      <Position>239.title</Position>
+      <TranslationSet>
+        <base loc="en">Zoom</base>
+        <tran loc="zh-TW">縮放</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "8x"; ObjectID = "762"; </Description>
+      <Position>762.title</Position>
+      <TranslationSet>
+        <base loc="en">8x</base>
+        <tran loc="zh-TW">8倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; </Description>
+      <Position>23.title</Position>
+      <TranslationSet>
+        <base loc="en">Minimize</base>
+        <tran loc="zh-TW">縮到最小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; </Description>
+      <Position>145.title</Position>
+      <TranslationSet>
+        <base loc="en">Hide Others</base>
+        <tran loc="zh-TW">隱藏其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Magnification"; ObjectID = "757"; </Description>
+      <Position>757.title</Position>
+      <TranslationSet>
+        <base loc="en">Magnification</base>
+        <tran loc="zh-TW">放大</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Magnification"; ObjectID = "761"; </Description>
+      <Position>761.title</Position>
+      <TranslationSet>
+        <base loc="en">Magnification</base>
+        <tran loc="zh-TW">放大</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "R:"; ObjectID = "547"; </Description>
+      <Position>547.title</Position>
+      <TranslationSet>
+        <base loc="en">R:</base>
+        <tran loc="zh-TW">R：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display in Generic RGB"; ObjectID = "540"; </Description>
+      <Position>540.title</Position>
+      <TranslationSet>
+        <base loc="en">Display in Generic RGB</base>
+        <tran loc="zh-TW">以通用RGB顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "B:"; ObjectID = "556"; </Description>
+      <Position>556.title</Position>
+      <TranslationSet>
+        <base loc="en">B:</base>
+        <tran loc="zh-TW">B：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Quit Digital Color Meter"; ObjectID = "136"; </Description>
+      <Position>136.title</Position>
+      <TranslationSet>
+        <base loc="en">Quit Digital Color Meter</base>
+        <tran loc="zh-TW">結束數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Digital Color Meter Help"; ObjectID = "492"; </Description>
+      <Position>492.title</Position>
+      <TranslationSet>
+        <base loc="en">Digital Color Meter Help</base>
+        <tran loc="zh-TW">數位測色計輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "1x"; ObjectID = "765"; </Description>
+      <Position>765.title</Position>
+      <TranslationSet>
+        <base loc="en">1x</base>
+        <tran loc="zh-TW">1倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;NO LOCAL&gt;"; ObjectID = "707"; </Description>
+      <Position>707.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;NO LOCAL&gt;</base>
+        <tran loc="zh-TW">&lt;NO LOCAL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DO NOT LOCALIZE&gt;\n&lt;DO NOT LOCALIZE&gt;"; ObjectID = "575"; </Description>
+      <Position>575.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DO NOT LOCALIZE&gt;\n&lt;DO NOT LOCALIZE&gt;</base>
+        <tran loc="zh-TW">&lt;DO NOT LOCALIZE&gt;\n&lt;DO NOT LOCALIZE&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "537"; </Description>
+      <Position>537.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-TW">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Update Continuously"; ObjectID = "758"; </Description>
+      <Position>758.title</Position>
+      <TranslationSet>
+        <base loc="en">Update Continuously</base>
+        <tran loc="zh-TW">持續更新</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Window"; ObjectID = "24"; </Description>
+      <Position>24.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">視窗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Aperture Size"; ObjectID = "736"; </Description>
+      <Position>736.title</Position>
+      <TranslationSet>
+        <base loc="en">Aperture Size</base>
+        <tran loc="zh-TW">光圈大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; </Description>
+      <Position>490.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-TW">輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Help"; ObjectID = "491"; </Description>
+      <Position>491.title</Position>
+      <TranslationSet>
+        <base loc="en">Help</base>
+        <tran loc="zh-TW">輔助說明</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display in sRGB"; ObjectID = "539"; </Description>
+      <Position>539.title</Position>
+      <TranslationSet>
+        <base loc="en">Display in sRGB</base>
+        <tran loc="zh-TW">以sRGB顯示</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Display native values"; ObjectID = "538"; </Description>
+      <Position>538.title</Position>
+      <TranslationSet>
+        <base loc="en">Display native values</base>
+        <tran loc="zh-TW">顯示原生值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Digital Color Meter"; ObjectID = "371"; </Description>
+      <Position>371.title</Position>
+      <TranslationSet>
+        <base loc="en">Digital Color Meter</base>
+        <tran loc="zh-TW">數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Digital Color Meter"; ObjectID = "56"; </Description>
+      <Position>56.title</Position>
+      <TranslationSet>
+        <base loc="en">Digital Color Meter</base>
+        <tran loc="zh-TW">數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "Digital Color Meter"; ObjectID = "57"; </Description>
+      <Position>57.title</Position>
+      <TranslationSet>
+        <base loc="en">Digital Color Meter</base>
+        <tran loc="zh-TW">數位測色計</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "as Hexadecimal"; ObjectID = "777"; </Description>
+      <Position>777.title</Position>
+      <TranslationSet>
+        <base loc="en">as Hexadecimal</base>
+        <tran loc="zh-TW">十六進位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; </Description>
+      <Position>29.title</Position>
+      <TranslationSet>
+        <base loc="en">AMainMenu</base>
+        <tran loc="zh-TW">AMainMenu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "2x"; ObjectID = "764"; </Description>
+      <Position>764.title</Position>
+      <TranslationSet>
+        <base loc="en">2x</base>
+        <tran loc="zh-TW">2倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "Uj1-vC-SUx"; </Description>
+      <Position>Uj1-vC-SUx.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-TW">Box</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSBox"; title = "Box"; ObjectID = "XGy-Wd-E0i"; </Description>
+      <Position>XGy-Wd-E0i.title</Position>
+      <TranslationSet>
+        <base loc="en">Box</base>
+        <tran loc="zh-TW">Box</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Lock Y"; ObjectID = "759"; </Description>
+      <Position>759.title</Position>
+      <TranslationSet>
+        <base loc="en">Lock Y</base>
+        <tran loc="zh-TW">鎖定Y</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Bring All to Front</base>
+        <tran loc="zh-TW">將此程式所有視窗移至最前</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Copy Color as Text"; ObjectID = "698"; </Description>
+      <Position>698.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy Color as Text</base>
+        <tran loc="zh-TW">拷貝顏色為文字</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

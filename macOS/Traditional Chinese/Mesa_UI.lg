@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>Mesa_UI</ProjName>
+  <File>
+    <Filepath>Mesa_UI/System/Library/ConfigurationProfiles/PlugIns/TouchID.profileDomainPlugin/Contents/Resources/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Values</Description>
+      <Position>str_TouchIDPolicy_Details_TRUE</Position>
+      <TranslationSet>
+        <base loc="en">True</base>
+        <tran loc="zh-TW">True</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>str_TouchIDPolicy_Details_FALSE</Position>
+      <TranslationSet>
+        <base loc="en">False</base>
+        <tran loc="zh-TW">False</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Errors</Description>
+      <Position>str_PasscodePolicyErr_NoRecordFound</Position>
+      <TranslationSet>
+        <base loc="en">The password policy could not be set up because either the account record could not be found, or the policy information could not be saved.</base>
+        <tran loc="zh-TW">無法設定密碼規則，因為找不到帳號記錄，或是無法儲存規則資訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>str_TouchIDPolicy_AllowTouchIDForUnlock</Position>
+      <TranslationSet>
+        <base loc="en">Allow Touch ID for unlock</base>
+        <tran loc="zh-TW">允許Touch ID解鎖</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>**
+** Payload details
+**</Description>
+      <Position>str_TouchIDPolicy_AllowTouchID</Position>
+      <TranslationSet>
+        <base loc="en">Allow Touch ID</base>
+        <tran loc="zh-TW">允許Touch ID</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>Mesa_UI/System/Library/ConfigurationProfiles/PlugIns/TouchID.profileDomainPlugin/Contents/Resources/English.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountFirst:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@PayloadType@</base>
+        <tran loc="zh-TW">%#@PayloadType@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountLast:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@PayloadType@</base>
+        <tran loc="zh-TW">%#@PayloadType@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_SingularOnly:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@PayloadType@</base>
+        <tran loc="zh-TW">%#@PayloadType@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountLast:dict/PayloadType:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID Policies (%lu)</base>
+        <tran loc="zh-TW">Touch ID規則（%lu）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_SingularOnly:dict/PayloadType:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/CPPayloadCountStringsDictKey_SingularOnly:dict/PayloadType:dict/other:dict/:string)</base>
+        <tran loc="zh-TW">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/CPPayloadCountStringsDictKey_SingularOnly:dict/PayloadType:dict/other:dict/:string)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CPPayloadCountStringsDictKey_CountFirst:dict/PayloadType:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Touch ID Policies</base>
+        <tran loc="zh-TW">%lu個Touch ID規則</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

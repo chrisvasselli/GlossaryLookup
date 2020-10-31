@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>StorageManagement</ProjName>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/GarageBandStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="de">System­informationen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Music Creation</base>
+        <tran loc="de">Musikerstellung</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/GarageBandStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>InstrumentLibrary</Position>
+      <TranslationSet>
+        <base loc="en">Instrument Library</base>
+        <tran loc="de">Instrumentenbibliothek</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_APPRUNNING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot delete content while GarageBand is open</base>
+        <tran loc="de">Es ist nicht möglich Inhalt zu löschen, solange GarageBand geöffnet ist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_MSG_GB_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">The GarageBand Sound Library contains instruments, sounds, and lessons. This content can be removed and reinstalled later if needed.</base>
+        <tran loc="de">Die GarageBand-Soundmediathek enthält Instrumente, Sounds und Übungen. Diese Inhalte können bei Bedarf entfernt und später erneut installiert werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+  Localizable.strings
+  StorageManagement
+
+  Created by robert on 3/28/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+</Description>
+      <Position>SIZE_FMT</Position>
+      <TranslationSet>
+        <base loc="en">The GarageBand Sound Library contains instruments, sounds, and lessons using %@ of space. This content can be removed and reinstalled later if needed.</base>
+        <tran loc="de">Die GarageBand-Soundmediathek enthält Instrumente, Sounds und Übungen und benötigt %@ Speicherplatz. Diese Inhalte können bei Bedarf entfernt und später erneut installiert werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_GARAGEBAND</Position>
+      <TranslationSet>
+        <base loc="en">Open GarageBand</base>
+        <tran loc="de">GarageBand öffnen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEMS_DELETE_CONFIRM_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This will free up %@ of storage. You can’t undo this action, but you can reinstall this content later if needed.</base>
+        <tran loc="de">Dadurch wird zusätzlich %@ Speicherplatz frei. Du kannst diese Aktion nicht widerrufen, aber du kannst diese Inhalte bei Bedarf später erneut installieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_GB_CONTENT</Position>
+      <TranslationSet>
+        <base loc="en">Remove GarageBand Sound Library</base>
+        <tran loc="de">GarageBand-Soundmediathek entfernen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOVE</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="de">Entfernen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_CONFIRM_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This will free up %@ of storage. You can’t undo this action, but you can reinstall the Sound Library later if needed.</base>
+        <tran loc="de">Dadurch wird zusätzlicher Speicherplatz von %@ frei. Du kannst diese Aktion nicht widerrufen, aber du kannst die Soundmediathek bei Bedarf später erneut installieren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_MAINSTAGE</Position>
+      <TranslationSet>
+        <base loc="en">Open MainStage</base>
+        <tran loc="de">MainStage öffnen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LTPBasic</Position>
+      <TranslationSet>
+        <base loc="en">Basic Lessons</base>
+        <tran loc="de">Grundlagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIZE_CALC</Position>
+      <TranslationSet>
+        <base loc="en">Calculating…</base>
+        <tran loc="de">Berechnen …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_LOGIC</Position>
+      <TranslationSet>
+        <base loc="en">Open Logic</base>
+        <tran loc="de">Logic öffnen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AppleLoops</Position>
+      <TranslationSet>
+        <base loc="en">Apple Loops</base>
+        <tran loc="de">Apple Loops</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_CONFIRM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Remove GarageBand Sound Library from disk?</base>
+        <tran loc="de">GarageBand-Soundmediathek vom Volume entfernen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HEADER_MSG</Position>
+      <TranslationSet>
+        <base loc="en">The Instrument Library and Apple Loops are used by GarageBand, Logic Pro X, and MainStage. The lessons are used only by GarageBand. All or part of this content can be removed and reinstalled later if needed.</base>
+        <tran loc="de">Die Instrumentenbibliothek und Apple Loops werden von GarageBand, Logic Pro X und MainStage verwendet. Die Übungen werden nur von GarageBand verwendet. Die Inhalte können bei Bedarf ganz oder teilweise entfernt und später erneut installiert werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GB_SUMMARY_APPRUNNING_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">GarageBand is using the content you are trying to delete. Please quit GarageBand first, then try deleting content.</base>
+        <tran loc="de">GarageBand verwendet den Inhalt, den du löschen möchtest. Bitte beende zuerst GarageBand und versuche danach erneut, den Inhalt zu löschen.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/iOSFilesStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>POD_IPSW_FMT</Position>
+      <TranslationSet>
+        <base loc="en">Firmware %@ for %@</base>
+        <tran loc="de">Firmware %@ für %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Device Backups</Position>
+      <TranslationSet>
+        <base loc="en">Device Backups</base>
+        <tran loc="de">Geräte-Backups</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>iOS Installers</Position>
+      <TranslationSet>
+        <base loc="en">iOS Installers</base>
+        <tran loc="de">iOS-Installationsprogramme</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IOS_IPSW_FMT</Position>
+      <TranslationSet>
+        <base loc="en">iOS %@ for %@</base>
+        <tran loc="de">iOS %@ für %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ATV_IPSW_FMT</Position>
+      <TranslationSet>
+        <base loc="en">tvOS %@ for %@</base>
+        <tran loc="de">tvOS %@ für %@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DM_REMOVE</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="de">Löschen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeCopy_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to copy this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="de">%@ zusätzlicher Speicherplatz wird benötigt, um diese Datei zu kopieren. Du kannst Speicherplatz verwalten, indem du Objekte im Abschnitt „Festplatten“ unter „Über diesen Mac“ entfernst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeDownload</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to download \“%@\”</base>
+        <tran loc="de">Nicht genügend Speicherplatz für den Download von „%@“.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeExport</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to export \“%@\”</base>
+        <tran loc="de">Nicht genügend Speicherplatz für das Exportieren von „%@“.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STORAGE_CRITICALLY_LOW_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Save space by optimizing storage.</base>
+        <tran loc="de">Durch Speicheroptimierung Platz sparen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeInstall_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to install this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="de">%@ zusätzlicher Speicherplatz wird benötigt, um diese Datei zu installieren. Du kannst Speicherplatz verwalten, indem du Objekte im Abschnitt „Festplatten“ unter „Über diesen Mac“ entfernst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="de">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPEN_STMUI</Position>
+      <TranslationSet>
+        <base loc="en">Manage…</base>
+        <tran loc="de">Verwalten …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeCopy</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to copy \“%@\”</base>
+        <tran loc="de">Nicht genügend Speicherplatz für das Kopieren von „%@“.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_OPEN_X</Position>
+      <TranslationSet>
+        <base loc="en">Open %@</base>
+        <tran loc="de">„%@“ offen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeExport_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to export this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="de">%@ zusätzlicher Speicherplatz wird benötigt, um diese Datei zu exportieren. Du kannst Speicherplatz verwalten, indem du Objekte im Abschnitt „Festplatten“ unter „Über diesen Mac“ entfernst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeDownload_info</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of disk space is required to download this file. You can manage disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="de">%@ zusätzlicher Speicherplatz wird benötigt, um diese Datei zu laden. Du kannst Speicherplatz verwalten, indem du Objekte im Abschnitt „Festplatten“ unter „Über diesen Mac“ entfernst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INFO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Additional %@ of free space is needed to continue. You can create disk space by removing items from the Storage section of About This Mac.</base>
+        <tran loc="de">%@ freier Speicherplatz wird benötigt, um fortzufahren. Du kannst Speicherplatz schaffen, indem du Objekte im Abschnitt „Festplatten“ unter „Über diesen Mac“ entfernst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> diskspaced strings</Description>
+      <Position>STORAGE_CRITICALLY_LOW</Position>
+      <TranslationSet>
+        <base loc="en">Your disk is almost full</base>
+        <tran loc="de">Das Volume ist fast voll</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OperationTypeInstall</Position>
+      <TranslationSet>
+        <base loc="en">Not enough disk space to install \“%@\”</base>
+        <tran loc="de">Nicht genügend Speicherplatz für das Installieren von „%@“.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DM_OPEN</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="de">Öffnen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Applications</base>
+        <tran loc="de">Programme</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="de">System­informationen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>APPS_OLDER</Position>
+      <TranslationSet>
+        <base loc="en">Older Versions</base>
+        <tran loc="de">Ältere Versionen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_DUPLS</Position>
+      <TranslationSet>
+        <base loc="en">Duplicates</base>
+        <tran loc="de">Duplikate</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_TYPE_UNSUPPORTED</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported</base>
+        <tran loc="de">Nicht unterstützt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_OPEN</Position>
+      <TranslationSet>
+        <base loc="en">Open Applications</base>
+        <tran loc="de">Programme öffnen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APP_VERS_FMT</Position>
+      <TranslationSet>
+        <base loc="en">%@ (v%@)</base>
+        <tran loc="de">%@ (v%@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_APPLS</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="de">Andere</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>APPS_STORE</Position>
+      <TranslationSet>
+        <base loc="en">App Store</base>
+        <tran loc="de">App Store</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/GarageBandStorageExtension.appex/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/ITEMS_DELETE_CONFIRM_TITLE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the %1$ld selected items?</base>
+        <tran loc="de">Sollen die %1$ld ausgewählten Objekte wirklich gelöscht werden?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ITEMS_DELETE_CONFIRM_TITLE:dict/num_items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete ”%2$@“?</base>
+        <tran loc="de">Bist du sicher, dass du „%2$@“ löschen willst?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/ITEMS_DELETE_CONFIRM_TITLE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="de">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/OtherUsersStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Other Users</base>
+        <tran loc="de">Andere Benutzer</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_TITLE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the %1$ld selected items?</base>
+        <tran loc="de">Sollen die %1$ld ausgewählten Objekte wirklich gelöscht werden?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_NOSIZE:dict/num_items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">The item will be deleted immediately. You can’t undo this action.</base>
+        <tran loc="de">Das Objekt wird sofort gelöscht. Die Aktion kann nicht widerrufen werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_MESSAGE:dict/num_items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">The item will be deleted immediately, freeing %2$@ of storage. You can’t undo this action.</base>
+        <tran loc="de">Das Objekt wird dauerhaft gelöscht und %2$@ Speicherplatz werden frei. Dies kann nicht rückgängig gemacht werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_TITLE:dict/num_items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete ”%2$@“?</base>
+        <tran loc="de">Bist du sicher, dass du „%2$@“ löschen willst?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_MESSAGE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$ld items will be deleted immediately, freeing %2$@ of storage. You can’t undo this action.</base>
+        <tran loc="de">%1$ld Objekte werden dauerhaft gelöscht und ein Speicherplatz von %2$@ wird frei. Dies kann nicht rückgängig gemacht werden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_MESSAGE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="de">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_NOSIZE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="de">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_TITLE:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@num_items@</base>
+        <tran loc="de">%1$#@num_items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DM_REMOVE_NOSIZE:dict/num_items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$ld items will be deleted immediately. You can’t undo this action.</base>
+        <tran loc="de">%1$ld Objekte werden sofort gelöscht. Diese Aktion kann nicht widerrufen werden.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/iOSFilesStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iOS Files</base>
+        <tran loc="de">iOS-Dateien</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="de">System­informationen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/STMUIHelper.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MANAGE_STORAGE</Position>
+      <TranslationSet>
+        <base loc="en">Manage Disk Space</base>
+        <tran loc="de">Speicherplatz einer Festplatte verwalten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/CloudFilesStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Cloud Files</base>
+        <tran loc="de">Cloud-Dateien</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="de">System­informationen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/CloudFilesStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>PINNED_FMT</Position>
+      <TranslationSet>
+        <base loc="en">Local %@ items (Pinned)</base>
+        <tran loc="de">Lokale %@-Objekte (angeheftet)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNSYNC_FMT</Position>
+      <TranslationSet>
+        <base loc="en">Local %@ items (Waiting to Upload)</base>
+        <tran loc="de">Lokale %@-Objekte (auf Upload warten)</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/TrashStorageExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Trash</base>
+        <tran loc="de">Papierkorb</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Information</base>
+        <tran loc="de">System­informationen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>StorageManagement/System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/TrashStorageExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>EMPTY_TRASH</Position>
+      <TranslationSet>
+        <base loc="en">Empty Trash</base>
+        <tran loc="de">Papierkorb entleeren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to empty Trash automatically?</base>
+        <tran loc="de">Möchtest du den Papierkorb wirklich automatisch leeren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIP_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On…</base>
+        <tran loc="de">Aktivieren …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIP_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Save space by automatically erasing items that have been in the Trash for more than 30 days.</base>
+        <tran loc="de">Nutze Speicherplatz effektiv, indem du Objekte automatisch löschst, die länger als 30 Tage im Papierkorb liegen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_MSG</Position>
+      <TranslationSet>
+        <base loc="en">Items left in the Trash for more than 30 days will be automatically erased. You can change this setting later in Finder preferences.</base>
+        <tran loc="de">Objekte, die länger als 30 Tage im Papierkorb liegen, werden automatisch gelöscht. Du kannst diese Einstellung später in den Finder-Einstellungen ändern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_OK</Position>
+      <TranslationSet>
+        <base loc="en">Turn On</base>
+        <tran loc="de">Aktivieren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TIP_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Empty Trash Automatically</base>
+        <tran loc="de">Papierkorb automatisch leeren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICLOUD_TRASH</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Trash</base>
+        <tran loc="de">iCloud-Papierkorb</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AppSSO</ProjName>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/Support/KerberosMenuExtra.app/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/TOOLTIP_PASSWORD_EXPIRES_IN_DAYS_SINGLE_LINE_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="zh-TW">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/TOOLTIP_PASSWORD_EXPIRES_IN_DAYS_SINGLE_LINE_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Password expires in %d days</base>
+        <tran loc="zh-TW">密碼將在%d天後到期</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/NOTIFICATION_DESC_NORMAL_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire in %d days</base>
+        <tran loc="zh-TW">您的密碼將在%d天後過期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NOTIFICATION_DESC_NORMAL_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="zh-TW">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosMacKeychainPasswordPrompter.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "No"; ObjectID = "Lb1-PK-0QM"; </Description>
+      <Position>Lb1-PK-0QM.title</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="zh-TW">否</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Would you like to automatically sign in from now on?"; ObjectID = "oAu-0c-3ll"; </Description>
+      <Position>oAu-0c-3ll.title</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to automatically sign in from now on?</base>
+        <tran loc="zh-TW">您要從現在開始自動登入嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Yes"; ObjectID = "Ftu-7v-Xkg"; </Description>
+      <Position>Ftu-7v-Xkg.title</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="zh-TW">是</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosMacLoginViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Username:"; ObjectID = "BiH-Mc-cyx"; </Description>
+      <Position>BiH-Mc-cyx.title</Position>
+      <TranslationSet>
+        <base loc="en">Username:</base>
+        <tran loc="zh-TW">使用者名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Domain: test.com"; ObjectID = "TkT-jn-1sE"; </Description>
+      <Position>TkT-jn-1sE.title</Position>
+      <TranslationSet>
+        <base loc="en">Domain: test.com</base>
+        <tran loc="zh-TW">網域：test.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Sign In"; ObjectID = "mJb-na-L9Y"; </Description>
+      <Position>mJb-na-L9Y.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="zh-TW">登入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "B0r-Wl-htk"; </Description>
+      <Position>B0r-Wl-htk.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="zh-TW">密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibExternalAccessibilityDescription = "Username field"; ObjectID = "fcV-dV-0Zx"; </Description>
+      <Position>fcV-dV-0Zx.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Username field</base>
+        <tran loc="zh-TW">使用者名稱欄位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Y58-Hj-O0O"; </Description>
+      <Position>Y58-Hj-O0O.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use a smart card or identity"; ObjectID = "1ea-Md-6GR"; </Description>
+      <Position>1ea-Md-6GR.title</Position>
+      <TranslationSet>
+        <base loc="en">Use a smart card or identity</base>
+        <tran loc="zh-TW">使用智慧卡或識別身分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Use a smart card or identity"; ObjectID = "jf2-NH-7lJ"; </Description>
+      <Position>jf2-NH-7lJ.title</Position>
+      <TranslationSet>
+        <base loc="en">Use a smart card or identity</base>
+        <tran loc="zh-TW">使用智慧卡或識別身分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibExternalAccessibilityDescription = "Sign In button"; ObjectID = "9ey-cD-fVc"; </Description>
+      <Position>9ey-cD-fVc.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Sign In button</base>
+        <tran loc="zh-TW">登入按鈕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Identity..."; ObjectID = "2w9-hS-B4g"; </Description>
+      <Position>2w9-hS-B4g.title</Position>
+      <TranslationSet>
+        <base loc="en">Identity...</base>
+        <tran loc="zh-TW">識別身分⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Options"; ObjectID = "c85-VV-iSA"; </Description>
+      <Position>c85-VV-iSA.title</Position>
+      <TranslationSet>
+        <base loc="en">Options</base>
+        <tran loc="zh-TW">選項</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSecureTextField"; ibExternalAccessibilityDescription = "Password field"; ObjectID = "M08-Op-OKf"; </Description>
+      <Position>M08-Op-OKf.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Password field</base>
+        <tran loc="zh-TW">密碼欄位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSecureTextFieldCell"; placeholderString = "Password"; ObjectID = "wph-S2-hV9"; </Description>
+      <Position>wph-S2-hV9.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="zh-TW">密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Error text"; ObjectID = "HFa-Uy-t9r"; </Description>
+      <Position>HFa-Uy-t9r.title</Position>
+      <TranslationSet>
+        <base loc="en">Error text</base>
+        <tran loc="zh-TW">錯誤文字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Sign in automatically"; ObjectID = "2UU-X8-v1U"; </Description>
+      <Position>2UU-X8-v1U.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign in automatically</base>
+        <tran loc="zh-TW">自動登入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Not configured"; ObjectID = "AX4-ml-Yr8"; </Description>
+      <Position>AX4-ml-Yr8.title</Position>
+      <TranslationSet>
+        <base loc="en">Not configured</base>
+        <tran loc="zh-TW">未設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "Username"; ObjectID = "cbd-QZ-TcU"; </Description>
+      <Position>cbd-QZ-TcU.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="zh-TW">使用者名稱</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosPasswordChangeViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Old Password:"; ObjectID = "Cxd-a9-9u0"; </Description>
+      <Position>Cxd-a9-9u0.title</Position>
+      <TranslationSet>
+        <base loc="en">Old Password:</base>
+        <tran loc="zh-TW">舊密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "C2G-uS-da4"; </Description>
+      <Position>C2G-uS-da4.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "New Password:"; ObjectID = "Vsn-3O-7zc"; </Description>
+      <Position>Vsn-3O-7zc.title</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="zh-TW">新密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify:"; ObjectID = "SsY-OR-p7V"; </Description>
+      <Position>SsY-OR-p7V.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify:</base>
+        <tran loc="zh-TW">驗證：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Change Password"; ObjectID = "fFL-FZ-nxB"; </Description>
+      <Position>fFL-FZ-nxB.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password</base>
+        <tran loc="zh-TW">更改密碼</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>UNSUPPORTED_ENC_TYPE</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported encryption type</base>
+        <tran loc="zh-TW">不支援的加密類型</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_BINDPROBLEM_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Please contact an administrator to re-bind your Mac to Active Directory.</base>
+        <tran loc="zh-TW">請聯絡管理者來將您的Mac重新綁定到Active Directory。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired. Click OK to change your password, then sign in with your new password.</base>
+        <tran loc="zh-TW">您的密碼已過期。請按一下「好」來更改密碼，然後以新密碼登入。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCAL_PASSWORD_SYNC_CANCELLED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">By selecting Cancel, your Mac’s login password will not be set to match your Active Directory password. Are you sure you want to do this?</base>
+        <tran loc="zh-TW">若選擇「取消」，您的Mac登入密碼將不會被設定為符合您的Active Directory密碼。確定要執行嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password Expired</base>
+        <tran loc="zh-TW">密碼過期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRMATION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Confirmation</base>
+        <tran loc="zh-TW">確認</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_LOGIN_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to sign in automatically from now on?</base>
+        <tran loc="zh-TW">您要從現在開始自動登入嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_INCORRECT</Position>
+      <TranslationSet>
+        <base loc="en">Password is incorrect</base>
+        <tran loc="zh-TW">密碼不正確</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_SYNC_ALERT_TEXT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">\n\nAdditionally, your Mac’s login password has been set to match your new Active Directory password.</base>
+        <tran loc="zh-TW">\n\n此外，您的Mac登入密碼已被設定為符合新的Active Directory密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLEASE_INSERT_SMARTCARD</Position>
+      <TranslationSet>
+        <base loc="en">Please insert your smart card</base>
+        <tran loc="zh-TW">請插入智慧卡</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_KEYCHAIN_FAILED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem updating your Keychain password. You’ll be prompted to update your Keychain password the next time you log into your Mac.</base>
+        <tran loc="zh-TW">更新您的「鑰匙圈」密碼時發生問題。下次登入Mac時，將會提示您更新「鑰匙圈」密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>
+ Localizable.strings
+</Description>
+      <Position>ACCOUNT_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">Account is locked</base>
+        <tran loc="zh-TW">帳號已鎖定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_MATCH_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Please make sure the new passwords match, then try again.</base>
+        <tran loc="zh-TW">請確定新密碼相符，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNABLE_TO_RESOLVE_REALM</Position>
+      <TranslationSet>
+        <base loc="en">Unable to resolve realm</base>
+        <tran loc="zh-TW">無法解析領域</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_OLD_PASSWORD_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your old password is incorrect. Please try again.</base>
+        <tran loc="zh-TW">您的舊密碼不正確。請再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGES_DISABLED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password changes disabled</base>
+        <tran loc="zh-TW">已停用密碼變更</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CERTIFICATE_NOT_FOUND</Position>
+      <TranslationSet>
+        <base loc="en">Certificate not found</base>
+        <tran loc="zh-TW">找不到憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_MATCH_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">New passwords don’t match</base>
+        <tran loc="zh-TW">新密碼不符</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_KEYCHAIN_FAILED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Keychain password change failed</base>
+        <tran loc="zh-TW">更改鑰匙圈密碼失敗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password change failed</base>
+        <tran loc="zh-TW">密碼變更失敗</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="zh-TW">否</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Unknown error</base>
+        <tran loc="zh-TW">未知的錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SYNCFAILED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Problem setting login password</base>
+        <tran loc="zh-TW">設定登入密碼時發生問題</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCAL_PASSWORD_SYNC_PASSED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your login and Active Directory passwords now match. Going forward, use your Active Directory password to log into your Mac.</base>
+        <tran loc="zh-TW">您的登入密碼和Active Directory密碼現已相符。此後，請使用Active Directory密碼來登入Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USERNAME_INCORRECT</Position>
+      <TranslationSet>
+        <base loc="en">Username is incorrect</base>
+        <tran loc="zh-TW">使用者名稱不正確</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTO_LOGIN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Login automatically?</base>
+        <tran loc="zh-TW">自動登入？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_ALERT_TEXT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Your Active Directory password has been successfully changed.%@</base>
+        <tran loc="zh-TW">已成功更改您的Active Directory密碼。%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Password change successful</base>
+        <tran loc="zh-TW">密碼變更成功</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_FAILED_SERVER_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your password didn’t meet server requirements. Please try again.</base>
+        <tran loc="zh-TW">您的密碼不符合伺服器的需求。請再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SUCCESS_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your Active Directory password has been successfully changed.</base>
+        <tran loc="zh-TW">已成功更改您的Active Directory密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIGURED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Configured</base>
+        <tran loc="zh-TW">已設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_HISTORY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Current password must not match any of %d previous passwords</base>
+        <tran loc="zh-TW">現用的密碼不能與先前%d個密碼相同</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WRONG_PASSWORD_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Wrong password - Please try again</base>
+        <tran loc="zh-TW">密碼錯誤 - 請再試一次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOT_CONFIGURED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Not Configured</base>
+        <tran loc="zh-TW">尚未設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_SYNCFAILED_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem setting your login password to match your Active Directory password. Please contact your IT help desk for assistance.</base>
+        <tran loc="zh-TW">設定登入密碼以符合您的Active Directory密碼時發生錯誤。請聯絡您的IT人員尋求協助。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGE_PASSWORD_CHANGE_MISC_FAILURE_ALERT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem changing your password. Make sure you’re on your organization’s network, then try again.</base>
+        <tran loc="zh-TW">更改密碼時發生問題。請確定您已連接組織網路，然後再試一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOCAL_PASSWORD_SYNC_PASSED_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Passwords in sync</base>
+        <tran loc="zh-TW">已同步密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YES_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="zh-TW">是</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Password has expired</base>
+        <tran loc="zh-TW">密碼已到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KDC_UNREACHABLE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to connect, please check your connection</base>
+        <tran loc="zh-TW">無法連接，請檢查您的連線</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_CHANGES_DISABLED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your adminstrator has disabled password changes.</base>
+        <tran loc="zh-TW">您的管理者已停用密碼變更。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  AppSSO
+
+  Created by admin on 3/6/19.
+  
+</Description>
+      <Position>NOTIFICATION_CHANGE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Change</base>
+        <tran loc="zh-TW">更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_TITLE_SOON</Position>
+      <TranslationSet>
+        <base loc="en">Password expiring soon</base>
+        <tran loc="zh-TW">密碼即將到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_TITLE_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Password expired</base>
+        <tran loc="zh-TW">密碼已到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_IGNORE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Ignore</base>
+        <tran loc="zh-TW">忽略</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_DESC_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired. Please change your password immediately.</base>
+        <tran loc="zh-TW">您的密碼已到期。請立即更改密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTIFICATION_DESC_TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire today.</base>
+        <tran loc="zh-TW">您的密碼將在今天到期。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosLocalPasswordView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter your Active Directory or network password:"; ObjectID = "ORm-Ft-7Zy"; </Description>
+      <Position>ORm-Ft-7Zy.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter your Active Directory or network password:</base>
+        <tran loc="zh-TW">輸入您的Active Directory或網路密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "8Di-wb-4HG"; </Description>
+      <Position>8Di-wb-4HG.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="zh-TW">標籤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "wT2-zO-iat"; </Description>
+      <Position>wT2-zO-iat.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="zh-TW">標籤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "n1W-XM-OF1"; </Description>
+      <Position>n1W-XM-OF1.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Sync Password"; ObjectID = "RlM-MF-lMK"; </Description>
+      <Position>RlM-MF-lMK.title</Position>
+      <TranslationSet>
+        <base loc="en">Sync Password</base>
+        <tran loc="zh-TW">同步密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter your login password - the one you use to log into your Mac and unlock the screen saver:"; ObjectID = "aqW-JK-4eZ"; </Description>
+      <Position>aqW-JK-4eZ.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter your login password - the one you use to log into your Mac and unlock the screen saver:</base>
+        <tran loc="zh-TW">請輸入您的登入密碼，即您用來登入Mac和解鎖螢幕保護程式的密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Your login and Active Directory passwords may not match. We will bring them into sync."; ObjectID = "KWZ-kr-wGd"; </Description>
+      <Position>KWZ-kr-wGd.title</Position>
+      <TranslationSet>
+        <base loc="en">Your login and Active Directory passwords may not match. We will bring them into sync.</base>
+        <tran loc="zh-TW">您的登入和Active Directory密碼可能不相符。我們會將其同步。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/DAYS_COUNT_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d days</base>
+        <tran loc="zh-TW">%d天</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PASSWORD_REQUIRED_LENGTH_TEXT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@characters@</base>
+        <tran loc="zh-TW">%#@characters@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/DAYS_COUNT_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="zh-TW">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MINIMUM_PASSWORD_AGE_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@days@</base>
+        <tran loc="zh-TW">%#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/PASSWORD_REQUIRED_LENGTH_TEXT:dict/characters:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d or more characters</base>
+        <tran loc="zh-TW">%d個或更多字元</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/MINIMUM_PASSWORD_AGE_FORMAT:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Current password must be more than %d days old</base>
+        <tran loc="zh-TW">現用密碼必須使用%d天以上</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosPasswordPolicyPopoverInteractive.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Meets all requirements"; ObjectID = "hi3-bh-mPA"; </Description>
+      <Position>hi3-bh-mPA.title</Position>
+      <TranslationSet>
+        <base loc="en">Meets all requirements</base>
+        <tran loc="zh-TW">符合所有需求</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "At least 8 characters"; ObjectID = "LRj-n9-tlE"; </Description>
+      <Position>LRj-n9-tlE.title</Position>
+      <TranslationSet>
+        <base loc="en">At least 8 characters</base>
+        <tran loc="zh-TW">最少8個字元</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosPasswordPolicyPopoverInteractiveComplex.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has lowercase letter"; ObjectID = "D4s-CX-Czy"; </Description>
+      <Position>D4s-CX-Czy.title</Position>
+      <TranslationSet>
+        <base loc="en">Has lowercase letter</base>
+        <tran loc="zh-TW">包含小寫字母</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Meets all requirements"; ObjectID = "hi3-bh-mPA"; </Description>
+      <Position>hi3-bh-mPA.title</Position>
+      <TranslationSet>
+        <base loc="en">Meets all requirements</base>
+        <tran loc="zh-TW">符合所有需求</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has a special character"; ObjectID = "cDG-Jd-Fpk"; </Description>
+      <Position>cDG-Jd-Fpk.title</Position>
+      <TranslationSet>
+        <base loc="en">Has a special character</base>
+        <tran loc="zh-TW">包含特殊字元</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has uppercase letter"; ObjectID = "KxH-Fu-Fle"; </Description>
+      <Position>KxH-Fu-Fle.title</Position>
+      <TranslationSet>
+        <base loc="en">Has uppercase letter</base>
+        <tran loc="zh-TW">包含大寫字母</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "passwordAge"; ObjectID = "r36-jC-WmQ"; </Description>
+      <Position>r36-jC-WmQ.title</Position>
+      <TranslationSet>
+        <base loc="en">passwordAge</base>
+        <tran loc="zh-TW">passwordAge</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Doesn't contain any words in your display name or username"; ObjectID = "3Gy-dQ-0Dh"; </Description>
+      <Position>3Gy-dQ-0Dh.title</Position>
+      <TranslationSet>
+        <base loc="en">Doesn't contain any words in your display name or username</base>
+        <tran loc="zh-TW">您的顯示名稱和使用者名稱不包含任何文字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has a Unicode character"; ObjectID = "GdH-Rp-vXo"; </Description>
+      <Position>GdH-Rp-vXo.title</Position>
+      <TranslationSet>
+        <base loc="en">Has a Unicode character</base>
+        <tran loc="zh-TW">包含Unicode字元</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "passwordHistory"; ObjectID = "kcH-gL-J5X"; </Description>
+      <Position>kcH-gL-J5X.title</Position>
+      <TranslationSet>
+        <base loc="en">passwordHistory</base>
+        <tran loc="zh-TW">passwordHistory</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "At least 8 characters"; ObjectID = "LRj-n9-tlE"; </Description>
+      <Position>LRj-n9-tlE.title</Position>
+      <TranslationSet>
+        <base loc="en">At least 8 characters</base>
+        <tran loc="zh-TW">最少8個字元</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Has a number"; ObjectID = "aEm-a7-i1h"; </Description>
+      <Position>aEm-a7-i1h.title</Position>
+      <TranslationSet>
+        <base loc="en">Has a number</base>
+        <tran loc="zh-TW">包含數字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Three of these requirements:"; ObjectID = "bkI-3f-Ty1"; </Description>
+      <Position>bkI-3f-Ty1.title</Position>
+      <TranslationSet>
+        <base loc="en">Three of these requirements:</base>
+        <tran loc="zh-TW">其中三項需求：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/Support/KerberosMenuExtra.app/Contents/Resources/en.lproj/MainMenu.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Sign Out"; ObjectID = "hGd-4v-U7m"; </Description>
+      <Position>hGd-4v-U7m.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign Out</base>
+        <tran loc="zh-TW">登出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Sign In"; ObjectID = "PBW-NI-1Ac"; </Description>
+      <Position>PBW-NI-1Ac.title</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="zh-TW">登入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Change Password..."; ObjectID = "uZG-b8-QyL"; </Description>
+      <Position>uZG-b8-QyL.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password...</base>
+        <tran loc="zh-TW">更改密碼⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Updating…"; ObjectID = "DT6-Vt-VRN"; </Description>
+      <Position>DT6-Vt-VRN.title</Position>
+      <TranslationSet>
+        <base loc="en">Updating…</base>
+        <tran loc="zh-TW">正在更新⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Updating…"; ObjectID = "GGK-Be-g4f"; </Description>
+      <Position>GGK-Be-g4f.title</Position>
+      <TranslationSet>
+        <base loc="en">Updating…</base>
+        <tran loc="zh-TW">正在更新⋯</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AppSSO/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/Resources/en.lproj/KerberosCertPickerPopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Available certificates"; ObjectID = "o9U-lX-IDe"; </Description>
+      <Position>o9U-lX-IDe.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Available certificates</base>
+        <tran loc="zh-TW">可用的憑證</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Select"; ObjectID = "aeH-EB-X45"; </Description>
+      <Position>aeH-EB-X45.title</Position>
+      <TranslationSet>
+        <base loc="en">Select</base>
+        <tran loc="zh-TW">選取</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "User Principal Name"; ObjectID = "Hja-Pa-g52"; </Description>
+      <Position>Hja-Pa-g52.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">User Principal Name</base>
+        <tran loc="zh-TW">使用者主要名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Inspect..."; ObjectID = "ryy-Gl-AOH"; </Description>
+      <Position>ryy-Gl-AOH.title</Position>
+      <TranslationSet>
+        <base loc="en">Inspect...</base>
+        <tran loc="zh-TW">檢閱⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text"; ObjectID = "1xS-6A-WYx"; </Description>
+      <Position>1xS-6A-WYx.title</Position>
+      <TranslationSet>
+        <base loc="en">Text</base>
+        <tran loc="zh-TW">Text</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ZMO-HL-Of6"; </Description>
+      <Position>ZMO-HL-Of6.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

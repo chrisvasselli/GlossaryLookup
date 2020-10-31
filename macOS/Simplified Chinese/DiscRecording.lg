@@ -1,0 +1,4833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DiscRecording</ProjName>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/SimpleBurnProgress.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - do not localize"; ObjectID = "100012"; </Description>
+      <Position>100012.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - do not localize</base>
+        <tran loc="zh-CN">Status Text - do not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Burning"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Burning</base>
+        <tran loc="zh-CN">正在刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Stop"; ObjectID = "100011"; </Description>
+      <Position>100011.title</Position>
+      <TranslationSet>
+        <base loc="en">Stop</base>
+        <tran loc="zh-CN">停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Description - do not localize"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Description - do not localize</base>
+        <tran loc="zh-CN">Burn Description - do not localize</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseSetupView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase data on disc:"; ObjectID = "100010"; </Description>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase data on disc:</base>
+        <tran loc="zh-CN">抹掉光盘上的数据：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase every block on the disc. This can take over 30 minutes."; ObjectID = "13"; </Description>
+      <Position>13.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase every block on the disc. This can take over 30 minutes.</base>
+        <tran loc="zh-CN">抹掉光盘中每一个块。这要花费超过30分钟的时间。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100011"; </Description>
+      <Position>100011.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-CN">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Completely"; ObjectID = "13"; </Description>
+      <Position>13.title</Position>
+      <TranslationSet>
+        <base loc="en">Completely</base>
+        <tran loc="zh-CN">完全</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase the Table of Contents, without affecting the rest of the disc."; ObjectID = "12"; </Description>
+      <Position>12.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase the Table of Contents, without affecting the rest of the disc.</base>
+        <tran loc="zh-CN">抹掉目录，但不影响该光盘的其他内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Quickly"; ObjectID = "12"; </Description>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Quickly</base>
+        <tran loc="zh-CN">快速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Eject the disc in the drive."; ObjectID = "9"; </Description>
+      <Position>9.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="zh-CN">推出驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - \nDo not localize"; ObjectID = "100006"; </Description>
+      <Position>100006.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - \nDo not localize</base>
+        <tran loc="zh-CN">Status Text - \nDo not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="zh-CN">抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="zh-CN">推出</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseProgressStrings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFailed</Position>
+      <TranslationSet>
+        <base loc="en">Erase failed with an error</base>
+        <tran loc="zh-CN">由于错误，抹掉失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DREraseTypeQuick</Position>
+      <TranslationSet>
+        <base loc="en">Quickly erasing the disc in the %1$@ drive.</base>
+        <tran loc="zh-CN">正在快速抹掉%1$@驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateDone</Position>
+      <TranslationSet>
+        <base loc="en">The disc was erased successfully</base>
+        <tran loc="zh-CN">已成功抹掉该光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateErasing</Position>
+      <TranslationSet>
+        <base loc="en">Erasing disc</base>
+        <tran loc="zh-CN">正在抹掉光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FailedTitle</Position>
+      <TranslationSet>
+        <base loc="en">Erasing the disc in the %1$@ drive failed. %2$@</base>
+        <tran loc="zh-CN">抹掉%1$@驱动器中的光盘失败。%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DREraseTypeComplete</Position>
+      <TranslationSet>
+        <base loc="en">Completely erasing the disc in the %1$@ drive.</base>
+        <tran loc="zh-CN">正在完全抹掉%1$@驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Generic</Position>
+      <TranslationSet>
+        <base loc="en">Erasing the disc in the %1$@ drive.</base>
+        <tran loc="zh-CN">正在抹掉%1$@驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStatePreparing</Position>
+      <TranslationSet>
+        <base loc="en">Preparing to erase</base>
+        <tran loc="zh-CN">正在准备抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/ExceptionInfo.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FileRefNumModifiedInfo</Position>
+      <TranslationSet>
+        <base loc="en">\"%RefNum@\" was modified while being read.</base>
+        <tran loc="zh-CN">“%RefNum@”在读取时被修改。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSIteratorOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not scan children of \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能扫描“%FSRef@”的子分支(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSGetCatalogInfoBulkFailed</Position>
+      <TranslationSet>
+        <base loc="en">Scanning children of \"%FSRef@\" failed (%d)</base>
+        <tran loc="zh-CN">扫描“%FSRef@”的子分支失败(%d)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DataForkOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not open the data fork of \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能打开“%FSRef@”的数据分支(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FileRefNumSizeModifiedInfo</Position>
+      <TranslationSet>
+        <base loc="en">\"%RefNum@\" changed size while being read.</base>
+        <tran loc="zh-CN">“%RefNum@”在读取时被改变了大小。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Exception info strings for various file system related failures. </Description>
+      <Position>FileRefNumReadFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not read \"%RefNum@\" (%d).</base>
+        <tran loc="zh-CN">未能读取“%RefNum@”(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ResForkOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not open the resource fork of \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能打开“%FSRef@”的资源分支(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSGetCatalogInfoFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not retrieve file metadata information for \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能取回“%FSRef@”的文件元数据信息(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRMFileReadFailed</Position>
+      <TranslationSet>
+        <base loc="en">\"%FSRef@\" contains protected content and cannot be burned.</base>
+        <tran loc="zh-CN">“%FSRef@”含有被保护的内容，不能被刻录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FileAtPathUnreadable</Position>
+      <TranslationSet>
+        <base loc="en">Could not read \"%s\".</base>
+        <tran loc="zh-CN">未能读取“%s”。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AliasResolutionFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not find original of alias file \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能找到替身文件“%FSRef@”的原身(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FileOpenFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not open \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能打开“%FSRef@”(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSRefReadFailed</Position>
+      <TranslationSet>
+        <base loc="en">Could not read \"%FSRef@\" (%d).</base>
+        <tran loc="zh-CN">未能读取“%FSRef@”(%d)。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FSRefFolderModifiedInfo</Position>
+      <TranslationSet>
+        <base loc="en">Contents of folder \"%FSRef@\" changed while being scanned.</base>
+        <tran loc="zh-CN">文件夹“%FSRef@”的内容在扫描时被更改。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>&lt;unable to get file path&gt;</Position>
+      <TranslationSet>
+        <base loc="en">&lt;unable to get file path&gt;</base>
+        <tran loc="zh-CN">&lt;无法获得文件路径&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseSetupStrings.strings</Filepath>
+    <TextItem>
+      <Description> Ask the user to insert a disc </Description>
+      <Position>WaitingForDisc</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for a disc to be inserted</base>
+        <tran loc="zh-CN">正在等待插入光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmMsg</Position>
+      <TranslationSet>
+        <base loc="en">All data on the disc will be lost.</base>
+        <tran loc="zh-CN">该光盘上的所有数据都将丢失。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc cannot be erased in this drive </Description>
+      <Position>NotAbleToBeErased</Position>
+      <TranslationSet>
+        <base loc="en">The disc in this drive can’t be erased.</base>
+        <tran loc="zh-CN">不能抹掉此驱动器内的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Waiting for media to become ready </Description>
+      <Position>WaitingForReady</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for the drive.</base>
+        <tran loc="zh-CN">正在等待驱动器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user it's OK to erase </Description>
+      <Position>ReadyToErase</Position>
+      <TranslationSet>
+        <base loc="en">Ready to erase</base>
+        <tran loc="zh-CN">已准备好抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc didn't pass muster </Description>
+      <Position>NotSuitable</Position>
+      <TranslationSet>
+        <base loc="en">The disc can’t be erased. Please insert another disc.</base>
+        <tran loc="zh-CN">不能抹掉该光盘。请插入另外一张光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmTitle</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to erase the disc in the %@ drive?</base>
+        <tran loc="zh-CN">您确定要抹掉%@驱动器中的光盘吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the device is currently in use by nother process </Description>
+      <Position>DeviceBusy</Position>
+      <TranslationSet>
+        <base loc="en">This disc drive is busy. Please choose another one.</base>
+        <tran loc="zh-CN">此光盘驱动器正忙。请选取其他驱动器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is not erasable </Description>
+      <Position>NotErasable</Position>
+      <TranslationSet>
+        <base loc="en">This disc can’t be erased. Please insert another disc.</base>
+        <tran loc="zh-CN">不能抹掉此光盘。请插入另一张光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is reserved by some other app </Description>
+      <Position>ReservedByAnother</Position>
+      <TranslationSet>
+        <base loc="en">Another application is using the disc.</base>
+        <tran loc="zh-CN">另一个应用程序正在使用光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No Device Message </Description>
+      <Position>NoDevice</Position>
+      <TranslationSet>
+        <base loc="en">No disc drive is available to erase the disc.</base>
+        <tran loc="zh-CN">没有光盘驱动器可用于抹掉光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Erase</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="zh-CN">抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/OSErrors.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>0x80020067</Position>
+      <TranslationSet>
+        <base loc="en">The track producer can’t do what you ask.</base>
+        <tran loc="zh-CN">轨道产生器不能执行您要求的任务。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020202</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write index points.</base>
+        <tran loc="zh-CN">该光盘驱动器不能写入索引点。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006F</Position>
+      <TranslationSet>
+        <base loc="en">The burn can’t begin because one or more tracks are present multiple times in the layout</base>
+        <tran loc="zh-CN">不能开始刻录，因为一个或多个轨道在布局中出现了多次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020068</Position>
+      <TranslationSet>
+        <base loc="en">The track is already running a speed test.</base>
+        <tran loc="zh-CN">轨道已在进行速度测试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020040</Position>
+      <TranslationSet>
+        <base loc="en">One of the volumes on the disc is still in use.</base>
+        <tran loc="zh-CN">该磁盘上仍有一个宗卷正在使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020100</Position>
+      <TranslationSet>
+        <base loc="en">One of the files being burned to disc changed during the burn.</base>
+        <tran loc="zh-CN">正被刻录到光盘的文件之一在刻录时已被更改。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020041</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t contain a disc.</base>
+        <tran loc="zh-CN">该光盘驱动器中没有光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020042</Position>
+      <TranslationSet>
+        <base loc="en">The disc isn't writable.</base>
+        <tran loc="zh-CN">该光盘不可写入。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020103</Position>
+      <TranslationSet>
+        <base loc="en">The disc can’t use the selected filesystems.</base>
+        <tran loc="zh-CN">该光盘不能使用所选的文件系统。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006C</Position>
+      <TranslationSet>
+        <base loc="en">The audio file producer does not support the requested file.</base>
+        <tran loc="zh-CN">音频文件产生器不支持请求的文件。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020203</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write ISRC data.</base>
+        <tran loc="zh-CN">该光盘驱动器不能写入ISRC数据。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006A</Position>
+      <TranslationSet>
+        <base loc="en">DRBurnDoubleLayerL0DataZoneBlocksKey contains an invalid value.</base>
+        <tran loc="zh-CN">DRBurnDoubleLayerL0DataZoneBlocksKey包含无效值。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020021</Position>
+      <TranslationSet>
+        <base loc="en">Another application is using the disc drive.</base>
+        <tran loc="zh-CN">另一个应用程序正在使用光盘驱动器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020046</Position>
+      <TranslationSet>
+        <base loc="en">The disc isn’t valid.</base>
+        <tran loc="zh-CN">该光盘无效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Anything unknown </Description>
+      <Position>UNKNOWN</Position>
+      <TranslationSet>
+        <base loc="en">Unknown error (%d)</base>
+        <tran loc="zh-CN">未知错误（%d）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006D</Position>
+      <TranslationSet>
+        <base loc="en">The disc can't be burned; it might be incompatible with this disc drive. Please try a different brand of disc, or try burning at a slower speed.</base>
+        <tran loc="zh-CN">不能刻录该光盘；它可能与此光盘驱动器不兼容。请尝试使用其他品牌的光盘，或者以较低的速度尝试刻录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020101</Position>
+      <TranslationSet>
+        <base loc="en">Two files have conflicting locations.</base>
+        <tran loc="zh-CN">两个文件的位置有冲突。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020063</Position>
+      <TranslationSet>
+        <base loc="en">Verifying the burned data failed.</base>
+        <tran loc="zh-CN">验证已刻录的数据失败。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020200</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t support the requested burn strategy.</base>
+        <tran loc="zh-CN">该光盘驱动器不支持所请求的刻录策略。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006B</Position>
+      <TranslationSet>
+        <base loc="en">The double layer transition point has been specified and can’t be changed.</base>
+        <tran loc="zh-CN">已指定双层过渡点，且不能更改。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020201</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write a CD-Text disc.</base>
+        <tran loc="zh-CN">该光盘驱动器不能写入CD-Text光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020066</Position>
+      <TranslationSet>
+        <base loc="en">User canceled the burn.</base>
+        <tran loc="zh-CN">用户已取消刻录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020023</Position>
+      <TranslationSet>
+        <base loc="en">The internal device reference does not point to a valid device.</base>
+        <tran loc="zh-CN">内置设备引用没有指向有效的设备。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020043</Position>
+      <TranslationSet>
+        <base loc="en">The disc is the wrong type for the operation.</base>
+        <tran loc="zh-CN">该光盘与操作的类型不符。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020024</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive is unavailable now. Try again later.</base>
+        <tran loc="zh-CN">该光盘驱动器现在不可用。请稍后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error codes generated by the OS and other bits and pieces of code. 
+ DiscRecording errors </Description>
+      <Position>0x80020000</Position>
+      <TranslationSet>
+        <base loc="en">An internal error occurred.</base>
+        <tran loc="zh-CN">发生一个内部错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020001</Position>
+      <TranslationSet>
+        <base loc="en">An internal error occurred.</base>
+        <tran loc="zh-CN">发生一个内部错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020062</Position>
+      <TranslationSet>
+        <base loc="en">There was an error producing data for the burn.</base>
+        <tran loc="zh-CN">刻录中有错误数据。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020061</Position>
+      <TranslationSet>
+        <base loc="en">You can’t burn to this disc drive.</base>
+        <tran loc="zh-CN">您不能使用此光盘驱动器刻录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020069</Position>
+      <TranslationSet>
+        <base loc="en">The index points aren’t valid.</base>
+        <tran loc="zh-CN">索引点无效。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020204</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive can’t write SCMS data.</base>
+        <tran loc="zh-CN">该光盘驱动器不能写入SCMS数据。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020044</Position>
+      <TranslationSet>
+        <base loc="en">The disc isn’t blank.</base>
+        <tran loc="zh-CN">该光盘不是空白光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020025</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t support the requested burn operation.</base>
+        <tran loc="zh-CN">该光盘驱动器不支持所请求的刻录操作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020022</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive didn’t respond properly and can’t recover or retry.</base>
+        <tran loc="zh-CN">该光盘驱动器的响应不正常，不能恢复或重试。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020065</Position>
+      <TranslationSet>
+        <base loc="en">The track/session layout passed in does not represent a valid burn.</base>
+        <tran loc="zh-CN">传来的轨道/会话布局不代表有效的刻录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020102</Position>
+      <TranslationSet>
+        <base loc="en">Too many filename conflicts to resolve. (10,000,000 or more)</base>
+        <tran loc="zh-CN">太多的文件名冲突需要解决（10,000,000或更多）。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020064</Position>
+      <TranslationSet>
+        <base loc="en">DVD discs can contain only one track.</base>
+        <tran loc="zh-CN">DVD光盘只能包含一个轨道。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020205</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive doesn’t support the requested pregap length.</base>
+        <tran loc="zh-CN">该光盘驱动器不支持所请求的间隙长度。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020020</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive is unavailable. It may have been disconnected.</base>
+        <tran loc="zh-CN">该光盘驱动器不可用。它可能已经被断开。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020060</Position>
+      <TranslationSet>
+        <base loc="en">The burn failed. Please try again at a slower speed.</base>
+        <tran loc="zh-CN">刻录失败。请以较低的速度再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x8002006E</Position>
+      <TranslationSet>
+        <base loc="en">The burn failed because of a medium write error.</base>
+        <tran loc="zh-CN">刻录失败，因为发生介质写错误。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0x80020045</Position>
+      <TranslationSet>
+        <base loc="en">The disc can’t be erased.</base>
+        <tran loc="zh-CN">不能抹掉该光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/BurnProgress.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateDone</Position>
+      <TranslationSet>
+        <base loc="en">Burn completed successfully</base>
+        <tran loc="zh-CN">刻录已成功完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFinishing</Position>
+      <TranslationSet>
+        <base loc="en">Finishing burn</base>
+        <tran loc="zh-CN">即将完成刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> session 1 of 6 </Description>
+      <Position>DRStatusStateSessionOpenMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Opening session %1$ld of %2$ld</base>
+        <tran loc="zh-CN">正在打开会话%1$ld（共%2$ld个会话）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose and non-verbose track writing status strings </Description>
+      <Position>DRStatusStateTrackWriteSingle</Position>
+      <TranslationSet>
+        <base loc="en">Writing track %1$ld</base>
+        <tran loc="zh-CN">正在写入轨道%1$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> track 3 of 6</Description>
+      <Position>DRStatusStateTrackCloseMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Closing track %1$ld of %2$ld</base>
+        <tran loc="zh-CN">正在关闭轨道%1$ld（共%2$ld个轨道）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose and non-verbose track closing status strings </Description>
+      <Position>DRStatusStateTrackCloseSingle</Position>
+      <TranslationSet>
+        <base loc="en">Closing track %1$ld</base>
+        <tran loc="zh-CN">正在关闭轨道%1$ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose track opening status strings </Description>
+      <Position>DRStatusStateTrackOpenSingle</Position>
+      <TranslationSet>
+        <base loc="en">Opening track %1$d</base>
+        <tran loc="zh-CN">正在打开轨道%1$d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FailedMsg</Position>
+      <TranslationSet>
+        <base loc="en">The burn to the %1$@ drive failed. %2$@</base>
+        <tran loc="zh-CN">刻录到%1$@驱动器失败。%2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FailedTitle</Position>
+      <TranslationSet>
+        <base loc="en">Burn Failed</base>
+        <tran loc="zh-CN">刻录失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFailed</Position>
+      <TranslationSet>
+        <base loc="en">Burn failed with an error</base>
+        <tran loc="zh-CN">发生错误，刻录失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> track 3 of 6</Description>
+      <Position>DRStatusStateTrackOpenMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Opening track %1$ld of %2$ld</base>
+        <tran loc="zh-CN">正在打开轨道%1$ld（共%2$ld个轨道）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStatePreparing</Position>
+      <TranslationSet>
+        <base loc="en">Preparing data for burning</base>
+        <tran loc="zh-CN">正在为刻录准备数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateVerifying</Position>
+      <TranslationSet>
+        <base loc="en">Verifying disc</base>
+        <tran loc="zh-CN">正在验证光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Generic</Position>
+      <TranslationSet>
+        <base loc="en">Burning to the %1$@ drive</base>
+        <tran loc="zh-CN">正在刻录到%1$@驱动器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> track 3 of 6</Description>
+      <Position>DRStatusStateTrackWriteMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Writing track %1$ld of %2$ld</base>
+        <tran loc="zh-CN">正在写入轨道%1$ld（共%2$ld个轨道）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-verbose session opening status string when session == session #1 </Description>
+      <Position>StartingWrite</Position>
+      <TranslationSet>
+        <base loc="en">Preparing drive for burning</base>
+        <tran loc="zh-CN">正在准备驱动器以便刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Non-verbose session closing status string when session != last session </Description>
+      <Position>StartingSubsequestSession</Position>
+      <TranslationSet>
+        <base loc="en">Preparing to write session %ld</base>
+        <tran loc="zh-CN">正在准备写入会话%ld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> session 1 of 6 </Description>
+      <Position>DRStatusStateSessionCloseMultiple</Position>
+      <TranslationSet>
+        <base loc="en">Closing session %1$ld of %2$ld</base>
+        <tran loc="zh-CN">正在关闭会话%1$ld（共%2$ld个会话）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose session closing status strings </Description>
+      <Position>DRStatusStateSessionCloseSingle</Position>
+      <TranslationSet>
+        <base loc="en">Closing session</base>
+        <tran loc="zh-CN">正在关闭会话</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Verbose session opening status strings </Description>
+      <Position>DRStatusStateSessionOpenSingle</Position>
+      <TranslationSet>
+        <base loc="en">Opening session</base>
+        <tran loc="zh-CN">正在打开会话</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/SenseKey.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>09</Position>
+      <TranslationSet>
+        <base loc="en">A vendor specific error occurred</base>
+        <tran loc="zh-CN">出现指定供应商的错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C</Position>
+      <TranslationSet>
+        <base loc="en">EQUAL</base>
+        <tran loc="zh-CN">EQUAL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>02</Position>
+      <TranslationSet>
+        <base loc="en">The device is not ready</base>
+        <tran loc="zh-CN">设备未准备好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>07</Position>
+      <TranslationSet>
+        <base loc="en">The media is protected from access</base>
+        <tran loc="zh-CN">介质已被保护无法访问</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>04</Position>
+      <TranslationSet>
+        <base loc="en">There is a hardware problem with the device</base>
+        <tran loc="zh-CN">设备有硬件问题</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>08</Position>
+      <TranslationSet>
+        <base loc="en">The media is not blank</base>
+        <tran loc="zh-CN">介质不是空白的</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>05</Position>
+      <TranslationSet>
+        <base loc="en">An illegal request was sent to the device</base>
+        <tran loc="zh-CN">给设备发送了非法请求</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0E</Position>
+      <TranslationSet>
+        <base loc="en">The data read from the media did not compare correctly</base>
+        <tran loc="zh-CN">从介质中读入的数据比较运算错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0D</Position>
+      <TranslationSet>
+        <base loc="en">The media is full</base>
+        <tran loc="zh-CN">介质已满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0F</Position>
+      <TranslationSet>
+        <base loc="en">Reserved Sense</base>
+        <tran loc="zh-CN">保留的检测信号</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>03</Position>
+      <TranslationSet>
+        <base loc="en">There is a problem with the media</base>
+        <tran loc="zh-CN">介质有问题</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B</Position>
+      <TranslationSet>
+        <base loc="en">The command was aborted by the device</base>
+        <tran loc="zh-CN">设备中止了命令</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>01</Position>
+      <TranslationSet>
+        <base loc="en">An error was recovered</base>
+        <tran loc="zh-CN">一个错误被恢复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sense key codes mapped to user nice text 
+ Hopefully these will be somewhat self explanatory </Description>
+      <Position>00</Position>
+      <TranslationSet>
+        <base loc="en">No sense information was returned</base>
+        <tran loc="zh-CN">没有返回检测信号信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0A</Position>
+      <TranslationSet>
+        <base loc="en">The device to device copy was aborted</base>
+        <tran loc="zh-CN">设备到设备的拷贝被中止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>06</Position>
+      <TranslationSet>
+        <base loc="en">The device was reset or the media was changed while a command was being processed</base>
+        <tran loc="zh-CN">处理命令时设备被复位或介质被更改</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/BurnSetup.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "4x"; ObjectID = "95"; </Description>
+      <Position>95.title</Position>
+      <TranslationSet>
+        <base loc="en">4x</base>
+        <tran loc="zh-CN">4倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "10x"; ObjectID = "104"; </Description>
+      <Position>104.title</Position>
+      <TranslationSet>
+        <base loc="en">10x</base>
+        <tran loc="zh-CN">10倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100274"; </Description>
+      <Position>100274.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-CN">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Test Only"; ObjectID = "100102"; </Description>
+      <Position>100102.title</Position>
+      <TranslationSet>
+        <base loc="en">Test Only</base>
+        <tran loc="zh-CN">仅测试</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "20x"; ObjectID = "116"; </Description>
+      <Position>116.title</Position>
+      <TranslationSet>
+        <base loc="en">20x</base>
+        <tran loc="zh-CN">20倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "40x"; ObjectID = "123"; </Description>
+      <Position>123.title</Position>
+      <TranslationSet>
+        <base loc="en">40x</base>
+        <tran loc="zh-CN">40倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Burn Disc"; ObjectID = "92"; </Description>
+      <Position>92.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Disc</base>
+        <tran loc="zh-CN">刻录光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "6x"; ObjectID = "94"; </Description>
+      <Position>94.title</Position>
+      <TranslationSet>
+        <base loc="en">6x</base>
+        <tran loc="zh-CN">6倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Burn"; ObjectID = "100110"; </Description>
+      <Position>100110.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn</base>
+        <tran loc="zh-CN">刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Disc In:"; ObjectID = "100119"; </Description>
+      <Position>100119.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Disc In:</base>
+        <tran loc="zh-CN">刻录光盘于：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "12x"; ObjectID = "114"; </Description>
+      <Position>114.title</Position>
+      <TranslationSet>
+        <base loc="en">12x</base>
+        <tran loc="zh-CN">12倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100111"; </Description>
+      <Position>100111.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "32x"; ObjectID = "128"; </Description>
+      <Position>128.title</Position>
+      <TranslationSet>
+        <base loc="en">32x</base>
+        <tran loc="zh-CN">32倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSPopUpButton"; ibShadowedToolTip = "Choose a slower speed if burns have been failing."; ObjectID = "101"; </Description>
+      <Position>101.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Choose a slower speed if burns have been failing.</base>
+        <tran loc="zh-CN">如果刻录曾经失败过，请选取一个较低的速度。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Eject the disc in the drive."; ObjectID = "284"; </Description>
+      <Position>284.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="zh-CN">推出驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "After Burning"; ObjectID = "100263"; </Description>
+      <Position>100263.title</Position>
+      <TranslationSet>
+        <base loc="en">After Burning</base>
+        <tran loc="zh-CN">刻录以后</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Maximum Possible"; ObjectID = "121"; </Description>
+      <Position>121.title</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Possible</base>
+        <tran loc="zh-CN">尽可能高速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Leave disc appendable"; ObjectID = "100183"; </Description>
+      <Position>100183.title</Position>
+      <TranslationSet>
+        <base loc="en">Leave disc appendable</base>
+        <tran loc="zh-CN">让光盘可继续刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "8x"; ObjectID = "117"; </Description>
+      <Position>117.title</Position>
+      <TranslationSet>
+        <base loc="en">8x</base>
+        <tran loc="zh-CN">8倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Verify burned data"; ObjectID = "100173"; </Description>
+      <Position>100173.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify burned data</base>
+        <tran loc="zh-CN">验证刻录的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to verify the disc’s data after it’s been written."; ObjectID = "173"; </Description>
+      <Position>173.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to verify the disc’s data after it’s been written.</base>
+        <tran loc="zh-CN">选择此项以在写入数据后验证光盘的数据。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Mount on Desktop"; ObjectID = "282"; </Description>
+      <Position>282.title</Position>
+      <TranslationSet>
+        <base loc="en">Mount on Desktop</base>
+        <tran loc="zh-CN">装载到桌面上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject disc"; ObjectID = "281"; </Description>
+      <Position>281.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject disc</base>
+        <tran loc="zh-CN">推出光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "24x"; ObjectID = "124"; </Description>
+      <Position>124.title</Position>
+      <TranslationSet>
+        <base loc="en">24x</base>
+        <tran loc="zh-CN">24倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "1x"; ObjectID = "113"; </Description>
+      <Position>113.title</Position>
+      <TranslationSet>
+        <base loc="en">1x</base>
+        <tran loc="zh-CN">1倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Show or hide advanced options."; ObjectID = "105"; </Description>
+      <Position>105.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Show or hide advanced options.</base>
+        <tran loc="zh-CN">显示或隐藏高级选项。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenu"; title = "OtherViews"; ObjectID = "127"; </Description>
+      <Position>127.title</Position>
+      <TranslationSet>
+        <base loc="en">OtherViews</base>
+        <tran loc="zh-CN">OtherViews</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to eject the disc from the drive when the burn is complete."; ObjectID = "281"; </Description>
+      <Position>281.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to eject the disc from the drive when the burn is complete.</base>
+        <tran loc="zh-CN">选择此项以使光盘在刻录完毕后推出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to mount the disc on the desktop when the burn completes."; ObjectID = "282"; </Description>
+      <Position>282.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to mount the disc on the desktop when the burn completes.</base>
+        <tran loc="zh-CN">选择此项以在光盘刻录完毕后将其装载到桌面。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - \nDo not localize"; ObjectID = "100251"; </Description>
+      <Position>100251.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - \nDo not localize</base>
+        <tran loc="zh-CN">Status Text - \nDo not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to allow subsequent burns to append data to the disc."; ObjectID = "183"; </Description>
+      <Position>183.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to allow subsequent burns to append data to the disc.</base>
+        <tran loc="zh-CN">选择此项以允许后续刻录来将数据追加到光盘中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "16x"; ObjectID = "115"; </Description>
+      <Position>115.title</Position>
+      <TranslationSet>
+        <base loc="en">16x</base>
+        <tran loc="zh-CN">16倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "2x"; ObjectID = "98"; </Description>
+      <Position>98.title</Position>
+      <TranslationSet>
+        <base loc="en">2x</base>
+        <tran loc="zh-CN">2倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Options"; ObjectID = "100262"; </Description>
+      <Position>100262.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Options</base>
+        <tran loc="zh-CN">刻录选项</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase disc before burning"; ObjectID = "100358"; </Description>
+      <Position>100358.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase disc before burning</base>
+        <tran loc="zh-CN">刻录前抹掉光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "36x"; ObjectID = "97"; </Description>
+      <Position>97.title</Position>
+      <TranslationSet>
+        <base loc="en">36x</base>
+        <tran loc="zh-CN">36倍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Speed:"; ObjectID = "100120"; </Description>
+      <Position>100120.title</Position>
+      <TranslationSet>
+        <base loc="en">Speed:</base>
+        <tran loc="zh-CN">速度：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject"; ObjectID = "100284"; </Description>
+      <Position>100284.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="zh-CN">推出</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/Setup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>Close Help</Position>
+      <TranslationSet>
+        <base loc="en">Close the drive’s tray.</base>
+        <tran loc="zh-CN">合上驱动器托盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-CN">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject Help</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="zh-CN">推出驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Close</Position>
+      <TranslationSet>
+        <base loc="en">Close</base>
+        <tran loc="zh-CN">关闭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject Failed</Position>
+      <TranslationSet>
+        <base loc="en">Could not eject the disc in the %@ drive </base>
+        <tran loc="zh-CN">未能推出%@驱动器中的光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject Failed Information</Position>
+      <TranslationSet>
+        <base loc="en">Other applications may be using this media. Close those applications and try again.</base>
+        <tran loc="zh-CN">其他应用程序可能正在使用此媒体。请关闭那些应用程序，然后再试一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Open Help</Position>
+      <TranslationSet>
+        <base loc="en">Open the drive’s tray.</base>
+        <tran loc="zh-CN">打开驱动器托盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Eject</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="zh-CN">推出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Open</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="zh-CN">打开</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseProgress.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Erasing"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Erasing</base>
+        <tran loc="zh-CN">正在抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase Description - do not localize\n"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase Description - do not localize\n</base>
+        <tran loc="zh-CN">Erase Description - do not localize\n</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/BurnSetupStrings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmTitle</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to erase the disc in the %@ drive before burning it?</base>
+        <tran loc="zh-CN">您确定要在刻录它之前抹掉%@驱动器中的光盘吗？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EraseConfirmMsg</Position>
+      <TranslationSet>
+        <base loc="en">All the data on the disc will be lost</base>
+        <tran loc="zh-CN">该光盘上的所有数据都将丢失</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is reserved by some other app </Description>
+      <Position>ReservedByAnother</Position>
+      <TranslationSet>
+        <base loc="en">Another application is using this disc.</base>
+        <tran loc="zh-CN">另一个应用程序正在使用此光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the device is currently in use by nother process </Description>
+      <Position>DeviceBusy</Position>
+      <TranslationSet>
+        <base loc="en">The disc drive is busy. Please choose another drive.</base>
+        <tran loc="zh-CN">该光盘驱动器正忙。请选取其他驱动器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MaxWithSpeed</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Possible (%.*fx)</base>
+        <tran loc="zh-CN">最大可能性（%.*fx）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Waiting for media to become ready </Description>
+      <Position>WaitingForReady</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for the drive.</base>
+        <tran loc="zh-CN">正在等待驱动器。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user it's ready to erase and burn </Description>
+      <Position>ReadyToEraseBurn</Position>
+      <TranslationSet>
+        <base loc="en">Ready to erase and burn the disc.</base>
+        <tran loc="zh-CN">已准备好抹掉并刻录光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The title of the default button when a burn will start as a result of dismissing the panel </Description>
+      <Position>Burn</Position>
+      <TranslationSet>
+        <base loc="en">Burn</base>
+        <tran loc="zh-CN">刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The title of the default button when the disc is to be erased before burning </Description>
+      <Position>Re-Burn</Position>
+      <TranslationSet>
+        <base loc="en">Re-Burn</base>
+        <tran loc="zh-CN">重新刻录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc is not able to be burned. </Description>
+      <Position>NotAppendable</Position>
+      <TranslationSet>
+        <base loc="en">You can’t append more data to this disc. Please insert another disc.</base>
+        <tran loc="zh-CN">您不能再向此光盘追加更多数据。请插入另一张光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ShortMax</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Possible</base>
+        <tran loc="zh-CN">尽可能高速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No Device Message </Description>
+      <Position>NoDevice</Position>
+      <TranslationSet>
+        <base loc="en">None of the connected disc drives can burn a disc.</base>
+        <tran loc="zh-CN">所连接的所有光盘驱动器都不能刻录光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user it's OK to burn </Description>
+      <Position>ReadyToBurn</Position>
+      <TranslationSet>
+        <base loc="en">Ready to burn.</base>
+        <tran loc="zh-CN">准备刻录。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tell the user the disc didn't pass muster </Description>
+      <Position>NotSuitable</Position>
+      <TranslationSet>
+        <base loc="en">This disc can’t be burned. Please insert another disc.</base>
+        <tran loc="zh-CN">不能刻录此光盘。请插入另一张光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Erase</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="zh-CN">抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Ask the user to insert a disc </Description>
+      <Position>WaitingForDisc</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for a disc to be inserted…</base>
+        <tran loc="zh-CN">正在等待插入光盘…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> The title of the default button when a burn object is just being set up </Description>
+      <Position>Save</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="zh-CN">存储</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/EraseSetup.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Erase Disc"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase Disc</base>
+        <tran loc="zh-CN">抹掉光盘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase data on disc:"; ObjectID = "100052"; </Description>
+      <Position>100052.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase data on disc:</base>
+        <tran loc="zh-CN">抹掉光盘上的数据：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase every block on the disc. This can take over 30 minutes."; ObjectID = "66"; </Description>
+      <Position>66.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase every block on the disc. This can take over 30 minutes.</base>
+        <tran loc="zh-CN">抹掉光盘中每一个块。这要花费超过30分钟的时间。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Radio"; ObjectID = "100062"; </Description>
+      <Position>100062.title</Position>
+      <TranslationSet>
+        <base loc="en">Radio</base>
+        <tran loc="zh-CN">Radio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Completely"; ObjectID = "66"; </Description>
+      <Position>66.title</Position>
+      <TranslationSet>
+        <base loc="en">Completely</base>
+        <tran loc="zh-CN">完全</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Erase the Table of Contents, without affecting the rest of the disc."; ObjectID = "65"; </Description>
+      <Position>65.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Erase the Table of Contents, without affecting the rest of the disc.</base>
+        <tran loc="zh-CN">抹掉目录，但不影响该光盘的其他内容。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Quickly"; ObjectID = "65"; </Description>
+      <Position>65.title</Position>
+      <TranslationSet>
+        <base loc="en">Quickly</base>
+        <tran loc="zh-CN">快速</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100018"; </Description>
+      <Position>100018.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-CN">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Eject the disc in the drive."; ObjectID = "51"; </Description>
+      <Position>51.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disc in the drive.</base>
+        <tran loc="zh-CN">推出驱动器中的光盘。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Status Text - \nDo not localize"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">Status Text - \nDo not localize</base>
+        <tran loc="zh-CN">Status Text - \nDo not localize</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase"; ObjectID = "100017"; </Description>
+      <Position>100017.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase</base>
+        <tran loc="zh-CN">抹掉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject"; ObjectID = "100051"; </Description>
+      <Position>100051.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="zh-CN">推出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Erase Disc In:"; ObjectID = "100010"; </Description>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase Disc In:</base>
+        <tran loc="zh-CN">抹掉光盘于：</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/Resources/en.lproj/DevicePicker.strings</Filepath>
+    <TextItem>
+      <Description> No Device Message </Description>
+      <Position>NoDevice</Position>
+      <TranslationSet>
+        <base loc="en">No Devices Available</base>
+        <tran loc="zh-CN">无可用设备</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeBDROM</Position>
+      <TranslationSet>
+        <base loc="en">BD-ROM</base>
+        <tran loc="zh-CN">BD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRW</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RW</base>
+        <tran loc="zh-CN">DVD-RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRWDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-RW DL</base>
+        <tran loc="zh-CN">HD DVD-RW DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status States </Description>
+      <Position>DRStatusStateFinishing</Position>
+      <TranslationSet>
+        <base loc="en">Finishing</base>
+        <tran loc="zh-CN">即将完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectFibreChannel</Position>
+      <TranslationSet>
+        <base loc="en">Fibre Channel</base>
+        <tran loc="zh-CN">光纤通道</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDROM</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-ROM</base>
+        <tran loc="zh-CN">HD DVD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassBD</Position>
+      <TranslationSet>
+        <base loc="en">BD</base>
+        <tran loc="zh-CN">BD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Device Locations </Description>
+      <Position>top</Position>
+      <TranslationSet>
+        <base loc="en">Upper</base>
+        <tran loc="zh-CN">上方</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMBODRIVE</Position>
+      <TranslationSet>
+        <base loc="en">Combo Drive</base>
+        <tran loc="zh-CN">复合驱动器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelVendorSupported</Position>
+      <TranslationSet>
+        <base loc="en">Vendor Supported</base>
+        <tran loc="zh-CN">供应商支持</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeBDRE</Position>
+      <TranslationSet>
+        <base loc="en">BD-RE</base>
+        <tran loc="zh-CN">BD-RE</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectSCSI</Position>
+      <TranslationSet>
+        <base loc="en">SCSI</base>
+        <tran loc="zh-CN">SCSI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateDone</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-CN">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Drive Types </Description>
+      <Position>CD-ROM</Position>
+      <TranslationSet>
+        <base loc="en">CD-ROM Drive</base>
+        <tran loc="zh-CN">CD-ROM驱动器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectFireWire</Position>
+      <TranslationSet>
+        <base loc="en">FireWire</base>
+        <tran loc="zh-CN">FireWire</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusR</Position>
+      <TranslationSet>
+        <base loc="en">DVD+R</base>
+        <tran loc="zh-CN">DVD+R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Media Classes </Description>
+      <Position>DRDeviceMediaClassCD</Position>
+      <TranslationSet>
+        <base loc="en">CD</base>
+        <tran loc="zh-CN">CD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeCDR</Position>
+      <TranslationSet>
+        <base loc="en">CD-R</base>
+        <tran loc="zh-CN">CD-R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelAppleShipping</Position>
+      <TranslationSet>
+        <base loc="en">Apple Shipping</base>
+        <tran loc="zh-CN">Apple装运</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDROM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-ROM</base>
+        <tran loc="zh-CN">DVD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>left</Position>
+      <TranslationSet>
+        <base loc="en">Left</base>
+        <tran loc="zh-CN">左</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRWDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RW DL</base>
+        <tran loc="zh-CN">DVD-RW DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusRW</Position>
+      <TranslationSet>
+        <base loc="en">DVD+RW</base>
+        <tran loc="zh-CN">DVD+RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassDVD</Position>
+      <TranslationSet>
+        <base loc="en">DVD</base>
+        <tran loc="zh-CN">DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUPERDRIVE</Position>
+      <TranslationSet>
+        <base loc="en">SuperDrive</base>
+        <tran loc="zh-CN">全能光驱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeBDR</Position>
+      <TranslationSet>
+        <base loc="en">BD-R</base>
+        <tran loc="zh-CN">BD-R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-R DL</base>
+        <tran loc="zh-CN">HD DVD-R DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Support Levels </Description>
+      <Position>DRDeviceSupportLevelNone</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateNone</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="zh-CN">无</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRAM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RAM</base>
+        <tran loc="zh-CN">DVD-RAM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDRDualLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD-R DL</base>
+        <tran loc="zh-CN">DVD-R DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRW</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-RW</base>
+        <tran loc="zh-CN">HD DVD-RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelUnsupported</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported</base>
+        <tran loc="zh-CN">不支持</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>bottom</Position>
+      <TranslationSet>
+        <base loc="en">Lower</base>
+        <tran loc="zh-CN">下方</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DVD-ROM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-ROM Drive</base>
+        <tran loc="zh-CN">DVD-ROM驱动器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>right</Position>
+      <TranslationSet>
+        <base loc="en">Right</base>
+        <tran loc="zh-CN">右</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusRWDoubleLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD+RW DL</base>
+        <tran loc="zh-CN">DVD+RW DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStatePreparing</Position>
+      <TranslationSet>
+        <base loc="en">Preparing</base>
+        <tran loc="zh-CN">正在准备</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Interconnect Locations </Description>
+      <Position>DRDevicePhysicalInterconnectLocationInternal</Position>
+      <TranslationSet>
+        <base loc="en">Internal</base>
+        <tran loc="zh-CN">内置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-CN">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-CN">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectLocationUnknown</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="zh-CN">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CD-R/RW</Position>
+      <TranslationSet>
+        <base loc="en">CD-R/RW Drive</base>
+        <tran loc="zh-CN">CD-R/RW驱动器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDRAM</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-RAM</base>
+        <tran loc="zh-CN">HD DVD-RAM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDPlusRDoubleLayer</Position>
+      <TranslationSet>
+        <base loc="en">DVD+R DL</base>
+        <tran loc="zh-CN">DVD+R DL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceSupportLevelAppleSupported</Position>
+      <TranslationSet>
+        <base loc="en">Apple Supported</base>
+        <tran loc="zh-CN">Apple支持</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DVD-RAM</Position>
+      <TranslationSet>
+        <base loc="en">DVD-RAM Drive</base>
+        <tran loc="zh-CN">DVD-RAM驱动器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeCDROM</Position>
+      <TranslationSet>
+        <base loc="en">CD-ROM</base>
+        <tran loc="zh-CN">CD-ROM</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateFailed</Position>
+      <TranslationSet>
+        <base loc="en">Failed</base>
+        <tran loc="zh-CN">失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRStatusStateVerifying</Position>
+      <TranslationSet>
+        <base loc="en">Verifying</base>
+        <tran loc="zh-CN">正在验证</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeHDDVDR</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD-R</base>
+        <tran loc="zh-CN">HD DVD-R</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DiscRecording Key Values 
+ Media Types </Description>
+      <Position>DRDeviceMediaTypeCDRW</Position>
+      <TranslationSet>
+        <base loc="en">CD-RW</base>
+        <tran loc="zh-CN">CD-RW</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format string for multiple internal device menu title. English would read like 'Upper SuperDrive' (location drive name) </Description>
+      <Position>%@ %@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$@</base>
+        <tran loc="zh-CN">%1$@ %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Interconnects </Description>
+      <Position>DRDevicePhysicalInterconnectATAPI</Position>
+      <TranslationSet>
+        <base loc="en">ATAPI</base>
+        <tran loc="zh-CN">ATAPI</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectUSB</Position>
+      <TranslationSet>
+        <base loc="en">USB</base>
+        <tran loc="zh-CN">USB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDevicePhysicalInterconnectLocationExternal</Position>
+      <TranslationSet>
+        <base loc="en">External</base>
+        <tran loc="zh-CN">外置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaClassHDDVD</Position>
+      <TranslationSet>
+        <base loc="en">HD DVD</base>
+        <tran loc="zh-CN">HD DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRDeviceMediaTypeDVDR</Position>
+      <TranslationSet>
+        <base loc="en">DVD-R</base>
+        <tran loc="zh-CN">DVD-R</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecording/System/Library/Frameworks/DiscRecording.framework/Versions/A/Resources/en.lproj/AdditionalSense.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>2C02</Position>
+      <TranslationSet>
+        <base loc="en">Invalid combination of windows specified</base>
+        <tran loc="zh-CN">指定无效的组合窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1C00</Position>
+      <TranslationSet>
+        <base loc="en">Defect list not found</base>
+        <tran loc="zh-CN">未找到缺陷列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0500</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit does not respond to selection</base>
+        <tran loc="zh-CN">逻辑单元不响应所选内容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B03</Position>
+      <TranslationSet>
+        <base loc="en">Tape or electronic vertical forms unit not ready</base>
+        <tran loc="zh-CN">磁带或电子垂直表单尚未备妥</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2400</Position>
+      <TranslationSet>
+        <base loc="en">Invalid field in CDB</base>
+        <tran loc="zh-CN">CDB中的无效字段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110A</Position>
+      <TranslationSet>
+        <base loc="en">Miscorrected error</base>
+        <tran loc="zh-CN">错过纠正的错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1502</Position>
+      <TranslationSet>
+        <base loc="en">Positioning error detected by read of medium</base>
+        <tran loc="zh-CN">读介质时检测到定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6301</Position>
+      <TranslationSet>
+        <base loc="en">Packet does not fit in available space</base>
+        <tran loc="zh-CN">包不适合于可用空间</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5C00</Position>
+      <TranslationSet>
+        <base loc="en">RPL status change</base>
+        <tran loc="zh-CN">RPL状态更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1109</Position>
+      <TranslationSet>
+        <base loc="en">No gap found</base>
+        <tran loc="zh-CN">未找到间隙</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6D00</Position>
+      <TranslationSet>
+        <base loc="en">Recalculate failure occurred</base>
+        <tran loc="zh-CN">发生重新计算失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6200</Position>
+      <TranslationSet>
+        <base loc="en">Scan head positioning error</base>
+        <tran loc="zh-CN">扫描开头定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0016</Position>
+      <TranslationSet>
+        <base loc="en">Operation in progress (Sequential)</base>
+        <tran loc="zh-CN">操作正在进行（连续）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0903</Position>
+      <TranslationSet>
+        <base loc="en">Spindle servo failure</base>
+        <tran loc="zh-CN">心轴伺服失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3101</Position>
+      <TranslationSet>
+        <base loc="en">Format command failed</base>
+        <tran loc="zh-CN">格式化命令失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E03</Position>
+      <TranslationSet>
+        <base loc="en">Idle condition activated by command</base>
+        <tran loc="zh-CN">空闲条件被命令激活</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7301</Position>
+      <TranslationSet>
+        <base loc="en">Power calibration area almost full</base>
+        <tran loc="zh-CN">电源校准区几乎已满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0600</Position>
+      <TranslationSet>
+        <base loc="en">No reference position found</base>
+        <tran loc="zh-CN">未找到引用位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0100</Position>
+      <TranslationSet>
+        <base loc="en">Mechanical positioning or changer error</base>
+        <tran loc="zh-CN">机械定位或自动换片器错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B16</Position>
+      <TranslationSet>
+        <base loc="en">Mechanical positioning or changer error</base>
+        <tran loc="zh-CN">机械定位或自动换片器错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B05</Position>
+      <TranslationSet>
+        <base loc="en">Paper jam</base>
+        <tran loc="zh-CN">卡纸</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7306</Position>
+      <TranslationSet>
+        <base loc="en">Program memory area is (almost) full</base>
+        <tran loc="zh-CN">程序存储区几乎已满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7304</Position>
+      <TranslationSet>
+        <base loc="en">Program memory area update failure</base>
+        <tran loc="zh-CN">程序存储区更新失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3E02</Position>
+      <TranslationSet>
+        <base loc="en">Timeout on logical unit</base>
+        <tran loc="zh-CN">逻辑单元超时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6901</Position>
+      <TranslationSet>
+        <base loc="en">Multiple logical unit failures</base>
+        <tran loc="zh-CN">多个逻辑单元失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F05</Position>
+      <TranslationSet>
+        <base loc="en">Drive region must be permanent/region reset count error</base>
+        <tran loc="zh-CN">驱动器区域必须是永久的/区域重设记数错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6B01</Position>
+      <TranslationSet>
+        <base loc="en">Redundancy level got better</base>
+        <tran loc="zh-CN">冗余水平得到改善</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E02</Position>
+      <TranslationSet>
+        <base loc="en">Standby condition activated by timer</base>
+        <tran loc="zh-CN">备用条件被计时器激活</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B14</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine locked</base>
+        <tran loc="zh-CN">介质仓已被锁定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C01</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recovered with auto reallocation</base>
+        <tran loc="zh-CN">写错误 - 使用自动再分配已恢复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0405</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, rebuild in progress</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，正在进行重建</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0900</Position>
+      <TranslationSet>
+        <base loc="en">Track following error</base>
+        <tran loc="zh-CN">轨道跟踪错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2704</Position>
+      <TranslationSet>
+        <base loc="en">Persistent write protect</base>
+        <tran loc="zh-CN">持续写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2604</Position>
+      <TranslationSet>
+        <base loc="en">Invalid release of active persistent reservation</base>
+        <tran loc="zh-CN">无效版本的活跃持续预定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0902</Position>
+      <TranslationSet>
+        <base loc="en">Focus servo failure</base>
+        <tran loc="zh-CN">聚焦伺服失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5C02</Position>
+      <TranslationSet>
+        <base loc="en">Spindles not synchronized</base>
+        <tran loc="zh-CN">心轴未同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RESERVED</Position>
+      <TranslationSet>
+        <base loc="en">RESERVED (%02X/%02X)</base>
+        <tran loc="zh-CN">保留的（%02X/%02X）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1103</Position>
+      <TranslationSet>
+        <base loc="en">Multiple read errors</base>
+        <tran loc="zh-CN">多个读错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B02</Position>
+      <TranslationSet>
+        <base loc="en">Warning - Enclosure degraded</base>
+        <tran loc="zh-CN">警告 - 封装降级</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4600</Position>
+      <TranslationSet>
+        <base loc="en">Unsuccessful soft reset</base>
+        <tran loc="zh-CN">不成功的软件还原</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B01</Position>
+      <TranslationSet>
+        <base loc="en">Warning - Specified temperature exceeded</base>
+        <tran loc="zh-CN">警告 - 超过指定的温度</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110C</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error - Recommend rewrite the data</base>
+        <tran loc="zh-CN">未恢复的读错误 - 建议重写数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C09</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Loss of streaming</base>
+        <tran loc="zh-CN">写错误 - 丢失流</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7100</Position>
+      <TranslationSet>
+        <base loc="en">Decompression exception long algorithm ID</base>
+        <tran loc="zh-CN">解压缩异常长算法ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6902</Position>
+      <TranslationSet>
+        <base loc="en">A parity/data mismatch</base>
+        <tran loc="zh-CN">奇偶/数据不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3004</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write medium - Unknown format</base>
+        <tran loc="zh-CN">不能写入介质 - 未知的格式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1804</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with L-EC</base>
+        <tran loc="zh-CN">使用L-EC恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6E00</Position>
+      <TranslationSet>
+        <base loc="en">Command to logical unit failed</base>
+        <tran loc="zh-CN">逻辑单元命令失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0407</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, operation in progress</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，正在进行操作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F02</Position>
+      <TranslationSet>
+        <base loc="en">Copy protection key exchange failure - Key not established</base>
+        <tran loc="zh-CN">拷贝保护钥匙交换失败 - 钥匙未被建立</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4500</Position>
+      <TranslationSet>
+        <base loc="en">Select or reselect failure</base>
+        <tran loc="zh-CN">选择或重新选择失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1106</Position>
+      <TranslationSet>
+        <base loc="en">CIRC unrecovered error</base>
+        <tran loc="zh-CN">CIRC不可恢复的错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1107</Position>
+      <TranslationSet>
+        <base loc="en">Re-synchronization error</base>
+        <tran loc="zh-CN">再同步错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6700</Position>
+      <TranslationSet>
+        <base loc="en">Configuration failure</base>
+        <tran loc="zh-CN">配置错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BF00</Position>
+      <TranslationSet>
+        <base loc="en">Loss of streaming</base>
+        <tran loc="zh-CN">丢失流</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0003</Position>
+      <TranslationSet>
+        <base loc="en">Setmark detected</base>
+        <tran loc="zh-CN">检测到设置标记</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1100</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error</base>
+        <tran loc="zh-CN">未恢复的读错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E01</Position>
+      <TranslationSet>
+        <base loc="en">Idle condition activated by timer</base>
+        <tran loc="zh-CN">空闲条件被计时器激活</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B00</Position>
+      <TranslationSet>
+        <base loc="en">Sequential positioning error</base>
+        <tran loc="zh-CN">连续定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3009</Position>
+      <TranslationSet>
+        <base loc="en">Current session not fixated for append</base>
+        <tran loc="zh-CN">当前会话不固定用于追加</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5501</Position>
+      <TranslationSet>
+        <base loc="en">System buffer full</base>
+        <tran loc="zh-CN">系统缓冲区已满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4E00</Position>
+      <TranslationSet>
+        <base loc="en">Overlapped commands attempted</base>
+        <tran loc="zh-CN">尝试的交迭命令</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1604</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Recommend reassignment</base>
+        <tran loc="zh-CN">数据同步错误 - 建议重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2600</Position>
+      <TranslationSet>
+        <base loc="en">Invalid field in parameter list</base>
+        <tran loc="zh-CN">参数列表中的无效字段</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3100</Position>
+      <TranslationSet>
+        <base loc="en">Medium format corrupted</base>
+        <tran loc="zh-CN">介质格式被破坏</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3008</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write - Application code mismatch</base>
+        <tran loc="zh-CN">不能写入 - 应用程序代码不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6B02</Position>
+      <TranslationSet>
+        <base loc="en">Redundancy level got worse</base>
+        <tran loc="zh-CN">冗余水平变得更坏</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1602</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Recommend rewrite</base>
+        <tran loc="zh-CN">数据同步错误 - 建议重写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B01</Position>
+      <TranslationSet>
+        <base loc="en">Tape position error at beginning of medium</base>
+        <tran loc="zh-CN">磁带位置在介质开头出错</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C06</Position>
+      <TranslationSet>
+        <base loc="en">Block not compressible</base>
+        <tran loc="zh-CN">块不可压缩</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0404</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, format in progress</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，正在进行格式化</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1200</Position>
+      <TranslationSet>
+        <base loc="en">Address mark not found for ID field</base>
+        <tran loc="zh-CN">未找到ID字段的地址标识</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1603</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Data auto-reallocated</base>
+        <tran loc="zh-CN">数据同步错误 - 数据自动重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2101</Position>
+      <TranslationSet>
+        <base loc="en">Invalid element address</base>
+        <tran loc="zh-CN">无效的元素地址</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2B00</Position>
+      <TranslationSet>
+        <base loc="en">Copy cannot execute since host cannot disconnect</base>
+        <tran loc="zh-CN">由于主机不能断开连接，拷贝不能执行</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1101</Position>
+      <TranslationSet>
+        <base loc="en">Read retries exhausted</base>
+        <tran loc="zh-CN">读重试结束</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6A00</Position>
+      <TranslationSet>
+        <base loc="en">Informational, refer to log</base>
+        <tran loc="zh-CN">报告的，请查阅记录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5100</Position>
+      <TranslationSet>
+        <base loc="en">Erase failure</base>
+        <tran loc="zh-CN">抹掉失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5D00</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded - Predicted Logical Unit Failure</base>
+        <tran loc="zh-CN">超出预定的失败极限 - 预定的逻辑单元失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1805</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data - Recommend reassignment</base>
+        <tran loc="zh-CN">恢复的数据 - 建议重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7205</Position>
+      <TranslationSet>
+        <base loc="en">No more track reservations allowed</base>
+        <tran loc="zh-CN">不允许保留更多轨道</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5001</Position>
+      <TranslationSet>
+        <base loc="en">Write append position error</base>
+        <tran loc="zh-CN">追加写定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1800</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with error correction applied</base>
+        <tran loc="zh-CN">使用错误纠正恢复的数据已应用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2705</Position>
+      <TranslationSet>
+        <base loc="en">Permanent write protect</base>
+        <tran loc="zh-CN">永久写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6900</Position>
+      <TranslationSet>
+        <base loc="en">Data loss on logical unit</base>
+        <tran loc="zh-CN">逻辑单元中数据丢失</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F00</Position>
+      <TranslationSet>
+        <base loc="en">Target operating conditions have changed</base>
+        <tran loc="zh-CN">目标操作条件已更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2602</Position>
+      <TranslationSet>
+        <base loc="en">Parameter value invalid</base>
+        <tran loc="zh-CN">参数值无效</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1700</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with no error correction applied</base>
+        <tran loc="zh-CN">没有应用错误纠正恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B02</Position>
+      <TranslationSet>
+        <base loc="en">Log counter at maximum</base>
+        <tran loc="zh-CN">记录计数器已达最大值</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2901</Position>
+      <TranslationSet>
+        <base loc="en">Power on occurred</base>
+        <tran loc="zh-CN">出现电源打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2E00</Position>
+      <TranslationSet>
+        <base loc="en">Insufficient time for operation</base>
+        <tran loc="zh-CN">操作没有充足的时间</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3700</Position>
+      <TranslationSet>
+        <base loc="en">Rounded parameter</base>
+        <tran loc="zh-CN">四舍五入的参数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B00</Position>
+      <TranslationSet>
+        <base loc="en">Log exception</base>
+        <tran loc="zh-CN">记录异常</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0402</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, initializing command required</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，需要初始化命令</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1404</Position>
+      <TranslationSet>
+        <base loc="en">Block sequence error</base>
+        <tran loc="zh-CN">块顺序错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3300</Position>
+      <TranslationSet>
+        <base loc="en">Tape length error</base>
+        <tran loc="zh-CN">磁带长度错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1701</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with retries</base>
+        <tran loc="zh-CN">重试恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B11</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine not accessible</base>
+        <tran loc="zh-CN">介质仓不可访问</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6601</Position>
+      <TranslationSet>
+        <base loc="en">Automatic document feeder lift up</base>
+        <tran loc="zh-CN">自动进稿装置提起</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C00</Position>
+      <TranslationSet>
+        <base loc="en">Command sequence error</base>
+        <tran loc="zh-CN">命令顺序错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>B900</Position>
+      <TranslationSet>
+        <base loc="en">Play operation aborted</base>
+        <tran loc="zh-CN">播放操作已中止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2000</Position>
+      <TranslationSet>
+        <base loc="en">Invalid command operation code</base>
+        <tran loc="zh-CN">无效的命令操作代码</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3502</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services unavailable</base>
+        <tran loc="zh-CN">封装服务不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C03</Position>
+      <TranslationSet>
+        <base loc="en">Current program area is not empty</base>
+        <tran loc="zh-CN">当前的程序区非空</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5301</Position>
+      <TranslationSet>
+        <base loc="en">Unload tape failure</base>
+        <tran loc="zh-CN">卸载磁带失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6100</Position>
+      <TranslationSet>
+        <base loc="en">Video acquisition error</base>
+        <tran loc="zh-CN">视频获取错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1901</Position>
+      <TranslationSet>
+        <base loc="en">Defect list not available</base>
+        <tran loc="zh-CN">缺陷列表不可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5DFF</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded (FALSE)</base>
+        <tran loc="zh-CN">超出预定的失败极限（失败）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0012</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation paused</base>
+        <tran loc="zh-CN">音频播放操作暂停</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5002</Position>
+      <TranslationSet>
+        <base loc="en">Position error related to timing</base>
+        <tran loc="zh-CN">关于定时的位置错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6701</Position>
+      <TranslationSet>
+        <base loc="en">Configuration of incapable logical units failed</base>
+        <tran loc="zh-CN">失效逻辑单元配置失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7303</Position>
+      <TranslationSet>
+        <base loc="en">Power calibration area error</base>
+        <tran loc="zh-CN">电源校准区错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F00</Position>
+      <TranslationSet>
+        <base loc="en">Copy protection key exchange failure - Authentication failure</base>
+        <tran loc="zh-CN">拷贝保护钥匙交换失败 - 授权失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0A</Position>
+      <TranslationSet>
+        <base loc="en">Read past beginning of medium</base>
+        <tran loc="zh-CN">跳过介质开头读</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7200</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error</base>
+        <tran loc="zh-CN">会话定置错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4800</Position>
+      <TranslationSet>
+        <base loc="en">Initiator detected error message received</base>
+        <tran loc="zh-CN">初始化程序检测到接收了错误信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7202</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error writing lead-out</base>
+        <tran loc="zh-CN">会话定置错误写引出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5500</Position>
+      <TranslationSet>
+        <base loc="en">System resource failure</base>
+        <tran loc="zh-CN">系统资源失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3600</Position>
+      <TranslationSet>
+        <base loc="en">Ribbon, ink, or toner failure</base>
+        <tran loc="zh-CN">色带、墨水或碳粉失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5800</Position>
+      <TranslationSet>
+        <base loc="en">Generation does not exist</base>
+        <tran loc="zh-CN">产生器不存在</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4A00</Position>
+      <TranslationSet>
+        <base loc="en">Command phase error</base>
+        <tran loc="zh-CN">命令状态错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>70FF</Position>
+      <TranslationSet>
+        <base loc="en">Decompression exception short algorithm ID of %02X</base>
+        <tran loc="zh-CN">%02X的解压缩异常短算法ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0004</Position>
+      <TranslationSet>
+        <base loc="en">Beginning-of-partition/medium detected</base>
+        <tran loc="zh-CN">检测到分区/介质开头</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B02</Position>
+      <TranslationSet>
+        <base loc="en">Tape position error at end of medium</base>
+        <tran loc="zh-CN">磁带位置在介质结尾出错</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0800</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication failure</base>
+        <tran loc="zh-CN">逻辑单元通信失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7305</Position>
+      <TranslationSet>
+        <base loc="en">Program memory area is full</base>
+        <tran loc="zh-CN">程序存储区已满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B07</Position>
+      <TranslationSet>
+        <base loc="en">Failed to sense bottom of form</base>
+        <tran loc="zh-CN">无法检测表单尾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2703</Position>
+      <TranslationSet>
+        <base loc="en">Associated write protect</base>
+        <tran loc="zh-CN">联合写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2904</Position>
+      <TranslationSet>
+        <base loc="en">Device internal reset</base>
+        <tran loc="zh-CN">设备内部复位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7201</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error writing lead-in</base>
+        <tran loc="zh-CN">会话定置错误写引入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3002</Position>
+      <TranslationSet>
+        <base loc="en">Cannot read medium - Incompatible format</base>
+        <tran loc="zh-CN">不能读取介质 - 不兼容的格式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6500</Position>
+      <TranslationSet>
+        <base loc="en">Voltage fault</base>
+        <tran loc="zh-CN">电压故障</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E04</Position>
+      <TranslationSet>
+        <base loc="en">Standby condition activated by command</base>
+        <tran loc="zh-CN">备用条件被命令激活</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C04</Position>
+      <TranslationSet>
+        <base loc="en">Current program area is empty</base>
+        <tran loc="zh-CN">当前程序区为空</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0011</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation in progress</base>
+        <tran loc="zh-CN">音频播放操作正在进行</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2801</Position>
+      <TranslationSet>
+        <base loc="en">Import or export element accessed</base>
+        <tran loc="zh-CN">导入或导出元素被访问</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5300</Position>
+      <TranslationSet>
+        <base loc="en">Media load or eject failed</base>
+        <tran loc="zh-CN">介质载入或推出失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3400</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure failure</base>
+        <tran loc="zh-CN">封装失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6300</Position>
+      <TranslationSet>
+        <base loc="en">End of user area encountered on this track</base>
+        <tran loc="zh-CN">在此轨道遇到用户区域结尾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3000</Position>
+      <TranslationSet>
+        <base loc="en">Incompatible medium installed</base>
+        <tran loc="zh-CN">安装了不兼容的介质</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0801</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication time-out</base>
+        <tran loc="zh-CN">逻辑单元通信超时</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5400</Position>
+      <TranslationSet>
+        <base loc="en">SCSI to host system interface failure</base>
+        <tran loc="zh-CN">主机系统的SCSI接口失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>40FF</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostic failure on component %02X</base>
+        <tran loc="zh-CN">组件%02X上的诊断失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4C00</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit failed self-configuration</base>
+        <tran loc="zh-CN">逻辑单元自配置失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1403</Position>
+      <TranslationSet>
+        <base loc="en">End-of-data not found</base>
+        <tran loc="zh-CN">未找到数据结尾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3200</Position>
+      <TranslationSet>
+        <base loc="en">No defect spare location available</base>
+        <tran loc="zh-CN">无缺陷备用位置可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1704</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with retries and/or CIRC applied</base>
+        <tran loc="zh-CN">使用重试和/或CIRC恢复的数据已应用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3503</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services transfer failure</base>
+        <tran loc="zh-CN">封装服务转移失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C07</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recovery needed</base>
+        <tran loc="zh-CN">写错误 - 需要恢复</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3A02</Position>
+      <TranslationSet>
+        <base loc="en">Medium not present - tray open</base>
+        <tran loc="zh-CN">介质不存在 - 托盘已打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B04</Position>
+      <TranslationSet>
+        <base loc="en">Slew failure</base>
+        <tran loc="zh-CN">回转失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4DFF</Position>
+      <TranslationSet>
+        <base loc="en">Tagged overlapped commands (%02X = QUEUE TAG)</base>
+        <tran loc="zh-CN">加标记的交迭命令（%02X = 队列标记）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3201</Position>
+      <TranslationSet>
+        <base loc="en">Defect list update failure</base>
+        <tran loc="zh-CN">缺陷列表更新失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2200</Position>
+      <TranslationSet>
+        <base loc="en">Illegal function</base>
+        <tran loc="zh-CN">非法功能</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5D03</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded - Predicted Spare Area Exhaustion</base>
+        <tran loc="zh-CN">超出预定的失败极限 - 预定的剩余空间耗尽</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4300</Position>
+      <TranslationSet>
+        <base loc="en">Message error</base>
+        <tran loc="zh-CN">消息失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1D00</Position>
+      <TranslationSet>
+        <base loc="en">Miscompare during verify operation</base>
+        <tran loc="zh-CN">验证操作中不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6602</Position>
+      <TranslationSet>
+        <base loc="en">Document jam in automatic document feeder</base>
+        <tran loc="zh-CN">自动进稿装置中文稿堵塞</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0901</Position>
+      <TranslationSet>
+        <base loc="en">Tracking servo failure</base>
+        <tran loc="zh-CN">跟踪伺服失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0700</Position>
+      <TranslationSet>
+        <base loc="en">Multiple peripheral devices selected</base>
+        <tran loc="zh-CN">选择了多个外围设备</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A00</Position>
+      <TranslationSet>
+        <base loc="en">Operator request or state change input</base>
+        <tran loc="zh-CN">请求操作对象或状态更改输入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6000</Position>
+      <TranslationSet>
+        <base loc="en">Lamp failure</base>
+        <tran loc="zh-CN">指示灯失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0B00</Position>
+      <TranslationSet>
+        <base loc="en">Warning</base>
+        <tran loc="zh-CN">警告</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5000</Position>
+      <TranslationSet>
+        <base loc="en">Write append error</base>
+        <tran loc="zh-CN">追加写错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2800</Position>
+      <TranslationSet>
+        <base loc="en">Not ready to ready transition, medium may have changed</base>
+        <tran loc="zh-CN">未准备好就绪转换，介质可能已被更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3A01</Position>
+      <TranslationSet>
+        <base loc="en">Medium not present - tray closed</base>
+        <tran loc="zh-CN">介质不存在 - 托盘已关闭</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110B</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error - Recommend reassignment</base>
+        <tran loc="zh-CN">未恢复的读错误 - 建议重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5D01</Position>
+      <TranslationSet>
+        <base loc="en">Failure prediction threshold exceeded - Predicted Media Failure</base>
+        <tran loc="zh-CN">超出预定的失败极限 - 预定的介质失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1F00</Position>
+      <TranslationSet>
+        <base loc="en">Partial defect list transfer</base>
+        <tran loc="zh-CN">部分缺陷列表传输</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F02</Position>
+      <TranslationSet>
+        <base loc="en">Changed operating definition</base>
+        <tran loc="zh-CN">已更改的操作定义</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1405</Position>
+      <TranslationSet>
+        <base loc="en">Record not found - Recommend reassignment</base>
+        <tran loc="zh-CN">未发现记录 - 建议重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2903</Position>
+      <TranslationSet>
+        <base loc="en">Bus device reset function occurred</base>
+        <tran loc="zh-CN">发生总线设备复位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A02</Position>
+      <TranslationSet>
+        <base loc="en">Operator selected write protect</base>
+        <tran loc="zh-CN">所选操作者写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6704</Position>
+      <TranslationSet>
+        <base loc="en">Exchange of logical unit failed</base>
+        <tran loc="zh-CN">逻辑单元交换失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110F</Position>
+      <TranslationSet>
+        <base loc="en">Error reading UPC/EAN number</base>
+        <tran loc="zh-CN">错误读取UPC/EAN数字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1903</Position>
+      <TranslationSet>
+        <base loc="en">Defect list error in grown list</base>
+        <tran loc="zh-CN">增长列表中的缺陷列表错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3001</Position>
+      <TranslationSet>
+        <base loc="en">Cannot read medium - Unknown format</base>
+        <tran loc="zh-CN">不能读取介质 - 未知的格式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F01</Position>
+      <TranslationSet>
+        <base loc="en">Microcode has been changed</base>
+        <tran loc="zh-CN">微码已更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6702</Position>
+      <TranslationSet>
+        <base loc="en">Add logical unit failed</base>
+        <tran loc="zh-CN">添加逻辑单元失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5700</Position>
+      <TranslationSet>
+        <base loc="en">Unable to recover table-of-contents</base>
+        <tran loc="zh-CN">未能恢复目录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5101</Position>
+      <TranslationSet>
+        <base loc="en">Erase failure - Incomplete erase operation detected</base>
+        <tran loc="zh-CN">抹掉失败 - 检测到未完成的抹掉操作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B09</Position>
+      <TranslationSet>
+        <base loc="en">Read past end of medium</base>
+        <tran loc="zh-CN">跳过介质结尾读</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C01</Position>
+      <TranslationSet>
+        <base loc="en">Too many windows specified</base>
+        <tran loc="zh-CN">指定了太多的窗口</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C04</Position>
+      <TranslationSet>
+        <base loc="en">Compression check miscompare error</base>
+        <tran loc="zh-CN">压缩检查不匹配错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F01</Position>
+      <TranslationSet>
+        <base loc="en">Copy protection key exchange failure - Key not present</base>
+        <tran loc="zh-CN">拷贝保护钥匙交换失败 - 钥匙不存在</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1600</Position>
+      <TranslationSet>
+        <base loc="en">Data synchronization mark error</base>
+        <tran loc="zh-CN">数据同步标记错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1111</Position>
+      <TranslationSet>
+        <base loc="en">Read error - loss of streaming</base>
+        <tran loc="zh-CN">读错误 - 丢失流</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1406</Position>
+      <TranslationSet>
+        <base loc="en">Record not found - Data auto-reallocated</base>
+        <tran loc="zh-CN">未发现记录 - 数据自动重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B12</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine removed</base>
+        <tran loc="zh-CN">介质仓已被移除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7302</Position>
+      <TranslationSet>
+        <base loc="en">Power calibration area is full</base>
+        <tran loc="zh-CN">电源校准区已满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5200</Position>
+      <TranslationSet>
+        <base loc="en">Cartridge fault</base>
+        <tran loc="zh-CN">弹出装置故障</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1C02</Position>
+      <TranslationSet>
+        <base loc="en">Grown defect list not found</base>
+        <tran loc="zh-CN">未找到增长缺陷列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C0A</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Padding blocks added</base>
+        <tran loc="zh-CN">写错误 - 增加了填充块</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A00</Position>
+      <TranslationSet>
+        <base loc="en">Parameters changed</base>
+        <tran loc="zh-CN">参数已更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6603</Position>
+      <TranslationSet>
+        <base loc="en">Document miss feed automatic in document feeder</base>
+        <tran loc="zh-CN">进稿装置中文档没有自动送入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2603</Position>
+      <TranslationSet>
+        <base loc="en">threshold parameters not supported</base>
+        <tran loc="zh-CN">不支持极限参数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C08</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recovery failed</base>
+        <tran loc="zh-CN">写错误 - 恢复失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1709</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Data rewritten</base>
+        <tran loc="zh-CN">无ECC恢复的数据 - 数据重写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1708</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Recommend rewrite</base>
+        <tran loc="zh-CN">无ECC恢复的数据 - 建议重写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6101</Position>
+      <TranslationSet>
+        <base loc="en">Unable to acquire video</base>
+        <tran loc="zh-CN">无法获取视频</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6707</Position>
+      <TranslationSet>
+        <base loc="en">Creation of logical unit failed</base>
+        <tran loc="zh-CN">逻辑单元创建失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3006</Position>
+      <TranslationSet>
+        <base loc="en">Cannot format medium - Incompatible medium</base>
+        <tran loc="zh-CN">不能格式化介质 - 不兼容的介质</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2500</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not supported</base>
+        <tran loc="zh-CN">不支持逻辑单元</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1C01</Position>
+      <TranslationSet>
+        <base loc="en">Primary defect list not found</base>
+        <tran loc="zh-CN">未找到主缺陷列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5900</Position>
+      <TranslationSet>
+        <base loc="en">Updated block read</base>
+        <tran loc="zh-CN">已更新的块读取</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A01</Position>
+      <TranslationSet>
+        <base loc="en">Operator medium removal request</base>
+        <tran loc="zh-CN">请求移除操作对象介质</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6705</Position>
+      <TranslationSet>
+        <base loc="en">Remove of logical unit failed</base>
+        <tran loc="zh-CN">移除逻辑单元失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1706</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Data auto-reallocated</base>
+        <tran loc="zh-CN">无ECC恢复的数据 - 自动再分配的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B06</Position>
+      <TranslationSet>
+        <base loc="en">Failed to sense top of form</base>
+        <tran loc="zh-CN">无法检测表单头</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B03</Position>
+      <TranslationSet>
+        <base loc="en">Log list codes exhausted</base>
+        <tran loc="zh-CN">记录列表代码已用完</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5B01</Position>
+      <TranslationSet>
+        <base loc="en">Threshold condition met</base>
+        <tran loc="zh-CN">极限条件吻合</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0017</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning requested</base>
+        <tran loc="zh-CN">正在清理请求内容</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3504</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services transfer refused</base>
+        <tran loc="zh-CN">拒绝封装服务转移</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7203</Position>
+      <TranslationSet>
+        <base loc="en">Session fixation error - Incomplete track in session</base>
+        <tran loc="zh-CN">会话定置错误 - 会话中不完整的轨道</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Additional Sense Code/Additional Sense Code Qualifier mappings to user nice text. 
+  The string keys are a string rep of the concatenation of the ASC and ASCQ so for instance,
+	"0B01" corresponds to an ASC = 0B and an ASCQ = 01 </Description>
+      <Position>0000</Position>
+      <TranslationSet>
+        <base loc="en">No additional sense information</base>
+        <tran loc="zh-CN">无附加的检测信号信息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1A00</Position>
+      <TranslationSet>
+        <base loc="en">Parameter list length error</base>
+        <tran loc="zh-CN">参数列表长度错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2902</Position>
+      <TranslationSet>
+        <base loc="en">SCSI bus reset occurred</base>
+        <tran loc="zh-CN">发生SCSI总线复位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5C01</Position>
+      <TranslationSet>
+        <base loc="en">Spindles synchronized</base>
+        <tran loc="zh-CN">心轴已同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2701</Position>
+      <TranslationSet>
+        <base loc="en">Hardware write protected</base>
+        <tran loc="zh-CN">硬件写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2C05</Position>
+      <TranslationSet>
+        <base loc="en">Persistent prevent conflict</base>
+        <tran loc="zh-CN">持久预防冲突</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1105</Position>
+      <TranslationSet>
+        <base loc="en">L-EC uncorrectable error</base>
+        <tran loc="zh-CN">L-EC不可纠正的错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3E01</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit failure</base>
+        <tran loc="zh-CN">逻辑单元错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A03</Position>
+      <TranslationSet>
+        <base loc="en">Reservations preempted</base>
+        <tran loc="zh-CN">预定抢先</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1500</Position>
+      <TranslationSet>
+        <base loc="en">Random positioning error</base>
+        <tran loc="zh-CN">随机定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2102</Position>
+      <TranslationSet>
+        <base loc="en">Invalid address for write</base>
+        <tran loc="zh-CN">无效的写地址</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2D00</Position>
+      <TranslationSet>
+        <base loc="en">Overwrite error on update in place</base>
+        <tran loc="zh-CN">适当位置的更新出现覆盖错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0013</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation successfully completed</base>
+        <tran loc="zh-CN">音频播放操作已成功完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1705</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data using previous sector ID</base>
+        <tran loc="zh-CN">使用上一个扇区ID恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2F00</Position>
+      <TranslationSet>
+        <base loc="en">Commands cleared by another initiator</base>
+        <tran loc="zh-CN">命令被另一个初始化程序清除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2900</Position>
+      <TranslationSet>
+        <base loc="en">Power on, reset, or bus device reset occurred</base>
+        <tran loc="zh-CN">出现电源打开、复位或总线设备重置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6703</Position>
+      <TranslationSet>
+        <base loc="en">Modification of logical unit failed</base>
+        <tran loc="zh-CN">逻辑单元修改失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C02</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Auto reallocation failed</base>
+        <tran loc="zh-CN">写错误 - 自动再分配失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1807</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with ECC - Data rewritten</base>
+        <tran loc="zh-CN">使用ECC恢复的数据 - 数据重写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0200</Position>
+      <TranslationSet>
+        <base loc="en">No seek complete</base>
+        <tran loc="zh-CN">未完成查找</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1802</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data - data auto-reallocated</base>
+        <tran loc="zh-CN">恢复的数据 - 数据自动再分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6400</Position>
+      <TranslationSet>
+        <base loc="en">Illegal mode for this track</base>
+        <tran loc="zh-CN">此轨道上的非法模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0015</Position>
+      <TranslationSet>
+        <base loc="en">No current audio status to return</base>
+        <tran loc="zh-CN">未返回当前的音频状态</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6401</Position>
+      <TranslationSet>
+        <base loc="en">Invalid packet size</base>
+        <tran loc="zh-CN">无效的包大小</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0E</Position>
+      <TranslationSet>
+        <base loc="en">Medium source element empty</base>
+        <tran loc="zh-CN">介质源元素空</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1501</Position>
+      <TranslationSet>
+        <base loc="en">Mechanical positioning error</base>
+        <tran loc="zh-CN">机械定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A01</Position>
+      <TranslationSet>
+        <base loc="en">Mode parameters changed</base>
+        <tran loc="zh-CN">模式参数已更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3F03</Position>
+      <TranslationSet>
+        <base loc="en">Inquiry data has changed</base>
+        <tran loc="zh-CN">查询数据已更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1000</Position>
+      <TranslationSet>
+        <base loc="en">ID CRC or ECC error</base>
+        <tran loc="zh-CN">ID CRC或ECC错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5E00</Position>
+      <TranslationSet>
+        <base loc="en">Low power condition on</base>
+        <tran loc="zh-CN">低能源条件打开</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6102</Position>
+      <TranslationSet>
+        <base loc="en">Out of focus</base>
+        <tran loc="zh-CN">焦点没对准</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0C</Position>
+      <TranslationSet>
+        <base loc="en">Position past beginning of medium</base>
+        <tran loc="zh-CN">跳过介质开头定位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3501</Position>
+      <TranslationSet>
+        <base loc="en">Unsupported enclosure function</base>
+        <tran loc="zh-CN">不支持的封装功能</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0403</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, manual intervention required</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，需要手动干预</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1703</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with negative head offset</base>
+        <tran loc="zh-CN">使用磁头位置负偏移恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0301</Position>
+      <TranslationSet>
+        <base loc="en">No write current</base>
+        <tran loc="zh-CN">当前没有写操作</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F03</Position>
+      <TranslationSet>
+        <base loc="en">Read of scrambled sector without authentication</base>
+        <tran loc="zh-CN">未授权读取备用扇区</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2601</Position>
+      <TranslationSet>
+        <base loc="en">Parameter not supported</base>
+        <tran loc="zh-CN">不支持参数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1402</Position>
+      <TranslationSet>
+        <base loc="en">Filemark or setmark not found</base>
+        <tran loc="zh-CN">未找到文件标识或设置标识</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3D00</Position>
+      <TranslationSet>
+        <base loc="en">Invalid bits in identify message</base>
+        <tran loc="zh-CN">标识信息中的无效位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1601</Position>
+      <TranslationSet>
+        <base loc="en">Data sync error - Data rewritten</base>
+        <tran loc="zh-CN">数据同步错误 - 数据重写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2100</Position>
+      <TranslationSet>
+        <base loc="en">Logical block address out of range</base>
+        <tran loc="zh-CN">逻辑块地址超出范围</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C05</Position>
+      <TranslationSet>
+        <base loc="en">Data expansion occurred during compression</base>
+        <tran loc="zh-CN">压缩过程中发生数据解压</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4700</Position>
+      <TranslationSet>
+        <base loc="en">SCSI parity error</base>
+        <tran loc="zh-CN">SCSI奇偶错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1B00</Position>
+      <TranslationSet>
+        <base loc="en">Synchronous data transfer error</base>
+        <tran loc="zh-CN">同步数据传输错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C03</Position>
+      <TranslationSet>
+        <base loc="en">Write error - Recommend reassignment</base>
+        <tran loc="zh-CN">写错误 - 建议重分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1707</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data without ECC - Recommend reassignment</base>
+        <tran loc="zh-CN">无ECC恢复的数据 - 建议再分配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0014</Position>
+      <TranslationSet>
+        <base loc="en">Audio play operation stopped due to error</base>
+        <tran loc="zh-CN">由于错误，音频播放操作停止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0005</Position>
+      <TranslationSet>
+        <base loc="en">End of data detected</base>
+        <tran loc="zh-CN">检测到数据结尾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1806</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data - Recommend rewrite</base>
+        <tran loc="zh-CN">恢复的数据 - 建议重写</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5A03</Position>
+      <TranslationSet>
+        <base loc="en">Operator selected write permit</base>
+        <tran loc="zh-CN">所选操作者写允许</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2702</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit software write protected</base>
+        <tran loc="zh-CN">逻辑单元软件写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3800</Position>
+      <TranslationSet>
+        <base loc="en">Buffer underrun</base>
+        <tran loc="zh-CN">缓冲区欠载</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1803</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with CIRC</base>
+        <tran loc="zh-CN">使用CIRC恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1102</Position>
+      <TranslationSet>
+        <base loc="en">Error too long to correct</base>
+        <tran loc="zh-CN">错误太长而无法纠正</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0A00</Position>
+      <TranslationSet>
+        <base loc="en">Error log overflow</base>
+        <tran loc="zh-CN">错误记录溢出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0006</Position>
+      <TranslationSet>
+        <base loc="en">I/O process terminated</base>
+        <tran loc="zh-CN">I/O进程终止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0904</Position>
+      <TranslationSet>
+        <base loc="en">Head select fault</base>
+        <tran loc="zh-CN">磁头选择故障</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7204</Position>
+      <TranslationSet>
+        <base loc="en">Empty or partially written reserved track</base>
+        <tran loc="zh-CN">空的或部分已被写的保留轨道</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6706</Position>
+      <TranslationSet>
+        <base loc="en">Attachment of logical unit failed</base>
+        <tran loc="zh-CN">装载逻辑单元失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3900</Position>
+      <TranslationSet>
+        <base loc="en">Saving parameters not supported</base>
+        <tran loc="zh-CN">不支持正在存储的参数</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1801</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with error correction and retries applied</base>
+        <tran loc="zh-CN">使用错误纠正和重试恢复的数据已应用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4100</Position>
+      <TranslationSet>
+        <base loc="en">Data path failure</base>
+        <tran loc="zh-CN">数据路径失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1300</Position>
+      <TranslationSet>
+        <base loc="en">Address mark not found for data field</base>
+        <tran loc="zh-CN">未找到数据字段的地址标识</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1900</Position>
+      <TranslationSet>
+        <base loc="en">Defect list error</base>
+        <tran loc="zh-CN">缺陷列表错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0300</Position>
+      <TranslationSet>
+        <base loc="en">Peripheral device write fault</base>
+        <tran loc="zh-CN">外围设备写故障</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4900</Position>
+      <TranslationSet>
+        <base loc="en">Invalid message error</base>
+        <tran loc="zh-CN">无效的消息错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0B</Position>
+      <TranslationSet>
+        <base loc="en">Position past end of medium</base>
+        <tran loc="zh-CN">跳过介质结尾定位</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0F</Position>
+      <TranslationSet>
+        <base loc="en">End of medium reached</base>
+        <tran loc="zh-CN">到达介质结尾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0406</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, recalculation in progress</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，正在进行重新计算</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0002</Position>
+      <TranslationSet>
+        <base loc="en">End-of-partition/medium detected</base>
+        <tran loc="zh-CN">检测到分区/介质结尾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3500</Position>
+      <TranslationSet>
+        <base loc="en">Enclosure services failure</base>
+        <tran loc="zh-CN">封装服务失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0C00</Position>
+      <TranslationSet>
+        <base loc="en">Write error</base>
+        <tran loc="zh-CN">写错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1108</Position>
+      <TranslationSet>
+        <base loc="en">Incomplete block read</base>
+        <tran loc="zh-CN">不完整的块读取</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B08</Position>
+      <TranslationSet>
+        <base loc="en">Reposition error</base>
+        <tran loc="zh-CN">重新定位错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3005</Position>
+      <TranslationSet>
+        <base loc="en">Cannot write medium - Incompatible format</base>
+        <tran loc="zh-CN">不能写入介质 - 不兼容的格式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1702</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with positive head offset</base>
+        <tran loc="zh-CN">使用磁头位置正偏移恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4400</Position>
+      <TranslationSet>
+        <base loc="en">Internal target failure</base>
+        <tran loc="zh-CN">内部目标失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B15</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine unlocked</base>
+        <tran loc="zh-CN">介质仓已被解锁</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>5302</Position>
+      <TranslationSet>
+        <base loc="en">Medium removal prevented</base>
+        <tran loc="zh-CN">介质移除被禁止</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1E00</Position>
+      <TranslationSet>
+        <base loc="en">Recovered ID with ECC correction</base>
+        <tran loc="zh-CN">使用ECC纠正恢复的ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3A00</Position>
+      <TranslationSet>
+        <base loc="en">Medium not present</base>
+        <tran loc="zh-CN">介质不存在</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1401</Position>
+      <TranslationSet>
+        <base loc="en">Record not found</base>
+        <tran loc="zh-CN">未找到记录</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6C00</Position>
+      <TranslationSet>
+        <base loc="en">Rebuild failure occurred</base>
+        <tran loc="zh-CN">发生重建失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2A02</Position>
+      <TranslationSet>
+        <base loc="en">Log parameters changed</base>
+        <tran loc="zh-CN">记录参数已更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0400</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, cause not reportable</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，原因无法报告</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6600</Position>
+      <TranslationSet>
+        <base loc="en">Automatic document feeder cover up</base>
+        <tran loc="zh-CN">自动进稿装置盖好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3102</Position>
+      <TranslationSet>
+        <base loc="en">Zoned formatting failed due to spare linking</base>
+        <tran loc="zh-CN">多余的连接导致区域格式化失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3E00</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit has not self-configured yet</base>
+        <tran loc="zh-CN">逻辑单元还未自配置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0302</Position>
+      <TranslationSet>
+        <base loc="en">Excessive write errors</base>
+        <tran loc="zh-CN">过多的写错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6B00</Position>
+      <TranslationSet>
+        <base loc="en">State change has occurred</base>
+        <tran loc="zh-CN">发生状态更改</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1104</Position>
+      <TranslationSet>
+        <base loc="en">Unrecovered read error - Auto reallocate failed</base>
+        <tran loc="zh-CN">未恢复的读错误 - 自动再分配失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0408</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not ready, long write in progress</base>
+        <tran loc="zh-CN">逻辑单元未准备就绪，正在进行长的写入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B0D</Position>
+      <TranslationSet>
+        <base loc="en">Medium destination element full</base>
+        <tran loc="zh-CN">介质目标元素满</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0401</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit is in process of becoming ready</base>
+        <tran loc="zh-CN">逻辑单元正在准备就绪</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110E</Position>
+      <TranslationSet>
+        <base loc="en">Cannot decompress using declared algorithm</base>
+        <tran loc="zh-CN">不能使用指定的算法解压缩</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VENDOR SPECIFIC</Position>
+      <TranslationSet>
+        <base loc="en">VENDOR SPECIFIC (%02X/%02X)</base>
+        <tran loc="zh-CN">供应商指定的（%02X/%02X）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1902</Position>
+      <TranslationSet>
+        <base loc="en">Defect list error in primary list</base>
+        <tran loc="zh-CN">主列表中的缺陷列表错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4000</Position>
+      <TranslationSet>
+        <base loc="en">RAM failure</base>
+        <tran loc="zh-CN">RAM失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2700</Position>
+      <TranslationSet>
+        <base loc="en">Write protected</base>
+        <tran loc="zh-CN">被写保护</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>110D</Position>
+      <TranslationSet>
+        <base loc="en">De-compression CRC error</base>
+        <tran loc="zh-CN">解压缩CRC错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1808</Position>
+      <TranslationSet>
+        <base loc="en">Recovered data with linking</base>
+        <tran loc="zh-CN">使用链接恢复的数据</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0803</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication CRC error (ULTRA-DMA/32)</base>
+        <tran loc="zh-CN">逻辑单元通信CRC错误（ULTRA-DMA/32）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0802</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit communication parity error</base>
+        <tran loc="zh-CN">逻辑单元通信奇偶校验错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6F04</Position>
+      <TranslationSet>
+        <base loc="en">Media region code is mismatched to logical unit region</base>
+        <tran loc="zh-CN">介质区域码和逻辑单元区域不匹配</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0001</Position>
+      <TranslationSet>
+        <base loc="en">Filemark detected</base>
+        <tran loc="zh-CN">检测到文件标记</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1110</Position>
+      <TranslationSet>
+        <base loc="en">Error reading ISRC number</base>
+        <tran loc="zh-CN">错误读取ISRC数字</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4B00</Position>
+      <TranslationSet>
+        <base loc="en">Data phase error</base>
+        <tran loc="zh-CN">数据状态错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>4200</Position>
+      <TranslationSet>
+        <base loc="en">Power-on or self-test failure</base>
+        <tran loc="zh-CN">打开电源或自测试失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1400</Position>
+      <TranslationSet>
+        <base loc="en">Recorded entity not found</base>
+        <tran loc="zh-CN">未找到记录的实体</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3B13</Position>
+      <TranslationSet>
+        <base loc="en">Medium magazine inserted</base>
+        <tran loc="zh-CN">介质仓已被插入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3003</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning cartridge installed</base>
+        <tran loc="zh-CN">安装了净化器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>7300</Position>
+      <TranslationSet>
+        <base loc="en">CD control error</base>
+        <tran loc="zh-CN">CD控制错误</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>6800</Position>
+      <TranslationSet>
+        <base loc="en">Logical unit not configured</base>
+        <tran loc="zh-CN">逻辑单元未配置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3007</Position>
+      <TranslationSet>
+        <base loc="en">Cleaning failure</base>
+        <tran loc="zh-CN">清理失败</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2706</Position>
+      <TranslationSet>
+        <base loc="en">Conditional write protect</base>
+        <tran loc="zh-CN">条件写保护</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

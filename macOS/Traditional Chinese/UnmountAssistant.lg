@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>UnmountAssistant</ProjName>
+  <File>
+    <Filepath>UnmountAssistant/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/Resources/en.lproj/UAAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button A"; ObjectID = "y2N-Lb-R44"; </Description>
+      <Position>y2N-Lb-R44.title</Position>
+      <TranslationSet>
+        <base loc="en">Button A</base>
+        <tran loc="zh-TW">按鈕A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button C"; ObjectID = "P56-K4-zaN"; </Description>
+      <Position>P56-K4-zaN.title</Position>
+      <TranslationSet>
+        <base loc="en">Button C</base>
+        <tran loc="zh-TW">按鈕C</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Trying to eject"; ObjectID = "uNg-Ov-gFz"; </Description>
+      <Position>uNg-Ov-gFz.title</Position>
+      <TranslationSet>
+        <base loc="en">Trying to eject</base>
+        <tran loc="zh-TW">正在嘗試退出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button B"; ObjectID = "I9F-cy-p4M"; </Description>
+      <Position>I9F-cy-p4M.title</Position>
+      <TranslationSet>
+        <base loc="en">Button B</base>
+        <tran loc="zh-TW">按鈕B</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>UnmountAssistant/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_FORCE_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to eject “%@”?</base>
+        <tran loc="zh-TW">您確定要退出「%@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_3GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because “%@” and other applications are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為「%@」和其他應用程式正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_DISKIMAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because it is in use.</base>
+        <tran loc="zh-TW">磁碟正在使用中，因此無法退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHARING_PREFS</Position>
+      <TranslationSet>
+        <base loc="en">Sharing Preferences…</base>
+        <tran loc="zh-TW">共享偏好設定⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRY_AGAIN</Position>
+      <TranslationSet>
+        <base loc="en">Try Again</base>
+        <tran loc="zh-TW">再試一次</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Remote Process is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_REMOTEPROCESS</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because a remote process is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為遠端程序正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_FORCEEJECT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Ejecting the disk might cause problems with the disk or the information on it.</base>
+        <tran loc="zh-TW">退出磁碟可能會對磁碟或其內的資訊造成問題。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_FORCE_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to eject the disk?</base>
+        <tran loc="zh-TW">您確定要退出磁碟嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGOUT_ONE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">When “%@” is no longer using the disk, try ejecting it again.</base>
+        <tran loc="zh-TW">當「%@」不再使用磁碟時，請嘗試再次退出磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOP_FINDER_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Stop the Finder action and then try to eject the disk again.</base>
+        <tran loc="zh-TW">停止Finder動作，然後再次嘗試退出磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_2DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and “%2$@” first and then try to eject the disk again.</base>
+        <tran loc="zh-TW">請先退出「%1$@」和「%2$@」，然後再嘗試退出磁碟一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_WAS_EJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%@” was ejected.</base>
+        <tran loc="zh-TW">磁碟「%@」已退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Misc strings </Description>
+      <Position>TRYING_TO_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Trying to eject</base>
+        <tran loc="zh-TW">正在嘗試退出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_1USER</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” cannot be ejected because another user (“%2$@”) is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為其他使用者（「%2$@」）正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_HAS_2DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and “%2$@” first and then try to eject the “%3$@” again.</base>
+        <tran loc="zh-TW">請先退出「%1$@」和「%2$@」，然後再嘗試退出「%3$@」一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FORCE_EJECT</Position>
+      <TranslationSet>
+        <base loc="en">Force Eject…</base>
+        <tran loc="zh-TW">強制退出⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_FILESERVER</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because it is being shared.</base>
+        <tran loc="zh-TW">正在共享磁碟「%1$@」，因此無法退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_3DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and other disks first and then try to eject the disk again.</base>
+        <tran loc="zh-TW">請先退出「%1$@」和其他磁碟，然後再嘗試退出磁碟一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_2GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because “%2$@” and “%3$@” are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為「%2$@」和「%3$@」正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUIT_ONE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Quit that application and try to eject the disk again.</base>
+        <tran loc="zh-TW">請結束應用程式，然後再嘗試退出磁碟一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+	UnmountAssistant Localizable.strings
+	Copyright 2008-2009 Apple Inc. All rights reserved.
+ 
+ Alert buttons </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_3GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because “%2$@” and other applications are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為「%2$@」和其他應用程式正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> non-GUI app is using the disk </Description>
+      <Position>UNKNOWN_IN_USE</Position>
+      <TranslationSet>
+        <base loc="en">The disk wasn’t ejected because one or more programs may be using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為一或多個程式可能正在使用它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>QUIT_MULTIPLE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Quit those applications and try to eject the disk again.</base>
+        <tran loc="zh-TW">請結束應用程式，然後再嘗試退出磁碟一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> User is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_1USER</Position>
+      <TranslationSet>
+        <base loc="en">The disk cannot be ejected because another user (“%@”) is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為其他使用者（「%@」）正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROCESS_PID</Position>
+      <TranslationSet>
+        <base loc="en">Process %d</base>
+        <tran loc="zh-TW">程序%d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Finder is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_FINDER</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because the Finder is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為Finder正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%@” wasn’t ejected because one or more programs may be using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%@」，因為一或多個程式可能正在使用它。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_HAS_1DISKIMAGE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” first and then try to eject the disk again.</base>
+        <tran loc="zh-TW">請先退出「%1$@」，然後再嘗試退出磁碟一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONFIRM_FORCE</Position>
+      <TranslationSet>
+        <base loc="en">Force Eject</base>
+        <tran loc="zh-TW">強制退出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_3USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk cannot be ejected because other users (“%1$@”, “%2$@” and others) are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為其他使用者（「%1$@」、「%2$@」和其他）正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_FINDER</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because the Finder is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為Finder正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGOUT_MULTIPLE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">When the other users are no longer using the disk, try ejecting it again.</base>
+        <tran loc="zh-TW">當其他使用者不再使用磁碟時，請嘗試再次退出磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRYING_TO_EJECT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">To eject the disk immediately, click the Force Eject button.</base>
+        <tran loc="zh-TW">若要立即退出磁碟，請按一下「強制退出」按鈕。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNABLE_TO_EJECT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">You can try to eject the disk again or click Force Eject to eject it immediately.</base>
+        <tran loc="zh-TW">您可以再次嘗試退出磁碟或按一下「強制退出」來立即將其退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_REMOTEPROCESS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because a remote process is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為遠端程序正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Disk Image is mounted from the disk the disk </Description>
+      <Position>VOLUME_HAS_DISKIMAGE</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because it is in use.</base>
+        <tran loc="zh-TW">磁碟「%1$@」正在使用中，因此無法退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOP_FILESERVER</Position>
+      <TranslationSet>
+        <base loc="en">Eject the disk on the other machine or stop file sharing in the Sharing preferences and then try to eject the disk again.</base>
+        <tran loc="zh-TW">退出其他機器上的磁碟或停止「共享」偏好設定的檔案共享，然後再試著退出磁碟一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> File Server is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_FILESERVER</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because it is being shared.</base>
+        <tran loc="zh-TW">正在共享磁碟，因此無法退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_HAS_3DISKIMAGES_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” and other disks first and then try to eject the “%2$@” again.</base>
+        <tran loc="zh-TW">請先退出「%1$@」和其他磁碟，然後再嘗試退出「%2$@」一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_2GUIPROCS</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because “%1$@” and “%2$@” are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為「%1$@」和「%2$@」正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNKNOWN_IN_USE_BY_2USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk cannot be ejected because other users (“%1$@” and “%2$@”) are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為其他使用者（「%1$@」和「%2$@」）正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_2USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” cannot be ejected because other users (“%2$@” and “%3$@”) are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為其他使用者（「%2$@」和「%3$@」）正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_1GUIPROC</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” couldn’t be ejected because “%2$@” is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為「%2$@」正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_IN_USE_BY_3USERS</Position>
+      <TranslationSet>
+        <base loc="en">The disk “%1$@” cannot be ejected because other users (“%2$@”, “%3$@” and others) are using it.</base>
+        <tran loc="zh-TW">無法退出磁碟「%1$@」，因為其他使用者（「%2$@」、「%3$@」和其他）正在使用磁碟。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VOLUME_HAS_1DISKIMAGE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Eject “%1$@” first and then try to eject the “%2$@” again.</base>
+        <tran loc="zh-TW">請先退出「%1$@」，然後再嘗試退出「%2$@」一次。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> volume was ejected </Description>
+      <Position>UNKNOWN_WAS_EJECTED</Position>
+      <TranslationSet>
+        <base loc="en">The disk was ejected.</base>
+        <tran loc="zh-TW">磁碟已經退出。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> GUI app is using the disk </Description>
+      <Position>UNKNOWN_IN_USE_BY_1GUIPROC</Position>
+      <TranslationSet>
+        <base loc="en">The disk couldn’t be ejected because “%@” is using it.</base>
+        <tran loc="zh-TW">無法退出磁碟，因為「%@」正在使用中。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>UnmountAssistant/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/Resources/English.lproj/UAAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button A"; ObjectID = "y2N-Lb-R44"; </Description>
+      <Position>y2N-Lb-R44.title</Position>
+      <TranslationSet>
+        <base loc="en">Button A</base>
+        <tran loc="zh-TW">按鈕A</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button C"; ObjectID = "P56-K4-zaN"; </Description>
+      <Position>P56-K4-zaN.title</Position>
+      <TranslationSet>
+        <base loc="en">Button C</base>
+        <tran loc="zh-TW">按鈕C</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Trying to eject"; ObjectID = "uNg-Ov-gFz"; </Description>
+      <Position>uNg-Ov-gFz.title</Position>
+      <TranslationSet>
+        <base loc="en">Trying to eject</base>
+        <tran loc="zh-TW">正在嘗試退出</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Button B"; ObjectID = "I9F-cy-p4M"; </Description>
+      <Position>I9F-cy-p4M.title</Position>
+      <TranslationSet>
+        <base loc="en">Button B</base>
+        <tran loc="zh-TW">按鈕B</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

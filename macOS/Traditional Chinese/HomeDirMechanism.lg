@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>HomeDirMechanism</ProjName>
+  <File>
+    <Filepath>HomeDirMechanism/System/Library/CoreServices/SecurityAgentPlugins/HomeDirMechanism.bundle/Contents/Resources/en.lproj/HomeDirMechanism.strings</Filepath>
+    <TextItem>
+      <Description> Info string (secondary message) of alert that is presented when an error ocurs mounting an AFP or SMB home directory. </Description>
+      <Position>AFP_SMB_LOGIN_ERROR_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Logging in to the account failed because an error occurred. The home folder for the user account is located on an AFP or SMB server. Contact your system administrator for help.</base>
+        <tran loc="zh-TW">發生錯誤，無法登入此帳號。此使用者帳號的個人專屬檔案夾是位於AFP或SMB伺服器。請聯絡您的系統管理者以取得協助。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Info string (secondary message) of alert that is presented when an error ocurs mounting an AFP or SMB home directory. </Description>
+      <Position>DEFAULT_LOGIN_ERROR_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Logging in to the account failed because an error occurred.</base>
+        <tran loc="zh-TW">因為發生錯誤，所以登入此帳號失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Info string (secondary message) of alert that is presented when an error ocurs mounting an AFP or SMB home directory. </Description>
+      <Position>NETWORK_LOGIN_ERROR_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Logging in to the account failed because an error occurred.</base>
+        <tran loc="zh-TW">因為發生錯誤，所以登入此帳號失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for OK button in alert that is presented when an error ocurs mounting an AFP or SMB home directory. </Description>
+      <Position>AFP_SMB_LOGIN_ERROR_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for OK button in alert that is presented when an error ocurs mounting an AFP or SMB home directory. </Description>
+      <Position>DEFAULT_LOGIN_ERROR_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for OK button in alert that is presented when an error ocurs mounting a FileVault Image </Description>
+      <Position>FILEVAULT_LOGIN_ERROR_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for OK button in alert that is presented when an error ocurs mounting an AFP or SMB home directory. </Description>
+      <Position>NETWORK_LOGIN_ERROR_OK_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>********* AFP/SMB Login Error Messages 
+ Format string used to build primary message string of alert that is presented when an error occurs mounting an AFP or SMB home directory. 
+ %@ is replaced with the name of the user account. </Description>
+      <Position>AFP_SMB_LOGIN_ERROR_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You are unable to log in to the user account “%@” at this time.</base>
+        <tran loc="zh-TW">此時您無法登入使用者帳號「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>********* Network Login Error Messages 
+ Format string used to build primary message string of alert that is presented when an error occurs mounting a Network home. 
+ %@ is replaced with the name of the user account. </Description>
+      <Position>DEFAULT_LOGIN_ERROR_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You are unable to log in to the user account “%@” at this time.</base>
+        <tran loc="zh-TW">此時您無法登入使用者帳號「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>********* Network Login Error Messages 
+ Format string used to build primary message string of alert that is presented when an error occurs mounting a Network home. 
+ %@ is replaced with the name of the user account. </Description>
+      <Position>NETWORK_LOGIN_ERROR_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You are unable to log in to the user account “%@” at this time.</base>
+        <tran loc="zh-TW">此時您無法登入使用者帳號「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Info string (secondary message) of alert that is presented when an error ocurs mounting a FileVault Image </Description>
+      <Position>FILEVAULT_LOGIN_ERROR_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Legacy FileVault is not supported on macOS 10.13 and above.</base>
+        <tran loc="zh-TW">macOS 10.13和以上版本不支援舊版「檔案保險箱」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>********* FileVault Login Error Messages 
+ Format string used to build primary message string of alert that is presented when an error occurs mounting a FileVault home directory. 
+ %@ is replaced with the name of the user account. </Description>
+      <Position>FILEVAULT_LOGIN_ERROR_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">You are unable to log in to the FileVault user account “%@”.</base>
+        <tran loc="zh-TW">您無法登入「檔案保險箱」使用者帳號「%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

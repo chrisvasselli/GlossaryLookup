@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>TouchIDPref</ProjName>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_SCREENLOCK_OFF_DESC</Position>
+      <TranslationSet>
+        <base loc="en">Your saved passwords, credit cards, and important data can be used by others who have access to your Mac if you turn off screen lock.</base>
+        <tran loc="zh-TW">若您關閉鎖定螢幕，其他可以取用您Mac的人就能夠使用您儲存的密碼、信用卡和重要資料。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_TITLE_PWD</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to turn off iCloud Keychain and remove Safari passwords saved on this Mac?</base>
+        <tran loc="zh-TW">您要關閉「iCloud鑰匙圈」並移除儲存在這部Mac上的Safari密碼嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_TITLE_PWD_AND_CC</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to turn off iCloud Keychain and remove Safari passwords and credit cards saved on this Mac?</base>
+        <tran loc="zh-TW">您要關閉「iCloud鑰匙圈」並移除儲存在這部Mac上的Safari密碼和信用卡嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF_KEYCHAIN</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off Keychain</base>
+        <tran loc="zh-TW">關閉鑰匙圈</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STANDARD_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Standard</base>
+        <tran loc="zh-TW">標準</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to turn off iCloud Keychain?</base>
+        <tran loc="zh-TW">您要關閉「iCloud鑰匙圈」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF_REMOVE_PASSWORDS</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off &amp; Remove Passwords</base>
+        <tran loc="zh-TW">關閉並移除密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADMIN_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Admin</base>
+        <tran loc="zh-TW">管理</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRINGFAILED</Position>
+      <TranslationSet>
+        <base loc="en">Setup failed.</base>
+        <tran loc="zh-TW">設定失敗。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEEP_USING_KEYCHAIN</Position>
+      <TranslationSet>
+        <base loc="en">Keep Using Keychain</base>
+        <tran loc="zh-TW">繼續使用鑰匙圈</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_DESC_PWD_AND_CC</Position>
+      <TranslationSet>
+        <base loc="en">This can protect the passwords and credit cards you have previously saved in Safari.</base>
+        <tran loc="zh-TW">這樣可以保護您先前儲存在Safari中的密碼和信用卡。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_DESC_PWD</Position>
+      <TranslationSet>
+        <base loc="en">This can protect the passwords you have previously saved in Safari.</base>
+        <tran loc="zh-TW">這樣可以保護您先前儲存在Safari中的密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_SCREENLOCK_OFF_DESC_NO_CC</Position>
+      <TranslationSet>
+        <base loc="en">Your saved passwords and important data can be used by others who have access to your Mac if you turn off screen lock.</base>
+        <tran loc="zh-TW">若您關閉鎖定螢幕，其他可以取用您Mac的人就能夠使用您儲存的密碼和重要資料。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">To setup your Apple Watch to unlock your Mac, enter the password for “%@”.</base>
+        <tran loc="zh-TW">若要設定Apple Watch來解鎖Mac，請輸入「%@」的密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  PasswordAndTouchID
+
+  Created by Anant Sonone on 12/21/15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>USER_PASSWORD_SET_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">A login password has been set for this user</base>
+        <tran loc="zh-TW">已設定這位使用者的登入密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter password to continue setup.</base>
+        <tran loc="zh-TW">請輸入密碼來繼續設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_DESC</Position>
+      <TranslationSet>
+        <base loc="en">To protect the passwords and credit cards you save in Safari on your other devices, turn off iCloud Keychain on this Mac.</base>
+        <tran loc="zh-TW">若要保護您在其他裝置上儲存於Safari中的密碼和信用卡，請在此Mac上關閉「iCloud鑰匙圈」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SET_USER_PASSWORD_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Set Password…</base>
+        <tran loc="zh-TW">設定密碼⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_SCREENLOCK_OFF_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to turn off screen lock?</base>
+        <tran loc="zh-TW">確定要關閉鎖定螢幕嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PAIRINGSTARTED</Position>
+      <TranslationSet>
+        <base loc="en">Waiting for %@…</base>
+        <tran loc="zh-TW">正在等待「%@」⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USER_PASSWORD_NOT_SET_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">A login password has not been set for this user</base>
+        <tran loc="zh-TW">尚未設定這位使用者的登入密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_TITLE_CC</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to turn off iCloud Keychain and remove credit cards saved on this Mac?</base>
+        <tran loc="zh-TW">您要關閉「iCloud鑰匙圈」並移除儲存在這部Mac上的信用卡嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF_SCREEN_LOCK</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off Screen Lock</base>
+        <tran loc="zh-TW">關閉鎖定螢幕</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Unlock %@ to pair with the system.</Position>
+      <TranslationSet>
+        <base loc="en">Unlock “%@” to complete setup.</base>
+        <tran loc="zh-TW">解鎖「%@」以完成設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT2_SCREENLOCK_OFF_DESC_CC</Position>
+      <TranslationSet>
+        <base loc="en">This can protect the credit cards you have previously saved in Safari.</base>
+        <tran loc="zh-TW">這樣可以保護您先前儲存在Safari中的信用卡。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_OFF_REMOVE_CC</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off &amp; Remove Cards</base>
+        <tran loc="zh-TW">關閉並移除卡片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INFO_MULTIPLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Mac can automatically unlock using your Apple Watch when you are wearing it.  Allow these devices to unlock your Mac:</base>
+        <tran loc="zh-TW">當您配戴Apple Watch時，可使用手錶自動解鎖Mac。允許這些裝置來解鎖Mac：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INFO_SINGLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Mac can automatically unlock using your Apple Watch when you are wearing it.</base>
+        <tran loc="zh-TW">當您配戴Apple Watch時，可使用手錶自動解鎖Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_USER_PASSWORD_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Change Password…</base>
+        <tran loc="zh-TW">更改密碼⋯</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/Password_TouchID_PrefPane.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "≪ do not localize ≫"; ObjectID = "F0z-JX-Cv5"; </Description>
+      <Position>F0z-JX-Cv5.title</Position>
+      <TranslationSet>
+        <base loc="en">≪ do not localize ≫</base>
+        <tran loc="zh-TW">≪ do not localize ≫</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/TouchID.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_APPLEPAY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to use Touch ID with Apple Pay.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來在Apple Pay中使用Touch ID。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_AUTLOGINENABLED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Using Touch ID requires automatic login to be turned off.</base>
+        <tran loc="zh-TW">若要使用Touch ID，必須關閉自動登入。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOUCHID_PURCHASES</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Store, App Store &amp; Apple Books</base>
+        <tran loc="zh-TW">iTunes Store、App Store與Apple Books</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FINGERPRINT</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_PLURAL</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_SINGULAR</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_FINGER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to add a fingerprint.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來加入指紋。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENTER_PASSCODE_SUBTITLE_TOUCHID</Position>
+      <TranslationSet>
+        <base loc="en">Enter a passcode to use when Touch ID is not available.</base>
+        <tran loc="zh-TW">輸入當Touch ID無法操作時所使用的密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_AUTOFILL_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@“ to disable Password AutoFill using Touch ID.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來停用透過Touch ID自動填寫密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_AUTLOGINENABLED_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Turn off automatic login to continue.</base>
+        <tran loc="zh-TW">關閉自動登入來繼續。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOUCHID_PURCHASES_FOOTER</Position>
+      <TranslationSet>
+        <base loc="en">Use your fingerprint instead of your Apple ID password when buying from the iTunes &amp; App Store.</base>
+        <tran loc="zh-TW">當您在iTunes和App Store中購物時，使用指紋來取代您的Apple ID密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_AUTLOGINENABLED_DISABLE</Position>
+      <TranslationSet>
+        <base loc="en">Turn Off Automatic Login</base>
+        <tran loc="zh-TW">關閉自動登入</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_NOPASSWORD_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Open Users &amp; Groups preferences to create a password.</base>
+        <tran loc="zh-TW">打開「使用者與群組」偏好設定來製作密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_FINGERPRINT</Position>
+      <TranslationSet>
+        <base loc="en">Add a fingerprint</base>
+        <tran loc="zh-TW">加入指紋</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Remove a fingerprint with the specified name </Description>
+      <Position>REMOVE_FINGERPRINT_FORMAT_STRING</Position>
+      <TranslationSet>
+        <base loc="en">Remove fingerprint %@</base>
+        <tran loc="zh-TW">移除指紋%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_SAVED_FINGER_DETAIL_PLURAL_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Fingerprints that can be used to unlock are already saved on this iPhone. Do you want to keep these fingerprints or delete them?</base>
+        <tran loc="zh-TW">可用來解鎖的指紋已儲存在此iPhone上。您要保留還是要刪除這些指紋？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FP_ENROLLMENT_CANCELLED_TITLE.</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID setup was interrupted.</base>
+        <tran loc="zh-TW">Touch ID設定中斷。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> What is an enrollment called? </Description>
+      <Position>IDENTITY_NAME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Finger %@</base>
+        <tran loc="zh-TW">手指%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Turning on a passcode again asks about deleting previous fingprints </Description>
+      <Position>DELETE_SAVED_FINGER_SINGULAR</Position>
+      <TranslationSet>
+        <base loc="en">Delete Saved Fingerprint?</base>
+        <tran loc="zh-TW">要刪除已儲存的指紋嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOUCHID_UNLOCK_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">iPhone Unlock</base>
+        <tran loc="zh-TW">解鎖iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Enrollment Failed</base>
+        <tran loc="zh-TW">無法登記</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_REMOVE_FINGERPRINT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to permanently delete the fingerprint “%@”?</base>
+        <tran loc="zh-TW">確定要永久刪除指紋「%@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOVE_FINGER_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to delete fingerprint.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來刪除指紋。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_AUTOFILL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@“ to disable Touch ID with Password AutoFill.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來停用透過Touch ID自動填寫密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_SAVED_FINGER_DETAIL_SINGULAR_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">A fingerprint that can be used to unlock is already saved on this iPhone. Do you want to keep this fingerprint or delete it?</base>
+        <tran loc="zh-TW">可用來解鎖的指紋已儲存在此iPhone上。您要保留還是要刪除此指紋？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FINGERPRINTS</Position>
+      <TranslationSet>
+        <base loc="en">FINGERPRINTS</base>
+        <tran loc="zh-TW">指紋</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_NOPASSWORD_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">To use Touch ID, the user “%@” requires a password.</base>
+        <tran loc="zh-TW">若要使用Touch ID，使用者「%@」需要密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Settings &gt; Touch ID switches </Description>
+      <Position>USE_TOUCHID_FOR</Position>
+      <TranslationSet>
+        <base loc="en">Use Touch ID For:</base>
+        <tran loc="zh-TW">將Touch ID用於：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_COMPUTER_UNLOCK_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to use Touch ID to unlock your Mac.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來使用Touch ID解鎖您的Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNLOCK_PREVENTED_BY_ADMIN</Position>
+      <TranslationSet>
+        <base loc="en">An administrator has disabled using Touch ID to unlock your Mac.</base>
+        <tran loc="zh-TW">管理者已停用透過Touch ID來解鎖您的Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_SAVED_FINGER_PLURAL</Position>
+      <TranslationSet>
+        <base loc="en">Delete Saved Fingerprints?</base>
+        <tran loc="zh-TW">要刪除已儲存的指紋嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEEP_PLURAL</Position>
+      <TranslationSet>
+        <base loc="en">Keep</base>
+        <tran loc="zh-TW">保留</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEEP_SINGULAR</Position>
+      <TranslationSet>
+        <base loc="en">Keep</base>
+        <tran loc="zh-TW">保留</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_PASSCODE</Position>
+      <TranslationSet>
+        <base loc="en">Create a Passcode</base>
+        <tran loc="zh-TW">製作密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_STOREPURCHASE_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to allow iTunes and App Store purchases using Touch ID.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來允許iTunes與App Store使用Touch ID購物。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_COMPUTER_UNLOCK_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Enter password for “%@” to use Touch ID to unlock your Mac.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來使用Touch ID解鎖您的Mac。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Open Users &amp; Groups…</Position>
+      <TranslationSet>
+        <base loc="en">Open Users &amp; Groups…</base>
+        <tran loc="zh-TW">打開「使用者與群組」⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADD_FINGER_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">To add your fingerprint to authenticate your Mac, enter the password for user “%@”.</base>
+        <tran loc="zh-TW">若要加入指紋來認證您的Mac，請輸入使用者「%@」的密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> I don't think these are used anywhere. Need to be audited:</Description>
+      <Position>COMPLETE</Position>
+      <TranslationSet>
+        <base loc="en">Complete</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALERT_REMOVE_FINGERPRINT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">You can’t undo this action.</base>
+        <tran loc="zh-TW">您無法還原此動作。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_APPLEPAY_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to allow Apple Pay using Touch ID.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來允許Apple Pay使用Touch ID。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_LIMITS_REACHED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Fingerprint limit reached.</base>
+        <tran loc="zh-TW">指紋已達限制。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_STOREPURCHASE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to use Touch ID with iTunes and App Store.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來在iTunes與App Store中使用Touch ID。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENROLLMENT_LIMITS_REACHED_INFO</Position>
+      <TranslationSet>
+        <base loc="en">To add a new fingerprint, remove a fingerprint from any account on this Mac.</base>
+        <tran loc="zh-TW">若要加入新指紋，請移除此Mac上任何帳號中的指紋。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMOVE_FINGER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for “%@” to remove this fingerprint.</base>
+        <tran loc="zh-TW">輸入「%@」的密碼來移除這個指紋。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/TouchID.searchTerms</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/TouchID:dict/localizableStrings:dict/0:array/title:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID</base>
+        <tran loc="zh-TW">Touch ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/TouchID:dict/localizableStrings:dict/0:array/index:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID, touchid, ID, touch, fingerprint, finger, print, unlock, pay, purchase, buy</base>
+        <tran loc="zh-TW">Touch ID, touchid, ID, touch, 指紋, 解鎖, 付款, 付錢, 購物, 購買</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/TouchID:dict/localizableStrings:dict/0:array/comments:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Localizable index words</base>
+        <tran loc="zh-TW">本地化索引詞</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID</base>
+        <tran loc="zh-TW">Touch ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSPrefPaneIconLabel</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID</base>
+        <tran loc="zh-TW">Touch ID</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/AuthenticationController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Incorrect password."; ObjectID = "OQW-qr-gdF"; </Description>
+      <Position>OQW-qr-gdF.title</Position>
+      <TranslationSet>
+        <base loc="en">Incorrect password.</base>
+        <tran loc="zh-TW">密碼不正確。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "8dP-lN-dV9"; </Description>
+      <Position>8dP-lN-dV9.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="zh-TW">密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter password to continue setup."; ObjectID = "BQG-V4-avy"; </Description>
+      <Position>BQG-V4-avy.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter password to continue setup.</base>
+        <tran loc="zh-TW">請輸入密碼來繼續設定。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3Yl-Ly-xdG"; </Description>
+      <Position>3Yl-Ly-xdG.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Continue"; ObjectID = "LzC-N9-Xxr"; </Description>
+      <Position>LzC-N9-Xxr.title</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="zh-TW">繼續</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSecureTextFieldCell"; placeholderString = "Enter Password"; ObjectID = "Xtp-mO-4nf"; </Description>
+      <Position>Xtp-mO-4nf.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Enter Password</base>
+        <tran loc="zh-TW">輸入密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "To setup your Apple Watch to unlock your Mac, enter the password for user account."; ObjectID = "lkg-Jc-ear"; </Description>
+      <Position>lkg-Jc-ear.title</Position>
+      <TranslationSet>
+        <base loc="en">To setup your Apple Watch to unlock your Mac, enter the password for user account.</base>
+        <tran loc="zh-TW">若要設定Apple Watch來解鎖Mac，請輸入使用者帳號的密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "knB-di-aSP"; </Description>
+      <Position>knB-di-aSP.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">Window</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/Resources/en.lproj/TouchIDView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "iTunes Store, App Store &amp; Apple Books"; ObjectID = "kiQ-Af-XOD"; </Description>
+      <Position>kiQ-Af-XOD.title</Position>
+      <TranslationSet>
+        <base loc="en">iTunes Store, App Store &amp; Apple Books</base>
+        <tran loc="zh-TW">iTunes Store、App Store與Apple Books</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Delete"; ObjectID = "91B-Zg-5BJ"; </Description>
+      <Position>91B-Zg-5BJ.title</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Done"; ObjectID = "6T2-hJ-MRV"; </Description>
+      <Position>6T2-hJ-MRV.title</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Password AutoFill"; ObjectID = "S69-BR-ktF"; </Description>
+      <Position>S69-BR-ktF.title</Position>
+      <TranslationSet>
+        <base loc="en">Password AutoFill</base>
+        <tran loc="zh-TW">密碼自動填寫</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Touch ID lets you use your fingerprint to unlock your Mac and make purchases with Apple Pay, iTunes Store, App Store and Apple Books."; ObjectID = "eyX-Lk-oKd"; </Description>
+      <Position>eyX-Lk-oKd.title</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID lets you use your fingerprint to unlock your Mac and make purchases with Apple Pay, iTunes Store, App Store and Apple Books.</base>
+        <tran loc="zh-TW">Touch ID能讓您使用指紋來解鎖Mac，以及使用Apple Pay、 iTunes Store、App Store和Apple Books來購物。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Use Touch ID for:"; ObjectID = "laC-9S-RBc"; </Description>
+      <Position>laC-9S-RBc.title</Position>
+      <TranslationSet>
+        <base loc="en">Use Touch ID for:</base>
+        <tran loc="zh-TW">將Touch ID用於：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTableColumn"; headerCell.title = "Manage Fingerprints"; ObjectID = "j9k-EF-lPd"; </Description>
+      <Position>j9k-EF-lPd.headerCell.title</Position>
+      <TranslationSet>
+        <base loc="en">Manage Fingerprints</base>
+        <tran loc="zh-TW">管理指紋</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Apple Pay"; ObjectID = "NnB-mn-hCQ"; </Description>
+      <Position>NnB-mn-hCQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple Pay</base>
+        <tran loc="zh-TW">Apple Pay</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "lH6-Pz-fCC"; </Description>
+      <Position>lH6-Pz-fCC.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">Window</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Window"; ObjectID = "sXs-ra-PM3"; </Description>
+      <Position>sXs-ra-PM3.title</Position>
+      <TranslationSet>
+        <base loc="en">Window</base>
+        <tran loc="zh-TW">Window</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Unlocking your Mac"; ObjectID = "rX3-vY-X2z"; </Description>
+      <Position>rX3-vY-X2z.title</Position>
+      <TranslationSet>
+        <base loc="en">Unlocking your Mac</base>
+        <tran loc="zh-TW">解鎖您的Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "3Ry-AE-7jp"; </Description>
+      <Position>3Ry-AE-7jp.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>TouchIDPref/System/Library/PreferencePanes/TouchID.prefPane/Contents/XPCServices/com.apple.preferences.password.remoteservice.xpc/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleVisibleComponentName</Position>
+      <TranslationSet>
+        <base loc="en">System Preferences</base>
+        <tran loc="zh-TW">系統偏好設定</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

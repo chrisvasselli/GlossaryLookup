@@ -1,0 +1,3452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>AMPSharing</ProjName>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/ModalViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "GA3-eL-NIg"; </Description>
+      <Position>GA3-eL-NIg.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "TxE-0j-Tkr"; </Description>
+      <Position>TxE-0j-Tkr.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  Sharing
+
+  Created by JC Ricks on 7/9/19.
+  Copyright © 2019 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Media Sharing</base>
+        <tran loc="zh-TW">媒體共享</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/DeviceSettingsPhotos.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Last week"; ObjectID = "ya1-Jq-iqc"; </Description>
+      <Position>ya1-Jq-iqc.title</Position>
+      <TranslationSet>
+        <base loc="en">Last week</base>
+        <tran loc="zh-TW">上週</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can choose which photos from your computer are copied to your iPhone. Photos from your iPhone‘s Camera Roll can be imported separately into Photos or Image Capture."; ObjectID = "fGg-0w-buz"; </Description>
+      <Position>fGg-0w-buz.title</Position>
+      <TranslationSet>
+        <base loc="en">You can choose which photos from your computer are copied to your iPhone. Photos from your iPhone‘s Camera Roll can be imported separately into Photos or Image Capture.</base>
+        <tran loc="zh-TW">您可以選擇要將電腦上的哪些照片拷貝到iPhone上。iPhone「相機膠捲」的照片可以分別輸入到「照片」或「影像擷取」中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Last 3 months"; ObjectID = "pMc-69-u2U"; </Description>
+      <Position>pMc-69-u2U.title</Position>
+      <TranslationSet>
+        <base loc="en">Last 3 months</base>
+        <tran loc="zh-TW">最近3個月</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "Albums"; ObjectID = "p93-xu-OQK"; </Description>
+      <Position>p93-xu-OQK.label</Position>
+      <TranslationSet>
+        <base loc="en">Albums</base>
+        <tran loc="zh-TW">專輯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Last 6 months"; ObjectID = "yVx-QN-cIS"; </Description>
+      <Position>yVx-QN-cIS.title</Position>
+      <TranslationSet>
+        <base loc="en">Last 6 months</base>
+        <tran loc="zh-TW">最近6個月</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Selected albums"; ObjectID = "1UV-gA-SmH"; </Description>
+      <Position>1UV-gA-SmH.title</Position>
+      <TranslationSet>
+        <base loc="en">Selected albums</base>
+        <tran loc="zh-TW">所選的相簿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Automatically include photos from:"; ObjectID = "zoC-fe-EG4"; </Description>
+      <Position>zoC-fe-EG4.title</Position>
+      <TranslationSet>
+        <base loc="en">Automatically include photos from:</base>
+        <tran loc="zh-TW">自動包含照片，來自：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Options:"; ObjectID = "FzL-DZ-r4Q"; </Description>
+      <Position>FzL-DZ-r4Q.title</Position>
+      <TranslationSet>
+        <base loc="en">Options:</base>
+        <tran loc="zh-TW">選項：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Last year"; ObjectID = "qF8-KA-KPQ"; </Description>
+      <Position>qF8-KA-KPQ.title</Position>
+      <TranslationSet>
+        <base loc="en">Last year</base>
+        <tran loc="zh-TW">去年</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Copy full-resolution versions of your photos into the Photos folder on your iPod, which you can access after enabling disk use."; ObjectID = "1DZ-T1-ju4"; </Description>
+      <Position>1DZ-T1-ju4.title</Position>
+      <TranslationSet>
+        <base loc="en">Copy full-resolution versions of your photos into the Photos folder on your iPod, which you can access after enabling disk use.</base>
+        <tran loc="zh-TW">將全解析度版的照片拷貝至您iPod上的Photos檔案夾裡，當您啟用磁碟功能之後，即可以取用該檔案夾。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Sync photos to your device from:"; ObjectID = "Ncw-ay-oLO"; </Description>
+      <Position>Ncw-ay-oLO.title</Position>
+      <TranslationSet>
+        <base loc="en">Sync photos to your device from:</base>
+        <tran loc="zh-TW">將照片同步到裝置上，來自：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Choose folder…"; ObjectID = "T0O-mN-yHV"; </Description>
+      <Position>T0O-mN-yHV.title</Position>
+      <TranslationSet>
+        <base loc="en">Choose folder…</base>
+        <tran loc="zh-TW">選擇檔案夾⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Sync:"; ObjectID = "neU-qo-bgN"; </Description>
+      <Position>neU-qo-bgN.title</Position>
+      <TranslationSet>
+        <base loc="en">Sync:</base>
+        <tran loc="zh-TW">同步：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Photos"; ObjectID = "ey7-t5-tH7"; </Description>
+      <Position>ey7-t5-tH7.title</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="zh-TW">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Only favorites"; ObjectID = "Geu-sC-PRe"; </Description>
+      <Position>Geu-sC-PRe.title</Position>
+      <TranslationSet>
+        <base loc="en">Only favorites</base>
+        <tran loc="zh-TW">僅限喜好項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "All photos and albums"; ObjectID = "Xdh-C4-AiO"; </Description>
+      <Position>Xdh-C4-AiO.title</Position>
+      <TranslationSet>
+        <base loc="en">All photos and albums</base>
+        <tran loc="zh-TW">所有照片和相簿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Last 2 months"; ObjectID = "MWu-rO-w1G"; </Description>
+      <Position>MWu-rO-w1G.title</Position>
+      <TranslationSet>
+        <base loc="en">Last 2 months</base>
+        <tran loc="zh-TW">最近2個月</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Include videos"; ObjectID = "Qx2-ud-FeZ"; </Description>
+      <Position>Qx2-ud-FeZ.title</Position>
+      <TranslationSet>
+        <base loc="en">Include videos</base>
+        <tran loc="zh-TW">包含影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Pictures"; ObjectID = "MmF-03-Cbg"; </Description>
+      <Position>MmF-03-Cbg.title</Position>
+      <TranslationSet>
+        <base loc="en">Pictures</base>
+        <tran loc="zh-TW">圖片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Share photos from:"; ObjectID = "E6G-3p-84x"; </Description>
+      <Position>E6G-3p-84x.title</Position>
+      <TranslationSet>
+        <base loc="en">Share photos from:</base>
+        <tran loc="zh-TW">分享照片來源：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSMenuItem"; title = "Last month"; ObjectID = "frr-tV-uol"; </Description>
+      <Position>frr-tV-uol.title</Position>
+      <TranslationSet>
+        <base loc="en">Last month</base>
+        <tran loc="zh-TW">上個月</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "People"; ObjectID = "mZs-cr-TXy"; </Description>
+      <Position>mZs-cr-TXy.label</Position>
+      <TranslationSet>
+        <base loc="en">People</base>
+        <tran loc="zh-TW">成員</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTabViewItem"; label = "Folders"; ObjectID = "wtw-iZ-FRz"; </Description>
+      <Position>wtw-iZ-FRz.label</Position>
+      <TranslationSet>
+        <base loc="en">Folders</base>
+        <tran loc="zh-TW">檔案夾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Include full-resolution photos"; ObjectID = "N2q-Of-Trl"; </Description>
+      <Position>N2q-Of-Trl.title</Position>
+      <TranslationSet>
+        <base loc="en">Include full-resolution photos</base>
+        <tran loc="zh-TW">包含全解析照片</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/CapacityBar.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DISK_BOOKS</Position>
+      <TranslationSet>
+        <base loc="en">Books</base>
+        <tran loc="zh-TW">書籍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_FREE</Position>
+      <TranslationSet>
+        <base loc="en">Available</base>
+        <tran loc="zh-TW">可用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_PURGEABLE</Position>
+      <TranslationSet>
+        <base loc="en">Purgeable</base>
+        <tran loc="zh-TW">可清除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_GAMES</Position>
+      <TranslationSet>
+        <base loc="en">Games</base>
+        <tran loc="zh-TW">遊戲</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_APPS</Position>
+      <TranslationSet>
+        <base loc="en">Apps</base>
+        <tran loc="zh-TW">App</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_LOGS</Position>
+      <TranslationSet>
+        <base loc="en">Logs</base>
+        <tran loc="zh-TW">記錄</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_USED</Position>
+      <TranslationSet>
+        <base loc="en">Used Space</base>
+        <tran loc="zh-TW">已使用的空間</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_AUDIO</Position>
+      <TranslationSet>
+        <base loc="en">Audio</base>
+        <tran loc="zh-TW">音訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_CALC</Position>
+      <TranslationSet>
+        <base loc="en">Calculating…</base>
+        <tran loc="zh-TW">正在計算⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_PHOTOS</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="zh-TW">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_SYSTEM</Position>
+      <TranslationSet>
+        <base loc="en">System</base>
+        <tran loc="zh-TW">系統</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_DOCUMENTS</Position>
+      <TranslationSet>
+        <base loc="en">Documents &amp; Data</base>
+        <tran loc="zh-TW">文件與資料</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_VIDEO</Position>
+      <TranslationSet>
+        <base loc="en">Video</base>
+        <tran loc="zh-TW">影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_OTHER</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="zh-TW">其他</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISK_RESERVED</Position>
+      <TranslationSet>
+        <base loc="en">Reserved</base>
+        <tran loc="zh-TW">已保留</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/MediaSharing.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/connected_guest_count:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@guestCount@</base>
+        <tran loc="zh-TW">%#@guestCount@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/connected_guest_count:dict/guestCount:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">(%d connected)</base>
+        <tran loc="zh-TW">（%d個已連線）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/connected_guest_count:dict/guestCount:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">(%d connected)</base>
+        <tran loc="zh-TW">（%d個已連線）</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/MediaSharingPrefsViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "home sharing"; ObjectID = "n7T-je-pkg"; </Description>
+      <Position>n7T-je-pkg.title</Position>
+      <TranslationSet>
+        <base loc="en">home sharing</base>
+        <tran loc="zh-TW">家庭共享</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "library name:"; ObjectID = "LT6-Ec-yFA"; </Description>
+      <Position>LT6-Ec-yFA.title</Position>
+      <TranslationSet>
+        <base loc="en">library name:</base>
+        <tran loc="zh-TW">資料庫名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(0 connected)"; ObjectID = "JIf-7R-78s"; </Description>
+      <Position>JIf-7R-78s.title</Position>
+      <TranslationSet>
+        <base loc="en">(0 connected)</base>
+        <tran loc="zh-TW">（0個已連接）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(steve.apple@apple.com)"; ObjectID = "70V-vP-MSx"; </Description>
+      <Position>70V-vP-MSx.title</Position>
+      <TranslationSet>
+        <base loc="en">(steve.apple@apple.com)</base>
+        <tran loc="zh-TW">（steve.apple@apple.com）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "connected devices update play counts"; ObjectID = "sVh-Gb-jy6"; </Description>
+      <Position>sVh-Gb-jy6.title</Position>
+      <TranslationSet>
+        <base loc="en">connected devices update play counts</base>
+        <tran loc="zh-TW">已連接的裝置更新播放次數</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "options..."; ObjectID = "ecl-lN-POF"; </Description>
+      <Position>ecl-lN-POF.title</Position>
+      <TranslationSet>
+        <base loc="en">options...</base>
+        <tran loc="zh-TW">選項⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "options..."; ObjectID = "hJq-Ok-daq"; </Description>
+      <Position>hJq-Ok-daq.title</Position>
+      <TranslationSet>
+        <base loc="en">options...</base>
+        <tran loc="zh-TW">選項⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "media sharing explanation"; ObjectID = "FPV-Vi-gd6"; </Description>
+      <Position>FPV-Vi-gd6.title</Position>
+      <TranslationSet>
+        <base loc="en">media sharing explanation</base>
+        <tran loc="zh-TW">媒體共享解說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "media sharing explanation"; ObjectID = "csP-lp-ZSF"; </Description>
+      <Position>csP-lp-ZSF.title</Position>
+      <TranslationSet>
+        <base loc="en">media sharing explanation</base>
+        <tran loc="zh-TW">媒體共享解說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "media sharing: status"; ObjectID = "Ogu-Qh-EVo"; </Description>
+      <Position>Ogu-Qh-EVo.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">media sharing: status</base>
+        <tran loc="zh-TW">媒體共享：狀態</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "share media with guests"; ObjectID = "mGL-fZ-pje"; </Description>
+      <Position>mGL-fZ-pje.title</Position>
+      <TranslationSet>
+        <base loc="en">share media with guests</base>
+        <tran loc="zh-TW">與訪客共享媒體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "also share photos with apple tv"; ObjectID = "cEg-jP-2f4"; </Description>
+      <Position>cEg-jP-2f4.title</Position>
+      <TranslationSet>
+        <base loc="en">also share photos with apple tv</base>
+        <tran loc="zh-TW">也使用Apple TV來分享照片</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/MediaSharing.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>AppleIDLabel</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID: </base>
+        <tran loc="zh-TW">Apple ID：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingLoginOK</Position>
+      <TranslationSet>
+        <base loc="en">Turn On Home Sharing</base>
+        <tran loc="zh-TW">開啟家庭共享</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LibraryNameLabel</Position>
+      <TranslationSet>
+        <base loc="en">Library Name:</base>
+        <tran loc="zh-TW">資料庫名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MachineAuthorizationHelpURL</Position>
+      <TranslationSet>
+        <base loc="en">https://support.apple.com/en-us/HT201251</base>
+        <tran loc="zh-TW">https://support.apple.com/zh-tw/HT201251</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OKButton</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SharePhotosWithTV</Position>
+      <TranslationSet>
+        <base loc="en">Share photos with Apple TV</base>
+        <tran loc="zh-TW">使用Apple TV分享照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingLoginMessage</Position>
+      <TranslationSet>
+        <base loc="en">Enter the Apple ID used to create your Home Share.</base>
+        <tran loc="zh-TW">輸入您用來建立「家庭共享」的Apple ID。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Use your library across all devices signed into an Apple ID.</base>
+        <tran loc="zh-TW">在所有已登入Apple ID的裝置之間使用資料庫。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>RequirePasswordLabel</Position>
+      <TranslationSet>
+        <base loc="en">Require Password</base>
+        <tran loc="zh-TW">需要密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ErrorStatus</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="zh-TW">錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CancelButton</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingLoginCancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingAuthorizationFailed</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing could not be turned on.</base>
+        <tran loc="zh-TW">無法開啟「家庭共享」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CreateAppleID</Position>
+      <TranslationSet>
+        <base loc="en">Create New Apple ID</base>
+        <tran loc="zh-TW">新增Apple ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WarningStatus</Position>
+      <TranslationSet>
+        <base loc="en">Warning</base>
+        <tran loc="zh-TW">警告</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ChooseButton</Position>
+      <TranslationSet>
+        <base loc="en">Choose…</base>
+        <tran loc="zh-TW">選擇⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LegacyShareAllLabel</Position>
+      <TranslationSet>
+        <base loc="en">All songs, movies, and TV shows</base>
+        <tran loc="zh-TW">所有歌曲、影片和電視節目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingLoginExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing makes it easy to play or copy music, movies, and more among computers in your home. Just use the same Apple ID on up to five computers.</base>
+        <tran loc="zh-TW">「家庭共享」可讓您輕鬆播放或拷貝家中不同電腦上的音樂、影片和其他項目。您最多可以在5部電腦上使用相同的Apple ID。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OnStatus</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="zh-TW">開啟</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingUpdatesPlayCounts</Position>
+      <TranslationSet>
+        <base loc="en">Devices update play counts</base>
+        <tran loc="zh-TW">裝置更新播放次數</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MediaSharingStatusLabel</Position>
+      <TranslationSet>
+        <base loc="en">Media Sharing:</base>
+        <tran loc="zh-TW">媒體共享：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LegacySharingExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Devices on your network can browse and play downloaded music, movies, and TV shows.</base>
+        <tran loc="zh-TW">您在網路上的裝置可瀏覽和播放下載的音樂、影片和電視節目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LegacySharingLabel</Position>
+      <TranslationSet>
+        <base loc="en">Share media with guests</base>
+        <tran loc="zh-TW">與訪客共享媒體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> MediaSharing.strings
+ Media Sharing Preference Pane loc strings
+ !! Does not contain strings used in photo sharing dialog
+    Those are from AMPDevices in shared Localizable.strings!!</Description>
+      <Position>HomeSharing</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing</base>
+        <tran loc="zh-TW">家庭共享</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingLoginTitle</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing</base>
+        <tran loc="zh-TW">家庭共享</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingAuthorizationFailedExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple ID “%@” is associated with the maximum number of authorized devices.</base>
+        <tran loc="zh-TW">您的Apple ID「%@」所關聯的授權裝置數已達最大數量。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OptionsButton</Position>
+      <TranslationSet>
+        <base loc="en">Options…</base>
+        <tran loc="zh-TW">選項⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingAuthorizationFailedExtraText</Position>
+      <TranslationSet>
+        <base loc="en">To turn on Home Sharing, first deauthorize one of your other devices.\n\nThen on this computer, open Apple Music or the Apple TV app and select Account &gt; Authorizations &gt; Authorize This Computer.</base>
+        <tran loc="zh-TW">若要開啟「家庭共享」，請先取消授權其中一部裝置。\n\n然後在此電腦上打開Apple Music或Apple TV App，並選擇「帳號」&gt;「授權」&gt;「授權這部電腦」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingConfirmationExtraText</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing is for personal use.</base>
+        <tran loc="zh-TW">「家庭共享」是供個人使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingConfirmation</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing is now on.</base>
+        <tran loc="zh-TW">現已開啟「家庭共享」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LegacySharePlaylistsLabel</Position>
+      <TranslationSet>
+        <base loc="en">Selected playlists</base>
+        <tran loc="zh-TW">所選的播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OffStatus</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="zh-TW">關閉</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HomeSharingConfirmationExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Use the same Apple ID “%@” when turning on Home Sharing for your other computers and devices.</base>
+        <tran loc="zh-TW">使用相同的Apple ID「%@」為您的其他電腦和裝置開啟「家庭共享」。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/DeviceSettingsTabContent.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "UVI-mQ-wb2"; </Description>
+      <Position>UVI-mQ-wb2.title</Position>
+      <TranslationSet>
+        <base loc="en">Table View Cell</base>
+        <tran loc="zh-TW">Table View Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Check"; ObjectID = "3wQ-hg-nWA"; </Description>
+      <Position>3wQ-hg-nWA.title</Position>
+      <TranslationSet>
+        <base loc="en">Check</base>
+        <tran loc="zh-TW">檢查</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSearchFieldCell"; placeholderString = "Search %@"; ObjectID = "m5P-dU-qcz"; </Description>
+      <Position>m5P-dU-qcz.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Search %@</base>
+        <tran loc="zh-TW">搜尋%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "jRC-in-ycu"; </Description>
+      <Position>jRC-in-ycu.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/DeviceSettingsPhotosTabContent.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "UVI-mQ-wb2"; </Description>
+      <Position>UVI-mQ-wb2.title</Position>
+      <TranslationSet>
+        <base loc="en">Table View Cell</base>
+        <tran loc="zh-TW">Table View Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Check"; ObjectID = "3wQ-hg-nWA"; </Description>
+      <Position>3wQ-hg-nWA.title</Position>
+      <TranslationSet>
+        <base loc="en">Check</base>
+        <tran loc="zh-TW">檢查</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Check"; ObjectID = "66N-Ig-lKa"; </Description>
+      <Position>66N-Ig-lKa.title</Position>
+      <TranslationSet>
+        <base loc="en">Check</base>
+        <tran loc="zh-TW">檢查</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSearchFieldCell"; placeholderString = "Search %@"; ObjectID = "m5P-dU-qcz"; </Description>
+      <Position>m5P-dU-qcz.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">Search %@</base>
+        <tran loc="zh-TW">搜尋%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "8hn-Tf-3km"; </Description>
+      <Position>8hn-Tf-3km.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "jRC-in-ycu"; </Description>
+      <Position>jRC-in-ycu.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>About this iPhone:</Position>
+      <TranslationSet>
+        <base loc="en">About this iPhone:</base>
+        <tran loc="zh-TW">關於這部iPhone：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Last Accessed</Position>
+      <TranslationSet>
+        <base loc="en">Last Accessed</base>
+        <tran loc="zh-TW">上一次取用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Episode</Position>
+      <TranslationSet>
+        <base loc="en">Episode</base>
+        <tran loc="zh-TW">單集</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Phone Number 1: %@</Position>
+      <TranslationSet>
+        <base loc="en">Phone Number 1: %@</base>
+        <tran loc="zh-TW">電話號碼1：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMEI 2: %@</Position>
+      <TranslationSet>
+        <base loc="en">IMEI 2: %@</base>
+        <tran loc="zh-TW">IMEI 2：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Setup view</Description>
+      <Position>Activating…</Position>
+      <TranslationSet>
+        <base loc="en">Activating…</base>
+        <tran loc="zh-TW">啟用中⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Downloading and installing the iPod VoiceOver Kit…</Position>
+      <TranslationSet>
+        <base loc="en">Downloading and installing the iPod VoiceOver Kit…</base>
+        <tran loc="zh-TW">正在下載和安裝iPod VoiceOver Kit⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Choose Restore Backup iPod</Position>
+      <TranslationSet>
+        <base loc="en">Choose a backup to restore. This will restore only the contacts, calendars, notes, text messages, and settings, not the iPod firmware.</base>
+        <tran loc="zh-TW">選擇備份來回復。此動作只會回復聯絡人、行事曆、備忘錄、訊息和設定，不會回復iPod韌體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Remove &amp; Sync</Position>
+      <TranslationSet>
+        <base loc="en">Remove &amp; Sync</base>
+        <tran loc="zh-TW">移除並同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"Delete" = "Delete";</Description>
+      <Position>Archive</Position>
+      <TranslationSet>
+        <base loc="en">Archive</base>
+        <tran loc="zh-TW">封存</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Share:</Position>
+      <TranslationSet>
+        <base loc="en">Share:</base>
+        <tran loc="zh-TW">共享：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> TV Shows season title in sync settings</Description>
+      <Position>Season %d</Position>
+      <TranslationSet>
+        <base loc="en">Season %d</base>
+        <tran loc="zh-TW">第%d季</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Expires in %@ minutes</Position>
+      <TranslationSet>
+        <base loc="en">Expires in %@ minutes</base>
+        <tran loc="zh-TW">%@分鐘後到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync only checked songs and videos</Position>
+      <TranslationSet>
+        <base loc="en">Sync only checked songs and videos</base>
+        <tran loc="zh-TW">僅同步勾選的歌曲和影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ContactsDeleteWarning iPad</Position>
+      <TranslationSet>
+        <base loc="en">The computer will no longer sync contacts to the iPad “%1$@”. Do you want to keep or remove contacts previously synced to your iPad?</base>
+        <tran loc="zh-TW">電腦不會再將聯絡人同步到iPad「%1$@」。您要保留或移除之前同步到iPad的聯絡人嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmClickedDeleteFileOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete “%2$@” from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除「%2$@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ is using Contacts with iCloud</Position>
+      <TranslationSet>
+        <base loc="en">%@ is using Contacts with iCloud</base>
+        <tran loc="zh-TW">%@正搭配iCloud使用「聯絡人」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Delete</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="zh-TW">刪除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Manage backups</Description>
+      <Position>Model Name: %@</Position>
+      <TranslationSet>
+        <base loc="en">Model Name: %@</base>
+        <tran loc="zh-TW">機型名稱：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>iCloudBackup iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Back up your most important data on your iPhone to iCloud</base>
+        <tran loc="zh-TW">將iPhone上最重要的資料備份到iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ MB</Position>
+      <TranslationSet>
+        <base loc="en">%@ MB</base>
+        <tran loc="zh-TW">%@ MB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Software Build: %@</Position>
+      <TranslationSet>
+        <base loc="en">Software Build: %@</base>
+        <tran loc="zh-TW">軟體版號：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model Identifier: %@</Position>
+      <TranslationSet>
+        <base loc="en">Model Identifier: %@</base>
+        <tran loc="zh-TW">機型識別碼：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AutomaticallySync iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync when this iPhone is connected</base>
+        <tran loc="zh-TW">當此iPhone連接時自動同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Unlock your iPhone to use it with this computer.</Position>
+      <TranslationSet>
+        <base loc="en">Unlock your iPhone to use it with this computer.</base>
+        <tran loc="zh-TW">解鎖您的iPhone裝置來與這部電腦一起使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ seconds</Position>
+      <TranslationSet>
+        <base loc="en">%@ seconds</base>
+        <tran loc="zh-TW">%@秒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ContactsDeleteWarning iPod</Position>
+      <TranslationSet>
+        <base loc="en">The computer will no longer sync contacts to the iPod “%1$@”. Do you want to keep or remove contacts previously synced to your iPod?</base>
+        <tran loc="zh-TW">電腦不會再將聯絡人同步到iPod「%1$@」。您要保留或移除之前同步到iPod的聯絡人嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sheets</Description>
+      <Position>Apply</Position>
+      <TranslationSet>
+        <base loc="en">Apply</base>
+        <tran loc="zh-TW">套用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This iPod is open in another window.</Position>
+      <TranslationSet>
+        <base loc="en">This iPod is open in another window.</base>
+        <tran loc="zh-TW">此iPod正在其他視窗中打開。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Contacts</Description>
+      <Position>All Groups</Position>
+      <TranslationSet>
+        <base loc="en">All Groups</base>
+        <tran loc="zh-TW">所有群組</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Expires in %@ hours</Position>
+      <TranslationSet>
+        <base loc="en">Expires in %@ hours</base>
+        <tran loc="zh-TW">%@小時後到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>You can access every photo and video you take from any device. To sync photos from this computer, turn off iCloud Photos.</Position>
+      <TranslationSet>
+        <base loc="en">You can access every photo and video you take from any device. To sync photos from this computer, turn off iCloud Photos.</base>
+        <tran loc="zh-TW">您可以取用任何裝置所拍攝的所有照片和影片。若要從這部電腦同步照片，請關閉「iCloud照片」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicHomeLibraryPrompt iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music and audiobooks from this iPod and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPod中現有的音樂和有聲書，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteAudiobooksOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected audiobooks from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的有聲書嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ is using Calendar with iCloud</Position>
+      <TranslationSet>
+        <base loc="en">%@ is using Calendar with iCloud</base>
+        <tran loc="zh-TW">%@正搭配iCloud使用「行事曆」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your calendars are being synced with your iPad over the air from iCloud.</Position>
+      <TranslationSet>
+        <base loc="en">Your calendars are being synced with your iPad over the air from iCloud.</base>
+        <tran loc="zh-TW">您的行事曆正以空中傳輸方式從iCloud與iPad同步。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%.2f MB</Position>
+      <TranslationSet>
+        <base loc="en">%.2f MB</base>
+        <tran loc="zh-TW">%.2f MB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"Podcasts" = "Podcasts";
+"Audiobooks" = "Audiobooks";</Description>
+      <Position>Books</Position>
+      <TranslationSet>
+        <base loc="en">Books</base>
+        <tran loc="zh-TW">書籍</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicHomeLibraryPrompt iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music and audiobooks from this iPhone and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPhone中現有的音樂和有聲書，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Are you sure you want to delete the backup ”%@“?</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the backup ”%@“?</base>
+        <tran loc="zh-TW">確定要刪除備份「%@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>During the next sync only, the contacts on this iPad will be replaced with contacts from this computer.</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync only, the contacts on this iPad will be replaced with contacts from this computer.</base>
+        <tran loc="zh-TW">只有在下次同步時，才會使用這部電腦的聯絡人來取代此iPad上的聯絡人。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync podcasts onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync podcasts onto %@</base>
+        <tran loc="zh-TW">將Podcast同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Replace calendars on this iPad.</Position>
+      <TranslationSet>
+        <base loc="en">Replace calendars on this iPad.</base>
+        <tran loc="zh-TW">取代此iPad上的行事曆。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Done</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="zh-TW">完成</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Choose Restore Backup iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Choose a backup to restore. This will restore only the contacts, calendars, notes, text messages, and settings, not the iPhone firmware.</base>
+        <tran loc="zh-TW">選擇備份來回復。此動作只會回復聯絡人、行事曆、備忘錄、訊息和設定，不會回復iPhone韌體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteFilesOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected items from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的項目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncBooks iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync books? All existing books on the iPhone “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步書籍嗎？iPhone「%1$@」上所有的書籍都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteTracksOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected tracks from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的音軌嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteMoviesOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected movies from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的影片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AutomaticallySync iPad</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync when this iPad is connected</base>
+        <tran loc="zh-TW">當此iPad連接時自動同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteTVShowsOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected TV shows from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的電視節目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync music onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync music onto %@</base>
+        <tran loc="zh-TW">將音樂同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Replace calendars on this iPhone.</Position>
+      <TranslationSet>
+        <base loc="en">Replace calendars on this iPhone.</base>
+        <tran loc="zh-TW">取代此iPhone上的行事曆。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ShowOnWifi iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Show this iPhone when on Wi-Fi</base>
+        <tran loc="zh-TW">連接Wi-Fi時顯示此iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Rentals</Description>
+      <Position>On “%@”</Position>
+      <TranslationSet>
+        <base loc="en">On “%@”</base>
+        <tran loc="zh-TW">在「%@」上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Trust request was denied. Disconnect and reconnect your iPhone.</Position>
+      <TranslationSet>
+        <base loc="en">Trust request was denied. Disconnect and reconnect your iPhone.</base>
+        <tran loc="zh-TW">信任要求遭拒。請中斷連接後再重新連接iPhone。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Music</Position>
+      <TranslationSet>
+        <base loc="en">Music</base>
+        <tran loc="zh-TW">音樂</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicHomeLibraryPrompt iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music and audiobooks from this iPad and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPad中現有的音樂和有聲書，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Part</Position>
+      <TranslationSet>
+        <base loc="en">Part</base>
+        <tran loc="zh-TW">部分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchIOSMusicHomeLibraryExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Music, movies, TV shows, and books synced to “%1$@” from other libraries will be removed and items will be synced from this library.</base>
+        <tran loc="zh-TW">將會移除從其他資料庫同步到「%1$@」的音樂、影片、電視節目和書籍，並會從這個資料庫同步項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Autofill support</Description>
+      <Position>Autofill Settings</Position>
+      <TranslationSet>
+        <base loc="en">Autofill Settings</base>
+        <tran loc="zh-TW">自動加入設定</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync books onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync books onto %@</base>
+        <tran loc="zh-TW">將書籍同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Episodes</Position>
+      <TranslationSet>
+        <base loc="en">Episodes</base>
+        <tran loc="zh-TW">單集</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AutomaticallySync iPod</Position>
+      <TranslationSet>
+        <base loc="en">Automatically sync when this iPod is connected</base>
+        <tran loc="zh-TW">當此iPod連接時自動同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Shows</Position>
+      <TranslationSet>
+        <base loc="en">Shows</base>
+        <tran loc="zh-TW">節目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Remove Calendars</Position>
+      <TranslationSet>
+        <base loc="en">Remove Calendars</base>
+        <tran loc="zh-TW">移除行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Last backup to this Mac:</Position>
+      <TranslationSet>
+        <base loc="en">Last backup to this Mac:</base>
+        <tran loc="zh-TW">上次備份到此Mac：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Stop Sync</Position>
+      <TranslationSet>
+        <base loc="en">Stop Sync</base>
+        <tran loc="zh-TW">停止同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CalendarsDeleteWarning iPhone</Position>
+      <TranslationSet>
+        <base loc="en">The computer will no longer sync calendars to the iPhone “%1$@”. Do you want to keep or remove calendars previously synced to your iPhone?</base>
+        <tran loc="zh-TW">電腦不會再將行事曆同步到iPhone「%1$@」。您要保留或移除之前同步到iPhone的行事曆嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> strings for backup/restore
+ %@ will be name of device</Description>
+      <Position>Backing up “%@”…</Position>
+      <TranslationSet>
+        <base loc="en">Backing up “%@”…</base>
+        <tran loc="zh-TW">正在備份「%@」⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%.2f TB</Position>
+      <TranslationSet>
+        <base loc="en">%.2f TB</base>
+        <tran loc="zh-TW">%.2f TB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteTracksOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected tracks from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的音軌嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ is using Contacts and Calendar with iCloud</Position>
+      <TranslationSet>
+        <base loc="en">%@ is using Contacts and Calendar with iCloud</base>
+        <tran loc="zh-TW">%@正搭配iCloud使用「聯絡人」和「行事曆」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>During the next sync only, the calendars on this iPod will be replaced with calendars from this computer.</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync only, the calendars on this iPod will be replaced with calendars from this computer.</base>
+        <tran loc="zh-TW">只有在下次同步時，才會使用這部電腦的行事曆來取代此iPod上的行事曆。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicAndVideosHomeLibraryPrompt iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music, movies, and TV shows from this iPhone and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPhone中現有的音樂、影片和電視節目，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ will be name of device</Description>
+      <Position>Restoring “%@”…</Position>
+      <TranslationSet>
+        <base loc="en">Restoring “%@”…</base>
+        <tran loc="zh-TW">正在回復「%@」⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> strings for software update/restore</Description>
+      <Position>Checking for update…</Position>
+      <TranslationSet>
+        <base loc="en">Checking for update…</base>
+        <tran loc="zh-TW">正在檢查更新項目⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the name of the device kind (iPad/iPhone/iPod)</Description>
+      <Position>Enter the current password for your %@ backup.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the current password for your %@ backup.</base>
+        <tran loc="zh-TW">為您的%@備份輸入現用的密碼。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeletePodcastsOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected podcasts from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的Podcast嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Audiobooks</Position>
+      <TranslationSet>
+        <base loc="en">Audiobooks</base>
+        <tran loc="zh-TW">有聲書</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncMovies iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync movies? All existing movies on the iPod “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步影片嗎？iPod「%1$@」上所有的影片都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Podcast</Position>
+      <TranslationSet>
+        <base loc="en">Podcast</base>
+        <tran loc="zh-TW">Podcast</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>You can play and download songs on all your devices. To sync music from this computer, turn off Cloud Music Library.</Position>
+      <TranslationSet>
+        <base loc="en">You can play and download songs on all your devices. To sync music from this computer, turn off Cloud Music Library.</base>
+        <tran loc="zh-TW">您可以播放和下載所有裝置上的歌曲。若要從這部電腦同步音樂，請關閉「雲端音樂資料庫」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncPodcasts iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync podcasts? All existing podcasts on the iPhone “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步Podcast嗎？iPhone「%1$@」上所有的Podcast都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Unlock your iPod to use it with this computer.</Position>
+      <TranslationSet>
+        <base loc="en">Unlock your iPod to use it with this computer.</base>
+        <tran loc="zh-TW">解鎖您的iPod裝置來與這部電腦一起使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>N/A</Position>
+      <TranslationSet>
+        <base loc="en">N/A</base>
+        <tran loc="zh-TW">未知</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Errors</Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Serial Number: %@</Position>
+      <TranslationSet>
+        <base loc="en">Serial Number: %@</base>
+        <tran loc="zh-TW">序號：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Selected albums</Position>
+      <TranslationSet>
+        <base loc="en">Selected albums</base>
+        <tran loc="zh-TW">所選的相簿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncMovies iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync movies? All existing movies on the iPad “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步影片嗎？iPad「%1$@」上所有的影片都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ is the name of the device kind (iPad/iPhone/iPod)</Description>
+      <Position>Enter a password to protect your %@ backup.</Position>
+      <TranslationSet>
+        <base loc="en">Enter a password to protect your %@ backup.</base>
+        <tran loc="zh-TW">輸入密碼來保護您的%@備份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> sync onto</Description>
+      <Position>Sync audiobooks onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync audiobooks onto %@</base>
+        <tran loc="zh-TW">將有聲書同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This iPhone is open in another window.</Position>
+      <TranslationSet>
+        <base loc="en">This iPhone is open in another window.</base>
+        <tran loc="zh-TW">此iPhone正在其他視窗中打開。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%.2f GB</Position>
+      <TranslationSet>
+        <base loc="en">%.2f GB</base>
+        <tran loc="zh-TW">%.2f GB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>About this iPod:</Position>
+      <TranslationSet>
+        <base loc="en">About this iPod:</base>
+        <tran loc="zh-TW">關於這部iPod：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ICCID: %@</Position>
+      <TranslationSet>
+        <base loc="en">ICCID: %@</base>
+        <tran loc="zh-TW">ICCID：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Share Photos from:</Position>
+      <TranslationSet>
+        <base loc="en">Share Photos from:</base>
+        <tran loc="zh-TW">分享照片來源：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteAudiobooksOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected audiobooks from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的有聲書嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>movies along with selected movies</Position>
+      <TranslationSet>
+        <base loc="en">movies along with selected movies</base>
+        <tran loc="zh-TW">影片和所選的影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Trust request was denied. Disconnect and reconnect your iPad.</Position>
+      <TranslationSet>
+        <base loc="en">Trust request was denied. Disconnect and reconnect your iPad.</base>
+        <tran loc="zh-TW">信任要求遭拒。請中斷連接後再重新連接iPad。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Learn More &gt;</Position>
+      <TranslationSet>
+        <base loc="en">Learn More &gt;</base>
+        <tran loc="zh-TW">更多內容 &gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Finder tabs</Description>
+      <Position>More</Position>
+      <TranslationSet>
+        <base loc="en">More</base>
+        <tran loc="zh-TW">更多</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0 MB</Position>
+      <TranslationSet>
+        <base loc="en">0 MB</base>
+        <tran loc="zh-TW">0 MB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> strings for header / footer</Description>
+      <Position>Sync</Position>
+      <TranslationSet>
+        <base loc="en">Sync</base>
+        <tran loc="zh-TW">同步</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>All albums</Position>
+      <TranslationSet>
+        <base loc="en">All albums</base>
+        <tran loc="zh-TW">所有相簿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TV Shows</Position>
+      <TranslationSet>
+        <base loc="en">TV Shows</base>
+        <tran loc="zh-TW">電視節目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> note left hand side must have no space for this string</Description>
+      <Position>TVShows</Position>
+      <TranslationSet>
+        <base loc="en">TV Shows</base>
+        <tran loc="zh-TW">電視節目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteFilesOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected items from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的項目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Selected folders</Position>
+      <TranslationSet>
+        <base loc="en">Selected folders</base>
+        <tran loc="zh-TW">所選的檔案夾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cloud messages</Description>
+      <Position>%@ is using Cloud Music Library</Position>
+      <TranslationSet>
+        <base loc="en">%@ is using Cloud Music Library</base>
+        <tran loc="zh-TW">%@正在使用「iCloud音樂資料庫」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Restore button for device recovery mode UI, %@ will be device kind (iPad/iPhone/iPod)</Description>
+      <Position>Restore %@</Position>
+      <TranslationSet>
+        <base loc="en">Restore %@</base>
+        <tran loc="zh-TW">回復%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Enter the password to unlock your backup.</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password to unlock your backup.</base>
+        <tran loc="zh-TW">輸入密碼來解鎖您的備份。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteBooksOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected books from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的書籍嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UDID: %@</Position>
+      <TranslationSet>
+        <base loc="en">UDID: %@</base>
+        <tran loc="zh-TW">UDID：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncPodcasts iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync podcasts? All existing podcasts on the iPod “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步Podcast嗎？iPod「%1$@」上所有的Podcast都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>About this Apple Watch:</Position>
+      <TranslationSet>
+        <base loc="en">About this Apple Watch:</base>
+        <tran loc="zh-TW">關於這只Apple Watch：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PhotoSource Explanation iPod</Position>
+      <TranslationSet>
+        <base loc="en">You can choose which photos from your computer are copied to your iPod. Photos from your iPod‘s Camera Roll can be imported separately into Photos or Image Capture. %1$@</base>
+        <tran loc="zh-TW">您可以選擇要將電腦上的哪些照片拷貝到iPod上。iPod「相機膠捲」的照片可以分別輸入到「照片」或「影像擷取」中。%1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteSongsOnDevice iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected songs from the iPod “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPod「%1$@」刪除所選的歌曲嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> device backup concatenation string</Description>
+      <Position>%@ - %@</Position>
+      <TranslationSet>
+        <base loc="en">%@ - %@</base>
+        <tran loc="zh-TW">%@ - %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Welcome to your new %@</Position>
+      <TranslationSet>
+        <base loc="en">Welcome to your new %@</base>
+        <tran loc="zh-TW">歡迎使用新的%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CalendarsDeleteWarning iPod</Position>
+      <TranslationSet>
+        <base loc="en">The computer will no longer sync calendars to the iPod “%1$@”. Do you want to keep or remove calendars previously synced to your iPod?</base>
+        <tran loc="zh-TW">電腦不會再將行事曆同步到iPod「%1$@」。您要保留或移除之前同步到iPod的行事曆嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncMusic iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync music? All existing songs and playlists on the iPhone “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步音樂嗎？iPhone「%1$@」上所有的歌曲和播放列表都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteTVShowsOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected TV shows from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的電視節目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync contacts onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync contacts onto %@</base>
+        <tran loc="zh-TW">將聯絡人同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ShowOnWifi iPad</Position>
+      <TranslationSet>
+        <base loc="en">Show this iPad when on Wi-Fi</base>
+        <tran loc="zh-TW">連接Wi-Fi時顯示此iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>To sync this computer with your iPod, click Trust, then tap Trust on the device.</Position>
+      <TranslationSet>
+        <base loc="en">To sync this computer with your iPod, click Trust, then tap Trust on the device.</base>
+        <tran loc="zh-TW">若要將此電腦與您的iPod同步，請按一下「信任」，然後在裝置上點一下「信任」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>During the next sync only, the calendars on this iPhone will be replaced with calendars from this computer.</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync only, the calendars on this iPhone will be replaced with calendars from this computer.</base>
+        <tran loc="zh-TW">只有在下次同步時，才會使用這部電腦的行事曆來取代此iPhone上的行事曆。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Show In Finder</Position>
+      <TranslationSet>
+        <base loc="en">Show In Finder</base>
+        <tran loc="zh-TW">顯示於Finder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncPodcasts iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync podcasts? All existing podcasts on the iPad “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步Podcast嗎？iPad「%1$@」上所有的Podcast都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Remove Contacts</Position>
+      <TranslationSet>
+        <base loc="en">Remove Contacts</base>
+        <tran loc="zh-TW">移除聯絡人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Replace contacts on this iPod.</Position>
+      <TranslationSet>
+        <base loc="en">Replace contacts on this iPod.</base>
+        <tran loc="zh-TW">取代此iPod上的聯絡人。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> advanced info…</Description>
+      <Position>Advanced explanation iPhone</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync, information on this iPhone will be replaced with information from this computer.</base>
+        <tran loc="zh-TW">在下次同步時，會使用這部電腦的資訊來取代此iPhone上的資訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Calendars</Description>
+      <Position>All Calendars</Position>
+      <TranslationSet>
+        <base loc="en">All Calendars</base>
+        <tran loc="zh-TW">所有行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Info</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="zh-TW">資訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicAndVideosHomeLibraryExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Music, movies, and TV shows synced to “%1$@” from other libraries will be removed and items will be synced from this library.</base>
+        <tran loc="zh-TW">將會移除從其他資料庫同步到「%1$@」的音樂、影片和電視節目，並會從這個資料庫同步項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>iCloudBackup iPod</Position>
+      <TranslationSet>
+        <base loc="en">Back up your most important data on your iPod to iCloud</base>
+        <tran loc="zh-TW">將iPod上最重要的資料備份到iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ is using iCloud Photos</Position>
+      <TranslationSet>
+        <base loc="en">%@ is using iCloud Photos</base>
+        <tran loc="zh-TW">%@正在使用「iCloud照片」</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>During the next sync only, the contacts on this iPhone will be replaced with contacts from this computer.</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync only, the contacts on this iPhone will be replaced with contacts from this computer.</base>
+        <tran loc="zh-TW">只有在下次同步時，才會使用這部電腦的聯絡人來取代此iPhone上的聯絡人。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Advanced explanation iPad</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync, information on this iPad will be replaced with information from this computer.</base>
+        <tran loc="zh-TW">在下次同步時，會使用這部電腦的資訊來取代此iPad上的資訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Are you sure you want to delete these backups?</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete these backups?</base>
+        <tran loc="zh-TW">確定要刪除這些備份嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Unlock your iPad to use it with this computer.</Position>
+      <TranslationSet>
+        <base loc="en">Unlock your iPad to use it with this computer.</base>
+        <tran loc="zh-TW">解鎖您的iPad裝置來與這部電腦一起使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Phone Number: %@</Position>
+      <TranslationSet>
+        <base loc="en">Phone Number: %@</base>
+        <tran loc="zh-TW">電話號碼：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Unpaired / Disabled view</Description>
+      <Position>To sync this computer with your iPhone, click Trust, then tap Trust on the device.</Position>
+      <TranslationSet>
+        <base loc="en">To sync this computer with your iPhone, click Trust, then tap Trust on the device.</base>
+        <tran loc="zh-TW">若要將此電腦與您的iPhone同步，請按一下「信任」，然後在裝置上點一下「信任」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Errors</Position>
+      <TranslationSet>
+        <base loc="en">Errors</base>
+        <tran loc="zh-TW">錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sync Settings
+ TV Show episode, e.g. 1. My first episode)</Description>
+      <Position>%1$d. %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$d. %2$@</base>
+        <tran loc="zh-TW">%1$d. %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>New Password:</Position>
+      <TranslationSet>
+        <base loc="en">New Password:</base>
+        <tran loc="zh-TW">新密碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Replace contacts on this iPad.</Position>
+      <TranslationSet>
+        <base loc="en">Replace contacts on this iPad.</base>
+        <tran loc="zh-TW">取代此iPad上的聯絡人。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchIOSMusicHomeLibraryPrompt iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music, movies, TV shows, and books from this iPad and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPad中現有的音樂、影片、電視節目和書籍，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 15 GB (10 GB Available)</Description>
+      <Position>%1$@ (%2$@ Available)</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ (%2$@ Available)</base>
+        <tran loc="zh-TW">%1$@（%2$@ 可用）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your calendars are being synced with your iPod over the air from iCloud.</Position>
+      <TranslationSet>
+        <base loc="en">Your calendars are being synced with your iPod over the air from iCloud.</base>
+        <tran loc="zh-TW">您的行事曆正以空中傳輸方式從iCloud與iPod同步。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CalendarsDeleteWarning iPad</Position>
+      <TranslationSet>
+        <base loc="en">The computer will no longer sync calendars to the iPad “%1$@”. Do you want to keep or remove calendars previously synced to your iPad?</base>
+        <tran loc="zh-TW">電腦不會再將行事曆同步到iPad「%1$@」。您要保留或移除之前同步到iPad的行事曆嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your calendars are being synced with your iPhone over the air from iCloud.</Position>
+      <TranslationSet>
+        <base loc="en">Your calendars are being synced with your iPhone over the air from iCloud.</base>
+        <tran loc="zh-TW">您的行事曆正以空中傳輸方式從iCloud與iPhone同步。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Phone Number:</Position>
+      <TranslationSet>
+        <base loc="en">Phone Number:</base>
+        <tran loc="zh-TW">電話號碼：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Use Finder to finish setting up your %@.</Position>
+      <TranslationSet>
+        <base loc="en">Use Finder to finish setting up your %@.</base>
+        <tran loc="zh-TW">使用Finder來完成設定%@。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> strings for DeviceStorageManagementViewController</Description>
+      <Position>Movies</Position>
+      <TranslationSet>
+        <base loc="en">Movies</base>
+        <tran loc="zh-TW">影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>This iPad is open in another window.</Position>
+      <TranslationSet>
+        <base loc="en">This iPad is open in another window.</base>
+        <tran loc="zh-TW">此iPad正在其他視窗中打開。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Photos</Description>
+      <Position>Change Photos Folder Location</Position>
+      <TranslationSet>
+        <base loc="en">Change Photos Folder Location</base>
+        <tran loc="zh-TW">更改照片檔案夾的位置</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync TV shows onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync TV shows onto %@</base>
+        <tran loc="zh-TW">將電視節目同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ECID</Position>
+      <TranslationSet>
+        <base loc="en">ECID</base>
+        <tran loc="zh-TW">ECID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteTVShowsOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected TV shows from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的電視節目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncMusic iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync music? All existing songs and playlists on the iPod “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步音樂嗎？iPod「%1$@」上所有的歌曲和播放列表都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Podcasts</Position>
+      <TranslationSet>
+        <base loc="en">Podcasts</base>
+        <tran loc="zh-TW">Podcast</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Add new contacts from this iPhone to:</Position>
+      <TranslationSet>
+        <base loc="en">Add new contacts from this iPhone to:</base>
+        <tran loc="zh-TW">從這部iPhone加入新聯絡人到：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicAndVideosHomeLibraryPrompt iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music, movies, and TV shows from this iPad and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPad中現有的音樂、影片和電視節目，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Remove</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="zh-TW">移除</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncAudiobooks iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync audiobooks? All existing audiobooks on the iPod “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步有聲書嗎？iPod「%1$@」上所有的有聲書都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your contacts and calendars are up to date across all your devices. To sync them from this computer, turn off Contacts or Calendar in your iCloud settings.</Position>
+      <TranslationSet>
+        <base loc="en">Your contacts and calendars are up to date across all your devices. To sync them from this computer, turn off Contacts or Calendar in your iCloud settings.</base>
+        <tran loc="zh-TW">您的聯絡人和行事曆在所有裝置上已是最新狀態。若要從這部電腦同步這些項目，請在iCloud設定中關閉「聯絡人」或「行事曆」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"Movies" = "Movies";</Description>
+      <Position>Rentals</Position>
+      <TranslationSet>
+        <base loc="en">Rentals</base>
+        <tran loc="zh-TW">租借項目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> %@ will be device kind (iPad/iPhone/iPod)</Description>
+      <Position>%@ Recovery Mode</Position>
+      <TranslationSet>
+        <base loc="en">%@ Recovery Mode</base>
+        <tran loc="zh-TW">%@復原模式</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Expires in %@ days</Position>
+      <TranslationSet>
+        <base loc="en">Expires in %@ days</base>
+        <tran loc="zh-TW">%@天後到期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>All people</Position>
+      <TranslationSet>
+        <base loc="en">All people</base>
+        <tran loc="zh-TW">所有人物</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncMusic iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync music? All existing songs and playlists on the iPad “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步音樂嗎？iPad「%1$@」上所有的歌曲和播放列表都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteMoviesOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected movies from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的影片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>General</Position>
+      <TranslationSet>
+        <base loc="en">General</base>
+        <tran loc="zh-TW">一般</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>About this Apple TV:</Position>
+      <TranslationSet>
+        <base loc="en">About this Apple TV:</base>
+        <tran loc="zh-TW">關於這部Apple TV：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncAudiobooks iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync audiobooks? All existing audiobooks on the iPad “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步有聲書嗎？iPad「%1$@」上所有的有聲書都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IMEI: %@</Position>
+      <TranslationSet>
+        <base loc="en">IMEI: %@</base>
+        <tran loc="zh-TW">IMEI：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Loading…</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="zh-TW">載入中⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Songs</Position>
+      <TranslationSet>
+        <base loc="en">Songs</base>
+        <tran loc="zh-TW">歌曲</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ minute</Position>
+      <TranslationSet>
+        <base loc="en">%@ minute</base>
+        <tran loc="zh-TW">%@分鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>movie along with selected movies</Position>
+      <TranslationSet>
+        <base loc="en">movie along with selected movies</base>
+        <tran loc="zh-TW">影片和所選的影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Calendars</Position>
+      <TranslationSet>
+        <base loc="en">Calendars</base>
+        <tran loc="zh-TW">行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Trust request was denied. Disconnect and reconnect your iPod.</Position>
+      <TranslationSet>
+        <base loc="en">Trust request was denied. Disconnect and reconnect your iPod.</base>
+        <tran loc="zh-TW">信任要求遭拒。請中斷連接後再重新連接iPod。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Replace contacts on this iPhone.</Position>
+      <TranslationSet>
+        <base loc="en">Replace contacts on this iPhone.</base>
+        <tran loc="zh-TW">取代此iPhone上的聯絡人。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicAndVideosHomeLibraryPrompt iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music, movies, and TV shows from this iPod and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPod中現有的音樂、影片和電視節目，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>You can sync music, movies, TV shows, and more.</Position>
+      <TranslationSet>
+        <base loc="en">You can sync music, movies, TV shows, and more.</base>
+        <tran loc="zh-TW">您可以同步音樂、影片、電視節目和其他項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>To sync this computer with your iPad, click Trust, then tap Trust on the device.</Position>
+      <TranslationSet>
+        <base loc="en">To sync this computer with your iPad, click Trust, then tap Trust on the device.</base>
+        <tran loc="zh-TW">若要將此電腦與您的iPad同步，請按一下「信任」，然後在裝置上點一下「信任」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncTVShows iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync TV shows? All existing TV shows on the iPhone “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步電視節目嗎？iPhone「%1$@」上所有的電視節目都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> calendars…</Description>
+      <Position>Put new events created on this iPod into the calendar:</Position>
+      <TranslationSet>
+        <base loc="en">Put new events created on this iPod into the calendar:</base>
+        <tran loc="zh-TW">將此iPod上建立的新事件放入行事曆中：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Expired</Position>
+      <TranslationSet>
+        <base loc="en">Expired</base>
+        <tran loc="zh-TW">已過期</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>About this iPad:</Position>
+      <TranslationSet>
+        <base loc="en">About this iPad:</base>
+        <tran loc="zh-TW">關於這部iPad：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Get Started</Position>
+      <TranslationSet>
+        <base loc="en">Get Started</base>
+        <tran loc="zh-TW">開始使用</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchIOSMusicHomeLibraryPrompt iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music, movies, TV shows, and books from this iPod and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPod中現有的音樂、影片、電視節目和書籍，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>iCloudBackup iPad</Position>
+      <TranslationSet>
+        <base loc="en">Back up your most important data on your iPad to iCloud</base>
+        <tran loc="zh-TW">將iPad上最重要的資料備份到iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>movies</Position>
+      <TranslationSet>
+        <base loc="en">movies</base>
+        <tran loc="zh-TW">影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ImportCameraRollHelpKBLinkID</Position>
+      <TranslationSet>
+        <base loc="en">https://support.apple.com/en-us/HT201302?&amp;cid=acs::fm-itunes_HT201302</base>
+        <tran loc="zh-TW">https://support.apple.com/zh-tw/HT201302?&amp;cid=acs::fm-itunes_HT201302</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Options</Description>
+      <Position>ShowOnWifi iPod</Position>
+      <TranslationSet>
+        <base loc="en">Show this iPod when on Wi-Fi</base>
+        <tran loc="zh-TW">連接Wi-Fi時顯示此iPod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Copy</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="zh-TW">拷貝</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Keep</Position>
+      <TranslationSet>
+        <base loc="en">Keep</base>
+        <tran loc="zh-TW">保留</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncTVShows iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync TV shows? All existing TV shows on the iPod “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步電視節目嗎？iPod「%1$@」上所有的電視節目都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchMusicHomeLibraryExplanation</Position>
+      <TranslationSet>
+        <base loc="en">Music and audiobooks synced to “%1$@” from other libraries will be removed and items will be synced from this library.</base>
+        <tran loc="zh-TW">將會移除從其他資料庫同步到「%1$@」的音樂和有聲書，並會從這個資料庫同步項目。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>During the next sync only, the contacts on this iPod will be replaced with contacts from this computer.</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync only, the contacts on this iPod will be replaced with contacts from this computer.</base>
+        <tran loc="zh-TW">只有在下次同步時，才會使用這部電腦的聯絡人來取代此iPod上的聯絡人。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Model: %@</Position>
+      <TranslationSet>
+        <base loc="en">Model: %@</base>
+        <tran loc="zh-TW">機型：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>unknown</Position>
+      <TranslationSet>
+        <base loc="en">unknown</base>
+        <tran loc="zh-TW">未知的</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your contacts are up to date across all your devices. To sync contacts from this computer, turn off Contacts in your iCloud settings.</Position>
+      <TranslationSet>
+        <base loc="en">Your contacts are up to date across all your devices. To sync contacts from this computer, turn off Contacts in your iCloud settings.</base>
+        <tran loc="zh-TW">您的聯絡人在所有裝置上已是最新狀態。若要從這部電腦同步聯絡人，請在iCloud設定中關閉「聯絡人」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Software Version: %@</Position>
+      <TranslationSet>
+        <base loc="en">Software Version: %@</base>
+        <tran loc="zh-TW">軟體版本：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync movies onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync movies onto %@</base>
+        <tran loc="zh-TW">將影片同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync only checked songs</Position>
+      <TranslationSet>
+        <base loc="en">Sync only checked songs</base>
+        <tran loc="zh-TW">僅同步勾選的歌曲</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Errors.txt</Position>
+      <TranslationSet>
+        <base loc="en">Errors.txt</base>
+        <tran loc="zh-TW">錯誤.txt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photos Remove Confirm iPad</Position>
+      <TranslationSet>
+        <base loc="en">Photos will no longer be synced to the iPad “%@”. Do you want to keep or remove photos previously synced to your iPad?</base>
+        <tran loc="zh-TW">不會再將照片同步到iPad「%@」。您要保留或移除之前同步到iPad的照片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Advanced explanation iPod</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync, information on this iPod will be replaced with information from this computer.</base>
+        <tran loc="zh-TW">在下次同步時，會使用這部電腦的資訊來取代此iPod上的資訊。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"IMEI: %@" = "IMEI: %@";</Description>
+      <Position>IMEI 1: %@</Position>
+      <TranslationSet>
+        <base loc="en">IMEI 1: %@</base>
+        <tran loc="zh-TW">IMEI 1：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> DeviceNotConfigured view</Description>
+      <Position>Set up %@</Position>
+      <TranslationSet>
+        <base loc="en">Set up %@</base>
+        <tran loc="zh-TW">設定%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncTVShows iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync TV shows? All existing TV shows on the iPad “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步電視節目嗎？iPad「%1$@」上所有的電視節目都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Trust request error (0x%X)</Position>
+      <TranslationSet>
+        <base loc="en">Trust request error (0x%X)</base>
+        <tran loc="zh-TW">信任要求錯誤（0x%X）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photos</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="zh-TW">照片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmClickedDeleteFileOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete “%2$@” from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除「%2$@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Phone Number 2: %@</Position>
+      <TranslationSet>
+        <base loc="en">Phone Number 2: %@</base>
+        <tran loc="zh-TW">電話號碼2：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ComputerBackup iPod</Position>
+      <TranslationSet>
+        <base loc="en">Back up all of the data on your iPod to this Mac</base>
+        <tran loc="zh-TW">將iPod上的所有資料備份到此Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>device image</Position>
+      <TranslationSet>
+        <base loc="en">device image</base>
+        <tran loc="zh-TW">裝置影像</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEID: %@</Position>
+      <TranslationSet>
+        <base loc="en">MEID: %@</base>
+        <tran loc="zh-TW">MEID：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Restore</Position>
+      <TranslationSet>
+        <base loc="en">Restore</base>
+        <tran loc="zh-TW">回復</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmClickedDeleteFileOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete “%2$@” from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除「%2$@」嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Revert</Position>
+      <TranslationSet>
+        <base loc="en">Revert</base>
+        <tran loc="zh-TW">回復</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Keep Calendars</Position>
+      <TranslationSet>
+        <base loc="en">Keep Calendars</base>
+        <tran loc="zh-TW">保留行事曆</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SwitchIOSMusicHomeLibraryPrompt iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to remove existing music, movies, TV shows, and books from this iPhone and sync with this library?</base>
+        <tran loc="zh-TW">確定要移除此iPhone中現有的音樂、影片、電視節目和書籍，並與此資料庫進行同步嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>All folders</Position>
+      <TranslationSet>
+        <base loc="en">All folders</base>
+        <tran loc="zh-TW">所有檔案夾</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Restoring…</Position>
+      <TranslationSet>
+        <base loc="en">Restoring…</base>
+        <tran loc="zh-TW">正在回復⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Parts</Position>
+      <TranslationSet>
+        <base loc="en">Parts</base>
+        <tran loc="zh-TW">部分</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>All photos and albums</Position>
+      <TranslationSet>
+        <base loc="en">All photos and albums</base>
+        <tran loc="zh-TW">所有照片和相簿</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PhotoSource Explanation iPhone</Position>
+      <TranslationSet>
+        <base loc="en">You can choose which photos from your computer are copied to your iPhone. Photos from your iPhone‘s Camera Roll can be imported separately into Photos or Image Capture. %1$@</base>
+        <tran loc="zh-TW">您可以選擇要將電腦上的哪些照片拷貝到iPhone上。iPhone「相機膠捲」的照片可以分別輸入到「照片」或「影像擷取」中。%1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Choose Folder…</Position>
+      <TranslationSet>
+        <base loc="en">Choose Folder…</base>
+        <tran loc="zh-TW">選擇檔案夾⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>30</Position>
+      <TranslationSet>
+        <base loc="en">30</base>
+        <tran loc="zh-TW">30</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> sync settings TV Shows leading column title</Description>
+      <Position>Show</Position>
+      <TranslationSet>
+        <base loc="en">Show</base>
+        <tran loc="zh-TW">節目</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncAudiobooks iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync audiobooks? All existing audiobooks on the iPhone “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步有聲書嗎？iPhone「%1$@」上所有的有聲書都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ second</Position>
+      <TranslationSet>
+        <base loc="en">%@ second</base>
+        <tran loc="zh-TW">%@秒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%.2f KB</Position>
+      <TranslationSet>
+        <base loc="en">%.2f KB</base>
+        <tran loc="zh-TW">%.2f KB</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>0</Position>
+      <TranslationSet>
+        <base loc="en">0</base>
+        <tran loc="zh-TW">0</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>More Info</Position>
+      <TranslationSet>
+        <base loc="en">More Info</base>
+        <tran loc="zh-TW">更多資訊</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeletePodcastsOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected podcasts from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的Podcast嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Media Picker</Position>
+      <TranslationSet>
+        <base loc="en">Media Picker</base>
+        <tran loc="zh-TW">媒體選擇器</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteMoviesOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected movies from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的影片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>To update your %@ without erasing its contents, click Update. To restore your %@ to its factory settings, click Restore %@.</Position>
+      <TranslationSet>
+        <base loc="en">To update your %@ without erasing its contents, click Update. To restore your %@ to its factory settings, click Restore %@.</base>
+        <tran loc="zh-TW">若要更新%@而不清除其內容，請按一下「更新」。若要將%@回復為出廠設定，請按一下「回復%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteBooksOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected books from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的書籍嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Would you like to set up this %1$@ as a new %2$@ or restore your information from a previous backup?</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to set up this %1$@ as a new %2$@ or restore your information from a previous backup?</base>
+        <tran loc="zh-TW">您要將此%1$@設定為新的%2$@，或是從先前的備份回復資訊？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ComputerBackup iPad</Position>
+      <TranslationSet>
+        <base loc="en">Back up all of the data on your iPad to this Mac</base>
+        <tran loc="zh-TW">將iPad上的所有資料備份到此Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteSongsOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected songs from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的歌曲嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Choose Restore Backup iPad</Position>
+      <TranslationSet>
+        <base loc="en">Choose a backup to restore. This will restore only the contacts, calendars, notes, text messages, and settings, not the iPad firmware.</base>
+        <tran loc="zh-TW">選擇備份來回復。此動作只會回復聯絡人、行事曆、備忘錄、訊息和設定，不會回復iPad韌體。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> backup device type name ('iPad Name:' etc)</Description>
+      <Position>%@ Name:</Position>
+      <TranslationSet>
+        <base loc="en">%@ Name:</base>
+        <tran loc="zh-TW">%@名稱：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Audiobook</Position>
+      <TranslationSet>
+        <base loc="en">Audiobook</base>
+        <tran loc="zh-TW">有聲書</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteBooksOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected books from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的書籍嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteFilesOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected items from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的項目嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>During the next sync only, the calendars on this iPad will be replaced with calendars from this computer.</Position>
+      <TranslationSet>
+        <base loc="en">During the next sync only, the calendars on this iPad will be replaced with calendars from this computer.</base>
+        <tran loc="zh-TW">只有在下次同步時，才會使用這部電腦的行事曆來取代此iPad上的行事曆。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Replace calendars on this iPod.</Position>
+      <TranslationSet>
+        <base loc="en">Replace calendars on this iPod.</base>
+        <tran loc="zh-TW">取代此iPod上的行事曆。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photos Remove Confirm iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Photos will no longer be synced to the iPhone “%@”. Do you want to keep or remove photos previously synced to your iPhone?</base>
+        <tran loc="zh-TW">不會再將照片同步到iPhone「%@」。您要保留或移除之前同步到iPhone的照片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> contacts…</Description>
+      <Position>Add new contacts from this iPod to:</Position>
+      <TranslationSet>
+        <base loc="en">Add new contacts from this iPod to:</base>
+        <tran loc="zh-TW">從這部iPod加入新聯絡人到：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Last Backed Up: %@</Position>
+      <TranslationSet>
+        <base loc="en">Last Backed Up: %@</base>
+        <tran loc="zh-TW">上次備份時間：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ComputerBackup iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Back up all of the data on your iPhone to this Mac</base>
+        <tran loc="zh-TW">將iPhone上的所有資料備份到此Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Last backup to iCloud:</Position>
+      <TranslationSet>
+        <base loc="en">Last backup to iCloud:</base>
+        <tran loc="zh-TW">上次備份到iCloud：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your calendars are up to date across all your devices. To sync calendars from this computer, turn off Calendar in your iCloud settings.</Position>
+      <TranslationSet>
+        <base loc="en">Your calendars are up to date across all your devices. To sync calendars from this computer, turn off Calendar in your iCloud settings.</base>
+        <tran loc="zh-TW">您的行事曆在所有裝置上已是最新狀態。若要從這部電腦同步行事曆，請在iCloud設定中關閉「行事曆」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncMovies iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync movies? All existing movies on the iPhone “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步影片嗎？iPhone「%1$@」上所有的影片都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%@ minutes</Position>
+      <TranslationSet>
+        <base loc="en">%@ minutes</base>
+        <tran loc="zh-TW">%@分鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncBooks iPod</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync books? All existing books on the iPod “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步書籍嗎？iPod「%1$@」上所有的書籍都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Eject button for device recovery mode UI, %@ will be device kind (iPad/iPhone/iPod)</Description>
+      <Position>Eject %@</Position>
+      <TranslationSet>
+        <base loc="en">Eject %@</base>
+        <tran loc="zh-TW">退出%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Put new events created on this iPad into the calendar:</Position>
+      <TranslationSet>
+        <base loc="en">Put new events created on this iPad into the calendar:</base>
+        <tran loc="zh-TW">將此iPad上建立的新事件放入行事曆中：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"Podcasts" = "Podcasts"
+"Books" = "Books";
+"Audiobooks" = "Audiobooks";</Description>
+      <Position>Contacts</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="zh-TW">聯絡人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteAudiobooksOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected audiobooks from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的有聲書嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Rented Movies</Position>
+      <TranslationSet>
+        <base loc="en">Rented Movies</base>
+        <tran loc="zh-TW">租借的電影</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync calendars onto %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync calendars onto %@</base>
+        <tran loc="zh-TW">將行事曆同步到%@上</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Trust %@</Position>
+      <TranslationSet>
+        <base loc="en">Trust %@</base>
+        <tran loc="zh-TW">信任%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Photos Remove Confirm iPod</Position>
+      <TranslationSet>
+        <base loc="en">Photos will no longer be synced to the iPod “%@”. Do you want to keep or remove photos previously synced to your iPod?</base>
+        <tran loc="zh-TW">不會再將照片同步到iPod「%@」。您要保留或移除之前同步到iPod的照片嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Keep Contacts</Position>
+      <TranslationSet>
+        <base loc="en">Keep Contacts</base>
+        <tran loc="zh-TW">保留聯絡人</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"Photos" = "Photos";</Description>
+      <Position>Files</Position>
+      <TranslationSet>
+        <base loc="en">Files</base>
+        <tran loc="zh-TW">檔案</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Put new events created on this iPhone into the calendar:</Position>
+      <TranslationSet>
+        <base loc="en">Put new events created on this iPhone into the calendar:</base>
+        <tran loc="zh-TW">將此iPhone上建立的新事件放入行事曆中：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync only checked videos</Position>
+      <TranslationSet>
+        <base loc="en">Sync only checked videos</base>
+        <tran loc="zh-TW">僅同步勾選的影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteTracksOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected tracks from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的音軌嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PhotoSource Explanation iPad</Position>
+      <TranslationSet>
+        <base loc="en">You can choose which photos from your computer are copied to your iPad. Photos from your iPad‘s Camera Roll can be imported separately into Photos or Image Capture. %1$@</base>
+        <tran loc="zh-TW">您可以選擇要將電腦上的哪些照片拷貝到iPad上。iPad「相機膠捲」的照片可以分別輸入到「照片」或「影像擷取」中。%1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> strings for DeviceMoreIdentifiers</Description>
+      <Position>Serial: %@</Position>
+      <TranslationSet>
+        <base loc="en">Serial: %@</base>
+        <tran loc="zh-TW">序號：%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ContactsDeleteWarning iPhone</Position>
+      <TranslationSet>
+        <base loc="en">The computer will no longer sync contacts to the iPhone “%1$@”. Do you want to keep or remove contacts previously synced to your iPhone?</base>
+        <tran loc="zh-TW">電腦不會再將聯絡人同步到iPhone「%1$@」。您要保留或移除之前同步到iPhone的聯絡人嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Add new contacts from this iPad to:</Position>
+      <TranslationSet>
+        <base loc="en">Add new contacts from this iPad to:</base>
+        <tran loc="zh-TW">從這部iPad加入新聯絡人到：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeleteSongsOnDevice iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected songs from the iPhone “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPhone「%1$@」刪除所選的歌曲嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDeletePodcastsOnDevice iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete the selected podcasts from the iPad “%1$@”?</base>
+        <tran loc="zh-TW">確定要從iPad「%1$@」刪除所選的Podcast嗎？</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Updating…</Position>
+      <TranslationSet>
+        <base loc="en">Updating…</base>
+        <tran loc="zh-TW">正在更新⋯</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ConfirmDisableSyncBooks iPad</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you do not want to sync books? All existing books on the iPad “%1$@” will be removed.</base>
+        <tran loc="zh-TW">確定不要同步書籍嗎？iPad「%1$@」上所有的書籍都將會移除。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Sync your %@</Position>
+      <TranslationSet>
+        <base loc="en">Sync your %@</base>
+        <tran loc="zh-TW">同步您的%@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/PlaylistOptionsSheetView.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "X4G-uH-iG9"; </Description>
+      <Position>X4G-uH-iG9.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "hV2-lj-9Nk"; </Description>
+      <Position>hV2-lj-9Nk.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "share all media"; ObjectID = "YR8-94-VKk"; </Description>
+      <Position>YR8-94-VKk.title</Position>
+      <TranslationSet>
+        <base loc="en">share all media</base>
+        <tran loc="zh-TW">共享所有媒體</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "require password"; ObjectID = "kfa-Wm-5DN"; </Description>
+      <Position>kfa-Wm-5DN.title</Position>
+      <TranslationSet>
+        <base loc="en">require password</base>
+        <tran loc="zh-TW">需要密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "9eJ-rU-wdi"; </Description>
+      <Position>9eJ-rU-wdi.title</Position>
+      <TranslationSet>
+        <base loc="en">Table View Cell</base>
+        <tran loc="zh-TW">Table View Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "share selected playlists"; ObjectID = "R7o-TS-zQF"; </Description>
+      <Position>R7o-TS-zQF.title</Position>
+      <TranslationSet>
+        <base loc="en">share selected playlists</base>
+        <tran loc="zh-TW">共享所選的播放列表</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ApO-pD-Jsi"; </Description>
+      <Position>ApO-pD-Jsi.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Ch9-so-rqH"; </Description>
+      <Position>Ch9-so-rqH.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/%d minute(s):dict/minutes:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d minutes</base>
+        <tran loc="zh-TW">%d分鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d minute(s):dict/minutes:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d minutes</base>
+        <tran loc="zh-TW">%d分鐘</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/movie(s) along with selected movies:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@movies_with_selected@</base>
+        <tran loc="zh-TW">%#@movies_with_selected@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/movie(s) along with selected movies:dict/movies_with_selected:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">movies along with selected movies</base>
+        <tran loc="zh-TW">影片和所選的影片</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/podcasts episode(s) of:dict/episodes:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">episodes of</base>
+        <tran loc="zh-TW">單集，來自：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/tv episode(s) of:dict/episodes:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">episodes of</base>
+        <tran loc="zh-TW">單集，來自：</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d minute(s):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@minutes@</base>
+        <tran loc="zh-TW">%#@minutes@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d total problems:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@totalproblems@</base>
+        <tran loc="zh-TW">%#@totalproblems@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d total problems:dict/totalproblems:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d total problems</base>
+        <tran loc="zh-TW">問題總數%d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d total problems:dict/totalproblems:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d total problems</base>
+        <tran loc="zh-TW">問題總數%d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/podcasts episode(s) of:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@episodes@</base>
+        <tran loc="zh-TW">%#@episodes@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/tv episode(s) of:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@episodes@</base>
+        <tran loc="zh-TW">%#@episodes@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d second(s):dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@seconds@</base>
+        <tran loc="zh-TW">%#@seconds@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d second(s):dict/seconds:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d seconds</base>
+        <tran loc="zh-TW">%d秒</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%d second(s):dict/seconds:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d seconds</base>
+        <tran loc="zh-TW">%d秒</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/StoreAuthDialog.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Apple ID"; ObjectID = "36"; </Description>
+      <Position>36.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID</base>
+        <tran loc="zh-TW">Apple ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="zh-TW">取消</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibExternalAccessibilityDescription = "User Name"; ObjectID = "39"; </Description>
+      <Position>39.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">User Name</base>
+        <tran loc="zh-TW">使用者名稱</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Create Apple ID"; ObjectID = "23"; </Description>
+      <Position>23.title</Position>
+      <TranslationSet>
+        <base loc="en">Create Apple ID</base>
+        <tran loc="zh-TW">建立Apple ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "message"; ObjectID = "28"; </Description>
+      <Position>28.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">message</base>
+        <tran loc="zh-TW">訊息</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "explanation"; ObjectID = "32"; </Description>
+      <Position>32.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">explanation</base>
+        <tran loc="zh-TW">解說</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; placeholderString = "error"; ObjectID = "34"; </Description>
+      <Position>34.placeholderString</Position>
+      <TranslationSet>
+        <base loc="en">error</base>
+        <tran loc="zh-TW">錯誤</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password"; ObjectID = "38"; </Description>
+      <Position>38.title</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="zh-TW">密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSSecureTextField"; ibExternalAccessibilityDescription = "Password"; ObjectID = "45"; </Description>
+      <Position>45.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="zh-TW">密碼</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Other"; ObjectID = "9"; </Description>
+      <Position>9.title</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="zh-TW">其他</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>AMPSharing/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/Resources/en.lproj/HSConfirmationController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "dvE-n2-wYg"; </Description>
+      <Position>dvE-n2-wYg.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="zh-TW">好</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Use the same Apple ID “%S” when turning on Home Sharing for your other \ncomputers and devices."; ObjectID = "41G-dT-WPA"; </Description>
+      <Position>41G-dT-WPA.title</Position>
+      <TranslationSet>
+        <base loc="en">Use the same Apple ID “%S” when turning on Home Sharing for your other \ncomputers and devices.</base>
+        <tran loc="zh-TW">使用相同的Apple ID「%S」為您的其他電腦和裝置開啟「家庭共享」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Home Sharing is for personal use."; ObjectID = "rtt-NK-Ota"; </Description>
+      <Position>rtt-NK-Ota.title</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing is for personal use.</base>
+        <tran loc="zh-TW">「家庭共享」是供個人使用。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Home Sharing is now on."; ObjectID = "Kx6-Sz-jvd"; </Description>
+      <Position>Kx6-Sz-jvd.title</Position>
+      <TranslationSet>
+        <base loc="en">Home Sharing is now on.</base>
+        <tran loc="zh-TW">現已開啟「家庭共享」。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

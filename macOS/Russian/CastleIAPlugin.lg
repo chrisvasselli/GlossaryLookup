@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CastleIAPlugin</ProjName>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountStorageSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "iCloud Storage:"; ObjectID = "q1l-1v-Wul"; </Description>
+      <Position>q1l-1v-Wul.title</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Storage:</base>
+        <tran loc="ru">Хранилище iCloud:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Manage…"; ObjectID = "IUc-D9-WSB"; </Description>
+      <Position>IUc-D9-WSB.title</Position>
+      <TranslationSet>
+        <base loc="en">Manage…</base>
+        <tran loc="ru">Управлять…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountReauthSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Enter Password…"; ObjectID = "zRo-sL-c3O"; </Description>
+      <Position>zRo-sL-c3O.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter Password…</base>
+        <tran loc="ru">Ввести пароль…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify the Apple ID password for %@."; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify the Apple ID password for %@.</base>
+        <tran loc="ru">Проверьте пароль Apple ID для %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter your password to continue using iCloud."; ObjectID = "vMb-de-CMC"; </Description>
+      <Position>vMb-de-CMC.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password to continue using iCloud.</base>
+        <tran loc="ru">Для продолжения работы с iCloud введите пароль.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountSignOutSpinner.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibExternalAccessibilityDescription = "Signing out"; ObjectID = "qVQ-R1-V8H"; </Description>
+      <Position>qVQ-R1-V8H.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Signing out</base>
+        <tran loc="ru">Выполняется выход</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Signing out…"; ObjectID = "I1o-0M-fat"; </Description>
+      <Position>I1o-0M-fat.title</Position>
+      <TranslationSet>
+        <base loc="en">Signing out…</base>
+        <tran loc="ru">Выход…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSProgressIndicator"; ibExternalAccessibilityDescription = "Signing out spinner"; ObjectID = "gRW-CD-wIV"; </Description>
+      <Position>gRW-CD-wIV.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Signing out spinner</base>
+        <tran loc="ru">Колесико входа</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudSetupServiceTable.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableView"; ibExternalAccessibilityDescription = "applications"; ObjectID = "4"; </Description>
+      <Position>4.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">applications</base>
+        <tran loc="ru">программы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "6"; </Description>
+      <Position>6.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="ru">Текстовая ячейка</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountForgotPasswordSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Forgot Apple ID or password?"; ObjectID = "R5a-zH-8TT"; </Description>
+      <Position>R5a-zH-8TT.title</Position>
+      <TranslationSet>
+        <base loc="en">Forgot Apple ID or password?</base>
+        <tran loc="ru">Забыли Apple ID или пароль?</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountUnverfiedSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Account Not Verified"; ObjectID = "vMb-de-CMC"; </Description>
+      <Position>vMb-de-CMC.title</Position>
+      <TranslationSet>
+        <base loc="en">Account Not Verified</base>
+        <tran loc="ru">Учетная запись не подтверждена</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Check your email for instructions for verifying your account."; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">Check your email for instructions for verifying your account.</base>
+        <tran loc="ru">Инструкции по проверке своей учетной записи Вы найдете в сообщении электронной почты.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Resend Verification Email"; ObjectID = "zRo-sL-c3O"; </Description>
+      <Position>zRo-sL-c3O.title</Position>
+      <TranslationSet>
+        <base loc="en">Resend Verification Email</base>
+        <tran loc="ru">Повторно отправить проверочный e‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED_NETWORK_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">You are not connected to the Internet</base>
+        <tran loc="ru">Нет подключения к интернету</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED_NETWORK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An Internet connection is required for this operation. Please try again later.</base>
+        <tran loc="ru">Для выполнения этой операции требуется подключение к интернету. Повторите попытку позже.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALREADY_SIGNED_IN_MCC_INFO</Position>
+      <TranslationSet>
+        <base loc="en">This iCloud account already exists.</base>
+        <tran loc="ru">Такая учетная запись iCloud уже существует.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MAIL_AND_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Mail</base>
+        <tran loc="ru">Почта</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Auto Setup </Description>
+      <Position>SETUP_MERGE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to merge %@ with iCloud?</base>
+        <tran loc="ru">Хотите объединить %@ с iCloud?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_PASS_HAS_APPLEID_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Stop Using iCloud…</base>
+        <tran loc="ru">Не использовать iCloud…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Find My Mac</base>
+        <tran loc="ru">Найти Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_PASS_HAS_APPLEID</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to stop using iCloud? The user “%@” is using this iCloud account and password to log in to this Mac.</base>
+        <tran loc="ru">Больше не хотите использовать iCloud? Пользователь %@ использует данную учетную запись iCloud и пароль для входа на этот Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FAILED_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Turn off all iCloud services and try again.</base>
+        <tran loc="ru">Отключите все сервисы iCloud и повторите попытку.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_MERGE</Position>
+      <TranslationSet>
+        <base loc="en">Your information on this Mac will be uploaded and merged with the %@ stored in iCloud.</base>
+        <tran loc="ru">Ваша информация на этом компьютере Mac будет выгружена и объединена с объектами: %@ в iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOBILE_DOCUMENTS</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="ru">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_MERGE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Merge</base>
+        <tran loc="ru">Объединить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_APPLEID_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Create Apple ID…</base>
+        <tran loc="ru">Создать Apple ID…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOOKMARKS</Position>
+      <TranslationSet>
+        <base loc="en">Safari</base>
+        <tran loc="ru">Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Sign In failed %@.</base>
+        <tran loc="ru">Не удалось войти %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BASIC_ACCOUNT_TEXT_WITHOUT_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Safari, Photos, iCloud Drive, Keychain, or Find My Mac.</base>
+        <tran loc="ru">iCloud для Safari, Фото, iCloud Drive, Связки ключей или функции «Найти Mac» может использоваться только в основной учетной записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="ru">Дом</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AND_NO_COMMA</Position>
+      <TranslationSet>
+        <base loc="en"> and </base>
+        <tran loc="ru"> и </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SENT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Check your email for instructions for verifying your account.</base>
+        <tran loc="ru">Инструкции по проверке своей учетной записи Вы найдете в сообщении электронной почты.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BASIC_ACCOUNT_TEXT_WITH_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Notes, Safari, Photos, iCloud Drive, Keychain, or Find My Mac.</base>
+        <tran loc="ru">iCloud для Заметок, Safari, Фото, iCloud Drive, Связки ключей или функции «Найти Mac» может использоваться только в основной учетной записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMINDERS</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="ru">Напоминания</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="ru">Продолжить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_LOCKED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple ID has been temporarily locked.</base>
+        <tran loc="ru">Ваш Apple ID временно заблокирован.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_UNLOCKED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple ID is now unlocked.</base>
+        <tran loc="ru">Ваш Apple ID разблокирован.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SEND_FAILURE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Try resending a verification email later.</base>
+        <tran loc="ru">Попытайтесь повторно отправить проверочное письмо позже.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FAILED_MAIL_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to delete %@. Relaunch Mail then sign out of iCloud again.</base>
+        <tran loc="ru">Почте не удалось удалить «%@». Перезапустите Почту, затем выйдите из iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_UNLOCKED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Your iCloud keychain has been reset.</base>
+        <tran loc="ru">Ваша связка ключей iCloud сброшена.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Your iCloud account couldn’t be removed at this time.</base>
+        <tran loc="ru">Вашу учетную запись iCloud невозможно удалить в настоящий момент.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SEND_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t request a new verification email because of a server error.</base>
+        <tran loc="ru">Не удалось запросить новый проверочный e-mail из-за ошибки сервера.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMMA_AND</Position>
+      <TranslationSet>
+        <base loc="en">, and </base>
+        <tran loc="ru"> и </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to iCloud with your Apple ID.</base>
+        <tran loc="ru">Войдите в iCloud, используя Apple ID.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_DONT_MERGE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Merge</base>
+        <tran loc="ru">Не объединять</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="ru">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t have an Apple ID? You can create one for free.</base>
+        <tran loc="ru">У Вас нет Apple ID? Его можно получить бесплатно.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDAR</Position>
+      <TranslationSet>
+        <base loc="en">Calendars</base>
+        <tran loc="ru">Календари</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FULL_ACCOUNT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Safari, Photos, Keychain, or Find My Mac.</base>
+        <tran loc="ru">iCloud для Safari, Фото, Связки ключей или функции «Найти Mac» может использоваться только в основной учетной записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_LOCKED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Try signing in again later.</base>
+        <tran loc="ru">Повторите попытку входа позже.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IFORGOT_URL</Position>
+      <TranslationSet>
+        <base loc="en">https://iforgot.apple.com/cgi-bin/iforgot.cgi?app_id=2999</base>
+        <tran loc="ru">https://iforgot.apple.com/cgi-bin/iforgot.cgi?app_id=2999</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEWS</Position>
+      <TranslationSet>
+        <base loc="en">News</base>
+        <tran loc="ru">News</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALREADY_SIGNED_IN_MCC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Already signed in as %@.</base>
+        <tran loc="ru">Уже выполнен вход как: %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REAUTH_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Enter your Apple ID password for %@</base>
+        <tran loc="ru">Введите пароль Apple ID для %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGIN_ERROR_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Unrecognized Apple ID or password.</base>
+        <tran loc="ru">Неизвестный Apple ID или пароль.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMMA</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="ru">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PHOTO_STREAM</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="ru">Фото</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REAUTHVIEW_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Verify the Apple ID password for %@.</base>
+        <tran loc="ru">Проверьте пароль Apple ID для %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SENT</Position>
+      <TranslationSet>
+        <base loc="en">A verification email has been sent to %@.</base>
+        <tran loc="ru">Проверочный e-mail отправлен по адресу: %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Sign In failed.</base>
+        <tran loc="ru">Не удалось войти.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_PASS_HAS_APPLEID_INFO</Position>
+      <TranslationSet>
+        <base loc="en">If you sign out of iCloud, you will need to create a separate password for this Mac</base>
+        <tran loc="ru">Если Вы выйдете из iCloud, Вам потребуется создать отдельный пароль для этого Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="ru">Заметки</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REAUTHVIEW_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password to continue using iCloud.</base>
+        <tran loc="ru">Для продолжения работы с iCloud введите пароль.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACTS</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="ru">Контакты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOCKS</Position>
+      <TranslationSet>
+        <base loc="en">Stocks</base>
+        <tran loc="ru">Акции</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEYCHAIN_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Keychain</base>
+        <tran loc="ru">Связка ключей</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountSetup.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;Your information on this Mac will be uploaded and merged with %@ stored in iCloud."; ObjectID = "4F9-W0-9Tu"; </Description>
+      <Position>4F9-W0-9Tu.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;Your information on this Mac will be uploaded and merged with %@ stored in iCloud.</base>
+        <tran loc="ru">&lt;DNL&gt;Your information on this Mac will be uploaded and merged with %@ stored in iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "&lt;DNL&gt;"; ObjectID = "0kA-Mg-PGD"; </Description>
+      <Position>0kA-Mg-PGD.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;</base>
+        <tran loc="ru">&lt;DNL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "&lt;DNL&gt;"; ObjectID = "fdP-wa-Ubs"; </Description>
+      <Position>fdP-wa-Ubs.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;</base>
+        <tran loc="ru">&lt;DNL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;Merge %@ with iCloud?"; ObjectID = "goe-q2-JaA"; </Description>
+      <Position>goe-q2-JaA.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;Merge %@ with iCloud?</base>
+        <tran loc="ru">&lt;DNL&gt;Merge %@ with iCloud?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSImageCell"; ibExternalAccessibilityDescription = "iCloud"; ObjectID = "ae6-sb-vie"; </Description>
+      <Position>ae6-sb-vie.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">iCloud</base>
+        <tran loc="ru">iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudSetupTableRow.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Service Status"; ObjectID = "33"; </Description>
+      <Position>33.title</Position>
+      <TranslationSet>
+        <base loc="en">Service Status</base>
+        <tran loc="ru">Статус службы</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="ru">Label</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "LabelAlt"; ObjectID = "31"; </Description>
+      <Position>31.title</Position>
+      <TranslationSet>
+        <base loc="en">LabelAlt</base>
+        <tran loc="ru">LabelAlt</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountDataclassSelection.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Account:"; ObjectID = "t69-9c-hLx"; </Description>
+      <Position>t69-9c-hLx.title</Position>
+      <TranslationSet>
+        <base loc="en">Account:</base>
+        <tran loc="ru">Учетная запись:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Q8C-PP-KI8"; </Description>
+      <Position>Q8C-PP-KI8.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;&gt;&gt;"; ObjectID = "3ug-GQ-P3W"; </Description>
+      <Position>3ug-GQ-P3W.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;&gt;&gt;</base>
+        <tran loc="ru">&lt;&lt;&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Add Account"; ObjectID = "0L8-9m-Vnw"; </Description>
+      <Position>0L8-9m-Vnw.title</Position>
+      <TranslationSet>
+        <base loc="en">Add Account</base>
+        <tran loc="ru">Добавить уч. зап.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Use with:"; ObjectID = "Yx1-Sj-1h2"; </Description>
+      <Position>Yx1-Sj-1h2.title</Position>
+      <TranslationSet>
+        <base loc="en">Use with:</base>
+        <tran loc="ru">Использовать с:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSImageView"; ibExternalAccessibilityDescription = "iCloud logo"; ObjectID = "bca-6K-VIl"; </Description>
+      <Position>bca-6K-VIl.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">iCloud logo</base>
+        <tran loc="ru">Логотип iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountGettingStartedSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;"; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;</base>
+        <tran loc="ru">&lt;DNL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountSecondarySlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "This is not your primary iCloud account."; ObjectID = "vMb-de-CMC"; </Description>
+      <Position>vMb-de-CMC.title</Position>
+      <TranslationSet>
+        <base loc="en">This is not your primary iCloud account.</base>
+        <tran loc="ru">Эта учетная запись iCloud не является основной.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Only your primary account can use iCloud for Safari, Photos, Documents, Keychain,  or Find My Mac."; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Safari, Photos, Documents, Keychain,  or Find My Mac.</base>
+        <tran loc="ru">iCloud для Safari, Фото, Документов, Связки ключей или функции «Найти Mac» может использоваться только в основной учетной записи.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

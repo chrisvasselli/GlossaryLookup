@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>SafeEjectGPUExtra</ProjName>
+  <File>
+    <Filepath>SafeEjectGPUExtra/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>FAILED_TO_EJECT_BUSY_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Failed to eject “GPU %@”.\nThe GPU is busy.</base>
+        <tran loc="zh-TW">無法退出「GPU%@」。\nGPU忙碌中。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  SafeEjectGPUExtra
+
+  Copyright © 2017 Apple. All rights reserved.
+
+ PENDING HI APPROVAL</Description>
+      <Position>FAILED_TO_EJECT_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Failed to eject “GPU %@”.</base>
+        <tran loc="zh-TW">無法退出「GPU%@」。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FAILED_TO_EJECT_MISSING_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Failed to eject “GPU %@”.\nNo such GPU.</base>
+        <tran loc="zh-TW">無法退出「GPU%@」。\n沒有此GPU。</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SafeEjectGPUExtra/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/Resources/en.lproj/ForceQuitAppAlert.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSWindow"; title = "Disconnect eGPU"; ObjectID = "SRS-u4-kH9"; </Description>
+      <Position>SRS-u4-kH9.title</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect eGPU</base>
+        <tran loc="zh-TW">中斷連接eGPU</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Force Disconnect"; ObjectID = "YaP-cb-bqH"; </Description>
+      <Position>YaP-cb-bqH.title</Position>
+      <TranslationSet>
+        <base loc="en">Force Disconnect</base>
+        <tran loc="zh-TW">強制中斷連接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "yZc-UL-1mr"; </Description>
+      <Position>yZc-UL-1mr.title</Position>
+      <TranslationSet>
+        <base loc="en">Table View Cell</base>
+        <tran loc="zh-TW">Table View Cell</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "The following apps are still using the eGPU.  They should be quit before the GPU can be safely disconnected."; ObjectID = "0xV-DQ-5Mh"; </Description>
+      <Position>0xV-DQ-5Mh.title</Position>
+      <TranslationSet>
+        <base loc="en">The following apps are still using the eGPU.  They should be quit before the GPU can be safely disconnected.</base>
+        <tran loc="zh-TW">下列App仍在使用eGPU。必須將這些App結束後才能安全中斷連接GPU。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Ama-1G-RLO"; </Description>
+      <Position>Ama-1G-RLO.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="zh-TW">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>SafeEjectGPUExtra/System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>DISCONNECTING_GPU_ID_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnecting %@ (Port %@)</base>
+        <tran loc="zh-TW">正在中斷連接%@（連接埠%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNSAFE_DISCONNECT_WARNING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect safely from the menu before unplugging or turning off.</base>
+        <tran loc="zh-TW">拔下或關閉前，請先從選單中安全地中斷連接。</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISCONNECT_GPU_ID_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect %@ (Port %@)</base>
+        <tran loc="zh-TW">中斷連接%@（連接埠%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_ITEM_DISCONNECT_ALL</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect All</base>
+        <tran loc="zh-TW">中斷全部連接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISCONNECT_GPU_ID_NUMBER_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect %@ (Port %@, GPU %@)</base>
+        <tran loc="zh-TW">中斷連接%@（連接埠%@，GPU%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISCONNECTING_GPU_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnecting %@</base>
+        <tran loc="zh-TW">正在中斷連接%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  SafeEjectGPUExtra
+
+  Copyright © 2017 Apple. All rights reserved.
+
+ PENDING HI APPROVAL</Description>
+      <Position>DISCONNECT_GPU_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnect %@</base>
+        <tran loc="zh-TW">中斷連接%@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>"UNSUPPORTED_GPU_WARNING_TITLE" = "Unsupported GPU Detected";
+"UNSUPPORTED_GPU_WARNING_MESSAGE" = "This GPU will not function properly.";</Description>
+      <Position>UNSAFE_DISCONNECT_WARNING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">GPU Not Disconnected Properly</base>
+        <tran loc="zh-TW">GPU未正確中斷連接</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DISCONNECTING_GPU_ID_NUMBER_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Disconnecting %@ (Port %@, GPU %@)</base>
+        <tran loc="zh-TW">正在中斷連接%@（連接埠%@，GPU%@）</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MENU_ITEM_NO_EGPU</Position>
+      <TranslationSet>
+        <base loc="en">No removable GPU</base>
+        <tran loc="zh-TW">沒有可移除的GPU</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

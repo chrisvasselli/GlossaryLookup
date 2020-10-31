@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>LoginUIFramework</ProjName>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Frameworks/LoginUICore.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>TEXTFIELD_ENTER_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Enter Name</base>
+        <tran loc="de">Namen eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Default placeholder string for text fields </Description>
+      <Position>TEXTFIELD_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="de">Name</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_SHUTDOWN</Position>
+      <TranslationSet>
+        <base loc="en">Shut Down</base>
+        <tran loc="de">Ausschalten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_GO</Position>
+      <TranslationSet>
+        <base loc="en">Go</base>
+        <tran loc="de">Öffnen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_RESTART</Position>
+      <TranslationSet>
+        <base loc="en">Restart</base>
+        <tran loc="de">Neustart</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_PREVIOUS</Position>
+      <TranslationSet>
+        <base loc="en">Previous</base>
+        <tran loc="de">Zurück</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SECURE_TEXTFIELD_ENTER_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Enter Password</base>
+        <tran loc="de">Passwort eingeben</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_SWITCHUSER</Position>
+      <TranslationSet>
+        <base loc="en">Switch User</base>
+        <tran loc="de">Benutzer wechseln</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Copyright 2011 Apple Inc. All rights reserved.
+
+ Button Titles</Description>
+      <Position>LUIBUTTON_BACK</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="de">Zurück</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_SLEEP</Position>
+      <TranslationSet>
+        <base loc="en">Sleep</base>
+        <tran loc="de">Ruhezustand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SECURE_TEXTFIELD_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="de">Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_GUESTUSER</Position>
+      <TranslationSet>
+        <base loc="en">Guest</base>
+        <tran loc="de">Gast</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_RESTARTTOSAFARI</Position>
+      <TranslationSet>
+        <base loc="en">Guest</base>
+        <tran loc="de">Gast</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LUIBUTTON_NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="de">Weiter</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/LUISimplePopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; ObjectID = "3"; </Description>
+      <Position>3.title</Position>
+      <TranslationSet>
+        <base loc="en">ABCDEFGHIJKLMNOPQRSTUVWXYZ</base>
+        <tran loc="de">ABCDEFGHIJKLMNOPQRSTUVWXYZ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">ABCDEFGHIJKLMNOPQRSTUVWXYZ</base>
+        <tran loc="de">ABCDEFGHIJKLMNOPQRSTUVWXYZ</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/LUIPasswordPolicyPopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password requirements:"; ObjectID = "GlV-g0-QDW"; </Description>
+      <Position>GlV-g0-QDW.title</Position>
+      <TranslationSet>
+        <base loc="en">Password requirements:</base>
+        <tran loc="de">Passwortanforderungen:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Accessibility </Description>
+      <Position>Airport off</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi off</base>
+        <tran loc="de">WLAN - aus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>user</Position>
+      <TranslationSet>
+        <base loc="en">user</base>
+        <tran loc="de">Benutzer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Wrong Passcode. Try Again.</Position>
+      <TranslationSet>
+        <base loc="en">Wrong Passcode. Try Again.</base>
+        <tran loc="de">Ungültiger Code. Versuche es erneut.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MASTER_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Master password:</base>
+        <tran loc="de">Hauptpasswort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Airport three bars</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi three bars</base>
+        <tran loc="de">WLAN - drei Balken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>logged in</Position>
+      <TranslationSet>
+        <base loc="en">logged in</base>
+        <tran loc="de">Angemeldet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRATION_DAY</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire in one day.</base>
+        <tran loc="de">Dein Passwort wird in einem Tag ungültig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Back to my Mac </Description>
+      <Position>Enter your system lock PIN code to unlock this Mac.</Position>
+      <TranslationSet>
+        <base loc="en">Enter your system lock PIN code to unlock this Mac.</base>
+        <tran loc="de">Gib den PIN-Code zum Schutz deines Systems ein, um den Schutz für diesen Mac aufzuheben.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Popovers </Description>
+      <Position>PASSWORD_EXPIRATION_DAYS</Position>
+      <TranslationSet>
+        <base loc="en">Your password will expire in %@ days.</base>
+        <tran loc="de">Dein Passwort wird in %@ Tagen ungültig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSCODE_INDEX_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">PIN entry field %1$@ of %2$@</base>
+        <tran loc="de">PIN-Eingabefeld %1$@ von %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRATION_TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Your password expires today.</base>
+        <tran loc="de">Dein Passwort wird heute ungültig.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>go</Position>
+      <TranslationSet>
+        <base loc="en">go</base>
+        <tran loc="de">Start</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Users</Position>
+      <TranslationSet>
+        <base loc="en">Users</base>
+        <tran loc="de">Benutzer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>battery unavailable</Position>
+      <TranslationSet>
+        <base loc="en">battery unavailable</base>
+        <tran loc="de">Batterie nicht verfügbar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRATION_EXPIRED</Position>
+      <TranslationSet>
+        <base loc="en">Your password has expired.</base>
+        <tran loc="de">Dein Passwort ist abgelaufen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Apple logo</Position>
+      <TranslationSet>
+        <base loc="en">Apple logo</base>
+        <tran loc="de">Apple-Logo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>battery</Position>
+      <TranslationSet>
+        <base loc="en">battery</base>
+        <tran loc="de">Batterie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Copyright 2011 Apple Inc. All rights reserved.
+
+ Status Items </Description>
+      <Position>SAFE_BOOT</Position>
+      <TranslationSet>
+        <base loc="en">Safe Boot</base>
+        <tran loc="de">Sicherer Systemstart</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>back</Position>
+      <TranslationSet>
+        <base loc="en">back</base>
+        <tran loc="de">Zurück</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PARENTAL_CONTROL</Position>
+      <TranslationSet>
+        <base loc="en">Parental Control</base>
+        <tran loc="de">Kindersicherung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>reset Apple ID</Position>
+      <TranslationSet>
+        <base loc="en">reset Apple ID</base>
+        <tran loc="de">Apple-ID zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Airport zero bar</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi zero bar</base>
+        <tran loc="de">WLAN - kein Balken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>pressed go</Position>
+      <TranslationSet>
+        <base loc="en">pressed go</base>
+        <tran loc="de">„Start“ gedrückt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PC_NEXT_LOGIN_TIME</Position>
+      <TranslationSet>
+        <base loc="en">This account can log in at %@.</base>
+        <tran loc="de">Dieser Account kann sich um %@ Uhr anmelden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PC_INST_MASTERPASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">You must enter the master password and a new password before you can log into your account.</base>
+        <tran loc="de">Du musst dein Hauptpasswort und ein neues Passwort eingeben, bevor du dich bei deinem Account anmelden kannst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>previous</Position>
+      <TranslationSet>
+        <base loc="en">previous</base>
+        <tran loc="de">Zurück</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>password hint</Position>
+      <TranslationSet>
+        <base loc="en">password hint</base>
+        <tran loc="de">Merkhilfe für dein Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_INDICATOR</Position>
+      <TranslationSet>
+        <base loc="en">progress indicator</base>
+        <tran loc="de">Statusanzeige</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your computer is disabled. Try again in %@ minutes.</Position>
+      <TranslationSet>
+        <base loc="en">Your computer is disabled. Try again in %@ minutes.</base>
+        <tran loc="de">Dein Computer ist deaktiviert. Versuche es in %@ Minuten erneut.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Airport two bars</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi two bars</base>
+        <tran loc="de">WLAN - zwei Balken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>error</Position>
+      <TranslationSet>
+        <base loc="en">error</base>
+        <tran loc="de">Fehler</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>battery is charging</Position>
+      <TranslationSet>
+        <base loc="en">battery is charging</base>
+        <tran loc="de">Batterie wird aufgeladen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Screen Lock</Position>
+      <TranslationSet>
+        <base loc="en">Screen Lock</base>
+        <tran loc="de">Bildschirmsperre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PC_CANNOT_LOGIN</Position>
+      <TranslationSet>
+        <base loc="en">Cannot log in right now.</base>
+        <tran loc="de">Anmeldung momentan nicht möglich.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> the try button next to the passcode boxes</Description>
+      <Position>try</Position>
+      <TranslationSet>
+        <base loc="en">try</base>
+        <tran loc="de">testen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROGRESS_PERCENT</Position>
+      <TranslationSet>
+        <base loc="en">%@ percent</base>
+        <tran loc="de">%@ Prozent</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Airport one bar</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi one bar</base>
+        <tran loc="de">WLAN - ein Balken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>battery in use</Position>
+      <TranslationSet>
+        <base loc="en">battery in use</base>
+        <tran loc="de">Batterie in Verwendung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Login</Position>
+      <TranslationSet>
+        <base loc="en">Login</base>
+        <tran loc="de">Anmeldung</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>screenshot</Position>
+      <TranslationSet>
+        <base loc="en">screenshot</base>
+        <tran loc="de">Bildschirmfoto</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>battery charged</Position>
+      <TranslationSet>
+        <base loc="en">battery charged</base>
+        <tran loc="de">Batterie aufgeladen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PC_INST_NEWPASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">You must enter a new password before you can log in to this account.</base>
+        <tran loc="de">Du musst ein neues Passwort eingeben, bevor du dich bei diesem Account anmelden kannst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>passcode box</Position>
+      <TranslationSet>
+        <base loc="en">PIN entry field</base>
+        <tran loc="de">PIN-Eingabefeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>reset master password</Position>
+      <TranslationSet>
+        <base loc="en">reset master password</base>
+        <tran loc="de">Hauptpasswort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PC_INST_OLDPASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">You must enter your old password and a new password before you can log into your account.</base>
+        <tran loc="de">Du musst dein altes Passwort und ein neues Passwort eingeben, bevor du dich bei deinem Account anmelden kannst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>next</Position>
+      <TranslationSet>
+        <base loc="en">next</base>
+        <tran loc="de">Weiter</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OLD_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Old password:</base>
+        <tran loc="de">Altes Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Login Panel</Position>
+      <TranslationSet>
+        <base loc="en">Login Panel</base>
+        <tran loc="de">Anmeldefenster</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Airport four bars</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi four bars</base>
+        <tran loc="de">WLAN - vier Balken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD_EXPIRATION_CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">%@ Press continue to change your password at another time.</base>
+        <tran loc="de">%@ Klicke auf „Fortfahren“, um dein Passwort zu einem anderen Zeitpunkt zu ändern.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Your computer is disabled. Try again in 1 minute.</Position>
+      <TranslationSet>
+        <base loc="en">Your computer is disabled. Try again in %@ minute.</base>
+        <tran loc="de">Dein Computer ist deaktiviert. Versuche es in %@ Minute erneut.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/LUI2PasswordHintViewController.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "If you forgot your password, you can…"; ObjectID = "evd-Cl-9Ql"; </Description>
+      <Position>evd-Cl-9Ql.title</Position>
+      <TranslationSet>
+        <base loc="en">If you forgot your password, you can…</base>
+        <tran loc="de">Falls du dein Passwort vergessen hast, kannst du …</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt; password hint from user &gt;&gt;"; ObjectID = "nAW-Lw-jlo"; </Description>
+      <Position>nAW-Lw-jlo.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt; password hint from user &gt;&gt;</base>
+        <tran loc="de">&lt;&lt; Passworthinweis des Benutzers &gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password Hint"; ObjectID = "zgV-Sq-LTg"; </Description>
+      <Position>zgV-Sq-LTg.title</Position>
+      <TranslationSet>
+        <base loc="en">Password Hint</base>
+        <tran loc="de">Merkhilfe für dein Passwort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "…reset it using your Master Password"; ObjectID = "NZa-vW-eFD"; </Description>
+      <Position>NZa-vW-eFD.title</Position>
+      <TranslationSet>
+        <base loc="en">…reset it using your Master Password</base>
+        <tran loc="de">… es mit deinem Hauptpasswort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "…reset it using your Apple ID"; ObjectID = "yZa-n4-Bc5"; </Description>
+      <Position>yZa-n4-Bc5.title</Position>
+      <TranslationSet>
+        <base loc="en">…reset it using your Apple ID</base>
+        <tran loc="de">… es mit deiner Apple-ID zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "…restart and show password reset options"; ObjectID = "Kw1-ko-nvS"; </Description>
+      <Position>Kw1-ko-nvS.title</Position>
+      <TranslationSet>
+        <base loc="en">…restart and show password reset options</base>
+        <tran loc="de">… neu starten und Optionen zum Zurücksetzen des Passworts anzeigen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/LUIAppleIDPopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Apple ID:"; ObjectID = "9"; </Description>
+      <Position>9.title</Position>
+      <TranslationSet>
+        <base loc="en">Apple ID:</base>
+        <tran loc="de">Apple-ID:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can reset your account password using your Apple ID credentials."; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">You can reset your account password using your Apple ID credentials.</base>
+        <tran loc="de">Du kannst dein Accountpasswort mithilfe deiner Apple-ID-Anmeldedaten zurücksetzen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "12"; </Description>
+      <Position>12.title</Position>
+      <TranslationSet>
+        <base loc="en">Password:</base>
+        <tran loc="de">Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset Password"; ObjectID = "16"; </Description>
+      <Position>16.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Reset Password"; ObjectID = "3"; </Description>
+      <Position>3.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "18"; </Description>
+      <Position>18.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/LUIPasswordExpirationPopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Continue"; ObjectID = "13"; </Description>
+      <Position>13.title</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="de">Fortfahren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Change Password"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Change Password</base>
+        <tran loc="de">Passwort ändern</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password Expiration"; ObjectID = "3"; </Description>
+      <Position>3.title</Position>
+      <TranslationSet>
+        <base loc="en">Password Expiration</base>
+        <tran loc="de">Passwortgültigkeit</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>LoginUIFramework/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/en.lproj/LUIPasswordChangePopover.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Master password:"; ObjectID = "15"; </Description>
+      <Position>15.title</Position>
+      <TranslationSet>
+        <base loc="en">Master password:</base>
+        <tran loc="de">Hauptpasswort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "New password:"; ObjectID = "17"; </Description>
+      <Position>17.title</Position>
+      <TranslationSet>
+        <base loc="en">New password:</base>
+        <tran loc="de">Neues Passwort:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Reset Password"; ObjectID = "11"; </Description>
+      <Position>11.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Reset Password"; ObjectID = "3"; </Description>
+      <Position>3.title</Position>
+      <TranslationSet>
+        <base loc="en">Reset Password</base>
+        <tran loc="de">Passwort zurücksetzen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify password:"; ObjectID = "19"; </Description>
+      <Position>19.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify password:</base>
+        <tran loc="de">Passwort wiederholen:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "13"; </Description>
+      <Position>13.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="de">Abbrechen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "(recommended)"; ObjectID = "23"; </Description>
+      <Position>23.title</Position>
+      <TranslationSet>
+        <base loc="en">(recommended)</base>
+        <tran loc="de">(Empfohlen)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "You can reset your account password using your master password. "; ObjectID = "5"; </Description>
+      <Position>5.title</Position>
+      <TranslationSet>
+        <base loc="en">You can reset your account password using your master password. </base>
+        <tran loc="de">Du kannst dein Accountpasswort mithilfe deines Hauptpassworts zurücksetzen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Password hint:"; ObjectID = "21"; </Description>
+      <Position>21.title</Position>
+      <TranslationSet>
+        <base loc="en">Password hint:</base>
+        <tran loc="de">Merkhilfe:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

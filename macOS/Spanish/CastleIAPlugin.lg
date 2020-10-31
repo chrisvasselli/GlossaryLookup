@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CastleIAPlugin</ProjName>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountStorageSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "iCloud Storage:"; ObjectID = "q1l-1v-Wul"; </Description>
+      <Position>q1l-1v-Wul.title</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Storage:</base>
+        <tran loc="es">Almacenamiento en iCloud:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Manage…"; ObjectID = "IUc-D9-WSB"; </Description>
+      <Position>IUc-D9-WSB.title</Position>
+      <TranslationSet>
+        <base loc="en">Manage…</base>
+        <tran loc="es">Gestionar…</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountReauthSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Enter Password…"; ObjectID = "zRo-sL-c3O"; </Description>
+      <Position>zRo-sL-c3O.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter Password…</base>
+        <tran loc="es">Introducir contraseña…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Verify the Apple ID password for %@."; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify the Apple ID password for %@.</base>
+        <tran loc="es">Verifica la contraseña del ID de Apple de %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Enter your password to continue using iCloud."; ObjectID = "vMb-de-CMC"; </Description>
+      <Position>vMb-de-CMC.title</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password to continue using iCloud.</base>
+        <tran loc="es">Introduce la contraseña para seguir usando iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountSignOutSpinner.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibExternalAccessibilityDescription = "Signing out"; ObjectID = "qVQ-R1-V8H"; </Description>
+      <Position>qVQ-R1-V8H.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Signing out</base>
+        <tran loc="es">Cerrando sesión</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Signing out…"; ObjectID = "I1o-0M-fat"; </Description>
+      <Position>I1o-0M-fat.title</Position>
+      <TranslationSet>
+        <base loc="en">Signing out…</base>
+        <tran loc="es">Cerrando sesión…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSProgressIndicator"; ibExternalAccessibilityDescription = "Signing out spinner"; ObjectID = "gRW-CD-wIV"; </Description>
+      <Position>gRW-CD-wIV.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">Signing out spinner</base>
+        <tran loc="es">Icono giratorio de cierre de sesión</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudSetupServiceTable.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTableView"; ibExternalAccessibilityDescription = "applications"; ObjectID = "4"; </Description>
+      <Position>4.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">applications</base>
+        <tran loc="es">aplicaciones</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "6"; </Description>
+      <Position>6.title</Position>
+      <TranslationSet>
+        <base loc="en">Text Cell</base>
+        <tran loc="es">Text Cell</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountForgotPasswordSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Forgot Apple ID or password?"; ObjectID = "R5a-zH-8TT"; </Description>
+      <Position>R5a-zH-8TT.title</Position>
+      <TranslationSet>
+        <base loc="en">Forgot Apple ID or password?</base>
+        <tran loc="es">¿Has olvidado tu ID de Apple o la contraseña?</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountUnverfiedSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Account Not Verified"; ObjectID = "vMb-de-CMC"; </Description>
+      <Position>vMb-de-CMC.title</Position>
+      <TranslationSet>
+        <base loc="en">Account Not Verified</base>
+        <tran loc="es">Cuenta no verificada</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Check your email for instructions for verifying your account."; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">Check your email for instructions for verifying your account.</base>
+        <tran loc="es">Para verificar tu cuenta, sigue las instrucciones incluidas en el mensaje que has recibido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Resend Verification Email"; ObjectID = "zRo-sL-c3O"; </Description>
+      <Position>zRo-sL-c3O.title</Position>
+      <TranslationSet>
+        <base loc="en">Resend Verification Email</base>
+        <tran loc="es">Reenviar correo de verificación</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED_NETWORK_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">You are not connected to the Internet</base>
+        <tran loc="es">No tienes conexión a internet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED_NETWORK_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">An Internet connection is required for this operation. Please try again later.</base>
+        <tran loc="es">Para realizar esta operación, se necesita una conexión a internet. Inténtalo de nuevo más tarde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALREADY_SIGNED_IN_MCC_INFO</Position>
+      <TranslationSet>
+        <base loc="en">This iCloud account already exists.</base>
+        <tran loc="es">Esta cuenta de iCloud ya existe.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MAIL_AND_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Mail</base>
+        <tran loc="es">Correo</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>Auto Setup </Description>
+      <Position>SETUP_MERGE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to merge %@ with iCloud?</base>
+        <tran loc="es">¿Quieres fusionar %@ con iCloud?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_PASS_HAS_APPLEID_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Stop Using iCloud…</base>
+        <tran loc="es">Dejar de usar iCloud…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FIND_MY_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Find My Mac</base>
+        <tran loc="es">Buscar mi Mac</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_PASS_HAS_APPLEID</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to stop using iCloud? The user “%@” is using this iCloud account and password to log in to this Mac.</base>
+        <tran loc="es">¿Quieres dejar de utilizar iCloud? El usuario “%@” está utilizando esta cuenta y contraseña de iCloud para iniciar sesión en este Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FAILED_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Turn off all iCloud services and try again.</base>
+        <tran loc="es">Desactiva todos los servicios de iCloud e inténtalo de nuevo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_MERGE</Position>
+      <TranslationSet>
+        <base loc="en">Your information on this Mac will be uploaded and merged with the %@ stored in iCloud.</base>
+        <tran loc="es">La información que tienes en este Mac se cargará y se fusionará con la información de %@ guardada en iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOBILE_DOCUMENTS</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="es">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="es">Aceptar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_MERGE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Merge</base>
+        <tran loc="es">Fusionar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CREATE_APPLEID_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Create Apple ID…</base>
+        <tran loc="es">Crear ID de Apple…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BOOKMARKS</Position>
+      <TranslationSet>
+        <base loc="en">Safari</base>
+        <tran loc="es">Safari</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Sign In failed %@.</base>
+        <tran loc="es">Error al iniciar sesión %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BASIC_ACCOUNT_TEXT_WITHOUT_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Safari, Photos, iCloud Drive, Keychain, or Find My Mac.</base>
+        <tran loc="es">iCloud para Safari, Fotos, iCloud Drive, Llavero y Buscar mi Mac solo pueden usarse en tu cuenta principal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOME</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="es">Casa</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AND_NO_COMMA</Position>
+      <TranslationSet>
+        <base loc="en"> and </base>
+        <tran loc="es"> y </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SENT_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Check your email for instructions for verifying your account.</base>
+        <tran loc="es">Para verificar tu cuenta, sigue las instrucciones incluidas en el mensaje que has recibido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BASIC_ACCOUNT_TEXT_WITH_NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Notes, Safari, Photos, iCloud Drive, Keychain, or Find My Mac.</base>
+        <tran loc="es">iCloud para Notas, Safari, Fotos, iCloud Drive, Llavero y Buscar mi Mac solo pueden usarse en tu cuenta principal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REMINDERS</Position>
+      <TranslationSet>
+        <base loc="en">Reminders</base>
+        <tran loc="es">Recordatorios</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="es">Continuar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_LOCKED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple ID has been temporarily locked.</base>
+        <tran loc="es">Tu ID de Apple se ha bloqueado temporalmente.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_UNLOCKED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Apple ID is now unlocked.</base>
+        <tran loc="es">Tu ID de Apple está desbloqueado.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SEND_FAILURE_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Try resending a verification email later.</base>
+        <tran loc="es">Intenta reenviar un correo de verificación más tarde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FAILED_MAIL_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Mail was unable to delete %@. Relaunch Mail then sign out of iCloud again.</base>
+        <tran loc="es">Mail no ha podido eliminar %@. Reinicia Mail y luego cierra la sesión de iCloud de nuevo.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_UNLOCKED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Your iCloud keychain has been reset.</base>
+        <tran loc="es">El llavero de iCloud se ha restablecido.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETE_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Your iCloud account couldn’t be removed at this time.</base>
+        <tran loc="es">No se ha podido eliminar tu cuenta de iCloud en estos momentos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SEND_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t request a new verification email because of a server error.</base>
+        <tran loc="es">No se ha podido solicitar otro correo de verificación debido a un error del servidor.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMMA_AND</Position>
+      <TranslationSet>
+        <base loc="en">, and </base>
+        <tran loc="es"> y </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to iCloud with your Apple ID.</base>
+        <tran loc="es">Inicia sesión en iCloud con tu ID de Apple.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETUP_DONT_MERGE_BUTTON</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Merge</base>
+        <tran loc="es">No fusionar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIRI</Position>
+      <TranslationSet>
+        <base loc="en">Siri</base>
+        <tran loc="es">Siri</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Don’t have an Apple ID? You can create one for free.</base>
+        <tran loc="es">Si no dispones de un ID de Apple, puedes crear uno de forma gratuita.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CALENDAR</Position>
+      <TranslationSet>
+        <base loc="en">Calendars</base>
+        <tran loc="es">Calendarios</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>FULL_ACCOUNT_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Safari, Photos, Keychain, or Find My Mac.</base>
+        <tran loc="es">iCloud para Safari, Fotos, Llavero y Buscar mi Mac solo pueden usarse en tu cuenta principal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CDP_LOCKED_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Try signing in again later.</base>
+        <tran loc="es">Intenta volver a iniciar sesión más tarde.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>IFORGOT_URL</Position>
+      <TranslationSet>
+        <base loc="en">https://iforgot.apple.com/cgi-bin/iforgot.cgi?app_id=2999</base>
+        <tran loc="es">https://iforgot.apple.com/cgi-bin/iforgot.cgi?app_id=2999</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEWS</Position>
+      <TranslationSet>
+        <base loc="en">News</base>
+        <tran loc="es">Noticias</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALREADY_SIGNED_IN_MCC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Already signed in as %@.</base>
+        <tran loc="es">Ya se ha iniciado sesión como %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REAUTH_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Enter your Apple ID password for %@</base>
+        <tran loc="es">Introduce tu ID de Apple y la contraseña para %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>LOGIN_ERROR_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Unrecognized Apple ID or password.</base>
+        <tran loc="es">ID de Apple o contraseña no reconocidos.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COMMA</Position>
+      <TranslationSet>
+        <base loc="en">, </base>
+        <tran loc="es">, </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PHOTO_STREAM</Position>
+      <TranslationSet>
+        <base loc="en">Photos</base>
+        <tran loc="es">Fotos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REAUTHVIEW_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Verify the Apple ID password for %@.</base>
+        <tran loc="es">Verifica la contraseña del ID de Apple de %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VERIFICATION_SENT</Position>
+      <TranslationSet>
+        <base loc="en">A verification email has been sent to %@.</base>
+        <tran loc="es">Se ha enviado un correo de verificación a %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGNIN_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Sign In failed.</base>
+        <tran loc="es">Error al iniciar sesión.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CHANGE_PASS_HAS_APPLEID_INFO</Position>
+      <TranslationSet>
+        <base loc="en">If you sign out of iCloud, you will need to create a separate password for this Mac</base>
+        <tran loc="es">Si cierras la sesión de iCloud, tendrás que crear otra contraseña para este Mac.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NOTES</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="es">Notas</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REAUTHVIEW_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Enter your password to continue using iCloud.</base>
+        <tran loc="es">Introduce la contraseña para seguir usando iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACTS</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="es">Contactos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>STOCKS</Position>
+      <TranslationSet>
+        <base loc="en">Stocks</base>
+        <tran loc="es">Bolsa</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>KEYCHAIN_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Keychain</base>
+        <tran loc="es">Llavero</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountSetup.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;Your information on this Mac will be uploaded and merged with %@ stored in iCloud."; ObjectID = "4F9-W0-9Tu"; </Description>
+      <Position>4F9-W0-9Tu.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;Your information on this Mac will be uploaded and merged with %@ stored in iCloud.</base>
+        <tran loc="es">&lt;DNL&gt;Your information on this Mac will be uploaded and merged with %@ stored in iCloud.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "&lt;DNL&gt;"; ObjectID = "0kA-Mg-PGD"; </Description>
+      <Position>0kA-Mg-PGD.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;</base>
+        <tran loc="es">&lt;DNL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "&lt;DNL&gt;"; ObjectID = "fdP-wa-Ubs"; </Description>
+      <Position>fdP-wa-Ubs.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;</base>
+        <tran loc="es">&lt;DNL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;Merge %@ with iCloud?"; ObjectID = "goe-q2-JaA"; </Description>
+      <Position>goe-q2-JaA.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;Merge %@ with iCloud?</base>
+        <tran loc="es">&lt;DNL&gt;Merge %@ with iCloud?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSImageCell"; ibExternalAccessibilityDescription = "iCloud"; ObjectID = "ae6-sb-vie"; </Description>
+      <Position>ae6-sb-vie.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">iCloud</base>
+        <tran loc="es">iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudSetupTableRow.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Service Status"; ObjectID = "33"; </Description>
+      <Position>33.title</Position>
+      <TranslationSet>
+        <base loc="en">Service Status</base>
+        <tran loc="es">Estado del servicio</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Label"; ObjectID = "7"; </Description>
+      <Position>7.title</Position>
+      <TranslationSet>
+        <base loc="en">Label</base>
+        <tran loc="es">Etiqueta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "LabelAlt"; ObjectID = "31"; </Description>
+      <Position>31.title</Position>
+      <TranslationSet>
+        <base loc="en">LabelAlt</base>
+        <tran loc="es">LabelAlt</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountDataclassSelection.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Account:"; ObjectID = "t69-9c-hLx"; </Description>
+      <Position>t69-9c-hLx.title</Position>
+      <TranslationSet>
+        <base loc="en">Account:</base>
+        <tran loc="es">Cuenta:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Q8C-PP-KI8"; </Description>
+      <Position>Q8C-PP-KI8.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="es">Cancelar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;&lt;&gt;&gt;"; ObjectID = "3ug-GQ-P3W"; </Description>
+      <Position>3ug-GQ-P3W.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;&lt;&gt;&gt;</base>
+        <tran loc="es">&lt;&lt;&gt;&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Add Account"; ObjectID = "0L8-9m-Vnw"; </Description>
+      <Position>0L8-9m-Vnw.title</Position>
+      <TranslationSet>
+        <base loc="en">Add Account</base>
+        <tran loc="es">Añadir cuenta</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Use with:"; ObjectID = "Yx1-Sj-1h2"; </Description>
+      <Position>Yx1-Sj-1h2.title</Position>
+      <TranslationSet>
+        <base loc="en">Use with:</base>
+        <tran loc="es">Usar con:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSImageView"; ibExternalAccessibilityDescription = "iCloud logo"; ObjectID = "bca-6K-VIl"; </Description>
+      <Position>bca-6K-VIl.ibExternalAccessibilityDescription</Position>
+      <TranslationSet>
+        <base loc="en">iCloud logo</base>
+        <tran loc="es">Logotipo de iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountGettingStartedSlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "&lt;DNL&gt;"; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">&lt;DNL&gt;</base>
+        <tran loc="es">&lt;DNL&gt;</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CastleIAPlugin/System/Library/Accounts/UI/iCloudUIPlugin.bundle/Contents/Resources/en.lproj/iCloudAccountSecondarySlice.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "This is not your primary iCloud account."; ObjectID = "vMb-de-CMC"; </Description>
+      <Position>vMb-de-CMC.title</Position>
+      <TranslationSet>
+        <base loc="en">This is not your primary iCloud account.</base>
+        <tran loc="es">Esta no es tu cuenta de iCloud principal.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Only your primary account can use iCloud for Safari, Photos, Documents, Keychain,  or Find My Mac."; ObjectID = "mDv-kD-6IW"; </Description>
+      <Position>mDv-kD-6IW.title</Position>
+      <TranslationSet>
+        <base loc="en">Only your primary account can use iCloud for Safari, Photos, Documents, Keychain,  or Find My Mac.</base>
+        <tran loc="es">iCloud para Safari, Fotos, Documentos, Llavero y Buscar mi Mac solo pueden usarse en tu cuenta principal.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

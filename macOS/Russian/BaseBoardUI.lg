@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>BaseBoardUI</ProjName>
+  <File>
+    <Filepath>BaseBoardUI/System/iOSSupport/System/Library/PrivateFrameworks/BaseBoardUI.framework/Versions/A/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> no start time, so not a range, ie "thru Jun 7"</Description>
+      <Position>TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">thru %@</base>
+        <tran loc="ru"> — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOMORROW</Position>
+      <TranslationSet>
+        <base loc="en">Tomorrow</base>
+        <tran loc="ru">Завтра</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TODAY_TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Today thru %@</base>
+        <tran loc="ru">Сегодня — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 6/8/12 thru __</Description>
+      <Position>DAYMONTHYEAR_TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ thru %@</base>
+        <tran loc="ru">%@ — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> June 7 thru __</Description>
+      <Position>DAYMONTH_TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ thru %@</base>
+        <tran loc="ru">%@ — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Wednesday thru __</Description>
+      <Position>DAYOFWEEK_TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">%@ thru %@</base>
+        <tran loc="ru">%@ — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YESTERDAY</Position>
+      <TranslationSet>
+        <base loc="en">Yesterday</base>
+        <tran loc="ru">Вчера</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> modern UI event date labels just use a dash</Description>
+      <Position>DATE_RANGE_FORMAT_NEW</Position>
+      <TranslationSet>
+        <base loc="en">%@ - %@</base>
+        <tran loc="ru">%@ — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YESTERDAY_TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Yesterday thru %@</base>
+        <tran loc="ru">Вчера — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOMORROW_TO_DATE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Tomorrow thru %@</base>
+        <tran loc="ru">Завтра — %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TODAY</Position>
+      <TranslationSet>
+        <base loc="en">Today</base>
+        <tran loc="ru">Сегодня</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> no start time, so not a range, ie "to 2:00 PM"</Description>
+      <Position>TO_TIME_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">to %@</base>
+        <tran loc="ru">до %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  BaseBoard
+
+  Created by Ben Sherratt on 2016/11/04.
+  Copyright © 2016 Apple, Inc. All rights reserved.
+</Description>
+      <Position>NOW</Position>
+      <TranslationSet>
+        <base loc="en">Now</base>
+        <tran loc="ru">Сейчас</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>BaseBoardUI/System/iOSSupport/System/Library/PrivateFrameworks/BaseBoardUI.framework/Versions/A/Resources/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_HOURS:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@hours@</base>
+        <tran loc="ru">%1$#@hours@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_HOURS:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@hours@</base>
+        <tran loc="ru">%1$#@hours@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_SECONDS:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@seconds@</base>
+        <tran loc="ru">%1$#@seconds@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_SECONDS:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@seconds@</base>
+        <tran loc="ru">%1$#@seconds@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_SECONDS:dict/seconds:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in 1m</base>
+        <tran loc="ru">через минуту</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_SECONDS:dict/seconds:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in 1m</base>
+        <tran loc="ru">через минуту</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_SECONDS:dict/seconds:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in 1m</base>
+        <tran loc="ru">через минуту</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_SECONDS:dict/seconds:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in 1m</base>
+        <tran loc="ru">через минуту</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_DAYS:dict/days:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lud</base>
+        <tran loc="ru">через %lu дня</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_DAYS:dict/days:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lud</base>
+        <tran loc="ru">через %lu дней</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_DAYS:dict/days:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lud</base>
+        <tran loc="ru">через %lu день</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_DAYS:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lud</base>
+        <tran loc="ru">через %lu дня</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_HOURS:dict/hours:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%luh ago</base>
+        <tran loc="ru">%lu часа назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_HOURS:dict/hours:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%luh ago</base>
+        <tran loc="ru">%lu часов назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_HOURS:dict/hours:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%luh ago</base>
+        <tran loc="ru">%lu час назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_HOURS:dict/hours:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%luh ago</base>
+        <tran loc="ru">%lu часа назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_MINUTES:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@minutes@</base>
+        <tran loc="ru">%1$#@minutes@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_MINUTES:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@minutes@</base>
+        <tran loc="ru">%1$#@minutes@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_DAYS:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@days@</base>
+        <tran loc="ru">%1$#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_DAYS:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@days@</base>
+        <tran loc="ru">%1$#@days@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_HOURS:dict/hours:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %luh</base>
+        <tran loc="ru">через %lu часа</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_HOURS:dict/hours:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %luh</base>
+        <tran loc="ru">через %lu часов</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_HOURS:dict/hours:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %luh</base>
+        <tran loc="ru">через %lu час</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_HOURS:dict/hours:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %luh</base>
+        <tran loc="ru">через %lu часа</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_DAYS:dict/days:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lud ago</base>
+        <tran loc="ru">%lu дня назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_DAYS:dict/days:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lud ago</base>
+        <tran loc="ru">%lu дней назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_DAYS:dict/days:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lud ago</base>
+        <tran loc="ru">%lu день назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_DAYS:dict/days:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lud ago</base>
+        <tran loc="ru">%lu дня назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_MINUTES:dict/minutes:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lum ago</base>
+        <tran loc="ru">%lu минуты назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_MINUTES:dict/minutes:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lum ago</base>
+        <tran loc="ru">%lu минут назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_MINUTES:dict/minutes:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lum ago</base>
+        <tran loc="ru">%lu минуту назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_MINUTES:dict/minutes:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lum ago</base>
+        <tran loc="ru">%lu минуты назад</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_SECONDS:dict/seconds:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">now</base>
+        <tran loc="ru">сейчас</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_SECONDS:dict/seconds:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">now</base>
+        <tran loc="ru">сейчас</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_SECONDS:dict/seconds:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">now</base>
+        <tran loc="ru">сейчас</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_PAST_SECONDS:dict/seconds:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">now</base>
+        <tran loc="ru">сейчас</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_MINUTES:dict/minutes:dict/few:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lum</base>
+        <tran loc="ru">через %lu минуты</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_MINUTES:dict/minutes:dict/many:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lum</base>
+        <tran loc="ru">через %lu минут</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_MINUTES:dict/minutes:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lum</base>
+        <tran loc="ru">через %lu минуту</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/RELATIVE_DATE_FUTURE_MINUTES:dict/minutes:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">in %lum</base>
+        <tran loc="ru">через %lu минуты</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

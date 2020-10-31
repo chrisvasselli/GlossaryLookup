@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DiscRecordingAutomatorActions</ProjName>
+  <File>
+    <Filepath>DiscRecordingAutomatorActions/System/Library/Automator/Burn A Disc.action/Contents/Resources/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Alert buttons </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert messages </Description>
+      <Position>InsertBlank</Position>
+      <TranslationSet>
+        <base loc="en">Please insert a blank disc with a capacity of at least %@</base>
+        <tran loc="ru">Вставьте пустой диск емкостью не менее %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>%.1f GB</Position>
+      <TranslationSet>
+        <base loc="en">%.0f GB</base>
+        <tran loc="ru">%.0f ГБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error messages </Description>
+      <Position>InsufficientDrive</Position>
+      <TranslationSet>
+        <base loc="en">The drive you chose can’t burn this much data.</base>
+        <tran loc="ru">Выбранный дисковод не может записать этот объем данных.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Default name of the disc when not specified </Description>
+      <Position>My Disc</Position>
+      <TranslationSet>
+        <base loc="en">My Disc</base>
+        <tran loc="ru">Мой диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Capacities </Description>
+      <Position>%.0f MB</Position>
+      <TranslationSet>
+        <base loc="en">%.0f MB</base>
+        <tran loc="ru">%.0f МБ</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>InsertBurned</Position>
+      <TranslationSet>
+        <base loc="en">Please insert a blank or erasable disc with a capacity of at least %@.</base>
+        <tran loc="ru">Вставьте пустой или стираемый диск емкостью не менее %@.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecordingAutomatorActions/System/Library/Automator/Burn A Disc.action/Contents/Resources/en.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase first"; ObjectID = "100054"; </Description>
+      <Position>100054.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase first</base>
+        <tran loc="ru">Сначала стереть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to eject the disc from the drive when the burn completes."; ObjectID = "65"; </Description>
+      <Position>65.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to eject the disc from the drive when the burn completes.</base>
+        <tran loc="ru">Выберите, чтобы извлечь диск из дисковода по окончании записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to double-check the data written to disc."; ObjectID = "69"; </Description>
+      <Position>69.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to double-check the data written to disc.</base>
+        <tran loc="ru">Выберите, чтобы проверить данные, записанные на диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Disc In:"; ObjectID = "100053"; </Description>
+      <Position>100053.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Disc In:</base>
+        <tran loc="ru">Запись диска на:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "After Burning"; ObjectID = "100070"; </Description>
+      <Position>100070.title</Position>
+      <TranslationSet>
+        <base loc="en">After Burning</base>
+        <tran loc="ru">После записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject Disc"; ObjectID = "65"; </Description>
+      <Position>65.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject Disc</base>
+        <tran loc="ru">Извлечь диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Verify burned data"; ObjectID = "100069"; </Description>
+      <Position>100069.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify burned data</base>
+        <tran loc="ru">Проверить записанные данные</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Mount on Desktop"; ObjectID = "63"; </Description>
+      <Position>63.title</Position>
+      <TranslationSet>
+        <base loc="en">Mount on Desktop</base>
+        <tran loc="ru">Показать на Рабочем столе</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Disc Name:"; ObjectID = "100040"; </Description>
+      <Position>100040.title</Position>
+      <TranslationSet>
+        <base loc="en">Disc Name:</base>
+        <tran loc="ru">Название диска:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to mount the disc on the desktop when the burn completes."; ObjectID = "63"; </Description>
+      <Position>63.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to mount the disc on the desktop when the burn completes.</base>
+        <tran loc="ru">Выберите, чтобы подключить диск на Рабочем столе по окончании записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Switch"; ObjectID = "100064"; </Description>
+      <Position>100064.title</Position>
+      <TranslationSet>
+        <base loc="en">Switch</base>
+        <tran loc="ru">Переключить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibShadowedToolTip = "Name used to title the burned disc."; ObjectID = "39"; </Description>
+      <Position>39.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Name used to title the burned disc.</base>
+        <tran loc="ru">Имя для обозначения записываемого диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to erase RW media prior to burning."; ObjectID = "54"; </Description>
+      <Position>54.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to erase RW media prior to burning.</base>
+        <tran loc="ru">Выберите, чтобы стереть носитель в перезаписываемом формате (RW) перед записью.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecordingAutomatorActions/System/Library/Automator/Burn A Disc.action/Contents/Resources/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>AMDSummary</Position>
+      <TranslationSet>
+        <base loc="en">This action creates a CD or DVD containing the files and folders passed in from the previous action.</base>
+        <tran loc="ru">Данное действие создает CD или DVD, содержащие файлы и папки, переданные из предыдущего действия.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDOptions</Position>
+      <TranslationSet>
+        <base loc="en">Name the disc, append today's date to the disc name, choose the device to use.</base>
+        <tran loc="ru">Выберите имя для диска, добавьте сегодняшнюю дату к имени диска, выберите устройство.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AMKeywords </Description>
+      <Position>CD</Position>
+      <TranslationSet>
+        <base loc="en">CD</base>
+        <tran loc="ru">CD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Burn</Position>
+      <TranslationSet>
+        <base loc="en">Burn</base>
+        <tran loc="ru">Записать</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Localized versions of Info.plist keys </Description>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">BurnADisc</base>
+        <tran loc="ru">Записать CD/DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMName</Position>
+      <TranslationSet>
+        <base loc="en">Burn a Disc</base>
+        <tran loc="ru">Записать CD/DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>Folder</Position>
+      <TranslationSet>
+        <base loc="en">Folder</base>
+        <tran loc="ru">Папка</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDInput</Position>
+      <TranslationSet>
+        <base loc="en">Files and folders passed from the previous action.</base>
+        <tran loc="ru">Файлы и папки переданы из предыдущего действия.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDResult</Position>
+      <TranslationSet>
+        <base loc="en">Files and folders passed from the previous action.</base>
+        <tran loc="ru">Файлы и папки переданы из предыдущего действия.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>File</Position>
+      <TranslationSet>
+        <base loc="en">File</base>
+        <tran loc="ru">Файл</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DVD</Position>
+      <TranslationSet>
+        <base loc="en">DVD</base>
+        <tran loc="ru">DVD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AMDRequires</Position>
+      <TranslationSet>
+        <base loc="en">A drive capable of burning and a blank disc.</base>
+        <tran loc="ru">Пишущий дисковод и пустой диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>title</Position>
+      <TranslationSet>
+        <base loc="en">My Disc</base>
+        <tran loc="ru">Мой диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AMCategory </Description>
+      <Position>Utility</Position>
+      <TranslationSet>
+        <base loc="en">Utility</base>
+        <tran loc="ru">Утилита</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NSHumanReadableCopyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright (c) 2004-2012 Apple Inc.  All Rights Reserved.</base>
+        <tran loc="ru">Copyright (c) 2004-2012 Apple Inc. Все права защищены.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AMApplication </Description>
+      <Position>System</Position>
+      <TranslationSet>
+        <base loc="en">System</base>
+        <tran loc="ru">Система</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecordingAutomatorActions/System/Library/Automator/Burn A Disc.action/Contents/Resources/en.lproj/devicePrompt.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100010"; </Description>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "The device you selected cannot be found, please choose another device:"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">The device you selected cannot be found, please choose another device:</base>
+        <tran loc="ru">Не удается найти выбранное устройство. Выберите другое устройство:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecordingAutomatorActions/System/Library/Automator/Burn A Disc.action/Contents/Resources/English.lproj/devicePrompt.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "OK"; ObjectID = "100009"; </Description>
+      <Position>100009.title</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="ru">ОК</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Cancel"; ObjectID = "100010"; </Description>
+      <Position>100010.title</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="ru">Отменить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "The device you selected cannot be found, please choose another device:"; ObjectID = "100007"; </Description>
+      <Position>100007.title</Position>
+      <TranslationSet>
+        <base loc="en">The device you selected cannot be found, please choose another device:</base>
+        <tran loc="ru">Не удается найти выбранное устройство. Выберите другое устройство:</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DiscRecordingAutomatorActions/System/Library/Automator/Burn A Disc.action/Contents/Resources/English.lproj/main.strings</Filepath>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Erase first"; ObjectID = "100054"; </Description>
+      <Position>100054.title</Position>
+      <TranslationSet>
+        <base loc="en">Erase first</base>
+        <tran loc="ru">Сначала стереть</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to eject the disc from the drive when the burn completes."; ObjectID = "65"; </Description>
+      <Position>65.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to eject the disc from the drive when the burn completes.</base>
+        <tran loc="ru">Выберите, чтобы извлечь диск из дисковода по окончании записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to double-check the data written to disc."; ObjectID = "69"; </Description>
+      <Position>69.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to double-check the data written to disc.</base>
+        <tran loc="ru">Выберите, чтобы проверить данные, записанные на диск.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Burn Disc In:"; ObjectID = "100053"; </Description>
+      <Position>100053.title</Position>
+      <TranslationSet>
+        <base loc="en">Burn Disc In:</base>
+        <tran loc="ru">Запись диска на:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "After Burning"; ObjectID = "100070"; </Description>
+      <Position>100070.title</Position>
+      <TranslationSet>
+        <base loc="en">After Burning</base>
+        <tran loc="ru">После записи</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Eject Disc"; ObjectID = "65"; </Description>
+      <Position>65.title</Position>
+      <TranslationSet>
+        <base loc="en">Eject Disc</base>
+        <tran loc="ru">Извлечь диск</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Verify burned data"; ObjectID = "100069"; </Description>
+      <Position>100069.title</Position>
+      <TranslationSet>
+        <base loc="en">Verify burned data</base>
+        <tran loc="ru">Проверить записанные данные</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Mount on Desktop"; ObjectID = "63"; </Description>
+      <Position>63.title</Position>
+      <TranslationSet>
+        <base loc="en">Mount on Desktop</base>
+        <tran loc="ru">Показать на Рабочем столе</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextFieldCell"; title = "Disc Name:"; ObjectID = "100040"; </Description>
+      <Position>100040.title</Position>
+      <TranslationSet>
+        <base loc="en">Disc Name:</base>
+        <tran loc="ru">Название диска:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; ibShadowedToolTip = "Select to mount the disc on the desktop when the burn completes."; ObjectID = "63"; </Description>
+      <Position>63.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to mount the disc on the desktop when the burn completes.</base>
+        <tran loc="ru">Выберите, чтобы подключить диск на Рабочем столе по окончании записи.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButtonCell"; title = "Switch"; ObjectID = "100064"; </Description>
+      <Position>100064.title</Position>
+      <TranslationSet>
+        <base loc="en">Switch</base>
+        <tran loc="ru">Переключить</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSTextField"; ibShadowedToolTip = "Name used to title the burned disc."; ObjectID = "39"; </Description>
+      <Position>39.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Name used to title the burned disc.</base>
+        <tran loc="ru">Имя для обозначения записываемого диска.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Class = "NSButton"; ibShadowedToolTip = "Select to erase RW media prior to burning."; ObjectID = "54"; </Description>
+      <Position>54.ibShadowedToolTip</Position>
+      <TranslationSet>
+        <base loc="en">Select to erase RW media prior to burning.</base>
+        <tran loc="ru">Выберите, чтобы стереть носитель в перезаписываемом формате (RW) перед записью.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>
