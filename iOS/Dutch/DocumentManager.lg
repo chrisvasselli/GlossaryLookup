@@ -1,0 +1,3550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>DocumentManager</ProjName>
+  <File>
+    <Filepath>DocumentManager/System/Library/PrivateFrameworks/DocumentManager.framework/en.lproj/LocalizableErrors.strings</Filepath>
+    <TextItem>
+      <Description> Error shown when the server URL used is not supported </Description>
+      <Position>URL.UnsupportedURL.title</Position>
+      <TranslationSet>
+        <base loc="en">The operation can’t be completed because this URL is not supported.</base>
+        <tran loc="nl">De bewerking kan niet worden voltooid, omdat deze URL niet wordt ondersteund.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error recovery suggestion shown when the system was unable to connect to the specified server </Description>
+      <Position>POSIX.ENOTCONN.recovery</Position>
+      <TranslationSet>
+        <base loc="en">Check the server name or IP address, and then try again. If you continue to have problems, contact your system administrator.</base>
+        <tran loc="nl">Controleer de servernaam of het IP-adres en probeer het opnieuw. Neem contact op met de systeembeheerder als de problemen aanhouden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error shown when there was a problem while connecting to a server </Description>
+      <Position>POSIX.ENOTCONN.title</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem connecting to the server.</base>
+        <tran loc="nl">Er heeft zich een probleem voorgedaan bij de verbinding met de server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error shown when an unexpected error occurred (e.g., when trying to create a folder on a storage device that has been unplugged already) </Description>
+      <Position>Cocoa.XPCConnectionInterrupted.title</Position>
+      <TranslationSet>
+        <base loc="en">The operation can’t be completed because an unexpected error occurred.</base>
+        <tran loc="nl">De bewerking kan niet worden voltooid omdat er zich een onverwachte fout heeft voorgedaan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error shown when an unexpected error occurred (e.g., during a failed copy operation) </Description>
+      <Position>POSIX.EBADF.title</Position>
+      <TranslationSet>
+        <base loc="en">The operation can’t be completed because an unexpected error occurred.</base>
+        <tran loc="nl">De bewerking kan niet worden voltooid omdat er zich een onverwachte fout heeft voorgedaan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error shown when the credentials to authenticate were rejected </Description>
+      <Position>POSIX.EAUTH.title</Position>
+      <TranslationSet>
+        <base loc="en">You entered an invalid username or password for the server.</base>
+        <tran loc="nl">Je hebt een ongeldige gebruikersnaam opgegeven voor de server.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DocumentManager/System/Library/PrivateFrameworks/DocumentManagerCore.framework/en.lproj/UIDocumentPickerDefaultTags.plist</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/5:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Purple</base>
+        <tran loc="nl">Paars</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/7:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Work</base>
+        <tran loc="nl">Werk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/9:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Important</base>
+        <tran loc="nl">Belangrijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/1:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Orange</base>
+        <tran loc="nl">Oranje</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/5:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">3</base>
+        <tran loc="nl">3</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/0:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Red</base>
+        <tran loc="nl">Rood</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/6:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">1</base>
+        <tran loc="nl">1</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/8:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Home</base>
+        <tran loc="nl">Thuis</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/3:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Green</base>
+        <tran loc="nl">Groen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/1:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">7</base>
+        <tran loc="nl">7</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/2:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">5</base>
+        <tran loc="nl">5</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/2:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Yellow</base>
+        <tran loc="nl">Geel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/6:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Gray</base>
+        <tran loc="nl">Grijs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTagDictVersion:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">2</base>
+        <tran loc="nl">2</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/3:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">2</base>
+        <tran loc="nl">2</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTagSerialNumber:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">4</base>
+        <tran loc="nl">4</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/4:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">4</base>
+        <tran loc="nl">4</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/0:array/l:dict/:integer</Position>
+      <TranslationSet>
+        <base loc="en">6</base>
+        <tran loc="nl">6</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/_LOCALIZABLE_:dict/FinderTagDict:dict/FinderTags:dict/4:array/n:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Blue</base>
+        <tran loc="nl">Blauw</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DocumentManager/System/Library/PrivateFrameworks/DocumentManager.framework/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> Title for searching in all file providers [meaning: 'Recent Files']
+   Title of the Recents collection
+   Title of the Recents tab </Description>
+      <Position>Recents</Position>
+      <TranslationSet>
+        <base loc="en">Recents</base>
+        <tran loc="nl">Recent</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic 'Something went wrong' alert title. </Description>
+      <Position>Something went wrong.</Position>
+      <TranslationSet>
+        <base loc="en">Something went wrong.</base>
+        <tran loc="nl">Er is iets fout gegaan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown on the browse tab, at the top of the Locations list, and in the navigation bar when documents is in browse mode </Description>
+      <Position>Browse</Position>
+      <TranslationSet>
+        <base loc="en">Browse</base>
+        <tran loc="nl">Bladeren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Choose a location.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a location.</base>
+        <tran loc="nl">Kies een locatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Items will be copied to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Items will be copied to “%1$@” on %2$@.</base>
+        <tran loc="nl">Onderdelen worden gekopieerd naar '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pipe-separated list of words to compare against to check if the user wants to search for all audio files </Description>
+      <Position>AudiosSearchPhrases</Position>
+      <TranslationSet>
+        <base loc="en">audio|sound</base>
+        <tran loc="nl">audio|geluid</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of downloading an item </Description>
+      <Position>Download [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Download</base>
+        <tran loc="nl">Download</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title for the action of copying a shared document url to the pasteboard </Description>
+      <Position>Copy Link</Position>
+      <TranslationSet>
+        <base loc="en">Copy Link</base>
+        <tran loc="nl">Kopieer link</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title for the action of copying a shared document url to the pasteboard </Description>
+      <Position>Copy Link [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Copy Link</base>
+        <tran loc="nl">Kopieer link</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Delete Tag button when deleting a tag </Description>
+      <Position>Delete Tag</Position>
+      <TranslationSet>
+        <base loc="en">Delete Tag</base>
+        <tran loc="nl">Verwijder tag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert prompting user that the Create PDF operation failed. </Description>
+      <Position>Failed to create PDF</Position>
+      <TranslationSet>
+        <base loc="en">Failed to create PDF</base>
+        <tran loc="nl">Pdf kan niet worden aangemaakt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Albumn name of the media </Description>
+      <Position>Album</Position>
+      <TranslationSet>
+        <base loc="en">Album</base>
+        <tran loc="nl">Album</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Moving items to “%@” on %@…</Position>
+      <TranslationSet>
+        <base loc="en">Moving items to “%1$@” on %2$@…</base>
+        <tran loc="nl">Onderdelen verplaatsen naar '%1$@' op '%2$@'…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to format displaying photo latitude reference direction </Description>
+      <Position>Metadata GPSLatLon Component [South]</Position>
+      <TranslationSet>
+        <base loc="en">S</base>
+        <tran loc="nl">Z</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when no destination selected (1 item) </Description>
+      <Position>Choose a new location to save this item.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to save this item.</base>
+        <tran loc="nl">Kies nieuwe bewaarlocatie voor dit onderdeel.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the navigation bar when the user is creating a new tag </Description>
+      <Position>Add New Tag</Position>
+      <TranslationSet>
+        <base loc="en">Add New Tag</base>
+        <tran loc="nl">Voeg nieuwe tag toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the path of the item </Description>
+      <Position>Where</Position>
+      <TranslationSet>
+        <base loc="en">Where</base>
+        <tran loc="nl">Waar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Musical genre of the media </Description>
+      <Position>Musical genre</Position>
+      <TranslationSet>
+        <base loc="en">Musical genre</base>
+        <tran loc="nl">Muziekgenre</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description shown when DocumentManager fails to enumerate a provider because of an authentication error and the user can authenticate inline </Description>
+      <Position>To view the items in this folder, you need to authenticate.</Position>
+      <TranslationSet>
+        <base loc="en">To view the items in this folder, you need to authenticate.</base>
+        <tran loc="nl">Om onderdelen in deze map te bekijken, moet je identiteit worden gecontroleerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text shown at the bottom of a list of files contained in a folder that is read-only. </Description>
+      <Position>Read-Only</Position>
+      <TranslationSet>
+        <base loc="en">Read-Only</base>
+        <tran loc="nl">Alleen-lezen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action to try to enumerate again </Description>
+      <Position>Try Again</Position>
+      <TranslationSet>
+        <base loc="en">Try Again</base>
+        <tran loc="nl">Opnieuw</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic Delete button title
+   Key command discovery title for 'Delete' </Description>
+      <Position>Delete</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="nl">Verwijder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of deleteing an item </Description>
+      <Position>Delete [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="nl">Verwijder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to create a new folder. </Description>
+      <Position>New Folder [Button Title]</Position>
+      <TranslationSet>
+        <base loc="en">New Folder</base>
+        <tran loc="nl">Nieuwe map</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Menu Item shown to create a new folder </Description>
+      <Position>New Folder [menu]</Position>
+      <TranslationSet>
+        <base loc="en">New Folder</base>
+        <tran loc="nl">Nieuwe map</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the UI to create a folder is shown </Description>
+      <Position>New Folder [title]</Position>
+      <TranslationSet>
+        <base loc="en">New Folder</base>
+        <tran loc="nl">Nieuwe map</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to rotate a selected image item to the right </Description>
+      <Position>Rotate Right</Position>
+      <TranslationSet>
+        <base loc="en">Rotate Right</base>
+        <tran loc="nl">Roteer rechtsom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for sorting files by date </Description>
+      <Position>Sort by Date</Position>
+      <TranslationSet>
+        <base loc="en">Sort by Date</base>
+        <tran loc="nl">Sorteer op datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the software used to encode the document </Description>
+      <Position>Encoding software</Position>
+      <TranslationSet>
+        <base loc="en">Encoding software</base>
+        <tran loc="nl">Coderingssoftware</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Item will be moved to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Item will be moved to “%1$@” on %2$@.</base>
+        <tran loc="nl">Onderdeel wordt verplaatst naar '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the document version number </Description>
+      <Position>Version</Position>
+      <TranslationSet>
+        <base loc="en">Version</base>
+        <tran loc="nl">Versie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = MultiSpot </Description>
+      <Position>Metering Mode [MultiSpot]</Position>
+      <TranslationSet>
+        <base loc="en">Multi-spot</base>
+        <tran loc="nl">Multi-spot</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when DocumentManager fails to enumerate a provider because of an authentication error </Description>
+      <Position>Authentication Required</Position>
+      <TranslationSet>
+        <base loc="en">Authentication Required</base>
+        <tran loc="nl">Identiteitscontrole vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text shown when the view service has crashed for too many times in a row. </Description>
+      <Position>Something went wrong while displaying documents.</Position>
+      <TranslationSet>
+        <base loc="en">Something went wrong while displaying documents.</base>
+        <tran loc="nl">Er is iets misgegaan bij het weergeven van documenten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Full download progress indicator -&gt; ↓ 1 MB of 5 MB </Description>
+      <Position>↓ %@ of %@</Position>
+      <TranslationSet>
+        <base loc="en">↓ %1$@ of %2$@</base>
+        <tran loc="nl">↓ %1$@ van %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Siri Shortcut title for opening a folder </Description>
+      <Position>Open folder %@</Position>
+      <TranslationSet>
+        <base loc="en">Open folder %@</base>
+        <tran loc="nl">Open map %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Authors of the media
+   Label shown in the Info View for the document author </Description>
+      <Position>Authors</Position>
+      <TranslationSet>
+        <base loc="en">Authors</base>
+        <tran loc="nl">Auteurs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of sorting the items in the collection by name
+   Title of category of suggestions of type File Name </Description>
+      <Position>Name</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="nl">Naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text description of the current section name sort order eg. 'Sorted by Name' </Description>
+      <Position>Sorted by Name</Position>
+      <TranslationSet>
+        <base loc="en">Sorted by Name</base>
+        <tran loc="nl">Gesorteerd op naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Copying %@ to %@…</Position>
+      <TranslationSet>
+        <base loc="en">Copying %1$@ to %2$@…</base>
+        <tran loc="nl">%1$@ kopiëren naar %2$@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert prompting to choose new default store, due to the current choice no longer being available </Description>
+      <Position>The location %@ uses to save new documents to is no longer available. Choose a new location in Settings.</Position>
+      <TranslationSet>
+        <base loc="en">The location %@ uses to save new documents to is no longer available. Choose a new location in Settings.</base>
+        <tran loc="nl">De locatie die door %@ wordt gebruikt voor het bewaren van nieuwe documenten is niet langer beschikbaar. Kies een nieuwe locatie in Instellingen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the Shared Documents collection </Description>
+      <Position>Shared Documents</Position>
+      <TranslationSet>
+        <base loc="en">Shared Documents</base>
+        <tran loc="nl">Gedeelde documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the software used to create the document </Description>
+      <Position>Content Creator</Position>
+      <TranslationSet>
+        <base loc="en">Content Creator</base>
+        <tran loc="nl">Gemaakt met</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text description of the current section name sort order eg. 'Sorted by Name' </Description>
+      <Position>Sorted by %@</Position>
+      <TranslationSet>
+        <base loc="en">Sorted by %@</base>
+        <tran loc="nl">Gesorteerd op %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert prompting to choose between iCloud Drive and On My iPad/iPhone, due to logging into iCloud or enabling iCloud Drive </Description>
+      <Position>New documents will be saved to iCloud Drive. Existing documents on your iPhone will not be moved.</Position>
+      <TranslationSet>
+        <base loc="en">New documents will be saved to iCloud Drive. Existing documents on your iPhone will not be moved.</base>
+        <tran loc="nl">Nieuwe documenten worden bewaard op iCloud Drive. Bestaande documenten op je iPhone worden niet verplaatst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Add tag button in the share sheet </Description>
+      <Position>+Tag</Position>
+      <TranslationSet>
+        <base loc="en">+Tag</base>
+        <tran loc="nl">+Tag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description shown when DocumentManager fails to enumerate a provider because the server is down </Description>
+      <Position>The folder contents could not be displayed because the connection to the server timed out.</Position>
+      <TranslationSet>
+        <base loc="en">The folder contents could not be displayed because the connection to the server timed out.</base>
+        <tran loc="nl">De inhoud van de map kan niet worden weergegeven omdat er zich een time-out heeft voorgedaan in de verbinding met de server.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Long file open failure message including file name and domain </Description>
+      <Position>The item “%@” could not be opened because it could not be found in %@.</Position>
+      <TranslationSet>
+        <base loc="en">The item “%1$@” could not be opened because it could not be found in %2$@.</base>
+        <tran loc="nl">Het onderdeel '%1$@' kan niet worden geopend, omdat het niet kan worden gevonden in %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the GPS Latitude of the media </Description>
+      <Position>Latitude</Position>
+      <TranslationSet>
+        <base loc="en">Latitude</base>
+        <tran loc="nl">Breedtegraad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description for key command to quit the Quick Look preview </Description>
+      <Position>Dismiss Preview</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss Preview</base>
+        <tran loc="nl">Sluit voorvertoning</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when no destination selected (multiple items) </Description>
+      <Position>Choose a new location to save these items.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to save these items.</base>
+        <tran loc="nl">Kies nieuwe bewaarlocatie voor deze onderdelen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bar button title to delete all items from Trash </Description>
+      <Position>Delete All</Position>
+      <TranslationSet>
+        <base loc="en">Delete All</base>
+        <tran loc="nl">Verwijder alle</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is in progress (multiple items) (with destination) </Description>
+      <Position>Saving items to “%@” on %@…</Position>
+      <TranslationSet>
+        <base loc="en">Saving items to “%1$@” on %2$@…</base>
+        <tran loc="nl">Onderdelen bewaren in '%1$@' op '%2$@'…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Suggestion title for searching for all shared items </Description>
+      <Position>Is Shared with Others</Position>
+      <TranslationSet>
+        <base loc="en">Is Shared with Others</base>
+        <tran loc="nl">Is gedeeld met anderen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> toolbar status label with quota. Format of '%d items' and '%@ available on iCloud', e.g. 20 items, 20GB available on iCloud </Description>
+      <Position>%1$@, %2$@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, %2$@</base>
+        <tran loc="nl">%1$@, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Alpha Channel of an image </Description>
+      <Position>Alpha Channel</Position>
+      <TranslationSet>
+        <base loc="en">Alpha Channel</base>
+        <tran loc="nl">Alfakanaal</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of token to search for all source code files </Description>
+      <Position>SoureCodeAtomTitle</Position>
+      <TranslationSet>
+        <base loc="en">Source Code</base>
+        <tran loc="nl">Broncode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of suggestion to search for all source code files </Description>
+      <Position>SoureCodeSuggestionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Source Code</base>
+        <tran loc="nl">Broncode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to pick a selected folder </Description>
+      <Position>Done</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="nl">Gereed</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type File Kinds </Description>
+      <Position>Kinds</Position>
+      <TranslationSet>
+        <base loc="en">Kinds</base>
+        <tran loc="nl">Soorten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Format for creating photo latitude or longitude metadata display string (e.g. 10° 53' 7.423 E) </Description>
+      <Position>Metadata GPSLatLon Format</Position>
+      <TranslationSet>
+        <base loc="en">%1$d° %2$d' %3$.3f\" %4$@</base>
+        <tran loc="nl">%1$d° %2$d' %3$.3f\" %4$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pipe-separated list of words to compare against to check if the user wants to search for all shared items </Description>
+      <Position>SharedSearchPhrases</Position>
+      <TranslationSet>
+        <base loc="en">shared|is shared</base>
+        <tran loc="nl">gedeeld|is gedeeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to format displaying photo longitude reference direction </Description>
+      <Position>Metadata GPSLatLon Component [West]</Position>
+      <TranslationSet>
+        <base loc="en">W</base>
+        <tran loc="nl">W</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera F number of the image </Description>
+      <Position>Metering mode</Position>
+      <TranslationSet>
+        <base loc="en">Metering mode</base>
+        <tran loc="nl">Metingsmodus</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hide </Description>
+      <Position>Hide</Position>
+      <TranslationSet>
+        <base loc="en">Hide</base>
+        <tran loc="nl">Verberg</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description shown when DocumentManager fails to enumerate a provider because of an authentication error and the user needs to authenticate in the app </Description>
+      <Position>To view the items in this folder, you need to authenticate in the %@ app.</Position>
+      <TranslationSet>
+        <base loc="en">To view the items in this folder, you need to authenticate in the %@ app.</base>
+        <tran loc="nl">Om onderdelen in deze map te bekijken, moet je identiteit worden gecontroleerd in de app %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for newly created Scanned Document </Description>
+      <Position>Scanned Document Filename</Position>
+      <TranslationSet>
+        <base loc="en">Scanned Document</base>
+        <tran loc="nl">Documentscan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button to use On My iPad/iPhone as the default store, when the existing default store is no longer available </Description>
+      <Position>Save to My iPhone</Position>
+      <TranslationSet>
+        <base loc="en">Save to My iPhone</base>
+        <tran loc="nl">Bewaar op mijn iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the devie model of the capture device </Description>
+      <Position>Device model</Position>
+      <TranslationSet>
+        <base loc="en">Device model</base>
+        <tran loc="nl">Model apparaat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> No location available error recovery suggestion </Description>
+      <Position>Enable at least one location to be able to save documents.</Position>
+      <TranslationSet>
+        <base loc="en">Enable at least one location to be able to save documents.</base>
+        <tran loc="nl">Schakel ten minste één locatie in om documenten te kunnen bewaren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for sorting files by kind </Description>
+      <Position>Sort by Kind</Position>
+      <TranslationSet>
+        <base loc="en">Sort by Kind</base>
+        <tran loc="nl">Sorteer op soort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Moving “%@” to %@…</Position>
+      <TranslationSet>
+        <base loc="en">Moving “%1$@” to %2$@…</base>
+        <tran loc="nl">'%1$@' naar '%2$@' verplaatsen…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title when showing local documents on an iPod </Description>
+      <Position>On My iPod</Position>
+      <TranslationSet>
+        <base loc="en">On My iPod</base>
+        <tran loc="nl">Op mijn iPod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error when the parameter to importPlaceholderAtURLToDownloadsDirectory is missing </Description>
+      <Position>Invalid URL wrapper</Position>
+      <TranslationSet>
+        <base loc="en">Invalid URL wrapper</base>
+        <tran loc="nl">Ongeldige URL-verpakking</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Copying items to %@…</Position>
+      <TranslationSet>
+        <base loc="en">Copying items to %@…</base>
+        <tran loc="nl">Onderdelen kopiëren naar %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert prompting to choose between iCloud Drive and On My iPad/iPhone, due to logging into iCloud or enabling iCloud Drive </Description>
+      <Position>New documents will be saved to iCloud Drive. Existing documents on your iPod will not be moved.</Position>
+      <TranslationSet>
+        <base loc="en">New documents will be saved to iCloud Drive. Existing documents on your iPod will not be moved.</base>
+        <tran loc="nl">Nieuwe documenten worden bewaard op iCloud Drive. Bestaande documenten op je iPod worden niet verplaatst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is Not in progress (multiple items) </Description>
+      <Position>Items will be saved to %@.</Position>
+      <TranslationSet>
+        <base loc="en">Items will be saved to %@.</base>
+        <tran loc="nl">Onderdelen worden bewaard in %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text in Widget when viewing on a locked iPod </Description>
+      <Position>Unlock iPod to View</Position>
+      <TranslationSet>
+        <base loc="en">Unlock iPod to View</base>
+        <tran loc="nl">Ontgrendel iPod om te bekijken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for switching to the Desktop folder on iCloud Drive </Description>
+      <Position>Go to Desktop</Position>
+      <TranslationSet>
+        <base loc="en">Go to Desktop</base>
+        <tran loc="nl">Ga naar bureaublad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to duplicate selected items
+   Key command discovery title for 'Duplicate' </Description>
+      <Position>Duplicate</Position>
+      <TranslationSet>
+        <base loc="en">Duplicate</base>
+        <tran loc="nl">Dupliceer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of duplicating an item </Description>
+      <Position>Duplicate [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Duplicate</base>
+        <tran loc="nl">Dupliceer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert title when trying to open a folder whose contents the user doesn't have the permission to see. </Description>
+      <Position>The folder “%@” can’t be opened because you don’t have permission to see its contents.</Position>
+      <TranslationSet>
+        <base loc="en">The folder “%@” can’t be opened because you don’t have permission to see its contents.</base>
+        <tran loc="nl">De map '%@' kan niet worden geopend, omdat je geen bevoegdheden hebt om de inhoud ervan te zien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of confirmed suggestion for searching for all shared items </Description>
+      <Position>Is Shared</Position>
+      <TranslationSet>
+        <base loc="en">Is Shared</base>
+        <tran loc="nl">Is gedeeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of archiving an item </Description>
+      <Position>Compress [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Compress</base>
+        <tran loc="nl">Comprimeer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of archiving an item </Description>
+      <Position>Compress [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Compress</base>
+        <tran loc="nl">Comprimeer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = Creative </Description>
+      <Position>Exposure Program [Creative]</Position>
+      <TranslationSet>
+        <base loc="en">Creative</base>
+        <tran loc="nl">Creatief</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Operation error alert message </Description>
+      <Position>The Operation Can’t Be Completed.</Position>
+      <TranslationSet>
+        <base loc="en">The Operation Can’t Be Completed.</base>
+        <tran loc="nl">De bewerking kan niet worden voltooid.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type File Name </Description>
+      <Position>Filenames</Position>
+      <TranslationSet>
+        <base loc="en">Filenames</base>
+        <tran loc="nl">Bestandsnamen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Modification Date of the item </Description>
+      <Position>Modified</Position>
+      <TranslationSet>
+        <base loc="en">Modified</base>
+        <tran loc="nl">Bewerkt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert Message for Rename Collision, displaying extension </Description>
+      <Position>The name “%@” with extension “.%@” is already taken. Please choose a different name.</Position>
+      <TranslationSet>
+        <base loc="en">The name “%1$@” with extension “.%2$@” is already taken. Please choose a different name.</base>
+        <tran loc="nl">De naam '%1$@' met de extensie '%2$@' is al in gebruik. Kies een andere naam.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description shown when DocumentManager fails to enumerate a provider because of missing permissions </Description>
+      <Position>The folder contents could not be displayed because you don’t have permission to see its contents.</Position>
+      <TranslationSet>
+        <base loc="en">The folder contents could not be displayed because you don’t have permission to see its contents.</base>
+        <tran loc="nl">De inhoud van de map kan niet worden weergegeven omdat je geen bevoegdheden hebt om deze te bekijken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> File open failure title </Description>
+      <Position>Can not open file</Position>
+      <TranslationSet>
+        <base loc="en">Can not open file</base>
+        <tran loc="nl">Kan bestand niet openen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Quick Look' </Description>
+      <Position>Quick Look</Position>
+      <TranslationSet>
+        <base loc="en">Quick Look</base>
+        <tran loc="nl">Snelle weergave</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of previewing an item </Description>
+      <Position>Quick Look [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Quick Look</base>
+        <tran loc="nl">Snelle weergave</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'View as Column' </Description>
+      <Position>View as Column</Position>
+      <TranslationSet>
+        <base loc="en">View as Column</base>
+        <tran loc="nl">Toon als kolom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the document title
+   Label shown in the Info View for the Title of the media </Description>
+      <Position>Title</Position>
+      <TranslationSet>
+        <base loc="en">Title</base>
+        <tran loc="nl">Titel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when white balanace mode = Auto </Description>
+      <Position>WhiteBalance Mode [Auto]</Position>
+      <TranslationSet>
+        <base loc="en">Auto</base>
+        <tran loc="nl">Automatisch</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of token to search for all audio files </Description>
+      <Position>AudiosAtomTitle</Position>
+      <TranslationSet>
+        <base loc="en">Audio Files</base>
+        <tran loc="nl">Audiobestanden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of suggestion to search for all audio files </Description>
+      <Position>AudiosSuggestionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Audio Files</base>
+        <tran loc="nl">Audiobestanden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the item was shared by me </Description>
+      <Position>Shared by Me</Position>
+      <TranslationSet>
+        <base loc="en">Shared by Me</base>
+        <tran loc="nl">Gedeeld door mij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera focal length value of the image </Description>
+      <Position>Focal length</Position>
+      <TranslationSet>
+        <base loc="en">Focal length</base>
+        <tran loc="nl">Brandpuntsafstand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title when showing local documents on an unknown devide </Description>
+      <Position>On My Device</Position>
+      <TranslationSet>
+        <base loc="en">On My Device</base>
+        <tran loc="nl">Op mijn apparaat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to display a NO metadata value </Description>
+      <Position>Metadata Boolean Value [NO]</Position>
+      <TranslationSet>
+        <base loc="en">NO</base>
+        <tran loc="nl">NO</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Default name for a new folder </Description>
+      <Position>untitled folder</Position>
+      <TranslationSet>
+        <base loc="en">untitled folder</base>
+        <tran loc="nl">naamloze map</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the color space of the document </Description>
+      <Position>Color space</Position>
+      <TranslationSet>
+        <base loc="en">Color space</base>
+        <tran loc="nl">Kleurbereik</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Download percentage when we can't determine it -&gt; ↓ N/A% </Description>
+      <Position>N/A</Position>
+      <TranslationSet>
+        <base loc="en">N/A</base>
+        <tran loc="nl">N.v.t.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title when showing local documents on an iPhone </Description>
+      <Position>On My iPhone</Position>
+      <TranslationSet>
+        <base loc="en">On My iPhone</base>
+        <tran loc="nl">Op mijn iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Error message when importing scanned document fails </Description>
+      <Position>Unable to import scanned document.</Position>
+      <TranslationSet>
+        <base loc="en">Unable to import scanned document.</base>
+        <tran loc="nl">Gescand document kan niet worden geïmporteerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status text when the document failed to download </Description>
+      <Position>Download Error</Position>
+      <TranslationSet>
+        <base loc="en">Download Error</base>
+        <tran loc="nl">Downloadfout</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title to 'Rename' the highlighted item
+   Title shown in the menuController for the action of renaming an item </Description>
+      <Position>Rename</Position>
+      <TranslationSet>
+        <base loc="en">Rename</base>
+        <tran loc="nl">Wijzig naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of renaming an item </Description>
+      <Position>Rename [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Rename</base>
+        <tran loc="nl">Wijzig naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the Recents tab in UIDocumentBrowserViewController clients. The title is composed by the name of the app followed by 'Recents' </Description>
+      <Position>%@ Recents</Position>
+      <TranslationSet>
+        <base loc="en">%@ Recents</base>
+        <tran loc="nl">Recent in %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pipe-separated list of words to compare against to check if the user wants to search for all images </Description>
+      <Position>ImagesSearchPhrases</Position>
+      <TranslationSet>
+        <base loc="en">images|pictures</base>
+        <tran loc="nl">afbeeldingen|foto's</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Choose a new location to move these items.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to move these items.</base>
+        <tran loc="nl">Kies nieuwe locatie om deze onderdelen naar te verplaatsen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of DocumentBrowser when 1 item is selected in regular mode </Description>
+      <Position>1 Item Selected</Position>
+      <TranslationSet>
+        <base loc="en">1 Item Selected</base>
+        <tran loc="nl">1 onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title for the More action in the action bar when in Select mode </Description>
+      <Position>More [Action Bar]</Position>
+      <TranslationSet>
+        <base loc="en">More</base>
+        <tran loc="nl">Meer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert title when trying to open a file that is in Recently Deleted. </Description>
+      <Position>The document “%@” can’t be opened because it’s in Recently Deleted.</Position>
+      <TranslationSet>
+        <base loc="en">The document “%@” can’t be opened because it’s in Recently Deleted.</base>
+        <tran loc="nl">Het document '%@' kan niet worden geopend, omdat het zich in 'Recent verwijderd' bevindt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert title when trying to open a document whose contents the user doesn't have the permission to see. </Description>
+      <Position>The document “%@” can’t be opened because you don’t have permission to see its contents.</Position>
+      <TranslationSet>
+        <base loc="en">The document “%@” can’t be opened because you don’t have permission to see its contents.</base>
+        <tran loc="nl">Het document '%@' kan niet worden geopend, omdat je geen bevoegdheden hebt om de inhoud ervan te zien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is NOT in progress (1 item) (with destination) </Description>
+      <Position>Item will be saved to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Item will be saved to “%1$@” on %2$@.</base>
+        <tran loc="nl">Onderdeel wordt bewaard in '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the No Recents warning in the Recents tab </Description>
+      <Position>No Recents</Position>
+      <TranslationSet>
+        <base loc="en">No Recents</base>
+        <tran loc="nl">Geen recente</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for sorting files by tags </Description>
+      <Position>Sort by Tags</Position>
+      <TranslationSet>
+        <base loc="en">Sort by Tags</base>
+        <tran loc="nl">Sorteer op tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the 'Edit' action in the sidebar popover </Description>
+      <Position>Edit</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="nl">Wijzig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Drop will be hidden alert title
+   Paste will be hidden alert title </Description>
+      <Position>“%@” begins with a “.” and will be hidden.</Position>
+      <TranslationSet>
+        <base loc="en">“%@” begins with a “.” and will be hidden.</base>
+        <tran loc="nl">'%@' begint met een '.' en wordt verborgen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the UI to rename a folder is shown </Description>
+      <Position>Rename Folder</Position>
+      <TranslationSet>
+        <base loc="en">Rename Folder</base>
+        <tran loc="nl">Wijzig mapnaam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the document encryption security </Description>
+      <Position>Security</Position>
+      <TranslationSet>
+        <base loc="en">Security</base>
+        <tran loc="nl">Beveiliging</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = Partial </Description>
+      <Position>Metering Mode [Partial]</Position>
+      <TranslationSet>
+        <base loc="en">Partial</base>
+        <tran loc="nl">Gedeeltelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the duration of the media </Description>
+      <Position>Duration</Position>
+      <TranslationSet>
+        <base loc="en">Duration</base>
+        <tran loc="nl">Duur</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the 'Connect to Server' button in the sidebar
+   Title for the 'Connect to Server' button in the sidebar popover </Description>
+      <Position>Connect to Server</Position>
+      <TranslationSet>
+        <base loc="en">Connect to Server</base>
+        <tran loc="nl">Verbind met server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pipe-separated list of words to compare against to check if the user wants to search for all source code files </Description>
+      <Position>SoureCodeSearchPhrases</Position>
+      <TranslationSet>
+        <base loc="en">source code|sourcecode</base>
+        <tran loc="nl">bron code|broncode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert title then the user attempts to connect to a SMB server </Description>
+      <Position>You are attempting to connect to the server “%@”</Position>
+      <TranslationSet>
+        <base loc="en">You are attempting to connect to the server “%@”</base>
+        <tran loc="nl">Je probeert verbinding te maken met de server '%@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirmation text before permanently deleting multiple items when trash is not supported </Description>
+      <Position>These items will be deleted immediately from all your devices. You can’t undo this action. [no trash]</Position>
+      <TranslationSet>
+        <base loc="en">These items will be deleted immediately from all your devices. You can’t undo this action.</base>
+        <tran loc="nl">Deze onderdelen worden onmiddellijk verwijderd van al je iCloud-apparaten. Dit kun je niet ongedaan maken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera aperture value of the image </Description>
+      <Position>Aperture value</Position>
+      <TranslationSet>
+        <base loc="en">Aperture value</base>
+        <tran loc="nl">Diafragmawaarde</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera exposrue time of the image </Description>
+      <Position>Exposure time</Position>
+      <TranslationSet>
+        <base loc="en">Exposure time</base>
+        <tran loc="nl">Belichtingstijd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to indicate value is unavailable for a particular property </Description>
+      <Position>Metadata Value Missing Indicator [--]</Position>
+      <TranslationSet>
+        <base loc="en">--</base>
+        <tran loc="nl">--</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Placeholder text shown when the view service has crashed and the name of the current application cannot be determined. </Description>
+      <Position>Error [UIDocumentBrowserViewController view service error]</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="nl">Fout</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel
+   Cancel connecting to a server
+   Generic Cancel button title
+   Sidebar (...) cancel menu item on iPhone </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title for the file sort order cancel button </Description>
+      <Position>Cancel [Sort Order Control]</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Create Document'
+   Title for the action of creating a new document </Description>
+      <Position>Create Document</Position>
+      <TranslationSet>
+        <base loc="en">Create Document</base>
+        <tran loc="nl">Nieuw document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Paste' </Description>
+      <Position>Paste</Position>
+      <TranslationSet>
+        <base loc="en">Paste</base>
+        <tran loc="nl">Plak</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Nav Bar button title to enter selection mode </Description>
+      <Position>Select</Position>
+      <TranslationSet>
+        <base loc="en">Select</base>
+        <tran loc="nl">Selecteer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of revealing an item in its parent folder </Description>
+      <Position>Reveal Item [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Reveal Item</base>
+        <tran loc="nl">Toon onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text in Widget when viewing on a locked iPhone </Description>
+      <Position>Unlock iPhone to View</Position>
+      <TranslationSet>
+        <base loc="en">Unlock iPhone to View</base>
+        <tran loc="nl">Ontgrendel iPhone om te bekijken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera flash on/off </Description>
+      <Position>Flash</Position>
+      <TranslationSet>
+        <base loc="en">Flash</base>
+        <tran loc="nl">Flash</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type Date </Description>
+      <Position>Dates</Position>
+      <TranslationSet>
+        <base loc="en">Dates</base>
+        <tran loc="nl">Datums</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is Not in progress (1 item). The first variable is a filename, and the second is a destination. E.g. 'Invoice 2019 will be saved to iCloud Drive'. </Description>
+      <Position>“%@” will be saved to %@.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” will be saved to %2$@.</base>
+        <tran loc="nl">'%1$@' wordt bewaard in %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for favoriting the currently selected item(s)
+   Title for the action to favortie a folder </Description>
+      <Position>Favorite</Position>
+      <TranslationSet>
+        <base loc="en">Favorite</base>
+        <tran loc="nl">Maak favoriet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Medium file open failure message including file name </Description>
+      <Position>The item “%@” could not be opened because it could not be found.</Position>
+      <TranslationSet>
+        <base loc="en">The item “%@” could not be opened because it could not be found.</base>
+        <tran loc="nl">Het onderdeel '%@' kan niet worden geopend, omdat het niet kan worden gevonden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for switching to the Documents folder on iCloud Drive </Description>
+      <Position>Go to Documents</Position>
+      <TranslationSet>
+        <base loc="en">Go to Documents</base>
+        <tran loc="nl">Ga naar documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Choose a new location to move this item.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to move this item.</base>
+        <tran loc="nl">Kies nieuwe locatie om dit onderdeel naar te verplaatsen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = Portrait </Description>
+      <Position>Exposure Program [Portrait]</Position>
+      <TranslationSet>
+        <base loc="en">Portrait</base>
+        <tran loc="nl">Staand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title indicating a file is downloaded </Description>
+      <Position>DOWNLOADED</Position>
+      <TranslationSet>
+        <base loc="en">DOWNLOADED</base>
+        <tran loc="nl">GEDOWNLOAD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert prompting to choose between iCloud Drive and On My iPad/iPhone, due to logging into iCloud or enabling iCloud Drive </Description>
+      <Position>New documents will be saved to iCloud Drive. Existing documents on your iPad will not be moved.</Position>
+      <TranslationSet>
+        <base loc="en">New documents will be saved to iCloud Drive. Existing documents on your iPad will not be moved.</base>
+        <tran loc="nl">Nieuwe documenten worden bewaard op iCloud Drive. Bestaande documenten op je iPad worden niet verplaatst.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Preiew panel Add Tags button title </Description>
+      <Position>Add Tags[Preview Panel]</Position>
+      <TranslationSet>
+        <base loc="en">Add Tags</base>
+        <tran loc="nl">Voeg tags toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of showing the info of an item </Description>
+      <Position>Info</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="nl">Info</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of showing the info of an item. </Description>
+      <Position>Info [Menu Controller Button Title]</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="nl">Info</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of view controller showing information of an item. </Description>
+      <Position>Info [View Controller Title]</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="nl">Info</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Network unreachable subtitle </Description>
+      <Position>Check your Internet connection, then try again.</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection, then try again.</base>
+        <tran loc="nl">Controleer de internetverbinding en probeer het opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert title to confirm permanently deleting one item when trash is not supported </Description>
+      <Position>Are you sure you want to delete “%@”? [no trash]</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete “%@”?</base>
+        <tran loc="nl">Weet je zeker dat je '%@' wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the codecs used to encode the media </Description>
+      <Position>Codecs</Position>
+      <TranslationSet>
+        <base loc="en">Codecs</base>
+        <tran loc="nl">Codecs</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for showing the 'Connect to Server…' dialogue </Description>
+      <Position>Connect to Server…</Position>
+      <TranslationSet>
+        <base loc="en">Connect to Server…</base>
+        <tran loc="nl">Verbind met server…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type Person </Description>
+      <Position>Persons</Position>
+      <TranslationSet>
+        <base loc="en">Persons</base>
+        <tran loc="nl">Personen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for sorting files by size </Description>
+      <Position>Sort by Size</Position>
+      <TranslationSet>
+        <base loc="en">Sort by Size</base>
+        <tran loc="nl">Sorteer op grootte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title to choose a cloud provider in the document picker </Description>
+      <Position>Locations</Position>
+      <TranslationSet>
+        <base loc="en">Locations</base>
+        <tran loc="nl">Locaties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera red eye mode </Description>
+      <Position>Red eye</Position>
+      <TranslationSet>
+        <base loc="en">Red eye</base>
+        <tran loc="nl">Rode ogen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button to use On My iPad/iPhone as the default store, when the existing default store is no longer available </Description>
+      <Position>Save to My iPad</Position>
+      <TranslationSet>
+        <base loc="en">Save to My iPad</base>
+        <tran loc="nl">Bewaar op mijn iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to format displaying photo latitude reference direction </Description>
+      <Position>Metadata GPSLatLon Component [North]</Position>
+      <TranslationSet>
+        <base loc="en">N</base>
+        <tran loc="nl">N</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = Manual </Description>
+      <Position>Exposure Program [Manual]</Position>
+      <TranslationSet>
+        <base loc="en">Manual</base>
+        <tran loc="nl">Handmatig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when white balanace mode = Manual </Description>
+      <Position>WhiteBalance Mode [Manual]</Position>
+      <TranslationSet>
+        <base loc="en">Manual</base>
+        <tran loc="nl">Handmatig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Show View Options' </Description>
+      <Position>Show View Options</Position>
+      <TranslationSet>
+        <base loc="en">Show View Options</base>
+        <tran loc="nl">Toon weergaveopties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to display encryption status of a file (e.g. pdf) that has not been encrypted </Description>
+      <Position>Metadata File Encryption Status [Not Encrypted]</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="nl">Geen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions with no title </Description>
+      <Position>None</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="nl">Geen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Copyright of the media </Description>
+      <Position>Copyright</Position>
+      <TranslationSet>
+        <base loc="en">Copyright</base>
+        <tran loc="nl">Copyright</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message when renaming a file with a colon ':'. </Description>
+      <Position>You can’t use a name that contains “:”. Please choose another name.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t use a name that contains “:”. Please choose another name.</base>
+        <tran loc="nl">Je mag geen naam gebruiken die ":" bevat. Kies een andere naam.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text displayed in the info bar of the trash collection </Description>
+      <Position>Recently deleted items may be permanently deleted by your storage provider.</Position>
+      <TranslationSet>
+        <base loc="en">Recently deleted items may be permanently deleted by your storage provider.</base>
+        <tran loc="nl">Onlangs verwijderde onderdelen kunnen definitief verwijderd worden door je opslagaanbieder.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text in Widget when viewing on a locked iPad </Description>
+      <Position>Unlock iPad to View</Position>
+      <TranslationSet>
+        <base loc="en">Unlock iPad to View</base>
+        <tran loc="nl">Ontgrendel iPad om te bekijken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Access will be granted to %@.</Position>
+      <TranslationSet>
+        <base loc="en">Access will be granted to %@.</base>
+        <tran loc="nl">Er wordt toegang verleend tot %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title for the action of recovering ('un-deleting') a trashed item </Description>
+      <Position>Recover</Position>
+      <TranslationSet>
+        <base loc="en">Recover</base>
+        <tran loc="nl">Zet terug</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Status text when the document failed to upload </Description>
+      <Position>Upload Error</Position>
+      <TranslationSet>
+        <base loc="en">Upload Error</base>
+        <tran loc="nl">Fout bij uploaden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Moving item to “%@” on %@…</Position>
+      <TranslationSet>
+        <base loc="en">Moving item to “%1$@” on %2$@…</base>
+        <tran loc="nl">Onderdeel verplaatsen naar '%1$@' op '%2$@'…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button to go to settings to choose a new default store, when the existing default store is no longer available </Description>
+      <Position>Choose New Location</Position>
+      <TranslationSet>
+        <base loc="en">Choose New Location</base>
+        <tran loc="nl">Kies nieuwe locatie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to format a string displaying width (1st) and height (2nd) dimensions of, e.g., an image </Description>
+      <Position>%1$d × %2$d</Position>
+      <TranslationSet>
+        <base loc="en">%1$d × %2$d</base>
+        <tran loc="nl">%1$d × %2$d</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Create Folder' </Description>
+      <Position>Create Folder</Position>
+      <TranslationSet>
+        <base loc="en">Create Folder</base>
+        <tran loc="nl">Maak map aan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Items will be copied to %@.</Position>
+      <TranslationSet>
+        <base loc="en">Items will be copied to %@.</base>
+        <tran loc="nl">Onderdelen worden gekopieerd naar %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of action to remove a Recent Folder item from the sidebar via a swipe action
+   Title of action to unfavorite an item from the sidebar via a swipe action </Description>
+      <Position>Remove</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="nl">Verwijder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Items will be moved to %@.</Position>
+      <TranslationSet>
+        <base loc="en">Items will be moved to %@.</base>
+        <tran loc="nl">Onderdelen worden verplaatst naar %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Drop will be hidden alert message
+   Paste will be hidden alert message </Description>
+      <Position>Are you sure you want it to be hidden?</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want it to be hidden?</base>
+        <tran loc="nl">Weet je zeker dat je het wilt verbergen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirmation text before permanently deleting multiple items from local storage when trash is not supported </Description>
+      <Position>These items will be deleted immediately. You can’t undo this action. [no trash]</Position>
+      <TranslationSet>
+        <base loc="en">These items will be deleted immediately. You can’t undo this action.</base>
+        <tran loc="nl">Deze onderdelen worden onmiddellijk verwijderd. Dit kun je niet ongedaan maken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the shared servers section in the sidebar
+   Title shown when the item is shared by an unknown person </Description>
+      <Position>Shared</Position>
+      <TranslationSet>
+        <base loc="en">Shared</base>
+        <tran loc="nl">Gedeeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bar button title to recover all items from Trash </Description>
+      <Position>Recover All</Position>
+      <TranslationSet>
+        <base loc="en">Recover All</base>
+        <tran loc="nl">Zet alles terug</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for opening the Get Info panel for the item </Description>
+      <Position>Get Info</Position>
+      <TranslationSet>
+        <base loc="en">Get Info</base>
+        <tran loc="nl">Toon info</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of unarchiving an item </Description>
+      <Position>Uncompress [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Uncompress</base>
+        <tran loc="nl">Decomprimeer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of unarchiving an item </Description>
+      <Position>Uncompress [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Uncompress</base>
+        <tran loc="nl">Decomprimeer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Copying items to “%@” on %@…</Position>
+      <TranslationSet>
+        <base loc="en">Copying items to “%1$@” on %2$@…</base>
+        <tran loc="nl">Onderdelen kopiëren naar '%1$@' op '%2$@'…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = Landscape </Description>
+      <Position>Exposure Program [Landscape]</Position>
+      <TranslationSet>
+        <base loc="en">Landscape</base>
+        <tran loc="nl">Liggend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Moving items to %@…</Position>
+      <TranslationSet>
+        <base loc="en">Moving items to %@…</base>
+        <tran loc="nl">Onderdelen verplaatsen naar %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera F number of the image </Description>
+      <Position>F Number</Position>
+      <TranslationSet>
+        <base loc="en">F Number</base>
+        <tran loc="nl">F-getal</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of token to search for all videos </Description>
+      <Position>VideosAtomTitle</Position>
+      <TranslationSet>
+        <base loc="en">Videos</base>
+        <tran loc="nl">Video's</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of suggestion to search for all videos </Description>
+      <Position>VideosSuggestionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Videos</base>
+        <tran loc="nl">Video's</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> title shown when the item is waiting to be uploaded (sentence-cased) </Description>
+      <Position>Waiting to upload</Position>
+      <TranslationSet>
+        <base loc="en">Waiting to upload</base>
+        <tran loc="nl">Uploaden…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message when the user attempts to connect to a SMB server </Description>
+      <Position>Tap Connect to continue</Position>
+      <TranslationSet>
+        <base loc="en">Tap Connect to continue</base>
+        <tran loc="nl">Tik op 'Verbind' om door te gaan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text in Widget when viewing on any other locked devices </Description>
+      <Position>Unlock Device to View</Position>
+      <TranslationSet>
+        <base loc="en">Unlock Device to View</base>
+        <tran loc="nl">Ontgrendel apparaat om te bekijken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type Sharing </Description>
+      <Position>Sharing</Position>
+      <TranslationSet>
+        <base loc="en">Sharing</base>
+        <tran loc="nl">Delen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type Date </Description>
+      <Position>Date</Position>
+      <TranslationSet>
+        <base loc="en">Date</base>
+        <tran loc="nl">Datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of sorting the items in the collection by recency </Description>
+      <Position>Date [Last Used Date]</Position>
+      <TranslationSet>
+        <base loc="en">Date</base>
+        <tran loc="nl">Datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of sorting the items in the collection by date </Description>
+      <Position>Date [Mod Date]</Position>
+      <TranslationSet>
+        <base loc="en">Date</base>
+        <tran loc="nl">Datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text description of the current section name sort order eg. 'Sorted by Date' </Description>
+      <Position>Sorted by Date</Position>
+      <TranslationSet>
+        <base loc="en">Sorted by Date</base>
+        <tran loc="nl">Gesorteerd op datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of button to return to the Info panel. </Description>
+      <Position>Back</Position>
+      <TranslationSet>
+        <base loc="en">Back</base>
+        <tran loc="nl">Vorige</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> title shown when the item is not uploaded </Description>
+      <Position>Not Uploaded</Position>
+      <TranslationSet>
+        <base loc="en">Not Uploaded</base>
+        <tran loc="nl">Niet geüpload</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title. The first variable is a filename, and the second is a destination. E.g. 'Invoice 2019 will be copied to iCloud Drive'. </Description>
+      <Position>“%@” will be copied to %@.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” will be copied to %2$@.</base>
+        <tran loc="nl">'%1$@' wordt gekopieerd naar %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for sorting files by name </Description>
+      <Position>Sort by Name</Position>
+      <TranslationSet>
+        <base loc="en">Sort by Name</base>
+        <tran loc="nl">Sorteer op naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of evicting an item </Description>
+      <Position>Remove Download [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Remove Download</base>
+        <tran loc="nl">Verwijder download</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action in the side bar to show all the newly installed locations </Description>
+      <Position>More Locations</Position>
+      <TranslationSet>
+        <base loc="en">More Locations</base>
+        <tran loc="nl">Meer locaties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button to continue using On My iPad/iPhone </Description>
+      <Position>Not Now</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="nl">Niet nu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert informing the user that one or more videos or images failed to rotate </Description>
+      <Position>The action can not be performed on protected content</Position>
+      <TranslationSet>
+        <base loc="en">The action can not be performed on protected content</base>
+        <tran loc="nl">De taak kan niet worden uitgevoerd op beveiligd materiaal</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera ISO speed value of the image </Description>
+      <Position>ISO speed</Position>
+      <TranslationSet>
+        <base loc="en">ISO speed</base>
+        <tran loc="nl">ISO-snelheid</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is NOTin progress (multiple items) (with destination) </Description>
+      <Position>Items will be saved to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Items will be saved to “%1$@” on %2$@.</base>
+        <tran loc="nl">Onderdelen worden bewaard in '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title indicating a file is currently downloading </Description>
+      <Position>DOWNLOADING</Position>
+      <TranslationSet>
+        <base loc="en">DOWNLOADING</base>
+        <tran loc="nl">DOWNLOADEN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Network unreachable title </Description>
+      <Position>You’re Offline</Position>
+      <TranslationSet>
+        <base loc="en">You’re Offline</base>
+        <tran loc="nl">Je bent offline</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error title when no location was found to save the document </Description>
+      <Position>No location available to save “%@”.</Position>
+      <TranslationSet>
+        <base loc="en">No location available to save “%@”.</base>
+        <tran loc="nl">Geen locatie beschikbaar om '%@' te bewaren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Access will be granted to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Access will be granted to “%1$@” on %2$@.</base>
+        <tran loc="nl">Er wordt toegang verleend tot '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Short file open failure message </Description>
+      <Position>The item could not be opened because it could not be found.</Position>
+      <TranslationSet>
+        <base loc="en">The item could not be opened because it could not be found.</base>
+        <tran loc="nl">Het onderdeel kan niet worden geopend, omdat het niet kan worden gevonden.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Shown when sharing a file with 3 tags or more. Example: Home &amp; 4 more for a file with five tags </Description>
+      <Position>%@ &amp; %llu more</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ &amp; %2$llu more</base>
+        <tran loc="nl">%1$@ en %2$llu andere</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action to unfavortie a folder </Description>
+      <Position>Unfavorite</Position>
+      <TranslationSet>
+        <base loc="en">Unfavorite</base>
+        <tran loc="nl">Maak niet favoriet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title in alert prompting to choose new default store, due to the current choice no longer being available </Description>
+      <Position>Choose New Location for %@ Documents</Position>
+      <TranslationSet>
+        <base loc="en">Choose New Location for %@ Documents</base>
+        <tran loc="nl">Kies nieuwe locatie voor %@ documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action to pin (make available offline) a file </Description>
+      <Position>Pin</Position>
+      <TranslationSet>
+        <base loc="en">Pin</base>
+        <tran loc="nl">Maak vast</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera White balance value of the image </Description>
+      <Position>White balance</Position>
+      <TranslationSet>
+        <base loc="en">White balance</base>
+        <tran loc="nl">Witbalans</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action to unpin (make available offline) a file </Description>
+      <Position>Unpin</Position>
+      <TranslationSet>
+        <base loc="en">Unpin</base>
+        <tran loc="nl">Maak los</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for switching to iCloud Drive </Description>
+      <Position>Go to iCloud Drive</Position>
+      <TranslationSet>
+        <base loc="en">Go to iCloud Drive</base>
+        <tran loc="nl">Ga naar iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of DocumentBrowser when 1 item is selected in compact mode </Description>
+      <Position>1 Item</Position>
+      <TranslationSet>
+        <base loc="en">1 Item</base>
+        <tran loc="nl">1 onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Full upload progress indicator -&gt; ↑ 1 MB of 5 MB </Description>
+      <Position>↑ %@ of %@</Position>
+      <TranslationSet>
+        <base loc="en">↑ %1$@ of %2$@</base>
+        <tran loc="nl">↑ %1$@ van %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Full download pourcentage indicator -&gt; ↓ 58% downloaded </Description>
+      <Position>↓ %@ downloaded</Position>
+      <TranslationSet>
+        <base loc="en">↓ %@ downloaded</base>
+        <tran loc="nl">↓ %@ gedownload</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button to use On My iPad/iPhone as the default store, when the existing default store is no longer available </Description>
+      <Position>Save to My iPod</Position>
+      <TranslationSet>
+        <base loc="en">Save to My iPod</base>
+        <tran loc="nl">Bewaar op mijn iPod</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of See All button next to the Tags collection </Description>
+      <Position>See All</Position>
+      <TranslationSet>
+        <base loc="en">See All</base>
+        <tran loc="nl">Toon alles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = Pattern </Description>
+      <Position>Metering Mode [Pattern]</Position>
+      <TranslationSet>
+        <base loc="en">Pattern</base>
+        <tran loc="nl">Patroon</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> item </Description>
+      <Position>item</Position>
+      <TranslationSet>
+        <base loc="en">item</base>
+        <tran loc="nl">onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is in progress (multiple items) </Description>
+      <Position>Saving items to %@…</Position>
+      <TranslationSet>
+        <base loc="en">Saving items to %@…</base>
+        <tran loc="nl">Onderdelen bewaren in %@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the UI to rename a document is shown </Description>
+      <Position>Rename Document</Position>
+      <TranslationSet>
+        <base loc="en">Rename Document</base>
+        <tran loc="nl">Wijzig naam document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Copy' </Description>
+      <Position>Copy</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="nl">Kopieer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of copying an item </Description>
+      <Position>Copy [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="nl">Kopieer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Menu title to Copy the contents of a label </Description>
+      <Position>Copy [Label Menus]</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="nl">Kopieer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to copy items </Description>
+      <Position>Copy [Move UI Button Title]</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="nl">Kopieer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of copying an item </Description>
+      <Position>Copy [UIMenuController]</Position>
+      <TranslationSet>
+        <base loc="en">Copy</base>
+        <tran loc="nl">Kopieer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Find' (same string as on macOS in Finder) </Description>
+      <Position>Find</Position>
+      <TranslationSet>
+        <base loc="en">Find</base>
+        <tran loc="nl">Zoek</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name of untitled file </Description>
+      <Position>Untitled</Position>
+      <TranslationSet>
+        <base loc="en">Untitled</base>
+        <tran loc="nl">Naamloos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = Normal </Description>
+      <Position>Exposure Program [Normal]</Position>
+      <TranslationSet>
+        <base loc="en">Normal</base>
+        <tran loc="nl">Normaal</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Siri Shortcut title for opening a file
+   Title for the action to authenticate in the current provider app </Description>
+      <Position>Open %@</Position>
+      <TranslationSet>
+        <base loc="en">Open %@</base>
+        <tran loc="nl">Open %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label for the file sort oder action sheet </Description>
+      <Position>Sort by:</Position>
+      <TranslationSet>
+        <base loc="en">Sort by:</base>
+        <tran loc="nl">Sorteer op:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pipe-separated list of words to compare against to check if the user wants to search for all videos </Description>
+      <Position>VideosSearchPhrases</Position>
+      <TranslationSet>
+        <base loc="en">videos|movies</base>
+        <tran loc="nl">video's|films</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Short upload progress indicator -&gt; ↑ 1 MB </Description>
+      <Position>↑ %@</Position>
+      <TranslationSet>
+        <base loc="en">↑ %@</base>
+        <tran loc="nl">↑ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the number of pages in a document </Description>
+      <Position>Pages</Position>
+      <TranslationSet>
+        <base loc="en">Pages</base>
+        <tran loc="nl">Pagina's</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Creation Date of the item </Description>
+      <Position>Created</Position>
+      <TranslationSet>
+        <base loc="en">Created</base>
+        <tran loc="nl">Aanmaak</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the 'Scan Documents' button in the sidebar popover </Description>
+      <Position>Scan Documents</Position>
+      <TranslationSet>
+        <base loc="en">Scan Documents</base>
+        <tran loc="nl">Scan documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of scanning a document </Description>
+      <Position>Scan [Menu Controller Button Title]</Position>
+      <TranslationSet>
+        <base loc="en">Scan Documents</base>
+        <tran loc="nl">Scan documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to Markup a selected item </Description>
+      <Position>Markup</Position>
+      <TranslationSet>
+        <base loc="en">Markup</base>
+        <tran loc="nl">Markeringen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for switching to the currently configured Downloads folder </Description>
+      <Position>Go to Downloads</Position>
+      <TranslationSet>
+        <base loc="en">Go to Downloads</base>
+        <tran loc="nl">Ga naar 'Downloads'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the UTI of the item
+   Title of category of suggestions of type File Kind </Description>
+      <Position>Kind</Position>
+      <TranslationSet>
+        <base loc="en">Kind</base>
+        <tran loc="nl">Soort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of sorting the items in the collection by file type </Description>
+      <Position>Kind [File Type]</Position>
+      <TranslationSet>
+        <base loc="en">Kind</base>
+        <tran loc="nl">Soort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text description of the current section name sort order eg. 'Sorted by Kind' </Description>
+      <Position>Sorted by Kind</Position>
+      <TranslationSet>
+        <base loc="en">Sorted by Kind</base>
+        <tran loc="nl">Gesorteerd op soort</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message when trying to open a file that is in Recently Deleted. </Description>
+      <Position>To use this item, tap and hold on the item and choose Recover.</Position>
+      <TranslationSet>
+        <base loc="en">To use this item, tap and hold on the item and choose Recover.</base>
+        <tran loc="nl">Om dit onderdeel te gebruiken, houd je het onderdeel vast en kies je 'Zet terug'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'View as Icons' </Description>
+      <Position>View as Icons</Position>
+      <TranslationSet>
+        <base loc="en">View as Icons</base>
+        <tran loc="nl">Toon als symbolen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message in alert informing the user that the image / video rotation failed </Description>
+      <Position>Unable to %@</Position>
+      <TranslationSet>
+        <base loc="en">Unable to %@</base>
+        <tran loc="nl">%@ niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = Average </Description>
+      <Position>Metering Mode [Average]</Position>
+      <TranslationSet>
+        <base loc="en">Average</base>
+        <tran loc="nl">Gemiddeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error title when no location was found to save the document, and the document name is unknown </Description>
+      <Position>No location available to save this document.</Position>
+      <TranslationSet>
+        <base loc="en">No location available to save this document.</base>
+        <tran loc="nl">Geen locatie beschikbaar om dit document te bewaren.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Place holder for folder name in new folder alert </Description>
+      <Position>Folder name</Position>
+      <TranslationSet>
+        <base loc="en">Folder name</base>
+        <tran loc="nl">Mapnaam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String appended to a trimmed video filename </Description>
+      <Position> copy</Position>
+      <TranslationSet>
+        <base loc="en"> copy</base>
+        <tran loc="nl"> kopie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name of the Recently Deleted collection in the sidebar. </Description>
+      <Position>Recently Deleted [Sidebar]</Position>
+      <TranslationSet>
+        <base loc="en">Recently Deleted</base>
+        <tran loc="nl">Recent verwijderd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name of the Recently Deleted folder in file path. </Description>
+      <Position>Recently Deleted [file path]</Position>
+      <TranslationSet>
+        <base loc="en">Recently Deleted</base>
+        <tran loc="nl">Recent verwijderd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message when renaming a file with a leading dot. </Description>
+      <Position>You can’t use a name that begins with a dot “.”, because these names are reserved for the system. Please choose another name.</Position>
+      <TranslationSet>
+        <base loc="en">You can’t use a name that begins with a dot “.”, because these names are reserved for the system. Please choose another name.</base>
+        <tran loc="nl">Je kunt geen namen gebruiken die met een punt (.) beginnen, omdat alleen het systeem dergelijke namen mag gebruiken. Kies een andere naam.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the navigation bar for the list of all tags that the user can add </Description>
+      <Position>Add Tag</Position>
+      <TranslationSet>
+        <base loc="en">Add Tag</base>
+        <tran loc="nl">Voeg tag toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for Add Tag action in confirmation dialogue </Description>
+      <Position>Add Tag [button]</Position>
+      <TranslationSet>
+        <base loc="en">Add Tag</base>
+        <tran loc="nl">Voeg tag toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Item </Description>
+      <Position>Item</Position>
+      <TranslationSet>
+        <base loc="en">Item</base>
+        <tran loc="nl">Onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the camera exposrue program of the image </Description>
+      <Position>Exposure program</Position>
+      <TranslationSet>
+        <base loc="en">Exposure program</base>
+        <tran loc="nl">Belichtingsmethode</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title indicating a file hasn't been downloaded yet
+   Download file button title in the Preview Panel </Description>
+      <Position>DOWNLOAD</Position>
+      <TranslationSet>
+        <base loc="en">DOWNLOAD</base>
+        <tran loc="nl">DOWNLOAD</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is in progress (1 item) </Description>
+      <Position>Saving “%@” to %@…</Position>
+      <TranslationSet>
+        <base loc="en">Saving “%1$@” to %2$@…</base>
+        <tran loc="nl">'%1$@' bewaren in %2$@…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the devie make of the capture device </Description>
+      <Position>Device make</Position>
+      <TranslationSet>
+        <base loc="en">Device make</base>
+        <tran loc="nl">Merk apparaat</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = ShutterPriority </Description>
+      <Position>Exposure Program [ShutterPriority]</Position>
+      <TranslationSet>
+        <base loc="en">Shutter priority</base>
+        <tran loc="nl">Sluiterprioriteit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to format displaying photo longitude reference direction </Description>
+      <Position>Metadata GPSLatLon Component [East]</Position>
+      <TranslationSet>
+        <base loc="en">E</base>
+        <tran loc="nl">E</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description shown when DocumentManager fails to enumerate a provider because of an unknown error </Description>
+      <Position>The folder contents could not be displayed because of an unknown error.</Position>
+      <TranslationSet>
+        <base loc="en">The folder contents could not be displayed because of an unknown error.</base>
+        <tran loc="nl">De inhoud van de map kan niet worden weergegeven vanwege een onbekende fout.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of button to attempt to reload the document browser UI, once it already crashed three times in a row. </Description>
+      <Position>Try again</Position>
+      <TranslationSet>
+        <base loc="en">Try again</base>
+        <tran loc="nl">Probeer opnieuw</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to move items </Description>
+      <Position>Move</Position>
+      <TranslationSet>
+        <base loc="en">Move</base>
+        <tran loc="nl">Verplaats</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the preview panel's action sheet for the action of moving an item </Description>
+      <Position>Move [Action Sheet]</Position>
+      <TranslationSet>
+        <base loc="en">Move</base>
+        <tran loc="nl">Verplaats</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> title shown when the item is waiting to be downloaded (sentence-cased) </Description>
+      <Position>Waiting to download</Position>
+      <TranslationSet>
+        <base loc="en">Waiting to download</base>
+        <tran loc="nl">Downloaden…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Show Recents' </Description>
+      <Position>Show Recents</Position>
+      <TranslationSet>
+        <base loc="en">Show Recents</base>
+        <tran loc="nl">Toon recent</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to share items </Description>
+      <Position>Share</Position>
+      <TranslationSet>
+        <base loc="en">Share</base>
+        <tran loc="nl">Deel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to display encryption status of a file (e.g. pdf) that has been encrypted with a password </Description>
+      <Position>Metadata File Encryption Status [Encrypted With Password]</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="nl">Wachtwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for searching in all file providers </Description>
+      <Position>Recent Files</Position>
+      <TranslationSet>
+        <base loc="en">Recent Files</base>
+        <tran loc="nl">Recente bestanden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = Unknown </Description>
+      <Position>Metering Mode [Unknown]</Position>
+      <TranslationSet>
+        <base loc="en">Unknown</base>
+        <tran loc="nl">Onbekend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Show Browse' </Description>
+      <Position>Show Browse</Position>
+      <TranslationSet>
+        <base loc="en">Show Browse</base>
+        <tran loc="nl">Toon 'Bladeren'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to Trim a selected media file </Description>
+      <Position>Trim</Position>
+      <TranslationSet>
+        <base loc="en">Trim</base>
+        <tran loc="nl">Kort in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert title then the user attempts to rename the tag to an invalid name </Description>
+      <Position>Unable to Rename Tag</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Rename Tag</base>
+        <tran loc="nl">Naam van tag wijzigen mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Show </Description>
+      <Position>Show</Position>
+      <TranslationSet>
+        <base loc="en">Show</base>
+        <tran loc="nl">Toon</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Last Opened Date of the item </Description>
+      <Position>Last opened</Position>
+      <TranslationSet>
+        <base loc="en">Last opened</base>
+        <tran loc="nl">Laatst geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title in alert prompting to choose between iCloud Drive and On My iPad/iPhone, due to logging into iCloud or enabling iCloud Drive </Description>
+      <Position>Use iCloud Drive for storing %@ documents?</Position>
+      <TranslationSet>
+        <base loc="en">Use iCloud Drive for storing %@ documents?</base>
+        <tran loc="nl">iCloud Drive gebruiken voor het bewaren van %@ documenten?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirmation text before permanently deleting one item when trash is not supported </Description>
+      <Position>This item will be deleted immediately from all your devices. You can’t undo this action. [no trash]</Position>
+      <TranslationSet>
+        <base loc="en">This item will be deleted immediately from all your devices. You can’t undo this action.</base>
+        <tran loc="nl">Dit onderdeel wordt onmiddellijk verwijderd van al je iCloud-apparaten. Dit kun je niet ongedaan maken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bar button to select all items currently displayed
+   Key command discovery title for 'Select All' </Description>
+      <Position>Select All</Position>
+      <TranslationSet>
+        <base loc="en">Select All</base>
+        <tran loc="nl">Selecteer alles</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = Action </Description>
+      <Position>Exposure Program [Action]</Position>
+      <TranslationSet>
+        <base loc="en">Action</base>
+        <tran loc="nl">Taak</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Preview panel file information (metadata) section title </Description>
+      <Position>Information</Position>
+      <TranslationSet>
+        <base loc="en">Information</base>
+        <tran loc="nl">Informatie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of DocumentBrowser during selection with no items selected </Description>
+      <Position>Select Items</Position>
+      <TranslationSet>
+        <base loc="en">Select Items</base>
+        <tran loc="nl">Selecteer onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Copying item to “%@” on %@…</Position>
+      <TranslationSet>
+        <base loc="en">Copying item to “%1$@” on %2$@…</base>
+        <tran loc="nl">Onderdeel kopiëren naar '%1$@' op '%2$@'…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Open file button title in the Preview Panel </Description>
+      <Position>OPEN</Position>
+      <TranslationSet>
+        <base loc="en">OPEN</base>
+        <tran loc="nl">OPEN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Pipe-separated list of words to compare against to check if the user wants to search for all presentation files </Description>
+      <Position>PresentationsSearchPhrases</Position>
+      <TranslationSet>
+        <base loc="en">presentations|slides</base>
+        <tran loc="nl">presentaties|dia's</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the favorites section in the sidebar </Description>
+      <Position>Favorites</Position>
+      <TranslationSet>
+        <base loc="en">Favorites</base>
+        <tran loc="nl">Favorieten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Suggestion title for searching for files shared by a person
+   Title shown when the item is shared by another person </Description>
+      <Position>Shared by %@</Position>
+      <TranslationSet>
+        <base loc="en">Shared by %@</base>
+        <tran loc="nl">Gedeeld door %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Items will be moved to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Items will be moved to “%1$@” on %2$@.</base>
+        <tran loc="nl">Onderdelen worden verplaatst naar '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title. The first variable is a filename, and the second is a destination. E.g. 'Invoice 2019 will be moved to iCloud Drive'. </Description>
+      <Position>“%@” will be moved to %@.</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” will be moved to %2$@.</base>
+        <tran loc="nl">'%1$@' wordt verplaatst naar %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Short download pourcentage indicator -&gt; ↓ 58%
+   Short download progress indicator -&gt; ↓ 1 MB </Description>
+      <Position>↓ %@</Position>
+      <TranslationSet>
+        <base loc="en">↓ %@</base>
+        <tran loc="nl">↓ %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = Spot </Description>
+      <Position>Metering Mode [Spot]</Position>
+      <TranslationSet>
+        <base loc="en">Spot</base>
+        <tran loc="nl">Spot</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action to authenticate in the current provider </Description>
+      <Position>Authenticate</Position>
+      <TranslationSet>
+        <base loc="en">Authenticate</base>
+        <tran loc="nl">Identiteitscontrole</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo exposure program mode = AperturePriority </Description>
+      <Position>Exposure Program [AperturePriority]</Position>
+      <TranslationSet>
+        <base loc="en">Aperture priority</base>
+        <tran loc="nl">Diafragmaprioriteit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text description of the current section name sort order eg. 'Sorted by Tags' </Description>
+      <Position>Sorted by Tags</Position>
+      <TranslationSet>
+        <base loc="en">Sorted by Tags</base>
+        <tran loc="nl">Gesorteerd op tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the tags section in the sidebar and the Tags collection
+   Title of category of suggestions of type File Tag
+   Title of category of suggestions of type Tag </Description>
+      <Position>Tags</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Tags on the item </Description>
+      <Position>Tags [Info View]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the navigation bar for the list of all tags that the user can add </Description>
+      <Position>Tags [Navigation Bar]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the tags section in the sidebar and the Tags collection </Description>
+      <Position>Tags [Sidebar]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of editing the tags of an item </Description>
+      <Position>Tags [button]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of sorting the items in the collection by tags </Description>
+      <Position>Tags [sorting]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Preiew panel Tags section title </Description>
+      <Position>Tags[Preview Panel]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Tags</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when DocumentManager fails to enumerate </Description>
+      <Position>Content Unavailable</Position>
+      <TranslationSet>
+        <base loc="en">Content Unavailable</base>
+        <tran loc="nl">Inhoud niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to create a PDF from selected items </Description>
+      <Position>Create PDF</Position>
+      <TranslationSet>
+        <base loc="en">Create PDF</base>
+        <tran loc="nl">Maak pdf aan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button to use iCloud Drive as the default store, when the existing default store is no longer available, or when using On My iPad/iPhone and iCloud Drive just became available </Description>
+      <Position>Use iCloud Drive</Position>
+      <TranslationSet>
+        <base loc="en">Use iCloud Drive</base>
+        <tran loc="nl">Gebruik iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to rotate a selected image item to the left </Description>
+      <Position>Rotate Left</Position>
+      <TranslationSet>
+        <base loc="en">Rotate Left</base>
+        <tran loc="nl">Roteer linksom</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to format a string displaying photo f-stop metadata (e.g. 'f/5.6') </Description>
+      <Position>f/%1$@</Position>
+      <TranslationSet>
+        <base loc="en">f/%1$@</base>
+        <tran loc="nl">f/%1$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label string on tag's black callout </Description>
+      <Position>Remove Tag</Position>
+      <TranslationSet>
+        <base loc="en">Remove Tag</base>
+        <tran loc="nl">Verwijder tag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title when showing local documents on an iPad </Description>
+      <Position>On My iPad</Position>
+      <TranslationSet>
+        <base loc="en">On My iPad</base>
+        <tran loc="nl">Op mijn iPad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the Hot Folders section in the sidebar </Description>
+      <Position>Recent Folders</Position>
+      <TranslationSet>
+        <base loc="en">Recent Folders</base>
+        <tran loc="nl">Recente mappen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title of \"Show More\" button in the metadata view
+   Show More button text used in the popover </Description>
+      <Position>Show More</Position>
+      <TranslationSet>
+        <base loc="en">Show More</base>
+        <tran loc="nl">Toon meer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document Target Selection Browser View Controller Title </Description>
+      <Position>Item will be copied to “%@” on %@.</Position>
+      <TranslationSet>
+        <base loc="en">Item will be copied to “%1$@” on %2$@.</base>
+        <tran loc="nl">Onderdeel wordt gekopieerd naar '%1$@' op %2$@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the document resolution </Description>
+      <Position>Resolution</Position>
+      <TranslationSet>
+        <base loc="en">Resolution</base>
+        <tran loc="nl">Resolutie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bar button to deselect all items currently displayed </Description>
+      <Position>Deselect All</Position>
+      <TranslationSet>
+        <base loc="en">Deselect All</base>
+        <tran loc="nl">Maak selectie ongedaan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown when the user is performing a search </Description>
+      <Position>Search</Position>
+      <TranslationSet>
+        <base loc="en">Search</base>
+        <tran loc="nl">Zoeken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> LOADING text on the item collection Loading screen (below the spinner) </Description>
+      <Position>LOADING</Position>
+      <TranslationSet>
+        <base loc="en">LOADING</base>
+        <tran loc="nl">LADEN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the model of the lens </Description>
+      <Position>Lens model</Position>
+      <TranslationSet>
+        <base loc="en">Lens model</base>
+        <tran loc="nl">Lensmodel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Positive confirmation button to Connect </Description>
+      <Position>Connect</Position>
+      <TranslationSet>
+        <base loc="en">Connect</base>
+        <tran loc="nl">Verbind</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> File name composed with a subtitle for large screen -&gt; School Work – Shared by Me </Description>
+      <Position>%@ – %@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ – %2$@</base>
+        <tran loc="nl">%1$@ – %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> error when the Downloads folder could not be created or accessed </Description>
+      <Position>Unrecoverable failure to locate the Downloads location.</Position>
+      <TranslationSet>
+        <base loc="en">Unrecoverable failure to locate the Downloads location.</base>
+        <tran loc="nl">Er heeft zich een onherstelbare fout voorgedaan bij het zoeken naar de downloads.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Composer of the media </Description>
+      <Position>Composer</Position>
+      <TranslationSet>
+        <base loc="en">Composer</base>
+        <tran loc="nl">Componist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Prompt text in SaveToFile or Picker in ExportCopy when action is in progress (1 item) (with destination) </Description>
+      <Position>Saving item to “%@” on %@…</Position>
+      <TranslationSet>
+        <base loc="en">Saving item to “%1$@” on %2$@…</base>
+        <tran loc="nl">Onderdeel bewaren in '%1$@' op '%2$@'…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of token to search for all images </Description>
+      <Position>ImagesAtomTitle</Position>
+      <TranslationSet>
+        <base loc="en">Images</base>
+        <tran loc="nl">Afbeeldingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of suggestion to search for all images </Description>
+      <Position>ImagesSuggestionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Images</base>
+        <tran loc="nl">Afbeeldingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'Go to Enclosing Folder' </Description>
+      <Position>Go to Enclosing Folder</Position>
+      <TranslationSet>
+        <base loc="en">Go to Enclosing Folder</base>
+        <tran loc="nl">Ga naar bovenliggende map</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the color profile of the document </Description>
+      <Position>Color profile</Position>
+      <TranslationSet>
+        <base loc="en">Color profile</base>
+        <tran loc="nl">Kleurenprofiel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the GPS Longitude of the media </Description>
+      <Position>Longitude</Position>
+      <TranslationSet>
+        <base loc="en">Longitude</base>
+        <tran loc="nl">Lengtegraad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title shown in the menuController for the action of deleting an item </Description>
+      <Position>Delete Now</Position>
+      <TranslationSet>
+        <base loc="en">Delete Now</base>
+        <tran loc="nl">Verwijder nu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String used to display a YES boolean metadata value </Description>
+      <Position>Metadata Boolean Value [YES]</Position>
+      <TranslationSet>
+        <base loc="en">YES</base>
+        <tran loc="nl">JA</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sign Out alert title displayed when the user is about to sign out of a WebDAV server with pending uploads. </Description>
+      <Position>Sign Out?</Position>
+      <TranslationSet>
+        <base loc="en">Sign Out?</base>
+        <tran loc="nl">Uitloggen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Default type title </Description>
+      <Position>Document</Position>
+      <TranslationSet>
+        <base loc="en">Document</base>
+        <tran loc="nl">Document</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert message when the user attempts to rename a tag to a name already taken </Description>
+      <Position>The tag “%@” already exists.</Position>
+      <TranslationSet>
+        <base loc="en">The tag “%@” already exists.</base>
+        <tran loc="nl">De tag '%@' bestaat al.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Confirmation text before permanently deleting one item from local storage when trash is not supported </Description>
+      <Position>This item will be deleted immediately. You can’t undo this action. [no trash]</Position>
+      <TranslationSet>
+        <base loc="en">This item will be deleted immediately. You can’t undo this action.</base>
+        <tran loc="nl">Dit onderdeel wordt onmiddellijk verwijderd. Dit kun je niet ongedaan maken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = CenterWeightedAverage </Description>
+      <Position>Metering Mode [CenterWeightedAverage]</Position>
+      <TranslationSet>
+        <base loc="en">Center-weighted average</base>
+        <tran loc="nl">Gewogen gemiddelde</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the document dimensions </Description>
+      <Position>Dimensions</Position>
+      <TranslationSet>
+        <base loc="en">Dimensions</base>
+        <tran loc="nl">Afmetingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to move items
+   Key command discovery title for 'Move Here' </Description>
+      <Position>Move Here</Position>
+      <TranslationSet>
+        <base loc="en">Move Here</base>
+        <tran loc="nl">Verplaats hierheen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title of \"Show Less\" button in the metadata view
+   Show Less button text used in the popover </Description>
+      <Position>Show Less</Position>
+      <TranslationSet>
+        <base loc="en">Show Less</base>
+        <tran loc="nl">Toon minder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> String displayed in metadata info view when displaying photo metering mode = Other </Description>
+      <Position>Metering Mode [Other]</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="nl">Overig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of category of suggestions of type Other </Description>
+      <Position>Other</Position>
+      <TranslationSet>
+        <base loc="en">Other</base>
+        <tran loc="nl">Overig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Description of the No Recents warning in the Recents tab </Description>
+      <Position>See recently opened documents here, or use the Browse tab to see all documents and folders.</Position>
+      <TranslationSet>
+        <base loc="en">See recently opened documents here, or use the Browse tab to see all documents and folders.</base>
+        <tran loc="nl">Bekijk hier recent geopende documenten of gebruik het tabblad 'Bladeren' om alle documenten en mappen te bekijken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text description of the current section name sort order eg. 'Sorted by Size' </Description>
+      <Position>Sorted by Size</Position>
+      <TranslationSet>
+        <base loc="en">Sorted by Size</base>
+        <tran loc="nl">Gesorteerd op grootte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Label shown in the Info View for the Size of the item </Description>
+      <Position>Size [Info View]</Position>
+      <TranslationSet>
+        <base loc="en">Size</base>
+        <tran loc="nl">Grootte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of sorting the items in the collection by size </Description>
+      <Position>Size [Sort Control]</Position>
+      <TranslationSet>
+        <base loc="en">Size</base>
+        <tran loc="nl">Grootte</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert Message for Rename Collision </Description>
+      <Position>The name “%@” is already taken. Please choose a different name.</Position>
+      <TranslationSet>
+        <base loc="en">The name “%@” is already taken. Please choose a different name.</base>
+        <tran loc="nl">De naam '%@' is al in gebruik. Geef een andere naam op.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for 'View as List' </Description>
+      <Position>View as List</Position>
+      <TranslationSet>
+        <base loc="en">View as List</base>
+        <tran loc="nl">Toon als lijst</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for the action of opening a new window from a selected folder </Description>
+      <Position>Open in New Window</Position>
+      <TranslationSet>
+        <base loc="en">Open in New Window</base>
+        <tran loc="nl">Open in nieuw venster</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title for ejecting the currently selected source (e.g., an SMB server) </Description>
+      <Position>Eject</Position>
+      <TranslationSet>
+        <base loc="en">Eject</base>
+        <tran loc="nl">Verwijder media</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Key command discovery title to 'Open' the highlighted item
+   Title for the button to confirm to open multiple files in multiple picking mode </Description>
+      <Position>Open</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="nl">Open</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of token to search for all presentation files </Description>
+      <Position>PresentationsAtomTitle</Position>
+      <TranslationSet>
+        <base loc="en">Presentations</base>
+        <tran loc="nl">Presentaties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of suggestion to search for all presentation files </Description>
+      <Position>PresentationsSuggestionTitle</Position>
+      <TranslationSet>
+        <base loc="en">Presentations</base>
+        <tran loc="nl">Presentaties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text shown in widget when there are no recent documents </Description>
+      <Position>No Recent Documents</Position>
+      <TranslationSet>
+        <base loc="en">No Recent Documents</base>
+        <tran loc="nl">Geen recente documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button title to save items </Description>
+      <Position>Save</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="nl">Bewaar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>DocumentManager/System/Library/PrivateFrameworks/DocumentManager.framework/en.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/The tag “%@” will be deleted and removed from %ld items:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">The tag “%1$@” will be deleted and removed from %2$#@items@</base>
+        <tran loc="nl">De tag '%1$@' wordt gewist en verwijderd uit %2$#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d images:dict/images:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Unable to rotate %d image</base>
+        <tran loc="nl">%d afbeelding kan niet worden geroteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/The tag “%@” will be deleted and removed from %ld items:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%ld item</base>
+        <tran loc="nl">%ld onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items Selected:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Items Selected</base>
+        <tran loc="nl">%lu onderdelen geselecteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.ITEMS.%d:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d items</base>
+        <tran loc="nl">%d onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [from trash]:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete %lu items?</base>
+        <tran loc="nl">Weet je zeker dat je %lu onderdelen wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [from trash]:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete %lu items?</base>
+        <tran loc="nl">Weet je zeker dat je %lu onderdelen wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [no trash]:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete %lu items?</base>
+        <tran loc="nl">Weet je zeker dat je %lu onderdelen wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [no trash]:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete %lu items?</base>
+        <tran loc="nl">Weet je zeker dat je %lu onderdelen wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d videos:dict/videos:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Unable to rotate video</base>
+        <tran loc="nl">Video kan niet worden geroteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d videos:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@videos@</base>
+        <tran loc="nl">%#@videos@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.ITEMS.%d:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d item</base>
+        <tran loc="nl">%d onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.NOTUPLOADED.%d:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d item has not been uploaded</base>
+        <tran loc="nl">%d onderdeel is niet geüpload</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Item</base>
+        <tran loc="nl">%lu onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.RESULTS.%d:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d Results</base>
+        <tran loc="nl">%d gevonden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu item</base>
+        <tran loc="nl">%lu onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.AVAILABLE.%g.%@:dict/availablewithunit:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%2$@ available on iCloud</base>
+        <tran loc="nl">%2$@ beschikbaar in iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.AVAILABLE.%g.%@:dict/availablewithunit:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%2$@ available on iCloud</base>
+        <tran loc="nl">%2$@ beschikbaar in iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [from trash]:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete %lu item?</base>
+        <tran loc="nl">Weet je zeker dat je %lu onderdeel wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [no trash]:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to delete %lu item?</base>
+        <tran loc="nl">Weet je zeker dat je %lu onderdeel wilt verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d images:dict/images:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Unable to rotate image</base>
+        <tran loc="nl">Afbeelding kan niet worden geroteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items Selected:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">0 Items Selected</base>
+        <tran loc="nl">0 onderdelen geselecteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.RESULTS.%d:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">No Results</base>
+        <tran loc="nl">Niets gevonden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.RESULTS.%d:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d Result</base>
+        <tran loc="nl">%d gevonden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items Selected:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu Item Selected</base>
+        <tran loc="nl">%lu onderdeel geselecteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d images:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@images@</base>
+        <tran loc="nl">%#@images@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.ITEMS.%d:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">0 items</base>
+        <tran loc="nl">0 onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.NOTUPLOADED.%d:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%d items have not been uploaded</base>
+        <tran loc="nl">%d onderdelen zijn niet geüpload</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d videos:dict/videos:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Unable to rotate %d videos</base>
+        <tran loc="nl">%d video's kunnen niet worden geroteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d images:dict/images:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Unable to rotate %d images</base>
+        <tran loc="nl">%d afbeeldingen kunnen niet worden geroteerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/The tag “%@” will be deleted and removed from %ld items:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%ld items</base>
+        <tran loc="nl">%ld onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items Selected:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu Items:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.ITEMS.%d:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.NOTUPLOADED.%d:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.RESULTS.%d:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [from trash]:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Are you sure you want to delete %lu items? [no trash]:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/.DICT.AVAILABLE.%g.%@:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$#@availablewithunit@</base>
+        <tran loc="nl">%1$#@availablewithunit@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Unable to rotate %d videos:dict/videos:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Unable to rotate %d video</base>
+        <tran loc="nl">%d video kan niet worden geroteerd</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

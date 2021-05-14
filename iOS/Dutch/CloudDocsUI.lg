@@ -1,0 +1,2568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CloudDocsUI</ProjName>
+  <File>
+    <Filepath>CloudDocsUI/System/Library/PrivateFrameworks/CloudDocsUI.framework/PlugIns/com.apple.CloudDocsUI.CloudSharing.appex/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  UIKit
+
+  Please do not remove this file. It is needed for proper RTL layout.
+ 
+  Created by Paul Borokhov on 08.07.15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>DNT</Position>
+      <TranslationSet>
+        <base loc="en">DNT</base>
+        <tran loc="nl">DNT</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocsUI/System/Library/PrivateFrameworks/CloudDocsUI.framework/PlugIns/com.apple.CloudDocsUI.DocumentPicker.appex/en.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> 
+  Localizable.strings
+  UIKit
+
+  Please do not remove this file. It is needed for proper RTL layout.
+ 
+  Created by Paul Borokhov on 08.07.15.
+  Copyright © 2015 Apple Inc. All rights reserved.
+</Description>
+      <Position>DNT</Position>
+      <TranslationSet>
+        <base loc="en">DNT</base>
+        <tran loc="nl">DNT</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocsUI/System/Library/PrivateFrameworks/CloudDocsUI.framework/English.lproj/Localizable.strings</Filepath>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to this note and it will be deleted from all of their devices.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen niet langer toegang tot deze notitie en wordt deze verwijderd van al hun apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker menu Browse menu item </Description>
+      <Position>Browse</Position>
+      <TranslationSet>
+        <base loc="en">Browse</base>
+        <tran loc="nl">Bladeren</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INFORMATION_TEXT_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is in a shared folder. %@</base>
+        <tran loc="nl">Deze presentatie bevindt zich in een gedeelde map. %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for collab subshare (1st parameter is owner name, 2nd parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_COLLAB_PRIVATE_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited to the shared folder “%@” can use the link to access this folder.</base>
+        <tran loc="nl">Alleen personen die door %@ zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing initial info label </Description>
+      <Position>SHARE_INITIAL_INFO_LABEL_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Add people to this note and everyone will see the latest changes.</base>
+        <tran loc="nl">Voeg anderen toe aan deze notitie zodat iedereen de laatste wijzigingen kan zien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for mixed permissions </Description>
+      <Position>SETTINGS_DETAIL_ACL_MIXED_SUMMARY_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invite can open.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, kunnen dit openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing copy link action item </Description>
+      <Position>COPY_LINK_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Copy Link</base>
+        <tran loc="nl">Kopieer link</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing copy link activity </Description>
+      <Position>COPY_LINK_ACTIVITY_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Copy Link</base>
+        <tran loc="nl">Kopieer link</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for icon badge in Mail </Description>
+      <Position>Shared from %@</Position>
+      <TranslationSet>
+        <base loc="en">Shared from %@</base>
+        <tran loc="nl">Gedeeld vanuit %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker failed to launch 3rd party doc picker error message w/ picker name and error code </Description>
+      <Position>The document picker “%@” failed to launch (%i).</Position>
+      <TranslationSet>
+        <base loc="en">The document picker “%1$@” failed to launch (%2$i).</base>
+        <tran loc="nl">De documentkiezer '%1$@' kan niet worden geopend (%2$i).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_FILE_ALREADY_SHARED</Position>
+      <TranslationSet>
+        <base loc="en">This file is inside a shared folder and cannot be shared on its own.</base>
+        <tran loc="nl">Dit bestand staat in een gedeelde map en kan niet afzonderlijk worden gedeeld.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;Open my shared document:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;Open mijn gedeelde document:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing pre-invite info text </Description>
+      <Position>SHARE_INVITE_INFO_LABEL_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Choose how you’d like to send your invitation:</base>
+        <tran loc="nl">Kies hoe je de uitnodiging wilt sturen:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document iCloud not migrated button </Description>
+      <Position>Upgrade</Position>
+      <TranslationSet>
+        <base loc="en">Upgrade</base>
+        <tran loc="nl">Werk bij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> section title settings </Description>
+      <Position>Who can access</Position>
+      <TranslationSet>
+        <base loc="en">Who can access</base>
+        <tran loc="nl">Toegankelijk voor</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Debug message when ¯\\_(ツ)_/¯ </Description>
+      <Position>Bummer</Position>
+      <TranslationSet>
+        <base loc="en">Bummer</base>
+        <tran loc="nl">Verdorie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Additional actions for iCloud items </Description>
+      <Position>Delete</Position>
+      <TranslationSet>
+        <base loc="en">Delete</base>
+        <tran loc="nl">Verwijder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UI value for modified date minutes </Description>
+      <Position>modified %lu minutes ago</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu minutes ago</base>
+        <tran loc="nl">%lu minuten geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker target selection title. </Description>
+      <Position>Choose a location to add these items.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a location to add these items.</base>
+        <tran loc="nl">Kies locatie om deze onderdelen aan toe te voegen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> icloud sharing settings header (parameter is always the owner's name) </Description>
+      <Position>SETTINGS_ONLY_PEOPLE_INVITED_CAN_ACCESS_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited will have access to this presentation.</base>
+        <tran loc="nl">Alleen degenen die %@ heeft uitgenodigd, hebben toegang tot deze presentatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document iCloud not migrated (refused or unknown) first paragraph </Description>
+      <Position>NO_ICLOUD_MIGRATION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Store your files in iCloud and access them anytime on all your devices.</base>
+        <tran loc="nl">Bewaar je bestanden in iCloud en open ze wanneer je wilt en op welk apparaat je wilt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing remove access from participant action item </Description>
+      <Position>REMOVE_ACCESS_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Remove Access</base>
+        <tran loc="nl">Trek toegang in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker management table title </Description>
+      <Position>Manage Locations</Position>
+      <TranslationSet>
+        <base loc="en">Manage Locations</base>
+        <tran loc="nl">Beheer locaties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access info label for Notes </Description>
+      <Position>GIVE_ACCESS_INFO_LABEL_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Only people you add will be able to access this note.</base>
+        <tran loc="nl">Alleen personen die je toevoegt, hebben toegang tot deze notitie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud File Action </Description>
+      <Position>Rename...</Position>
+      <TranslationSet>
+        <base loc="en">Rename…</base>
+        <tran loc="nl">Wijzig naam…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for collab subshare (1st parameter is owner name, 2nd parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_COLLAB_PRIVATE_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited to the shared folder “%@” can use the link to access this presentation.</base>
+        <tran loc="nl">Alleen personen die door %@ zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze presentatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Name sort segment in doc picker </Description>
+      <Position>Name[sort option]</Position>
+      <TranslationSet>
+        <base loc="en">Name</base>
+        <tran loc="nl">Naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Goes between first and second subtitle in table view mode </Description>
+      <Position>SUBTITLE_JOINER</Position>
+      <TranslationSet>
+        <base loc="en">–</base>
+        <tran loc="nl">–</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> icloud sharing settings header (parameter is always the owner's name) </Description>
+      <Position>SETTINGS_ONLY_PEOPLE_INVITED_CAN_ACCESS</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited will have access.</base>
+        <tran loc="nl">Alleen personen die %@ uitnodigt, hebben toegang.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing couldn't copy link as participant message message </Description>
+      <Position>COULD_NOT_COPY_LINK_MESSAGE_TEXT_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, the spreadsheet link couldn’t be copied.</base>
+        <tran loc="nl">Sorry, de link naar de spreadsheet kan niet worden gekopieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title for remove last participant alert </Description>
+      <Position>Remove “%@”?</Position>
+      <TranslationSet>
+        <base loc="en">Remove “%@”?</base>
+        <tran loc="nl">'%@' verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud File Action </Description>
+      <Position>More...</Position>
+      <TranslationSet>
+        <base loc="en">More…</base>
+        <tran loc="nl">Meer…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Last line of status text in Folder Sharing header--sharing status </Description>
+      <Position>MODIFIED_BY_OTHER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Modified by %@</base>
+        <tran loc="nl">Gewijzigd door %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access info label for Numbers </Description>
+      <Position>GIVE_ACCESS_INFO_LABEL_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Only people you add will be able to access this spreadsheet.</base>
+        <tran loc="nl">Alleen personen die jij toevoegt, hebben toegang tot deze spreadsheet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_PARTICIPANT_INFORMATION_TEXT_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is in a shared folder.</base>
+        <tran loc="nl">Deze presentatie bevindt zich in een gedeelde map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker target selection items </Description>
+      <Position>%@, %@</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, %2$@</base>
+        <tran loc="nl">%1$@, %2$@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INSTRUCTIONS_PRIVATE</Position>
+      <TranslationSet>
+        <base loc="en">Go to the folder’s share options to add people or change editing permissions.</base>
+        <tran loc="nl">Ga naar de deelopties van de map om personen toe te voegen of bewerkingsbevoegdheden te wijzigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_TOO_MANY_PARTICIPANTS</Position>
+      <TranslationSet>
+        <base loc="en">Maximum Invites Reached</base>
+        <tran loc="nl">Maximale aantal uitnodigingen bereikt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action subtitle </Description>
+      <Position>SETTINGS_COPY_LINK_SUBTITLE_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited will be able to access your presentation.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, hebben toegang tot je presentatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> document picker search results title </Description>
+      <Position>Search Results</Position>
+      <TranslationSet>
+        <base loc="en">Search Results</base>
+        <tran loc="nl">Zoekresultaten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_FILE_ALREADY_SHARED</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Share Document</base>
+        <tran loc="nl">Document kan niet worden gedeeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing alert message when attempting to share a folder with a shared item inside </Description>
+      <Position>ALERT_EXISTING_SHARED_ITEMS_MESSAGE_ONE_ITEM</Position>
+      <TranslationSet>
+        <base loc="en">This folder already contains a shared item “%@”. People who currently have access to this item may lose it.</base>
+        <tran loc="nl">Deze map bevat al een gedeeld onderdeel '%@'. Het is mogelijk dat personen die momenteel toegang tot dit onderdeel hebben, deze toegang verliezen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> File copy failed in move to flow title </Description>
+      <Position>Copying file failed</Position>
+      <TranslationSet>
+        <base loc="en">Copying file failed</base>
+        <tran loc="nl">Kopiëren bestand mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant message </Description>
+      <Position>LEAVE_SHARE_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Removing yourself will delete “%@” from all your devices.</base>
+        <tran loc="nl">Als je jezelf verwijdert, wordt '%@' van al je apparaten verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_MAID_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">This account has restrictions on the people you can share documents with.</base>
+        <tran loc="nl">Voor deze account gelden beperkingen aan de personen met wie je documenten kunt delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> message change from public to acl </Description>
+      <Position>SETTINGS_SWITCH_TO_ACL_MESSAGE_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Everyone will be removed from this document and it will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Niemand kan meer aan dit document werken en het wordt verwijderd van iCloud Drive op alle apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing alert message when attempting to share a folder with shared items inside </Description>
+      <Position>ALERT_EXISTING_SHARED_ITEMS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This folder already contains shared items, including “%1$@” and %2$lu others. People who currently have access to these items may lose it.</base>
+        <tran loc="nl">Deze map bevat al gedeelde onderdelen, waaronder '%1$@' en %2$lu andere. Het is mogelijk dat personen die momenteel toegang tot deze onderdelen hebben, deze toegang verliezen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_INITIAL_NETWORK_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">%@ couldn’t connect to iCloud. There may be a problem with the server or network. Please try again later.</base>
+        <tran loc="nl">%@ kan geen verbinding maken met iCloud. Mogelijk is er een probleem met de server of het netwerk. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_INITIAL_NETWORK_UNAVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">%@ couldn’t connect to iCloud. There may be a problem with the server or network. Please try again later.</base>
+        <tran loc="nl">%@ kan geen verbinding maken met iCloud. Mogelijk is er een probleem met de server of het netwerk. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for public sharing </Description>
+      <Position>SETTINGS_DETAIL_PUBLIC_RO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Anyone with the link can view.</base>
+        <tran loc="nl">Iedereen die de link heeft, kan dit bekijken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_COULD_NOT_ADD_PARTICIPANTS_WITH_ADDRESSES</Position>
+      <TranslationSet>
+        <base loc="en">Some email addresses or phone numbers you entered are not valid. Please enter valid email addresses or phone numbers, then try sharing again.</base>
+        <tran loc="nl">Sommige van de ingevoerde e‑mailadressen of telefoonnummers zijn niet geldig. Voer geldige e‑mailadressen of telefoonnummers in en probeer opnieuw om te delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_INITIAL_NETWORK_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Connect</base>
+        <tran loc="nl">Verbinden niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_INITIAL_NETWORK_UNAVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Connect</base>
+        <tran loc="nl">Verbinden niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_NETWORK_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Connect</base>
+        <tran loc="nl">Verbinden niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_NETWORK_UNAVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Connect</base>
+        <tran loc="nl">Verbinden niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> section title settings </Description>
+      <Position>Permission</Position>
+      <TranslationSet>
+        <base loc="en">Permission</base>
+        <tran loc="nl">Bevoegdheid</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing add participant action item </Description>
+      <Position>ADD_PEOPLE_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Add People</base>
+        <tran loc="nl">Voeg personen toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access title </Description>
+      <Position>GIVE_ACCESS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Add People</base>
+        <tran loc="nl">Voeg toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing initial title </Description>
+      <Position>SHARE_INITIAL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Add People</base>
+        <tran loc="nl">Voeg personen toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker failed to extend sandbox error message </Description>
+      <Position>The file could not be made available to the application. (%@)</Position>
+      <TranslationSet>
+        <base loc="en">The file could not be made available to the application. (%@)</base>
+        <tran loc="nl">Het bestand kan niet beschikbaar worden gemaakt voor de app. (%@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_MAID_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">This account has restrictions on the people you can share presentations with.</base>
+        <tran loc="nl">Voor deze account gelden beperkingen aan de personen met wie je presentaties kunt delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for collab subshare (1st parameter is owner name, 2nd parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_COLLAB_PRIVATE_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited to the shared folder “%@” can use the link to access this document.</base>
+        <tran loc="nl">Alleen personen die door %@ zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot dit document.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_PARTICIPANT_INFORMATION_TEXT_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">This document is in a shared folder.</base>
+        <tran loc="nl">Dit document bevindt zich in een gedeelde map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_COULD_NOT_ADD_PARTICIPANTS</Position>
+      <TranslationSet>
+        <base loc="en">Your invitations weren’t sent.</base>
+        <tran loc="nl">Je uitnodigingen zijn niet verstuurd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, you can’t manage settings right now</base>
+        <tran loc="nl">De instellingen kunnen nu niet worden beheerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_MAID</Position>
+      <TranslationSet>
+        <base loc="en">This account has restrictions on the people you can share with.</base>
+        <tran loc="nl">Voor deze account gelden beperkingen aan de personen met wie je kunt delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant (owner); parameter is localized name </Description>
+      <Position>PARTICIPANT_OWNER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">%@ (Owner)</base>
+        <tran loc="nl">%@ (eigenaar)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail subject template </Description>
+      <Position>MAIL_TEMPLATE_SUBJECT</Position>
+      <TranslationSet>
+        <base loc="en">“#ITEM_NAME#”</base>
+        <tran loc="nl">#ITEM_NAME#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> participant info title </Description>
+      <Position>email</Position>
+      <TranslationSet>
+        <base loc="en">email</base>
+        <tran loc="nl">e‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> document picker title </Description>
+      <Position>iCloud Drive</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="nl">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document pickers icloud drive not available title in nav bar </Description>
+      <Position>iCloud Drive[unavailable nav title]</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="nl">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document pickers icloud drive not available title in view </Description>
+      <Position>iCloud Drive[unavailable view title]</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="nl">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PUBLIC_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Only people in the shared folder “%@” can use the link to access this folder.</base>
+        <tran loc="nl">Alleen personen in de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant message </Description>
+      <Position>LEAVE_SHARE_MESSAGE_TEXT_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Removing yourself from this shared presentation will delete the document from iCloud Drive on all your devices.</base>
+        <tran loc="nl">Als je jezelf verwijdert uit deze gedeelde presentatie, wordt deze verwijderd van iCloud Drive op al je apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_NETWORK_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">You can’t manage settings offline. There may be a problem with the server or network. Please try again later.</base>
+        <tran loc="nl">Je kunt instellingen niet offline beheren. Mogelijk is er een probleem met de server of het netwerk. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PRIVATE_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited to the shared folder “%@” can use the link to access this spreadsheet.</base>
+        <tran loc="nl">Alleen personen die door jou zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze spreadsheet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access info label </Description>
+      <Position>GIVE_ACCESS_INFO_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Only people you add will have access.</base>
+        <tran loc="nl">Alleen personen die jij toevoegt, hebben toegang.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access placeholder </Description>
+      <Position>GIVE_ACCESS_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Email addresses or phone numbers</base>
+        <tran loc="nl">E‑mailadres of telefoonnummer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker container subtitle; parameter is container display name </Description>
+      <Position>in ContainerDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">in %@</base>
+        <tran loc="nl">in %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UI value for modified date hours </Description>
+      <Position>modified %lu hours ago</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu hours ago</base>
+        <tran loc="nl">%lu uur geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sync blocked warning title </Description>
+      <Position>A Newer Version of iOS is Needed to Edit this File</Position>
+      <TranslationSet>
+        <base loc="en">A Newer Version of iOS is Needed to Edit this File</base>
+        <tran loc="nl">Een nieuwere versie van iOS is vereist om dit bestand te bewerken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Last line of status text in Folder Sharing header--sharing status </Description>
+      <Position>SHARED_BY_ME_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Shared by Me</base>
+        <tran loc="nl">Gedeeld door mij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker share owner subtitle for own (outgoing) shares </Description>
+      <Position>Shared by Me</Position>
+      <TranslationSet>
+        <base loc="en">Shared by Me</base>
+        <tran loc="nl">Gedeeld door mij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud File Action </Description>
+      <Position>Delete...</Position>
+      <TranslationSet>
+        <base loc="en">Delete…</base>
+        <tran loc="nl">Verwijder…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document pickers unavailable text first paragraph </Description>
+      <Position>NO_ICLOUD_DISABLED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Documents in iCloud Drive are not available because the iCloud Drive setting is disabled.</base>
+        <tran loc="nl">Documenten op iCloud Drive zijn niet beschikbaar omdat de iCloud Drive-instelling is uitgeschakeld.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> message change from public to acl </Description>
+      <Position>SETTINGS_SWITCH_TO_ACL_MESSAGE_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Everyone will be removed from this note and it will be deleted from all of their devices.</base>
+        <tran loc="nl">Niemand kan meer aan deze notitie werken en deze wordt verwijderd van alle apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error action </Description>
+      <Position>ERROR_ACTION_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> ok button title </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner action </Description>
+      <Position>STOP_SHARING_OK_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Message for remove last participant alert </Description>
+      <Position>Removing the only invited participant will stop sharing.</Position>
+      <TranslationSet>
+        <base loc="en">Removing the only invited participant will stop sharing.</base>
+        <tran loc="nl">Als je de enige uitgenodigde deelnemer verwijdert, wordt het delen beëindigd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> settings title </Description>
+      <Position>Anyone with the link</Position>
+      <TranslationSet>
+        <base loc="en">Anyone with the link</base>
+        <tran loc="nl">Iedereen die de link heeft</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document pickers unavailable button </Description>
+      <Position>Enable iCloud Drive</Position>
+      <TranslationSet>
+        <base loc="en">Enable iCloud Drive</base>
+        <tran loc="nl">Schakel iCloud Drive in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Rename in move to flow action </Description>
+      <Position>Rename</Position>
+      <TranslationSet>
+        <base loc="en">Rename</base>
+        <tran loc="nl">Wijzig naam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_MAID_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">This account has restrictions on the people you can share notes with.</base>
+        <tran loc="nl">Voor deze account gelden beperkingen aan de personen met wie je notities kunt delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> message change from public to acl </Description>
+      <Position>SETTINGS_SWITCH_TO_ACL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Only you will have access to “%@” until you invite people.</base>
+        <tran loc="nl">'%@' is alleen toegankelijk voor jou totdat je anderen uitnodigt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">Only people in the shared folder “%@” can use the link to access this item.</base>
+        <tran loc="nl">Alleen personen in de gedeelde map '%@' kunnen de link gebruiken voor toegang tot dit onderdeel.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker target selection title. </Description>
+      <Position>Choose a new location to move these items.</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to move these items.</base>
+        <tran loc="nl">Kies nieuwe locatie om deze onderdelen naar te verplaatsen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Additional actions for iCloud items </Description>
+      <Position>More</Position>
+      <TranslationSet>
+        <base loc="en">More</base>
+        <tran loc="nl">Meer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INSTRUCTIONS_PUBLIC</Position>
+      <TranslationSet>
+        <base loc="en">Go to the folder’s share options to change access or editing permissions.</base>
+        <tran loc="nl">Ga naar de deelopties van de map om de toegang of bewerkingsbevoegdheden te wijzigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to this spreadsheet and it will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen niet langer toegang tot deze spreadsheet en wordt deze verwijderd van iCloud Drive op al hun apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing uploading status text </Description>
+      <Position>PROGRESS_UPLOADING_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Uploading</base>
+        <tran loc="nl">Uploaden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for ACL </Description>
+      <Position>SETTINGS_DETAIL_ACL_RO_SUMMARY_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invite can view.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, kunnen dit bekijken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> icloud sharing settings header (parameter is always the owner's name) </Description>
+      <Position>SETTINGS_ONLY_PEOPLE_INVITED_CAN_ACCESS_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited will have access to this document.</base>
+        <tran loc="nl">Alleen degenen die %@ heeft uitgenodigd, hebben toegang tot dit document.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Upload error on doc picker file </Description>
+      <Position>Error</Position>
+      <TranslationSet>
+        <base loc="en">Error</base>
+        <tran loc="nl">Fout</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing cancel button in alerts </Description>
+      <Position>ALERT_CANCEL_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert button title
+   cancel button title
+   Cancel in move to flow action
+   Cancel showing Locations menu
+   Document picker moving shared file as owner action
+   iCloud File Action
+   Sync blocked warning action </Description>
+      <Position>Cancel</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant action </Description>
+      <Position>LEAVE_SHARE_CANCEL_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner action </Description>
+      <Position>STOP_SHARING_CANCEL_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UI value for modified date &lt; 1 minute </Description>
+      <Position>modified less than a minute ago</Position>
+      <TranslationSet>
+        <base loc="en">modified less than a minute ago</base>
+        <tran loc="nl">minder dan een minuut geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> message change from public to acl </Description>
+      <Position>SETTINGS_SWITCH_TO_ACL_MESSAGE_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Everyone will be removed from this spreadsheet and it will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Niemand kan meer aan deze spreadsheet werken en deze wordt verwijderd van iCloud Drive op alle apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for collab subshare (1st parameter is owner name, 2nd parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_COLLAB_PRIVATE_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited to the shared folder “%@” can use the link to access this spreadsheet.</base>
+        <tran loc="nl">Alleen personen die door %@ zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze spreadsheet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> icloud sharing settings header (parameter is always the owner's name) </Description>
+      <Position>SETTINGS_ONLY_OWNER_CAN_CHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Only %@ can invite people.</base>
+        <tran loc="nl">Alleen %@ kan anderen uitnodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_COULD_NOT_ADD_PARTICIPANTS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Add People</base>
+        <tran loc="nl">Contacten toevoegen mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> icloud sharing settings header (parameter is always the owner's name) </Description>
+      <Position>SETTINGS_ONLY_PEOPLE_INVITED_CAN_ACCESS_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited will have access to this spreadsheet.</base>
+        <tran loc="nl">Alleen degenen die %@ heeft uitgenodigd, hebben toegang tot deze spreadsheet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UI value for modified date years </Description>
+      <Position>modified %lu years ago</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu years ago</base>
+        <tran loc="nl">%lu jaar geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant (anyone else if there are participants) </Description>
+      <Position>PARTICIPANT_ANYONE_ELSE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Anyone else</base>
+        <tran loc="nl">Alle anderen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Doc picker disabled description Open mode </Description>
+      <Position>Doesn’t support opening files</Position>
+      <TranslationSet>
+        <base loc="en">Doesn’t support opening files</base>
+        <tran loc="nl">Bestanden openen niet ondersteund</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_PARTICIPANT_INFORMATION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This item is in a shared folder.</base>
+        <tran loc="nl">Dit onderdeel bevindt zich in een gedeelde map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Documents folder name </Description>
+      <Position>Documents</Position>
+      <TranslationSet>
+        <base loc="en">Documents</base>
+        <tran loc="nl">Documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Local documents container title </Description>
+      <Position>Local documents</Position>
+      <TranslationSet>
+        <base loc="en">Local documents</base>
+        <tran loc="nl">Lokale documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker failed to launch 3rd party doc picker error title w/ picker name </Description>
+      <Position>Failed to launch “%@”</Position>
+      <TranslationSet>
+        <base loc="en">Failed to launch “%@”</base>
+        <tran loc="nl">'%@' kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud File Action </Description>
+      <Position>Move...</Position>
+      <TranslationSet>
+        <base loc="en">Move…</base>
+        <tran loc="nl">Verplaats…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Bar button item for 3rd party activity Add Participant
+   button title for switch to acl </Description>
+      <Position>Continue</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="nl">Ga door</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant action </Description>
+      <Position>LEAVE_SHARE_CONTINUE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="nl">Ga door</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker moving shared file as recipient title </Description>
+      <Position>You cannot move this document</Position>
+      <TranslationSet>
+        <base loc="en">You cannot move this document</base>
+        <tran loc="nl">Je kunt dit document niet verplaatsen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UI value for modified date days </Description>
+      <Position>modified %lu days ago</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu days ago</base>
+        <tran loc="nl">%lu dagen geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant (orgAdmin user) </Description>
+      <Position>PARTICIPANT_ORG_ADMIN_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Your Organization</base>
+        <tran loc="nl">Jouw organisatie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action subtitle </Description>
+      <Position>SETTINGS_COPY_LINK_SUBTITLE_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited will be able to access your note.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, hebben toegang tot je notitie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant status </Description>
+      <Position>PARTICIPANT_STATUS_TEXT_WAITING</Position>
+      <TranslationSet>
+        <base loc="en">Invited</base>
+        <tran loc="nl">Uitgenodigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing copy link action item </Description>
+      <Position>SEND_LINK_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Send Link</base>
+        <tran loc="nl">Stuur link</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing title for resend if public </Description>
+      <Position>SHARE_RESEND_PUBLIC_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Send Link</base>
+        <tran loc="nl">Stuur link</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing scouldn't copy link as participant message </Description>
+      <Position>COULD_NOT_COPY_LINK_MESSAGE_TEXT_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, the document link couldn’t be copied.</base>
+        <tran loc="nl">Sorry, de link naar het document kan niet worden gekopieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Blocking download alert message; placeholders are file sizes </Description>
+      <Position>%@ of %@ downloaded</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ of %2$@ downloaded</base>
+        <tran loc="nl">%1$@ van %2$@ gedownload</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud File Action </Description>
+      <Position>Info</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="nl">Info</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing title for participant info </Description>
+      <Position>PARTICIPANT_INFO_TITLE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Info</base>
+        <tran loc="nl">Info</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing saving share after mail/message text </Description>
+      <Position>PROGRESS_FINISHING_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Finishing up…</base>
+        <tran loc="nl">Voltooien…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_TITLE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Stop Sharing?</base>
+        <tran loc="nl">Stoppen met delen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker failed to extend sandbox error action
+   Document picker failed to launch 3rd party doc picker error action
+   File copy failed in move to flow action </Description>
+      <Position>Dismiss</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="nl">Sluit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing on old Pages text </Description>
+      <Position>IWORK_LEGACY_TEXT_NUMBERS</Position>
+      <TranslationSet>
+        <base loc="en">To share this spreadsheet, get the latest version of Numbers from the App Store.</base>
+        <tran loc="nl">Om deze spreadsheet te delen, moet je de nieuwste versie van Numbers downloaden bij de App Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PUBLIC_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Only people in the shared folder “%@” can use the link to access this note.</base>
+        <tran loc="nl">Alleen personen in de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze notitie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing copy link action footer </Description>
+      <Position>COPY_LINK_FOOTER_ACL_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Anyone with the link will be able to access.</base>
+        <tran loc="nl">Iedereen die de link heeft, heeft toegang.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker selection popover button </Description>
+      <Position>Locations</Position>
+      <TranslationSet>
+        <base loc="en">Locations</base>
+        <tran loc="nl">Locaties</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing on old applications text </Description>
+      <Position>LEGACY_TEXT_OTHER</Position>
+      <TranslationSet>
+        <base loc="en">This application is too old and does not support this type of sharing. An update may be available.</base>
+        <tran loc="nl">Deze app is te oud en ondersteunt dit soort delen niet. Er is mogelijk een update beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing couldn't copy link as participant message </Description>
+      <Position>COULD_NOT_COPY_LINK_MESSAGE_TEXT_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, the folder link couldn’t be copied.</base>
+        <tran loc="nl">Sorry, de link naar de map kan niet worden gekopieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INFORMATION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">This item is in a shared folder. %@</base>
+        <tran loc="nl">Dit onderdeel bevindt zich in een gedeelde map. %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action subtitle </Description>
+      <Position>SETTINGS_COPY_LINK_SUBTITLE_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited will be able to access your document.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, hebben toegang tot je document.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document iCloud not migrated (refused or unknown) second paragraph </Description>
+      <Position>NO_ICLOUD_MIGRATION_TEXT2</Position>
+      <TranslationSet>
+        <base loc="en">Make edits on any device or any app, the most up-to-date version of your document is available everywhere.</base>
+        <tran loc="nl">Op welk apparaat of in welke app je een document ook wijzigt, de meest recente versie ervan is overal beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sync blocked warning message </Description>
+      <Position>Changes made to this document will not be available on any other devices. Open this document anyway?</Position>
+      <TranslationSet>
+        <base loc="en">Changes made to this document will not be available on any other devices. Open this document anyway?</base>
+        <tran loc="nl">Wijzigingen die je aanbrengt in dit document zijn niet beschikbaar op andere apparaten. Wil je dit document toch openen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud File Action </Description>
+      <Position>Share...</Position>
+      <TranslationSet>
+        <base loc="en">Share…</base>
+        <tran loc="nl">Deel…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INFORMATION_TEXT_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder is in a shared folder. %@</base>
+        <tran loc="nl">Dit map bevindt zich in een gedeelde map. %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for ACL </Description>
+      <Position>SETTINGS_DETAIL_ACL_RO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">People you invite can view.</base>
+        <tran loc="nl">Personen die je uitnodigt, kunnen dit bekijken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant message </Description>
+      <Position>LEAVE_SHARE_MESSAGE_TEXT_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Removing yourself from this shared document will delete the document from iCloud Drive on all your devices.</base>
+        <tran loc="nl">Als je jezelf verwijdert uit dit gedeelde document, wordt het verwijderd van iCloud Drive op al je apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing initial info label </Description>
+      <Position>SHARE_INITIAL_INFO_LABEL_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Add people to this folder and everyone will see the latest changes.</base>
+        <tran loc="nl">Voeg anderen toe aan deze map zodat iedereen de laatste wijzigingen kan zien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing initial info label </Description>
+      <Position>SHARE_INITIAL_INFO_LABEL_NOTES_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Add people to this folder and everyone will see the latest changes.</base>
+        <tran loc="nl">Voeg anderen toe aan deze map zodat iedereen de laatste wijzigingen kan zien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Remove participant from share </Description>
+      <Position>Remove</Position>
+      <TranslationSet>
+        <base loc="en">Remove</base>
+        <tran loc="nl">Verwijder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> THIS IS AN AUTOGENERATED FILE! DO NOT EDIT IT! RUN THE tools/generate_strings_file.sh SCRIPT INSTEAD! 
+ Document picker target selection items </Description>
+      <Position>%@ &amp; %lu more…</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ &amp; %2$lu more…</base>
+        <tran loc="nl">%1$@ en %2$lu andere…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Last line of status text in Folder Sharing header--sharing status </Description>
+      <Position>SHARED_BY_UNKNOWN_OTHER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Shared</base>
+        <tran loc="nl">Gedeeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PRIVATE</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited to the shared folder “%@” can use the link to access this item.</base>
+        <tran loc="nl">Alleen personen die door jou zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot dit onderdeel.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_TOO_MANY_PARTICIPANTS</Position>
+      <TranslationSet>
+        <base loc="en">New invitations can’t be sent. Reduce the number of people you’re inviting or have previously invited, then try again.</base>
+        <tran loc="nl">Er kunnen geen nieuwe uitnodigingen worden verstuurd. Verminder het aantal personen dat je wilt uitnodigen of eerder hebt uitgenodigd, en probeer het opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant message </Description>
+      <Position>LEAVE_SHARE_MESSAGE_TEXT_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Removing yourself from this shared spreadsheet will delete the document from iCloud Drive on all your devices.</base>
+        <tran loc="nl">Als je jezelf verwijdert uit deze gedeelde spreadsheet, wordt deze verwijderd van iCloud Drive op al je apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing network unreachable subtitle before sharing </Description>
+      <Position>NETWORK_UNREACHABLE_INITIAL_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection.</base>
+        <tran loc="nl">Controleer de internetverbinding.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing network unreachable subtitle after sharing </Description>
+      <Position>NETWORK_UNREACHABLE_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Check your Internet connection.</base>
+        <tran loc="nl">Controleer de internetverbinding.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Date sort segment in doc picker </Description>
+      <Position>Date[sort option]</Position>
+      <TranslationSet>
+        <base loc="en">Date</base>
+        <tran loc="nl">Datum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing on old iWork title </Description>
+      <Position>IWORK_LEGACY_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Time to Update</base>
+        <tran loc="nl">Tijd om bij te werken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for collab subshare (1st parameter is owner name, 2nd parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_COLLAB_PRIVATE_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited to the shared folder “%@” can use the link to access this note.</base>
+        <tran loc="nl">Alleen personen die door %@ zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze notitie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing action item </Description>
+      <Position>STOP_SHARING_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Stop Sharing</base>
+        <tran loc="nl">Stop delen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;Open my shared note:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;Open mijn gedeelde notitie:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_NOTES_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to this folder or any notes within it. It will be deleted from all of their devices.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen niet langer toegang tot deze map en notities in de map. De map wordt deze verwijderd van al hun apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Middle line of status text in Folder Sharing header--only appears for sub-items inside a folder share </Description>
+      <Position>SHARED_WITHIN_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Shared Folder: %@</base>
+        <tran loc="nl">Gedeelde map: %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Desktop folder name </Description>
+      <Position>Desktop</Position>
+      <TranslationSet>
+        <base loc="en">Desktop</base>
+        <tran loc="nl">Bureaublad</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing network unreachable title before sharing </Description>
+      <Position>NETWORK_UNREACHABLE_INITIAL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">You’re Offline</base>
+        <tran loc="nl">Je bent offline</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing network unreachable title after sharing </Description>
+      <Position>NETWORK_UNREACHABLE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">You’re Offline</base>
+        <tran loc="nl">Je bent offline</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant message </Description>
+      <Position>LEAVE_SHARE_MESSAGE_TEXT_CLOUDKIT</Position>
+      <TranslationSet>
+        <base loc="en">This will remove you from “%@”.</base>
+        <tran loc="nl">Hiermee word je uit '%@' verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing public permission </Description>
+      <Position>PUBLIC_PERMISSION_RO_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Can view</base>
+        <tran loc="nl">Kan bekijken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker moving shared file as owner text </Description>
+      <Position>This document is shared. Moving it to a different location will stop sharing the document. You can share again from the new location.</Position>
+      <TranslationSet>
+        <base loc="en">This document is shared. Moving it to a different location will stop sharing the document. You can share again from the new location.</base>
+        <tran loc="nl">Dit document wordt gedeeld. Als je het naar een andere locatie verplaatst, wordt het document niet langer gedeeld. Je kunt het opnieuw delen vanaf de nieuwe locatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action subtitle </Description>
+      <Position>SETTINGS_COPY_LINK_SUBTITLE</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited will have access.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, hebben toegang.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker share owner subtitle; unknown user (bug) </Description>
+      <Position>Shared by unknown user</Position>
+      <TranslationSet>
+        <base loc="en">Shared by unknown user</base>
+        <tran loc="nl">Gedeeld door onbekende gebruiker</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Debug File Action </Description>
+      <Position>Debug...</Position>
+      <TranslationSet>
+        <base loc="en">Debug…</base>
+        <tran loc="nl">Foutopsporing…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_INITIAL_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, this document can’t be shared right now.</base>
+        <tran loc="nl">Dit document kan nu niet worden gedeeld.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing on old Pages text </Description>
+      <Position>IWORK_LEGACY_TEXT_PAGES</Position>
+      <TranslationSet>
+        <base loc="en">To share this document, get the latest version of Pages from the App Store.</base>
+        <tran loc="nl">Om dit document te delen, moet je de nieuwste versie van Pages downloaden bij de App Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant status </Description>
+      <Position>PARTICIPANT_STATUS_TEXT_VIEW_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">View only</base>
+        <tran loc="nl">Alleen lezen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> settings title </Description>
+      <Position>View only</Position>
+      <TranslationSet>
+        <base loc="en">View only</base>
+        <tran loc="nl">Alleen lezen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing alert message when attempting to share a folder that contains unidentified shared items </Description>
+      <Position>ALERT_EXISTING_SHARED_ITEMS_MESSAGE_UNKNOWN_ITEMS</Position>
+      <TranslationSet>
+        <base loc="en">This folder already contains shared items. People who currently have access to these items may lose it.</base>
+        <tran loc="nl">Deze map bevat al gedeelde onderdelen. Het is mogelijk dat personen die momenteel toegang tot deze onderdelen hebben, deze toegang verliezen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PUBLIC_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Only people in the shared folder “%@” can use the link to access this spreadsheet.</base>
+        <tran loc="nl">Alleen personen in de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze spreadsheet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant title </Description>
+      <Position>LEAVE_SHARE_TITLE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Remove Yourself?</base>
+        <tran loc="nl">Wil je jezelf verwijderen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing initial info label </Description>
+      <Position>SHARE_INITIAL_INFO_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">Invite people to collaborate with you. Everyone will see the latest changes.</base>
+        <tran loc="nl">Nodig anderen uit om samen te werken. Iedereen ziet de laatste wijzigingen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> untitled CKShare item title </Description>
+      <Position>Untitled</Position>
+      <TranslationSet>
+        <base loc="en">Untitled</base>
+        <tran loc="nl">Naamloos</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing copy link action footer </Description>
+      <Position>COPY_LINK_FOOTER_PUBLIC_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited will be able to access.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, hebben toegang.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing couldn't copy link as participant title </Description>
+      <Position>COULD_NOT_COPY_LINK_TITLE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Copy Link</base>
+        <tran loc="nl">Link kan niet worden gekopieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_PARTICIPANT_INFORMATION_TEXT_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is in a shared folder.</base>
+        <tran loc="nl">Deze spreadsheet bevindt zich in een gedeelde map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document pickers unavailable MDM text first paragraph </Description>
+      <Position>NO_ICLOUD_MDM_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Access to iCloud documents has been disabled by a device management profile.</base>
+        <tran loc="nl">Toegang tot iCloud-documenten is uitgeschakeld door een apparaatbeheerprofiel.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing public permission </Description>
+      <Position>PUBLIC_PERMISSION_RW_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Can edit</base>
+        <tran loc="nl">Kan bewerken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing show shared folder action item </Description>
+      <Position>SHOW_FOLDER_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Show Shared Folder</base>
+        <tran loc="nl">Toon gedeelde map</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker moving shared file as owner action </Description>
+      <Position>Move and stop sharing</Position>
+      <TranslationSet>
+        <base loc="en">Move and stop sharing</base>
+        <tran loc="nl">Verplaats en stop met delen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker file with same name exists </Description>
+      <Position>This location already contains a file named %@</Position>
+      <TranslationSet>
+        <base loc="en">This location already contains a file named %@</base>
+        <tran loc="nl">Deze locatie bevat al een bestand met de naam %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PUBLIC_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Only people in the shared folder “%@” can use the link to access this document.</base>
+        <tran loc="nl">Alleen personen in de gedeelde map '%@' kunnen de link gebruiken voor toegang tot dit document.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing couldn't copy link as participant message </Description>
+      <Position>COULD_NOT_COPY_LINK_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, the item link couldn’t be copied.</base>
+        <tran loc="nl">Sorry, de link naar het onderdeel kan niet worden gekopieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INFORMATION_TEXT_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is in a shared folder. %@</base>
+        <tran loc="nl">Deze spreadsheet bevindt zich in een gedeelde map. %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;Open my shared presentation:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;Open mijn gedeelde presentatie:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INFORMATION_TEXT_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">This document is in a shared folder. %@</base>
+        <tran loc="nl">Dit document bevindt zich in een gedeelde map. %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for collab subshare (1st parameter is owner name, 2nd parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_COLLAB_PRIVATE</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited to the shared folder “%@” can use the link to access this item.</base>
+        <tran loc="nl">Alleen personen die door %@ zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot dit onderdeel.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_NETWORK_UNAVAILABLE</Position>
+      <TranslationSet>
+        <base loc="en">You can’t manage settings offline. There may be a problem with the server or network. Please try again later. </base>
+        <tran loc="nl">Je kunt instellingen niet offline beheren. Mogelijk is er een probleem met de server of het netwerk. Probeer het later opnieuw. </tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing alert message when attempting to share a folder with two shared items inside </Description>
+      <Position>ALERT_EXISTING_SHARED_ITEMS_MESSAGE_TWO_ITEMS</Position>
+      <TranslationSet>
+        <base loc="en">This folder already contains shared items “%1$@” and “%2$@”. People who currently have access to these items may lose it.</base>
+        <tran loc="nl">Deze map bevat al gedeelde onderdelen: '%1$@' en '%2$@'. Het is mogelijk dat personen die momenteel toegang tot deze onderdelen hebben, deze toegang verliezen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PRIVATE_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited to the shared folder “%@” can use the link to access this folder.</base>
+        <tran loc="nl">Alleen personen die door jou zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> icloud sharing settings header (parameter is always the owner's name) </Description>
+      <Position>SETTINGS_ONLY_PEOPLE_INVITED_CAN_ACCESS_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Only people %@ invited will have access to this note.</base>
+        <tran loc="nl">Alleen degenen die %@ heeft uitgenodigd, hebben toegang tot deze notitie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing initial info label </Description>
+      <Position>SHARE_INITIAL_INFO_LABEL_CLOUDKIT</Position>
+      <TranslationSet>
+        <base loc="en">Share this with others and everyone will see the latest changes.</base>
+        <tran loc="nl">Deel dit met anderen zodat iedereen de laatste wijzigingen ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document pickers icloud drive not available title in view </Description>
+      <Position>No Documents[unavailable view title]</Position>
+      <TranslationSet>
+        <base loc="en">No Documents</base>
+        <tran loc="nl">Geen documenten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error title </Description>
+      <Position>ERROR_TITLE_MAID</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Complete Request</base>
+        <tran loc="nl">Verzoek voltooien mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> settings title </Description>
+      <Position>Can make changes</Position>
+      <TranslationSet>
+        <base loc="en">Can make changes</base>
+        <tran loc="nl">Kan wijzigingen aanbrengen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Last line of status text in Folder Sharing header--sharing status </Description>
+      <Position>MODIFIED_BY_ME_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Modified by Me</base>
+        <tran loc="nl">Gewijzigd door mij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_MAID_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">This account has restrictions on the people you can share spreadsheets with.</base>
+        <tran loc="nl">Voor deze account gelden beperkingen aan de personen met wie je spreadsheets kunt delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PRIVATE_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited to the shared folder “%@” can use the link to access this note.</base>
+        <tran loc="nl">Alleen personen die door jou zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze notitie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Doc picker disabled description Move mode </Description>
+      <Position>Doesn’t support moving files</Position>
+      <TranslationSet>
+        <base loc="en">Doesn’t support moving files</base>
+        <tran loc="nl">Bestanden verplaatsen niet ondersteund</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail grey text below the brick 
+ Note "iCloud Drive" has a non-breaking space here due to &lt;rdar://problem/51957731&gt; UIMailActivity overrides "iCloud Drive" to be just "iCloud"
+ </Description>
+      <Position>MAIL_TEMPLATE_BRICK_ICLOUD_DRIVE</Position>
+      <TranslationSet>
+        <base loc="en">iCloud Drive</base>
+        <tran loc="nl">iCloud Drive</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action subtitle </Description>
+      <Position>SETTINGS_COPY_LINK_SUBTITLE_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited will be able to access your spreadsheet.</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt, hebben toegang tot je spreadsheet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_INFORMATION_TEXT_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">This note is in a shared folder. %@</base>
+        <tran loc="nl">Deze notitie bevindt zich in een gedeelde map. %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing share button in alerts </Description>
+      <Position>ALERT_SHARE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Share</base>
+        <tran loc="nl">Deel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PRIVATE_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited to the shared folder “%@” can use the link to access this document.</base>
+        <tran loc="nl">Alleen personen die door jou zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot dit document.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_PARTICIPANT_INFORMATION_TEXT_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">This note is in a shared folder.</base>
+        <tran loc="nl">Deze notitie bevindt zich in een gedeelde map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings action item </Description>
+      <Position>SETTINGS_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Share Options</base>
+        <tran loc="nl">Opties voor delen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing overview title, modern, pre- and post-share </Description>
+      <Position>SETTINGS_TITLE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Share Options</base>
+        <tran loc="nl">Opties voor delen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker failed to find file provider component error description </Description>
+      <Position>File provider component not found</Position>
+      <TranslationSet>
+        <base loc="en">File provider component not found</base>
+        <tran loc="nl">Component bestandsaanbieder niet gevonden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing alert title when attempting to share a folder with shared items inside </Description>
+      <Position>ALERT_EXISTING_SHARED_ITEMS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Sharing this folder will change who can read and edit all items within it.</base>
+        <tran loc="nl">Wanneer je deze map deelt, wordt gewijzigd wie alle onderdelen binnen de map kan lezen en bewerken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant (current user); parameter is localized name </Description>
+      <Position>PARTICIPANT_ME_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">%@ (Me)</base>
+        <tran loc="nl">%@ (ik)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Doc picker disabled description Export mode </Description>
+      <Position>Doesn’t support exporting files</Position>
+      <TranslationSet>
+        <base loc="en">Doesn’t support exporting files</base>
+        <tran loc="nl">Bestanden exporteren niet ondersteund</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker target selection items </Description>
+      <Position>%@, %@ &amp; %lu more…</Position>
+      <TranslationSet>
+        <base loc="en">%1$@, %2$@ &amp; %3$lu more…</base>
+        <tran loc="nl">%1$@, %2$@ en %3$lu andere…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY_SPREADSHEET</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;Open my shared spreadsheet:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;Open mijn gedeelde spreadsheet:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for public sharing </Description>
+      <Position>SETTINGS_DETAIL_PUBLIC_RW_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Anyone with the link can make changes.</base>
+        <tran loc="nl">Iedereen die de link heeft, kan wijzigingen aanbrengen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> status text mixed state </Description>
+      <Position>Some people can make changes, others can only view.</Position>
+      <TranslationSet>
+        <base loc="en">Some people can make changes, others can only view.</base>
+        <tran loc="nl">Sommigen kunnen iets wijzigen, anderen alleen bekijken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing on old Pages text </Description>
+      <Position>IWORK_LEGACY_TEXT_KEYNOTE</Position>
+      <TranslationSet>
+        <base loc="en">To share this presentation, get the latest version of Keynote from the App Store.</base>
+        <tran loc="nl">Om deze presentatie te delen, moet je de nieuwste versie van Keynote downloaden bij de App Store.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker file exists export message </Description>
+      <Position>Would you like to rename the file you are about to export?</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to rename the file you are about to export?</base>
+        <tran loc="nl">Wil je de naam wijzigen van het bestand dat je gaat exporteren?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> title change from public to acl </Description>
+      <Position>SETTINGS_SWITCH_TO_ACL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Change to Invite Only?</base>
+        <tran loc="nl">Veranderen in 'Alleen op uitnodiging'?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PUBLIC_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Only people in the shared folder “%@” can use the link to access this presentation.</base>
+        <tran loc="nl">Alleen personen in de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze presentatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> settings title </Description>
+      <Position>Only people you invite</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invite</base>
+        <tran loc="nl">Alleen personen die jij uitnodigt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Last line of status text in Folder Sharing header--sharing status </Description>
+      <Position>SHARED_BY_OTHER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Shared by %@</base>
+        <tran loc="nl">Gedeeld door %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker share owner subtitle; parameter is owner name </Description>
+      <Position>Shared by SomeoneElseThanMe</Position>
+      <TranslationSet>
+        <base loc="en">Shared by %@</base>
+        <tran loc="nl">Gedeeld door %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Blocking download alert </Description>
+      <Position>Downloading \"%@\"</Position>
+      <TranslationSet>
+        <base loc="en">Downloading a Copy of “%@”</base>
+        <tran loc="nl">Een kopie van '%@' downloaden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for ACL </Description>
+      <Position>SETTINGS_DETAIL_ACL_RW_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">People you invite can make changes.</base>
+        <tran loc="nl">Personen die je uitnodigt, kunnen iets wijzigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access info label for Pages </Description>
+      <Position>GIVE_ACCESS_INFO_LABEL_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you add will be able to access this document.</base>
+        <tran loc="nl">Alleen personen die jij toevoegt, hebben toegang tot dit document.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Doc picker disabled description Import mode </Description>
+      <Position>Doesn’t support importing files</Position>
+      <TranslationSet>
+        <base loc="en">Doesn’t support importing files</base>
+        <tran loc="nl">Bestanden importeren niet ondersteund</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud couldn't copy link as participant message </Description>
+      <Position>COULD_NOT_COPY_LINK_MESSAGE_TEXT_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, the presentation link couldn’t be copied.</base>
+        <tran loc="nl">Sorry, de link naar de presentatie kan niet worden gekopieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;Open my shared folder:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;Open mijn gedeelde map:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY_NOTES_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;Open my shared folder:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;Open mijn gedeelde map:&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to this folder or any items within it. It will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen niet langer toegang tot deze map en onderdelen in de map. De map wordt deze verwijderd van iCloud Drive op al hun apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document export filename text field placeholder </Description>
+      <Position>New filename</Position>
+      <TranslationSet>
+        <base loc="en">New filename</base>
+        <tran loc="nl">Nieuwe bestandsnaam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Tags sort segment in doc picker </Description>
+      <Position>Tags[sort option]</Position>
+      <TranslationSet>
+        <base loc="en">Tags</base>
+        <tran loc="nl">Trefwoorden</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing pre-invite info subtitle; localized owner name, owner display handle (email address or phone number) </Description>
+      <Position>SHARE_INVITE_SHARE_AS_OWNER_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ (%2$@)</base>
+        <tran loc="nl">%1$@ (%2$@)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant (everyone) </Description>
+      <Position>PARTICIPANT_EVERYONE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Everyone</base>
+        <tran loc="nl">Iedereen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access label To: </Description>
+      <Position>GIVE_ACCESS_TO_LABEL</Position>
+      <TranslationSet>
+        <base loc="en">To:</base>
+        <tran loc="nl">Aan:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_DOCUMENT</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to this document and it will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen niet langer toegang tot dit document en wordt het verwijderd van iCloud Drive op al hun apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for ACL </Description>
+      <Position>SETTINGS_DETAIL_ACL_RW_SUMMARY_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invite can make changes.</base>
+        <tran loc="nl">Alleen personen die je uitnodigt, kunnen iets wijzigingen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Doc picker number of items subtitle
+   Document picker target selection items </Description>
+      <Position>%lu items</Position>
+      <TranslationSet>
+        <base loc="en">%lu items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to this presentation and it will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen niet langer toegang tot deze presentatie en wordt deze verwijderd van iCloud Drive op al hun apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing give access info label for Keynote </Description>
+      <Position>GIVE_ACCESS_INFO_LABEL_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Only people you add will be able to access this presentation.</base>
+        <tran loc="nl">Alleen personen die jij toevoegt, hebben toegang tot deze presentatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Doc picker disabled description type mismatch </Description>
+      <Position>Doesn’t support the file type</Position>
+      <TranslationSet>
+        <base loc="en">Doesn’t support the file type</base>
+        <tran loc="nl">Bestandstype niet ondersteund</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker moving shared file as recipient text </Description>
+      <Position>This document has been shared to you. You cannot move it to a different location.</Position>
+      <TranslationSet>
+        <base loc="en">This document has been shared to you. You cannot move it to a different location.</base>
+        <tran loc="nl">Dit document wordt met je gedeeld. Je kunt het niet naar een andere locatie verplaatsen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> message change from public to acl </Description>
+      <Position>SETTINGS_SWITCH_TO_ACL_MESSAGE_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Everyone will be removed from this presentation and it will be deleted from iCloud Drive on all of their devices.</base>
+        <tran loc="nl">Niemand kan meer aan deze presentatie werken en deze wordt verwijderd van iCloud Drive op alle apparaten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> UI value for modified date months </Description>
+      <Position>modified %lu months ago</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu months ago</base>
+        <tran loc="nl">%lu maanden geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_COULD_NOT_ADD_PARTICIPANTS_WITH_SINGLE_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">“%@” is not valid. Please enter a valid email address or phone number, then try sharing again.</base>
+        <tran loc="nl">'%@' is niet geldig. Voer een geldig e‑mailadres of telefoonnummer in en probeer opnieuw om te delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing settings detail text for ACL </Description>
+      <Position>SETTINGS_DETAIL_ACL_MIXED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">People you invite can open.</base>
+        <tran loc="nl">Personen die je uitnodigt, kunnen dit openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker file exists move message </Description>
+      <Position>Would you like to rename the file you are about to move?</Position>
+      <TranslationSet>
+        <base loc="en">Would you like to rename the file you are about to move?</base>
+        <tran loc="nl">Wil je de naam wijzigen van het bestand dat je gaat verplaatsen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing action item </Description>
+      <Position>LEAVE_SHARE_ACTION_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Remove Me</base>
+        <tran loc="nl">Verwijder mij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> copy link action for owner subshare (parameter is always the folder name) </Description>
+      <Position>SETTINGS_COPY_LINK_SUBFOLDERTITLE_PRIVATE_PRESENTATION</Position>
+      <TranslationSet>
+        <base loc="en">Only people you invited to the shared folder “%@” can use the link to access this presentation.</base>
+        <tran loc="nl">Alleen personen die door jou zijn uitgenodigd voor de gedeelde map '%@' kunnen de link gebruiken voor toegang tot deze presentatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="nl">Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing error message </Description>
+      <Position>ERROR_MESSAGE_INITIAL_DEFAULT</Position>
+      <TranslationSet>
+        <base loc="en">Please try again later.</base>
+        <tran loc="nl">Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Share invitation mail body template </Description>
+      <Position>MAIL_TEMPLATE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</base>
+        <tran loc="nl">&lt;br&gt;&lt;br&gt;#LINK_FRAGMENT#</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> participant info title </Description>
+      <Position>Phone number</Position>
+      <TranslationSet>
+        <base loc="en">Phone number</base>
+        <tran loc="nl">Telefoonnummer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker moving shared file as owner title </Description>
+      <Position>Moving this document will unshare it</Position>
+      <TranslationSet>
+        <base loc="en">Moving this document will unshare it</base>
+        <tran loc="nl">Als je dit document verplaatst, wordt het niet langer gedeeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to “%@”.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen geen toegang meer tot '%@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing stop sharing as owner title </Description>
+      <Position>STOP_SHARING_MESSAGE_TEXT_CLOUDKIT</Position>
+      <TranslationSet>
+        <base loc="en">If you stop sharing, other people will no longer have access to “%@”.</base>
+        <tran loc="nl">Als je stopt met delen, hebben anderen geen toegang meer tot '%@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Document picker failed to extend sandbox error title </Description>
+      <Position>Failed to make file available</Position>
+      <TranslationSet>
+        <base loc="en">Failed to make file available</base>
+        <tran loc="nl">Bestand kan niet beschikbaar worden gemaakt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing overview title for back button, modern, post-share </Description>
+      <Position>POST_SHARE_LIST_TITLE_BACK_BUTTON_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">People</base>
+        <tran loc="nl">Personen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing overview title, modern, post-share </Description>
+      <Position>POST_SHARE_LIST_TITLE_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">People</base>
+        <tran loc="nl">Personen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sync blocked warning action </Description>
+      <Position>Open</Position>
+      <TranslationSet>
+        <base loc="en">Open</base>
+        <tran loc="nl">Open</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing leave share as participant message </Description>
+      <Position>LEAVE_SHARE_MESSAGE_TEXT_NOTE</Position>
+      <TranslationSet>
+        <base loc="en">Removing yourself from this shared note will delete the note from all your devices.</base>
+        <tran loc="nl">Als je jezelf verwijdert uit deze gedeelde notitie, wordt deze van al je apparaten verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing information text for document within a shared folder hierarchy </Description>
+      <Position>NON_ROOT_ITEM_PARTICIPANT_INFORMATION_TEXT_FOLDER</Position>
+      <TranslationSet>
+        <base loc="en">This folder is in a shared folder.</base>
+        <tran loc="nl">Deze map bevindt zich in een gedeelde map.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing App Store button in alerts </Description>
+      <Position>ALERT_APPSTORE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">App Store</base>
+        <tran loc="nl">App Store</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> iCloud sharing participant without mail address </Description>
+      <Position>Unknown participant</Position>
+      <TranslationSet>
+        <base loc="en">Unknown participant</base>
+        <tran loc="nl">Onbekende deelnemer</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocsUI/System/Library/PrivateFrameworks/CloudDocsUI.framework/PlugIns/com.apple.CloudDocsUI.AddToiCloudDrive.appex/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> Extension's name </Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Save to Files</base>
+        <tran loc="nl">Bewaar in Bestanden</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudDocsUI/System/Library/PrivateFrameworks/CloudDocsUI.framework/English.lproj/Localizable.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/NAV_TITLE_TEXT:dict/NSStringVariableWidthRuleType:dict/1:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Share via iCloud</base>
+        <tran loc="nl">Deel via iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu minutes ago:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu minutes ago</base>
+        <tran loc="nl">%lu minuten geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu minutes ago:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu minutes ago</base>
+        <tran loc="nl">%lu minuten geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Choose a location to add these items.:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Choose a location to add these items.</base>
+        <tran loc="nl">Kies locatie om deze onderdelen aan toe te voegen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu days ago:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified one day ago</base>
+        <tran loc="nl">een dag geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/TITLE_CREATE_SHARE_TEXT:dict/NSStringVariableWidthRuleType:dict/1:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Preparing…</base>
+        <tran loc="nl">Voorbereiden…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu hours ago:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu hours ago</base>
+        <tran loc="nl">%lu uur geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu hours ago:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu hours ago</base>
+        <tran loc="nl">%lu uur geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu years ago:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified one year ago</base>
+        <tran loc="nl">een jaar geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/GIVE_ACCESS_PLACEHOLDER:dict/NSStringVariableWidthRuleType:dict/1:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Emails or phone numbers</base>
+        <tran loc="nl">E‑mailadres of telefoonnummer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Choose a new location to move these items.:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to move these items.</base>
+        <tran loc="nl">Kies nieuwe locatie om deze onderdelen naar te verplaatsen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu years ago:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu years ago</base>
+        <tran loc="nl">%lu jaar geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu years ago:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu years ago</base>
+        <tran loc="nl">%lu jaar geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Choose a new location to move these items.:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Choose a new location to move this item.</base>
+        <tran loc="nl">Kies nieuwe locatie om dit onderdeel naar te verplaatsen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu days ago:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu days ago</base>
+        <tran loc="nl">%lu dagen geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu days ago:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu days ago</base>
+        <tran loc="nl">%lu dagen geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu item</base>
+        <tran loc="nl">%lu onderdeel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu hours ago:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified an hour ago</base>
+        <tran loc="nl">een uur geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu minutes ago:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified a minute ago</base>
+        <tran loc="nl">een minuut geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Choose a location to add these items.:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Choose a location to add this item.</base>
+        <tran loc="nl">Kies locatie om dit onderdeel aan toe te voegen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/NAV_TITLE_TEXT_IWORK:dict/NSStringVariableWidthRuleType:dict/1:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">Collaborate</base>
+        <tran loc="nl">Werk samen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Choose a location to add these items.:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/Choose a new location to move these items.:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu days ago:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu hours ago:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu minutes ago:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu months ago:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu years ago:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%#@items@</base>
+        <tran loc="nl">%#@items@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/%lu items:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%lu items</base>
+        <tran loc="nl">%lu onderdelen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu months ago:dict/items:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu months ago</base>
+        <tran loc="nl">%lu maanden geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu months ago:dict/items:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified %lu months ago</base>
+        <tran loc="nl">%lu maanden geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/modified %lu months ago:dict/items:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">modified one month ago</base>
+        <tran loc="nl">een maand geleden gewijzigd</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

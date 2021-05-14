@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>ExchangeSync</ProjName>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PrivateFrameworks/ExchangeSync.framework/English.lproj/DataAccess.strings</Filepath>
+    <TextItem>
+      <Description> Authentication needed for a specific calendar that already has a name </Description>
+      <Position>AUTH_NEEDED_SPECIFIC_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Calendar “%@” at %@ requires authentication</base>
+        <tran loc="nl">Voor agenda '%@' op %@ is authenticatie vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Used to send a friendly name to Exchange servers, such as White iPhone 4S (we get the second part of that string from
+ Graphics Services' "marketing name" </Description>
+      <Position>WHITE</Position>
+      <TranslationSet>
+        <base loc="en">White</base>
+        <tran loc="nl">Wit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Declining (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_DECLINED</Position>
+      <TranslationSet>
+        <base loc="en">Declined:</base>
+        <tran loc="nl">Afgeslagen:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the automatically created holiday calendar account </Description>
+      <Position>HOLIDAY_CALENDAR_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Holiday Calendar</base>
+        <tran loc="nl">Feestdagenagenda</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SUBSCRIBE</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe</base>
+        <tran loc="nl">Abonneer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_ALERT_MESSAGE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Could not subscribe to the calendar “%@” from “%@”.</base>
+        <tran loc="nl">Abonneren op de agenda '%@' van '%@' is niet mogelijk.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ELLIPSIS</Position>
+      <TranslationSet>
+        <base loc="en">…</base>
+        <tran loc="nl">…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when a server certificate is issued by an unknown root </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED_WITH_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">The certificate from “%@” for account “%@” could not be verified.</base>
+        <tran loc="nl">Het certificaat van '%@' voor account '%@' kan niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Tentatively Accepting (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_TENTATIVE</Position>
+      <TranslationSet>
+        <base loc="en">Tentative:</base>
+        <tran loc="nl">Misschien:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when a server certificate is issued by an unknown root for an account with no description </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED</Position>
+      <TranslationSet>
+        <base loc="en">The certificate from “%@” could not be verified.</base>
+        <tran loc="nl">Het certificaat van '%@' kan niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to accept an unverified server certificate </Description>
+      <Position>SERVER_CERTIFICATE_ACCEPT</Position>
+      <TranslationSet>
+        <base loc="en">Accept</base>
+        <tran loc="nl">Accepteer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Alert body when an autodiscovery server has an unverified certificate </Description>
+      <Position>SERVER_CERTIFICATE_UNVERIFIED_AUTODISCOVERY</Position>
+      <TranslationSet>
+        <base loc="en">While automatically discovering account settings, the certificate from “%@” could not be verified.</base>
+        <tran loc="nl">Tijdens automatische detectie van accountinstellingen kon het certificaat van '%@' niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WHERE_TO_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">The Calendar “%@” has been added</base>
+        <tran loc="nl">De agenda '%@' is toegevoegd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the invalid client certificate dialog </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Authenticate</base>
+        <tran loc="nl">Authenticatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DA_POLICY_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Policy Requirement</base>
+        <tran loc="nl">Beleidsvereisten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the missing password dialog </Description>
+      <Position>MISSING_PASSWORD_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Password Required</base>
+        <tran loc="nl">Wachtwoord vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="nl">Gereed</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_CARDDAV</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the CardDAV account “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de CardDAV-account '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_LDAP</Position>
+      <TranslationSet>
+        <base loc="en">An identical LDAP account already exists.</base>
+        <tran loc="nl">Er bestaat al een identieke LDAP-account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_SUBCAL</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Subscribed Calendar “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de abonnementagenda '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_ALERT_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Subscribe</base>
+        <tran loc="nl">Abonneren niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Header of the alert presented when the exchange server certificate could not be verified  </Description>
+      <Position>SERVER_CERTIFICATE_ERROR_ALERT_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Verify Certificate</base>
+        <tran loc="nl">Certificaat verifiëren niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Outlook account “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de Outlook-account '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Meeting response server failure dialog </Description>
+      <Position>MEETING_RESPONSE_FAILURE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendar Invitation</base>
+        <tran loc="nl">Agenda-uitnodiging</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> For invite emails: subject prefix for Accepting (we should match Outlook and friends on these localizations) </Description>
+      <Position>MEETING_RESPONSE_ACCEPTED</Position>
+      <TranslationSet>
+        <base loc="en">Accepted:</base>
+        <tran loc="nl">Geaccepteerd:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Acknowledgement of alert </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to accept a password </Description>
+      <Position>PASSWORD_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_CARDDAV</Position>
+      <TranslationSet>
+        <base loc="en">An identical CardDAV account already exists.</base>
+        <tran loc="nl">Er bestaat al een identieke CardDAV-account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEETING_RESPONSE_FAILURE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your response to the invitation cannot be sent.</base>
+        <tran loc="nl">Je antwoord op de uitnodiging kan niet worden verstuurd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Button titles </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to cancel password entry </Description>
+      <Position>PASSWORD_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the button to cancel an unverified server certificate </Description>
+      <Position>SERVER_CERTIFICATE_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>AUTH_NEEDED_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Calendar at %@ requires authentication</base>
+        <tran loc="nl">Voor agenda op %@ is authenticatie vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>BLACK</Position>
+      <TranslationSet>
+        <base loc="en">Black</base>
+        <tran loc="nl">Zwart</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Create Account</base>
+        <tran loc="nl">Account kan niet worden aangemaakt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> These are passed into ManagedConfiguration.  The first is put into a string like:
+"the account “%@” can't do something until you set a passcode".  Here's a sample expansion:
+Policy Requirement
+The account “MyExchangeAccount” can't do something until you set a passcode
+[Disable]
+</Description>
+      <Position>DA_POLICY_COMPLIANCE_WARNING</Position>
+      <TranslationSet>
+        <base loc="en">The account “%@” cannot receive new data until a new passcode is set.</base>
+        <tran loc="nl">De account '%@' kan pas weer nieuwe gegevens ontvangen wanneer er een nieuwe toegangscode is ingesteld.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description>*** Subscribed Calendar Setup 
+ Alert Strings </Description>
+      <Position>VALIDATED_ALERT_TITLE_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">Subscribe to the calendar “%@”?</base>
+        <tran loc="nl">Abonneren op de agenda '%@'?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VIEW_EVENTS</Position>
+      <TranslationSet>
+        <base loc="en">View Events</base>
+        <tran loc="nl">Bekijk activiteiten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EDIT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Edit Settings</base>
+        <tran loc="nl">Wijzig instellingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Content of the invalid password dialog </Description>
+      <Position>INVALID_PASSWORD_BODY_EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the Exchange account “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de Exchange-account '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main tasks store </Description>
+      <Position>AUTOGENERATED_MAIN_TASKS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Tasks</base>
+        <tran loc="nl">Taken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_LDAP</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the LDAP account “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de LDAP-account '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of the invalid password dialog </Description>
+      <Position>INVALID_PASSWORD_HEADER</Position>
+      <TranslationSet>
+        <base loc="en">Password Incorrect</base>
+        <tran loc="nl">Wachtwoord onjuist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_CALDAV</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the CalDAV account “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de CalDAV-account '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DA_POLICY_FAILURE_BUTTON_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Disable</base>
+        <tran loc="nl">Schakel uit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text inside the password entry field </Description>
+      <Position>INVALID_PASSWORD_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="nl">Wachtwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">An identical Outlook account already exists.</base>
+        <tran loc="nl">Er bestaat al een identieke Outlook-account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MEETING_RESPONSE_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">RE:</base>
+        <tran loc="nl">Antw.:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">An identical Exchange account already exists.</base>
+        <tran loc="nl">Er bestaat al een identieke Exchange-account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main notes store </Description>
+      <Position>AUTOGENERATED_MAIN_NOTES_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Notes</base>
+        <tran loc="nl">Notities</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Text inside the username entry field </Description>
+      <Position>INVALID_USERNAME_PLACEHOLDER</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="nl">Gebruikersnaam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main event calendar </Description>
+      <Position>AUTOGENERATED_MAIN_EVENT_CALENDAR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Calendar</base>
+        <tran loc="nl">Agenda</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_SUBCAL</Position>
+      <TranslationSet>
+        <base loc="en">An identical Subscribed Calendar account already exists.</base>
+        <tran loc="nl">Deze account heeft al een abonnement op deze agenda.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Title of autogenerated main contacts store </Description>
+      <Position>AUTOGENERATED_MAIN_CONTACTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Contacts</base>
+        <tran loc="nl">Contacten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_UNIQUE_CONSTRAINT_FAILED_BODY_FORMAT_CALDAV</Position>
+      <TranslationSet>
+        <base loc="en">An identical CalDAV account already exists.</base>
+        <tran loc="nl">Er bestaat al een identieke CalDAV-account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Content of the invalid client certificate dialog </Description>
+      <Position>INVALID_CLIENT_CERTIFICATE_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Cannot authenticate to the server “%@” because the certificate is not valid.</base>
+        <tran loc="nl">Authenticatie voor de server '%@' is niet mogelijk omdat het certificaat niet geldig is.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_PASSWORD_BODY_GENERIC</Position>
+      <TranslationSet>
+        <base loc="en">Enter the password for the account “%@”</base>
+        <tran loc="nl">Voer het wachtwoord in voor de account '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASAccountSetup~iphone.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Use a custom away message for mail received from addresses external to your organization.</base>
+        <tran loc="nl">Gebruik een aangepast afwezigheidsbericht voor e‑mail die afkomstig is van adressen buiten je organisatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Email Address</base>
+        <tran loc="nl">Ongeldig e‑mailadres</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your email address will be sent to Microsoft to discover your Exchange account information.</base>
+        <tran loc="nl">Je e-mailadres wordt naar Microsoft gestuurd om je Exchange-accountinformatie op te zoeken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="nl">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_HOTMAIL_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="nl">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account configuration </Description>
+      <Position>ACCOUNT_NOT_AUTHENTICATED</Position>
+      <TranslationSet>
+        <base loc="en">Account not authenticated</base>
+        <tran loc="nl">Account niet gecontroleerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Mail Days to Sync </Description>
+      <Position>MAIL_PAST_DAYS_STRING</Position>
+      <TranslationSet>
+        <base loc="en">Mail Days to Sync</base>
+        <tran loc="nl">Synchr. e‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Oof Auto Reply</Description>
+      <Position>OOF_AUTO_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="nl">Automatisch antwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="nl">Automatisch antwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Profile account description </Description>
+      <Position>PROFILE_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">These settings are installed by the profile “%@”</base>
+        <tran loc="nl">Deze instellingen zijn geïnstalleerd door het profiel '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2_WEEKS</Position>
+      <TranslationSet>
+        <base loc="en">2 Weeks</base>
+        <tran loc="nl">2 weken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AutoDiscover V2 Microsoft Privacy </Description>
+      <Position>SIGN_IN</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="nl">Log in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail until %@.</base>
+        <tran loc="nl">Ik lees mijn e‑mail niet tot %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3_DAYS</Position>
+      <TranslationSet>
+        <base loc="en">3 Days</base>
+        <tran loc="nl">3 dagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MANUAL_ACCOUNT_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Configure Manually</base>
+        <tran loc="nl">Configureer handmatig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">server.example.com</base>
+        <tran loc="nl">server.example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="nl">Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_WEEK</Position>
+      <TranslationSet>
+        <base loc="en">1 Week</base>
+        <tran loc="nl">1 week</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">End Date</base>
+        <tran loc="nl">Einddatum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_DAY</Position>
+      <TranslationSet>
+        <base loc="en">1 Day</base>
+        <tran loc="nl">1 dag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Exchange Account</base>
+        <tran loc="nl">Mijn Exchange-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONT_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Sync</base>
+        <tran loc="nl">Synchroniseer niet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_LIMIT</Position>
+      <TranslationSet>
+        <base loc="en">No Limit</base>
+        <tran loc="nl">Geen limiet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">email@example.com</base>
+        <tran loc="nl">email@example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Edit </Description>
+      <Position>EDIT</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="nl">Wijzig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_SSL</Position>
+      <TranslationSet>
+        <base loc="en">Use SSL</base>
+        <tran loc="nl">Gebruik SSL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Sync</base>
+        <tran loc="nl">Synchr.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_WARNING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Adding an Exchange account will allow the Exchange administrator to remotely manage your device. The administrator can add/remove restrictions and remotely erase your device.</base>
+        <tran loc="nl">Als je een Exchange-account toevoegt, kan de Exchange-beheerder je apparaat op afstand beheren. De beheerder kan beperkingen toevoegen of verwijderen en je apparaat op afstand wissen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sheet title when saving account even though validation failed </Description>
+      <Position>CONFIRM_SAVE_ACCOUNT_ANYWAYS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This account may not be able to send or receive emails. Are you sure you want to continue?</base>
+        <tran loc="nl">Met deze account kun je mogelijk geen e‑mail versturen of ontvangen. Weet je zeker dat je wilt doorgaan?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="nl">Vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="nl">Vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Outlook Account</base>
+        <tran loc="nl">Outlook-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">Server</base>
+        <tran loc="nl">Server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_CONTACTS_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">Contacts Only</base>
+        <tran loc="nl">Alleen contacten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="nl">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="nl">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_NO_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="nl">Geen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Email</base>
+        <tran loc="nl">E‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_ID_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Device ID</base>
+        <tran loc="nl">Exchange-apparaat-ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_INTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Away Message</base>
+        <tran loc="nl">Afwezigheidsbericht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_LOADING_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="nl">Laden…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Enter a valid email address for this account.</base>
+        <tran loc="nl">Voer een geldig e‑mailadres voor deze account in.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGS_VISIBLE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="nl">Diagnose</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">External Away Message</base>
+        <tran loc="nl">Extern afwezigheidsbericht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_MONTH</Position>
+      <TranslationSet>
+        <base loc="en">1 Month</base>
+        <tran loc="nl">1 maand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Outlook Account</base>
+        <tran loc="nl">Mijn Outlook-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="nl">Beschrijving</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_AUDIENCE</Position>
+      <TranslationSet>
+        <base loc="en">Respond to Mail from</base>
+        <tran loc="nl">Reageer op e‑mail van</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="nl">Wachtwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_ON_STATE</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="nl">Aan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Account</base>
+        <tran loc="nl">Exchange-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account information is being verified. Argument is the account type </Description>
+      <Position>ACCOUNT_VERIFICATION_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Unable to verify account information.</base>
+        <tran loc="nl">Accountgegevens verifiëren niet mogelijk.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_EVERYONE</Position>
+      <TranslationSet>
+        <base loc="en">Everyone</base>
+        <tran loc="nl">Iedereen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">External Accounts</base>
+        <tran loc="nl">Externe accounts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USERNAME</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="nl">Gebruikersnaam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONAL</Position>
+      <TranslationSet>
+        <base loc="en">Optional</base>
+        <tran loc="nl">Optioneel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOMAIN</Position>
+      <TranslationSet>
+        <base loc="en">Domain</base>
+        <tran loc="nl">Domein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REENTER_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Re-enter Password</base>
+        <tran loc="nl">Voer wachtwoord opnieuw in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE_WITHOUT_DATE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail.</base>
+        <tran loc="nl">Ik lees mijn e‑mail niet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_OFF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="nl">Uit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Next </Description>
+      <Position>NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="nl">Volgende</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to your “%@” Exchange account using Microsoft?</base>
+        <tran loc="nl">Wil je via Microsoft inloggen bij je Exchange-account '%@'?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="nl">Bewaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Save </Description>
+      <Position>SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="nl">Bewaar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASHotmailAccountSetup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>NEW_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="nl">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="nl">Vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Email</base>
+        <tran loc="nl">E‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_HOTMAIL_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">email@outlook.com</base>
+        <tran loc="nl">email@outlook.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Outlook Account</base>
+        <tran loc="nl">Mijn Outlook-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="nl">Beschrijving</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="nl">Wachtwoord</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASAccountSetup~ipad.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Use a custom away message for mail received from addresses external to your organization.</base>
+        <tran loc="nl">Gebruik een aangepast afwezigheidsbericht voor e‑mail die afkomstig is van adressen buiten je organisatie.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Invalid Email Address</base>
+        <tran loc="nl">Ongeldig e‑mailadres</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Your email address will be sent to Microsoft to discover your Exchange account information.</base>
+        <tran loc="nl">Je e-mailadres wordt naar Microsoft gestuurd om je Exchange-accountinformatie op te zoeken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="nl">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_HOTMAIL_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Outlook</base>
+        <tran loc="nl">Outlook</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account configuration </Description>
+      <Position>ACCOUNT_NOT_AUTHENTICATED</Position>
+      <TranslationSet>
+        <base loc="en">Account not authenticated</base>
+        <tran loc="nl">Account niet gecontroleerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Mail Days to Sync </Description>
+      <Position>MAIL_PAST_DAYS_STRING</Position>
+      <TranslationSet>
+        <base loc="en">Mail Days to Sync</base>
+        <tran loc="nl">Synchr. e‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Oof Auto Reply</Description>
+      <Position>OOF_AUTO_REPLY</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="nl">Automatisch antwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Automatic Reply</base>
+        <tran loc="nl">Automatisch antwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Profile account description </Description>
+      <Position>PROFILE_ACCOUNT_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">These settings are installed by the profile “%@”</base>
+        <tran loc="nl">Deze instellingen zijn geïnstalleerd door het profiel '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>2_WEEKS</Position>
+      <TranslationSet>
+        <base loc="en">2 Weeks</base>
+        <tran loc="nl">2 weken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> AutoDiscover V2 Microsoft Privacy </Description>
+      <Position>SIGN_IN</Position>
+      <TranslationSet>
+        <base loc="en">Sign In</base>
+        <tran loc="nl">Log in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail until %@.</base>
+        <tran loc="nl">Ik lees mijn e‑mail niet tot %@.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>3_DAYS</Position>
+      <TranslationSet>
+        <base loc="en">3 Days</base>
+        <tran loc="nl">3 dagen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MANUAL_ACCOUNT_SETUP</Position>
+      <TranslationSet>
+        <base loc="en">Configure Manually</base>
+        <tran loc="nl">Configureer handmatig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">server.example.com</base>
+        <tran loc="nl">server.example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Account</base>
+        <tran loc="nl">Account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_WEEK</Position>
+      <TranslationSet>
+        <base loc="en">1 Week</base>
+        <tran loc="nl">1 week</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">End Date</base>
+        <tran loc="nl">Einddatum</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_DAY</Position>
+      <TranslationSet>
+        <base loc="en">1 Day</base>
+        <tran loc="nl">1 dag</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Exchange Account</base>
+        <tran loc="nl">Mijn Exchange-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONT_SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Don’t Sync</base>
+        <tran loc="nl">Synchroniseer niet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> OK </Description>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO_LIMIT</Position>
+      <TranslationSet>
+        <base loc="en">No Limit</base>
+        <tran loc="nl">Geen limiet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXAMPLE_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">email@example.com</base>
+        <tran loc="nl">email@example.com</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Edit </Description>
+      <Position>EDIT</Position>
+      <TranslationSet>
+        <base loc="en">Edit</base>
+        <tran loc="nl">Wijzig</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_SSL</Position>
+      <TranslationSet>
+        <base loc="en">Use SSL</base>
+        <tran loc="nl">Gebruik SSL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SYNC</Position>
+      <TranslationSet>
+        <base loc="en">Sync</base>
+        <tran loc="nl">Synchr.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Cancel </Description>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_WARNING_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Adding an Exchange account will allow the Exchange administrator to remotely manage your device. The administrator can add/remove restrictions and remotely erase your device.</base>
+        <tran loc="nl">Als je een Exchange-account toevoegt, kan de Exchange-beheerder je apparaat op afstand beheren. De beheerder kan beperkingen toevoegen of verwijderen en je apparaat op afstand wissen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Sheet title when saving account even though validation failed </Description>
+      <Position>CONFIRM_SAVE_ACCOUNT_ANYWAYS_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">This account may not be able to send or receive emails. Are you sure you want to continue?</base>
+        <tran loc="nl">Met deze account kun je mogelijk geen e‑mail versturen of ontvangen. Weet je zeker dat je wilt doorgaan?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="nl">Vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REQUIRED_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Required</base>
+        <tran loc="nl">Vereist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Outlook Account</base>
+        <tran loc="nl">Outlook-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_HOST</Position>
+      <TranslationSet>
+        <base loc="en">Server</base>
+        <tran loc="nl">Server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_CONTACTS_ONLY</Position>
+      <TranslationSet>
+        <base loc="en">Contacts Only</base>
+        <tran loc="nl">Alleen contacten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="nl">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NEW_ACCOUNT_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Exchange</base>
+        <tran loc="nl">Exchange</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_NO_END_DATE</Position>
+      <TranslationSet>
+        <base loc="en">None</base>
+        <tran loc="nl">Geen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Email</base>
+        <tran loc="nl">E‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DEVICE_ID_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Device ID</base>
+        <tran loc="nl">Exchange-apparaat-ID</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_INTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Away Message</base>
+        <tran loc="nl">Afwezigheidsbericht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_LOADING_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Loading…</base>
+        <tran loc="nl">Laden…</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>INVALID_EMAIL_ADDRESS_BODY</Position>
+      <TranslationSet>
+        <base loc="en">Enter a valid email address for this account.</base>
+        <tran loc="nl">Voer een geldig e‑mailadres voor deze account in.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DIAGS_VISIBLE</Position>
+      <TranslationSet>
+        <base loc="en">Diagnostics</base>
+        <tran loc="nl">Diagnose</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">External Away Message</base>
+        <tran loc="nl">Extern afwezigheidsbericht</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>1_MONTH</Position>
+      <TranslationSet>
+        <base loc="en">1 Month</base>
+        <tran loc="nl">1 maand</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">My Outlook Account</base>
+        <tran loc="nl">Mijn Outlook-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DESCRIPTION</Position>
+      <TranslationSet>
+        <base loc="en">Description</base>
+        <tran loc="nl">Beschrijving</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_MESSAGE_AUDIENCE</Position>
+      <TranslationSet>
+        <base loc="en">Respond to Mail from</base>
+        <tran loc="nl">Reageer op e‑mail van</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Password</base>
+        <tran loc="nl">Wachtwoord</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_ON_STATE</Position>
+      <TranslationSet>
+        <base loc="en">On</base>
+        <tran loc="nl">Aan</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EXCHANGE_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">Exchange Account</base>
+        <tran loc="nl">Exchange-account</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Account information is being verified. Argument is the account type </Description>
+      <Position>ACCOUNT_VERIFICATION_FAILED</Position>
+      <TranslationSet>
+        <base loc="en">Unable to verify account information.</base>
+        <tran loc="nl">Accountgegevens verifiëren niet mogelijk.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_EVERYONE</Position>
+      <TranslationSet>
+        <base loc="en">Everyone</base>
+        <tran loc="nl">Iedereen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_EXTERNAL_ACCOUNT</Position>
+      <TranslationSet>
+        <base loc="en">External Accounts</base>
+        <tran loc="nl">Externe accounts</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USERNAME</Position>
+      <TranslationSet>
+        <base loc="en">Username</base>
+        <tran loc="nl">Gebruikersnaam</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OPTIONAL</Position>
+      <TranslationSet>
+        <base loc="en">Optional</base>
+        <tran loc="nl">Optioneel</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DOMAIN</Position>
+      <TranslationSet>
+        <base loc="en">Domain</base>
+        <tran loc="nl">Domein</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>REENTER_PASSWORD</Position>
+      <TranslationSet>
+        <base loc="en">Re-enter Password</base>
+        <tran loc="nl">Voer wachtwoord opnieuw in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_DEFAULT_AUTO_REPLY_MESSAGE_WITHOUT_DATE</Position>
+      <TranslationSet>
+        <base loc="en">I am away from my mail.</base>
+        <tran loc="nl">Ik lees mijn e‑mail niet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OOF_OFF_STATE</Position>
+      <TranslationSet>
+        <base loc="en">Off</base>
+        <tran loc="nl">Uit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Next </Description>
+      <Position>NEXT</Position>
+      <TranslationSet>
+        <base loc="en">Next</base>
+        <tran loc="nl">Volgende</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ALLOW_MODERN_AUTHENTICATION</Position>
+      <TranslationSet>
+        <base loc="en">Sign in to your “%@” Exchange account using Microsoft?</base>
+        <tran loc="nl">Wil je via Microsoft inloggen bij je Exchange-account '%@'?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ACCOUNT_SETUP_SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="nl">Bewaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Save </Description>
+      <Position>SAVE</Position>
+      <TranslationSet>
+        <base loc="en">Save</base>
+        <tran loc="nl">Bewaar</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PreferenceBundles/AccountSettings/ActiveSyncSettings.bundle/English.lproj/ASAdvancedAccountSetup.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>MAILBOX_BEHAVIORS</Position>
+      <TranslationSet>
+        <base loc="en">Mailbox Behaviors</base>
+        <tran loc="nl">Postbusinstellingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADVANCED_SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Advanced Settings</base>
+        <tran loc="nl">Geavanceerde instellingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PROFILE_EXPLANATION_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">These settings are installed by the profile “%@”</base>
+        <tran loc="nl">Deze instellingen zijn geïnstalleerd door het profiel '%@'</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SMIME_ENCRYPTION</Position>
+      <TranslationSet>
+        <base loc="en">Encrypt by Default</base>
+        <tran loc="nl">Versleutel standaard</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMIME</Position>
+      <TranslationSet>
+        <base loc="en">S/MIME</base>
+        <tran loc="nl">S/MIME</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USE_SSL</Position>
+      <TranslationSet>
+        <base loc="en">Use SSL</base>
+        <tran loc="nl">Gebruik SSL</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SMIME_CERT_GROUP_NAME</Position>
+      <TranslationSet>
+        <base loc="en">Certificates</base>
+        <tran loc="nl">Certificaten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>MOVE_DISCARDED_MESSAGES_INTO</Position>
+      <TranslationSet>
+        <base loc="en">Move Discarded Messages Into:</base>
+        <tran loc="nl">Zet verwijderde berichten in:</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>NO</Position>
+      <TranslationSet>
+        <base loc="en">No</base>
+        <tran loc="nl">Nee</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ENABLE_SMIME_SIGNING</Position>
+      <TranslationSet>
+        <base loc="en">Sign</base>
+        <tran loc="nl">Handtekening</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ARCHIVE_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Archive Mailbox</base>
+        <tran loc="nl">Archief</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DELETED_MAILBOX</Position>
+      <TranslationSet>
+        <base loc="en">Deleted Mailbox</base>
+        <tran loc="nl">Verwijderd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>YES</Position>
+      <TranslationSet>
+        <base loc="en">Yes</base>
+        <tran loc="nl">Ja</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRAFTS_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Drafts</base>
+        <tran loc="nl">Concepten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DRAFTS_USE_SERVER</Position>
+      <TranslationSet>
+        <base loc="en">Store Drafts on Server</base>
+        <tran loc="nl">Bewaar concepten op de server</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ADVANCED</Position>
+      <TranslationSet>
+        <base loc="en">Advanced</base>
+        <tran loc="nl">Geavanceerd</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>ExchangeSync/System/Library/PrivateFrameworks/DAEASOAuthFramework.framework/en.lproj/EASOAuthSupport.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_MESSAGE_NO_CONNECTION</Position>
+      <TranslationSet>
+        <base loc="en">There is no connection to the Internet.</base>
+        <tran loc="nl">Er is geen internetverbinding.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Hotmail authentication </Description>
+      <Position>HOTMAIL_EMAIL_MISMATCH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Email Address Mismatch</base>
+        <tran loc="nl">E-mailadres onjuist</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_EMAIL_MISMATCH_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>HOTMAIL_EMAIL_MISMATCH_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">The email address you entered does not match your account.</base>
+        <tran loc="nl">Het e-mailadres dat je hebt ingevoerd, komt niet overeen met je account.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIGN_IN_ERROR_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Error Signing In</base>
+        <tran loc="nl">Fout bij inloggen</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

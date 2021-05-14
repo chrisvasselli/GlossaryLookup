@@ -1,0 +1,2409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CloudKitTools</ProjName>
+  <File>
+    <Filepath>CloudKitTools/System/Library/PreferenceBundles/AccountSettings/CloudKitSettings.bundle/en.lproj/CloudKitSettings.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_EXPLANATORY_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Apps that have requested permissions to look you up by your Apple ID will appear here. People who look you up will see your first and last name.</base>
+        <tran loc="nl">Hier staan de apps die om toestemming hebben gevraagd om je op te zoeken via je Apple ID. Degenen die je opzoeken krijgen je voor- en achternaam te zien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_SHARED_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Allow other people using the apps below to look you up by your Apple ID.</base>
+        <tran loc="nl">Sta toe dat gebruikers van onderstaande apps je kunnen opzoeken via je Apple ID.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_PRIVACY_INFO</Position>
+      <TranslationSet>
+        <base loc="en">Look Me Up By Email</base>
+        <tran loc="nl">Zoek mij op via e‑mail</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudKitTools/System/Library/PreferenceBundles/AccountSettings/CloudKitSettings.bundle/en.lproj/CloudKitVetting.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITHOUT_SHARE_NAME_IOS_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVATE_DOCUMENT_OPEN_BODY_com.apple.Notes</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this note. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft deze notitie gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITHOUT_SHARE_NAME_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem verifying your email address or phone number. Try opening the shared file again, or try opening it on another device.</base>
+        <tran loc="nl">Er heeft zich een probleem voorgedaan bij het verifiëren van je e‑mailadres of telefoonnummer. Probeer het gedeelde bestand opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL_NO_APPLE_ID</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_PHONE_NO_APPLE_ID</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  CloudKitVetting.strings
+  CloudKit
+
+  Created by Gregor Milos on 26/04/2016.
+  Copyright © 2016 Apple Inc. All rights reserved.
+
+ iWork applications are handled by bird, so the strings relevant to those apps must not be repeated here.</Description>
+      <Position>TITLED_DOCUMENT_OPEN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open “%1$@” in %2$@?</base>
+        <tran loc="nl">'%1$@' openen met %2$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TITLED_NONIWORK_DOCUMENT_OPEN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open “%1$@”?</base>
+        <tran loc="nl">'%1$@' openen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingVettedToCaller</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Email Address Verified</base>
+        <tran loc="nl">E‑mailadres geverifieerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_GENERIC_ERROR_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to verify your phone number. Please try again later.</base>
+        <tran loc="nl">De verificatie van je telefoonnummer is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_INVALID_WITHOUT_SHARE_NAME</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” couldn’t be added to your Apple ID because the verification link has expired. Try opening the shared file again.</base>
+        <tran loc="nl">'%1$@' kan niet worden toegevoegd aan je Apple ID omdat de verificatielink is verlopen. Probeer het gedeelde bestand opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_INVALID_WITH_SHARE_NAME</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” couldn’t be added to your Apple ID because the verification link has expired. Try opening “%2$@” again.</base>
+        <tran loc="nl">'%1$@' kan niet worden toegevoegd aan je Apple ID omdat de verificatielink is verlopen. Probeer '%2$@' opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Note</base>
+        <tran loc="nl">Notitie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Note</base>
+        <tran loc="nl">Notitie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note is no longer available.</base>
+        <tran loc="nl">Deze notitie is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation couldn’t be opened.</base>
+        <tran loc="nl">Deze presentatie kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_TEXT_PHONES</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t see your phone number, contact the person who invited you.</base>
+        <tran loc="nl">Neem contact op met de persoon die je heeft uitgenodigd als je je telefoonnummer niet ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document is no longer available.</base>
+        <tran loc="nl">Dit document is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Verify Access</base>
+        <tran loc="nl">Verifieer toegang</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_HEADER_PHONES</Position>
+      <TranslationSet>
+        <base loc="en">Select your phone number, and we’ll send you a verification link.</base>
+        <tran loc="nl">Selecteer je telefoonnummer en we sturen je een verificatielink.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Note Unavailable</base>
+        <tran loc="nl">Notitie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Note Unavailable</base>
+        <tran loc="nl">Notitie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item couldn’t be opened.</base>
+        <tran loc="nl">Dit onderdeel kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders couldn’t be opened.</base>
+        <tran loc="nl">Deze herinneringen kunnen niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_GENERIC_ERROR_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, something went wrong.</base>
+        <tran loc="nl">Er is iets misgegaan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is unavailable.</base>
+        <tran loc="nl">Deze spreadsheet is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITHOUT_SHARE_NAME_IOS_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_HEADER_EMAILS</Position>
+      <TranslationSet>
+        <base loc="en">Select your email address, and we’ll send you a verification link.</base>
+        <tran loc="nl">Selecteer je e‑mailadres en we sturen je een verificatielink.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos are no longer available.</base>
+        <tran loc="nl">Deze foto's zijn niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_GENERIC_ERROR_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to verify your address. Please try again later.</base>
+        <tran loc="nl">De verificatie van je adres is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Spreadsheet Unavailable</base>
+        <tran loc="nl">Spreadsheet niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Spreadsheet Unavailable</base>
+        <tran loc="nl">Spreadsheet niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photos Unavailable</base>
+        <tran loc="nl">Gedeelde foto's zijn niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photos Unavailable</base>
+        <tran loc="nl">Gedeelde foto's zijn niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders Unavailable</base>
+        <tran loc="nl">Herinneringen niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders Unavailable</base>
+        <tran loc="nl">Herinneringen niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Item</base>
+        <tran loc="nl">Onderdeel kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Item</base>
+        <tran loc="nl">Onderdeel kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingTokenInvalid</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_INVALID_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Verification Link Expired</base>
+        <tran loc="nl">Verificatielink is verlopen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_DOCUMENT_OPEN_TITLE_com.apple.Notes_com.apple.notes.folder</Position>
+      <TranslationSet>
+        <base loc="en">Open this folder in %1$@?</base>
+        <tran loc="nl">Deze map openen in %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is no longer available.</base>
+        <tran loc="nl">Deze presentatie is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Reminders</base>
+        <tran loc="nl">Herinneringen kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Reminders</base>
+        <tran loc="nl">Herinneringen kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos can’t be opened right now.</base>
+        <tran loc="nl">Deze foto's kunnen nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingAccountDenied</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_TOO_MANY_VETS_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">You’ve added the maximum number of email addresses to your Apple ID, and “%1$@” can’t be added until you remove one.</base>
+        <tran loc="nl">Je hebt het maximale aantal e‑mailadressen aan je Apple ID toegevoegd en '%1$@' kan pas worden toegevoegd nadat je een ander e‑mailadres hebt verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open</base>
+        <tran loc="nl">Openen niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open</base>
+        <tran loc="nl">Openen niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_PHONE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Phone Number Verified</base>
+        <tran loc="nl">Telefoonnummer geverifieerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="nl">Presentatie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="nl">Presentatie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITH_SHARE_NAME_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem verifying your email address or phone number. Try opening “%1$@” again, or try opening it on another device.</base>
+        <tran loc="nl">Er heeft zich een probleem voorgedaan bij het verifiëren van je e‑mailadres of telefoonnummer. Probeer '%1$@' opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders can’t be opened right now.</base>
+        <tran loc="nl">Deze herinneringen kunnen nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalCouldntCreatePCSData</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_PCS_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Try opening “%1$@” on another device, or contact the person who invited you and ask them to try sharing again.</base>
+        <tran loc="nl">Probeer '%1$@' op een ander apparaat te openen of neem contact op met degene die je heeft uitgenodigd en vraag hem of haar om het onderdeel opnieuw te delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_PHONE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">This phone number was verified.</base>
+        <tran loc="nl">Dit telefoonnummer is geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Er is mogelijk een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_PHONE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Er is mogelijk een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingServerError</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Er is mogelijk een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Your email address couldn’t be verified. There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Je e‑mailadres kan niet worden geverifieerd. Mogelijk is er een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="nl">Spreadsheet kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="nl">Spreadsheet kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Presentation Unavailable</base>
+        <tran loc="nl">Presentatie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Presentation Unavailable</base>
+        <tran loc="nl">Presentatie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet can’t be opened right now.</base>
+        <tran loc="nl">Deze spreadsheet kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders are unavailable.</base>
+        <tran loc="nl">Deze herinneringen zijn niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_INVALID_MAC</Position>
+      <TranslationSet>
+        <base loc="en">The verification link has expired.</base>
+        <tran loc="nl">De verificatielink is verlopen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingDryrunKeyswapFailed</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="nl">Document kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingForcedShareMetedataFetchFailed</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="nl">Document kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_HEADER_MIX</Position>
+      <TranslationSet>
+        <base loc="en">Select your email address or phone number, and we’ll send you a verification link.</base>
+        <tran loc="nl">Selecteer je e‑mailadres of telefoonnummer en we sturen je een verificatielink.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID “%2$@”.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID '%2$@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID “%2$@”.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID '%2$@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVATE_DOCUMENT_OPEN_BODY_com.apple.Notes_com.apple.notes.folder</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this folder. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft deze map gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_TEXT_EMAILS</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t see your email address, contact the person who invited you.</base>
+        <tran loc="nl">Neem contact op met de persoon die je heeft uitgenodigd als je je e‑mailadres niet ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Shared Photos</base>
+        <tran loc="nl">Gedeelde foto's kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Shared Photos</base>
+        <tran loc="nl">Gedeelde foto's kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item can’t be opened right now.</base>
+        <tran loc="nl">Dit onderdeel kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic vetting initiate error</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_GENERIC_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to send the verification link. Please try again later.</base>
+        <tran loc="nl">Het versturen van de verificatielink is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_TOO_MANY_VETS_NUMBER</Position>
+      <TranslationSet>
+        <base loc="en">You’ve added the maximum number of phone numbers to your Apple ID, and “%1$@” can’t be added until you remove one.</base>
+        <tran loc="nl">Je hebt het maximale aantal telefoonnummers aan je Apple ID toegevoegd en '%1$@' kan pas worden toegevoegd nadat je een ander telefoonnummer hebt verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITHOUT_SHARE_NAME_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_CANT_SEND_LINK_MAC</Position>
+      <TranslationSet>
+        <base loc="en">The verification link couldn’t be sent.</base>
+        <tran loc="nl">De verificatielink kan niet worden verstuurd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingRecordMissing
+ CKErrorInternalEmailVettingRecordInvalid</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITHOUT_SHARE_NAME_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Try opening the shared file again, or try opening it on another device.</base>
+        <tran loc="nl">Probeer het gedeelde bestand opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_DOCUMENT_OPEN_TITLE_Generic</Position>
+      <TranslationSet>
+        <base loc="en">Open this in %1$@?</base>
+        <tran loc="nl">Dit openen met %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL_MAC</Position>
+      <TranslationSet>
+        <base loc="en">This email address was verified.</base>
+        <tran loc="nl">Dit e‑mailadres is geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is unavailable.</base>
+        <tran loc="nl">Deze presentatie is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation can’t be opened right now.</base>
+        <tran loc="nl">Deze presentatie kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note can’t be opened right now.</base>
+        <tran loc="nl">Deze notitie kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is no longer available.</base>
+        <tran loc="nl">Deze spreadsheet is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_GENERIC_ERROR_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to verify your email address. Please try again later.</base>
+        <tran loc="nl">De verificatie van je e‑mailadres is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_NONIWORK_DOCUMENT_OPEN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open in %1$@?</base>
+        <tran loc="nl">Openen met %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document couldn’t be opened.</base>
+        <tran loc="nl">Dit document kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos couldn’t be opened.</base>
+        <tran loc="nl">Deze foto's kunnen niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note couldn’t be opened.</base>
+        <tran loc="nl">Deze notitie kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITH_SHARE_NAME_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Try opening “%1$@” again, or try opening it on another device.</base>
+        <tran loc="nl">Probeer '%1$@' opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Document Unavailable</base>
+        <tran loc="nl">Document niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> In case of missing share, different title is used:</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Document Unavailable</base>
+        <tran loc="nl">Document niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders are no longer available.</base>
+        <tran loc="nl">Deze herinneringen zijn niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_TEXT_MIX</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t see your email address or phone number, contact the person who invited you.</base>
+        <tran loc="nl">Neem contact op met de persoon die je heeft uitgenodigd als je je e‑mailadres of telefoonnummer niet ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Vetting failures </Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_CANT_SEND_LINK_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Send Link</base>
+        <tran loc="nl">Link kan niet worden verstuurd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_DOCUMENT_OPEN_TITLE_com.apple.Notes</Position>
+      <TranslationSet>
+        <base loc="en">Open this note in %1$@?</base>
+        <tran loc="nl">Deze notitie openen met %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITH_SHARE_NAME_IOS_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This is no longer available.</base>
+        <tran loc="nl">Dit is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITH_SHARE_NAME_IOS_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic vetting complete error</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_GENERIC_ERROR_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Verify</base>
+        <tran loc="nl">Verificatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingTokenAuthFailed</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Verify</base>
+        <tran loc="nl">Verificatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_PHONE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Verify</base>
+        <tran loc="nl">Verificatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item is unavailable.</base>
+        <tran loc="nl">Dit onderdeel is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This item is unavailable.</base>
+        <tran loc="nl">Dit onderdeel is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item is no longer available.</base>
+        <tran loc="nl">Dit onderdeel is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note is unavailable.</base>
+        <tran loc="nl">Deze notitie is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This can’t be opened right now.</base>
+        <tran loc="nl">Dit kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Your email address couldn’t be verified.</base>
+        <tran loc="nl">Je e‑mailadres kan niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document is unavailable.</base>
+        <tran loc="nl">Dit document is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITH_SHARE_NAME_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” Unavailable</base>
+        <tran loc="nl">'%1$@' niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_SEND_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Send Verification Link</base>
+        <tran loc="nl">Stuur verificatielink</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_PHONE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number couldn’t be verified.</base>
+        <tran loc="nl">Je telefoonnummer kan niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="nl">De eigenaar is gestopt met delen of je hebt geen bevoegdheden om het te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingVettedToOther</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_OTHER_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">The email address “%1$@” is already used by another Apple ID. Sign in to iCloud with that Apple ID and try again.</base>
+        <tran loc="nl">Het e‑mailadres '%1$@' wordt al gebruikt door een andere Apple ID. Gebruik die Apple ID om in te loggen bij iCloud en probeer het opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet couldn’t be opened.</base>
+        <tran loc="nl">Deze spreadsheet kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now.</base>
+        <tran loc="nl">Dit document kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This couldn’t be opened.</base>
+        <tran loc="nl">Dit kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_OTHER_NUMBER</Position>
+      <TranslationSet>
+        <base loc="en">The phone number “%1$@” is already used by another Apple ID. Sign in to iCloud with that Apple ID and try again.</base>
+        <tran loc="nl">Het telefoonnummer '%1$@' wordt al gebruikt door een andere Apple ID. Gebruik die Apple ID om in te loggen bij iCloud en probeer het opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_APP_SHARING_OPEN_BODY</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft dit gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVATE_DOCUMENT_OPEN_BODY_Generic</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft dit gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos are unavailable.</base>
+        <tran loc="nl">Deze foto's zijn niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_PHONE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number couldn’t be verified. There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Je telefoonnummer kan niet worden geverifieerd. Mogelijk is er een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudKitTools/System/Library/PreferenceBundles/AccountSettings/CloudKitSettings.bundle/en.lproj/CloudKitSettings.stringsdict</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>/CLOUDKIT_APP_SUMMARY_FORMAT:dict/andSomeMore:dict/zero:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/CLOUDKIT_APP_SUMMARY_FORMAT:dict/andSomeMore:dict/zero:dict/:string)</base>
+        <tran loc="nl">__Source_text_is_empty__Translate_Or_Leave_this_text_as_is_if_target_text_is_also_empty__(/CLOUDKIT_APP_SUMMARY_FORMAT:dict/andSomeMore:dict/zero:dict/:string)</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CLOUDKIT_APP_SUMMARY_FORMAT:dict/andSomeMore:dict/one:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">and %2$lu more</base>
+        <tran loc="nl">en nog %2$lu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CLOUDKIT_APP_SUMMARY_FORMAT:dict/andSomeMore:dict/other:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">and %2$lu more</base>
+        <tran loc="nl">en nog %2$lu</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>/CLOUDKIT_APP_SUMMARY_FORMAT:dict/NSStringLocalizedFormatKey:dict/:string</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ %2$#@andSomeMore@</base>
+        <tran loc="nl">%1$@ %2$#@andSomeMore@</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudKitTools/Applications/iCloud.app/en.lproj/InfoPlist.strings</Filepath>
+    <TextItem>
+      <Description> 
+  InfoPlist.strings
+  CloudKit
+
+  Created by Jacob Farkas on 5/6/16.
+  Copyright © 2016 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">iCloud</base>
+        <tran loc="nl">iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">iCloud</base>
+        <tran loc="nl">iCloud</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CloudKitTools/Applications/iCloud.app/en.lproj/CloudKitVetting.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITHOUT_SHARE_NAME_IOS_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVATE_DOCUMENT_OPEN_BODY_com.apple.Notes</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this note. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft deze notitie gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITHOUT_SHARE_NAME_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem verifying your email address or phone number. Try opening the shared file again, or try opening it on another device.</base>
+        <tran loc="nl">Er heeft zich een probleem voorgedaan bij het verifiëren van je e‑mailadres of telefoonnummer. Probeer het gedeelde bestand opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL_NO_APPLE_ID</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_PHONE_NO_APPLE_ID</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  CloudKitVetting.strings
+  CloudKit
+
+  Created by Gregor Milos on 26/04/2016.
+  Copyright © 2016 Apple Inc. All rights reserved.
+
+ iWork applications are handled by bird, so the strings relevant to those apps must not be repeated here.</Description>
+      <Position>TITLED_DOCUMENT_OPEN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open “%1$@” in %2$@?</base>
+        <tran loc="nl">'%1$@' openen met %2$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TITLED_NONIWORK_DOCUMENT_OPEN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open “%1$@”?</base>
+        <tran loc="nl">'%1$@' openen?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingVettedToCaller</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Email Address Verified</base>
+        <tran loc="nl">E‑mailadres geverifieerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_GENERIC_ERROR_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to verify your phone number. Please try again later.</base>
+        <tran loc="nl">De verificatie van je telefoonnummer is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_INVALID_WITHOUT_SHARE_NAME</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” couldn’t be added to your Apple ID because the verification link has expired. Try opening the shared file again.</base>
+        <tran loc="nl">'%1$@' kan niet worden toegevoegd aan je Apple ID omdat de verificatielink is verlopen. Probeer het gedeelde bestand opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_INVALID_WITH_SHARE_NAME</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” couldn’t be added to your Apple ID because the verification link has expired. Try opening “%2$@” again.</base>
+        <tran loc="nl">'%1$@' kan niet worden toegevoegd aan je Apple ID omdat de verificatielink is verlopen. Probeer '%2$@' opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Note</base>
+        <tran loc="nl">Notitie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Note</base>
+        <tran loc="nl">Notitie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note is no longer available.</base>
+        <tran loc="nl">Deze notitie is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation couldn’t be opened.</base>
+        <tran loc="nl">Deze presentatie kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_TEXT_PHONES</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t see your phone number, contact the person who invited you.</base>
+        <tran loc="nl">Neem contact op met de persoon die je heeft uitgenodigd als je je telefoonnummer niet ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document is no longer available.</base>
+        <tran loc="nl">Dit document is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Verify Access</base>
+        <tran loc="nl">Verifieer toegang</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_HEADER_PHONES</Position>
+      <TranslationSet>
+        <base loc="en">Select your phone number, and we’ll send you a verification link.</base>
+        <tran loc="nl">Selecteer je telefoonnummer en we sturen je een verificatielink.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Note Unavailable</base>
+        <tran loc="nl">Notitie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_notes</Position>
+      <TranslationSet>
+        <base loc="en">Note Unavailable</base>
+        <tran loc="nl">Notitie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item couldn’t be opened.</base>
+        <tran loc="nl">Dit onderdeel kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders couldn’t be opened.</base>
+        <tran loc="nl">Deze herinneringen kunnen niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_GENERIC_ERROR_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Sorry, something went wrong.</base>
+        <tran loc="nl">Er is iets misgegaan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is unavailable.</base>
+        <tran loc="nl">Deze spreadsheet is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITHOUT_SHARE_NAME_IOS_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_HEADER_EMAILS</Position>
+      <TranslationSet>
+        <base loc="en">Select your email address, and we’ll send you a verification link.</base>
+        <tran loc="nl">Selecteer je e‑mailadres en we sturen je een verificatielink.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos are no longer available.</base>
+        <tran loc="nl">Deze foto's zijn niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_GENERIC_ERROR_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to verify your address. Please try again later.</base>
+        <tran loc="nl">De verificatie van je adres is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Spreadsheet Unavailable</base>
+        <tran loc="nl">Spreadsheet niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Spreadsheet Unavailable</base>
+        <tran loc="nl">Spreadsheet niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photos Unavailable</base>
+        <tran loc="nl">Gedeelde foto's zijn niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Shared Photos Unavailable</base>
+        <tran loc="nl">Gedeelde foto's zijn niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders Unavailable</base>
+        <tran loc="nl">Herinneringen niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Reminders Unavailable</base>
+        <tran loc="nl">Herinneringen niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Item</base>
+        <tran loc="nl">Onderdeel kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Item</base>
+        <tran loc="nl">Onderdeel kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingTokenInvalid</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_INVALID_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Verification Link Expired</base>
+        <tran loc="nl">Verificatielink is verlopen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_DOCUMENT_OPEN_TITLE_com.apple.Notes_com.apple.notes.folder</Position>
+      <TranslationSet>
+        <base loc="en">Open this folder in %1$@?</base>
+        <tran loc="nl">Deze map openen in %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is no longer available.</base>
+        <tran loc="nl">Deze presentatie is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Reminders</base>
+        <tran loc="nl">Herinneringen kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_reminders</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Reminders</base>
+        <tran loc="nl">Herinneringen kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos can’t be opened right now.</base>
+        <tran loc="nl">Deze foto's kunnen nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingAccountDenied</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_TOO_MANY_VETS_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">You’ve added the maximum number of email addresses to your Apple ID, and “%1$@” can’t be added until you remove one.</base>
+        <tran loc="nl">Je hebt het maximale aantal e‑mailadressen aan je Apple ID toegevoegd en '%1$@' kan pas worden toegevoegd nadat je een ander e‑mailadres hebt verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open</base>
+        <tran loc="nl">Openen niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open</base>
+        <tran loc="nl">Openen niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITHOUT_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but the shared file is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar het gedeelde bestand is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_PHONE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Phone Number Verified</base>
+        <tran loc="nl">Telefoonnummer geverifieerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="nl">Presentatie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Presentation</base>
+        <tran loc="nl">Presentatie kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITH_SHARE_NAME_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There was a problem verifying your email address or phone number. Try opening “%1$@” again, or try opening it on another device.</base>
+        <tran loc="nl">Er heeft zich een probleem voorgedaan bij het verifiëren van je e‑mailadres of telefoonnummer. Probeer '%1$@' opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders can’t be opened right now.</base>
+        <tran loc="nl">Deze herinneringen kunnen nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalCouldntCreatePCSData</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_PCS_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">Try opening “%1$@” on another device, or contact the person who invited you and ask them to try sharing again.</base>
+        <tran loc="nl">Probeer '%1$@' op een ander apparaat te openen of neem contact op met degene die je heeft uitgenodigd en vraag hem of haar om het onderdeel opnieuw te delen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_PHONE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">This phone number was verified.</base>
+        <tran loc="nl">Dit telefoonnummer is geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Er is mogelijk een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_PHONE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Er is mogelijk een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingServerError</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_SERVER_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Er is mogelijk een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Your email address couldn’t be verified. There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Je e‑mailadres kan niet worden geverifieerd. Mogelijk is er een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="nl">Spreadsheet kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_numbers</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Spreadsheet</base>
+        <tran loc="nl">Spreadsheet kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Presentation Unavailable</base>
+        <tran loc="nl">Presentatie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_keynote</Position>
+      <TranslationSet>
+        <base loc="en">Presentation Unavailable</base>
+        <tran loc="nl">Presentatie niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet can’t be opened right now.</base>
+        <tran loc="nl">Deze spreadsheet kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders are unavailable.</base>
+        <tran loc="nl">Deze herinneringen zijn niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_INVALID_MAC</Position>
+      <TranslationSet>
+        <base loc="en">The verification link has expired.</base>
+        <tran loc="nl">De verificatielink is verlopen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingDryrunKeyswapFailed</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="nl">Document kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingForcedShareMetedataFetchFailed</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Document</base>
+        <tran loc="nl">Document kan niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_HEADER_MIX</Position>
+      <TranslationSet>
+        <base loc="en">Select your email address or phone number, and we’ll send you a verification link.</base>
+        <tran loc="nl">Selecteer je e‑mailadres of telefoonnummer en we sturen je een verificatielink.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID “%2$@”.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID '%2$@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_CALLER_ERROR_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” was already verified and added to your Apple ID “%2$@”.</base>
+        <tran loc="nl">'%1$@' is al geverifieerd en toegevoegd aan je Apple ID '%2$@'.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVATE_DOCUMENT_OPEN_BODY_com.apple.Notes_com.apple.notes.folder</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this folder. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft deze map gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_TEXT_EMAILS</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t see your email address, contact the person who invited you.</base>
+        <tran loc="nl">Neem contact op met de persoon die je heeft uitgenodigd als je je e‑mailadres niet ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Shared Photos</base>
+        <tran loc="nl">Gedeelde foto's kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_IOS_photos</Position>
+      <TranslationSet>
+        <base loc="en">Can’t Open Shared Photos</base>
+        <tran loc="nl">Gedeelde foto's kunnen niet worden geopend</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item can’t be opened right now.</base>
+        <tran loc="nl">Dit onderdeel kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic vetting initiate error</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_GENERIC_ERROR</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to send the verification link. Please try again later.</base>
+        <tran loc="nl">Het versturen van de verificatielink is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_TOO_MANY_VETS_NUMBER</Position>
+      <TranslationSet>
+        <base loc="en">You’ve added the maximum number of phone numbers to your Apple ID, and “%1$@” can’t be added until you remove one.</base>
+        <tran loc="nl">Je hebt het maximale aantal telefoonnummers aan je Apple ID toegevoegd en '%1$@' kan pas worden toegevoegd nadat je een ander telefoonnummer hebt verwijderd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITHOUT_SHARE_NAME_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">Item Unavailable</base>
+        <tran loc="nl">Onderdeel niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_CANT_SEND_LINK_MAC</Position>
+      <TranslationSet>
+        <base loc="en">The verification link couldn’t be sent.</base>
+        <tran loc="nl">De verificatielink kan niet worden verstuurd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingRecordMissing
+ CKErrorInternalEmailVettingRecordInvalid</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITHOUT_SHARE_NAME_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Try opening the shared file again, or try opening it on another device.</base>
+        <tran loc="nl">Probeer het gedeelde bestand opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_SERVER_ERROR_WITH_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” can’t be opened right now because of a server problem. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend vanwege een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_DOCUMENT_OPEN_TITLE_Generic</Position>
+      <TranslationSet>
+        <base loc="en">Open this in %1$@?</base>
+        <tran loc="nl">Dit openen met %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_INITIATE_VETTED_TO_CALLER_ERROR_EMAIL_MAC</Position>
+      <TranslationSet>
+        <base loc="en">This email address was verified.</base>
+        <tran loc="nl">Dit e‑mailadres is geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_UNKNOWN_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file can’t be opened right now. Try opening it again later.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand kan op dit moment niet worden geopend. Probeer het later opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation is unavailable.</base>
+        <tran loc="nl">Deze presentatie is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_keynote</Position>
+      <TranslationSet>
+        <base loc="en">This presentation can’t be opened right now.</base>
+        <tran loc="nl">Deze presentatie kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note can’t be opened right now.</base>
+        <tran loc="nl">Deze notitie kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet is no longer available.</base>
+        <tran loc="nl">Deze spreadsheet is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_GENERIC_ERROR_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">We weren’t able to verify your email address. Please try again later.</base>
+        <tran loc="nl">De verificatie van je e‑mailadres is mislukt. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_NONIWORK_DOCUMENT_OPEN_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Open in %1$@?</base>
+        <tran loc="nl">Openen met %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document couldn’t be opened.</base>
+        <tran loc="nl">Dit document kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos couldn’t be opened.</base>
+        <tran loc="nl">Deze foto's kunnen niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note couldn’t be opened.</base>
+        <tran loc="nl">Deze notitie kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_VETTING_RECORD_ERROR_WITH_SHARE_NAME_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Try opening “%1$@” again, or try opening it on another device.</base>
+        <tran loc="nl">Probeer '%1$@' opnieuw te openen of probeer het op een ander apparaat te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Document Unavailable</base>
+        <tran loc="nl">Document niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> In case of missing share, different title is used:</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_IOS_pages</Position>
+      <TranslationSet>
+        <base loc="en">Document Unavailable</base>
+        <tran loc="nl">Document niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_reminders</Position>
+      <TranslationSet>
+        <base loc="en">These reminders are no longer available.</base>
+        <tran loc="nl">Deze herinneringen zijn niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_TEXT_MIX</Position>
+      <TranslationSet>
+        <base loc="en">If you don’t see your email address or phone number, contact the person who invited you.</base>
+        <tran loc="nl">Neem contact op met de persoon die je heeft uitgenodigd als je je e‑mailadres of telefoonnummer niet ziet.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Vetting failures </Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_CANT_SEND_LINK_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Send Link</base>
+        <tran loc="nl">Link kan niet worden verstuurd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>UNTITLED_DOCUMENT_OPEN_TITLE_com.apple.Notes</Position>
+      <TranslationSet>
+        <base loc="en">Open this note in %1$@?</base>
+        <tran loc="nl">Deze notitie openen met %1$@?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITH_SHARE_NAME_IOS_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This is no longer available.</base>
+        <tran loc="nl">Dit is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_DRYRUN_KEYSWAP_FAILED_WITH_SHARE_NAME_IOS_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but “%1$@” couldn’t be opened. Ask the person who invited you to remove you and invite you again.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar '%1$@' kan niet worden geopend. Vraag degene die je heeft uitgenodigd om je te verwijderen en opnieuw uit te nodigen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> Generic vetting complete error</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_GENERIC_ERROR_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Verify</base>
+        <tran loc="nl">Verificatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingTokenAuthFailed</Description>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Verify</base>
+        <tran loc="nl">Verificatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_PHONE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Couldn’t Verify</base>
+        <tran loc="nl">Verificatie mislukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_OFFLINE_WITH_SHARE_NAME_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Your email address was added to your Apple ID, but “%1$@” can’t be opened right now. Check your Internet connection and try opening it again.</base>
+        <tran loc="nl">Je e‑mailadres is toegevoegd aan je Apple ID, maar '%1$@' kan op dit moment niet worden geopend. Controleer je internetverbinding en probeer het opnieuw te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item is unavailable.</base>
+        <tran loc="nl">Dit onderdeel is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This item is unavailable.</base>
+        <tran loc="nl">Dit onderdeel is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_MAC_iclouddrive</Position>
+      <TranslationSet>
+        <base loc="en">This item is no longer available.</base>
+        <tran loc="nl">Dit onderdeel is niet langer beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_notes</Position>
+      <TranslationSet>
+        <base loc="en">This note is unavailable.</base>
+        <tran loc="nl">Deze notitie is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This can’t be opened right now.</base>
+        <tran loc="nl">Dit kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_EMAIL_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Your email address couldn’t be verified.</base>
+        <tran loc="nl">Je e‑mailadres kan niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document is unavailable.</base>
+        <tran loc="nl">Dit document is niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITHOUT_SHARE_NAME_PHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number was added to your Apple ID, but the shared file is no longer available because the owner stopped sharing it.</base>
+        <tran loc="nl">Je telefoonnummer is toegevoegd aan je Apple ID, maar het gedeelde bestand is niet langer beschikbaar omdat de eigenaar het niet meer deelt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_ITEM_UNAVAILABLE_WITH_SHARE_NAME_IOS_share</Position>
+      <TranslationSet>
+        <base loc="en">“%1$@” Unavailable</base>
+        <tran loc="nl">'%1$@' niet beschikbaar</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CLOUDKIT_VETTING_FOOTER_SEND_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">Send Verification Link</base>
+        <tran loc="nl">Stuur verificatielink</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_TOKEN_AUTH_FAILED_PHONE_MAC</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number couldn’t be verified.</base>
+        <tran loc="nl">Je telefoonnummer kan niet worden geverifieerd.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_BODY</Position>
+      <TranslationSet>
+        <base loc="en">The owner stopped sharing, or you don’t have permission to open it.</base>
+        <tran loc="nl">De eigenaar is gestopt met delen of je hebt geen bevoegdheden om het te openen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> CKErrorInternalEmailVettingVettedToOther</Description>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_OTHER_EMAIL</Position>
+      <TranslationSet>
+        <base loc="en">The email address “%1$@” is already used by another Apple ID. Sign in to iCloud with that Apple ID and try again.</base>
+        <tran loc="nl">Het e‑mailadres '%1$@' wordt al gebruikt door een andere Apple ID. Gebruik die Apple ID om in te loggen bij iCloud en probeer het opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_numbers</Position>
+      <TranslationSet>
+        <base loc="en">This spreadsheet couldn’t be opened.</base>
+        <tran loc="nl">Deze spreadsheet kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_SHARE_METADATA_FETCH_FAILED_MAC_pages</Position>
+      <TranslationSet>
+        <base loc="en">This document can’t be opened right now.</base>
+        <tran loc="nl">Dit document kan nu niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_TITLE_COMPLETE_DRYRUN_KEYSWAP_FAILED_MAC_share</Position>
+      <TranslationSet>
+        <base loc="en">This couldn’t be opened.</base>
+        <tran loc="nl">Dit kan niet worden geopend.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_INITIATE_VETTED_TO_OTHER_NUMBER</Position>
+      <TranslationSet>
+        <base loc="en">The phone number “%1$@” is already used by another Apple ID. Sign in to iCloud with that Apple ID and try again.</base>
+        <tran loc="nl">Het telefoonnummer '%1$@' wordt al gebruikt door een andere Apple ID. Gebruik die Apple ID om in te loggen bij iCloud en probeer het opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>GENERIC_APP_SHARING_OPEN_BODY</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft dit gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PRIVATE_DOCUMENT_OPEN_BODY_Generic</Position>
+      <TranslationSet>
+        <base loc="en">%1$@ shared this. You will join as %2$@ (%3$@).</base>
+        <tran loc="nl">%1$@ heeft dit gedeeld. Je wordt toegevoegd als %2$@ (%3$@).</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ITEM_UNAVAILABLE_FAILURE_ALERT_TITLE_MAC_photos</Position>
+      <TranslationSet>
+        <base loc="en">These photos are unavailable.</base>
+        <tran loc="nl">Deze foto's zijn niet beschikbaar.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>VETTING_FAILURE_ALERT_BODY_COMPLETE_TOKEN_AUTH_FAILED_PHONE_IOS</Position>
+      <TranslationSet>
+        <base loc="en">Your phone number couldn’t be verified. There may be a problem with the server. Please try again later.</base>
+        <tran loc="nl">Je telefoonnummer kan niet worden geverifieerd. Mogelijk is er een probleem met de server. Probeer het later opnieuw.</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>

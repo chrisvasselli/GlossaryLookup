@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proj>
+  <ProjName>CoreTelephonyFramework</ProjName>
+  <File>
+    <Filepath>CoreTelephonyFramework/System/Library/Frameworks/CoreTelephony.framework/en.lproj/InfoPlist~iphone.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">CoreTelephony</base>
+        <tran loc="nl">CoreTelephony</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist~iphone.strings
+  CFTelephony
+
+  Created by Sirisha Pillalamarri on 8/9/11.
+  Copyright (c) 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Cell Network Search</base>
+        <tran loc="nl">Mobiel netwerk zoeken</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreTelephonyFramework/System/Library/Frameworks/CoreTelephony.framework/en.lproj/InfoPlist~ipad.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">CoreTelephony</base>
+        <tran loc="nl">CoreTelephony</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist~ipad.strings
+  CFTelephony
+
+  Created by Sirisha Pillalamarri on 8/9/11.
+  Copyright (c) 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Cell Network Search</base>
+        <tran loc="nl">Mobiel netwerk zoeken</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreTelephonyFramework/System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage-gemini.strings</Filepath>
+    <TextItem>
+      <Description>
+   CBMessage-gemini.strings - These are the default strings we will use if the individual carrier bundles aren't shipped with custom ones.
+   CFTelephony
+
+   Created by Shuvo Chatterjee on 9/9/10.
+   Copyright 2010 Apple, Inc. All rights reserved.
+
+   Oleg Moskalenko: this file also must carry the localization strings that can be used in an environment where
+   the Carrier Bundle is absent (iPod, Mac, iPad without cellular, etc).
+ 
+ SIM Alerts </Description>
+      <Position>MULTIPLE_SIM_CARDS_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">SIM cards locked</base>
+        <tran loc="nl">Simkaart vergrendeld</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreTelephonyFramework/System/Library/Frameworks/CoreTelephony.framework/en.lproj/InfoPlist~applewatch.strings</Filepath>
+    <TextItem>
+      <Description/>
+      <Position>CFBundleName</Position>
+      <TranslationSet>
+        <base loc="en">CoreTelephony</base>
+        <tran loc="nl">CoreTelephony</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> 
+  InfoPlist~applewatch.strings
+  CFTelephony
+
+  Created by Sam Miller 7/3/19.
+  Copyright (c) 2011 Apple Inc. All rights reserved.
+</Description>
+      <Position>CFBundleDisplayName</Position>
+      <TranslationSet>
+        <base loc="en">Cell Network Search</base>
+        <tran loc="nl">Mobiel netwerk zoeken</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+  <File>
+    <Filepath>CoreTelephonyFramework/System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage.strings</Filepath>
+    <TextItem>
+      <Description>
+   CBMessage.strings - These are the default strings we will use if the individual carrier bundles aren't shipped with custom ones.
+   CFTelephony
+
+   Created by Shuvo Chatterjee on 9/9/10.
+   Copyright 2010 Apple, Inc. All rights reserved.
+
+   Oleg Moskalenko: this file also must carry the localization strings that can be used in an environment where
+   the Carrier Bundle is absent (iPod, Mac, iPad without cellular, etc).
+ </Description>
+      <Position>CBMessageTitle</Position>
+      <TranslationSet>
+        <base loc="en">Carrier Settings Update</base>
+        <tran loc="nl">Update voor aanbiederinstellingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_WLANCALL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">WLAN Calling Enabled</base>
+        <tran loc="nl">Bellen via WLAN ingeschakeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACT_CARRIER_FOR_DETAILS</Position>
+      <TranslationSet>
+        <base loc="en">Contact your carrier for more details if this problem continues.</base>
+        <tran loc="nl">Neem voor meer informatie contact op met je aanbieder als dit probleem zich blijft voordoen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_CELLULAR_PLAN_READY_TO_INSTALL_TITLE_@</Position>
+      <TranslationSet>
+        <base loc="en">%@ Cellular Plan Ready to be Installed</base>
+        <tran loc="nl">Mobiel abonnement van %@ kan worden geïnstalleerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACT_CARRIER_TO_ENABLE_WLAN_CALLS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">To enable WLAN Calls on this account, contact %s</base>
+        <tran loc="nl">Om bellen via WLAN voor deze account te activeren, neem je contact op met %s</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cellular Plan Transfer</base>
+        <tran loc="nl">Mobiel abonnement overzetten</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>DONE</Position>
+      <TranslationSet>
+        <base loc="en">Done</base>
+        <tran loc="nl">Gereed</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_CARRIER</Position>
+      <TranslationSet>
+        <base loc="en">your carrier</base>
+        <tran loc="nl">je aanbieder</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> SIM Alerts </Description>
+      <Position>NO_SIM_CARD_INSTALLED</Position>
+      <TranslationSet>
+        <base loc="en">No SIM Card Installed</base>
+        <tran loc="nl">Geen simkaart geïnstalleerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>OK</Position>
+      <TranslationSet>
+        <base loc="en">OK</base>
+        <tran loc="nl">OK</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANNOT_ACTIVATE_WLAN_CALLING</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Activate WLAN Calling</base>
+        <tran loc="nl">Bellen via WLAN kan niet worden geactiveerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THUMPER_EMERGENCY_ADDRESS_INFO_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Your carrier may route emergency services based on your current location or your address on file. You can update your emergency address information in FaceTime settings.</base>
+        <tran loc="nl">Je aanbieder kan noodoproepen herleiden op basis van je huidige locatie of je geregistreerde adres. Je kunt je informatie voor noodoproepen bijwerken in de FaceTime-instellingen.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTFU_TEXT_WIFICALL_NEED_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi Calling can’t be turned on due to missing T&amp;C or address on file.</base>
+        <tran loc="nl">Bellen via wifi kan niet worden ingeschakeld omdat de voorwaarden of het geregistreerde adres ontbreken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_ORIGINAL_IPHONE</Position>
+      <TranslationSet>
+        <base loc="en">Your original iPhone</base>
+        <tran loc="nl">Je oorspronkelijke iPhone</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_TARGET_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">To complete this transfer, approve it on the iPhone currently using this cellular plan.</base>
+        <tran loc="nl">Om het overzetten te voltooien, keur je dit goed op de iPhone die dit mobiele abonnement momenteel gebruikt.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PERMANENTLY_BLOCKED_SIM_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">You have exhausted all attempts to unlock your SIM. Please contact your carrier.</base>
+        <tran loc="nl">Je kunt niet vaker de pincode invoeren om de simkaart te ontgrendelen. Neem contact op met je aanbieder.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CBMessageAcceptButton</Position>
+      <TranslationSet>
+        <base loc="en">Update</base>
+        <tran loc="nl">Werk bij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTFU_TEXT_WLANCALL_NEED_ACTION</Position>
+      <TranslationSet>
+        <base loc="en">WLAN Calling can’t be turned on due to missing T&amp;C or address on file.</base>
+        <tran loc="nl">Bellen via WLAN kan niet worden ingeschakeld omdat de voorwaarden of het geregistreerde adres ontbreken.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANCEL</Position>
+      <TranslationSet>
+        <base loc="en">Cancel</base>
+        <tran loc="nl">Annuleer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>EMERGENCY_ADDRESS_UPDATED</Position>
+      <TranslationSet>
+        <base loc="en">Emergency Address Updated</base>
+        <tran loc="nl">Adres voor noodgevallen bijgewerkt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTINUE</Position>
+      <TranslationSet>
+        <base loc="en">Continue</base>
+        <tran loc="nl">Ga door</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_WIFICALL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi Calling Enabled</base>
+        <tran loc="nl">Bellen via wifi ingeschakeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTFU_LABEL_ACTION_DISMISS</Position>
+      <TranslationSet>
+        <base loc="en">Dismiss</base>
+        <tran loc="nl">Sluit</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTFU_LABEL_ACTION_CELLULAR_PLAN_INSTALL</Position>
+      <TranslationSet>
+        <base loc="en">Install cellular plan</base>
+        <tran loc="nl">Installeer mobiel abonnement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAN_CHANGE_SUCCESS</Position>
+      <TranslationSet>
+        <base loc="en">The Cellular Plan Change for “%@” was Successful</base>
+        <tran loc="nl">De wijziging van het mobiele abonnement voor '%@' is gelukt</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAN_CHANGE_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">Unable to Change Plan to “%@”</base>
+        <tran loc="nl">Abonnement wijzigen in '%@' is niet mogelijk</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>ESIM_TRANSFER_ALERT_MESSAGE</Position>
+      <TranslationSet>
+        <base loc="en">Confirmation required.</base>
+        <tran loc="nl">Bevestiging vereist.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WLAN_CALLING</Position>
+      <TranslationSet>
+        <base loc="en">WLAN Calling</base>
+        <tran loc="nl">Bellen via WLAN</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> FollowUp </Description>
+      <Position>CTFU_TEXT_WIFICALL_ACTIVATED</Position>
+      <TranslationSet>
+        <base loc="en">Address on file is used for Emergency calls over Wi-Fi. You can update it via provided link.</base>
+        <tran loc="nl">Het geregistreerde adres wordt gebruikt voor noodoproepen via wifi. Je kunt dit bijwerken via de opgegeven link.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PLAN_PURCHASE_CONFIRM</Position>
+      <TranslationSet>
+        <base loc="en">Are you sure you want to use the cellular plan “%@” from %@?</base>
+        <tran loc="nl">Weet je zeker dat je het mobiele abonnement '%@' van %@ wilt gebruiken?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TURN_ON</Position>
+      <TranslationSet>
+        <base loc="en">Turn On</base>
+        <tran loc="nl">Schakel in</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_REQUEST_PROMPT</Position>
+      <TranslationSet>
+        <base loc="en">This cellular plan will no longer be available on this iPhone. If you did not request this, don't allow the transfer.</base>
+        <tran loc="nl">Dit mobiele abonnement is niet langer beschikbaar op deze iPhone. Als je dit verzoek niet hebt gedaan, moet je het overzetten niet toestaan.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CBMessageDeclineButton</Position>
+      <TranslationSet>
+        <base loc="en">Not Now</base>
+        <tran loc="nl">Nu niet</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>THUMPER_EMERGENCY_ADDRESS_INFO_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Your Location Will Be Used to Make Emergency Calls</base>
+        <tran loc="nl">Je locatie wordt gebruikt om het alarmnummer te bellen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTFU_TEXT_WLANCALL_ACTIVATED</Position>
+      <TranslationSet>
+        <base loc="en">Address on file is used for Emergency calls over WLAN. You can update it via provided link.</base>
+        <tran loc="nl">Het geregistreerde adres wordt gebruikt voor noodoproepen via WLAN. Je kunt dit bijwerken via de opgegeven link.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_CELLULAR_PLAN_READY_TO_INSTALL_TEXT</Position>
+      <TranslationSet>
+        <base loc="en">Tap this notification to finish your cellular plan set up.</base>
+        <tran loc="nl">Tik op deze melding om de configuratie van je mobiele abonnement te voltooien.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_SOURCE_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Do you want to transfer %@ to a new iPhone?</base>
+        <tran loc="nl">Wil je %@ overzetten naar een nieuwe iPhone?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIM_CARD_LOCKED</Position>
+      <TranslationSet>
+        <base loc="en">SIM card locked</base>
+        <tran loc="nl">Simkaart vergrendeld</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTFU_LABEL_ACTION_UPDATE_ADDRESS</Position>
+      <TranslationSet>
+        <base loc="en">Update emergency address</base>
+        <tran loc="nl">Werk adres voor noodgevallen bij</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CONTACT_CARRIER_TO_ENABLE_WIFI_CALLS_FORMAT</Position>
+      <TranslationSet>
+        <base loc="en">To enable Wi-Fi Calls on this account, contact %s</base>
+        <tran loc="nl">Om bellen via wifi voor deze account te activeren, neem je contact op met %s</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>PERMANENTLY_BLOCKED_SIM_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">PUK Exhausted</base>
+        <tran loc="nl">Maximale pukcode-invoer</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHORT_CODE_CALLING_WITHOUT_LOCATION</Position>
+      <TranslationSet>
+        <base loc="en">Turn on Location Services for Wi-Fi Calling to Call %@ and other Short Code Numbers</base>
+        <tran loc="nl">Schakel 'Locatievoorzieningen' in voor 'Bellen via wifi' om %@ en andere verkorte nummers te bellen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_REQUEST_CONFIRMATION</Position>
+      <TranslationSet>
+        <base loc="en">If you no longer have the other iPhone, contact your carrier to transfer this plan.</base>
+        <tran loc="nl">Als je de andere iPhone niet meer hebt, neem je contact op met je aanbieder om dit abonnement over te zetten.</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>USING_CELLULAR_DATA</Position>
+      <TranslationSet>
+        <base loc="en"> using Cellular Data</base>
+        <tran loc="nl"> mobiele data gebruiken</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_FINISH_CELLULAR_PLAN_SETTING_UP_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Finish Setting up your Cellular Plan</base>
+        <tran loc="nl">Voltooi configuratie van je mobiele abonnement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CBMessageBody</Position>
+      <TranslationSet>
+        <base loc="en">New settings are available. Would you like to update them now?</base>
+        <tran loc="nl">Er zijn nieuwe instellingen beschikbaar. Wil je ze nu bijwerken?</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description> TransferConsent </Description>
+      <Position>DECLINE_TRANSFER</Position>
+      <TranslationSet>
+        <base loc="en">Don't Allow</base>
+        <tran loc="nl">Sta niet toe</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TOUCH_ID_AUTH_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Touch ID to Change this “%@” Plan</base>
+        <tran loc="nl">Gebruik Touch ID om dit '%@'-abonnement te wijzigen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>COUNTRY_DISABLED_WIFI_EMERGENCY_CALL</Position>
+      <TranslationSet>
+        <base loc="en">Emergency Call Not Available in This Location</base>
+        <tran loc="nl">Noodoproep niet beschikbaar op deze locatie</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CANNOT_ACTIVATE_WIFI_CALLING</Position>
+      <TranslationSet>
+        <base loc="en">Cannot Activate Wi-Fi Calling</base>
+        <tran loc="nl">Bellen via wifi kan niet worden geactiveerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_FINISH_CELLULAR_PLAN_SETTING_UP_TITLE_@</Position>
+      <TranslationSet>
+        <base loc="en">Finish Setting up your %@ Cellular Plan</base>
+        <tran loc="nl">Voltooi configuratie van je mobiele abonnement van %@</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>WIFI_CALLING</Position>
+      <TranslationSet>
+        <base loc="en">Wi-Fi Calling</base>
+        <tran loc="nl">Bellen via wifi</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>CTUF_CELLULAR_PLAN_READY_TO_INSTALL_TITLE</Position>
+      <TranslationSet>
+        <base loc="en">Cellular Plan Ready to be Installed</base>
+        <tran loc="nl">Mobiel abonnement kan worden geïnstalleerd</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SETTINGS</Position>
+      <TranslationSet>
+        <base loc="en">Settings</base>
+        <tran loc="nl">Instellingen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SIM_FAILURE</Position>
+      <TranslationSet>
+        <base loc="en">SIM Failure</base>
+        <tran loc="nl">Fout met simkaart</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>SHORT_CODE_CALLING_WITHOUT_LOCATION_WLAN</Position>
+      <TranslationSet>
+        <base loc="en">Turn on Location Services for WLAN Calling to Call %@ and other Short Code Numbers</base>
+        <tran loc="nl">Schakel 'Locatievoorzieningen' in voor 'Bellen via WLAN' om %@ en andere verkorte nummers te bellen</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER_CELLULAR_PLAN</Position>
+      <TranslationSet>
+        <base loc="en">your cellular plan</base>
+        <tran loc="nl">je mobiele abonnement</tran>
+      </TranslationSet>
+    </TextItem>
+    <TextItem>
+      <Description/>
+      <Position>TRANSFER</Position>
+      <TranslationSet>
+        <base loc="en">Transfer</base>
+        <tran loc="nl">Zet over</tran>
+      </TranslationSet>
+    </TextItem>
+  </File>
+</Proj>
